@@ -1,0 +1,646 @@
+Radiografía: Midland
+Prioridad absoluta · para Sergio Rondina y el cuerpo técnico
+Radiografía completa:
+Ferrocarril Midland
+Todo lo que se pudo levantar sobre el rival de este sábado: perfil táctico completo con las 25 fechas ya jugadas, plantel jugador por jugador con trayectoria y estadísticas 2026, contexto institucional, y el dato que más pesa para este partido específico -Midland de local es un equipo completamente distinto al que se enfrentó en la ida-.
+Partido:
+Fecha 29 · sáb 12-sep · Cancha de Midland
+DT rival:
+Joaquín Iturrería
+Fuentes:
+Sofascore (25 partidos), Transfermarkt, prensa especializada de ascenso
+Resumen
+Perfil táctico
+De local
+Estilo de juego
+Goleadores
+Pelota parada
+Plantel completo
+Once probable
+Puntos débiles
+Metodología
+Lo esencial, antes de entrar en detalle
+El dato que cambia la lectura de todo este partido:
+Midland de local promedia
+2,08 puntos por partido
+(17 de 24 disputados en su cancha), con
+62% de vallas invictas
+y apenas 0,46 goles recibidos por partido. De visitante, en cambio, cae a 0,83 puntos por partido. El sábado juega en su cancha -Chacarita no va a enfrentar al Midland "promedio" de la tabla, sino a una de las mejores localías de toda la Primera Nacional.
+2,08
+puntos por partido de LOCAL (vs 0,83 de visitante) — 13 PJ, 8 clean sheets
+5°
+posición general, 41 pts en 27 PJ — pelea el reducido de ascenso
+1-0
+resultado de la ida (gol de Barbieri) — pero ambos equipos estaban en posiciones de tabla muy distintas a las actuales (Chaca 13°, Midland 8°)
+1ª vez
+en su historia en Primera Nacional — ascendió en 2026 tras ganar Apertura y Clausura de la B Metro invicto
+-0,19 / -0,12
+tendencia de rating de Leguiza (arquero) y Recalde (líder defensivo) — los dos vienen en baja a la vez
+2 seguidas
+derrotas de visitante consecutivas: 0-3 vs Colegiales (2-sep) y 2-3 vs San Martín SJ (6-sep, hoy) — en ambas, más de la mitad de los goles en contra fueron por pelota parada/segunda jugada, no de jugada corrida (ver "Perfil táctico")
+DT:
+Joaquín Iturrería
+(desde dic-2024)
+Cancha:
+Ciudad de Libertad, Merlo
+— césped natural
+Sin presión de descenso — pelea el reducido
+25 partidos de datos reales, no proyecciones
+Perfil táctico de la temporada completa
+Ataque de volumen alto:
+13,7 tiros por partido, el más alto de los ocho rivales que le quedan a Chacarita
+, con buena definición (5,1 al arco). Particularidad marcada: casi la mitad de esos remates son desde afuera del área (7,3 de 13,7) — un equipo que dispara mucho de media distancia. Circula con más posesión que el promedio de zona (52% vs 50%) y presiona más por posicionamiento que por contacto directo: hace pocas entradas (3,2/partido, bajo) pero intercepta mucho (16,8/partido, alto) — lee líneas de pase en vez de ir al choque.
+Tendencia de xG a favor / en contra — media móvil de 5 partidos, orden cronológico real
+vs Chaca (ida)
+1.8 xG
+0
+xG a favor
+xG en contra
+● negro = partido de ida vs Chacarita
+Anomalía confirmada: la derrota 0-3 en detalle, con evidencia dura + crónica
+Midland tuvo 65% de posesión, 399 pases (286 precisos) y aun así perdió 0-3, con Colegiales generando 2,82 xG contra apenas 0,50 de Midland.
+No fue mala suerte: perdió el 59% de los duelos de suelo (43/106, 41% de efectividad) y perdió la pelota 13 veces (Colegiales solo 4) — la posesión fue estéril, sin traducirse en peligro real.
+Gol
+Minuto
+Mecanismo
+1-0 Castillo
+27'
+Contraataque por la derecha
+, centro que cruza el área, define al segundo palo
+2-0 Albertengo
+43'
+Pelotazo en profundidad
+— le gana la espalda a un defensor y define mano a mano con el arquero
+3-0 Monserrat
+90'
+Sella el resultado, partido ya resuelto
+Patrón sistemático que se repite en los números de toda la temporada
+(ver "Estilo de juego" abajo): pocas entradas directas (3,2/partido, de las más bajas de sus rivales) — presiona por posicionamiento, no por contacto. Cuando lo superan en velocidad o en el primer control, no tiene una segunda línea de recuperación fuerte. Este partido es el caso extremo de esa debilidad:
+vulnerable a la transición rápida y al pelotazo por detrás de la línea defensiva
+, incluso dominando la posesión.
+Segunda derrota consecutiva: 2-3 vs San Martín de San Juan (HOY, 06-sep, de visitante)
+Confirmado cruzando tres fuentes independientes
+(Sofascore vía sitio principal, Promiedos, crónicas de prensa de San Juan): Midland perdió 3-2 en Concepción, en la fecha 28. Estadística de equipo (Promiedos):
+Midland tiró menos (11 vs 14) pero con mucha más puntería (7 remates al arco vs 3 de San Martín)
+— perdió con más definición que su rival, no por falta de generación. Concedió más córners (8 vs 4) y jugó con 45% de posesión.
+Marcador
+Minuto
+Equipo
+Goleador
+Zona / tipo de remate (según crónica)
+1-0
+12'
+San Martín
+S. González
+Cabezazo
+, tras centro de F. Murillo (asistencia confirmada por Sofascore)
+1-1
+52'
+Midland
+M. Flores
+Remate dentro del área tras jugada colectiva (la crónica no precisa pie ni banda exacta)
+1-2
+77'
+Midland
+M. Roseti
+Media/larga distancia, al ángulo
+("zapatazo", fuera del área) — asistencia de M. Flores
+2-2
+86'
+San Martín
+L. Ferreyra
+Penal
+(punto fijo, 11m)
+3-2
+90'+1
+San Martín
+D. Álvarez
+Zurdazo dentro del área
+, sobre rebote de un lateral (segunda jugada, no de jugada corrida)
+Los 2 goles que hizo Midland fueron de jugada abierta, ninguno de cabeza ni de pelota parada propia
+(1 remate de área, 1 de media distancia al ángulo).
+De los 3 goles que recibió: 1 aéreo por centro, 1 penal, 1 sobre segunda jugada/rebote dentro del área
+— ningún gol en contra fue de jugada colectiva corrida de principio a fin; los tres partieron de una acción a balón parado o detenida (córner/lateral/centro) o de un error puntual (penal). Coincide con el patrón ya señalado en el 0-3 vs Colegiales:
+Midland concede más por transición/segunda jugada que por ser superado en el juego abierto
+.
+Límite honesto del dato:
+la API de Sofascore (shotmap con coordenadas x/y, distancia exacta en metros, parte del cuerpo) sigue bloqueada incluso para este partido puntual (probado en vivo, 403) — lo de arriba es lo máximo verificable hoy sin fabricar precisión falsa. Si la API se desbloquea, este cuadro se puede completar con distancia exacta y mapa de tiros real.
+Lo que dice el gráfico -y un matiz importante-
+La fase defensiva viene empeorando en el tramo más reciente de la temporada -el xG en contra en media móvil termina en 1,65, el punto más alto de todo el año-, y ahora hay
+dos derrotas de visitante seguidas
+: 0-3 vs Colegiales (2-sep) y 2-3 vs San Martín de San Juan (6-sep, hoy).
+El matiz importante: ambas caídas fueron jugando de visitante -su peor faceta-, no contradicen el patrón de localía fuerte, lo confirman.
+De hecho, en su último partido de local (29-ago) le había ganado 2-0 a Nueva Chicago sin sufrir. Llega a este partido golpeado por dos resultados negativos seguidos, pero jugando exactamente en la condición donde raramente pierde.
+El apartado más importante de todo el informe
+Midland de local: otro equipo
+13 partidos de local jugados esta temporada. El resumen:
+7 victorias, 4 empates, apenas 2 derrotas
+. Solo perdió con San Martín de San Juan (9° en la tabla, el resultado más "anómalo" de su localía) y con Atlanta (4°, rival de nivel alto).
+Contra absolutamente todos los rivales de la mitad inferior de la tabla que enfrentó de local, no perdió
+-exactamente el perfil de rival que es Chacarita hoy-.
+los 13 partidos de local, ordenados por posición del rival en la tabla actual
+Rival
+Posición hoy
+Resultado
+GF
+GC
+Temperley
+2°
+Empate
+0
+0
+Gimnasia Y Esgrima de Jujuy
+3°
+Empate
+1
+1
+Atlanta
+4°
+Derrota
+1
+2
+Deportivo Maipú
+8°
+Victoria
+2
+0
+San Martín de San Juan
+9°
+Derrota
+0
+1
+Colegiales
+10°
+Victoria
+2
+0
+San Martín de Tucumán
+11°
+Victoria
+2
+0
+Almagro
+12°
+Empate
+1
+1
+Quilmes
+13°
+Victoria
+1
+0
+Agropecuario Argentino
+14°
+Victoria
+2
+0
+Nueva Chicago
+15°
+Victoria
+2
+0
+Patronato
+16°
+Victoria
+1
+0
+Güemes
+18°
+Victoria
+2
+1
+62%
+clean sheets de local (8 de 13 partidos sin recibir gol)
+1,29
+xG a favor de local (vs 1,09 de visitante)
+0,76
+xG en contra de local (vs 1,21 de visitante) — su mejor versión defensiva
+2,15
+córners concedidos por partido de local (vs 4,42 de visitante) — la mitad
+Para tener muy presente
+Chacarita, de visitante, promedia apenas
+0,46 puntos por partido
+en toda la temporada (ver
+Chacarita: 8 Finales
+). Cruzar la peor faceta de Chacarita (visitante) contra la mejor faceta de Midland (local) es, en los números, la combinación más adversa de las ocho fechas que quedan -más incluso que el partido con Temperley, aunque ese rival sea de mayor nivel general-.
+Estilo de juego en detalle
+Construcción y circulación
+Posesión por encima del promedio (52%, sube a 55,8% de local). Buen acierto en pases largos que sube de local (48,9% vs 45,8% de la temporada completa) — de local juegan más directo, buscan la profundidad rápido. Buen porcentaje de regates (63,4%).
+Ataque
+Mucho volumen de disparo (13,7/partido) con alta proporción desde fuera del área (53% de los tiros). Centros con buen acierto (33% vs 30,7% de zona) pero volumen bajo (13,5 intentos, menos que el promedio) — no es un equipo que bombardee el área, ataca más por el juego interior y la llegada de mediocampistas.
+Presión y recuperación
+Pocas entradas directas (3,2/partido, de las más bajas de sus próximos rivales de Chacarita) pero muchas intercepciones (16,8/partido, de las más altas) — equipo que se posiciona para cortar circulación antes que ir al choque. Puede ser vulnerable al 1v1 encarado si se lo supera la primera línea de presión.
+Duelos y físico
+50-50 en el juego aéreo (48,2%, ni fuerte ni débil marcadamente). Disciplina normal (11,6 faltas/partido, 2,24 amarillas/partido) — no es un equipo que se destaque por la dureza.
+Reconstruido partido por partido, vía crónicas de prensa
+Quién convierte -y un hallazgo importante-
+Se reconstruyeron los goleadores de la mayoría de los 25 partidos rastreando crónica por crónica, y se confirmaron las bajas exactas cruzando contra el historial de transferencias real de Sofascore (extraído del sitio, no de la API bloqueada). El hallazgo central: el goleador líder de Midland en toda la temporada, Maximiliano Rogoski (referente del club, más de 100 partidos en su historia),
+se fue el 1° de julio de 2026 -a Nueva Chicago, uno de los propios rivales de Chacarita (fecha 36)-
+. También se confirmaron las salidas de Agustín Campana (30-jun, a Macará de Ecuador), Juan Cruz Vega (29-jun, de vuelta a Argentino de Rosario) y Valentín Gargiulo (30-jun, a Villa Dálmine).
+goleadores identificados en crónicas -no es la lista completa de la temporada, es lo que se pudo reconstruir manualmente-
+Jugador
+Goles identificados
+¿Sigue en el plantel hoy?
+Maximiliano Rogoski
+3-4
+Se fue 1-jul → Nueva Chicago
+Ezequiel Bulacio
+3
+Sí
+Jeremías Perales
+2-3
+Sí
+Marcos Roseti
+2
+Sí
+Agustín Campana
+2
+Se fue 30-jun → Macará (ECU)
+Juan Cruz Vega
+1-2
+Se fue 29-jun → Argentino Rosario
+Matías Flores
+1
+Sí
+Lautaro Díaz Laharque
+1
+Sí
+Jesús Camaño
+1
+Sí
+Ramiro Luna
+1
+Sí
+Rodrigo Cao
+1
+Sí
+Juan Cruz Vega merece nota aparte: llegó siendo
+goleador de jerarquía en Argentino de Rosario (15 goles, clave en su ascenso)
+-exactamente el tipo de fichaje "de categoría inferior que rinde" que Chacarita busca (ver el informe de scouting)-, pero según una fuente lideraba la tabla de Midland con apenas 1 gol antes de irse: la categoría superior le costó más de lo esperado.
+Dato para guardar de cara a la fecha 36:
+Rogoski, el ex-goleador de Midland, hoy juega para
+Nueva Chicago
+-el rival del cierre de temporada de Chacarita-. Vale la pena revisar su situación en ese momento del año en
+Central de Rivales
+.
+Por qué esto importa para el sábado
+Con Rogoski, Campana y Vega afuera, el ataque actual de Midland está más repartido y con menos jerarquía comprobada que a mitad de año: descansa en Bulacio (bueno pero suplente habitual, 4 titularidades en 19 PJ), Perales (más minutos pero menos gol) y Roseti (irregular). Es una versión ofensivamente más débil e impredecible que la que asoma en el promedio de toda la temporada -otro motivo más para no descartar este partido, más allá de la fortaleza local general de Midland-.
+Pelota parada
+Genera 4,36 córners por partido (algo por encima del promedio de zona) y en su cancha, defiende excepcionalmente bien los córners rivales (2,15 concedidos por partido, la mitad que de visitante).
+Confirmado por crónica de partido: el primer gol de Bulacio en la victoria 2-0 sobre Deportivo Maipú fue de cabeza, a los 6' de un córner
+-Midland sí remata de pelota parada con gente de área, no es solo volumen de córners sin conversión-. Recalde (1,84m) y Bulacio son los referentes de área más probables tanto atacando como defendiendo córners propios.
+Ahora con rating real partido a partido -no solo texto-
+El plantel, jugador por jugador
+Actualización clave:
+Sofascore sigue bloqueando su API, pero el sitio principal (sofascore.com) renderiza en el HTML el
+rating de Sofascore de cada partido de cada jugador
+-sin pasar por la API-. Se extrajo esto para los 16 jugadores con rodaje real en la Primera Nacional 2026 (371 partidos individuales en total). Es la estadística más cercana a "forma real, con número" que se puede conseguir hoy sin la API completa -no reemplaza duelos/pases/tackles por jugador (eso sigue sin estar disponible), pero da una base objetiva de rendimiento que antes no existía en este informe.
+rating Sofascore por jugador · Primera Nacional 2026 · ordenado por rating promedio
+Jugador
+PJ
+Rating temporada
+Rating últimos 5
+Tendencia
+Marcos Roseti
+25
+7,50
+7,38
+-0,12
+Genaro Cepeda
+23
+7,17
+7,50
++0,33
+Luciano Recalde
+19
+7,10
+6,98
+-0,12
+Mauro Leguiza
+28
+7,09
+6,90
+-0,19
+Lautaro Díaz Laharque
+25
+6,99
+7,36
++0,37
+Ramiro Luna
+17
+6,94
+7,18
++0,24
+Ezequiel Bulacio
+22
+6,88
+7,10
++0,22
+Pablo Casarico
+24
+6,88
+6,96
++0,08
+Nicolás Violini
+25
+6,85
+6,92
++0,07
+Jesús Camaño
+22
+6,83
+6,78
+-0,05
+Facundo Marín
+8
+6,78
+6,76
+-0,01
+Pedro Castorani
+10
+6,74
+7,00
++0,26
+Jeremías Perales
+27
+6,72
+6,58
+-0,14
+Matías Flores
+18
+6,69
+6,66
+-0,03
+Mariano Penepil
+18
+6,61
+6,52
+-0,09
+Rodrigo Cao
+20
+6,57
+6,54
+-0,03
+En ascenso -atención especial
+Díaz Laharque (+0,37) y Cepeda (+0,33)
+tienen la mejor tendencia de todo el plantel: llegan a este partido en su mejor momento individual del año, más allá de que Cepeda recién esté en su primera temporada en la categoría.
+En baja -oportunidad
+Leguiza (-0,19), el arquero titular, viene en caída
+, igual que Perales (-0,14) y Recalde (-0,12) -el propio referente defensivo-. Que el arquero y el líder de la defensa vengan ambos en baja de rating es una señal a explotar con juego directo al área.
+"Rating últimos 5" es la media móvil de los 5 partidos más recientes de cada jugador en la Primera Nacional 2026 (no incluye Liga Profesional ni Federal A de temporadas anteriores). "Tendencia" = rating últimos 5 menos rating de toda la temporada.
+Solo jugadores con rodaje real (rating registrado en Primera Nacional 2026). Los marcados en el
+once probable
+tienen ⭐.
+plantel con datos duros — sin relleno de trayectoria
+Jugador
+Línea
+Edad
+Valor
+PJ
+Rating
+Últ. 5
+Tend.
+Nota
+⭐ Leguiza
+GK
+33
+€75k
+28
+7,09
+6,90
+-0,19
+3 penales atajados en Copa Arg. (ene-26)
+Escobar
+GK
+24
+-
+-
+-
+-
+-
+Suplente, sin rodaje
+Recalde
+DC
+29
+€275k
+19
+7,10
+6,98
+-0,12
+1,84m — referencia aérea propia y rival
+Cepeda
+DC
+25
+€150k
+23
+7,17
+7,50
++0,33
+1° año en la categoría, en ascenso
+Casarico
+DC
+25
+€150k
+24
+6,88
+6,96
++0,08
+Zurdo
+Castorani
+DC
+23
+-
+10
+6,74
+7,00
++0,26
+8 PJ, las 8 de suplente
+Penepil
+LI
+22
+€25k
+18
+6,61
+6,52
+-0,09
+Rating más bajo de la defensa. Zurdo
+Díaz Laharque
+LD
+30
+€100k
+25
+6,99
+7,36
++0,37
+Mejor tendencia de todo el plantel
+Porro / Andrada / Muia / Canalda
+Def.
+-
+-
+-
+-
+-
+-
+Rotación, sin rodaje real
+Violini
+MC
+25
+€100k
+25
+6,85
+6,92
++0,07
+Desv. estándar más baja del plantel (0,33) — el más regular
+Aguilar
+MC
+22
+€10k
+-
+-
+-
+-
+Sin rating registrado aún
+Roseti
+MC
+28
+€225k
+25
+7,50
+7,38
+-0,12
+Rating más alto del plantel. Gol vs N. Chicago (29-ago)
+Luna
+MC
+30
+€175k
+17
+6,94
+7,18
++0,24
+Gol vs N. Chicago (29-ago)
+Camaño
+MC
+24
+€50k
+22
+6,83
+6,78
+-0,05
+Rotura de LCR previa (Quilmes)
+Flores
+MC/EN
+25
+€75k
+18
+6,69
+6,66
+-0,03
+Gol vs Quilmes (fecha 20)
+Bulacio
+DC
+24
+€75k
+22
+6,88
+7,10
++0,22
+Doblete vs Maipú (1 de cabeza en córner). 4 titularidades/19 PJ
+Perales
+DC
+25
+€75k
+27
+6,72
+6,58
+-0,14
+17 titular/24 PJ, más minutos que Bulacio pero baja
+Marín
+EX
+25
+€25k
+8
+6,78
+6,76
+-0,01
+Llegó jun-2026, sin gol/asist. aún
+Cao
+DC
+25
+€50k
+20
+6,57
+6,54
+-0,03
+Rating más bajo con muestra real
+Once probable
+Según la formación probable más reciente identificada en fuentes de prensa (a confirmar el día del partido, siempre sujeta a lesiones/suspensiones de último momento): un esquema de base 4-3-3 / 4-1-2-3 con salida jugada y llegada de volantes al área.
+GK
+Leguiza
+LI
+Penepil
+DC
+Recalde
+DC
+Cepeda
+LD
+Díaz Laharque
+MC
+Aguilar
+MC
+Violini
+MC
+Roseti
+EI
+Marín
+DC
+Bulacio
+EO
+Flores
+Ajuste sobre la formación probable original
+La fuente de la formación probable puso a Castorani de lateral derecho, pero sus propios números lo desmienten:
+8 partidos, los 8 de suplente, y el rating más bajo de los defensores (6,74)
+. Se reemplazó en el diagrama por Díaz Laharque -campeón del ascenso 2025, con gol reciente ante Patronato y la
+mejor tendencia de rating de todo el plantel (+0,37)
+-, el candidato con mucho más respaldo real. La duda del "9" ahora tiene sustento estadístico:
+Perales viene en baja (-0,14) justo cuando Bulacio viene en alza (+0,22)
+-el dato de rating apoya la hipótesis de que Iturrería elija a Bulacio pese a que Perales tiene más minutos históricos-. Recomendación: confirmar el 11 real con la previa de la semana del partido, no dar esto por definitivo.
+Sintesis: puntos débiles a explotar
+1. Fase defensiva reciente en baja
+El xG en contra en media móvil de 5 partidos está en su punto más alto del año (1,65), tras la goleada 0-3 sufrida ante Colegiales apenas 10 días antes de este partido. Puede llegar golpeado anímicamente pese a jugar de local.
+2. Rotación sin dueño claro en los laterales
+Ni Penepil (3 titularidades de 18 PJ) ni Casarico (135') tienen la posición consolidada, y hasta Díaz Laharque -campeón 2025- podría estar relegado. Sector con menos certezas que el resto del equipo.
+3. Vulnerable a la transición y al pelotazo en profundidad
+Confirmado con evidencia de partido real (0-3 vs Colegiales, ver arriba): 2 de los 3 goles fueron por contraataque y pelotazo por detrás de la defensa. Conecta con el dato de toda la temporada: 3,2 tackles/partido (bajo) -presionan por posicionamiento, no por contacto- y pierde el 59% de los duelos de suelo cuando el rival ataca rápido.
+4. Dependencia del remate lejano
+Más de la mitad de sus tiros son desde fuera del área. Estadísticamente, ese tipo de remate tiene mucho menos valor de gol esperado por intento que uno de área -cerrar bien el círculo central reduce buena parte de su peligro real, incluso si el volumen de tiros se mantiene alto-.
+5. Arquero y líder defensivo, ambos en baja
+Con datos de rating real: Leguiza (arquero titular, -0,19) y Recalde (central referente, -0,12) llegan con la peor tendencia de rating de toda la defensa, al mismo tiempo. Es el punto más concreto -con número, no solo intuición- para insistir con juego directo al área.
+Pero el contexto real es adverso
+Ninguno de estos puntos débiles cambia el dato central: de local, contra rivales del tramo bajo de la tabla -exactamente el lugar donde está Chacarita hoy- Midland no perdió ni un partido en toda la temporada. El plan de partido tiene que asumir que va a enfrentar a la mejor versión de este rival, no a un punto débil de la tabla.
+Metodología y qué falta
+Fuentes
+Estadísticas de partido (xG, posesión, tiros, córners, duelos, faltas): Sofascore, sobre los 25 partidos de liga ya jugados por Midland en 2026 -no estimaciones-. Datos de plantel, edades y valores de mercado: Transfermarkt. Trayectorias individuales, contexto institucional y formación probable: prensa especializada de ascenso (Infobae, Mundo Ascenso, Solo Ascenso, medios de Merlo/zona oeste) — se contrastaron múltiples fuentes por jugador cuando fue posible, y se marcan explícitamente los casos donde las fuentes se contradicen (Roseti, la formación de los laterales).
+Actualización: se encontró una vía alternativa a la API bloqueada
+El bloqueo 403 es específico de las rutas
+/api/v1/*
+(en cualquier subdominio), pero el sitio principal (
+www.sofascore.com
+) sigue respondiendo normal. Sus páginas usan Next.js con datos pre-renderizados en el HTML (
+__NEXT_DATA__
+) que no dependen de esa API -incluyendo, para cada jugador, el
+rating de cada partido de la temporada
+-. Con eso se armó la tabla de rating de la sección de plantel, para 16 de los 35 jugadores del plantel (los que tienen minutos reales esta temporada). Ver
+scripts/sofa_web_scrape.py
+.
+Lo que sigue sin estar disponible
+Estadísticas de cancha por jugador
+(duelos ganados, pases completados, tackles, regates) -el sitio marca que existen ("hasSeasonStatistics: true", "hasPentagon: true") pero el valor en sí se carga por fetch del cliente hacia la API bloqueada, no viene en el HTML-.
+Goleadores/asistencias/tarjetas exactas de Midland reconstruidas evento por evento
+-la técnica ya está probada (se usó para Federal A), pero requiere la API de incidentes, todavía bloqueada.
+Formación y alineación confirmada
+del último partido (vs Colegiales, 2-sep) -las páginas de partido tampoco traen esto pre-renderizado-.
+Radiografía: Midland — informe de scouting, 06-sep-2026. Parte de la Central de Rivales de Chacarita Juniors. Ver también
+Central de Rivales
+(los otros 7 rivales) y
+Chacarita: 8 Finales
+(panorama general).

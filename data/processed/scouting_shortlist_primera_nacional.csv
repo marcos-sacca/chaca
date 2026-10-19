@@ -1,0 +1,84 @@
+﻿player_id,name,team,position,n_categorias,mejor_rank,country,height,foot,dob_ts,market_value_eur,current_team,age,joven
+1132948,Ignacio Lago,Club Atletico Colón,M,6,2,Argentina,172.0,Right,1028505600.0,580000.0,Club Atletico Colón,24.1,False
+1191418,Marcelo Eggel,Deportivo Maipú,M,5,1,Argentina,179.0,Left,916531200.0,550000.0,Palestino,27.6,False
+943794,Francisco Molina,Gimnasia Y Esgrima De Jujuy,M,5,2,Argentina,178.0,Left,655344000.0,52000.0,Gimnasia Y Esgrima De Jujuy,35.9,False
+1109319,Marcos Roseti,Ferrocarril Midland,M,4,1,Argentina,167.0,Right,870566400.0,220000.0,Ferrocarril Midland,29.1,False
+1502092,Franco Fagundez,Deportivo Morón,F,4,1,Uruguay,182.0,Left,913593600.0,280000.0,Deportivo Morón,27.7,False
+994452,Martin Pino,Godoy Cruz,F,3,3,Argentina,185.0,Right,890006400.0,390000.0,Godoy Cruz,28.5,False
+1404361,Franco Saccone,Deportivo Maipú,M,3,4,Italy,170.0,Right,1008720000.0,140000.0,Deportivo Maipú,24.7,False
+1117089,Nazareno Fúnez,San Martín de San Juan,F,3,5,Argentina,187.0,Left,991440000.0,270000.0,San Martín de San Juan,25.3,False
+1131817,Franco Benitez,Temperley,M,3,6,Argentina,175.0,Right,1016409600.0,160000.0,Temperley,24.5,False
+1021876,Agustín Lavezzi,Quilmes Atlético Club,F,3,10,Argentina,177.0,Right,821664000.0,325000.0,Quilmes Atlético Club,30.6,False
+1093100,Facundo Ardiles,Estudiantes de Buenos Aires,M,3,11,Argentina,188.0,Right,906422400.0,160000.0,Estudiantes de Buenos Aires,28.0,False
+791146,Daniel Franco,Los Andes,D,2,1,Argentina,184.0,Left,679536000.0,265000.0,Los Andes,35.1,False
+2003010,Alex Chamorro,Los Andes,M,2,1,Paraguay,165.0,Right,1150156800.0,77000.0,Los Andes,20.2,True
+789631,Nicolas Diego Dematei,Gimnasia Y Esgrima De Jujuy,D,2,2,Argentina,177.0,Left,564278400.0,23000.0,Gimnasia Y Esgrima De Jujuy,38.8,False
+1182428,Lautaro Gordillo,Gimnasia y Tiro de Salta,F,2,2,Argentina,183.0,Right,923356800.0,390000.0,Gimnasia y Tiro de Salta,27.4,False
+1111534,Agustin Campana,Ferrocarril Midland,M,2,3,Argentina,177.0,Left,894067200.0,220000.0,Macará,28.3,False
+1210374,Facundo Rivero,Colegiales,D,2,3,Argentina,190.0,Both,744681600.0,97000.0,Colegiales,33.1,False
+1117173,Marcos Machado,CA Mitre,F,2,4,Argentina,174.0,Right,990144000.0,190000.0,CA Mitre,25.3,False
+1512471,Axel Batista,Quilmes Atlético Club,M,2,4,Argentina,182.0,Right,1020902400.0,205000.0,Quilmes Atlético Club,24.3,False
+1547224,Enzo Hoyos,Club Ferro Carril Oeste,M,2,4,Argentina,179.0,Left,957916800.0,430000.0,Club Ferro Carril Oeste,26.3,False
+773629,Ángel González,Club Ferro Carril Oeste,M,2,5,Argentina,169.0,Right,769046400.0,180000.0,Club Ferro Carril Oeste,32.3,False
+2469039,Leandro Cordoba,Racing de Córdoba,M,2,5,Argentina,172.0,Left,1115856000.0,285000.0,Racing Club,21.3,True
+951083,Luis Silba,Deportivo Madryn,F,2,6,Argentina,187.0,Right,634176000.0,52000.0,Deportivo Madryn,36.6,False
+933171,Franco Ferrari,CA Mitre,D,2,7,Argentina,167.0,Left,705369600.0,170000.0,CA Mitre,34.3,False
+1086963,Tomás Pozzo,Godoy Cruz,M,2,7,Argentina,171.0,Left,970012800.0,325000.0,Defensor Sporting,25.9,False
+121973,Pablo Chavarría,Racing de Córdoba,F,2,8,Argentina,182.0,Right,568080000.0,73000.0,Racing de Córdoba,38.7,False
+226544,Juan Sánchez Sotelo,Güemes,F,2,9,Argentina,180.0,Right,560131200.0,53000.0,Güemes,38.9,False
+946161,Lautaro Parisi,Club Ferro Carril Oeste,M,2,11,Argentina,178.0,Right,764294400.0,160000.0,Club Ferro Carril Oeste,32.5,False
+1597532,Matias Sebastian Romero,Chaco For Ever,F,2,12,Argentina,185.0,Right,770860800.0,210000.0,Chaco For Ever,32.3,False
+2063992,Nazareno Solís,Deportivo Madryn,M,2,12,Argentina,170.0,Left,766886400.0,310000.0,Deportivo Madryn,32.4,False
+585954,Juan Manuel Olivares,Deportivo Morón,M,2,13,Argentina,178.0,Right,584841600.0,,Deportivo Morón,38.1,False
+941534,Alan Bonansea,Club Atletico Colón,F,2,13,Argentina,191.0,Right,831340800.0,350000.0,Club Atletico Colón,30.3,False
+47333,Cristian Menéndez,Gimnasia Y Esgrima De Jujuy,F,2,14,Argentina,184.0,Right,575942400.0,27000.0,Gimnasia Y Esgrima De Jujuy,38.4,False
+1167615,Aaron Spetale,Quilmes Atlético Club,F,2,15,Argentina,187.0,Right,959472000.0,73000.0,Quilmes Atlético Club,26.3,False
+2228012,Thiago Ocampo,Nueva Chicago,M,1,3,Argentina,169.0,Right,1220745600.0,210000.0,Nueva Chicago,18.0,True
+295165,Guillermo Cosaro,Gimnasia Y Esgrima De Jujuy,D,1,4,Argentina,177.0,Left,605232000.0,27000.0,Gimnasia Y Esgrima De Jujuy,37.5,False
+992966,Franco Meritello,Patronato,D,1,5,Argentina,185.0,Right,826588800.0,140000.0,Patronato,30.5,False
+1597451,Mayco  Bergia,Atlético de Rafaela,G,1,5,Argentina,190.0,Right,1027987200.0,,Atlético de Rafaela,24.1,False
+932870,Alan Perez,Agropecuario Argentino,D,1,6,Argentina,183.0,Right,672105600.0,93000.0,Agropecuario Argentino,35.4,False
+938547,Maximo Levi,Almirante Brown,D,1,7,Argentina,182.0,Right,821059200.0,190000.0,Almirante Brown,30.7,False
+949680,Franco Bustamante,Almagro,M,1,7,Argentina,167.0,Right,921456000.0,105000.0,Almagro,27.5,False
+789368,Fernando Gonzalez,Agropecuario Argentino,D,1,8,Argentina,177.0,Left,591148800.0,,Agropecuario Argentino,37.9,False
+1597474,Santiago Kubiszyn,Deportivo Morón,M,1,8,Argentina,179.0,Right,1032652800.0,440000.0,Deportivo Morón,24.0,True
+1835769,Máximo Oses,San Miguel,M,1,8,Argentina,174.0,Right,1124064000.0,93000.0,San Miguel,21.1,True
+819193,Sebastián López,Los Andes,G,1,9,Argentina,187.0,Right,495504000.0,,Los Andes,41.0,False
+860000,Nicolás Caro Torres,Estudiantes de Buenos Aires,D,1,9,Argentina,192.0,Left,799545600.0,185000.0,Estudiantes de Buenos Aires,31.3,False
+1018402,Franco Díaz,Temperley,M,1,9,Argentina,182.0,Right,967420800.0,290000.0,Temperley,26.0,False
+1085344,Jere Puch,Atlanta,M,1,9,Argentina,171.0,Left,926726400.0,285000.0,Atlanta,27.3,False
+340847,Yair Bonnin,Deportivo Madryn,G,1,10,Argentina,187.0,Right,653702400.0,130000.0,Deportivo Madryn,36.0,False
+943795,Sebastián Jaurena,San Martín de San Juan,M,1,10,Argentina,175.0,Right,932601600.0,240000.0,San Martín de San Juan,27.1,False
+2189070,Nelson Gerardo Alegre Rojas,Almirante Brown,D,1,10,,,,,,Almirante Brown,,False
+42571,Gonzalo Marinelli,Quilmes Atlético Club,G,1,11,Argentina,180.0,Right,602812800.0,52000.0,Quilmes Atlético Club,37.6,False
+249999,Guillermo Ferracutti,Nueva Chicago,D,1,11,Argentina,175.0,Left,666230400.0,81000.0,Nueva Chicago,35.6,False
+896922,Ezequiel Aguirre,Defensores de Belgrano,F,1,11,Argentina,162.0,Right,695001600.0,240000.0,Defensores de Belgrano,34.7,False
+868706,Alejandro Gabriel Quintana,Atlanta,F,1,12,Argentina,190.0,Right,698544000.0,180000.0,Atlanta,34.5,False
+1185165,Nicolás Caprio,Chaco For Ever,G,1,12,Argentina,186.0,Right,612144000.0,,Chaco For Ever,37.3,False
+1431953,Manuel Cocca,San Martín de San Juan,D,1,12,Argentina,182.0,Left,1036713600.0,185000.0,San Martín de San Juan,23.8,True
+943167,David Gallardo,Gimnasia Y Esgrima De Jujuy,M,1,13,Argentina,180.0,Right,857088000.0,130000.0,Gimnasia Y Esgrima De Jujuy,29.5,False
+1819646,Franco  Zicarelli,Colegiales,M,1,13,Argentina,174.0,Right,1009843200.0,,Colegiales,24.7,False
+2065837,Genaro Cepeda,Ferrocarril Midland,D,1,13,Argentina,190.0,Right,965865600.0,140000.0,Ferrocarril Midland,26.1,False
+140103,Pier Barrios,Club Atletico Colón,D,1,14,Argentina,180.0,Right,646790400.0,155000.0,Club Atletico Colón,36.2,False
+341077,Walter Montoya,Gimnasia y Tiro de Salta,M,1,14,Argentina,172.0,Right,743212800.0,180000.0,Gimnasia y Tiro de Salta,33.1,False
+992971,Joaquín Bigo,Tristán Suárez,G,1,14,Argentina,183.0,Left,900288000.0,215000.0,Tristán Suárez,28.2,False
+1018461,Fernando Ponce,Atlético de Rafaela,D,1,15,Argentina,184.0,Left,711849600.0,24000.0,Atlético de Rafaela,34.1,False
+1120461,Lautaro Fedele,Atlanta,M,1,15,Argentina,164.0,Right,995068800.0,290000.0,Atlanta,25.1,False
+581666,Mauricio Asenjo,Los Andes,F,1,16,Argentina,187.0,Right,774921600.0,220000.0,Los Andes,32.1,False
+841958,Emiliano Méndez,Nueva Chicago,M,1,16,Argentina,186.0,Right,603504000.0,,Nueva Chicago,37.6,False
+1179170,Hernán Zuliani,San Martín de San Juan,D,1,16,Argentina,180.0,Left,1070236800.0,380000.0,San Martín de San Juan,22.8,True
+971190,Matias Kabalin,Club Ferro Carril Oeste,M,1,17,Argentina,177.0,Right,909360000.0,205000.0,Club Ferro Carril Oeste,27.9,False
+1125239,Julian Rodriguez,Los Andes,D,1,17,Argentina,184.0,Right,951868800.0,235000.0,Los Andes,26.5,False
+2229943,Ezequiel Bulacio,Ferrocarril Midland,F,1,17,Argentina,192.0,Right,1010880000.0,73000.0,Ferrocarril Midland,24.6,False
+147576,Emanuel Aguilera,San Martín de San Juan,D,1,18,Argentina,188.0,Right,613526400.0,46000.0,San Martín de San Juan,37.2,False
+249639,Ezequiel Mastrolia,Temperley,G,1,18,Argentina,182.0,Right,669859200.0,190000.0,Temperley,35.5,False
+932094,Marcos Abreliano,Almirante Brown,D,1,18,Argentina,172.0,Left,892080000.0,120000.0,Almirante Brown,28.4,False
+941083,Julián Marcioni,Club Atletico Colón,M,1,18,Argentina,176.0,Right,896832000.0,580000.0,Club Atletico Colón,28.3,False
+1020531,Franco Toloza,Deportivo Morón,F,1,18,Argentina,180.0,Right,768441600.0,210000.0,Deportivo Morón,32.3,False
+830656,Brian Mieres,CA Mitre,D,1,19,Argentina,182.0,Right,806889600.0,105000.0,CA Mitre,31.1,False
+1109640,Pedro Souto,Temperley,M,1,19,Argentina,178.0,Left,957484800.0,190000.0,Temperley,26.3,False
+1199311,Joaquín Enrico,San Telmo,G,1,19,Argentina,191.0,Right,998438400.0,120000.0,San Telmo,25.0,False
+1597464,Fernando Ezequiel Moreyra Aldana,Patronato,D,1,19,Argentina,184.0,Left,650160000.0,,Patronato,36.1,False
+128384,Dylan Gissi,Nueva Chicago,D,1,20,Switzerland,191.0,Right,672710400.0,53000.0,Nueva Chicago,35.4,False
+796581,Manuel Guanini,Gimnasia y Tiro de Salta,D,1,20,Argentina,193.0,Right,824256000.0,230000.0,Gimnasia y Tiro de Salta,30.6,False
+974722,Lázaro Romero,Acassuso,F,1,20,Argentina,176.0,Left,818812800.0,180000.0,Acassuso,30.7,False

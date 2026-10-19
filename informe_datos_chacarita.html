@@ -1,0 +1,599 @@
+<title>Chacarita Data Project</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root{
+    --bg:#F6F2EB;
+    --surface:#FFFFFF;
+    --surface-2:#EFE9DE;
+    --ink:#1C1712;
+    --muted:#6E6357;
+    --line:#DFD6C6;
+    --accent:#7C1626;
+    --accent-ink:#FFFFFF;
+    --accent-soft:#F1DEDF;
+    --good:#3F7D4F;
+    --good-soft:#E3EFE1;
+    --warn:#96650F;
+    --warn-soft:#F3E7CE;
+    --bad:#AB3131;
+    --bad-soft:#F4E0DD;
+    --info:#3B6C87;
+    --info-soft:#DFEAEE;
+    --shadow: 0 1px 2px rgba(28,23,18,0.06), 0 8px 24px rgba(28,23,18,0.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#15110D;
+      --surface:#1D1712;
+      --surface-2:#251E17;
+      --ink:#EFE7DB;
+      --muted:#AB9F8E;
+      --line:#382E24;
+      --accent:#D2626F;
+      --accent-ink:#1A1210;
+      --accent-soft:#3A2024;
+      --good:#7CBE8B;
+      --good-soft:#20301F;
+      --warn:#E0B45C;
+      --warn-soft:#3A2E14;
+      --bad:#E38686;
+      --bad-soft:#3A2320;
+      --info:#8FC1D8;
+      --info-soft:#1E2E33;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 30px rgba(0,0,0,0.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#15110D;
+    --surface:#1D1712;
+    --surface-2:#251E17;
+    --ink:#EFE7DB;
+    --muted:#AB9F8E;
+    --line:#382E24;
+    --accent:#D2626F;
+    --accent-ink:#1A1210;
+    --accent-soft:#3A2024;
+    --good:#7CBE8B;
+    --good-soft:#20301F;
+    --warn:#E0B45C;
+    --warn-soft:#3A2E14;
+    --bad:#E38686;
+    --bad-soft:#3A2320;
+    --info:#8FC1D8;
+    --info-soft:#1E2E33;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 30px rgba(0,0,0,0.35);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Source Serif 4', Georgia, 'Times New Roman', serif;
+    font-size:17px;
+    line-height:1.6;
+    margin:0;
+  }
+  ::selection{ background:var(--accent-soft); }
+
+  .wrap{ max-width:920px; margin:0 auto; padding:0 24px 120px; }
+  .wide{ max-width:1120px; }
+
+  h1,h2,h3{
+    font-family:'Big Shoulders Display', 'Arial Narrow', sans-serif;
+    text-transform:uppercase;
+    letter-spacing:0.01em;
+    text-wrap:balance;
+    color:var(--ink);
+    margin:0;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono', ui-monospace, monospace;
+    font-size:12.5px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:600;
+  }
+  p{ margin:0 0 1em; max-width:66ch; }
+  .lede{ font-size:1.18rem; color:var(--muted); max-width:62ch; }
+  a{ color:var(--accent); }
+  strong{ color:var(--ink); }
+  code, .mono{ font-family:'IBM Plex Mono', ui-monospace, monospace; }
+  .tabular{ font-variant-numeric: tabular-nums; }
+
+  /* ---- header ---- */
+  header.masthead{
+    border-bottom:1px solid var(--line);
+    background:
+      repeating-linear-gradient(90deg, var(--ink) 0 3px, transparent 3px 34px);
+    background-size: 100% 6px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+  }
+  .masthead-inner{ max-width:920px; margin:0 auto; padding:56px 24px 40px; }
+  .masthead h1{ font-size:clamp(2.1rem, 5vw, 3.4rem); font-weight:800; line-height:1.02; margin-top:14px; }
+  .masthead .lede{ margin-top:18px; }
+  .meta-row{
+    display:flex; flex-wrap:wrap; gap:10px 22px; margin-top:26px;
+    font-family:'IBM Plex Mono', monospace; font-size:12.5px; color:var(--muted);
+    text-transform:uppercase; letter-spacing:0.06em;
+  }
+  .meta-row span b{ color:var(--ink); font-weight:600; }
+
+  /* ---- nav ---- */
+  nav.toc{
+    position:sticky; top:0; z-index:5;
+    background:color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+  nav.toc .toc-inner{
+    max-width:920px; margin:0 auto; padding:10px 24px;
+    display:flex; gap:18px; overflow-x:auto;
+    font-family:'IBM Plex Mono', monospace; font-size:12px;
+    letter-spacing:0.05em; text-transform:uppercase; white-space:nowrap;
+  }
+  nav.toc a{ color:var(--muted); text-decoration:none; padding:4px 0; border-bottom:2px solid transparent; }
+  nav.toc a:hover{ color:var(--ink); }
+
+  section{ padding:56px 0 0; }
+  section.tight{ padding-top:36px; }
+  .section-head{ display:flex; align-items:baseline; gap:14px; margin-bottom:22px; }
+  .section-head h2{ font-size:1.9rem; font-weight:700; }
+  .rule{ height:1px; background:var(--line); border:none; margin:56px 0 0; }
+
+  /* ---- stat tiles ---- */
+  .stat-grid{
+    display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+    gap:1px; background:var(--line); border:1px solid var(--line);
+    margin-top:28px; border-radius:2px; overflow:hidden;
+  }
+  .stat-tile{ background:var(--surface); padding:22px 20px; }
+  .stat-tile .num{ font-family:'Big Shoulders Display',sans-serif; font-weight:800; font-size:2.3rem; color:var(--accent); line-height:1; }
+  .stat-tile .label{ margin-top:8px; font-size:0.92rem; color:var(--muted); font-family:'Source Serif 4',serif; max-width:none; }
+
+  /* ---- verdict box ---- */
+  .verdict{
+    margin-top:28px; padding:22px 24px; background:var(--surface);
+    border:1px solid var(--line); border-left:4px solid var(--accent);
+    box-shadow:var(--shadow);
+  }
+  .verdict p:last-child{ margin-bottom:0; }
+
+  /* ---- badges ---- */
+  .badge{
+    display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:11.5px;
+    letter-spacing:0.04em; text-transform:uppercase; font-weight:600;
+    padding:3px 8px; border-radius:3px; white-space:nowrap;
+  }
+  .badge.good{ background:var(--good-soft); color:var(--good); }
+  .badge.warn{ background:var(--warn-soft); color:var(--warn); }
+  .badge.bad{ background:var(--bad-soft); color:var(--bad); }
+  .badge.info{ background:var(--info-soft); color:var(--info); }
+
+  /* ---- table ---- */
+  .table-scroll{ overflow-x:auto; margin-top:26px; border:1px solid var(--line); }
+  table.sources{ border-collapse:collapse; width:100%; min-width:920px; background:var(--surface); }
+  table.sources caption{ text-align:left; padding:10px 16px; font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--muted); border-bottom:1px solid var(--line); }
+  table.sources th, table.sources td{ padding:13px 16px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top; font-size:0.94rem; }
+  table.sources thead th{
+    font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.06em; text-transform:uppercase;
+    color:var(--muted); background:var(--surface-2); border-bottom:1px solid var(--line);
+  }
+  table.sources tbody tr:last-child td{ border-bottom:none; }
+  table.sources tbody tr:hover{ background:var(--surface-2); }
+  table.sources td.name{ font-weight:600; color:var(--ink); }
+  table.sources td.small{ color:var(--muted); font-size:0.87rem; }
+
+  /* ---- evidence block ---- */
+  .evidence{
+    margin-top:24px; border:1px solid var(--line); background:var(--surface); box-shadow:var(--shadow);
+  }
+  .evidence .ev-head{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:10px 16px; background:var(--ink); color:var(--bg);
+    font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:0.04em;
+  }
+  .evidence .ev-head .dot{ display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--good); margin-right:8px; }
+  .evidence pre{
+    margin:0; padding:18px 20px; overflow-x:auto; font-family:'IBM Plex Mono',monospace;
+    font-size:13px; line-height:1.65; color:var(--ink); background:var(--surface);
+  }
+  .evidence .ev-caption{ padding:10px 16px; font-size:0.85rem; color:var(--muted); border-top:1px solid var(--line); font-family:'Source Serif 4',serif; }
+  .tok-k{ color:var(--accent); } .tok-s{ color:var(--good); } .tok-c{ color:var(--muted); font-style:italic; }
+
+  /* ---- callout ---- */
+  .callout{ margin-top:26px; padding:20px 22px; border:1px solid var(--line); background:var(--surface-2); }
+  .callout .eyebrow{ display:block; margin-bottom:10px; }
+  .callout.legal{ border-left:4px solid var(--warn); }
+  .callout.correction{ border-left:4px solid var(--info); }
+  .callout ul{ margin:8px 0 0; padding-left:20px; }
+  .callout li{ margin-bottom:8px; max-width:70ch; }
+
+  /* ---- two-col list ---- */
+  .grid-2{ display:grid; grid-template-columns:1fr 1fr; gap:22px; margin-top:24px; }
+  @media (max-width:720px){ .grid-2{ grid-template-columns:1fr; } }
+  .card{ padding:20px 22px; border:1px solid var(--line); background:var(--surface); }
+  .card h3{ font-size:1.15rem; font-weight:700; margin-bottom:10px; }
+  .card p{ color:var(--muted); font-size:0.95rem; }
+
+  /* ---- pipeline ---- */
+  .pipeline{ display:flex; flex-wrap:wrap; align-items:stretch; gap:0; margin-top:30px; }
+  .pl-stage{
+    flex:1 1 160px; background:var(--surface); border:1px solid var(--line); padding:16px 16px;
+    position:relative;
+  }
+  .pl-stage .pl-n{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--accent); letter-spacing:0.06em; }
+  .pl-stage h4{ margin:6px 0 6px; font-family:'Big Shoulders Display',sans-serif; font-size:1.05rem; text-transform:uppercase; font-weight:700; }
+  .pl-stage p{ font-size:0.85rem; color:var(--muted); margin:0; max-width:none; }
+  .pl-arrow{ display:flex; align-items:center; justify-content:center; padding:0 6px; color:var(--muted); font-size:1.3rem; flex:0 0 auto; }
+  @media (max-width:860px){ .pipeline{ flex-direction:column; } .pl-arrow{ transform:rotate(90deg); padding:4px 0; } }
+
+  /* ---- roadmap ---- */
+  .roadmap{ margin-top:30px; border-left:2px solid var(--line); padding-left:0; }
+  .phase{ position:relative; padding:0 0 34px 30px; border-left:2px solid var(--line); margin-left:6px; }
+  .phase:last-child{ border-color:transparent; padding-bottom:0; }
+  .phase::before{
+    content:""; position:absolute; left:-7px; top:2px; width:12px; height:12px;
+    border-radius:50%; background:var(--accent); border:2px solid var(--bg);
+  }
+  .phase .ph-eyebrow{ font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--accent); letter-spacing:0.08em; text-transform:uppercase; }
+  .phase h3{ font-size:1.3rem; margin:4px 0 8px; font-weight:700; }
+  .phase p{ color:var(--muted); font-size:0.96rem; }
+
+  /* ---- data list ---- */
+  .kv-list{ margin-top:24px; border-top:1px solid var(--line); }
+  .kv-row{ display:grid; grid-template-columns:220px 1fr; gap:18px; padding:16px 0; border-bottom:1px solid var(--line); }
+  @media (max-width:640px){ .kv-row{ grid-template-columns:1fr; gap:4px; } }
+  .kv-row dt{ font-family:'IBM Plex Mono',monospace; font-size:12.5px; text-transform:uppercase; letter-spacing:0.04em; color:var(--muted); }
+  .kv-row dd{ margin:0; }
+
+  footer{ margin-top:70px; padding:30px 0 10px; border-top:1px solid var(--line); color:var(--muted); font-size:0.85rem; }
+</style>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <span class="eyebrow">Informe de campo · Ciencia de datos aplicada a Chacarita Juniors</span>
+    <h1>El cuello de botella no es el modelo.<br>Es el dato.</h1>
+    <p class="lede">Se probaron en vivo, contra los servidores reales, las fuentes de datos de fútbol argentino que existen hoy: qué responde, qué está bloqueado, qué es legal, qué es gratis y qué directamente no existe. Este documento reemplaza suposiciones por resultados de terminal.</p>
+    <div class="meta-row">
+      <span>Fecha: <b>06 sep 2026</b></span>
+      <span>Club: <b>CA Chacarita Juniors</b></span>
+      <span>Categoría: <b>Primera Nacional (2ª división AFA)</b></span>
+      <span>Fuentes probadas en vivo: <b>9</b></span>
+    </div>
+  </div>
+</header>
+
+<nav class="toc">
+  <div class="toc-inner">
+    <a href="#veredicto">Veredicto</a>
+    <a href="#sofascore">Hallazgo principal</a>
+    <a href="#mapa">Mapa de fuentes</a>
+    <a href="#transfermarkt">Transfermarkt</a>
+    <a href="#correcciones">Correcciones</a>
+    <a href="#club">Solo lo tiene el club</a>
+    <a href="#legal">Encuadre legal</a>
+    <a href="#arquitectura">Arquitectura</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#riesgos">Riesgos</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="veredicto">
+    <div class="section-head"><h2>Veredicto</h2></div>
+    <div class="verdict">
+      <p><strong>Es más viable de lo que parecía en la charla anterior — y por una razón concreta:</strong> la pieza que se asumía más difícil de conseguir gratis, estadísticas de partido con xG (expected goals), <strong>ya existe gratis</strong> para la Primera Nacional, con historial completo desde la temporada 2009/10. No hace falta pagar Wyscout para tener ese nivel de detalle en un primer sistema.</p>
+      <p>Lo que sí es cierto es que ninguna de estas fuentes gratuitas tiene un contrato que autorice su uso: son APIs no documentadas o scraping, en zona gris legal. Son perfectamente razonables para un proyecto de análisis interno o un prototipo — no para un producto que se vaya a vender o publicar puertas afuera sin más trabajo (ver <a href="#legal">Encuadre legal</a>).</p>
+    </div>
+    <div class="stat-grid">
+      <div class="stat-tile"><div class="num tabular">9 / 14</div><div class="label">fuentes confirmadas reales y probadas contra el servidor en vivo</div></div>
+      <div class="stat-tile"><div class="num tabular">2009–26</div><div class="label">rango de temporadas de Primera Nacional disponibles en una sola API gratuita</div></div>
+      <div class="stat-tile"><div class="num tabular">84 × 100</div><div class="label">partidos de Chacarita ya descargados, cada uno con 100 columnas de estadísticas</div></div>
+      <div class="stat-tile"><div class="num tabular">€5.000+</div><div class="label">costo anual de Wyscout por una sola liga menor — solo por datos, sin video</div></div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="sofascore">
+    <div class="section-head"><h2>El hallazgo principal: Sofascore</h2></div>
+    <p>Sofascore no publica una API pública, pero el sitio se alimenta de una API REST propia (<code>api.sofascore.com</code>) que responde en JSON sin necesidad de credenciales. Se buscó el ID interno de Chacarita, se confirmó que la Primera Nacional está mapeada como torneo <code>703</code>, y se descargaron datos reales: plantel, calendario y estadísticas partido a partido.</p>
+
+    <div class="evidence">
+      <div class="ev-head"><span><span class="dot"></span>GET /api/v1/event/15275428/statistics</span><span>Güemes 2–1 Chacarita · 01 mar 2026</span></div>
+      <pre>Posesión de balón         <span class="tok-k">49%</span>  vs  <span class="tok-k">51%</span>
+<span class="tok-c"># expected goals: la métrica que supuestamente había que pagar Wyscout para tener</span>
+Expected goals (xG)       <span class="tok-k">1.48</span>  vs  <span class="tok-k">0.27</span>
+Remates totales              <span class="tok-k">7</span>  vs     <span class="tok-k">3</span>
+Remates al arco               <span class="tok-k">4</span>  vs     <span class="tok-k">1</span>
+Córners                       <span class="tok-k">5</span>  vs     <span class="tok-k">7</span>
+Pases completados            <span class="tok-k">210</span>  vs   <span class="tok-k">191</span>
+Duelos aéreos ganados    <span class="tok-k">25/42 (60%)</span> vs <span class="tok-k">15/41 (37%)</span>
+Regates exitosos          <span class="tok-k">13/20 (65%)</span> vs <span class="tok-k">11/15 (73%)</span></pre>
+      <div class="ev-caption">Extracción real, ejecutada durante esta sesión. El objeto completo trae 30+ métricas por partido agrupadas en posesión, remates, pases, duelos y defensa.</div>
+    </div>
+
+    <div class="evidence" style="margin-top:18px;">
+      <div class="ev-head"><span><span class="dot"></span>GET /api/v1/category/48/unique-tournaments</span><span>Argentina — todos los torneos mapeados</span></div>
+      <pre>155    Liga Profesional de Fútbol   <span class="tok-c">(1ª división)</span>
+<span class="tok-k">703    Primera Nacional</span>              <span class="tok-c">← Chacarita juega acá</span>
+1347   Primera B Metropolitana
+11386  Primera C Metropolitana
+14101  Primera D Metropolitana
+14090  Torneo Federal A              <span class="tok-c">← ligas "feeder" para scouting</span>
+1024   Copa Argentina
+13475  Copa de la Liga Profesional</pre>
+      <div class="ev-caption">Una sola API cubre toda la pirámide de la que Chacarita recluta y a la que compite ascender. Esto es exactamente el insumo que pedía el punto 1 de la charla anterior (scouting en ligas de menor exposición).</div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3>Lo que ya se descargó y quedó en tu carpeta</h3>
+        <p><code>data/raw/chacarita_plantel.csv</code> — 33 jugadores con posición, dorsal y nacionalidad.<br>
+        <code>data/raw/chacarita_partidos.csv</code> — 90 partidos con fecha, resultado y torneo.<br>
+        <code>data/processed/chacarita_partidos_stats.csv</code> — 84 partidos × 100 columnas (xG, posesión, duelos, pases…).<br>
+        <code>data/raw/argentina_torneos.csv</code> — mapa de las 14 competiciones del país.</p>
+      </div>
+      <div class="card">
+        <h3>La letra chica técnica</h3>
+        <p>La API bloquea la librería estándar de Python (<code>requests</code>) con error 403 — detecta la huella TLS del cliente, no el User-Agent. <code>curl</code> pasa sin problema, y en Python se resolvió con <code>curl_cffi</code> (imita la huella de Chrome). Es una protección liviana, pero confirma que no es una API pensada para consumo externo: puede endurecerse en cualquier momento.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="mapa">
+    <div class="section-head"><h2>Mapa completo de fuentes evaluadas</h2></div>
+    <p>Cada fila fue verificada de forma directa: se hizo la consulta HTTP, se leyó la respuesta real, o se confirmó (o descartó) la existencia del producto. Nada de esta tabla sale de lo que "se supone" que tiene una fuente.</p>
+    <div class="table-scroll">
+      <table class="sources">
+        <caption>ordenadas de mayor a menor utilidad inmediata para Chacarita</caption>
+        <thead>
+          <tr><th>Fuente</th><th>Qué es</th><th>Primera Nacional / Chacarita</th><th>Costo</th><th>Veredicto</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="name">Sofascore <span class="mono small">(API no oficial)</span></td>
+            <td>Partidos, plantillas y estadísticas de partido con 100+ métricas, incluido xG</td>
+            <td><span class="badge good">Confirmada en vivo</span><br><span class="small">completa 2009–2026 + toda la pirámide AFA</span></td>
+            <td>Gratis</td>
+            <td>Base del prototipo, ya funcionando</td>
+          </tr>
+          <tr>
+            <td class="name">Transfermarkt <span class="mono small">(scraping directo)</span></td>
+            <td>Plantel, valores de mercado, edad, contratos, transferencias</td>
+            <td><span class="badge good">Confirmada</span><br><span class="small">34 perfiles de jugadores extraídos</span></td>
+            <td>Gratis (no autorizado)</td>
+            <td>Útil, pero requiere criterio legal — ver abajo</td>
+          </tr>
+          <tr>
+            <td class="name">FootyStats</td>
+            <td>Estadísticas agregadas de liga / equipo / jugador vía API con clave</td>
+            <td><span class="badge good">Confirmada</span><br><span class="small">"Prim B Nacional" listada entre 27 ligas AR</span></td>
+            <td>Free = solo Premier League. Argentina exige plan pago</td>
+            <td>Opción "limpia" si se decide pagar</td>
+          </tr>
+          <tr>
+            <td class="name">API-Football <span class="mono small">(api-sports.io)</span></td>
+            <td>API REST multi-liga de resultados y estadísticas</td>
+            <td><span class="badge warn">No verificada</span><br><span class="small">pricing bloqueó el chequeo en vivo</span></td>
+            <td>Free: 100 req/día</td>
+            <td>Confirmar cobertura real antes de invertir tiempo</td>
+          </tr>
+          <tr>
+            <td class="name">Wyscout <span class="mono small">(Hudl)</span></td>
+            <td>Estándar profesional: video + 150 métricas por jugador</td>
+            <td><span class="badge info">Asumida total</span><br><span class="small">no se probó, es pago desde el día 1</span></td>
+            <td>Desde ~£5.000/año <em>por liga, solo datos</em></td>
+            <td>Fuera de alcance salvo sponsorship o convenio</td>
+          </tr>
+          <tr>
+            <td class="name">FutPythonTrader</td>
+            <td>Bases CSV/Excel gratuitas por país y liga (proyecto brasileño)</td>
+            <td><span class="badge warn">No confirmada</span><br><span class="small">catálogo no expone la lista de ligas sin cuenta</span></td>
+            <td>Gratis (requiere registro)</td>
+            <td>Revisar el catálogo manualmente antes de asumir cobertura</td>
+          </tr>
+          <tr>
+            <td class="name">"Goal-API"</td>
+            <td>—</td>
+            <td><span class="badge bad">No existe</span></td>
+            <td>—</td>
+            <td>Descartar de la lista</td>
+          </tr>
+          <tr>
+            <td class="name">transfermarkt-datasets <span class="mono small">(GitHub, CC0)</span></td>
+            <td>Dataset ya armado: jugadores, partidos, transferencias, valores</td>
+            <td><span class="badge bad">Confirmado que NO incluye Argentina</span></td>
+            <td>Gratis, licencia abierta</td>
+            <td>Sirve como modelo de esquema, no como fuente de datos AR</td>
+          </tr>
+          <tr>
+            <td class="name">soccerdata <span class="mono small">(paquete Python)</span></td>
+            <td>Wrapper open-source para FBref / Sofascore / WhoScored / ESPN</td>
+            <td><span class="badge bad">Sin soporte para Argentina por defecto</span></td>
+            <td>Gratis</td>
+            <td>No usar el wrapper — pegarle directo a la API</td>
+          </tr>
+          <tr>
+            <td class="name">LPF Data <span class="mono small">(oficial AFA)</span></td>
+            <td>Reportes de datos oficiales por fecha de juego</td>
+            <td><span class="badge bad">Solo Primera División</span></td>
+            <td>Gratis</td>
+            <td>No aplica a la categoría de Chacarita hoy</td>
+          </tr>
+          <tr>
+            <td class="name">Promiedos</td>
+            <td>Sitio argentino de resultados en vivo, sin API propia</td>
+            <td><span class="badge warn">Solo vía scrapers de terceros no mantenidos</span></td>
+            <td>Gratis</td>
+            <td>Backup para resultados en vivo, no base principal</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="transfermarkt">
+    <div class="section-head"><h2>Transfermarkt en la práctica</h2></div>
+    <p>A diferencia de Sofascore, Transfermarkt no tiene bloqueo de huella TLS: una petición HTTP simple con un User-Agent de navegador devuelve la página completa sin fricción técnica. Se ubicó el club correcto (el ID que suele circular de memoria — <code>2093</code> — pertenece a un club amateur alemán; el de Chacarita es otro) y se extrajeron 34 perfiles de jugadores con un solo request.</p>
+    <div class="evidence">
+      <div class="ev-head"><span><span class="dot"></span>GET /chacarita-juniors/startseite/verein/2154</span><span>200 OK · 184 KB</span></div>
+      <pre>federico-losas/profil/spieler/661127
+enrique-bologna/profil/spieler/30753
+gaston-fernandez/profil/spieler/990587
+sergio-vittor/profil/spieler/91597
+milton-leyendeker/profil/spieler/878449
+<span class="tok-c">... 29 jugadores más, cada uno con valor de mercado, edad, contrato y nacionalidad</span></pre>
+    </div>
+    <p style="margin-top:18px;">La diferencia con Sofascore no es técnica, es contractual: los <a href="https://www.transfermarkt.com" target="_blank" rel="noopener">Términos de Servicio</a> de Transfermarkt prohíben explícitamente el acceso mediante bots o "screen scraping", y además restringen usar su contenido para entrenar sistemas de IA/ML. Que el sitio no lo bloquee técnicamente no significa que esté permitido — es la fuente con la brecha más grande entre "se puede" y "está autorizado".</p>
+  </section>
+
+  <hr class="rule">
+
+  <section id="correcciones">
+    <div class="section-head"><h2>Qué corregir de la charla anterior</h2></div>
+    <div class="callout correction">
+      <span class="eyebrow">Honestidad primero</span>
+      <ul>
+        <li><strong>"Goal-API" no existe</strong> como producto bajo ese nombre. Es probable que sea una confusión con <em>Goalserve</em> (un proveedor real, pero cuya cobertura de Primera Nacional no se pudo confirmar) o directamente con API-Football.</li>
+        <li><strong>FutPythonTrader es real</strong>, pero su cobertura de Argentina no estaba confirmada — la charla anterior lo dio por hecho sin evidencia. El catálogo público no expone qué ligas incluye sin crear una cuenta.</li>
+        <li><strong>El dataset "transfermarkt-datasets"</strong> que se mencionó como ejemplo de estructura de base de datos <strong>no incluye ninguna liga argentina</strong>. Sirve como inspiración de modelo de tablas (jugadores / partidos / transferencias / valuaciones), no como fuente de datos para este proyecto.</li>
+        <li><strong>El punto que la charla anterior subestimó:</strong> no hacía falta pagar Wyscout para tener xG. Ya está gratis, partido a partido, en Sofascore — el ítem "predicción de resultados" y "análisis de rivales" del plan original son más baratos de arrancar de lo que parecía.</li>
+      </ul>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="club">
+    <div class="section-head"><h2>Lo que ninguna fuente externa te va a dar</h2></div>
+    <p>Todo lo de arriba es sobre datos de terceros. Hay una categoría entera de datos que no tiene atajo: solo existe adentro del club. Es también, no es casualidad, la que más valor agrega — porque nadie más la tiene.</p>
+    <dl class="kv-list">
+      <div class="kv-row">
+        <dt>Socios</dt>
+        <dd>Altas, bajas, antigüedad, historial de pago, cuota, frecuencia de asistencia. Como Chacarita es una asociación civil (socios, no accionistas), este dato conecta directo con los ingresos recurrentes del club — más que en un club-empresa.</dd>
+      </div>
+      <div class="kv-row">
+        <dt>Plantel — cara interna</dt>
+        <dd>Sueldos reales, cláusulas de contrato, bonos por objetivos, duración efectiva. Ni Transfermarkt ni Sofascore tienen esto: publican estimaciones de mercado, no lo que el club paga.</dd>
+      </div>
+      <div class="kv-row">
+        <dt>Cuerpo médico y físico</dt>
+        <dd>GPS de entrenamiento, RPE, historial de lesiones, cargas semanales. Es el dato con mayor potencial de ROI (prevención de lesiones) y el que menos sustituto externo tiene.</dd>
+      </div>
+      <div class="kv-row">
+        <dt>Inferiores</dt>
+        <dd>Ningún proveedor de datos cubre juveniles de captación con el detalle necesario para modelar "¿quién llega a Primera?". Esa base solo la arma el propio club, partido a partido.</dd>
+      </div>
+      <div class="kv-row">
+        <dt>Entradas y comercial</dt>
+        <dd>Precio, sector, asistencia real, ventas de merchandising por talle/modelo. Dato transaccional puro del club — no existe en ninguna API de fútbol.</dd>
+      </div>
+    </dl>
+  </section>
+
+  <hr class="rule">
+
+  <section id="legal">
+    <div class="section-head"><h2>Encuadre legal, sin vueltas</h2></div>
+    <div class="callout legal">
+      <span class="eyebrow">Ninguna fuente gratuita está autorizada por escrito</span>
+      <p style="max-width:none;">Sofascore prohíbe copiar, reproducir o redistribuir su contenido sin permiso escrito. Transfermarkt prohíbe explícitamente el scraping automatizado y su uso para entrenar sistemas de IA. Ninguna de las dos persigue legalmente el uso personal de bajo volumen — es lo que hace toda la comunidad de analistas de fútbol amateur — pero la distinción importa para saber hasta dónde llevar esto:</p>
+      <ul>
+        <li><strong>Uso interno / prototipo / aprendizaje propio:</strong> riesgo bajo. Es exactamente lo que se hizo hoy: ~90 requests con una pausa de un segundo entre cada una, sin republicar nada.</li>
+        <li><strong>Dashboard que ve el cuerpo técnico del club:</strong> riesgo bajo-medio. Recomendable avisarle al club que la fuente de fondo es no oficial, para que no quede como una promesa de continuidad garantizada.</li>
+        <li><strong>Algo público, para hinchas, o que se vende:</strong> ahí ya no alcanza con esto. Ese escalón necesita una fuente con licencia — el plan pago de FootyStats o API-Football, o directamente un convenio con el club para que sea el club quien pague por datos con permiso.</li>
+      </ul>
+      <p style="max-width:none; margin-top:12px;">Regla práctica: nunca paralelizar los requests a estas APIs, siempre con pausas, y tratar todo como un préstamo, no como una compra.</p>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="arquitectura">
+    <div class="section-head"><h2>Arquitectura de datos recomendada</h2></div>
+    <p>Nada exótico. Los mismos cinco pasos que ya corrieron hoy contra datos reales de Chacarita:</p>
+    <div class="pipeline">
+      <div class="pl-stage"><div class="pl-n">01</div><h4>Ingesta</h4><p>Sofascore + Transfermarkt vía <code>curl_cffi</code>, con pausas entre requests</p></div>
+      <div class="pl-arrow">→</div>
+      <div class="pl-stage"><div class="pl-n">02</div><h4>Crudo</h4><p>CSV / Parquet en <code>data/raw</code>, un archivo por corrida, nada se sobreescribe</p></div>
+      <div class="pl-arrow">→</div>
+      <div class="pl-stage"><div class="pl-n">03</div><h4>Modelo</h4><p>Tablas normalizadas (partidos, jugadores, stats) en DuckDB o SQLite</p></div>
+      <div class="pl-arrow">→</div>
+      <div class="pl-stage"><div class="pl-n">04</div><h4>Análisis</h4><p>pandas + scikit-learn: forma reciente, xG for/against, similitud de jugadores</p></div>
+      <div class="pl-arrow">→</div>
+      <div class="pl-stage"><div class="pl-n">05</div><h4>Visualización</h4><p>Streamlit para el cuerpo técnico, exportable a Excel para dirigencia</p></div>
+    </div>
+
+    <div class="evidence" style="margin-top:30px;">
+      <div class="ev-head"><span><span class="dot"></span>scripts/sofascore_pipeline.py</span><span>ya guardado en tu proyecto</span></div>
+      <pre><span class="tok-c"># la clave: curl_cffi imita la huella TLS de Chrome real</span>
+<span class="tok-k">from</span> curl_cffi <span class="tok-k">import</span> requests
+
+<span class="tok-k">def</span> get(endpoint: str) -> dict:
+    url = f<span class="tok-s">"{BASE}{endpoint}"</span>
+    r = requests.get(url, headers=HEADERS, impersonate=<span class="tok-s">"chrome"</span>, timeout=15)
+    time.sleep(1.0)  <span class="tok-c"># cortesía: no martillar la API</span>
+    r.raise_for_status()
+    <span class="tok-k">return</span> r.json()</pre>
+      <div class="ev-caption">El archivo completo (plantel, partidos, estadísticas y mapa de torneos) quedó en <code>scripts/sofascore_pipeline.py</code>, ya corrido una vez con éxito.</div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="roadmap">
+    <div class="section-head"><h2>Cómo seguirlo</h2></div>
+    <div class="roadmap">
+      <div class="phase">
+        <span class="ph-eyebrow">Fase 0 — ya hecha</span>
+        <h3>Prueba de concepto</h3>
+        <p>Pipeline de Sofascore funcionando de punta a punta. 84 partidos de Chacarita con estadísticas completas, plantel actual y mapa de las 14 competiciones argentinas, todo en <code>data/</code>.</p>
+      </div>
+      <div class="phase">
+        <span class="ph-eyebrow">Fase 1 — 1 mes</span>
+        <h3>Histórico + dashboard básico</h3>
+        <p>Bajar el historial completo de Chacarita y sus rivales directos desde 2015. Pasar los CSV a DuckDB. Armar un Streamlit con forma reciente, xG a favor/en contra y el próximo rival — el punto 3 del plan original ("análisis de rivales"), pero ya sin depender de conseguir Wyscout.</p>
+      </div>
+      <div class="phase">
+        <span class="ph-eyebrow">Fase 2 — 3 meses</span>
+        <h3>Scouting en ligas feeder</h3>
+        <p>Extender el mismo pipeline a Federal A y Metropolitana B/C/D (ya mapeadas, ver evidencia arriba) más valores de mercado de Transfermarkt. Primer modelo de similitud de jugadores acotado al presupuesto real de un club de Primera Nacional.</p>
+      </div>
+      <div class="phase">
+        <span class="ph-eyebrow">Fase 3 — 6 a 12 meses</span>
+        <h3>Conversación con el club</h3>
+        <p>Con el prototipo andando, es el momento de proponerle al club dos cosas en simultáneo: acceso a datos internos (socios, entradas, inferiores) y, si el proyecto va a tener uso oficial o público, migrar la capa de scouting a una fuente con licencia (FootyStats pago o un convenio directo).</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="riesgos" class="tight">
+    <div class="section-head"><h2>Qué se puede romper</h2></div>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Fragilidad técnica</h3>
+        <p>Sofascore ya bloquea la librería estándar de Python. Si en el futuro endurece el bloqueo del lado de <code>curl_cffi</code> también, el pipeline se corta hasta actualizar la técnica de impersonation. No tiene SLA — es normal que rompa sin aviso.</p>
+      </div>
+      <div class="card">
+        <h3>Dependencia de una sola fuente</h3>
+        <p>Todo el prototipo hoy cuelga de Sofascore. Vale la pena, en la Fase 1, dejar Transfermarkt como fuente secundaria de contraste y no depender de un único proveedor no oficial para decisiones importantes.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Chacarita Data Project — informe de investigación técnica, 06 sep 2026. Todas las cifras de este documento salen de consultas reales ejecutadas durante la sesión, no de documentación de marketing.
+  </footer>
+
+</main>

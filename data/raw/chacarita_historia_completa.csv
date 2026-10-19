@@ -1,0 +1,614 @@
+﻿event_id,tournament_id,tournament,season_id,season,round,home_id,home_team,away_id,away_team,home_score,away_score,start_timestamp,status,status_type,winner_code
+1107977,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,1.0,3214,Club Atlético Chacarita Juniors,7628,Tigre,1.0,2.0,1250967600,Ended,finished,2.0
+1108016,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,2.0,3211,River Plate,3214,Club Atlético Chacarita Juniors,4.0,3.0,1251652200,Ended,finished,1.0
+1108028,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,3.0,3219,Banfield,3214,Club Atlético Chacarita Juniors,1.0,0.0,1252084200,Ended,finished,1.0
+1108037,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,4.0,3214,Club Atlético Chacarita Juniors,3217,Rosario Central,0.0,1.0,1252775400,Ended,finished,2.0
+1108050,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,5.0,3207,Club Atletico Colón,3214,Club Atlético Chacarita Juniors,3.0,1.0,1253379600,Ended,finished,1.0
+1108057,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,6.0,3214,Club Atlético Chacarita Juniors,3221,Arsenal de Sarandí,1.0,0.0,1253984400,Ended,finished,1.0
+1108072,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,7.0,3205,Gimnasia y Esgrima,3214,Club Atlético Chacarita Juniors,2.0,0.0,1254675600,Ended,finished,1.0
+1108077,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,8.0,3214,Club Atlético Chacarita Juniors,3201,San Lorenzo,0.0,2.0,1255114200,Ended,finished,2.0
+1108084,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,9.0,3209,CA Independiente,3214,Club Atlético Chacarita Juniors,1.0,1.0,1255885200,Ended,finished,3.0
+1108097,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,10.0,3214,Club Atlético Chacarita Juniors,7629,Huracán,1.0,0.0,1256411400,Ended,finished,1.0
+1108106,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,11.0,3202,Boca Juniors,3214,Club Atlético Chacarita Juniors,3.0,0.0,1256839200,Ended,finished,1.0
+1108117,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,12.0,3214,Club Atlético Chacarita Juniors,3216,Argentinos Juniors,2.0,2.0,1257094800,Ended,finished,3.0
+1108128,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,13.0,3218,CA Lanús,3214,Club Atlético Chacarita Juniors,0.0,3.0,1257613200,Ended,finished,2.0
+1108137,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,14.0,3214,Club Atlético Chacarita Juniors,3212,Newell's Old Boys,0.0,1.0,1258149600,Ended,finished,2.0
+1108150,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,15.0,36833,Atlético Tucumán,3214,Club Atlético Chacarita Juniors,2.0,1.0,1258841400,Ended,finished,1.0
+1108157,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,16.0,3214,Club Atlético Chacarita Juniors,6074,Godoy Cruz,2.0,1.0,1259438400,Ended,finished,1.0
+1108172,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,17.0,3206,Estudiantes de La Plata,3214,Club Atlético Chacarita Juniors,0.0,0.0,1259874000,Ended,finished,3.0
+1108177,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,18.0,3214,Club Atlético Chacarita Juniors,3208,Vélez Sarsfield,0.0,0.0,1260475200,Ended,finished,3.0
+1108184,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,19.0,3215,Racing Club,3214,Club Atlético Chacarita Juniors,0.0,2.0,1260743400,Ended,finished,2.0
+1259935,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,1.0,7628,Tigre,3214,Club Atlético Chacarita Juniors,0.0,2.0,1264881600,Ended,finished,2.0
+1260015,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,2.0,3214,Club Atlético Chacarita Juniors,3211,River Plate,2.0,3.0,1265313600,Ended,finished,2.0
+1259977,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,3.0,3214,Club Atlético Chacarita Juniors,3219,Banfield,2.0,1.0,1265572800,Ended,finished,1.0
+1260026,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,4.0,3217,Rosario Central,3214,Club Atlético Chacarita Juniors,1.0,1.0,1266012000,Ended,finished,3.0
+1259989,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,5.0,3214,Club Atlético Chacarita Juniors,3207,Club Atletico Colón,1.0,2.0,1266616800,Ended,finished,2.0
+1260036,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,6.0,3221,Arsenal de Sarandí,3214,Club Atlético Chacarita Juniors,0.0,3.0,1267221600,Ended,finished,2.0
+1260001,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,7.0,3214,Club Atlético Chacarita Juniors,3205,Gimnasia y Esgrima,0.0,1.0,1267732800,Ended,finished,2.0
+1260046,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,8.0,3201,San Lorenzo,3214,Club Atlético Chacarita Juniors,3.0,1.0,1268078400,Ended,finished,1.0
+1260003,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,9.0,3214,Club Atlético Chacarita Juniors,3209,CA Independiente,0.0,1.0,1268510400,Ended,finished,2.0
+1260056,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,10.0,7629,Huracán,3214,Club Atlético Chacarita Juniors,2.0,0.0,1269032400,Ended,finished,1.0
+1260065,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,11.0,3214,Club Atlético Chacarita Juniors,3202,Boca Juniors,4.0,1.0,1269799200,Ended,finished,1.0
+1260126,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,12.0,3216,Argentinos Juniors,3214,Club Atlético Chacarita Juniors,2.0,1.0,1270317600,Ended,finished,1.0
+1260087,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,13.0,3214,Club Atlético Chacarita Juniors,3218,CA Lanús,1.0,2.0,1270663200,Ended,finished,2.0
+1260136,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,14.0,3212,Newell's Old Boys,3214,Club Atlético Chacarita Juniors,3.0,0.0,1270926000,Ended,finished,1.0
+1260099,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,15.0,3214,Club Atlético Chacarita Juniors,36833,Atlético Tucumán,1.0,2.0,1271523600,Ended,finished,2.0
+1260146,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,16.0,6074,Godoy Cruz,3214,Club Atlético Chacarita Juniors,1.0,0.0,1272067800,Ended,finished,1.0
+1260111,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,17.0,3214,Club Atlético Chacarita Juniors,3206,Estudiantes de La Plata,1.0,2.0,1272827700,Ended,finished,2.0
+1260156,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,18.0,3208,Vélez Sarsfield,3214,Club Atlético Chacarita Juniors,4.0,1.0,1273342200,Ended,finished,1.0
+1260113,155,Liga Profesional de Fútbol,2323,Primera Division 09/10,19.0,3214,Club Atlético Chacarita Juniors,3215,Racing Club,1.0,2.0,1273950600,Ended,finished,2.0
+1435779,703,Primera Nacional,2923,Primera B Nacional 10/11,1.0,5293,Tiro Federal Rosario,3214,Club Atlético Chacarita Juniors,1.0,1.0,1281400200,Ended,finished,3.0
+1438238,703,Primera Nacional,2923,Primera B Nacional 10/11,2.0,3214,Club Atlético Chacarita Juniors,3204,Club Atlético Unión de Santa Fe,1.0,0.0,1282003200,Ended,finished,1.0
+1438251,703,Primera Nacional,2923,Primera B Nacional 10/11,3.0,5292,Gimnasia Y Esgrima De Jujuy,3214,Club Atlético Chacarita Juniors,0.0,0.0,1282608000,Ended,finished,3.0
+1438259,703,Primera Nacional,2923,Primera B Nacional 10/11,4.0,3214,Club Atlético Chacarita Juniors,36836,Aldosivi,1.0,1.0,1283212800,Ended,finished,3.0
+1438270,703,Primera Nacional,2923,Primera B Nacional 10/11,5.0,36839,Defensa y Justicia,3214,Club Atlético Chacarita Juniors,3.0,1.0,1283619600,Ended,finished,1.0
+1438280,703,Primera Nacional,2923,Primera B Nacional 10/11,6.0,3214,Club Atlético Chacarita Juniors,43740,Almirante Brown,0.0,1.0,1284076800,Ended,finished,2.0
+1438289,703,Primera Nacional,2923,Primera B Nacional 10/11,7.0,7772,San Martín de San Juan,3214,Club Atlético Chacarita Juniors,0.0,1.0,1284681900,Ended,finished,2.0
+1438301,703,Primera Nacional,2923,Primera B Nacional 10/11,8.0,3214,Club Atlético Chacarita Juniors,3203,Club Atlético Belgrano,1.0,0.0,1285286700,Ended,finished,1.0
+1438308,703,Primera Nacional,2923,Primera B Nacional 10/11,9.0,23950,San Martín de Tucumán,3214,Club Atlético Chacarita Juniors,0.0,0.0,1285891500,Ended,finished,3.0
+1438322,703,Primera Nacional,2923,Primera B Nacional 10/11,10.0,3214,Club Atlético Chacarita Juniors,3217,Rosario Central,0.0,2.0,1286496300,Ended,finished,2.0
+1438327,703,Primera Nacional,2923,Primera B Nacional 10/11,11.0,34976,Atlético de Rafaela,3214,Club Atlético Chacarita Juniors,2.0,0.0,1287101100,Ended,finished,1.0
+1438343,703,Primera Nacional,2923,Primera B Nacional 10/11,12.0,3214,Club Atlético Chacarita Juniors,36838,Comision de Actividades Infantiles,0.0,1.0,1287705900,Ended,finished,2.0
+1438346,703,Primera Nacional,2923,Primera B Nacional 10/11,13.0,36841,Club Ferro Carril Oeste,3214,Club Atlético Chacarita Juniors,,,1288461600,Postponed,postponed,
+1544671,703,Primera Nacional,2923,Primera B Nacional 10/11,13.0,36841,Club Ferro Carril Oeste,3214,Club Atlético Chacarita Juniors,3.0,0.0,1288915500,Ended,finished,1.0
+1438364,703,Primera Nacional,2923,Primera B Nacional 10/11,14.0,3214,Club Atlético Chacarita Juniors,36840,Deportivo Merlo,0.0,0.0,1289520300,Ended,finished,3.0
+1438365,703,Primera Nacional,2923,Primera B Nacional 10/11,15.0,43741,Patronato,3214,Club Atlético Chacarita Juniors,3.0,1.0,1290380400,Ended,finished,1.0
+1438384,703,Primera Nacional,2923,Primera B Nacional 10/11,16.0,36842,Independiente Rivadavia,3214,Club Atlético Chacarita Juniors,0.0,2.0,1291075200,Ended,finished,2.0
+1438386,703,Primera Nacional,2923,Primera B Nacional 10/11,17.0,3214,Club Atlético Chacarita Juniors,36835,Boca Unidos,1.0,1.0,1291672800,Ended,finished,3.0
+1438403,703,Primera Nacional,2923,Primera B Nacional 10/11,18.0,4937,Instituto De Córdoba,3214,Club Atlético Chacarita Juniors,0.0,0.0,1292104800,Ended,finished,3.0
+1438407,703,Primera Nacional,2923,Primera B Nacional 10/11,19.0,3214,Club Atlético Chacarita Juniors,36833,Atlético Tucumán,1.0,0.0,1296936300,Ended,finished,1.0
+1642232,703,Primera Nacional,2923,Primera B Nacional 10/11,20.0,3214,Club Atlético Chacarita Juniors,5293,Tiro Federal Rosario,0.0,0.0,1297540800,Ended,finished,3.0
+1648252,703,Primera Nacional,2923,Primera B Nacional 10/11,21.0,3204,Club Atlético Unión de Santa Fe,3214,Club Atlético Chacarita Juniors,2.0,0.0,1298332800,Ended,finished,1.0
+1648361,703,Primera Nacional,2923,Primera B Nacional 10/11,22.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,0.0,0.0,1298750400,Ended,finished,3.0
+1648370,703,Primera Nacional,2923,Primera B Nacional 10/11,23.0,36836,Aldosivi,3214,Club Atlético Chacarita Juniors,2.0,0.0,1299366000,Ended,finished,1.0
+1648386,703,Primera Nacional,2923,Primera B Nacional 10/11,24.0,3214,Club Atlético Chacarita Juniors,36839,Defensa y Justicia,1.0,0.0,1299960000,Ended,finished,1.0
+1648393,703,Primera Nacional,2923,Primera B Nacional 10/11,25.0,43740,Almirante Brown,3214,Club Atlético Chacarita Juniors,0.0,1.0,1300406400,Ended,finished,2.0
+1648401,703,Primera Nacional,2923,Primera B Nacional 10/11,26.0,3214,Club Atlético Chacarita Juniors,7772,San Martín de San Juan,0.0,1.0,1301079900,Ended,finished,2.0
+1648415,703,Primera Nacional,2923,Primera B Nacional 10/11,27.0,3203,Club Atlético Belgrano,3214,Club Atlético Chacarita Juniors,1.0,1.0,1301961900,Ended,finished,3.0
+1648425,703,Primera Nacional,2923,Primera B Nacional 10/11,28.0,3214,Club Atlético Chacarita Juniors,23950,San Martín de Tucumán,1.0,1.0,1302373800,Ended,finished,3.0
+1648437,703,Primera Nacional,2923,Primera B Nacional 10/11,29.0,3217,Rosario Central,3214,Club Atlético Chacarita Juniors,2.0,1.0,1303067100,Ended,finished,1.0
+1648439,703,Primera Nacional,2923,Primera B Nacional 10/11,30.0,3214,Club Atlético Chacarita Juniors,34976,Atlético de Rafaela,1.0,2.0,1303495200,Ended,finished,2.0
+1648450,703,Primera Nacional,2923,Primera B Nacional 10/11,31.0,36838,Comision de Actividades Infantiles,3214,Club Atlético Chacarita Juniors,1.0,3.0,1304188200,Ended,finished,2.0
+1648464,703,Primera Nacional,2923,Primera B Nacional 10/11,32.0,3214,Club Atlético Chacarita Juniors,36841,Club Ferro Carril Oeste,0.0,3.0,1304874000,Ended,finished,2.0
+1648477,703,Primera Nacional,2923,Primera B Nacional 10/11,33.0,36840,Deportivo Merlo,3214,Club Atlético Chacarita Juniors,0.0,0.0,1305397800,Ended,finished,3.0
+1648480,703,Primera Nacional,2923,Primera B Nacional 10/11,34.0,3214,Club Atlético Chacarita Juniors,43741,Patronato,1.0,3.0,1306002600,Ended,finished,2.0
+1648495,703,Primera Nacional,2923,Primera B Nacional 10/11,35.0,3214,Club Atlético Chacarita Juniors,36842,Independiente Rivadavia,0.0,0.0,1306602000,Ended,finished,3.0
+1648507,703,Primera Nacional,2923,Primera B Nacional 10/11,36.0,36835,Boca Unidos,3214,Club Atlético Chacarita Juniors,0.0,0.0,1307298600,Ended,finished,3.0
+1648517,703,Primera Nacional,2923,Primera B Nacional 10/11,37.0,3214,Club Atlético Chacarita Juniors,4937,Instituto De Córdoba,2.0,0.0,1307817000,Ended,finished,1.0
+1648530,703,Primera Nacional,2923,Primera B Nacional 10/11,38.0,36833,Atlético Tucumán,3214,Club Atlético Chacarita Juniors,0.0,1.0,1308268800,Ended,finished,2.0
+1832941,703,Primera Nacional,3635,Primera B Nacional 11/12,1.0,3211,River Plate,3214,Club Atlético Chacarita Juniors,,,1312657200,Postponed,postponed,
+1863183,703,Primera Nacional,3635,Primera B Nacional 11/12,1.0,3211,River Plate,3214,Club Atlético Chacarita Juniors,1.0,0.0,1313532600,Ended,finished,1.0
+1839657,703,Primera Nacional,3635,Primera B Nacional 11/12,2.0,3214,Club Atlético Chacarita Juniors,52292,Sportivo Desamparados,1.0,0.0,1313935200,Ended,finished,1.0
+1839959,703,Primera Nacional,3635,Primera B Nacional 11/12,3.0,36839,Defensa y Justicia,3214,Club Atlético Chacarita Juniors,3.0,0.0,1314540000,Ended,finished,1.0
+1839983,703,Primera Nacional,3635,Primera B Nacional 11/12,4.0,3214,Club Atlético Chacarita Juniors,3205,Gimnasia y Esgrima,0.0,3.0,1315269300,Ended,finished,2.0
+1840001,703,Primera Nacional,3635,Primera B Nacional 11/12,5.0,53799,Atlanta,3214,Club Atlético Chacarita Juniors,0.0,0.0,1315670400,Ended,finished,3.0
+1840007,703,Primera Nacional,3635,Primera B Nacional 11/12,6.0,3214,Club Atlético Chacarita Juniors,4937,Instituto De Córdoba,0.0,1.0,1316284200,Ended,finished,2.0
+1840061,703,Primera Nacional,3635,Primera B Nacional 11/12,8.0,3214,Club Atlético Chacarita Juniors,53801,Guillermo Brown,1.0,2.0,1317427200,Ended,finished,2.0
+1840073,703,Primera Nacional,3635,Primera B Nacional 11/12,9.0,36835,Boca Unidos,3214,Club Atlético Chacarita Juniors,0.0,0.0,1317859200,Ended,finished,3.0
+1840091,703,Primera Nacional,3635,Primera B Nacional 11/12,10.0,3214,Club Atlético Chacarita Juniors,43740,Almirante Brown,1.0,1.0,1318187400,Ended,finished,3.0
+1840121,703,Primera Nacional,3635,Primera B Nacional 11/12,11.0,36842,Independiente Rivadavia,3214,Club Atlético Chacarita Juniors,1.0,0.0,1318703400,Ended,finished,1.0
+1840029,703,Primera Nacional,3635,Primera B Nacional 11/12,7.0,5292,Gimnasia Y Esgrima De Jujuy,3214,Club Atlético Chacarita Juniors,0.0,1.0,1319243400,Ended,finished,2.0
+1840125,703,Primera Nacional,3635,Primera B Nacional 11/12,12.0,3214,Club Atlético Chacarita Juniors,4936,Quilmes Atlético Club,1.0,3.0,1319994000,Ended,finished,2.0
+1840161,703,Primera Nacional,3635,Primera B Nacional 11/12,13.0,36840,Deportivo Merlo,3214,Club Atlético Chacarita Juniors,1.0,1.0,1320517800,Ended,finished,3.0
+1840181,703,Primera Nacional,3635,Primera B Nacional 11/12,14.0,3214,Club Atlético Chacarita Juniors,36841,Club Ferro Carril Oeste,1.0,1.0,1321143600,Ended,finished,3.0
+1840199,703,Primera Nacional,3635,Primera B Nacional 11/12,15.0,7629,Huracán,3214,Club Atlético Chacarita Juniors,1.0,0.0,1321732800,Ended,finished,1.0
+1840221,703,Primera Nacional,3635,Primera B Nacional 11/12,16.0,3214,Club Atlético Chacarita Juniors,36836,Aldosivi,0.0,2.0,1322433000,Ended,finished,2.0
+1840231,703,Primera Nacional,3635,Primera B Nacional 11/12,17.0,36833,Atlético Tucumán,3214,Club Atlético Chacarita Juniors,1.0,1.0,1322863800,Ended,finished,3.0
+1840255,703,Primera Nacional,3635,Primera B Nacional 11/12,18.0,3214,Club Atlético Chacarita Juniors,3217,Rosario Central,1.0,1.0,1323468000,Ended,finished,3.0
+1840277,703,Primera Nacional,3635,Primera B Nacional 11/12,19.0,43741,Patronato,3214,Club Atlético Chacarita Juniors,0.0,0.0,1328482800,Ended,finished,3.0
+2391823,703,Primera Nacional,3635,Primera B Nacional 11/12,20.0,3214,Club Atlético Chacarita Juniors,3211,River Plate,0.0,2.0,1329076800,Ended,finished,2.0
+2402608,703,Primera Nacional,3635,Primera B Nacional 11/12,21.0,52292,Sportivo Desamparados,3214,Club Atlético Chacarita Juniors,1.0,1.0,1329697800,Ended,finished,3.0
+2402622,703,Primera Nacional,3635,Primera B Nacional 11/12,22.0,3214,Club Atlético Chacarita Juniors,36839,Defensa y Justicia,1.0,1.0,1330200000,Ended,finished,3.0
+2402650,703,Primera Nacional,3635,Primera B Nacional 11/12,23.0,3205,Gimnasia y Esgrima,3214,Club Atlético Chacarita Juniors,2.0,0.0,1330977600,Ended,finished,1.0
+2402666,703,Primera Nacional,3635,Primera B Nacional 11/12,24.0,3214,Club Atlético Chacarita Juniors,53799,Atlanta,1.0,1.0,1331496000,Ended,finished,3.0
+2455892,1024,Copa Argentina,4408,Copa Argentina 11/12,5.0,3214,Club Atlético Chacarita Juniors,3201,San Lorenzo,2.0,4.0,1331770200,Ended,finished,3.0
+2402690,703,Primera Nacional,3635,Primera B Nacional 11/12,25.0,4937,Instituto De Córdoba,3214,Club Atlético Chacarita Juniors,3.0,1.0,1332202500,Ended,finished,1.0
+2402714,703,Primera Nacional,3635,Primera B Nacional 11/12,26.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,1.0,1.0,1332702000,Ended,finished,3.0
+2402726,703,Primera Nacional,3635,Primera B Nacional 11/12,27.0,53801,Guillermo Brown,3214,Club Atlético Chacarita Juniors,5.0,2.0,1333306800,Ended,finished,1.0
+2402814,703,Primera Nacional,3635,Primera B Nacional 11/12,28.0,3214,Club Atlético Chacarita Juniors,36835,Boca Unidos,,,1333893600,Postponed,postponed,
+2402818,703,Primera Nacional,3635,Primera B Nacional 11/12,29.0,43740,Almirante Brown,3214,Club Atlético Chacarita Juniors,0.0,0.0,1334689200,Ended,finished,3.0
+2402840,703,Primera Nacional,3635,Primera B Nacional 11/12,30.0,3214,Club Atlético Chacarita Juniors,36842,Independiente Rivadavia,0.0,1.0,1335119400,Ended,finished,2.0
+2638794,703,Primera Nacional,3635,Primera B Nacional 11/12,28.0,3214,Club Atlético Chacarita Juniors,36835,Boca Unidos,0.0,4.0,1335378600,Ended,finished,2.0
+2402868,703,Primera Nacional,3635,Primera B Nacional 11/12,31.0,4936,Quilmes Atlético Club,3214,Club Atlético Chacarita Juniors,1.0,0.0,1335726000,Ended,finished,1.0
+2402878,703,Primera Nacional,3635,Primera B Nacional 11/12,32.0,3214,Club Atlético Chacarita Juniors,36840,Deportivo Merlo,1.0,0.0,1336415400,Ended,finished,1.0
+2402900,703,Primera Nacional,3635,Primera B Nacional 11/12,33.0,36841,Club Ferro Carril Oeste,3214,Club Atlético Chacarita Juniors,0.0,0.0,1336847400,Ended,finished,3.0
+2402936,703,Primera Nacional,3635,Primera B Nacional 11/12,34.0,3214,Club Atlético Chacarita Juniors,7629,Huracán,1.0,0.0,1337364000,Ended,finished,1.0
+2402942,703,Primera Nacional,3635,Primera B Nacional 11/12,35.0,36836,Aldosivi,3214,Club Atlético Chacarita Juniors,1.0,0.0,1338057000,Ended,finished,1.0
+2402966,703,Primera Nacional,3635,Primera B Nacional 11/12,36.0,3214,Club Atlético Chacarita Juniors,36833,Atlético Tucumán,0.0,0.0,1339261200,Ended,finished,3.0
+2402988,703,Primera Nacional,3635,Primera B Nacional 11/12,37.0,3217,Rosario Central,3214,Club Atlético Chacarita Juniors,1.0,3.0,1339941600,Ended,finished,2.0
+2403002,703,Primera Nacional,3635,Primera B Nacional 11/12,38.0,3214,Club Atlético Chacarita Juniors,43741,Patronato,3.0,0.0,1340474400,Ended,finished,1.0
+2772552,703,Primera Nacional,3635,Primera B Nacional 11/12,1.0,3200,Nueva Chicago,3214,Club Atlético Chacarita Juniors,1.0,0.0,1340820600,Ended,finished,1.0
+2772556,703,Primera Nacional,3635,Primera B Nacional 11/12,1.0,3214,Club Atlético Chacarita Juniors,3200,Nueva Chicago,1.0,1.0,1341072000,Ended,finished,3.0
+4156269,1347,Primera B Metropolitana,6811,Primera B 13/14,1.0,3214,Club Atlético Chacarita Juniors,93513,Tristán Suárez,0.0,0.0,1375833600,Ended,finished,3.0
+4162521,1347,Primera B Metropolitana,6811,Primera B 13/14,2.0,112493,Colegiales,3214,Club Atlético Chacarita Juniors,1.0,0.0,1376505000,Ended,finished,1.0
+4162537,1347,Primera B Metropolitana,6811,Primera B 13/14,3.0,3214,Club Atlético Chacarita Juniors,112501,Club Comunicaciones,2.0,0.0,1376937000,Ended,finished,1.0
+4162553,1347,Primera B Metropolitana,6811,Primera B 13/14,4.0,53799,Atlanta,3214,Club Atlético Chacarita Juniors,0.0,2.0,1377360000,Ended,finished,2.0
+4162577,1347,Primera B Metropolitana,6811,Primera B 13/14,5.0,3214,Club Atlético Chacarita Juniors,93105,Deportivo Armenio,1.0,0.0,1377905400,Ended,finished,1.0
+4162599,1347,Primera B Metropolitana,6811,Primera B 13/14,6.0,93107,Estudiantes de Buenos Aires,3214,Club Atlético Chacarita Juniors,0.0,0.0,1378512000,Ended,finished,3.0
+4162619,1347,Primera B Metropolitana,6811,Primera B 13/14,7.0,3214,Club Atlético Chacarita Juniors,112507,UAI Urquiza,3.0,0.0,1378837800,Ended,finished,1.0
+4162639,1347,Primera B Metropolitana,6811,Primera B 13/14,8.0,93109,Deportivo Morón,3214,Club Atlético Chacarita Juniors,3.0,1.0,1379462400,Ended,finished,1.0
+4162661,1347,Primera B Metropolitana,6811,Primera B 13/14,9.0,3214,Club Atlético Chacarita Juniors,52215,Defensores de Belgrano,0.0,2.0,1379800800,Ended,finished,2.0
+4162679,1347,Primera B Metropolitana,6811,Primera B 13/14,10.0,112505,CSD Flandria,3214,Club Atlético Chacarita Juniors,1.0,0.0,1380382200,Ended,finished,1.0
+4162699,1347,Primera B Metropolitana,6811,Primera B 13/14,11.0,3214,Club Atlético Chacarita Juniors,112497,Los Andes,2.0,2.0,1380906000,Ended,finished,3.0
+4162717,1347,Primera B Metropolitana,6811,Primera B 13/14,12.0,112491,Acassuso,3214,Club Atlético Chacarita Juniors,1.0,1.0,1381276800,Ended,finished,3.0
+4162733,1347,Primera B Metropolitana,6811,Primera B 13/14,13.0,3214,Club Atlético Chacarita Juniors,36837,Club Atlético Platense,0.0,1.0,1381593900,Ended,finished,2.0
+4162757,1347,Primera B Metropolitana,6811,Primera B 13/14,14.0,65668,Barracas Central,3214,Club Atlético Chacarita Juniors,1.0,0.0,1382205900,Ended,finished,1.0
+4162771,1347,Primera B Metropolitana,6811,Primera B 13/14,15.0,3214,Club Atlético Chacarita Juniors,3200,Nueva Chicago,1.0,0.0,1383084000,Ended,finished,1.0
+4162797,1347,Primera B Metropolitana,6811,Primera B 13/14,16.0,112509,Villa Dálmine,3214,Club Atlético Chacarita Juniors,1.0,1.0,1383517800,Removed,finished,3.0
+4162817,1347,Primera B Metropolitana,6811,Primera B 13/14,17.0,3214,Club Atlético Chacarita Juniors,4938,Almagro,1.0,0.0,1383948000,Removed,finished,1.0
+4525578,1347,Primera B Metropolitana,6811,Primera B 13/14,19.0,36840,Deportivo Merlo,3214,Club Atlético Chacarita Juniors,0.0,1.0,1385496000,Ended,finished,2.0
+4162877,1347,Primera B Metropolitana,6811,Primera B 13/14,20.0,3214,Club Atlético Chacarita Juniors,112495,Fénix,1.0,3.0,1385841600,Ended,finished,2.0
+4162901,1347,Primera B Metropolitana,6811,Primera B 13/14,21.0,112499,Temperley,3214,Club Atlético Chacarita Juniors,1.0,2.0,1386532800,Ended,finished,2.0
+4162917,1347,Primera B Metropolitana,6811,Primera B 13/14,22.0,93513,Tristán Suárez,3214,Club Atlético Chacarita Juniors,1.0,2.0,1391889600,Postponed,postponed,
+4162941,1347,Primera B Metropolitana,6811,Primera B 13/14,23.0,3214,Club Atlético Chacarita Juniors,112493,Colegiales,,,1392148800,Postponed,postponed,
+4162957,1347,Primera B Metropolitana,6811,Primera B 13/14,24.0,112501,Club Comunicaciones,3214,Club Atlético Chacarita Juniors,1.0,1.0,1392494400,Removed,finished,3.0
+4162975,1347,Primera B Metropolitana,6811,Primera B 13/14,25.0,3214,Club Atlético Chacarita Juniors,53799,Atlanta,1.0,2.0,1393099200,Ended,finished,2.0
+4162999,1347,Primera B Metropolitana,6811,Primera B 13/14,26.0,93105,Deportivo Armenio,3214,Club Atlético Chacarita Juniors,2.0,2.0,1393790400,Ended,finished,3.0
+4163021,1347,Primera B Metropolitana,6811,Primera B 13/14,27.0,3214,Club Atlético Chacarita Juniors,93107,Estudiantes de Buenos Aires,1.0,0.0,1394395200,Ended,finished,1.0
+4163041,1347,Primera B Metropolitana,6811,Primera B 13/14,28.0,112507,UAI Urquiza,3214,Club Atlético Chacarita Juniors,0.0,0.0,1394647500,Ended,finished,3.0
+4163061,1347,Primera B Metropolitana,6811,Primera B 13/14,29.0,3214,Club Atlético Chacarita Juniors,93109,Deportivo Morón,0.0,2.0,1395187500,Ended,finished,2.0
+4163083,1347,Primera B Metropolitana,6811,Primera B 13/14,30.0,52215,Defensores de Belgrano,3214,Club Atlético Chacarita Juniors,2.0,0.0,1395518700,Ended,finished,1.0
+4163101,1347,Primera B Metropolitana,6811,Primera B 13/14,31.0,3214,Club Atlético Chacarita Juniors,112505,CSD Flandria,1.0,1.0,1396101600,Removed,finished,3.0
+4163121,1347,Primera B Metropolitana,6811,Primera B 13/14,32.0,112497,Los Andes,3214,Club Atlético Chacarita Juniors,,,1396722600,Postponed,postponed,
+4163141,1347,Primera B Metropolitana,6811,Primera B 13/14,33.0,3214,Club Atlético Chacarita Juniors,112491,Acassuso,2.0,1.0,1397066700,Ended,finished,1.0
+4163157,1347,Primera B Metropolitana,6811,Primera B 13/14,34.0,36837,Club Atlético Platense,3214,Club Atlético Chacarita Juniors,2.0,2.0,1397397600,Ended,finished,3.0
+5329952,1347,Primera B Metropolitana,6811,Primera B 13/14,23.0,3214,Club Atlético Chacarita Juniors,112493,Colegiales,1.0,0.0,1397673000,Ended,finished,1.0
+4163181,1347,Primera B Metropolitana,6811,Primera B 13/14,35.0,3214,Club Atlético Chacarita Juniors,65668,Barracas Central,0.0,0.0,1397916000,Ended,finished,3.0
+4163195,1347,Primera B Metropolitana,6811,Primera B 13/14,36.0,3200,Nueva Chicago,3214,Club Atlético Chacarita Juniors,1.0,3.0,1398189900,Ended,finished,2.0
+4163221,1347,Primera B Metropolitana,6811,Primera B 13/14,37.0,3214,Club Atlético Chacarita Juniors,112509,Villa Dálmine,1.0,1.0,1398520800,Ended,finished,3.0
+5381570,1347,Primera B Metropolitana,6811,Primera B 13/14,32.0,112497,Los Andes,3214,Club Atlético Chacarita Juniors,5.0,1.0,1398883500,Ended,finished,1.0
+4163241,1347,Primera B Metropolitana,6811,Primera B 13/14,38.0,4938,Almagro,3214,Club Atlético Chacarita Juniors,2.0,1.0,1399147500,Ended,finished,1.0
+5431884,1347,Primera B Metropolitana,6811,Primera B 13/14,40.0,3214,Club Atlético Chacarita Juniors,36840,Deportivo Merlo,1.0,2.0,1400005800,Ended,finished,2.0
+4163285,1347,Primera B Metropolitana,6811,Primera B 13/14,40.0,3214,Club Atlético Chacarita Juniors,93105,Deportivo Armenio,,,1400005800,Ended,finished,
+4163303,1347,Primera B Metropolitana,6811,Primera B 13/14,41.0,112495,Fénix,3214,Club Atlético Chacarita Juniors,1.0,0.0,1400544000,Ended,finished,1.0
+4163327,1347,Primera B Metropolitana,6811,Primera B 13/14,42.0,3214,Club Atlético Chacarita Juniors,112499,Temperley,2.0,0.0,1401028200,Ended,finished,1.0
+5751280,1347,Primera B Metropolitana,8560,Primera B 2014,1.0,3214,Club Atlético Chacarita Juniors,165914,Deportivo Español,,,1407002400,Postponed,postponed,
+5816882,1347,Primera B Metropolitana,8560,Primera B 2014,1.0,3214,Club Atlético Chacarita Juniors,165914,Deportivo Español,3.0,1.0,1407538800,Ended,finished,1.0
+5751294,1347,Primera B Metropolitana,8560,Primera B 2014,2.0,53799,Atlanta,3214,Club Atlético Chacarita Juniors,1.0,2.0,1407888300,Ended,finished,2.0
+5752880,1347,Primera B Metropolitana,8560,Primera B 2014,3.0,3214,Club Atlético Chacarita Juniors,93513,Tristán Suárez,1.0,1.0,1408205100,Ended,finished,3.0
+5752884,1347,Primera B Metropolitana,8560,Primera B 2014,4.0,112493,Colegiales,3214,Club Atlético Chacarita Juniors,0.0,1.0,1408645800,Ended,finished,2.0
+5752962,1347,Primera B Metropolitana,8560,Primera B 2014,5.0,3214,Club Atlético Chacarita Juniors,112495,Fénix,0.0,1.0,1409011500,Ended,finished,2.0
+5752982,1347,Primera B Metropolitana,8560,Primera B 2014,7.0,43740,Almirante Brown,3214,Club Atlético Chacarita Juniors,0.0,0.0,1409596200,Ended,finished,3.0
+5752984,1347,Primera B Metropolitana,8560,Primera B 2014,8.0,3214,Club Atlético Chacarita Juniors,93107,Estudiantes de Buenos Aires,1.0,2.0,1410221100,Ended,finished,2.0
+5753000,1347,Primera B Metropolitana,8560,Primera B 2014,9.0,107201,Brown de Adrogué,3214,Club Atlético Chacarita Juniors,0.0,0.0,1410460200,Ended,finished,3.0
+5753006,1347,Primera B Metropolitana,8560,Primera B 2014,10.0,3214,Club Atlético Chacarita Juniors,36840,Deportivo Merlo,3.0,0.0,1410998700,Ended,finished,1.0
+5753018,1347,Primera B Metropolitana,8560,Primera B 2014,11.0,112509,Villa Dálmine,3214,Club Atlético Chacarita Juniors,1.0,1.0,1411517100,Ended,finished,3.0
+5753028,1347,Primera B Metropolitana,8560,Primera B 2014,12.0,165914,Deportivo Español,3214,Club Atlético Chacarita Juniors,0.0,3.0,1411929000,Ended,finished,2.0
+5753036,1347,Primera B Metropolitana,8560,Primera B 2014,13.0,3214,Club Atlético Chacarita Juniors,53799,Atlanta,1.0,0.0,1412273100,Ended,finished,1.0
+5753050,1347,Primera B Metropolitana,8560,Primera B 2014,14.0,93513,Tristán Suárez,3214,Club Atlético Chacarita Juniors,0.0,2.0,1412519700,Ended,finished,2.0
+5753054,1347,Primera B Metropolitana,8560,Primera B 2014,15.0,3214,Club Atlético Chacarita Juniors,112493,Colegiales,2.0,1.0,1413223500,Ended,finished,1.0
+5753072,1347,Primera B Metropolitana,8560,Primera B 2014,16.0,112495,Fénix,3214,Club Atlético Chacarita Juniors,1.0,1.0,1413657000,Ended,finished,3.0
+5753092,1347,Primera B Metropolitana,8560,Primera B 2014,18.0,3214,Club Atlético Chacarita Juniors,43740,Almirante Brown,1.0,1.0,1414541100,Postponed,postponed,
+5753094,1347,Primera B Metropolitana,8560,Primera B 2014,19.0,93107,Estudiantes de Buenos Aires,3214,Club Atlético Chacarita Juniors,1.0,4.0,1414937100,Removed,finished,2.0
+5753110,1347,Primera B Metropolitana,8560,Primera B 2014,20.0,3214,Club Atlético Chacarita Juniors,107201,Brown de Adrogué,4.0,1.0,1415304000,Ended,finished,1.0
+5753118,1347,Primera B Metropolitana,8560,Primera B 2014,21.0,36840,Deportivo Merlo,3214,Club Atlético Chacarita Juniors,0.0,4.0,1415543700,Ended,finished,2.0
+5753130,1347,Primera B Metropolitana,8560,Primera B 2014,22.0,3214,Club Atlético Chacarita Juniors,112509,Villa Dálmine,1.0,0.0,1416340800,Ended,finished,1.0
+6652442,703,Primera Nacional,9817,Primera B Nacional 2015,1.0,65664,Sportivo Belgrano,3214,Club Atlético Chacarita Juniors,0.0,0.0,1423872000,Ended,finished,3.0
+6675491,703,Primera Nacional,9817,Primera B Nacional 2015,2.0,3214,Club Atlético Chacarita Juniors,189720,Unión de Mar Del Plata,3.0,1.0,1424469600,Ended,finished,1.0
+6675499,703,Primera Nacional,9817,Primera B Nacional 2015,3.0,112497,Los Andes,3214,Club Atlético Chacarita Juniors,1.0,0.0,1425067200,Ended,finished,1.0
+6675513,703,Primera Nacional,9817,Primera B Nacional 2015,4.0,3214,Club Atlético Chacarita Juniors,36835,Boca Unidos,2.0,1.0,1425672000,Ended,finished,1.0
+6675520,703,Primera Nacional,9817,Primera B Nacional 2015,5.0,188441,Gimnasia y Esgrima Mendoza,3214,Club Atlético Chacarita Juniors,2.0,1.0,1426359600,Ended,finished,1.0
+6675526,703,Primera Nacional,9817,Primera B Nacional 2015,6.0,3214,Club Atlético Chacarita Juniors,65676,Central Córdoba,2.0,0.0,1426878000,Ended,finished,1.0
+6675547,703,Primera Nacional,9817,Primera B Nacional 2015,7.0,36841,Club Ferro Carril Oeste,3214,Club Atlético Chacarita Juniors,1.0,1.0,1427235300,Ended,finished,3.0
+6675553,703,Primera Nacional,9817,Primera B Nacional 2015,8.0,3214,Club Atlético Chacarita Juniors,112509,Villa Dálmine,1.0,0.0,1427565600,Ended,finished,1.0
+6675564,703,Primera Nacional,9817,Primera B Nacional 2015,9.0,36833,Atlético Tucumán,3214,Club Atlético Chacarita Juniors,2.0,1.0,1428272100,Ended,finished,1.0
+6675575,703,Primera Nacional,9817,Primera B Nacional 2015,10.0,3214,Club Atlético Chacarita Juniors,53801,Guillermo Brown,2.0,0.0,1428854400,Ended,finished,1.0
+6675594,703,Primera Nacional,9817,Primera B Nacional 2015,11.0,4937,Instituto De Córdoba,3214,Club Atlético Chacarita Juniors,2.0,2.0,1429470900,Ended,finished,3.0
+6675602,703,Primera Nacional,9817,Primera B Nacional 2015,12.0,3214,Club Atlético Chacarita Juniors,165912,CYB Ramón Santamarina,1.0,3.0,1429989000,Ended,finished,2.0
+6675610,703,Primera Nacional,9817,Primera B Nacional 2015,13.0,188414,Atlético Paraná,3214,Club Atlético Chacarita Juniors,3.0,1.0,1430593800,Ended,finished,1.0
+6675613,703,Primera Nacional,9817,Primera B Nacional 2015,14.0,165910,CD Guarani A.F.,3214,Club Atlético Chacarita Juniors,2.0,2.0,1430943000,Ended,finished,3.0
+6675637,703,Primera Nacional,9817,Primera B Nacional 2015,15.0,3214,Club Atlético Chacarita Juniors,36842,Independiente Rivadavia,0.0,0.0,1431198600,Ended,finished,3.0
+6675644,703,Primera Nacional,9817,Primera B Nacional 2015,16.0,189721,Juventud Unida Gualeguaychú,3214,Club Atlético Chacarita Juniors,,,1431714600,Canceled,canceled,
+6746900,1024,Copa Argentina,10242,Copa Argentina 14/15,6.0,3212,Newell's Old Boys,3214,Club Atlético Chacarita Juniors,0.0,2.0,1432062000,Ended,finished,2.0
+6747119,703,Primera Nacional,9817,Primera B Nacional 2015,16.0,189721,Juventud Unida Gualeguaychú,3214,Club Atlético Chacarita Juniors,2.0,1.0,1432405800,Ended,finished,1.0
+6675660,703,Primera Nacional,9817,Primera B Nacional 2015,17.0,3214,Club Atlético Chacarita Juniors,43741,Patronato,1.0,1.0,1432998000,Ended,finished,3.0
+6675669,703,Primera Nacional,9817,Primera B Nacional 2015,18.0,36834,All Boys,3214,Club Atlético Chacarita Juniors,4.0,1.0,1433610000,Abandoned,canceled,1.0
+6675673,703,Primera Nacional,9817,Primera B Nacional 2015,19.0,3214,Club Atlético Chacarita Juniors,76199,Douglas Haig,0.0,0.0,1434308400,Ended,finished,3.0
+6675686,703,Primera Nacional,9817,Primera B Nacional 2015,20.0,5292,Gimnasia Y Esgrima De Jujuy,3214,Club Atlético Chacarita Juniors,3.0,2.0,1434913200,Ended,finished,1.0
+6675693,703,Primera Nacional,9817,Primera B Nacional 2015,21.0,3214,Club Atlético Chacarita Juniors,1134718,Sportivo Estudiantes,1.0,1.0,1435432200,Ended,finished,3.0
+6675734,703,Primera Nacional,9817,Primera B Nacional 2015,22.0,3214,Club Atlético Chacarita Juniors,65664,Sportivo Belgrano,0.0,0.0,1436029200,Ended,finished,3.0
+6675707,703,Primera Nacional,9817,Primera B Nacional 2015,23.0,189720,Unión de Mar Del Plata,3214,Club Atlético Chacarita Juniors,4.0,1.0,1436386200,Ended,finished,1.0
+6675740,703,Primera Nacional,9817,Primera B Nacional 2015,24.0,3214,Club Atlético Chacarita Juniors,112497,Los Andes,1.0,2.0,1436810400,Ended,finished,2.0
+6675720,703,Primera Nacional,9817,Primera B Nacional 2015,25.0,36835,Boca Unidos,3214,Club Atlético Chacarita Juniors,4.0,1.0,1437156000,Ended,finished,1.0
+6808653,1024,Copa Argentina,10242,Copa Argentina 14/15,5.0,3214,Club Atlético Chacarita Juniors,36834,All Boys,2.0,1.0,1437501600,Ended,finished,1.0
+6675763,703,Primera Nacional,9817,Primera B Nacional 2015,26.0,3214,Club Atlético Chacarita Juniors,188441,Gimnasia y Esgrima Mendoza,1.0,0.0,1437836400,Ended,finished,1.0
+6675769,703,Primera Nacional,9817,Primera B Nacional 2015,27.0,65676,Central Córdoba,3214,Club Atlético Chacarita Juniors,0.0,1.0,1438387200,Ended,finished,2.0
+6675801,703,Primera Nacional,9817,Primera B Nacional 2015,28.0,3214,Club Atlético Chacarita Juniors,36841,Club Ferro Carril Oeste,2.0,0.0,1439316000,Ended,finished,1.0
+6675776,703,Primera Nacional,9817,Primera B Nacional 2015,29.0,112509,Villa Dálmine,3214,Club Atlético Chacarita Juniors,0.0,0.0,1439755800,Ended,finished,3.0
+6856057,1024,Copa Argentina,10242,Copa Argentina 14/15,4.0,3214,Club Atlético Chacarita Juniors,36839,Defensa y Justicia,0.0,1.0,1440093600,Ended,finished,2.0
+6675805,703,Primera Nacional,9817,Primera B Nacional 2015,30.0,3214,Club Atlético Chacarita Juniors,36833,Atlético Tucumán,1.0,3.0,1440442800,Ended,finished,2.0
+6675797,703,Primera Nacional,9817,Primera B Nacional 2015,31.0,53801,Guillermo Brown,3214,Club Atlético Chacarita Juniors,1.0,0.0,1440961200,Ended,finished,1.0
+6675835,703,Primera Nacional,9817,Primera B Nacional 2015,32.0,3214,Club Atlético Chacarita Juniors,4937,Instituto De Córdoba,1.0,0.0,1441468800,Ended,finished,1.0
+6675830,703,Primera Nacional,9817,Primera B Nacional 2015,33.0,165912,CYB Ramón Santamarina,3214,Club Atlético Chacarita Juniors,2.0,0.0,1442100600,Ended,finished,1.0
+6675813,703,Primera Nacional,9817,Primera B Nacional 2015,34.0,3214,Club Atlético Chacarita Juniors,188414,Atlético Paraná,1.0,0.0,1442602800,Ended,finished,1.0
+6675847,703,Primera Nacional,9817,Primera B Nacional 2015,35.0,3214,Club Atlético Chacarita Juniors,165910,CD Guarani A.F.,3.0,1.0,1443035400,Ended,finished,1.0
+6675844,703,Primera Nacional,9817,Primera B Nacional 2015,36.0,36842,Independiente Rivadavia,3214,Club Atlético Chacarita Juniors,1.0,1.0,1443380400,Ended,finished,3.0
+6675849,703,Primera Nacional,9817,Primera B Nacional 2015,37.0,3214,Club Atlético Chacarita Juniors,189721,Juventud Unida Gualeguaychú,2.0,1.0,1443898800,Ended,finished,1.0
+6675895,703,Primera Nacional,9817,Primera B Nacional 2015,38.0,43741,Patronato,3214,Club Atlético Chacarita Juniors,6.0,2.0,1444599000,Ended,finished,1.0
+6675907,703,Primera Nacional,9817,Primera B Nacional 2015,39.0,3214,Club Atlético Chacarita Juniors,36834,All Boys,3.0,1.0,1445097600,Ended,finished,1.0
+6675916,703,Primera Nacional,9817,Primera B Nacional 2015,40.0,76199,Douglas Haig,3214,Club Atlético Chacarita Juniors,2.0,1.0,1446403500,Ended,finished,1.0
+6675934,703,Primera Nacional,9817,Primera B Nacional 2015,41.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,0.0,2.0,1446915600,Ended,finished,2.0
+6675890,703,Primera Nacional,9817,Primera B Nacional 2015,42.0,1134718,Sportivo Estudiantes,3214,Club Atlético Chacarita Juniors,3.0,2.0,1447617600,Ended,finished,1.0
+6984199,703,Primera Nacional,11238,Primera B Nacional 2016,1.0,36834,All Boys,3214,Club Atlético Chacarita Juniors,1.0,0.0,1454190900,Ended,finished,1.0
+6985102,703,Primera Nacional,11238,Primera B Nacional 2016,2.0,3214,Club Atlético Chacarita Juniors,107201,Brown de Adrogué,2.0,0.0,1454788800,Ended,finished,1.0
+6985127,703,Primera Nacional,11238,Primera B Nacional 2016,3.0,36835,Boca Unidos,3214,Club Atlético Chacarita Juniors,1.0,0.0,1455480000,Ended,finished,1.0
+6985105,703,Primera Nacional,11238,Primera B Nacional 2016,4.0,53801,Guillermo Brown,3214,Club Atlético Chacarita Juniors,3.0,0.0,1456084800,Ended,finished,1.0
+6985227,703,Primera Nacional,11238,Primera B Nacional 2016,5.0,3214,Club Atlético Chacarita Juniors,189721,Juventud Unida Gualeguaychú,1.0,0.0,1456603200,Ended,finished,1.0
+6985217,703,Primera Nacional,11238,Primera B Nacional 2016,6.0,112509,Villa Dálmine,3214,Club Atlético Chacarita Juniors,0.0,1.0,1457395500,Ended,finished,2.0
+6985236,703,Primera Nacional,11238,Primera B Nacional 2016,7.0,3214,Club Atlético Chacarita Juniors,273210,Juventud Unida Universitario,1.0,1.0,1457813100,Ended,finished,3.0
+6985185,703,Primera Nacional,11238,Primera B Nacional 2016,8.0,65676,Central Córdoba,3214,Club Atlético Chacarita Juniors,1.0,1.0,1458349200,Ended,finished,3.0
+6985197,703,Primera Nacional,11238,Primera B Nacional 2016,9.0,3214,Club Atlético Chacarita Juniors,36841,Club Ferro Carril Oeste,2.0,0.0,1459103400,Ended,finished,1.0
+6985183,703,Primera Nacional,11238,Primera B Nacional 2016,10.0,4937,Instituto De Córdoba,3214,Club Atlético Chacarita Juniors,0.0,3.0,1459814700,Ended,finished,2.0
+6985256,703,Primera Nacional,11238,Primera B Nacional 2016,11.0,3214,Club Atlético Chacarita Juniors,3200,Nueva Chicago,0.0,1.0,1460228700,Ended,finished,2.0
+6985282,703,Primera Nacional,11238,Primera B Nacional 2016,12.0,73364,Crucero del Norte,3214,Club Atlético Chacarita Juniors,1.0,1.0,1460745300,Ended,finished,3.0
+6985270,703,Primera Nacional,11238,Primera B Nacional 2016,13.0,3214,Club Atlético Chacarita Juniors,112497,Los Andes,3.0,0.0,1461350100,Ended,finished,1.0
+6985292,703,Primera Nacional,11238,Primera B Nacional 2016,14.0,4938,Almagro,3214,Club Atlético Chacarita Juniors,1.0,2.0,1461971100,Ended,finished,2.0
+6985309,703,Primera Nacional,11238,Primera B Nacional 2016,15.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,1.0,0.0,1462649700,Ended,finished,1.0
+6985300,703,Primera Nacional,11238,Primera B Nacional 2016,16.0,188414,Atlético Paraná,3214,Club Atlético Chacarita Juniors,1.0,3.0,1463177100,Ended,finished,2.0
+6985301,703,Primera Nacional,11238,Primera B Nacional 2016,17.0,3214,Club Atlético Chacarita Juniors,76199,Douglas Haig,1.0,0.0,1463850300,Ended,finished,1.0
+6985342,703,Primera Nacional,11238,Primera B Nacional 2016,18.0,1134718,Sportivo Estudiantes,3214,Club Atlético Chacarita Juniors,0.0,1.0,1464653100,Ended,finished,2.0
+6985360,703,Primera Nacional,11238,Primera B Nacional 2016,19.0,3214,Club Atlético Chacarita Juniors,36842,Independiente Rivadavia,4.0,0.0,1465151400,Ended,finished,1.0
+6985348,703,Primera Nacional,11238,Primera B Nacional 2016,20.0,165912,CYB Ramón Santamarina,3214,Club Atlético Chacarita Juniors,0.0,2.0,1465740000,Ended,finished,2.0
+6985339,703,Primera Nacional,11238,Primera B Nacional 2016,21.0,3214,Club Atlético Chacarita Juniors,3210,CA Talleres,1.0,1.0,1466272800,Ended,finished,3.0
+7187793,703,Primera Nacional,12237,Primera B Nacional 16/17,1.0,3214,Club Atlético Chacarita Juniors,4937,Instituto De Córdoba,1.0,1.0,1472328300,Ended,finished,3.0
+7206196,703,Primera Nacional,12237,Primera B Nacional 16/17,3.0,23950,San Martín de Tucumán,3214,Club Atlético Chacarita Juniors,0.0,2.0,1473525300,Ended,finished,2.0
+7217381,703,Primera Nacional,12237,Primera B Nacional 16/17,4.0,3214,Club Atlético Chacarita Juniors,73364,Crucero del Norte,1.0,0.0,1474067100,Ended,finished,1.0
+7218113,703,Primera Nacional,12237,Primera B Nacional 16/17,5.0,1134718,Sportivo Estudiantes,3214,Club Atlético Chacarita Juniors,1.0,1.0,1474482900,Ended,finished,3.0
+7223259,703,Primera Nacional,12237,Primera B Nacional 16/17,6.0,3214,Club Atlético Chacarita Juniors,76199,Douglas Haig,,,1474934700,Canceled,canceled,
+7224348,703,Primera Nacional,12237,Primera B Nacional 16/17,7.0,112509,Villa Dálmine,3214,Club Atlético Chacarita Juniors,,,1475346600,Canceled,canceled,
+7224359,703,Primera Nacional,12237,Primera B Nacional 16/17,8.0,3214,Club Atlético Chacarita Juniors,188414,Atlético Paraná,0.0,2.0,1475957100,Ended,finished,2.0
+7224374,703,Primera Nacional,12237,Primera B Nacional 16/17,9.0,107201,Brown de Adrogué,3214,Club Atlético Chacarita Juniors,1.0,2.0,1476383700,Ended,finished,2.0
+7224379,703,Primera Nacional,12237,Primera B Nacional 16/17,10.0,3214,Club Atlético Chacarita Juniors,53801,Guillermo Brown,0.0,2.0,1476835500,Ended,finished,2.0
+7224398,703,Primera Nacional,12237,Primera B Nacional 16/17,11.0,36834,All Boys,3214,Club Atlético Chacarita Juniors,1.0,0.0,1477148700,Ended,finished,1.0
+7224403,703,Primera Nacional,12237,Primera B Nacional 16/17,12.0,3214,Club Atlético Chacarita Juniors,36841,Club Ferro Carril Oeste,1.0,0.0,1477695900,Ended,finished,1.0
+7266401,703,Primera Nacional,12237,Primera B Nacional 16/17,6.0,3214,Club Atlético Chacarita Juniors,76199,Douglas Haig,1.0,0.0,1478131500,Ended,finished,1.0
+7224423,703,Primera Nacional,12237,Primera B Nacional 16/17,13.0,4938,Almagro,3214,Club Atlético Chacarita Juniors,3.0,0.0,1478563500,Ended,finished,1.0
+7224433,703,Primera Nacional,12237,Primera B Nacional 16/17,14.0,3214,Club Atlético Chacarita Juniors,65676,Central Córdoba,4.0,0.0,1478977500,Ended,finished,1.0
+7224443,703,Primera Nacional,12237,Primera B Nacional 16/17,15.0,36835,Boca Unidos,3214,Club Atlético Chacarita Juniors,1.0,0.0,1479585900,Ended,finished,1.0
+7224452,703,Primera Nacional,12237,Primera B Nacional 16/17,16.0,3214,Club Atlético Chacarita Juniors,36842,Independiente Rivadavia,1.0,0.0,1479859500,Ended,finished,1.0
+7224466,703,Primera Nacional,12237,Primera B Nacional 16/17,17.0,165912,CYB Ramón Santamarina,3214,Club Atlético Chacarita Juniors,1.0,1.0,1480372200,Ended,finished,3.0
+7224470,703,Primera Nacional,12237,Primera B Nacional 16/17,18.0,3214,Club Atlético Chacarita Juniors,112505,CSD Flandria,3.0,2.0,1480806300,Ended,finished,1.0
+7224489,703,Primera Nacional,12237,Primera B Nacional 16/17,19.0,189721,Juventud Unida Gualeguaychú,3214,Club Atlético Chacarita Juniors,2.0,3.0,1481400300,Ended,finished,2.0
+7224506,703,Primera Nacional,12237,Primera B Nacional 16/17,20.0,3214,Club Atlético Chacarita Juniors,112497,Los Andes,1.0,1.0,1481673900,Ended,finished,3.0
+7224508,703,Primera Nacional,12237,Primera B Nacional 16/17,21.0,5292,Gimnasia Y Esgrima De Jujuy,3214,Club Atlético Chacarita Juniors,0.0,2.0,1482091200,Ended,finished,2.0
+7224654,703,Primera Nacional,12237,Primera B Nacional 16/17,22.0,3214,Club Atlético Chacarita Juniors,3200,Nueva Chicago,,,1485631800,Canceled,canceled,
+7224653,703,Primera Nacional,12237,Primera B Nacional 16/17,23.0,3216,Argentinos Juniors,3214,Club Atlético Chacarita Juniors,,,1486236600,Canceled,canceled,
+7224678,703,Primera Nacional,12237,Primera B Nacional 16/17,24.0,4937,Instituto De Córdoba,3214,Club Atlético Chacarita Juniors,,,1486841400,Canceled,canceled,
+7224697,703,Primera Nacional,12237,Primera B Nacional 16/17,26.0,3214,Club Atlético Chacarita Juniors,23950,San Martín de Tucumán,,,1488051000,Canceled,canceled,
+7350337,703,Primera Nacional,12237,Primera B Nacional 16/17,22.0,3214,Club Atlético Chacarita Juniors,3200,Nueva Chicago,2.0,3.0,1489176300,Ended,finished,2.0
+7355432,703,Primera Nacional,12237,Primera B Nacional 16/17,7.0,112509,Villa Dálmine,3214,Club Atlético Chacarita Juniors,0.0,0.0,1489619100,Ended,finished,3.0
+7350340,703,Primera Nacional,12237,Primera B Nacional 16/17,23.0,3216,Argentinos Juniors,3214,Club Atlético Chacarita Juniors,1.0,0.0,1490054700,Ended,finished,1.0
+7350366,703,Primera Nacional,12237,Primera B Nacional 16/17,24.0,4937,Instituto De Córdoba,3214,Club Atlético Chacarita Juniors,2.0,3.0,1490475900,Ended,finished,2.0
+7350382,703,Primera Nacional,12237,Primera B Nacional 16/17,26.0,3214,Club Atlético Chacarita Juniors,23950,San Martín de Tucumán,1.0,0.0,1491685500,Ended,finished,1.0
+7224685,703,Primera Nacional,12237,Primera B Nacional 16/17,27.0,73364,Crucero del Norte,3214,Club Atlético Chacarita Juniors,2.0,0.0,1492214700,Ended,finished,1.0
+7224713,703,Primera Nacional,12237,Primera B Nacional 16/17,28.0,3214,Club Atlético Chacarita Juniors,1134718,Sportivo Estudiantes,2.0,0.0,1492639500,Ended,finished,1.0
+7224728,703,Primera Nacional,12237,Primera B Nacional 16/17,29.0,76199,Douglas Haig,3214,Club Atlético Chacarita Juniors,0.0,0.0,1493078700,Ended,finished,3.0
+7224745,703,Primera Nacional,12237,Primera B Nacional 16/17,30.0,3214,Club Atlético Chacarita Juniors,112509,Villa Dálmine,4.0,1.0,1493507100,Ended,finished,1.0
+7224808,703,Primera Nacional,12237,Primera B Nacional 16/17,31.0,188414,Atlético Paraná,3214,Club Atlético Chacarita Juniors,1.0,1.0,1494104400,Ended,finished,3.0
+7224819,703,Primera Nacional,12237,Primera B Nacional 16/17,32.0,3214,Club Atlético Chacarita Juniors,107201,Brown de Adrogué,1.0,2.0,1494461100,Ended,finished,2.0
+7224832,703,Primera Nacional,12237,Primera B Nacional 16/17,33.0,53801,Guillermo Brown,3214,Club Atlético Chacarita Juniors,3.0,0.0,1494871200,Ended,finished,1.0
+7224844,703,Primera Nacional,12237,Primera B Nacional 16/17,34.0,3214,Club Atlético Chacarita Juniors,36834,All Boys,1.0,0.0,1495314300,Ended,finished,1.0
+7224853,703,Primera Nacional,12237,Primera B Nacional 16/17,35.0,36841,Club Ferro Carril Oeste,3214,Club Atlético Chacarita Juniors,0.0,0.0,1495843500,Ended,finished,3.0
+7224883,703,Primera Nacional,12237,Primera B Nacional 16/17,36.0,3214,Club Atlético Chacarita Juniors,4938,Almagro,3.0,0.0,1496448300,Ended,finished,1.0
+7224871,703,Primera Nacional,12237,Primera B Nacional 16/17,37.0,65676,Central Córdoba,3214,Club Atlético Chacarita Juniors,0.0,2.0,1496966400,Ended,finished,2.0
+7224880,703,Primera Nacional,12237,Primera B Nacional 16/17,38.0,3214,Club Atlético Chacarita Juniors,36835,Boca Unidos,1.0,0.0,1497657900,Ended,finished,1.0
+7224897,703,Primera Nacional,12237,Primera B Nacional 16/17,39.0,36842,Independiente Rivadavia,3214,Club Atlético Chacarita Juniors,3.0,1.0,1498089600,Ended,finished,1.0
+7224905,703,Primera Nacional,12237,Primera B Nacional 16/17,40.0,3214,Club Atlético Chacarita Juniors,165912,CYB Ramón Santamarina,3.0,0.0,1498511100,Ended,finished,1.0
+7224918,703,Primera Nacional,12237,Primera B Nacional 16/17,41.0,112505,CSD Flandria,3214,Club Atlético Chacarita Juniors,0.0,1.0,1498925100,Ended,finished,2.0
+7455012,1024,Copa Argentina,13169,Copa Argentina 16/17,6.0,53801,Guillermo Brown,3214,Club Atlético Chacarita Juniors,1.0,0.0,1499299800,Ended,finished,1.0
+7224932,703,Primera Nacional,12237,Primera B Nacional 16/17,42.0,3214,Club Atlético Chacarita Juniors,189721,Juventud Unida Gualeguaychú,2.0,1.0,1499627100,Ended,finished,1.0
+7224956,703,Primera Nacional,12237,Primera B Nacional 16/17,43.0,112497,Los Andes,3214,Club Atlético Chacarita Juniors,1.0,3.0,1499990700,Ended,finished,2.0
+7224952,703,Primera Nacional,12237,Primera B Nacional 16/17,44.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,0.0,0.0,1500228900,Ended,finished,3.0
+7224965,703,Primera Nacional,12237,Primera B Nacional 16/17,45.0,3200,Nueva Chicago,3214,Club Atlético Chacarita Juniors,1.0,1.0,1500834600,Ended,finished,3.0
+7225091,703,Primera Nacional,12237,Primera B Nacional 16/17,46.0,3214,Club Atlético Chacarita Juniors,3216,Argentinos Juniors,1.0,1.0,1501439700,Ended,finished,3.0
+7512688,155,Liga Profesional de Fútbol,13950,Superliga 17/18,1.0,3216,Argentinos Juniors,3214,Club Atlético Chacarita Juniors,,,1503864000,Canceled,canceled,
+7527247,155,Liga Profesional de Fútbol,13950,Superliga 17/18,2.0,3214,Club Atlético Chacarita Juniors,7628,Tigre,1.0,1.0,1505052300,Ended,finished,3.0
+7527268,155,Liga Profesional de Fútbol,13950,Superliga 17/18,3.0,36833,Atlético Tucumán,3214,Club Atlético Chacarita Juniors,1.0,1.0,1505667900,Ended,finished,3.0
+7527280,155,Liga Profesional de Fútbol,13950,Superliga 17/18,4.0,3214,Club Atlético Chacarita Juniors,3210,CA Talleres,0.0,1.0,1506194100,Ended,finished,2.0
+7527312,155,Liga Profesional de Fútbol,13950,Superliga 17/18,5.0,3202,Boca Juniors,3214,Club Atlético Chacarita Juniors,1.0,0.0,1506891900,Ended,finished,1.0
+7608468,155,Liga Profesional de Fútbol,13950,Superliga 17/18,1.0,3216,Argentinos Juniors,3214,Club Atlético Chacarita Juniors,1.0,0.0,1507489200,Ended,finished,1.0
+7527897,155,Liga Profesional de Fútbol,13950,Superliga 17/18,6.0,3214,Club Atlético Chacarita Juniors,3209,CA Independiente,1.0,2.0,1508076300,Ended,finished,2.0
+7527332,155,Liga Profesional de Fútbol,13950,Superliga 17/18,7.0,3212,Newell's Old Boys,3214,Club Atlético Chacarita Juniors,2.0,1.0,1509285900,Ended,finished,1.0
+7527360,155,Liga Profesional de Fútbol,13950,Superliga 17/18,8.0,3214,Club Atlético Chacarita Juniors,3205,Gimnasia y Esgrima,2.0,0.0,1509746700,Ended,finished,1.0
+7527345,155,Liga Profesional de Fútbol,13950,Superliga 17/18,9.0,3204,Club Atlético Unión de Santa Fe,3214,Club Atlético Chacarita Juniors,0.0,0.0,1511121600,Ended,finished,3.0
+7527376,155,Liga Profesional de Fútbol,13950,Superliga 17/18,10.0,3214,Club Atlético Chacarita Juniors,7629,Huracán,0.0,2.0,1511561700,Ended,finished,2.0
+7527380,155,Liga Profesional de Fútbol,13950,Superliga 17/18,11.0,3222,Olimpo,3214,Club Atlético Chacarita Juniors,2.0,0.0,1512244800,Ended,finished,1.0
+7527406,155,Liga Profesional de Fútbol,13950,Superliga 17/18,12.0,3214,Club Atlético Chacarita Juniors,3218,CA Lanús,3.0,0.0,1513038600,Ended,finished,1.0
+7690377,853,Club Friendly Games,15807,Club Friendly Games 2018,,3214,Club Atlético Chacarita Juniors,93109,Deportivo Morón,2.0,2.0,1516190400,Ended,finished,3.0
+7527419,155,Liga Profesional de Fútbol,13950,Superliga 17/18,13.0,6074,Godoy Cruz,3214,Club Atlético Chacarita Juniors,1.0,0.0,1517004000,Ended,finished,1.0
+7527441,155,Liga Profesional de Fútbol,13950,Superliga 17/18,14.0,3214,Club Atlético Chacarita Juniors,3208,Vélez Sarsfield,2.0,0.0,1517868000,Ended,finished,1.0
+7527443,155,Liga Profesional de Fútbol,13950,Superliga 17/18,15.0,36839,Defensa y Justicia,3214,Club Atlético Chacarita Juniors,4.0,2.0,1518213600,Ended,finished,1.0
+7527465,155,Liga Profesional de Fútbol,13950,Superliga 17/18,16.0,43741,Patronato,3214,Club Atlético Chacarita Juniors,3.0,0.0,1519077600,Ended,finished,1.0
+7527471,155,Liga Profesional de Fútbol,13950,Superliga 17/18,17.0,3214,Club Atlético Chacarita Juniors,3203,Club Atlético Belgrano,0.0,1.0,1519588800,Ended,finished,2.0
+7527496,155,Liga Profesional de Fútbol,13950,Superliga 17/18,18.0,3211,River Plate,3214,Club Atlético Chacarita Juniors,1.0,1.0,1520201700,Ended,finished,3.0
+7527502,155,Liga Profesional de Fútbol,13950,Superliga 17/18,19.0,3214,Club Atlético Chacarita Juniors,3215,Racing Club,1.0,1.0,1520712000,Ended,finished,3.0
+7527528,155,Liga Profesional de Fútbol,13950,Superliga 17/18,20.0,3217,Rosario Central,3214,Club Atlético Chacarita Juniors,3.0,1.0,1521237600,Ended,finished,1.0
+7527531,155,Liga Profesional de Fútbol,13950,Superliga 17/18,21.0,3214,Club Atlético Chacarita Juniors,3221,Arsenal de Sarandí,2.0,2.0,1522599300,Ended,finished,3.0
+7527552,155,Liga Profesional de Fútbol,13950,Superliga 17/18,22.0,3206,Estudiantes de La Plata,3214,Club Atlético Chacarita Juniors,0.0,2.0,1523319300,Ended,finished,2.0
+7527559,155,Liga Profesional de Fútbol,13950,Superliga 17/18,23.0,3214,Club Atlético Chacarita Juniors,3207,Club Atletico Colón,0.0,2.0,1523817000,Ended,finished,2.0
+7527578,155,Liga Profesional de Fútbol,13950,Superliga 17/18,24.0,3201,San Lorenzo,3214,Club Atlético Chacarita Juniors,1.0,0.0,1524351600,Ended,finished,1.0
+7527590,155,Liga Profesional de Fútbol,13950,Superliga 17/18,25.0,3214,Club Atlético Chacarita Juniors,112499,Temperley,1.0,2.0,1524866400,Ended,finished,2.0
+7527603,155,Liga Profesional de Fútbol,13950,Superliga 17/18,26.0,3219,Banfield,3214,Club Atlético Chacarita Juniors,2.0,1.0,1525730400,Ended,finished,1.0
+7527618,155,Liga Profesional de Fútbol,13950,Superliga 17/18,27.0,3214,Club Atlético Chacarita Juniors,7772,San Martín de San Juan,1.0,4.0,1526076000,Ended,finished,2.0
+7800830,1024,Copa Argentina,15894,Copa Argentina 17/18,6.0,3214,Club Atlético Chacarita Juniors,213042,Deportivo Maipú,0.0,3.0,1526418000,Ended,finished,2.0
+7946558,703,Primera Nacional,18453,Primera B Nacional 18/19,1.0,4938,Almagro,3214,Club Atlético Chacarita Juniors,1.0,0.0,1535414700,Ended,finished,1.0
+7950553,703,Primera Nacional,18453,Primera B Nacional 18/19,2.0,3214,Club Atlético Chacarita Juniors,36837,Club Atlético Platense,0.0,2.0,1535828700,Ended,finished,2.0
+7977581,703,Primera Nacional,18453,Primera B Nacional 18/19,3.0,188441,Gimnasia y Esgrima Mendoza,3214,Club Atlético Chacarita Juniors,2.0,1.0,1537039800,Ended,finished,1.0
+7990077,703,Primera Nacional,18453,Primera B Nacional 18/19,4.0,3214,Club Atlético Chacarita Juniors,112509,Villa Dálmine,2.0,1.0,1537646700,Ended,finished,1.0
+7999243,703,Primera Nacional,18453,Primera B Nacional 18/19,5.0,265787,Agropecuario Argentino,3214,Club Atlético Chacarita Juniors,0.0,0.0,1538434800,Ended,finished,3.0
+8008831,703,Primera Nacional,18453,Primera B Nacional 18/19,6.0,3214,Club Atlético Chacarita Juniors,3221,Arsenal de Sarandí,0.0,2.0,1538856300,Ended,finished,2.0
+8019938,703,Primera Nacional,18453,Primera B Nacional 18/19,7.0,52215,Defensores de Belgrano,3214,Club Atlético Chacarita Juniors,1.0,2.0,1540143300,Ended,finished,2.0
+8032207,703,Primera Nacional,18453,Primera B Nacional 18/19,8.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,1.0,0.0,1540857900,Ended,finished,1.0
+8042563,703,Primera Nacional,18453,Primera B Nacional 18/19,9.0,165912,CYB Ramón Santamarina,3214,Club Atlético Chacarita Juniors,2.0,0.0,1541458800,Ended,finished,1.0
+8046800,703,Primera Nacional,18453,Primera B Nacional 18/19,10.0,3214,Club Atlético Chacarita Juniors,4937,Instituto De Córdoba,2.0,2.0,1541869200,Ended,finished,3.0
+8057083,703,Primera Nacional,18453,Primera B Nacional 18/19,11.0,112499,Temperley,3214,Club Atlético Chacarita Juniors,0.0,0.0,1543363500,Ended,finished,3.0
+8072395,703,Primera Nacional,18453,Primera B Nacional 18/19,12.0,3214,Club Atlético Chacarita Juniors,255425,CA Mitre,0.0,2.0,1543968300,Ended,finished,2.0
+8085387,703,Primera Nacional,18453,Primera B Nacional 18/19,14.0,93109,Deportivo Morón,3214,Club Atlético Chacarita Juniors,0.0,0.0,1549137600,Ended,finished,3.0
+8085244,703,Primera Nacional,18453,Primera B Nacional 18/19,15.0,3214,Club Atlético Chacarita Juniors,36842,Independiente Rivadavia,0.0,2.0,1549749900,Ended,finished,2.0
+8085266,703,Primera Nacional,18453,Primera B Nacional 18/19,16.0,4936,Quilmes Atlético Club,3214,Club Atlético Chacarita Juniors,2.0,1.0,1550621100,Ended,finished,1.0
+8085269,703,Primera Nacional,18453,Primera B Nacional 18/19,17.0,3214,Club Atlético Chacarita Juniors,42338,Sarmiento,1.0,3.0,1550952300,Ended,finished,2.0
+8085290,703,Primera Nacional,18453,Primera B Nacional 18/19,18.0,107201,Brown de Adrogué,3214,Club Atlético Chacarita Juniors,3.0,0.0,1551556800,Ended,finished,1.0
+8085296,703,Primera Nacional,18453,Primera B Nacional 18/19,19.0,3214,Club Atlético Chacarita Juniors,36841,Club Ferro Carril Oeste,0.0,1.0,1552255200,Ended,finished,2.0
+8085312,703,Primera Nacional,18453,Primera B Nacional 18/19,20.0,3200,Nueva Chicago,3214,Club Atlético Chacarita Juniors,1.0,1.0,1552845900,Ended,finished,3.0
+8085316,703,Primera Nacional,18453,Primera B Nacional 18/19,21.0,3214,Club Atlético Chacarita Juniors,53801,Guillermo Brown,3.0,1.0,1553367600,Ended,finished,1.0
+8085334,703,Primera Nacional,18453,Primera B Nacional 18/19,22.0,3222,Olimpo,3214,Club Atlético Chacarita Juniors,2.0,1.0,1554058800,Ended,finished,1.0
+8085349,703,Primera Nacional,18453,Primera B Nacional 18/19,23.0,3214,Club Atlético Chacarita Juniors,34976,Atlético de Rafaela,1.0,0.0,1554575400,Ended,finished,1.0
+8085371,703,Primera Nacional,18453,Primera B Nacional 18/19,24.0,112497,Los Andes,3214,Club Atlético Chacarita Juniors,0.0,1.0,1555180200,Ended,finished,2.0
+8085355,703,Primera Nacional,18453,Primera B Nacional 18/19,25.0,3214,Club Atlético Chacarita Juniors,65676,Central Córdoba,0.0,0.0,1555714800,Ended,finished,3.0
+8352334,703,Primera Nacional,24808,Primera Nacional 19/20,1.0,3214,Club Atlético Chacarita Juniors,36834,All Boys,0.0,0.0,1565913900,Ended,finished,3.0
+8368360,703,Primera Nacional,24808,Primera Nacional 19/20,2.0,5292,Gimnasia Y Esgrima De Jujuy,3214,Club Atlético Chacarita Juniors,2.0,1.0,1566679200,Ended,finished,1.0
+8385077,703,Primera Nacional,24808,Primera Nacional 19/20,3.0,3214,Club Atlético Chacarita Juniors,165912,CYB Ramón Santamarina,0.0,3.0,1567262100,Ended,finished,2.0
+8394459,703,Primera Nacional,24808,Primera Nacional 19/20,4.0,4937,Instituto De Córdoba,3214,Club Atlético Chacarita Juniors,1.0,0.0,1567897500,Ended,finished,1.0
+8404839,703,Primera Nacional,24808,Primera Nacional 19/20,5.0,3214,Club Atlético Chacarita Juniors,23950,San Martín de Tucumán,2.0,2.0,1568765400,Ended,finished,3.0
+8413298,703,Primera Nacional,24808,Primera Nacional 19/20,6.0,4938,Almagro,3214,Club Atlético Chacarita Juniors,0.0,0.0,1569090600,Ended,finished,3.0
+8427105,703,Primera Nacional,24808,Primera Nacional 19/20,7.0,3214,Club Atlético Chacarita Juniors,112509,Villa Dálmine,1.0,0.0,1569682800,Ended,finished,1.0
+8429851,703,Primera Nacional,24808,Primera Nacional 19/20,8.0,42338,Sarmiento,3214,Club Atlético Chacarita Juniors,5.0,1.0,1570317000,Ended,finished,1.0
+8429921,703,Primera Nacional,24808,Primera Nacional 19/20,9.0,3214,Club Atlético Chacarita Juniors,189723,Deportivo Riestra,1.0,1.0,1571180400,Ended,finished,3.0
+8429912,703,Primera Nacional,24808,Primera Nacional 19/20,10.0,3214,Club Atlético Chacarita Juniors,188441,Gimnasia y Esgrima Mendoza,1.0,0.0,1571698800,Ended,finished,1.0
+8429944,703,Primera Nacional,24808,Primera Nacional 19/20,11.0,107201,Brown de Adrogué,3214,Club Atlético Chacarita Juniors,0.0,1.0,1572719400,Ended,finished,2.0
+8429915,703,Primera Nacional,24808,Primera Nacional 19/20,12.0,3214,Club Atlético Chacarita Juniors,7628,Tigre,0.0,3.0,1573506600,Ended,finished,2.0
+8429825,703,Primera Nacional,24808,Primera Nacional 19/20,13.0,52215,Defensores de Belgrano,3214,Club Atlético Chacarita Juniors,2.0,1.0,1573935000,Ended,finished,1.0
+8430000,703,Primera Nacional,24808,Primera Nacional 19/20,14.0,3214,Club Atlético Chacarita Juniors,4936,Quilmes Atlético Club,1.0,0.0,1574798400,Ended,finished,1.0
+8429920,703,Primera Nacional,24808,Primera Nacional 19/20,15.0,34976,Atlético de Rafaela,3214,Club Atlético Chacarita Juniors,2.0,0.0,1575331200,Ended,finished,1.0
+8429937,703,Primera Nacional,24808,Primera Nacional 19/20,16.0,36834,All Boys,3214,Club Atlético Chacarita Juniors,1.0,1.0,1581192300,Ended,finished,3.0
+8429940,703,Primera Nacional,24808,Primera Nacional 19/20,17.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,0.0,0.0,1581796800,Ended,finished,3.0
+8430008,703,Primera Nacional,24808,Primera Nacional 19/20,18.0,165912,CYB Ramón Santamarina,3214,Club Atlético Chacarita Juniors,2.0,1.0,1582587000,Ended,finished,1.0
+8430234,703,Primera Nacional,24808,Primera Nacional 19/20,19.0,3214,Club Atlético Chacarita Juniors,4937,Instituto De Córdoba,1.0,0.0,1583273400,Ended,finished,1.0
+8430238,703,Primera Nacional,24808,Primera Nacional 19/20,20.0,23950,San Martín de Tucumán,3214,Club Atlético Chacarita Juniors,0.0,1.0,1583705700,Ended,finished,2.0
+8430250,703,Primera Nacional,24808,Primera Nacional 19/20,21.0,3214,Club Atlético Chacarita Juniors,4938,Almagro,1.0,2.0,1584403500,Ended,finished,2.0
+8430212,703,Primera Nacional,24808,Primera Nacional 19/20,22.0,112509,Villa Dálmine,3214,Club Atlético Chacarita Juniors,,,1584820800,Canceled,canceled,
+8430213,703,Primera Nacional,24808,Primera Nacional 19/20,23.0,3214,Club Atlético Chacarita Juniors,42338,Sarmiento,,,1585425600,Canceled,canceled,
+8430358,703,Primera Nacional,24808,Primera Nacional 19/20,24.0,189723,Deportivo Riestra,3214,Club Atlético Chacarita Juniors,,,1586030400,Canceled,canceled,
+8430349,703,Primera Nacional,24808,Primera Nacional 19/20,25.0,188441,Gimnasia y Esgrima Mendoza,3214,Club Atlético Chacarita Juniors,,,1586635200,Canceled,canceled,
+8430313,703,Primera Nacional,24808,Primera Nacional 19/20,26.0,3214,Club Atlético Chacarita Juniors,107201,Brown de Adrogué,,,1587240000,Canceled,canceled,
+8430335,703,Primera Nacional,24808,Primera Nacional 19/20,27.0,7628,Tigre,3214,Club Atlético Chacarita Juniors,,,1587844800,Canceled,canceled,
+8430071,703,Primera Nacional,24808,Primera Nacional 19/20,28.0,3214,Club Atlético Chacarita Juniors,52215,Defensores de Belgrano,,,1588449600,Canceled,canceled,
+8430092,703,Primera Nacional,24808,Primera Nacional 19/20,29.0,4936,Quilmes Atlético Club,3214,Club Atlético Chacarita Juniors,,,1589054400,Canceled,canceled,
+8430106,703,Primera Nacional,24808,Primera Nacional 19/20,30.0,3214,Club Atlético Chacarita Juniors,34976,Atlético de Rafaela,,,1589659200,Canceled,canceled,
+9131452,853,Club Friendly Games,26870,Club Friendly Games 2020,1.0,36841,Club Ferro Carril Oeste,3214,Club Atlético Chacarita Juniors,0.0,1.0,1603546200,Ended,finished,2.0
+9194351,703,Primera Nacional,34868,Primera Nacional 20/21,1.0,4937,Instituto De Córdoba,3214,Club Atlético Chacarita Juniors,2.0,1.0,1606601400,Ended,finished,1.0
+9194354,703,Primera Nacional,34868,Primera Nacional 20/21,2.0,3214,Club Atlético Chacarita Juniors,107201,Brown de Adrogué,0.0,0.0,1607040600,Ended,finished,3.0
+9194427,703,Primera Nacional,34868,Primera Nacional 20/21,3.0,165912,CYB Ramón Santamarina,3214,Club Atlético Chacarita Juniors,3.0,1.0,1607803800,Ended,finished,1.0
+9194426,703,Primera Nacional,34868,Primera Nacional 20/21,4.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,0.0,1.0,1608408600,Ended,finished,2.0
+9194429,703,Primera Nacional,34868,Primera Nacional 20/21,5.0,4936,Quilmes Atlético Club,3214,Club Atlético Chacarita Juniors,3.0,2.0,1609272600,Ended,finished,1.0
+9194406,703,Primera Nacional,34868,Primera Nacional 20/21,6.0,3214,Club Atlético Chacarita Juniors,36834,All Boys,0.0,0.0,1609704600,Ended,finished,3.0
+9194403,703,Primera Nacional,34868,Primera Nacional 20/21,7.0,4938,Almagro,3214,Club Atlético Chacarita Juniors,0.0,2.0,1610410200,Ended,finished,2.0
+9392776,703,Primera Nacional,35904,Primera Nacional 2021,1.0,3214,Club Atlético Chacarita Juniors,53799,Atlanta,0.0,1.0,1615939800,Ended,finished,2.0
+9423968,703,Primera Nacional,35904,Primera Nacional 2021,3.0,3200,Nueva Chicago,3214,Club Atlético Chacarita Juniors,1.0,1.0,1617141600,Ended,finished,3.0
+9436363,703,Primera Nacional,35904,Primera Nacional 2021,4.0,3214,Club Atlético Chacarita Juniors,43740,Almirante Brown,2.0,1.0,1617667800,Ended,finished,1.0
+9450429,703,Primera Nacional,35904,Primera Nacional 2021,5.0,23950,San Martín de Tucumán,3214,Club Atlético Chacarita Juniors,0.0,1.0,1618352100,Ended,finished,2.0
+9461488,703,Primera Nacional,35904,Primera Nacional 2021,6.0,3214,Club Atlético Chacarita Juniors,3203,Club Atlético Belgrano,2.0,0.0,1618866000,Ended,finished,1.0
+9482804,703,Primera Nacional,35904,Primera Nacional 2021,7.0,189723,Deportivo Riestra,3214,Club Atlético Chacarita Juniors,4.0,0.0,1619460300,Ended,finished,1.0
+9483848,703,Primera Nacional,35904,Primera Nacional 2021,8.0,3214,Club Atlético Chacarita Juniors,188441,Gimnasia y Esgrima Mendoza,0.0,4.0,1620065100,Ended,finished,2.0
+9483834,703,Primera Nacional,35904,Primera Nacional 2021,9.0,266694,Estudiantes de Río Cuarto,3214,Club Atlético Chacarita Juniors,1.0,1.0,1620594000,Ended,finished,3.0
+9484239,703,Primera Nacional,35904,Primera Nacional 2021,10.0,3214,Club Atlético Chacarita Juniors,112499,Temperley,1.0,2.0,1621023000,Ended,finished,2.0
+9484205,703,Primera Nacional,35904,Primera Nacional 2021,11.0,213042,Deportivo Maipú,3214,Club Atlético Chacarita Juniors,,,1621794600,Canceled,canceled,
+9484117,703,Primera Nacional,35904,Primera Nacional 2021,12.0,3214,Club Atlético Chacarita Juniors,265787,Agropecuario Argentino,,,1622318400,Canceled,canceled,
+9550845,703,Primera Nacional,35904,Primera Nacional 2021,11.0,213042,Deportivo Maipú,3214,Club Atlético Chacarita Juniors,1.0,2.0,1623348000,Ended,finished,2.0
+9564168,703,Primera Nacional,35904,Primera Nacional 2021,12.0,3214,Club Atlético Chacarita Juniors,265787,Agropecuario Argentino,2.0,2.0,1623952800,Ended,finished,3.0
+9484206,703,Primera Nacional,35904,Primera Nacional 2021,13.0,4936,Quilmes Atlético Club,3214,Club Atlético Chacarita Juniors,3.0,1.0,1624392600,Ended,finished,1.0
+9484022,703,Primera Nacional,35904,Primera Nacional 2021,14.0,3214,Club Atlético Chacarita Juniors,7628,Tigre,2.0,2.0,1624810200,Ended,finished,3.0
+9484171,703,Primera Nacional,35904,Primera Nacional 2021,15.0,273715,Alvarado,3214,Club Atlético Chacarita Juniors,2.0,1.0,1625436000,Ended,finished,1.0
+9484273,703,Primera Nacional,35904,Primera Nacional 2021,16.0,3214,Club Atlético Chacarita Juniors,93107,Estudiantes de Buenos Aires,0.0,0.0,1626041400,Ended,finished,3.0
+9484032,703,Primera Nacional,35904,Primera Nacional 2021,17.0,255425,CA Mitre,3214,Club Atlético Chacarita Juniors,1.0,2.0,1626633000,Ended,finished,2.0
+9657361,703,Primera Nacional,35904,Primera Nacional 2021,18.0,53799,Atlanta,3214,Club Atlético Chacarita Juniors,0.0,3.0,1627323000,Ended,finished,2.0
+9700614,703,Primera Nacional,35904,Primera Nacional 2021,,3214,Club Atlético Chacarita Juniors,3200,Nueva Chicago,2.0,3.0,1628442000,Ended,finished,2.0
+9707983,703,Primera Nacional,35904,Primera Nacional 2021,21.0,43740,Almirante Brown,3214,Club Atlético Chacarita Juniors,2.0,1.0,1629046800,Ended,finished,1.0
+9724079,703,Primera Nacional,35904,Primera Nacional 2021,22.0,3214,Club Atlético Chacarita Juniors,23950,San Martín de Tucumán,1.0,3.0,1629645000,Ended,finished,2.0
+9749758,703,Primera Nacional,35904,Primera Nacional 2021,23.0,3203,Club Atlético Belgrano,3214,Club Atlético Chacarita Juniors,3.0,0.0,1630348500,Ended,finished,1.0
+9750828,703,Primera Nacional,35904,Primera Nacional 2021,24.0,3214,Club Atlético Chacarita Juniors,189723,Deportivo Riestra,0.0,0.0,1630778400,Ended,finished,3.0
+9785997,703,Primera Nacional,35904,Primera Nacional 2021,25.0,188441,Gimnasia y Esgrima Mendoza,3214,Club Atlético Chacarita Juniors,1.0,1.0,1631311800,Ended,finished,3.0
+9806881,703,Primera Nacional,35904,Primera Nacional 2021,26.0,3214,Club Atlético Chacarita Juniors,266694,Estudiantes de Río Cuarto,0.0,0.0,1631992200,Ended,finished,3.0
+9807029,703,Primera Nacional,35904,Primera Nacional 2021,27.0,112499,Temperley,3214,Club Atlético Chacarita Juniors,0.0,0.0,1632528600,Ended,finished,3.0
+9806878,703,Primera Nacional,35904,Primera Nacional 2021,28.0,3214,Club Atlético Chacarita Juniors,213042,Deportivo Maipú,1.0,2.0,1633197600,Ended,finished,2.0
+9806880,703,Primera Nacional,35904,Primera Nacional 2021,29.0,265787,Agropecuario Argentino,3214,Club Atlético Chacarita Juniors,1.0,0.0,1633982400,Ended,finished,1.0
+9806929,703,Primera Nacional,35904,Primera Nacional 2021,30.0,3214,Club Atlético Chacarita Juniors,4936,Quilmes Atlético Club,1.0,3.0,1634497200,Ended,finished,2.0
+9806832,703,Primera Nacional,35904,Primera Nacional 2021,31.0,7628,Tigre,3214,Club Atlético Chacarita Juniors,1.0,0.0,1635027000,Ended,finished,1.0
+9806921,703,Primera Nacional,35904,Primera Nacional 2021,32.0,3214,Club Atlético Chacarita Juniors,273715,Alvarado,0.0,2.0,1635894300,Ended,finished,2.0
+9806838,703,Primera Nacional,35904,Primera Nacional 2021,33.0,93107,Estudiantes de Buenos Aires,3214,Club Atlético Chacarita Juniors,1.0,0.0,1636228800,Ended,finished,1.0
+9946473,703,Primera Nacional,35904,Primera Nacional 2021,34.0,3214,Club Atlético Chacarita Juniors,255425,CA Mitre,1.0,3.0,1636743600,Ended,finished,2.0
+10094073,703,Primera Nacional,40485,Primera Nacional 2022,1.0,43740,Almirante Brown,3214,Club Atlético Chacarita Juniors,4.0,2.0,1644712200,Ended,finished,1.0
+10099648,703,Primera Nacional,40485,Primera Nacional 2022,2.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,0.0,0.0,1645300800,Ended,finished,3.0
+10099750,703,Primera Nacional,40485,Primera Nacional 2022,3.0,112505,CSD Flandria,3214,Club Atlético Chacarita Juniors,1.0,2.0,1645992000,Ended,finished,2.0
+10099730,703,Primera Nacional,40485,Primera Nacional 2022,4.0,3214,Club Atlético Chacarita Juniors,112499,Temperley,2.0,2.0,1646596800,Ended,finished,3.0
+10099771,703,Primera Nacional,40485,Primera Nacional 2022,5.0,93109,Deportivo Morón,3214,Club Atlético Chacarita Juniors,0.0,1.0,1647201900,Ended,finished,2.0
+10099579,703,Primera Nacional,40485,Primera Nacional 2022,6.0,3214,Club Atlético Chacarita Juniors,222120,Deportivo Madryn,0.0,2.0,1647716400,Ended,finished,2.0
+10099564,703,Primera Nacional,40485,Primera Nacional 2022,7.0,266694,Estudiantes de Río Cuarto,3214,Club Atlético Chacarita Juniors,2.0,0.0,1647993600,Ended,finished,1.0
+10099627,703,Primera Nacional,40485,Primera Nacional 2022,8.0,3214,Club Atlético Chacarita Juniors,273715,Alvarado,5.0,0.0,1648406100,Ended,finished,1.0
+10099527,703,Primera Nacional,40485,Primera Nacional 2022,9.0,4938,Almagro,3214,Club Atlético Chacarita Juniors,1.0,3.0,1648930200,Ended,finished,2.0
+10099522,703,Primera Nacional,40485,Primera Nacional 2022,10.0,3214,Club Atlético Chacarita Juniors,3200,Nueva Chicago,3.0,1.0,1649619600,Ended,finished,1.0
+10099764,703,Primera Nacional,40485,Primera Nacional 2022,11.0,213042,Deportivo Maipú,3214,Club Atlético Chacarita Juniors,1.0,1.0,1650216900,Ended,finished,3.0
+10099753,703,Primera Nacional,40485,Primera Nacional 2022,12.0,3214,Club Atlético Chacarita Juniors,4936,Quilmes Atlético Club,2.0,2.0,1650741000,Ended,finished,3.0
+10099853,703,Primera Nacional,40485,Primera Nacional 2022,13.0,36842,Independiente Rivadavia,3214,Club Atlético Chacarita Juniors,2.0,3.0,1651352400,Ended,finished,2.0
+10099707,703,Primera Nacional,40485,Primera Nacional 2022,14.0,3214,Club Atlético Chacarita Juniors,36841,Club Ferro Carril Oeste,1.0,1.0,1652045700,Ended,finished,3.0
+10099751,703,Primera Nacional,40485,Primera Nacional 2022,15.0,255425,CA Mitre,3214,Club Atlético Chacarita Juniors,0.0,3.0,1652645400,Ended,finished,2.0
+10099718,703,Primera Nacional,40485,Primera Nacional 2022,16.0,3214,Club Atlético Chacarita Juniors,184969,Sacachispas,0.0,1.0,1653249600,Ended,finished,2.0
+10099738,703,Primera Nacional,40485,Primera Nacional 2022,17.0,4937,Instituto De Córdoba,3214,Club Atlético Chacarita Juniors,2.0,0.0,1653761400,Ended,finished,1.0
+10099609,703,Primera Nacional,40485,Primera Nacional 2022,18.0,3214,Club Atlético Chacarita Juniors,265787,Agropecuario Argentino,1.0,1.0,1654374900,Ended,finished,3.0
+10100048,703,Primera Nacional,40485,Primera Nacional 2022,19.0,93513,Tristán Suárez,3214,Club Atlético Chacarita Juniors,3.0,2.0,1654971000,Ended,finished,1.0
+10099881,703,Primera Nacional,40485,Primera Nacional 2022,20.0,3214,Club Atlético Chacarita Juniors,23950,San Martín de Tucumán,0.0,0.0,1655593800,Ended,finished,3.0
+10099948,703,Primera Nacional,40485,Primera Nacional 2022,21.0,52215,Defensores de Belgrano,3214,Club Atlético Chacarita Juniors,2.0,0.0,1656375300,Ended,finished,1.0
+10099894,703,Primera Nacional,40485,Primera Nacional 2022,22.0,3214,Club Atlético Chacarita Juniors,107201,Brown de Adrogué,2.0,1.0,1656803400,Ended,finished,1.0
+10099795,703,Primera Nacional,40485,Primera Nacional 2022,24.0,53801,Guillermo Brown,3214,Club Atlético Chacarita Juniors,0.0,0.0,1658081100,Ended,finished,3.0
+10099786,703,Primera Nacional,40485,Primera Nacional 2022,25.0,3214,Club Atlético Chacarita Juniors,34976,Atlético de Rafaela,3.0,1.0,1658601000,Ended,finished,1.0
+10100103,703,Primera Nacional,40485,Primera Nacional 2022,26.0,165912,CYB Ramón Santamarina,3214,Club Atlético Chacarita Juniors,2.0,1.0,1658964600,Ended,finished,1.0
+10100146,703,Primera Nacional,40485,Primera Nacional 2022,27.0,3214,Club Atlético Chacarita Juniors,93107,Estudiantes de Buenos Aires,0.0,1.0,1659292800,Ended,finished,2.0
+10100079,703,Primera Nacional,40485,Primera Nacional 2022,28.0,53799,Atlanta,3214,Club Atlético Chacarita Juniors,1.0,1.0,1660003800,Ended,finished,3.0
+10100054,703,Primera Nacional,40485,Primera Nacional 2022,29.0,3214,Club Atlético Chacarita Juniors,7772,San Martín de San Juan,1.0,1.0,1660499100,Ended,finished,3.0
+10100076,703,Primera Nacional,40485,Primera Nacional 2022,30.0,252726,Chaco For Ever,3214,Club Atlético Chacarita Juniors,2.0,0.0,1661105400,Ended,finished,1.0
+10100026,703,Primera Nacional,40485,Primera Nacional 2022,31.0,3214,Club Atlético Chacarita Juniors,213361,San Telmo,4.0,1.0,1661630400,Ended,finished,1.0
+10100067,703,Primera Nacional,40485,Primera Nacional 2022,32.0,188441,Gimnasia y Esgrima Mendoza,3214,Club Atlético Chacarita Juniors,2.0,1.0,1662230400,Ended,finished,1.0
+10099980,703,Primera Nacional,40485,Primera Nacional 2022,33.0,3214,Club Atlético Chacarita Juniors,36834,All Boys,2.0,0.0,1662833400,Ended,finished,1.0
+10100017,703,Primera Nacional,40485,Primera Nacional 2022,34.0,224646,Güemes,3214,Club Atlético Chacarita Juniors,0.0,1.0,1663527600,Ended,finished,2.0
+10099964,703,Primera Nacional,40485,Primera Nacional 2022,35.0,3214,Club Atlético Chacarita Juniors,189723,Deportivo Riestra,1.0,1.0,1664044200,Ended,finished,3.0
+10100058,703,Primera Nacional,40485,Primera Nacional 2022,36.0,3203,Club Atlético Belgrano,3214,Club Atlético Chacarita Juniors,3.0,0.0,1664841600,Ended,finished,1.0
+10100024,703,Primera Nacional,40485,Primera Nacional 2022,37.0,3214,Club Atlético Chacarita Juniors,112509,Villa Dálmine,0.0,0.0,1665252000,Ended,finished,3.0
+10967945,703,Primera Nacional,48079,Primera Nacional 2023,1.0,222120,Deportivo Madryn,3214,Club Atlético Chacarita Juniors,0.0,0.0,1676145600,Ended,finished,3.0
+10986090,1024,Copa Argentina,48253,Copa Argentina 2023,32.0,3210,CA Talleres,3214,Club Atlético Chacarita Juniors,,,1676494800,Postponed,postponed,
+10997094,703,Primera Nacional,48079,Primera Nacional 2023,2.0,3214,Club Atlético Chacarita Juniors,112509,Villa Dálmine,3.0,0.0,1676750400,Ended,finished,1.0
+10997073,703,Primera Nacional,48079,Primera Nacional 2023,3.0,213042,Deportivo Maipú,3214,Club Atlético Chacarita Juniors,0.0,2.0,1677448800,Ended,finished,2.0
+10997040,703,Primera Nacional,48079,Primera Nacional 2023,4.0,3214,Club Atlético Chacarita Juniors,36842,Independiente Rivadavia,3.0,0.0,1677960000,Ended,finished,1.0
+10997035,703,Primera Nacional,48079,Primera Nacional 2023,5.0,252726,Chaco For Ever,3214,Club Atlético Chacarita Juniors,1.0,1.0,1678656600,Ended,finished,3.0
+10997017,703,Primera Nacional,48079,Primera Nacional 2023,6.0,3214,Club Atlético Chacarita Juniors,255425,CA Mitre,1.0,1.0,1679178900,Ended,finished,3.0
+10996998,703,Primera Nacional,48079,Primera Nacional 2023,7.0,36836,Aldosivi,3214,Club Atlético Chacarita Juniors,0.0,1.0,1679855400,Ended,finished,2.0
+11000214,703,Primera Nacional,48079,Primera Nacional 2023,9.0,3214,Club Atlético Chacarita Juniors,53799,Atlanta,,,1680379200,Postponed,postponed,
+11000221,703,Primera Nacional,48079,Primera Nacional 2023,8.0,93513,Tristán Suárez,3214,Club Atlético Chacarita Juniors,1.0,3.0,1680390000,Ended,finished,2.0
+11179672,703,Primera Nacional,48079,Primera Nacional 2023,9.0,3214,Club Atlético Chacarita Juniors,53799,Atlanta,1.0,1.0,1680984000,Ended,finished,3.0
+11188289,1024,Copa Argentina,48253,Copa Argentina 2023,32.0,3210,CA Talleres,3214,Club Atlético Chacarita Juniors,,,1681236000,Postponed,postponed,
+10997355,703,Primera Nacional,48079,Primera Nacional 2023,10.0,273657,Racing de Córdoba,3214,Club Atlético Chacarita Juniors,,,1681588800,Postponed,postponed,
+11195643,703,Primera Nacional,48079,Primera Nacional 2023,10.0,273657,Racing de Córdoba,3214,Club Atlético Chacarita Juniors,1.0,1.0,1681778400,Ended,finished,3.0
+10997340,703,Primera Nacional,48079,Primera Nacional 2023,11.0,3214,Club Atlético Chacarita Juniors,189723,Deportivo Riestra,4.0,2.0,1682195400,Ended,finished,1.0
+10997330,703,Primera Nacional,48079,Primera Nacional 2023,12.0,36841,Club Ferro Carril Oeste,3214,Club Atlético Chacarita Juniors,0.0,0.0,1682896500,Ended,finished,3.0
+10997297,703,Primera Nacional,48079,Primera Nacional 2023,13.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,2.0,1.0,1683405300,Ended,finished,1.0
+10997294,703,Primera Nacional,48079,Primera Nacional 2023,14.0,4936,Quilmes Atlético Club,3214,Club Atlético Chacarita Juniors,1.0,1.0,1684018800,Ended,finished,3.0
+10997266,703,Primera Nacional,48079,Primera Nacional 2023,15.0,3214,Club Atlético Chacarita Juniors,107201,Brown de Adrogué,0.0,0.0,1684688400,Ended,finished,3.0
+10997257,703,Primera Nacional,48079,Primera Nacional 2023,16.0,93107,Estudiantes de Buenos Aires,3214,Club Atlético Chacarita Juniors,2.0,1.0,1685304300,Ended,finished,1.0
+10997211,703,Primera Nacional,48079,Primera Nacional 2023,17.0,3214,Club Atlético Chacarita Juniors,34976,Atlético de Rafaela,3.0,0.0,1685743200,Ended,finished,1.0
+11304198,1024,Copa Argentina,48253,Copa Argentina 2023,32.0,3210,CA Talleres,3214,Club Atlético Chacarita Juniors,2.0,0.0,1686070800,Ended,finished,1.0
+10997220,703,Primera Nacional,48079,Primera Nacional 2023,18.0,3214,Club Atlético Chacarita Juniors,222120,Deportivo Madryn,0.0,0.0,1687025100,Ended,finished,3.0
+10997201,703,Primera Nacional,48079,Primera Nacional 2023,19.0,112509,Villa Dálmine,3214,Club Atlético Chacarita Juniors,0.0,1.0,1687619400,Ended,finished,2.0
+10997177,703,Primera Nacional,48079,Primera Nacional 2023,20.0,3214,Club Atlético Chacarita Juniors,213042,Deportivo Maipú,2.0,1.0,1688321400,Ended,finished,1.0
+11000194,703,Primera Nacional,48079,Primera Nacional 2023,21.0,36842,Independiente Rivadavia,3214,Club Atlético Chacarita Juniors,1.0,0.0,1688931000,Ended,finished,1.0
+11000196,703,Primera Nacional,48079,Primera Nacional 2023,22.0,3214,Club Atlético Chacarita Juniors,252726,Chaco For Ever,1.0,0.0,1689446400,Ended,finished,1.0
+11000175,703,Primera Nacional,48079,Primera Nacional 2023,23.0,255425,CA Mitre,3214,Club Atlético Chacarita Juniors,1.0,2.0,1690137000,Ended,finished,2.0
+11000173,703,Primera Nacional,48079,Primera Nacional 2023,24.0,3214,Club Atlético Chacarita Juniors,36836,Aldosivi,2.0,0.0,1690743000,Ended,finished,1.0
+11000157,703,Primera Nacional,48079,Primera Nacional 2023,25.0,3214,Club Atlético Chacarita Juniors,93513,Tristán Suárez,1.0,1.0,1691269800,Ended,finished,3.0
+11000159,703,Primera Nacional,48079,Primera Nacional 2023,26.0,53799,Atlanta,3214,Club Atlético Chacarita Juniors,0.0,1.0,1692471600,Ended,finished,2.0
+10997545,703,Primera Nacional,48079,Primera Nacional 2023,27.0,3214,Club Atlético Chacarita Juniors,273657,Racing de Córdoba,1.0,0.0,1693077000,Ended,finished,1.0
+10997518,703,Primera Nacional,48079,Primera Nacional 2023,28.0,189723,Deportivo Riestra,3214,Club Atlético Chacarita Juniors,,,1693684800,Postponed,postponed,
+11579428,703,Primera Nacional,48079,Primera Nacional 2023,28.0,189723,Deportivo Riestra,3214,Club Atlético Chacarita Juniors,0.0,1.0,1693938600,Ended,finished,2.0
+10997509,703,Primera Nacional,48079,Primera Nacional 2023,29.0,3214,Club Atlético Chacarita Juniors,36841,Club Ferro Carril Oeste,3.0,1.0,1694365800,Ended,finished,1.0
+10997496,703,Primera Nacional,48079,Primera Nacional 2023,30.0,5292,Gimnasia Y Esgrima De Jujuy,3214,Club Atlético Chacarita Juniors,2.0,0.0,1694974500,Ended,finished,1.0
+10997461,703,Primera Nacional,48079,Primera Nacional 2023,31.0,3214,Club Atlético Chacarita Juniors,4936,Quilmes Atlético Club,2.0,2.0,1695496200,Ended,finished,3.0
+10997448,703,Primera Nacional,48079,Primera Nacional 2023,32.0,107201,Brown de Adrogué,3214,Club Atlético Chacarita Juniors,1.0,2.0,1696269600,Ended,finished,2.0
+10997429,703,Primera Nacional,48079,Primera Nacional 2023,33.0,3214,Club Atlético Chacarita Juniors,93107,Estudiantes de Buenos Aires,1.0,1.0,1696794600,Ended,finished,3.0
+10997417,703,Primera Nacional,48079,Primera Nacional 2023,34.0,34976,Atlético de Rafaela,3214,Club Atlético Chacarita Juniors,1.0,1.0,1697394600,Ended,finished,3.0
+11757201,703,Primera Nacional,48079,Primera Nacional 2023,1.0,3214,Club Atlético Chacarita Juniors,112499,Temperley,1.0,2.0,1698525000,Ended,finished,2.0
+11972383,703,Primera Nacional,57782,Primera Nacional 2024,1.0,3214,Club Atlético Chacarita Juniors,213042,Deportivo Maipú,2.0,0.0,1706990400,Ended,finished,1.0
+11972406,703,Primera Nacional,57782,Primera Nacional 2024,2.0,36841,Club Ferro Carril Oeste,3214,Club Atlético Chacarita Juniors,0.0,2.0,1707516600,Ended,finished,2.0
+11972420,703,Primera Nacional,57782,Primera Nacional 2024,3.0,3214,Club Atlético Chacarita Juniors,264945,San Miguel,1.0,1.0,1708113600,Ended,finished,3.0
+11972445,703,Primera Nacional,57782,Primera Nacional 2024,4.0,4936,Quilmes Atlético Club,3214,Club Atlético Chacarita Juniors,1.0,0.0,1708908300,Ended,finished,1.0
+11972457,703,Primera Nacional,57782,Primera Nacional 2024,5.0,3214,Club Atlético Chacarita Juniors,201162,Talleres Remedios de Escalada,0.0,1.0,1709496000,Ended,finished,2.0
+11972484,703,Primera Nacional,57782,Primera Nacional 2024,6.0,93107,Estudiantes de Buenos Aires,3214,Club Atlético Chacarita Juniors,0.0,0.0,1710014400,Ended,finished,3.0
+11972513,703,Primera Nacional,57782,Primera Nacional 2024,7.0,3214,Club Atlético Chacarita Juniors,52215,Defensores de Belgrano,1.0,4.0,1710613800,Ended,finished,2.0
+11972522,703,Primera Nacional,57782,Primera Nacional 2024,8.0,3214,Club Atlético Chacarita Juniors,23950,San Martín de Tucumán,1.0,0.0,1711389600,Ended,finished,1.0
+11972533,703,Primera Nacional,57782,Primera Nacional 2024,9.0,3221,Arsenal de Sarandí,3214,Club Atlético Chacarita Juniors,3.0,1.0,1711814700,Ended,finished,1.0
+11972559,703,Primera Nacional,57782,Primera Nacional 2024,10.0,3214,Club Atlético Chacarita Juniors,7772,San Martín de San Juan,1.0,1.0,1712423400,Ended,finished,3.0
+11972572,703,Primera Nacional,57782,Primera Nacional 2024,11.0,53801,Guillermo Brown,3214,Club Atlético Chacarita Juniors,0.0,3.0,1713119400,Ended,finished,2.0
+12075061,1024,Copa Argentina,57968,Copa Argentina 2024,32.0,7628,Tigre,3214,Club Atlético Chacarita Juniors,5.0,6.0,1713379200,AP,finished,2.0
+11972596,703,Primera Nacional,57782,Primera Nacional 2024,12.0,3214,Club Atlético Chacarita Juniors,265787,Agropecuario Argentino,2.0,1.0,1713724200,Ended,finished,1.0
+11972611,703,Primera Nacional,57782,Primera Nacional 2024,13.0,36834,All Boys,3214,Club Atlético Chacarita Juniors,0.0,0.0,1714342200,Ended,finished,3.0
+11972633,703,Primera Nacional,57782,Primera Nacional 2024,14.0,3214,Club Atlético Chacarita Juniors,93513,Tristán Suárez,1.0,2.0,1714933800,Ended,finished,2.0
+11972650,703,Primera Nacional,57782,Primera Nacional 2024,15.0,43741,Patronato,3214,Club Atlético Chacarita Juniors,2.0,0.0,1715540400,Ended,finished,1.0
+11972670,703,Primera Nacional,57782,Primera Nacional 2024,16.0,3214,Club Atlético Chacarita Juniors,273657,Racing de Córdoba,2.0,2.0,1716143400,Ended,finished,3.0
+11972689,703,Primera Nacional,57782,Primera Nacional 2024,17.0,273715,Alvarado,3214,Club Atlético Chacarita Juniors,2.0,1.0,1716748200,Ended,finished,1.0
+11972708,703,Primera Nacional,57782,Primera Nacional 2024,18.0,3214,Club Atlético Chacarita Juniors,224646,Güemes,2.0,0.0,1717266600,Ended,finished,1.0
+12352900,1024,Copa Argentina,57968,Copa Argentina 2024,6.0,3201,San Lorenzo,3214,Club Atlético Chacarita Juniors,2.0,0.0,1717801200,Ended,finished,1.0
+11972729,703,Primera Nacional,57782,Primera Nacional 2024,19.0,5292,Gimnasia Y Esgrima De Jujuy,3214,Club Atlético Chacarita Juniors,0.0,1.0,1718215800,Ended,finished,2.0
+11972745,703,Primera Nacional,57782,Primera Nacional 2024,20.0,213042,Deportivo Maipú,3214,Club Atlético Chacarita Juniors,0.0,2.0,1719165600,Ended,finished,2.0
+11972768,703,Primera Nacional,57782,Primera Nacional 2024,21.0,3214,Club Atlético Chacarita Juniors,36841,Club Ferro Carril Oeste,1.0,1.0,1719767400,Ended,finished,3.0
+11972782,703,Primera Nacional,57782,Primera Nacional 2024,22.0,264945,San Miguel,3214,Club Atlético Chacarita Juniors,2.0,1.0,1720375500,Ended,finished,1.0
+11972807,703,Primera Nacional,57782,Primera Nacional 2024,23.0,3214,Club Atlético Chacarita Juniors,4936,Quilmes Atlético Club,0.0,4.0,1720890600,Ended,finished,2.0
+11972819,703,Primera Nacional,57782,Primera Nacional 2024,24.0,201162,Talleres Remedios de Escalada,3214,Club Atlético Chacarita Juniors,2.0,1.0,1721593800,Ended,finished,1.0
+11972846,703,Primera Nacional,57782,Primera Nacional 2024,25.0,3214,Club Atlético Chacarita Juniors,93107,Estudiantes de Buenos Aires,1.0,1.0,1722103200,Ended,finished,3.0
+11972875,703,Primera Nacional,57782,Primera Nacional 2024,26.0,52215,Defensores de Belgrano,3214,Club Atlético Chacarita Juniors,2.0,2.0,1722809400,Ended,finished,3.0
+11972884,703,Primera Nacional,57782,Primera Nacional 2024,27.0,23950,San Martín de Tucumán,3214,Club Atlético Chacarita Juniors,1.0,0.0,1723406400,Ended,finished,1.0
+11972895,703,Primera Nacional,57782,Primera Nacional 2024,28.0,3214,Club Atlético Chacarita Juniors,3221,Arsenal de Sarandí,0.0,0.0,1724004000,Ended,finished,3.0
+11972921,703,Primera Nacional,57782,Primera Nacional 2024,29.0,7772,San Martín de San Juan,3214,Club Atlético Chacarita Juniors,4.0,0.0,1724612400,Ended,finished,1.0
+11972934,703,Primera Nacional,57782,Primera Nacional 2024,30.0,3214,Club Atlético Chacarita Juniors,53801,Guillermo Brown,1.0,0.0,1725213600,Ended,finished,1.0
+11972958,703,Primera Nacional,57782,Primera Nacional 2024,31.0,265787,Agropecuario Argentino,3214,Club Atlético Chacarita Juniors,2.0,0.0,1725732000,Ended,finished,1.0
+11972973,703,Primera Nacional,57782,Primera Nacional 2024,32.0,3214,Club Atlético Chacarita Juniors,36834,All Boys,0.0,1.0,1726425000,Ended,finished,2.0
+11972995,703,Primera Nacional,57782,Primera Nacional 2024,33.0,93513,Tristán Suárez,3214,Club Atlético Chacarita Juniors,0.0,0.0,1726945200,Ended,finished,3.0
+11973012,703,Primera Nacional,57782,Primera Nacional 2024,34.0,3214,Club Atlético Chacarita Juniors,43741,Patronato,1.0,0.0,1727547000,Ended,finished,1.0
+11973032,703,Primera Nacional,57782,Primera Nacional 2024,35.0,273657,Racing de Córdoba,3214,Club Atlético Chacarita Juniors,1.0,1.0,1728083400,Ended,finished,3.0
+11973051,703,Primera Nacional,57782,Primera Nacional 2024,36.0,3214,Club Atlético Chacarita Juniors,273715,Alvarado,2.0,1.0,1728844200,Ended,finished,1.0
+11973069,703,Primera Nacional,57782,Primera Nacional 2024,37.0,224646,Güemes,3214,Club Atlético Chacarita Juniors,2.0,1.0,1729360800,Ended,finished,1.0
+11973090,703,Primera Nacional,57782,Primera Nacional 2024,38.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,0.0,0.0,1730052300,Ended,finished,3.0
+13387590,703,Primera Nacional,71009,Primera Nacional 2025,1.0,265787,Agropecuario Argentino,3214,Club Atlético Chacarita Juniors,0.0,1.0,1739233800,Ended,finished,2.0
+13408138,703,Primera Nacional,71009,Primera Nacional 2025,2.0,3214,Club Atlético Chacarita Juniors,213361,San Telmo,1.0,1.0,1739736000,Ended,finished,3.0
+13437923,703,Primera Nacional,71009,Primera Nacional 2025,3.0,3200,Nueva Chicago,3214,Club Atlético Chacarita Juniors,1.0,1.0,1740434400,Ended,finished,3.0
+13437950,703,Primera Nacional,71009,Primera Nacional 2025,4.0,52215,Defensores de Belgrano,3214,Club Atlético Chacarita Juniors,1.0,0.0,1740953700,Ended,finished,1.0
+13366694,703,Primera Nacional,71009,Primera Nacional 2025,5.0,3214,Club Atlético Chacarita Juniors,266694,Estudiantes de Río Cuarto,0.0,2.0,1741550400,Ended,finished,2.0
+13445425,703,Primera Nacional,71009,Primera Nacional 2025,6.0,201162,Talleres Remedios de Escalada,3214,Club Atlético Chacarita Juniors,0.0,2.0,1742079600,Ended,finished,2.0
+13445439,703,Primera Nacional,71009,Primera Nacional 2025,7.0,3214,Club Atlético Chacarita Juniors,93109,Deportivo Morón,1.0,1.0,1742751900,Ended,finished,3.0
+13366995,703,Primera Nacional,71009,Primera Nacional 2025,8.0,93107,Estudiantes de Buenos Aires,3214,Club Atlético Chacarita Juniors,0.0,2.0,1743280200,Ended,finished,2.0
+13445461,703,Primera Nacional,71009,Primera Nacional 2025,9.0,3214,Club Atlético Chacarita Juniors,93515,Defensores Unidos,2.0,0.0,1743870600,Ended,finished,1.0
+13445485,703,Primera Nacional,71009,Primera Nacional 2025,10.0,112499,Temperley,3214,Club Atlético Chacarita Juniors,0.0,3.0,1744574400,Ended,finished,2.0
+13445507,703,Primera Nacional,71009,Primera Nacional 2025,11.0,3214,Club Atlético Chacarita Juniors,3207,Club Atletico Colón,3.0,2.0,1745172000,Ended,finished,1.0
+13445529,703,Primera Nacional,71009,Primera Nacional 2025,12.0,255425,CA Mitre,3214,Club Atlético Chacarita Juniors,0.0,0.0,1745784000,Ended,finished,3.0
+13445549,703,Primera Nacional,71009,Primera Nacional 2025,13.0,3214,Club Atlético Chacarita Juniors,252726,Chaco For Ever,0.0,3.0,1746381600,Ended,finished,2.0
+13445565,703,Primera Nacional,71009,Primera Nacional 2025,14.0,43740,Almirante Brown,3214,Club Atlético Chacarita Juniors,1.0,3.0,1746996300,Ended,finished,2.0
+13445591,703,Primera Nacional,71009,Primera Nacional 2025,15.0,3214,Club Atlético Chacarita Juniors,255426,Central Norte de Salta,4.0,0.0,1747593000,Ended,finished,1.0
+13445607,703,Primera Nacional,71009,Primera Nacional 2025,16.0,188441,Gimnasia y Esgrima Mendoza,3214,Club Atlético Chacarita Juniors,0.0,0.0,1748197800,Ended,finished,3.0
+13445635,703,Primera Nacional,71009,Primera Nacional 2025,17.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,0.0,1.0,1748799000,Ended,finished,2.0
+13969363,703,Primera Nacional,71009,Primera Nacional 2025,18.0,3214,Club Atlético Chacarita Juniors,265787,Agropecuario Argentino,3.0,0.0,1749924000,Ended,finished,1.0
+13977071,703,Primera Nacional,71009,Primera Nacional 2025,19.0,213361,San Telmo,3214,Club Atlético Chacarita Juniors,0.0,1.0,1750608600,Ended,finished,2.0
+14021408,703,Primera Nacional,71009,Primera Nacional 2025,20.0,3214,Club Atlético Chacarita Juniors,3200,Nueva Chicago,0.0,0.0,1751134500,Ended,finished,3.0
+13445719,703,Primera Nacional,71009,Primera Nacional 2025,21.0,3214,Club Atlético Chacarita Juniors,52215,Defensores de Belgrano,0.0,2.0,1751825100,Ended,finished,2.0
+14089045,703,Primera Nacional,71009,Primera Nacional 2025,22.0,266694,Estudiantes de Río Cuarto,3214,Club Atlético Chacarita Juniors,1.0,1.0,1752432300,Ended,finished,3.0
+14135557,703,Primera Nacional,71009,Primera Nacional 2025,23.0,3214,Club Atlético Chacarita Juniors,201162,Talleres Remedios de Escalada,2.0,1.0,1753030800,Ended,finished,1.0
+14185582,703,Primera Nacional,71009,Primera Nacional 2025,24.0,93109,Deportivo Morón,3214,Club Atlético Chacarita Juniors,0.0,2.0,1753560000,Ended,finished,2.0
+14248149,703,Primera Nacional,71009,Primera Nacional 2025,25.0,3214,Club Atlético Chacarita Juniors,93107,Estudiantes de Buenos Aires,0.0,3.0,1754245800,Ended,finished,2.0
+14349199,703,Primera Nacional,71009,Primera Nacional 2025,26.0,93515,Defensores Unidos,3214,Club Atlético Chacarita Juniors,0.0,0.0,1754759400,Ended,finished,3.0
+14349792,703,Primera Nacional,71009,Primera Nacional 2025,27.0,3214,Club Atlético Chacarita Juniors,112499,Temperley,0.0,0.0,1755364200,Ended,finished,3.0
+13445851,703,Primera Nacional,71009,Primera Nacional 2025,28.0,3207,Club Atletico Colón,3214,Club Atlético Chacarita Juniors,1.0,1.0,1755979500,Ended,finished,3.0
+13445871,703,Primera Nacional,71009,Primera Nacional 2025,29.0,3214,Club Atlético Chacarita Juniors,255425,CA Mitre,2.0,2.0,1756573200,Ended,finished,3.0
+13445891,703,Primera Nacional,71009,Primera Nacional 2025,30.0,252726,Chaco For Ever,3214,Club Atlético Chacarita Juniors,0.0,0.0,1757282400,Ended,finished,3.0
+13445909,703,Primera Nacional,71009,Primera Nacional 2025,31.0,3214,Club Atlético Chacarita Juniors,43740,Almirante Brown,0.0,1.0,1757874600,Ended,finished,2.0
+13445932,703,Primera Nacional,71009,Primera Nacional 2025,32.0,255426,Central Norte de Salta,3214,Club Atlético Chacarita Juniors,2.0,1.0,1758484800,Ended,finished,1.0
+13445947,703,Primera Nacional,71009,Primera Nacional 2025,33.0,3214,Club Atlético Chacarita Juniors,188441,Gimnasia y Esgrima Mendoza,1.0,1.0,1759083300,Ended,finished,3.0
+13445970,703,Primera Nacional,71009,Primera Nacional 2025,34.0,5292,Gimnasia Y Esgrima De Jujuy,3214,Club Atlético Chacarita Juniors,2.0,0.0,1759689000,Ended,finished,1.0
+15275392,703,Primera Nacional,87940,Primera Nacional 2026,1.0,3214,Club Atlético Chacarita Juniors,7772,San Martín de San Juan,,,1770494400,Postponed,postponed,
+15275402,703,Primera Nacional,87940,Primera Nacional 2026,2.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,,,1771099200,Postponed,postponed,
+15459026,703,Primera Nacional,87940,Primera Nacional 2026,1.0,3214,Club Atlético Chacarita Juniors,7772,San Martín de San Juan,1.0,1.0,1771185600,Ended,finished,3.0
+15463211,703,Primera Nacional,87940,Primera Nacional 2026,2.0,3214,Club Atlético Chacarita Juniors,5292,Gimnasia Y Esgrima De Jujuy,3.0,1.0,1771790400,Ended,finished,1.0
+15275428,703,Primera Nacional,87940,Primera Nacional 2026,3.0,224646,Güemes,3214,Club Atlético Chacarita Juniors,2.0,1.0,1772395200,Ended,finished,1.0
+15275439,703,Primera Nacional,87940,Primera Nacional 2026,4.0,3214,Club Atlético Chacarita Juniors,93513,Tristán Suárez,,,1773000000,Postponed,postponed,
+15275464,703,Primera Nacional,87940,Primera Nacional 2026,5.0,265787,Agropecuario Argentino,3214,Club Atlético Chacarita Juniors,2.0,0.0,1773601200,Ended,finished,1.0
+15275477,703,Primera Nacional,87940,Primera Nacional 2026,6.0,3214,Club Atlético Chacarita Juniors,34976,Atlético de Rafaela,0.0,1.0,1774206000,Ended,finished,2.0
+15275489,703,Primera Nacional,87940,Primera Nacional 2026,7.0,3214,Club Atlético Chacarita Juniors,93107,Estudiantes de Buenos Aires,0.0,3.0,1774810800,Ended,finished,2.0
+15275517,703,Primera Nacional,87940,Primera Nacional 2026,8.0,23950,San Martín de Tucumán,3214,Club Atlético Chacarita Juniors,1.0,1.0,1775334600,Ended,finished,3.0
+15275532,703,Primera Nacional,87940,Primera Nacional 2026,9.0,3214,Club Atlético Chacarita Juniors,222126,Gimnasia y Tiro de Salta,2.0,0.0,1776016800,Ended,finished,1.0
+15275552,703,Primera Nacional,87940,Primera Nacional 2026,10.0,53799,Atlanta,3214,Club Atlético Chacarita Juniors,1.0,0.0,1776729600,Ended,finished,1.0
+15275569,703,Primera Nacional,87940,Primera Nacional 2026,11.0,3214,Club Atlético Chacarita Juniors,270344,Ferrocarril Midland,1.0,0.0,1777228200,Ended,finished,1.0
+15275589,703,Primera Nacional,87940,Primera Nacional 2026,12.0,4936,Quilmes Atlético Club,3214,Club Atlético Chacarita Juniors,0.0,0.0,1777935600,Ended,finished,3.0
+15275608,703,Primera Nacional,87940,Primera Nacional 2026,13.0,3214,Club Atlético Chacarita Juniors,112493,Colegiales,2.0,0.0,1778437800,Ended,finished,1.0
+15275624,703,Primera Nacional,87940,Primera Nacional 2026,14.0,43741,Patronato,3214,Club Atlético Chacarita Juniors,2.0,0.0,1779044400,Ended,finished,1.0
+15275647,703,Primera Nacional,87940,Primera Nacional 2026,15.0,3214,Club Atlético Chacarita Juniors,4938,Almagro,1.0,0.0,1779647400,Ended,finished,1.0
+15275661,703,Primera Nacional,87940,Primera Nacional 2026,16.0,213042,Deportivo Maipú,3214,Club Atlético Chacarita Juniors,3.0,2.0,1780257600,Ended,finished,1.0
+15275684,703,Primera Nacional,87940,Primera Nacional 2026,17.0,3214,Club Atlético Chacarita Juniors,112499,Temperley,0.0,1.0,1780857000,Ended,finished,2.0
+15275696,703,Primera Nacional,87940,Primera Nacional 2026,18.0,3200,Nueva Chicago,3214,Club Atlético Chacarita Juniors,2.0,0.0,1781375400,Ended,finished,1.0
+15943796,703,Primera Nacional,87940,Primera Nacional 2026,4.0,3214,Club Atlético Chacarita Juniors,93513,Tristán Suárez,0.0,0.0,1782066600,Ended,finished,3.0
+15275731,703,Primera Nacional,87940,Primera Nacional 2026,20.0,5292,Gimnasia Y Esgrima De Jujuy,3214,Club Atlético Chacarita Juniors,,,1783195200,Postponed,postponed,
+15275721,703,Primera Nacional,87940,Primera Nacional 2026,19.0,7772,San Martín de San Juan,3214,Club Atlético Chacarita Juniors,0.0,1.0,1783278000,Ended,finished,2.0
+16388563,703,Primera Nacional,87940,Primera Nacional 2026,20.0,5292,Gimnasia Y Esgrima De Jujuy,3214,Club Atlético Chacarita Juniors,1.0,1.0,1783879200,Ended,finished,3.0
+15275757,703,Primera Nacional,87940,Primera Nacional 2026,21.0,3214,Club Atlético Chacarita Juniors,224646,Güemes,,,1784570400,Postponed,postponed,
+15275768,703,Primera Nacional,87940,Primera Nacional 2026,22.0,93513,Tristán Suárez,3214,Club Atlético Chacarita Juniors,1.0,0.0,1785002400,Ended,finished,1.0
+15275793,703,Primera Nacional,87940,Primera Nacional 2026,23.0,3214,Club Atlético Chacarita Juniors,265787,Agropecuario Argentino,2.0,1.0,1785693600,Ended,finished,1.0
+15275806,703,Primera Nacional,87940,Primera Nacional 2026,24.0,34976,Atlético de Rafaela,3214,Club Atlético Chacarita Juniors,1.0,0.0,1786215600,Ended,finished,1.0
+15275818,703,Primera Nacional,87940,Primera Nacional 2026,25.0,93107,Estudiantes de Buenos Aires,3214,Club Atlético Chacarita Juniors,,,1786219200,Postponed,postponed,
+16744861,703,Primera Nacional,87940,Primera Nacional 2026,25.0,93107,Estudiantes de Buenos Aires,3214,Club Atlético Chacarita Juniors,2.0,0.0,1786831200,Ended,finished,1.0
+16611054,703,Primera Nacional,87940,Primera Nacional 2026,21.0,3214,Club Atlético Chacarita Juniors,224646,Güemes,0.0,0.0,1787162400,Ended,finished,3.0
+15275849,703,Primera Nacional,87940,Primera Nacional 2026,26.0,3214,Club Atlético Chacarita Juniors,23950,San Martín de Tucumán,1.0,2.0,1787508000,Ended,finished,2.0
+15275866,703,Primera Nacional,87940,Primera Nacional 2026,27.0,222126,Gimnasia y Tiro de Salta,3214,Club Atlético Chacarita Juniors,1.0,0.0,1787965200,Ended,finished,1.0
+15275886,703,Primera Nacional,87940,Primera Nacional 2026,28.0,3214,Club Atlético Chacarita Juniors,53799,Atlanta,0.0,1.0,1788633000,Ended,finished,2.0

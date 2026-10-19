@@ -1,0 +1,572 @@
+<title>Central de Rivales</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root{
+    --bg:#F6F2EB; --surface:#FFFFFF; --surface-2:#EFE9DE;
+    --ink:#1C1712; --muted:#6E6357; --line:#DFD6C6;
+    --accent:#7C1626; --accent-soft:#F1DEDF;
+    --good:#3F7D4F; --good-soft:#E3EFE1;
+    --warn:#96650F; --warn-soft:#F3E7CE;
+    --bad:#AB3131; --bad-soft:#F4E0DD;
+    --info:#3B6C87; --info-soft:#DFEAEE;
+    --shadow: 0 1px 2px rgba(28,23,18,0.06), 0 8px 24px rgba(28,23,18,0.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#15110D; --surface:#1D1712; --surface-2:#251E17;
+      --ink:#EFE7DB; --muted:#AB9F8E; --line:#382E24;
+      --accent:#D2626F; --accent-soft:#3A2024;
+      --good:#7CBE8B; --good-soft:#20301F;
+      --warn:#E0B45C; --warn-soft:#3A2E14;
+      --bad:#E38686; --bad-soft:#3A2320;
+      --info:#8FC1D8; --info-soft:#1E2E33;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 30px rgba(0,0,0,0.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#15110D; --surface:#1D1712; --surface-2:#251E17;
+    --ink:#EFE7DB; --muted:#AB9F8E; --line:#382E24;
+    --accent:#D2626F; --accent-soft:#3A2024;
+    --good:#7CBE8B; --good-soft:#20301F;
+    --warn:#E0B45C; --warn-soft:#3A2E14;
+    --bad:#E38686; --bad-soft:#3A2320;
+    --info:#8FC1D8; --info-soft:#1E2E33;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 30px rgba(0,0,0,0.35);
+  }
+
+  *{box-sizing:border-box;}
+  body{ background:var(--bg); color:var(--ink); font-family:'Source Serif 4', Georgia, serif; font-size:16.5px; line-height:1.6; margin:0; }
+  ::selection{ background:var(--accent-soft); }
+  .wrap{ max-width:980px; margin:0 auto; padding:0 24px 120px; }
+  h1,h2,h3,h4{ font-family:'Big Shoulders Display','Arial Narrow',sans-serif; text-transform:uppercase; letter-spacing:0.01em; text-wrap:balance; color:var(--ink); margin:0; }
+  .eyebrow{ font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--accent); font-weight:600; }
+  p{ margin:0 0 1em; max-width:70ch; }
+  .lede{ font-size:1.12rem; color:var(--muted); max-width:64ch; }
+  a{ color:var(--accent); }
+  strong{ color:var(--ink); }
+  code,.mono{ font-family:'IBM Plex Mono',monospace; }
+  .tabular{ font-variant-numeric:tabular-nums; }
+
+  header.masthead{ border-bottom:1px solid var(--line);
+    background: repeating-linear-gradient(90deg, var(--ink) 0 3px, transparent 3px 34px);
+    background-size:100% 6px; background-repeat:repeat-x; background-position:bottom; }
+  .masthead-inner{ max-width:980px; margin:0 auto; padding:48px 24px 32px; }
+  .masthead h1{ font-size:clamp(1.9rem,4.6vw,3rem); font-weight:800; line-height:1.03; margin-top:12px; }
+  .masthead .lede{ margin-top:14px; }
+  .meta-row{ display:flex; flex-wrap:wrap; gap:10px 22px; margin-top:20px; font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em; }
+  .meta-row span b{ color:var(--ink); font-weight:600; }
+
+  nav.toc{ position:sticky; top:0; z-index:5; background:color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter:blur(6px); border-bottom:1px solid var(--line); }
+  nav.toc .toc-inner{ max-width:980px; margin:0 auto; padding:10px 24px; display:flex; gap:16px; overflow-x:auto; font-family:'IBM Plex Mono',monospace; font-size:11.5px; letter-spacing:0.04em; text-transform:uppercase; white-space:nowrap; }
+  nav.toc a{ color:var(--muted); text-decoration:none; padding:4px 0; border-bottom:2px solid transparent; }
+  nav.toc a:hover{ color:var(--ink); }
+  nav.toc a.fecha-num{ font-weight:700; color:var(--accent); }
+
+  section{ padding:50px 0 0; }
+  .section-head{ display:flex; align-items:baseline; gap:14px; margin-bottom:18px; }
+  .section-head h2{ font-size:1.7rem; font-weight:700; }
+  .rule{ height:1px; background:var(--line); border:none; margin:50px 0 0; }
+
+  .stat-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); margin-top:22px; overflow:hidden; }
+  .stat-tile{ background:var(--surface); padding:18px 18px; }
+  .stat-tile .num{ font-family:'Big Shoulders Display',sans-serif; font-weight:800; font-size:1.9rem; color:var(--accent); line-height:1; }
+  .stat-tile .label{ margin-top:6px; font-size:0.88rem; color:var(--muted); font-family:'Source Serif 4',serif; max-width:none; }
+
+  .badge{ display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.04em; text-transform:uppercase; font-weight:600; padding:3px 8px; border-radius:3px; white-space:nowrap; }
+  .badge.good{ background:var(--good-soft); color:var(--good); }
+  .badge.warn{ background:var(--warn-soft); color:var(--warn); }
+  .badge.bad{ background:var(--bad-soft); color:var(--bad); }
+  .badge.info{ background:var(--info-soft); color:var(--info); }
+
+  .table-scroll{ overflow-x:auto; margin-top:18px; border:1px solid var(--line); }
+  table.dt{ border-collapse:collapse; width:100%; min-width:600px; background:var(--surface); }
+  table.dt.wide{ min-width:820px; }
+  table.dt caption{ text-align:left; padding:9px 14px; font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--muted); border-bottom:1px solid var(--line); }
+  table.dt th, table.dt td{ padding:9px 13px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top; font-size:0.88rem; }
+  table.dt thead th{ font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.05em; text-transform:uppercase; color:var(--muted); background:var(--surface-2); }
+  table.dt tbody tr:last-child td{ border-bottom:none; }
+  table.dt td.num, table.dt th.num{ text-align:right; font-variant-numeric:tabular-nums; }
+  table.dt td.pos{ color:var(--good); } table.dt td.neg{ color:var(--bad); }
+
+  /* --- rival card --- */
+  .rival-card{ margin-top:24px; border:1px solid var(--line); background:var(--surface); box-shadow:var(--shadow); scroll-margin-top:60px; }
+  .rival-head{ display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; padding:20px 24px; background:var(--ink); color:var(--bg); }
+  .rival-head .fx{ font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:0.06em; text-transform:uppercase; opacity:0.75; }
+  .rival-head h3{ color:var(--bg); font-size:1.6rem; font-weight:800; margin-top:4px; }
+  .rival-head .pos-badge{ font-family:'Big Shoulders Display',sans-serif; font-size:2rem; font-weight:800; }
+  .rival-body{ padding:22px 24px 26px; }
+  .rival-body h4{ font-size:1.05rem; font-weight:700; margin:22px 0 8px; color:var(--accent); }
+  .rival-body h4:first-child{ margin-top:0; }
+  .kv-inline{ display:flex; flex-wrap:wrap; gap:8px 22px; font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:0.03em; margin-bottom:6px; }
+  .kv-inline b{ color:var(--ink); font-weight:600; }
+  .fortaleza-debilidad{ display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:6px; }
+  @media (max-width:640px){ .fortaleza-debilidad{ grid-template-columns:1fr; } }
+  .fd-box{ padding:14px 16px; border:1px solid var(--line); }
+  .fd-box.f{ border-left:3px solid var(--good); }
+  .fd-box.d{ border-left:3px solid var(--bad); }
+  .fd-box h5{ font-family:'IBM Plex Mono',monospace; font-size:11px; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted); margin:0 0 8px; }
+  .fd-box ul{ margin:0; padding-left:18px; }
+  .fd-box li{ margin-bottom:6px; font-size:0.9rem; }
+  .reco{ margin-top:14px; padding:14px 16px; background:var(--accent-soft); border-left:3px solid var(--accent); }
+  .reco b{ font-family:'IBM Plex Mono',monospace; font-size:11px; text-transform:uppercase; letter-spacing:0.05em; display:block; margin-bottom:6px; color:var(--accent); }
+
+  .callout{ margin-top:22px; padding:18px 20px; border:1px solid var(--line); background:var(--surface-2); }
+  .callout .eyebrow{ display:block; margin-bottom:8px; }
+  .callout.method{ border-left:4px solid var(--info); }
+  .callout.legal{ border-left:4px solid var(--warn); }
+
+  footer{ margin-top:60px; padding:26px 0 10px; border-top:1px solid var(--line); color:var(--muted); font-size:0.83rem; }
+</style>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <span class="eyebrow">Para el cuerpo técnico · Sergio Rondina y colaboradores</span>
+    <h1>Central de Rivales</h1>
+    <p class="lede">Dossier de los ocho rivales que quedan, con datos de las 27-28 fechas ya jugadas de cada uno (no proyecciones): perfil de juego, fortalezas, debilidades, forma reciente y qué pasó en el cruce de ida. Pensado para leerse rival por rival, la semana de cada partido.</p>
+    <div class="meta-row">
+      <span>Fuente: <b>Sofascore, 225 partidos de Zona B con 30+ métricas cada uno</b></span>
+      <span>Contexto: <b>prensa especializada (Mundo Ascenso, Solo Ascenso, El Gráfico, diarios locales)</b></span>
+      <span>Actualizado: <b>06-sep-2026</b></span>
+    </div>
+  </div>
+</header>
+
+<nav class="toc">
+  <div class="toc-inner">
+    <a href="#resumen">Resumen</a>
+    <a href="#midland" class="fecha-num">29 · Midland</a>
+    <a href="#quilmes" class="fecha-num">30 · Quilmes</a>
+    <a href="#colegiales" class="fecha-num">31 · Colegiales</a>
+    <a href="#patronato" class="fecha-num">32 · Patronato</a>
+    <a href="#almagro" class="fecha-num">33 · Almagro</a>
+    <a href="#maipu" class="fecha-num">34 · Maipú</a>
+    <a href="#temperley" class="fecha-num">35 · Temperley</a>
+    <a href="#chicago" class="fecha-num">36 · N. Chicago</a>
+    <a href="#metodologia">Metodología</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="resumen">
+    <div class="section-head"><h2>Resumen antes de entrar rival por rival</h2></div>
+    <p>Contra estos mismos ocho equipos, en la ida, Chacarita sacó <strong>10 de 24 puntos posibles (3V, 1E, 4D)</strong> — peor que el promedio general de la temporada. Pero hay un patrón claro que vale la pena tener en la cabeza antes de leer los dossiers: <strong>Chacarita ganó los tres partidos que jugó de local</strong> en esa serie (Midland, Colegiales, Almagro) y <strong>perdió los tres que jugó de visitante</strong> contra los rivales más fuertes de ese lote (Patronato, Maipú, Nueva Chicago) -la excepción es Temperley, a quien perdió de local-.</p>
+    <div class="stat-grid">
+      <div class="stat-tile"><div class="num tabular">10/24</div><div class="label">puntos en la ida contra estos 8 rivales (3V 1E 4D)</div></div>
+      <div class="stat-tile"><div class="num tabular">3</div><div class="label">de los 4 partidos de vuelta como local son revanchas de derrotas en la ida (Patronato, Maipú, N. Chicago)</div></div>
+      <div class="stat-tile"><div class="num tabular">6/8</div><div class="label">rivales cambiaron de entrenador durante 2026 -la Primera Nacional entera es un caos de bancos este año-</div></div>
+    </div>
+    <div class="table-scroll">
+      <table class="dt wide">
+        <caption>la vuelta, con el resultado de la ida y el cambio de localía</caption>
+        <thead><tr><th>Fecha</th><th>Rival</th><th>Cond. vuelta</th><th>Resultado ida</th><th>Cond. ida</th><th>Lectura</th></tr></thead>
+        <tbody>
+          <tr><td>29</td><td>Ferrocarril Midland</td><td>Visitante</td><td class="pos">Ganó 1-0</td><td>Local</td><td>Ya le ganó, pero ahora de visitante</td></tr>
+          <tr><td>30</td><td>Quilmes</td><td>Local</td><td>Empató 0-0</td><td>Visitante</td><td>Ahora en su cancha, favorable</td></tr>
+          <tr><td>31</td><td>Colegiales</td><td>Visitante</td><td class="pos">Ganó 2-0</td><td>Local</td><td>Ya le ganó, pero ahora de visitante</td></tr>
+          <tr><td>32</td><td>Patronato</td><td>Local</td><td class="neg">Perdió 0-2</td><td>Visitante</td><td>Revancha en casa — clave</td></tr>
+          <tr><td>33</td><td>Almagro</td><td>Visitante</td><td class="pos">Ganó 1-0</td><td>Local</td><td>Ya le ganó, pero ahora de visitante</td></tr>
+          <tr><td>34</td><td>Deportivo Maipú</td><td>Local</td><td class="neg">Perdió 2-3</td><td>Visitante</td><td>Revancha en casa</td></tr>
+          <tr><td>35</td><td>Temperley</td><td>Visitante</td><td class="neg">Perdió 0-1</td><td>Local</td><td>Peor combinación: perdió de local, ahora de visitante ante el líder</td></tr>
+          <tr><td>36</td><td>Nueva Chicago</td><td>Local</td><td class="neg">Perdió 0-2</td><td>Visitante</td><td>Revancha en casa, cierre de temporada</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============ MIDLAND ============ -->
+  <section id="midland">
+    <div class="rival-card">
+      <div class="rival-head">
+        <div><span class="fx">Fecha 29 · 12-sep · Visitante</span><h3>Ferrocarril Midland</h3></div>
+        <div class="pos-badge">5°</div>
+      </div>
+      <div class="rival-body">
+        <div class="kv-inline">
+          <span><b>41 pts</b> en 27 PJ (1,48/PJ)</span>
+          <span>Forma (últimos 6): <b>D V E V D V</b> (1,67 pts/PJ)</span>
+          <span>H2H ida: Chacarita ganó <b>1-0</b> de local (fecha 11)</span>
+        </div>
+        <p>Debutante absoluto en la categoría -ascendió por primera vez en su historia a la Primera Nacional- y aun así está peleando el reducido de ascenso, 5° en la zona. Sin presión de descenso, juega suelto. Dato de color: Rondina ya dirigió a Midland hace veinte años (2005-2006) — lo conoce por dentro.</p>
+
+        <h4>Perfil de juego</h4>
+        <p>Es el equipo que más remata de toda la zona restante (13,7 tiros/partido, contra 11,0 de promedio), pero con una particularidad marcada: <strong>casi la mitad de esos remates son desde afuera del área</strong> (7,3 de media, el valor más alto de sus próximos rivales). Circula la pelota por adentro -tiene más posesión que el promedio (52%) y de los ocho rivales es de los que menos centros intenta (13,5 contra 15,1 de zona), compensando con mejor puntería en los que sí tira (33% de acierto). Presiona más por posicionamiento que por contacto: hace menos entradas (tackles) que el promedio pero intercepta más -lee las líneas de pase en vez de ir directo al choque-.</p>
+
+        <div class="fortaleza-debilidad">
+          <div class="fd-box f">
+            <h5>Fortalezas</h5>
+            <ul>
+              <li>Volumen de juego alto y buena puntería (5,1 tiros al arco/partido, el más alto de los ocho rivales)</li>
+              <li>Defensa de área sólida en el agregado de temporada: recibe pocos córners (3,2/partido)</li>
+              <li>Buena forma reciente: 10 de 18 puntos en los últimos 6</li>
+            </ul>
+          </div>
+          <div class="fd-box d">
+            <h5>Debilidades</h5>
+            <ul>
+              <li><strong>El xG en contra viene empeorando fuerte</strong>: 0,98 en la temporada completa, mercado a 1,44 en los últimos 6 partidos -está sufriendo más de lo que sufría, aunque el resultado (todavía) lo disimula-</li>
+              <li>Va poco al tackle directo (3,2/partido, bien por debajo del promedio de 4,0) — puede ser vulnerable al 1v1 encarado</li>
+              <li>Depende mucho del remate lejano, señal de que le cuesta perforar bloques bajos dentro del área</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="reco">
+          <b>Para el cuerpo técnico</b>
+          Cerrar bien la zona de los 25-30 metros para que sigan tirando de lejos -ahí su xG por remate es bajo, aunque el volumen sea alto-. Con la fase defensiva más floja de las últimas fechas, situaciones claras dentro del área tienen más chance de convertirse que en partidos anteriores de Midland. Ya lo venció una vez esta temporada, en el mismo mano a mano.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============ QUILMES ============ -->
+  <section id="quilmes">
+    <div class="rival-card">
+      <div class="rival-head">
+        <div><span class="fx">Fecha 30 · 19-sep · Local — cruce directo por la permanencia</span><h3>Quilmes Atlético Club</h3></div>
+        <div class="pos-badge">13°</div>
+      </div>
+      <div class="rival-body">
+        <div class="kv-inline">
+          <span><b>32 pts</b> en 27 PJ (1,04/PJ)</span>
+          <span>Forma (últimos 6): <b>V D E E D D</b> (0,83 pts/PJ)</span>
+          <span>H2H ida: Empate <b>0-0</b>, de visitante (fecha 12)</span>
+        </div>
+        <p><strong>DT nuevo: Leandro Gracián</strong> (reemplazó a Grelak tras 3 fechas). Los datos de abajo son de toda la temporada, mayormente con el DT anterior -tratar con cautela-.</p>
+
+        <h4>Perfil de juego (con el DT anterior, mayormente)</h4>
+        <p>Ataque de volumen medio-alto en generación (xG 1,37, el más alto entre los ocho rivales) pero sufre bastante atrás (xG en contra 1,15). Juega con menos posesión que el promedio (48,9%) y con el peor acierto en centros de los ocho próximos rivales (29,8%) — insiste con los envíos al área pero con poca precisión. Es de los que más córners a favor genera (5,0/partido) pero también de los que menos recibe (3,0) en su defensa de área.</p>
+
+        <div class="fortaleza-debilidad">
+          <div class="fd-box f">
+            <h5>Fortalezas</h5>
+            <ul>
+              <li>xG generado más alto de los ocho próximos rivales (1,37) — potencial ofensivo real, aunque no siempre se traduce en resultado</li>
+              <li>Genera muchos córners (5,0/partido) — peligro por pelota parada</li>
+              <li>Cambio de DT reciente con buen currículum: puede venir a más</li>
+            </ul>
+          </div>
+          <div class="fd-box d">
+            <h5>Debilidades</h5>
+            <ul>
+              <li>xG en contra alto (1,15) y forma floja (0,83 pts/PJ en los últimos 6, con solo 1 victoria)</li>
+              <li>Peor % de acierto en centros de los ocho rivales (29,8%) — insiste por el aire sin precisión</li>
+              <li>Adaptación de un DT que recién arranca — momento de transición, con margen para sorprender en cualquier sentido</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="reco">
+          <b>Para el cuerpo técnico</b>
+          Es el cruce directo más temprano de los tres. Con Chacarita de local (donde rinde 1,62 pts/partido) contra un Quilmes que sufre en su xG en contra, es la mejor chance estadística de las tres finales directas. Prestar atención especial a los córners -Quilmes es el que más genera de los ocho- y a que el nuevo DT puede presentar variantes no vistas en los datos de arriba.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============ COLEGIALES ============ -->
+  <section id="colegiales">
+    <div class="rival-card">
+      <div class="rival-head">
+        <div><span class="fx">Fecha 31 · 26-sep · Visitante</span><h3>Colegiales</h3></div>
+        <div class="pos-badge">10°</div>
+      </div>
+      <div class="rival-body">
+        <div class="kv-inline">
+          <span><b>37 pts</b> en 27 PJ (1,44/PJ)</span>
+          <span>Forma (últimos 6): <b>V V V E E V</b> (2,33 pts/PJ) — el mejor momento de los ocho rivales</span>
+          <span>H2H ida: Chacarita ganó <b>2-0</b> de local (fecha 13)</span>
+        </div>
+        <p><strong>Leonardo Fernández</strong>, el técnico con más continuidad de toda la Primera Nacional: lleva 3 años en el cargo (contrato hasta diciembre 2027), lo salvó del descenso a la Primera C y después lo ascendió. A un punto de meterse en el reducido. Llega en el mejor momento de forma de los ocho próximos rivales de Chacarita.</p>
+
+        <h4>Perfil de juego</h4>
+        <p>Equipo de menor posesión relativa (47,8%, el más bajo de este lote) pero eficiente: xG a favor 1,20 con solo 11,3 tiros por partido -de los más bajos en volumen, pero de los más precisos-. En los últimos 6 partidos el salto es marcado: xG a favor sube a 1,44 y <strong>xG en contra baja a apenas 0,60</strong>, la mejor fase defensiva reciente de todo este grupo de rivales. Es también el que más faltas comete (13,5/partido) de los ocho.</p>
+
+        <div class="fortaleza-debilidad">
+          <div class="fd-box f">
+            <h5>Fortalezas</h5>
+            <ul>
+              <li>Mejor racha de resultados de los ocho rivales (4V 2E en los últimos 6)</li>
+              <li>Fase defensiva reciente muy sólida (xG en contra de apenas 0,60 en los últimos partidos)</li>
+              <li>DT con proyecto sostenido, equipo con identidad clara tras 3 años del mismo entrenador</li>
+            </ul>
+          </div>
+          <div class="fd-box d">
+            <h5>Debilidades</h5>
+            <ul>
+              <li>El equipo con más faltas de los ocho rivales (13,5/partido) — se lo puede desgastar con circulación rápida y buscando tiros libres en zonas peligrosas</li>
+              <li>Menor volumen de juego (11,3 tiros/partido) — si se le niega la pelota, le cuesta generar por volumen</li>
+              <li>Ya perdió con Chacarita esta temporada, de local, 0-2</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="reco">
+          <b>Para el cuerpo técnico</b>
+          Es el rival más en forma del calendario que queda, y de visitante Chacarita rinde mal en general -la combinación más peligrosa de las "no directas". Pero ya le ganaron esta temporada y es un equipo que fatiga con faltas: buscar los espacios en transición rápida antes de que se ordene la falta.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============ PATRONATO ============ -->
+  <section id="patronato">
+    <div class="rival-card">
+      <div class="rival-head">
+        <div><span class="fx">Fecha 32 · 03-oct · Local — cruce directo, el más determinante</span><h3>Patronato</h3></div>
+        <div class="pos-badge">16°</div>
+      </div>
+      <div class="rival-body">
+        <div class="kv-inline">
+          <span><b>28 pts</b> en 27 PJ (1,12/PJ)</span>
+          <span>Forma (últimos 6): <b>V D E E E D</b> (1,00 pts/PJ)</span>
+          <span>H2H ida: Chacarita perdió <b>0-2</b> de visitante (fecha 14)</span>
+        </div>
+        <p><strong>Caos de banco total.</strong> Rubén Forestello salió tras una derrota con Gimnasia y Esgrima de Jujuy, lo sucedió Marcelo Candia -que renunció tras un 3-3 con el mismo rival-, y ahora <strong>Marcelo Fuentes está en su quinto ciclo</strong> como DT de Patronato a lo largo de su carrera. La prensa entrerriana lo describe en "caída libre", con una racha de 11 partidos sin ganar en algún tramo del año y el <strong>peor ataque de toda la Primera Nacional</strong> -menos de un gol cada dos partidos-.</p>
+
+        <h4>Perfil de juego</h4>
+        <p>Los números confirman el diagnóstico de la prensa: xG a favor de apenas 1,09, de los más bajos de la zona, y en los últimos 6 partidos el xG en contra sube a 1,42 -defensivamente también se resiente-. Genera pocos tiros (11,1/partido) y es, junto con Almagro, el equipo que más córners concede (4,32/partido). Comete la mayor cantidad de faltas de los ocho rivales que quedan (14,0/partido) -equipo incómodo, que interrumpe mucho el juego-.</p>
+
+        <div class="fortaleza-debilidad">
+          <div class="fd-box f">
+            <h5>Fortalezas</h5>
+            <ul>
+              <li>Bien posicionado en duelos aéreos (50%, el más alto de los ocho rivales) — pelea bien lo alto pese a la crisis</li>
+              <li>Al ser un equipo bajo presión, cualquier síntoma de reacción (efecto "nuevo DT") puede darle un envión anímico puntual</li>
+            </ul>
+          </div>
+          <div class="fd-box d">
+            <h5>Debilidades</h5>
+            <ul>
+              <li><strong>El peor ataque de toda la categoría</strong> — no lastima con volumen ni con eficacia</li>
+              <li>Concede muchos córners (4,32/partido) — punto débil claro de pelota parada defensiva</li>
+              <li>Máxima inestabilidad institucional del calendario: quinto ciclo del mismo DT en la historia del club, señal de un proyecto que no termina de asentarse</li>
+              <li>Le ganó a Chacarita en la ida, pero en un contexto de crisis interna que puede haberse profundizado</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="reco">
+          <b>Para el cuerpo técnico</b>
+          <strong>Este es, en los números, el partido más decisivo de las 8 fechas</strong> -directo, de local, contra el equipo con el peor ataque de la Primera Nacional-. Si Chacarita no genera con volumen, este es el rival que menos castiga un partido cerrado. Insistir por el juego aéreo y las pelotas paradas propias (Patronato concede muchos córners) y no regalar los córners en contra, dado que ahí Patronato es fuerte por arriba.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============ ALMAGRO ============ -->
+  <section id="almagro">
+    <div class="rival-card">
+      <div class="rival-head">
+        <div><span class="fx">Fecha 33 · 10-oct · Visitante</span><h3>Almagro</h3></div>
+        <div class="pos-badge">12°</div>
+      </div>
+      <div class="rival-body">
+        <div class="kv-inline">
+          <span><b>34 pts</b> en 27 PJ (1,24/PJ)</span>
+          <span>Forma (últimos 6): <b>D V E E E V</b> (1,50 pts/PJ)</span>
+          <span>H2H ida: Chacarita ganó <b>1-0</b> de local (fecha 15)</span>
+        </div>
+        <p>DT <strong>Gabriel Gómez</strong>, con un proyecto de recambio importante (varias bajas y refuerzos entre puntas de 2025 y arranque de 2026). No es de los rivales con crisis de banco -Gómez viene sosteniéndose en el cargo-, pero algunas notas de mitad de año lo describían en baja (0 victorias en 3, sin convertir).</p>
+
+        <h4>Perfil de juego</h4>
+        <p>El más flojo generando de los ocho rivales: xG a favor de apenas 0,89, y también el menor volumen de tiros (8,7/partido, claramente por debajo del promedio de 11,0). En compensación, defensivamente es de los más sólidos en duelos: mejor % en duelos de suelo y aéreos relativamente ordenado. Concede muchos córners (4,96/partido, el segundo peor de los ocho) pese a no sufrir tanto en xG en contra agregado.</p>
+
+        <div class="fortaleza-debilidad">
+          <div class="fd-box f">
+            <h5>Fortalezas</h5>
+            <ul>
+              <li>Buena forma reciente en puntos (1,50 pts/PJ en los últimos 6) a pesar de generar poco -aprovecha bien lo que genera o defiende con orden-</li>
+              <li>Equipo ordenado en los duelos individuales</li>
+            </ul>
+          </div>
+          <div class="fd-box d">
+            <h5>Debilidades</h5>
+            <ul>
+              <li><strong>El ataque más flojo de los ocho rivales</strong> (xG 0,89, menor volumen de tiros de todo el lote)</li>
+              <li>Concede muchos córners (4,96/partido) — vulnerable a la pelota parada en contra</li>
+              <li>Ya perdió con Chacarita esta temporada, de visitante</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="reco">
+          <b>Para el cuerpo técnico</b>
+          En los números, el rival menos peligroso ofensivamente de los ocho. El riesgo no es lo que genere Almagro sino que Chacarita, de visitante, no genere lo suficiente para aprovechar esa debilidad -insistir con centros y pelota parada, dado que Almagro concede muchos córners-.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============ MAIPU ============ -->
+  <section id="maipu">
+    <div class="rival-card">
+      <div class="rival-head">
+        <div><span class="fx">Fecha 34 · 17-oct · Local</span><h3>Deportivo Maipú</h3></div>
+        <div class="pos-badge">8°</div>
+      </div>
+      <div class="rival-body">
+        <div class="kv-inline">
+          <span><b>38 pts</b> en 27 PJ (1,40/PJ)</span>
+          <span>Forma (últimos 6): <b>E D V D V D</b> (1,17 pts/PJ)</span>
+          <span>H2H ida: Chacarita perdió <b>2-3</b> de visitante (fecha 16)</span>
+        </div>
+        <p>Cambio de DT a mitad de año: <strong>Alexis Matteo</strong> (bien valorado, 6V-4E-6P en 16 partidos, siempre en zona de reducido) dejó el cargo en abril; ahora dirige <strong>Mariano Echeverría</strong>. Mendocino, viaja largo para este partido -factor logístico a favor de Chacarita-.</p>
+
+        <h4>Perfil de juego</h4>
+        <p>Ataque de volumen alto: xG a favor 1,32, el segundo más alto de los ocho rivales, con buena posesión (50,4%). Pero también el xG en contra es alto (1,15) — es un equipo de partidos abiertos, va y viene. Concede bastantes córners (4,60/partido). El cruce de ida (2-3 a favor de Maipú en Mendoza) fue un partido de mucho ida y vuelta, consistente con este perfil.</p>
+
+        <div class="fortaleza-debilidad">
+          <div class="fd-box f">
+            <h5>Fortalezas</h5>
+            <ul>
+              <li>Ataque de volumen alto (xG 1,32) con buena posesión</li>
+              <li>Ya le ganó a Chacarita esta temporada, en un partido de ida y vuelta</li>
+            </ul>
+          </div>
+          <div class="fd-box d">
+            <h5>Debilidades</h5>
+            <ul>
+              <li>xG en contra también alto (1,15) — no es un equipo sólido atrás, la contracara de jugar abierto</li>
+              <li>Concede bastantes córners (4,60/partido)</li>
+              <li>Cambio de DT a mitad de año y viaje largo (Mendoza-Buenos Aires) el fin de semana del partido</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="reco">
+          <b>Para el cuerpo técnico</b>
+          Va a ser un partido abierto si el patrón se sostiene -ambos equipos generan y ambos conceden-. De local, donde Chacarita rinde mejor, y con Maipú llegando de un viaje largo, es una revancha directa con condiciones a favor. No dormirse en la marca: el equipo de ida se fue con 3 goles convertidos.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============ TEMPERLEY ============ -->
+  <section id="temperley">
+    <div class="rival-card">
+      <div class="rival-head">
+        <div><span class="fx">Fecha 35 · 24-oct · Visitante — el partido más difícil del calendario</span><h3>Temperley</h3></div>
+        <div class="pos-badge">2°</div>
+      </div>
+      <div class="rival-body">
+        <div class="kv-inline">
+          <span><b>46 pts</b> en 27 PJ (1,60/PJ) — candidato firme al ascenso</span>
+          <span>Forma (últimos 6): <b>V V D D V V</b> (2,00 pts/PJ)</span>
+          <span>H2H ida: Chacarita perdió <b>0-1</b> de local (fecha 17)</span>
+        </div>
+        <p><strong>Nicolás Domingo</strong>, en su debut absoluto como DT (dejó de jugar a fines de 2024), construyó "orden táctico y crecimiento sostenido" según la prensa especializada — de menos a más hasta puntero de zona, clasificado a Copa Argentina, candidato de peso al ascenso directo.</p>
+
+        <h4>Perfil de juego</h4>
+        <p>El más sólido defensivamente de los ocho rivales: mejor % en duelos aéreos (51,5%) de todo el lote, y aunque su xG en contra agregado (1,31) no es bajo, la lectura de conjunto (mejor equipo de la tabla entre estos ocho, candidato al ascenso) pesa más que cualquier detalle estadístico aislado. Buen acierto en centros (32,2%, el segundo mejor de los ocho).</p>
+
+        <div class="fortaleza-debilidad">
+          <div class="fd-box f">
+            <h5>Fortalezas</h5>
+            <ul>
+              <li>El rival de mejor nivel general de los ocho -2° de la zona, candidato directo al ascenso-</li>
+              <li>Mejor equipo en el juego aéreo de todo este lote de rivales</li>
+              <li>Buena forma reciente (4V 2D en los últimos 6)</li>
+              <li>Ya le ganó a Chacarita esta temporada, incluso de visitante</li>
+            </ul>
+          </div>
+          <div class="fd-box d">
+            <h5>Debilidades</h5>
+            <ul>
+              <li>xG en contra no es especialmente bajo (1,31) pese al buen andar general -no es un equipo invulnerable-</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="reco">
+          <b>Para el cuerpo técnico</b>
+          <strong>La peor combinación posible del calendario</strong>: Chacarita ya perdió con Temperley de local en la ida, y ahora le toca de visitante -su peor condición- contra el candidato al ascenso, en su mejor momento de forma. Este es el partido para plantear un resultado ajustado más que un partido abierto; el margen de error real es mínimo.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============ NUEVA CHICAGO ============ -->
+  <section id="chicago">
+    <div class="rival-card">
+      <div class="rival-head">
+        <div><span class="fx">Fecha 36 · 31-oct · Local — cierre de temporada, cruce directo</span><h3>Nueva Chicago</h3></div>
+        <div class="pos-badge">15°</div>
+      </div>
+      <div class="rival-body">
+        <div class="kv-inline">
+          <span><b>29 pts</b> en 27 PJ (1,17/PJ)</span>
+          <span>Forma (últimos 6): <b>E D V D D D</b> (0,67 pts/PJ) — el peor momento de los ocho rivales</span>
+          <span>H2H ida: Chacarita perdió <b>0-2</b> de visitante (fecha 18)</span>
+        </div>
+        <p><strong>El más inestable institucionalmente de los ocho.</strong> Luis García, designado DT para 2026, renunció "indeclinablemente" en la fecha 14. Tras una derrota con All Boys se reestructuró toda la comisión de fútbol (renuncias en cadena). Según la última información disponible, <strong>volvió Lotito</strong> tras ocho meses afuera del club. Es la definición misma de un club sin rumbo esta temporada.</p>
+
+        <h4>Perfil de juego</h4>
+        <p>Genera poco (xG a favor 1,04, por debajo del promedio) y sufre bastante en pelota parada: <strong>el equipo que más córners concede de los ocho rivales</strong> (5,04/partido). Buen nivel en el juego aéreo propio (51%) pese a todo. La peor forma reciente de este grupo de rivales (apenas 4 puntos en los últimos 6 partidos) coincide en el tiempo con el caos de comisión directiva.</p>
+
+        <div class="fortaleza-debilidad">
+          <div class="fd-box f">
+            <h5>Fortalezas</h5>
+            <ul>
+              <li>Buen nivel en el juego aéreo (51%)</li>
+            </ul>
+          </div>
+          <div class="fd-box d">
+            <h5>Debilidades</h5>
+            <ul>
+              <li><strong>El equipo que más córners concede de los ocho rivales</strong> (5,04/partido) — punto débil claro</li>
+              <li>Peor forma reciente del lote (0,67 pts/PJ en los últimos 6)</li>
+              <li>Máxima inestabilidad institucional -tercer o cuarto interlocutor técnico del año-, un equipo así puede llegar a este partido de cualquier manera</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="reco">
+          <b>Para el cuerpo técnico</b>
+          Cierre de temporada, de local, contra el rival en peor forma y con más quilombo institucional de los ocho. Insistir con centros y pelota parada -es el punto más débil de Chicago-. Si para esta fecha la clasificación sigue en juego, es matemáticamente uno de los partidos con mejor pronóstico estadístico del calendario que queda.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="metodologia">
+    <div class="section-head"><h2>De dónde sale esto, y qué falta</h2></div>
+    <div class="callout method">
+      <span class="eyebrow">Metodología</span>
+      <p style="max-width:none;">Todas las métricas de juego (xG, posesión, tiros, córners, centros, duelos, faltas) salen de las estadísticas oficiales de Sofascore de cada uno de los 225 partidos ya jugados en la Zona B 2026 -no son estimaciones-. "Forma reciente" son los últimos 6 partidos de liga de cada equipo. Los promedios de comparación ("de los ocho rivales") se calculan solo entre estos ocho, no contra toda la zona. El contexto de entrenadores y situación institucional sale de prensa especializada de ascenso (Mundo Ascenso, Solo Ascenso, El Gráfico, diarios locales de cada plaza) — se cita la fuente cuando el dato es puntual.</p>
+    </div>
+    <div class="callout legal">
+      <span class="eyebrow">Lo que todavía no está -pendiente por un bloqueo temporal de Sofascore-</span>
+      <p style="max-width:none;">Esta primera versión es 100% a nivel de equipo. Faltan dos capas que se agregan apenas se pueda volver a consultar Sofascore (bloqueado por uso intensivo desde temprano en la madrugada del 6-sep, ver <a href="https://claude.ai/code/artifact/68edfd27-634d-44ff-9632-b2c0cbefd71d" target="_blank" rel="noopener">Chacarita: 8 Finales</a> para el detalle):</p>
+      <ul style="margin:8px 0 0; padding-left:20px;">
+        <li style="margin-bottom:6px;"><strong>Jugadores en baja/alta forma</strong> de cada rival (rating y participación en gol partido a partido) — se puede armar en cuanto haya acceso de nuevo.</li>
+        <li style="margin-bottom:6px;"><strong>Zonas exactas de la cancha</strong> (mapa de tiros por coordenadas) — todavía sin confirmar si Sofascore expone esa granularidad; si no, se arma con proxies (tiros dentro/fuera del área, lado de los centros).</li>
+        <li>Lesionados y suspendidos puntuales para cada fecha — el ascenso argentino no publica esto de forma sistemática; es información que solo tiene el cuerpo técnico o la prensa de cada plaza, cerca de cada partido específico.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    Central de Rivales — armado para el cuerpo técnico de Chacarita Juniors, 06-sep-2026. Complementa a <a href="https://claude.ai/code/artifact/68edfd27-634d-44ff-9632-b2c0cbefd71d" target="_blank" rel="noopener">Chacarita: 8 Finales</a> (probabilidad de descenso y contexto general).
+  </footer>
+
+</main>

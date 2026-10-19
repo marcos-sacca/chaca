@@ -1,0 +1,34 @@
+﻿player_id,name,position,jersey_number,country,height,preferred_foot,date_of_birth_ts,market_value_eur,date_of_birth
+879625,Alexis Domínguez,F,9,Argentina,185.0,Right,846633600.0,325000.0,1996-10-30
+2229958,Francisco Cristaldo,F,11,Argentina,181.0,Right,1085270400.0,,2004-05-23
+2469254,Francisco Cristaldo,F,,Argentina,181.0,,1080172800.0,,2004-03-25
+789438,Cristian Guanca,M,10,Argentina,177.0,Left,733190400.0,2100000.0,1993-03-27
+249081,Mauricio Cuero,M,7,Colombia,176.0,Right,728179200.0,110000.0,1993-01-28
+1798778,Maximiliano Meléndez,M,8,Argentina,178.0,Right,1083888000.0,410000.0,2004-05-07
+1114870,Misael Jaime,M,11,Argentina,172.0,Both,1073952000.0,26000.0,2004-01-13
+1385490,Mario Sanabria,M,7,Argentina,170.0,Right,1027555200.0,155000.0,2002-07-25
+829936,Luciano Perdomo,M,15,Argentina,174.0,Right,842313600.0,73000.0,1996-09-10
+1835747,Lucas Bustos,M,17,Argentina,174.0,Right,1112140800.0,26000.0,2005-03-30
+1387036,Tomás Pérez Serra,M,5,Argentina,186.0,Right,910915200.0,205000.0,1998-11-13
+981450,Alvaro Cuello,M,10,Argentina,185.0,Right,771638400.0,145000.0,1994-06-15
+1835745,Lorenzo Brun,M,38,Argentina,168.0,Right,1120953600.0,,2005-07-10
+2169729,André Maldonado,M,,Argentina,172.0,Right,1183939200.0,,2007-07-09
+1899412,Tomás Pizarro,M,,Argentina,173.0,Left,1041379200.0,110000.0,2003-01-01
+2203592,Barrios,M,15,,,,,,
+122616,Sergio Vittor,D,14,Argentina,189.0,Right,613353600.0,97000.0,1989-06-09
+1086937,Brian Calderara,D,3,Argentina,170.0,Left,907200000.0,105000.0,1998-10-01
+2050732,Tomas Migliore,D,3,Argentina,188.0,Left,1091491200.0,,2004-08-03
+1020496,Nicolás Chávez,D,17,Argentina,170.0,Left,978307200.0,69000.0,2001-01-01
+1111886,Milton Leyendeker,D,14,Argentina,185.0,Right,889315200.0,105000.0,1998-03-08
+777343,Nicolás Pantaleone,D,6,Argentina,180.0,Left,729993600.0,52000.0,1993-02-18
+2044356,Gonzalo Dell Aquila,D,15,Argentina,,,991353600.0,,2001-06-01
+2465617,Francisco Facello,D,,Argentina,170.0,Right,1042243200.0,23000.0,2003-01-11
+1897541,Dylan Duran,D,15,Argentina,177.0,,1097539200.0,,2004-10-12
+1966878,Santiago Acosta,D,13,Argentina,173.0,Right,1130112000.0,,2005-10-24
+2054523,Nicolás Dell Aquila,D,4,Argentina,172.0,Right,991353600.0,77000.0,2001-06-01
+107418,Enrique Bologna,G,1,Argentina,189.0,Right,382406400.0,,1982-02-13
+1003020,Federico Losas,G,12,Argentina,183.0,Right,1017273600.0,145000.0,2002-03-28
+1187528,Gastón Fernández,G,12,Argentina,187.0,Right,946857600.0,,2000-01-03
+1974174,Ezequiel Geréz,,20,,,,,,
+1883869,Adriano Nicastro,,17,,,,,,
+2574161,Thiago dos Santos,,,,,,,,

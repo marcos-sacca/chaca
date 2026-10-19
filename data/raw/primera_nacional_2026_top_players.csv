@@ -1,0 +1,141 @@
+﻿player_id,name,position,team,team_id,stat_key,stat_value,rank
+1502092,Franco Fagundez,F,Deportivo Morón,93109,goals,12.0,1
+1182428,Lautaro Gordillo,F,Gimnasia y Tiro de Salta,222126,goals,12.0,2
+1132948,Ignacio Lago,M,Club Atletico Colón,3207,goals,11.0,3
+994452,Martin Pino,F,Godoy Cruz,6074,goals,11.0,4
+1117173,Marcos Machado,F,CA Mitre,255425,goals,11.0,5
+951083,Luis Silba,F,Deportivo Madryn,222120,goals,11.0,6
+1117089,Nazareno Fúnez,F,San Martín de San Juan,7772,goals,9.0,7
+121973,Pablo Chavarría,F,Racing de Córdoba,273657,goals,9.0,8
+226544,Juan Sánchez Sotelo,F,Güemes,224646,goals,9.0,9
+1021876,Agustín Lavezzi,F,Quilmes Atlético Club,4936,goals,8.0,10
+946161,Lautaro Parisi,M,Club Ferro Carril Oeste,36841,goals,8.0,11
+1597532,Matias Sebastian Romero,F,Chaco For Ever,252726,goals,7.0,12
+941534,Alan Bonansea,F,Club Atletico Colón,3207,goals,7.0,13
+47333,Cristian Menéndez,F,Gimnasia Y Esgrima De Jujuy,5292,goals,7.0,14
+1167615,Aaron Spetale,F,Quilmes Atlético Club,4936,goals,7.0,15
+581666,Mauricio Asenjo,F,Los Andes,112497,goals,7.0,16
+2229943,Ezequiel Bulacio,F,Ferrocarril Midland,270344,goals,7.0,17
+1020531,Franco Toloza,F,Deportivo Morón,93109,goals,7.0,18
+1109640,Pedro Souto,M,Temperley,112499,goals,7.0,19
+1093100,Facundo Ardiles,M,Estudiantes de Buenos Aires,93107,goals,6.0,20
+1502092,Franco Fagundez,F,Deportivo Morón,93109,assists,8.0,1
+943794,Francisco Molina,M,Gimnasia Y Esgrima De Jujuy,5292,assists,7.0,2
+1132948,Ignacio Lago,M,Club Atletico Colón,3207,assists,6.0,3
+1512471,Axel Batista,M,Quilmes Atlético Club,4936,assists,6.0,4
+773629,Ángel González,M,Club Ferro Carril Oeste,36841,assists,6.0,5
+1131817,Franco Benitez,M,Temperley,112499,assists,5.0,6
+1404361,Franco Saccone,M,Deportivo Maipú,213042,assists,5.0,7
+1597474,Santiago Kubiszyn,M,Deportivo Morón,93109,assists,5.0,8
+1018402,Franco Díaz,M,Temperley,112499,assists,5.0,9
+1191418,Marcelo Eggel,M,Deportivo Maipú,213042,assists,4.0,10
+1109319,Marcos Roseti,M,Ferrocarril Midland,270344,assists,4.0,11
+2063992,Nazareno Solís,M,Deportivo Madryn,222120,assists,4.0,12
+1547224,Enzo Hoyos,M,Club Ferro Carril Oeste,36841,assists,4.0,13
+1093100,Facundo Ardiles,M,Estudiantes de Buenos Aires,93107,assists,4.0,14
+994452,Martin Pino,F,Godoy Cruz,6074,assists,4.0,15
+1179170,Hernán Zuliani,D,San Martín de San Juan,7772,assists,4.0,16
+585954,Juan Manuel Olivares,M,Deportivo Morón,93109,assists,4.0,17
+932094,Marcos Abreliano,D,Almirante Brown,43740,assists,4.0,18
+1117089,Nazareno Fúnez,F,San Martín de San Juan,7772,assists,4.0,19
+974722,Lázaro Romero,F,Acassuso,112491,assists,4.0,20
+1502092,Franco Fagundez,F,Deportivo Morón,93109,goalsAssistsSum,20.0,1
+1132948,Ignacio Lago,M,Club Atletico Colón,3207,goalsAssistsSum,17.0,2
+994452,Martin Pino,F,Godoy Cruz,6074,goalsAssistsSum,15.0,3
+1117173,Marcos Machado,F,CA Mitre,255425,goalsAssistsSum,13.0,4
+1117089,Nazareno Fúnez,F,San Martín de San Juan,7772,goalsAssistsSum,13.0,5
+1182428,Lautaro Gordillo,F,Gimnasia y Tiro de Salta,222126,goalsAssistsSum,12.0,6
+951083,Luis Silba,F,Deportivo Madryn,222120,goalsAssistsSum,11.0,7
+121973,Pablo Chavarría,F,Racing de Córdoba,273657,goalsAssistsSum,11.0,8
+943794,Francisco Molina,M,Gimnasia Y Esgrima De Jujuy,5292,goalsAssistsSum,11.0,9
+1021876,Agustín Lavezzi,F,Quilmes Atlético Club,4936,goalsAssistsSum,10.0,10
+1093100,Facundo Ardiles,M,Estudiantes de Buenos Aires,93107,goalsAssistsSum,10.0,11
+868706,Alejandro Gabriel Quintana,F,Atlanta,53799,goalsAssistsSum,10.0,12
+585954,Juan Manuel Olivares,M,Deportivo Morón,93109,goalsAssistsSum,10.0,13
+226544,Juan Sánchez Sotelo,F,Güemes,224646,goalsAssistsSum,9.0,14
+1597532,Matias Sebastian Romero,F,Chaco For Ever,252726,goalsAssistsSum,9.0,15
+941534,Alan Bonansea,F,Club Atletico Colón,3207,goalsAssistsSum,9.0,16
+1191418,Marcelo Eggel,M,Deportivo Maipú,213042,goalsAssistsSum,9.0,17
+946161,Lautaro Parisi,M,Club Ferro Carril Oeste,36841,goalsAssistsSum,8.0,18
+47333,Cristian Menéndez,F,Gimnasia Y Esgrima De Jujuy,5292,goalsAssistsSum,8.0,19
+1167615,Aaron Spetale,F,Quilmes Atlético Club,4936,goalsAssistsSum,8.0,20
+1191418,Marcelo Eggel,M,Deportivo Maipú,213042,rating,7.6055555555556,1
+1132948,Ignacio Lago,M,Club Atletico Colón,3207,rating,7.5384615384615,2
+1109319,Marcos Roseti,M,Ferrocarril Midland,270344,rating,7.4791666666667,3
+943794,Francisco Molina,M,Gimnasia Y Esgrima De Jujuy,5292,rating,7.4565217391304,4
+1597451,Mayco  Bergia,G,Atlético de Rafaela,34976,rating,7.4222222222222,5
+791146,Daniel Franco,D,Los Andes,112497,rating,7.36,6
+933171,Franco Ferrari,D,CA Mitre,255425,rating,7.3545454545455,7
+1210374,Facundo Rivero,D,Colegiales,112493,rating,7.3454545454545,8
+819193,Sebastián López,G,Los Andes,112497,rating,7.3375,9
+340847,Yair Bonnin,G,Deportivo Madryn,222120,rating,7.324,10
+42571,Gonzalo Marinelli,G,Quilmes Atlético Club,4936,rating,7.3111111111111,11
+1185165,Nicolás Caprio,G,Chaco For Ever,252726,rating,7.3058823529412,12
+2003010,Alex Chamorro,M,Los Andes,112497,rating,7.3047619047619,13
+992971,Joaquín Bigo,G,Tristán Suárez,93513,rating,7.2961538461538,14
+789631,Nicolas Diego Dematei,D,Gimnasia Y Esgrima De Jujuy,5292,rating,7.2952380952381,15
+1502092,Franco Fagundez,F,Deportivo Morón,93109,rating,7.2875,16
+2469039,Leandro Cordoba,M,Racing de Córdoba,273657,rating,7.265,17
+249639,Ezequiel Mastrolia,G,Temperley,112499,rating,7.2478260869565,18
+1199311,Joaquín Enrico,G,San Telmo,213361,rating,7.2444444444444,19
+796581,Manuel Guanini,D,Gimnasia y Tiro de Salta,222126,rating,7.24,20
+2003010,Alex Chamorro,M,Los Andes,112497,successfulDribbles,80.0,1
+943794,Francisco Molina,M,Gimnasia Y Esgrima De Jujuy,5292,successfulDribbles,89.0,2
+2228012,Thiago Ocampo,M,Nueva Chicago,3200,successfulDribbles,80.0,3
+1404361,Franco Saccone,M,Deportivo Maipú,213042,successfulDribbles,80.0,4
+2469039,Leandro Cordoba,M,Racing de Córdoba,273657,successfulDribbles,57.0,5
+1132948,Ignacio Lago,M,Club Atletico Colón,3207,successfulDribbles,76.0,6
+949680,Franco Bustamante,M,Almagro,4938,successfulDribbles,74.0,7
+1835769,Máximo Oses,M,San Miguel,264945,successfulDribbles,51.0,8
+1191418,Marcelo Eggel,M,Deportivo Maipú,213042,successfulDribbles,40.0,9
+943795,Sebastián Jaurena,M,San Martín de San Juan,7772,successfulDribbles,45.0,10
+1086963,Tomás Pozzo,M,Godoy Cruz,6074,successfulDribbles,38.0,11
+933171,Franco Ferrari,D,CA Mitre,255425,successfulDribbles,48.0,12
+943167,David Gallardo,M,Gimnasia Y Esgrima De Jujuy,5292,successfulDribbles,48.0,13
+1131817,Franco Benitez,M,Temperley,112499,successfulDribbles,52.0,14
+1109319,Marcos Roseti,M,Ferrocarril Midland,270344,successfulDribbles,46.0,15
+1385490,Mario Sanabria,M,Club Atlético Chacarita Juniors,3214,successfulDribbles,51.0,16
+249081,Mauricio Cuero,M,Club Atlético Chacarita Juniors,3214,successfulDribbles,37.0,17
+1111534,Agustin Campana,M,Ferrocarril Midland,270344,successfulDribbles,33.0,18
+1021876,Agustín Lavezzi,F,Quilmes Atlético Club,4936,successfulDribbles,47.0,19
+1798778,Maximiliano Meléndez,M,Club Atlético Chacarita Juniors,3214,successfulDribbles,42.0,20
+1109319,Marcos Roseti,M,Ferrocarril Midland,270344,keyPasses,54.0,1
+943794,Francisco Molina,M,Gimnasia Y Esgrima De Jujuy,5292,keyPasses,43.0,2
+1111534,Agustin Campana,M,Ferrocarril Midland,270344,keyPasses,30.0,3
+1547224,Enzo Hoyos,M,Club Ferro Carril Oeste,36841,keyPasses,35.0,4
+1191418,Marcelo Eggel,M,Deportivo Maipú,213042,keyPasses,27.0,5
+1131817,Franco Benitez,M,Temperley,112499,keyPasses,38.0,6
+1086963,Tomás Pozzo,M,Godoy Cruz,6074,keyPasses,26.0,7
+1512471,Axel Batista,M,Quilmes Atlético Club,4936,keyPasses,38.0,8
+1085344,Jere Puch,M,Atlanta,53799,keyPasses,29.0,9
+1132948,Ignacio Lago,M,Club Atletico Colón,3207,keyPasses,35.0,10
+896922,Ezequiel Aguirre,F,Defensores de Belgrano,52215,keyPasses,32.0,11
+1404361,Franco Saccone,M,Deportivo Maipú,213042,keyPasses,34.0,12
+1819646,Franco  Zicarelli,M,Colegiales,112493,keyPasses,30.0,13
+341077,Walter Montoya,M,Gimnasia y Tiro de Salta,222126,keyPasses,27.0,14
+1120461,Lautaro Fedele,M,Atlanta,53799,keyPasses,18.0,15
+2063992,Nazareno Solís,M,Deportivo Madryn,222120,keyPasses,31.0,16
+971190,Matias Kabalin,M,Club Ferro Carril Oeste,36841,keyPasses,31.0,17
+941083,Julián Marcioni,M,Club Atletico Colón,3207,keyPasses,29.0,18
+830656,Brian Mieres,D,CA Mitre,255425,keyPasses,16.0,19
+773629,Ángel González,M,Club Ferro Carril Oeste,36841,keyPasses,27.0,20
+791146,Daniel Franco,D,Los Andes,112497,accurateLongBalls,236.0,1
+789631,Nicolas Diego Dematei,D,Gimnasia Y Esgrima De Jujuy,5292,accurateLongBalls,161.0,2
+1210374,Facundo Rivero,D,Colegiales,112493,accurateLongBalls,131.0,3
+295165,Guillermo Cosaro,D,Gimnasia Y Esgrima De Jujuy,5292,accurateLongBalls,152.0,4
+992966,Franco Meritello,D,Patronato,43741,accurateLongBalls,121.0,5
+932870,Alan Perez,D,Agropecuario Argentino,265787,accurateLongBalls,138.0,6
+938547,Maximo Levi,D,Almirante Brown,43740,accurateLongBalls,96.0,7
+789368,Fernando Gonzalez,D,Agropecuario Argentino,265787,accurateLongBalls,95.0,8
+860000,Nicolás Caro Torres,D,Estudiantes de Buenos Aires,93107,accurateLongBalls,89.0,9
+2189070,Nelson Gerardo Alegre Rojas,D,Almirante Brown,43740,accurateLongBalls,97.0,10
+249999,Guillermo Ferracutti,D,Nueva Chicago,3200,accurateLongBalls,72.0,11
+1431953,Manuel Cocca,D,San Martín de San Juan,7772,accurateLongBalls,95.0,12
+2065837,Genaro Cepeda,D,Ferrocarril Midland,270344,accurateLongBalls,107.0,13
+140103,Pier Barrios,D,Club Atletico Colón,3207,accurateLongBalls,107.0,14
+1018461,Fernando Ponce,D,Atlético de Rafaela,34976,accurateLongBalls,73.0,15
+841958,Emiliano Méndez,M,Nueva Chicago,3200,accurateLongBalls,82.0,16
+1125239,Julian Rodriguez,D,Los Andes,112497,accurateLongBalls,104.0,17
+147576,Emanuel Aguilera,D,San Martín de San Juan,7772,accurateLongBalls,63.0,18
+1597464,Fernando Ezequiel Moreyra Aldana,D,Patronato,43741,accurateLongBalls,78.0,19
+128384,Dylan Gissi,D,Nueva Chicago,3200,accurateLongBalls,69.0,20

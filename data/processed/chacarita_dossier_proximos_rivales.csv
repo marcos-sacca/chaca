@@ -1,0 +1,9 @@
+﻿fecha,dia,condicion,rival,pos_rival,pts_rival,ataque_rival,defensa_rival,rival_directo_descenso
+29,12-Sep,Visitante,Ferrocarril Midland,5,41,1.06,1.03,False
+30,19-Sep,Local,Quilmes Atlético Club,13,32,1.27,0.99,True
+31,26-Sep,Visitante,Colegiales,10,37,1.16,0.76,False
+32,03-Oct,Local,Patronato,16,28,1.02,0.98,True
+33,10-Oct,Visitante,Almagro,12,34,0.82,1.2,False
+34,17-Oct,Local,Deportivo Maipú,8,38,1.13,0.96,False
+35,24-Oct,Visitante,Temperley,2,46,0.86,1.11,False
+36,31-Oct,Local,Nueva Chicago,15,29,0.94,0.93,True

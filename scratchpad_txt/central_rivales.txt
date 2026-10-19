@@ -1,0 +1,320 @@
+Central de Rivales
+Para el cuerpo técnico · Sergio Rondina y colaboradores
+Central de Rivales
+Dossier de los ocho rivales que quedan, con datos de las 27-28 fechas ya jugadas de cada uno (no proyecciones): perfil de juego, fortalezas, debilidades, forma reciente y qué pasó en el cruce de ida. Pensado para leerse rival por rival, la semana de cada partido.
+Fuente:
+Sofascore, 225 partidos de Zona B con 30+ métricas cada uno
+Contexto:
+prensa especializada (Mundo Ascenso, Solo Ascenso, El Gráfico, diarios locales)
+Actualizado:
+06-sep-2026
+Resumen
+29 · Midland
+30 · Quilmes
+31 · Colegiales
+32 · Patronato
+33 · Almagro
+34 · Maipú
+35 · Temperley
+36 · N. Chicago
+Metodología
+Resumen antes de entrar rival por rival
+Contra estos mismos ocho equipos, en la ida, Chacarita sacó
+10 de 24 puntos posibles (3V, 1E, 4D)
+— peor que el promedio general de la temporada. Pero hay un patrón claro que vale la pena tener en la cabeza antes de leer los dossiers:
+Chacarita ganó los tres partidos que jugó de local
+en esa serie (Midland, Colegiales, Almagro) y
+perdió los tres que jugó de visitante
+contra los rivales más fuertes de ese lote (Patronato, Maipú, Nueva Chicago) -la excepción es Temperley, a quien perdió de local-.
+10/24
+puntos en la ida contra estos 8 rivales (3V 1E 4D)
+3
+de los 4 partidos de vuelta como local son revanchas de derrotas en la ida (Patronato, Maipú, N. Chicago)
+6/8
+rivales cambiaron de entrenador durante 2026 -la Primera Nacional entera es un caos de bancos este año-
+la vuelta, con el resultado de la ida y el cambio de localía
+Fecha
+Rival
+Cond. vuelta
+Resultado ida
+Cond. ida
+Lectura
+29
+Ferrocarril Midland
+Visitante
+Ganó 1-0
+Local
+Ya le ganó, pero ahora de visitante
+30
+Quilmes
+Local
+Empató 0-0
+Visitante
+Ahora en su cancha, favorable
+31
+Colegiales
+Visitante
+Ganó 2-0
+Local
+Ya le ganó, pero ahora de visitante
+32
+Patronato
+Local
+Perdió 0-2
+Visitante
+Revancha en casa — clave
+33
+Almagro
+Visitante
+Ganó 1-0
+Local
+Ya le ganó, pero ahora de visitante
+34
+Deportivo Maipú
+Local
+Perdió 2-3
+Visitante
+Revancha en casa
+35
+Temperley
+Visitante
+Perdió 0-1
+Local
+Peor combinación: perdió de local, ahora de visitante ante el líder
+36
+Nueva Chicago
+Local
+Perdió 0-2
+Visitante
+Revancha en casa, cierre de temporada
+Fecha 29 · 12-sep · Visitante
+Ferrocarril Midland
+5°
+41 pts
+en 27 PJ (1,48/PJ)
+Forma (últimos 6):
+D V E V D V
+(1,67 pts/PJ)
+H2H ida: Chacarita ganó
+1-0
+de local (fecha 11)
+Debutante absoluto en la categoría -ascendió por primera vez en su historia a la Primera Nacional- y aun así está peleando el reducido de ascenso, 5° en la zona. Sin presión de descenso, juega suelto. Dato de color: Rondina ya dirigió a Midland hace veinte años (2005-2006) — lo conoce por dentro.
+Perfil de juego
+Es el equipo que más remata de toda la zona restante (13,7 tiros/partido, contra 11,0 de promedio), pero con una particularidad marcada:
+casi la mitad de esos remates son desde afuera del área
+(7,3 de media, el valor más alto de sus próximos rivales). Circula la pelota por adentro -tiene más posesión que el promedio (52%) y de los ocho rivales es de los que menos centros intenta (13,5 contra 15,1 de zona), compensando con mejor puntería en los que sí tira (33% de acierto). Presiona más por posicionamiento que por contacto: hace menos entradas (tackles) que el promedio pero intercepta más -lee las líneas de pase en vez de ir directo al choque-.
+Fortalezas
+Volumen de juego alto y buena puntería (5,1 tiros al arco/partido, el más alto de los ocho rivales)
+Defensa de área sólida en el agregado de temporada: recibe pocos córners (3,2/partido)
+Buena forma reciente: 10 de 18 puntos en los últimos 6
+Debilidades
+El xG en contra viene empeorando fuerte
+: 0,98 en la temporada completa, mercado a 1,44 en los últimos 6 partidos -está sufriendo más de lo que sufría, aunque el resultado (todavía) lo disimula-
+Va poco al tackle directo (3,2/partido, bien por debajo del promedio de 4,0) — puede ser vulnerable al 1v1 encarado
+Depende mucho del remate lejano, señal de que le cuesta perforar bloques bajos dentro del área
+Para el cuerpo técnico
+Cerrar bien la zona de los 25-30 metros para que sigan tirando de lejos -ahí su xG por remate es bajo, aunque el volumen sea alto-. Con la fase defensiva más floja de las últimas fechas, situaciones claras dentro del área tienen más chance de convertirse que en partidos anteriores de Midland. Ya lo venció una vez esta temporada, en el mismo mano a mano.
+Fecha 30 · 19-sep · Local — cruce directo por la permanencia
+Quilmes Atlético Club
+13°
+32 pts
+en 27 PJ (1,04/PJ)
+Forma (últimos 6):
+V D E E D D
+(0,83 pts/PJ)
+H2H ida: Empate
+0-0
+, de visitante (fecha 12)
+DT nuevo: Leandro Gracián
+(reemplazó a Grelak tras 3 fechas). Los datos de abajo son de toda la temporada, mayormente con el DT anterior -tratar con cautela-.
+Perfil de juego (con el DT anterior, mayormente)
+Ataque de volumen medio-alto en generación (xG 1,37, el más alto entre los ocho rivales) pero sufre bastante atrás (xG en contra 1,15). Juega con menos posesión que el promedio (48,9%) y con el peor acierto en centros de los ocho próximos rivales (29,8%) — insiste con los envíos al área pero con poca precisión. Es de los que más córners a favor genera (5,0/partido) pero también de los que menos recibe (3,0) en su defensa de área.
+Fortalezas
+xG generado más alto de los ocho próximos rivales (1,37) — potencial ofensivo real, aunque no siempre se traduce en resultado
+Genera muchos córners (5,0/partido) — peligro por pelota parada
+Cambio de DT reciente con buen currículum: puede venir a más
+Debilidades
+xG en contra alto (1,15) y forma floja (0,83 pts/PJ en los últimos 6, con solo 1 victoria)
+Peor % de acierto en centros de los ocho rivales (29,8%) — insiste por el aire sin precisión
+Adaptación de un DT que recién arranca — momento de transición, con margen para sorprender en cualquier sentido
+Para el cuerpo técnico
+Es el cruce directo más temprano de los tres. Con Chacarita de local (donde rinde 1,62 pts/partido) contra un Quilmes que sufre en su xG en contra, es la mejor chance estadística de las tres finales directas. Prestar atención especial a los córners -Quilmes es el que más genera de los ocho- y a que el nuevo DT puede presentar variantes no vistas en los datos de arriba.
+Fecha 31 · 26-sep · Visitante
+Colegiales
+10°
+37 pts
+en 27 PJ (1,44/PJ)
+Forma (últimos 6):
+V V V E E V
+(2,33 pts/PJ) — el mejor momento de los ocho rivales
+H2H ida: Chacarita ganó
+2-0
+de local (fecha 13)
+Leonardo Fernández
+, el técnico con más continuidad de toda la Primera Nacional: lleva 3 años en el cargo (contrato hasta diciembre 2027), lo salvó del descenso a la Primera C y después lo ascendió. A un punto de meterse en el reducido. Llega en el mejor momento de forma de los ocho próximos rivales de Chacarita.
+Perfil de juego
+Equipo de menor posesión relativa (47,8%, el más bajo de este lote) pero eficiente: xG a favor 1,20 con solo 11,3 tiros por partido -de los más bajos en volumen, pero de los más precisos-. En los últimos 6 partidos el salto es marcado: xG a favor sube a 1,44 y
+xG en contra baja a apenas 0,60
+, la mejor fase defensiva reciente de todo este grupo de rivales. Es también el que más faltas comete (13,5/partido) de los ocho.
+Fortalezas
+Mejor racha de resultados de los ocho rivales (4V 2E en los últimos 6)
+Fase defensiva reciente muy sólida (xG en contra de apenas 0,60 en los últimos partidos)
+DT con proyecto sostenido, equipo con identidad clara tras 3 años del mismo entrenador
+Debilidades
+El equipo con más faltas de los ocho rivales (13,5/partido) — se lo puede desgastar con circulación rápida y buscando tiros libres en zonas peligrosas
+Menor volumen de juego (11,3 tiros/partido) — si se le niega la pelota, le cuesta generar por volumen
+Ya perdió con Chacarita esta temporada, de local, 0-2
+Para el cuerpo técnico
+Es el rival más en forma del calendario que queda, y de visitante Chacarita rinde mal en general -la combinación más peligrosa de las "no directas". Pero ya le ganaron esta temporada y es un equipo que fatiga con faltas: buscar los espacios en transición rápida antes de que se ordene la falta.
+Fecha 32 · 03-oct · Local — cruce directo, el más determinante
+Patronato
+16°
+28 pts
+en 27 PJ (1,12/PJ)
+Forma (últimos 6):
+V D E E E D
+(1,00 pts/PJ)
+H2H ida: Chacarita perdió
+0-2
+de visitante (fecha 14)
+Caos de banco total.
+Rubén Forestello salió tras una derrota con Gimnasia y Esgrima de Jujuy, lo sucedió Marcelo Candia -que renunció tras un 3-3 con el mismo rival-, y ahora
+Marcelo Fuentes está en su quinto ciclo
+como DT de Patronato a lo largo de su carrera. La prensa entrerriana lo describe en "caída libre", con una racha de 11 partidos sin ganar en algún tramo del año y el
+peor ataque de toda la Primera Nacional
+-menos de un gol cada dos partidos-.
+Perfil de juego
+Los números confirman el diagnóstico de la prensa: xG a favor de apenas 1,09, de los más bajos de la zona, y en los últimos 6 partidos el xG en contra sube a 1,42 -defensivamente también se resiente-. Genera pocos tiros (11,1/partido) y es, junto con Almagro, el equipo que más córners concede (4,32/partido). Comete la mayor cantidad de faltas de los ocho rivales que quedan (14,0/partido) -equipo incómodo, que interrumpe mucho el juego-.
+Fortalezas
+Bien posicionado en duelos aéreos (50%, el más alto de los ocho rivales) — pelea bien lo alto pese a la crisis
+Al ser un equipo bajo presión, cualquier síntoma de reacción (efecto "nuevo DT") puede darle un envión anímico puntual
+Debilidades
+El peor ataque de toda la categoría
+— no lastima con volumen ni con eficacia
+Concede muchos córners (4,32/partido) — punto débil claro de pelota parada defensiva
+Máxima inestabilidad institucional del calendario: quinto ciclo del mismo DT en la historia del club, señal de un proyecto que no termina de asentarse
+Le ganó a Chacarita en la ida, pero en un contexto de crisis interna que puede haberse profundizado
+Para el cuerpo técnico
+Este es, en los números, el partido más decisivo de las 8 fechas
+-directo, de local, contra el equipo con el peor ataque de la Primera Nacional-. Si Chacarita no genera con volumen, este es el rival que menos castiga un partido cerrado. Insistir por el juego aéreo y las pelotas paradas propias (Patronato concede muchos córners) y no regalar los córners en contra, dado que ahí Patronato es fuerte por arriba.
+Fecha 33 · 10-oct · Visitante
+Almagro
+12°
+34 pts
+en 27 PJ (1,24/PJ)
+Forma (últimos 6):
+D V E E E V
+(1,50 pts/PJ)
+H2H ida: Chacarita ganó
+1-0
+de local (fecha 15)
+DT
+Gabriel Gómez
+, con un proyecto de recambio importante (varias bajas y refuerzos entre puntas de 2025 y arranque de 2026). No es de los rivales con crisis de banco -Gómez viene sosteniéndose en el cargo-, pero algunas notas de mitad de año lo describían en baja (0 victorias en 3, sin convertir).
+Perfil de juego
+El más flojo generando de los ocho rivales: xG a favor de apenas 0,89, y también el menor volumen de tiros (8,7/partido, claramente por debajo del promedio de 11,0). En compensación, defensivamente es de los más sólidos en duelos: mejor % en duelos de suelo y aéreos relativamente ordenado. Concede muchos córners (4,96/partido, el segundo peor de los ocho) pese a no sufrir tanto en xG en contra agregado.
+Fortalezas
+Buena forma reciente en puntos (1,50 pts/PJ en los últimos 6) a pesar de generar poco -aprovecha bien lo que genera o defiende con orden-
+Equipo ordenado en los duelos individuales
+Debilidades
+El ataque más flojo de los ocho rivales
+(xG 0,89, menor volumen de tiros de todo el lote)
+Concede muchos córners (4,96/partido) — vulnerable a la pelota parada en contra
+Ya perdió con Chacarita esta temporada, de visitante
+Para el cuerpo técnico
+En los números, el rival menos peligroso ofensivamente de los ocho. El riesgo no es lo que genere Almagro sino que Chacarita, de visitante, no genere lo suficiente para aprovechar esa debilidad -insistir con centros y pelota parada, dado que Almagro concede muchos córners-.
+Fecha 34 · 17-oct · Local
+Deportivo Maipú
+8°
+38 pts
+en 27 PJ (1,40/PJ)
+Forma (últimos 6):
+E D V D V D
+(1,17 pts/PJ)
+H2H ida: Chacarita perdió
+2-3
+de visitante (fecha 16)
+Cambio de DT a mitad de año:
+Alexis Matteo
+(bien valorado, 6V-4E-6P en 16 partidos, siempre en zona de reducido) dejó el cargo en abril; ahora dirige
+Mariano Echeverría
+. Mendocino, viaja largo para este partido -factor logístico a favor de Chacarita-.
+Perfil de juego
+Ataque de volumen alto: xG a favor 1,32, el segundo más alto de los ocho rivales, con buena posesión (50,4%). Pero también el xG en contra es alto (1,15) — es un equipo de partidos abiertos, va y viene. Concede bastantes córners (4,60/partido). El cruce de ida (2-3 a favor de Maipú en Mendoza) fue un partido de mucho ida y vuelta, consistente con este perfil.
+Fortalezas
+Ataque de volumen alto (xG 1,32) con buena posesión
+Ya le ganó a Chacarita esta temporada, en un partido de ida y vuelta
+Debilidades
+xG en contra también alto (1,15) — no es un equipo sólido atrás, la contracara de jugar abierto
+Concede bastantes córners (4,60/partido)
+Cambio de DT a mitad de año y viaje largo (Mendoza-Buenos Aires) el fin de semana del partido
+Para el cuerpo técnico
+Va a ser un partido abierto si el patrón se sostiene -ambos equipos generan y ambos conceden-. De local, donde Chacarita rinde mejor, y con Maipú llegando de un viaje largo, es una revancha directa con condiciones a favor. No dormirse en la marca: el equipo de ida se fue con 3 goles convertidos.
+Fecha 35 · 24-oct · Visitante — el partido más difícil del calendario
+Temperley
+2°
+46 pts
+en 27 PJ (1,60/PJ) — candidato firme al ascenso
+Forma (últimos 6):
+V V D D V V
+(2,00 pts/PJ)
+H2H ida: Chacarita perdió
+0-1
+de local (fecha 17)
+Nicolás Domingo
+, en su debut absoluto como DT (dejó de jugar a fines de 2024), construyó "orden táctico y crecimiento sostenido" según la prensa especializada — de menos a más hasta puntero de zona, clasificado a Copa Argentina, candidato de peso al ascenso directo.
+Perfil de juego
+El más sólido defensivamente de los ocho rivales: mejor % en duelos aéreos (51,5%) de todo el lote, y aunque su xG en contra agregado (1,31) no es bajo, la lectura de conjunto (mejor equipo de la tabla entre estos ocho, candidato al ascenso) pesa más que cualquier detalle estadístico aislado. Buen acierto en centros (32,2%, el segundo mejor de los ocho).
+Fortalezas
+El rival de mejor nivel general de los ocho -2° de la zona, candidato directo al ascenso-
+Mejor equipo en el juego aéreo de todo este lote de rivales
+Buena forma reciente (4V 2D en los últimos 6)
+Ya le ganó a Chacarita esta temporada, incluso de visitante
+Debilidades
+xG en contra no es especialmente bajo (1,31) pese al buen andar general -no es un equipo invulnerable-
+Para el cuerpo técnico
+La peor combinación posible del calendario
+: Chacarita ya perdió con Temperley de local en la ida, y ahora le toca de visitante -su peor condición- contra el candidato al ascenso, en su mejor momento de forma. Este es el partido para plantear un resultado ajustado más que un partido abierto; el margen de error real es mínimo.
+Fecha 36 · 31-oct · Local — cierre de temporada, cruce directo
+Nueva Chicago
+15°
+29 pts
+en 27 PJ (1,17/PJ)
+Forma (últimos 6):
+E D V D D D
+(0,67 pts/PJ) — el peor momento de los ocho rivales
+H2H ida: Chacarita perdió
+0-2
+de visitante (fecha 18)
+El más inestable institucionalmente de los ocho.
+Luis García, designado DT para 2026, renunció "indeclinablemente" en la fecha 14. Tras una derrota con All Boys se reestructuró toda la comisión de fútbol (renuncias en cadena). Según la última información disponible,
+volvió Lotito
+tras ocho meses afuera del club. Es la definición misma de un club sin rumbo esta temporada.
+Perfil de juego
+Genera poco (xG a favor 1,04, por debajo del promedio) y sufre bastante en pelota parada:
+el equipo que más córners concede de los ocho rivales
+(5,04/partido). Buen nivel en el juego aéreo propio (51%) pese a todo. La peor forma reciente de este grupo de rivales (apenas 4 puntos en los últimos 6 partidos) coincide en el tiempo con el caos de comisión directiva.
+Fortalezas
+Buen nivel en el juego aéreo (51%)
+Debilidades
+El equipo que más córners concede de los ocho rivales
+(5,04/partido) — punto débil claro
+Peor forma reciente del lote (0,67 pts/PJ en los últimos 6)
+Máxima inestabilidad institucional -tercer o cuarto interlocutor técnico del año-, un equipo así puede llegar a este partido de cualquier manera
+Para el cuerpo técnico
+Cierre de temporada, de local, contra el rival en peor forma y con más quilombo institucional de los ocho. Insistir con centros y pelota parada -es el punto más débil de Chicago-. Si para esta fecha la clasificación sigue en juego, es matemáticamente uno de los partidos con mejor pronóstico estadístico del calendario que queda.
+De dónde sale esto, y qué falta
+Metodología
+Todas las métricas de juego (xG, posesión, tiros, córners, centros, duelos, faltas) salen de las estadísticas oficiales de Sofascore de cada uno de los 225 partidos ya jugados en la Zona B 2026 -no son estimaciones-. "Forma reciente" son los últimos 6 partidos de liga de cada equipo. Los promedios de comparación ("de los ocho rivales") se calculan solo entre estos ocho, no contra toda la zona. El contexto de entrenadores y situación institucional sale de prensa especializada de ascenso (Mundo Ascenso, Solo Ascenso, El Gráfico, diarios locales de cada plaza) — se cita la fuente cuando el dato es puntual.
+Lo que todavía no está -pendiente por un bloqueo temporal de Sofascore-
+Esta primera versión es 100% a nivel de equipo. Faltan dos capas que se agregan apenas se pueda volver a consultar Sofascore (bloqueado por uso intensivo desde temprano en la madrugada del 6-sep, ver
+Chacarita: 8 Finales
+para el detalle):
+Jugadores en baja/alta forma
+de cada rival (rating y participación en gol partido a partido) — se puede armar en cuanto haya acceso de nuevo.
+Zonas exactas de la cancha
+(mapa de tiros por coordenadas) — todavía sin confirmar si Sofascore expone esa granularidad; si no, se arma con proxies (tiros dentro/fuera del área, lado de los centros).
+Lesionados y suspendidos puntuales para cada fecha — el ascenso argentino no publica esto de forma sistemática; es información que solo tiene el cuerpo técnico o la prensa de cada plaza, cerca de cada partido específico.
+Central de Rivales — armado para el cuerpo técnico de Chacarita Juniors, 06-sep-2026. Complementa a
+Chacarita: 8 Finales
+(probabilidad de descenso y contexto general).

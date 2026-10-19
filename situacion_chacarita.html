@@ -1,0 +1,516 @@
+<title>Chacarita: 8 Finales</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root{
+    --bg:#F6F2EB; --surface:#FFFFFF; --surface-2:#EFE9DE;
+    --ink:#1C1712; --muted:#6E6357; --line:#DFD6C6;
+    --accent:#7C1626; --accent-soft:#F1DEDF;
+    --good:#3F7D4F; --good-soft:#E3EFE1;
+    --warn:#96650F; --warn-soft:#F3E7CE;
+    --bad:#AB3131; --bad-soft:#F4E0DD;
+    --info:#3B6C87; --info-soft:#DFEAEE;
+    --shadow: 0 1px 2px rgba(28,23,18,0.06), 0 8px 24px rgba(28,23,18,0.06);
+    --grid-line: #E3DACB;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#15110D; --surface:#1D1712; --surface-2:#251E17;
+      --ink:#EFE7DB; --muted:#AB9F8E; --line:#382E24;
+      --accent:#D2626F; --accent-soft:#3A2024;
+      --good:#7CBE8B; --good-soft:#20301F;
+      --warn:#E0B45C; --warn-soft:#3A2E14;
+      --bad:#E38686; --bad-soft:#3A2320;
+      --info:#8FC1D8; --info-soft:#1E2E33;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 30px rgba(0,0,0,0.35);
+      --grid-line: #2C2620;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#15110D; --surface:#1D1712; --surface-2:#251E17;
+    --ink:#EFE7DB; --muted:#AB9F8E; --line:#382E24;
+    --accent:#D2626F; --accent-soft:#3A2024;
+    --good:#7CBE8B; --good-soft:#20301F;
+    --warn:#E0B45C; --warn-soft:#3A2E14;
+    --bad:#E38686; --bad-soft:#3A2320;
+    --info:#8FC1D8; --info-soft:#1E2E33;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 30px rgba(0,0,0,0.35);
+    --grid-line: #2C2620;
+  }
+
+  *{box-sizing:border-box;}
+  body{ background:var(--bg); color:var(--ink); font-family:'Source Serif 4', Georgia, serif; font-size:17px; line-height:1.6; margin:0; }
+  ::selection{ background:var(--accent-soft); }
+  .wrap{ max-width:960px; margin:0 auto; padding:0 24px 120px; }
+  h1,h2,h3{ font-family:'Big Shoulders Display','Arial Narrow',sans-serif; text-transform:uppercase; letter-spacing:0.01em; text-wrap:balance; color:var(--ink); margin:0; }
+  .eyebrow{ font-family:'IBM Plex Mono',monospace; font-size:12.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--accent); font-weight:600; }
+  p{ margin:0 0 1em; max-width:68ch; }
+  .lede{ font-size:1.18rem; color:var(--muted); max-width:62ch; }
+  a{ color:var(--accent); }
+  strong{ color:var(--ink); }
+  code,.mono{ font-family:'IBM Plex Mono',monospace; }
+  .tabular{ font-variant-numeric:tabular-nums; }
+
+  header.masthead{
+    border-bottom:1px solid var(--line);
+    background: repeating-linear-gradient(90deg, var(--ink) 0 3px, transparent 3px 34px);
+    background-size:100% 6px; background-repeat:repeat-x; background-position:bottom;
+  }
+  .masthead-inner{ max-width:960px; margin:0 auto; padding:52px 24px 36px; }
+  .masthead h1{ font-size:clamp(2rem,5vw,3.3rem); font-weight:800; line-height:1.03; margin-top:14px; }
+  .masthead .lede{ margin-top:16px; }
+  .meta-row{ display:flex; flex-wrap:wrap; gap:10px 22px; margin-top:24px; font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em; }
+  .meta-row span b{ color:var(--ink); font-weight:600; }
+
+  nav.toc{ position:sticky; top:0; z-index:5; background:color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter:blur(6px); border-bottom:1px solid var(--line); }
+  nav.toc .toc-inner{ max-width:960px; margin:0 auto; padding:10px 24px; display:flex; gap:18px; overflow-x:auto; font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:0.05em; text-transform:uppercase; white-space:nowrap; }
+  nav.toc a{ color:var(--muted); text-decoration:none; padding:4px 0; border-bottom:2px solid transparent; }
+  nav.toc a:hover{ color:var(--ink); }
+
+  section{ padding:54px 0 0; }
+  .section-head{ display:flex; align-items:baseline; gap:14px; margin-bottom:20px; }
+  .section-head h2{ font-size:1.85rem; font-weight:700; }
+  .section-kicker{ font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--accent); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:6px; display:block; }
+  .rule{ height:1px; background:var(--line); border:none; margin:54px 0 0; }
+
+  .stat-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); margin-top:26px; overflow:hidden; }
+  .stat-tile{ background:var(--surface); padding:22px 20px; }
+  .stat-tile .num{ font-family:'Big Shoulders Display',sans-serif; font-weight:800; font-size:2.2rem; color:var(--accent); line-height:1; }
+  .stat-tile.crit .num{ color:var(--bad); }
+  .stat-tile .label{ margin-top:8px; font-size:0.92rem; color:var(--muted); font-family:'Source Serif 4',serif; max-width:none; }
+
+  .verdict{ margin-top:26px; padding:22px 24px; background:var(--surface); border:1px solid var(--line); border-left:4px solid var(--accent); box-shadow:var(--shadow); }
+  .verdict.critical{ border-left-color:var(--bad); }
+  .verdict p:last-child{ margin-bottom:0; }
+
+  .badge{ display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:11.5px; letter-spacing:0.04em; text-transform:uppercase; font-weight:600; padding:3px 8px; border-radius:3px; white-space:nowrap; }
+  .badge.good{ background:var(--good-soft); color:var(--good); }
+  .badge.warn{ background:var(--warn-soft); color:var(--warn); }
+  .badge.bad{ background:var(--bad-soft); color:var(--bad); }
+  .badge.info{ background:var(--info-soft); color:var(--info); }
+
+  .table-scroll{ overflow-x:auto; margin-top:22px; border:1px solid var(--line); }
+  table.dt{ border-collapse:collapse; width:100%; min-width:680px; background:var(--surface); }
+  table.dt.wide{ min-width:920px; }
+  table.dt caption{ text-align:left; padding:10px 16px; font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--muted); border-bottom:1px solid var(--line); }
+  table.dt th, table.dt td{ padding:10px 14px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top; font-size:0.92rem; }
+  table.dt thead th{ font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.06em; text-transform:uppercase; color:var(--muted); background:var(--surface-2); }
+  table.dt tbody tr:last-child td{ border-bottom:none; }
+  table.dt tbody tr.highlight{ background:var(--accent-soft); }
+  table.dt tbody tr.danger td{ background:var(--bad-soft); }
+  table.dt td.num, table.dt th.num{ text-align:right; font-variant-numeric:tabular-nums; }
+
+  .evidence{ margin-top:22px; border:1px solid var(--line); background:var(--surface); box-shadow:var(--shadow); }
+  .evidence .ev-head{ display:flex; align-items:center; justify-content:space-between; gap:10px; padding:10px 16px; background:var(--ink); color:var(--bg); font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:0.04em; }
+  .evidence .ev-head .dot{ display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--good); margin-right:8px; }
+  .evidence pre{ margin:0; padding:16px 18px; overflow-x:auto; font-family:'IBM Plex Mono',monospace; font-size:12.5px; line-height:1.6; color:var(--ink); background:var(--surface); }
+  .evidence .ev-caption{ padding:10px 16px; font-size:0.85rem; color:var(--muted); border-top:1px solid var(--line); font-family:'Source Serif 4',serif; }
+
+  .callout{ margin-top:24px; padding:20px 22px; border:1px solid var(--line); background:var(--surface-2); }
+  .callout .eyebrow{ display:block; margin-bottom:10px; }
+  .callout.legal{ border-left:4px solid var(--warn); }
+  .callout.method{ border-left:4px solid var(--info); }
+  .callout ul{ margin:8px 0 0; padding-left:20px; }
+  .callout li{ margin-bottom:8px; max-width:70ch; }
+
+  .grid-2{ display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:22px; }
+  @media (max-width:720px){ .grid-2{ grid-template-columns:1fr; } }
+  .card{ padding:18px 20px; border:1px solid var(--line); background:var(--surface); }
+  .card h3{ font-size:1.1rem; font-weight:700; margin-bottom:8px; }
+  .card p{ color:var(--muted); font-size:0.94rem; }
+
+  .chart-wrap{ margin-top:26px; border:1px solid var(--line); background:var(--surface); padding:20px 22px 16px; }
+  .chart-title{ font-family:'IBM Plex Mono',monospace; font-size:12px; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted); margin-bottom:14px; }
+  .bar-row{ display:flex; align-items:center; gap:10px; padding:5px 0; }
+  .bar-label{ width:170px; flex:0 0 170px; font-size:0.82rem; text-align:right; padding-right:4px; }
+  .bar-track{ flex:1; height:20px; background:var(--surface-2); border-radius:3px; position:relative; overflow:hidden; }
+  .bar-fill{ height:100%; border-radius:3px 0 0 3px; display:flex; align-items:center; }
+  .bar-fill.crit{ background:var(--bad); }
+  .bar-fill.warn{ background:var(--warn); }
+  .bar-fill.ok{ background:var(--good); }
+  .bar-val{ margin-left:8px; font-family:'IBM Plex Mono',monospace; font-size:0.78rem; color:var(--ink); font-variant-numeric:tabular-nums; white-space:nowrap; }
+
+  footer{ margin-top:64px; padding:28px 0 10px; border-top:1px solid var(--line); color:var(--muted); font-size:0.85rem; }
+</style>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <span class="eyebrow">Panel de decisión · generado durante la madrugada del 06 sep 2026</span>
+    <h1>17° de 18. A un punto<br>de zafar. Ocho finales.</h1>
+    <p class="lede">Chacarita está en zona de descenso directo en la Primera Nacional. Este documento junta todo lo que se pudo bajar y calcular en una noche de trabajo: cuán grave es la situación en números, qué hace falta en las 8 fechas que quedan, y quiénes son los candidatos reales de scouting para el año que viene -para los dos escenarios posibles-.</p>
+    <div class="meta-row">
+      <span>Posición: <b>17° de 18 (Zona B)</b></span>
+      <span>Puntos: <b>27</b></span>
+      <span>Fechas restantes: <b>8</b></span>
+      <span>Simulaciones corridas: <b>30.000+</b></span>
+    </div>
+  </div>
+</header>
+
+<nav class="toc">
+  <div class="toc-inner">
+    <a href="#situacion">La situación</a>
+    <a href="#reglamento">Reglamento</a>
+    <a href="#simulacion">Simulación</a>
+    <a href="#puntos">Puntos necesarios</a>
+    <a href="#rivales">8 rivales</a>
+    <a href="#historia">Contexto histórico</a>
+    <a href="#scouting">Scouting 2027</a>
+    <a href="#validacion">Validación del método</a>
+    <a href="#candidatos">Candidatos</a>
+    <a href="#metodologia">Metodología y límites</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="situacion">
+    <div class="section-head"><h2>La situación, sin vueltas</h2></div>
+    <div class="verdict critical">
+      <p><strong>El modelo propio (Poisson + Monte Carlo, 30.000 temporadas simuladas con los datos reales de xG de las 29 fechas ya jugadas) da 69,5% de probabilidad de que Chacarita descienda.</strong> No es una sensación ni un titular de diario: es el resultado de simular el resto del campeonato miles de veces usando la fuerza de ataque y defensa real de los 18 equipos de la Zona B.</p>
+      <p>La buena noticia es que el margen es chico y se puede cuantificar: Chacarita está a <strong>un solo punto</strong> de la zona segura, y el modelo dice exactamente cuántos puntos hacen falta en las 8 fechas para dar vuelta esa probabilidad (ver más abajo).</p>
+    </div>
+    <div class="stat-grid">
+      <div class="stat-tile crit"><div class="num tabular">69,5%</div><div class="label">probabilidad de descenso según la simulación (modelo ponderado por forma reciente)</div></div>
+      <div class="stat-tile"><div class="num tabular">27 / 28</div><div class="label">puntos en 28 partidos jugados — 0,96 puntos por partido, la peor marca desde el descenso de Primera División en 2017/18</div></div>
+      <div class="stat-tile crit"><div class="num tabular">14+</div><div class="label">de los 24 puntos en juego que hacen falta para bajar el riesgo de descenso a ~4%</div></div>
+      <div class="stat-tile"><div class="num tabular">3 de 8</div><div class="label">próximos rivales son cruces directos por la permanencia (Quilmes, Patronato, Nueva Chicago)</div></div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="reglamento">
+    <span class="section-kicker">Antes de los números, las reglas del juego</span>
+    <div class="section-head"><h2>Cómo se define el descenso</h2></div>
+    <p>La Primera Nacional 2026 tiene 36 equipos en dos zonas de 18. <strong>Descienden 4 equipos en total: los dos últimos de cada zona</strong>, directo, sin repechaje ni promedios de temporadas anteriores -eso es un mecanismo distinto, propio de la Liga Profesional (1ª división), que no aplica acá-. El destino depende de la afiliación de cada club: los de afiliación <em>indirecta</em> (clubes del interior del país) bajan a Federal A; los de afiliación <em>directa</em> (Capital Federal y Gran Buenos Aires) bajan a Primera B Metropolitana. Chacarita -club porteño fundado en 1906, afiliado directo a AFA desde 1920- caería a <strong>Primera B Metropolitana</strong>, no a Federal A.</p>
+    <div class="table-scroll">
+      <table class="dt wide">
+        <caption>Zona B completa · Primera Nacional 2026 · fecha 29 de 36 (datos en vivo, Sofascore)</caption>
+        <thead><tr><th>Pos</th><th>Equipo</th><th class="num">PJ</th><th class="num">G</th><th class="num">E</th><th class="num">P</th><th class="num">GF</th><th class="num">GC</th><th class="num">Pts</th><th>Situación</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Tristán Suárez</td><td class="num">26</td><td class="num">13</td><td class="num">9</td><td class="num">4</td><td class="num">28</td><td class="num">14</td><td class="num">48</td><td><span class="badge good">Final</span></td></tr>
+          <tr><td>2</td><td>Temperley</td><td class="num">27</td><td class="num">12</td><td class="num">10</td><td class="num">5</td><td class="num">30</td><td class="num">22</td><td class="num">46</td><td><span class="badge info">Reducido</span></td></tr>
+          <tr><td>3</td><td>Gimnasia y Esgrima (J)</td><td class="num">27</td><td class="num">13</td><td class="num">7</td><td class="num">7</td><td class="num">40</td><td class="num">33</td><td class="num">46</td><td><span class="badge info">Reducido</span></td></tr>
+          <tr><td>4</td><td>Atlanta</td><td class="num">28</td><td class="num">14</td><td class="num">3</td><td class="num">11</td><td class="num">32</td><td class="num">28</td><td class="num">45</td><td><span class="badge info">Reducido</span></td></tr>
+          <tr><td>5</td><td>Ferrocarril Midland</td><td class="num">27</td><td class="num">11</td><td class="num">8</td><td class="num">8</td><td class="num">29</td><td class="num">22</td><td class="num">41</td><td><span class="badge info">Reducido</span></td></tr>
+          <tr><td>6</td><td>Gimnasia y Tiro (Salta)</td><td class="num">27</td><td class="num">11</td><td class="num">8</td><td class="num">8</td><td class="num">28</td><td class="num">25</td><td class="num">41</td><td><span class="badge info">Reducido</span></td></tr>
+          <tr><td>7</td><td>Atlético de Rafaela</td><td class="num">27</td><td class="num">10</td><td class="num">9</td><td class="num">8</td><td class="num">20</td><td class="num">20</td><td class="num">39</td><td>–</td></tr>
+          <tr><td>8</td><td>Deportivo Maipú</td><td class="num">27</td><td class="num">11</td><td class="num">5</td><td class="num">11</td><td class="num">34</td><td class="num">28</td><td class="num">38</td><td>–</td></tr>
+          <tr><td>9</td><td>San Martín de San Juan</td><td class="num">26</td><td class="num">10</td><td class="num">8</td><td class="num">8</td><td class="num">28</td><td class="num">24</td><td class="num">38</td><td>–</td></tr>
+          <tr><td>10</td><td>Colegiales</td><td class="num">27</td><td class="num">10</td><td class="num">7</td><td class="num">10</td><td class="num">27</td><td class="num">25</td><td class="num">37</td><td>–</td></tr>
+          <tr><td>11</td><td>San Martín de Tucumán</td><td class="num">28</td><td class="num">8</td><td class="num">12</td><td class="num">8</td><td class="num">27</td><td class="num">26</td><td class="num">36</td><td>–</td></tr>
+          <tr><td>12</td><td>Almagro</td><td class="num">27</td><td class="num">9</td><td class="num">7</td><td class="num">11</td><td class="num">22</td><td class="num">29</td><td class="num">34</td><td>–</td></tr>
+          <tr><td>13</td><td>Quilmes</td><td class="num">27</td><td class="num">8</td><td class="num">8</td><td class="num">11</td><td class="num">27</td><td class="num">23</td><td class="num">32</td><td>–</td></tr>
+          <tr><td>14</td><td>Agropecuario Argentino</td><td class="num">27</td><td class="num">7</td><td class="num">9</td><td class="num">11</td><td class="num">23</td><td class="num">31</td><td class="num">30</td><td>–</td></tr>
+          <tr><td>15</td><td>Nueva Chicago</td><td class="num">27</td><td class="num">7</td><td class="num">8</td><td class="num">12</td><td class="num">20</td><td class="num">27</td><td class="num">29</td><td>–</td></tr>
+          <tr><td>16</td><td>Patronato</td><td class="num">27</td><td class="num">5</td><td class="num">13</td><td class="num">9</td><td class="num">23</td><td class="num">30</td><td class="num">28</td><td><span class="badge warn">Línea de corte</span></td></tr>
+          <tr class="danger"><td>17</td><td><strong>Chacarita Juniors</strong></td><td class="num">28</td><td class="num">7</td><td class="num">6</td><td class="num">15</td><td class="num">19</td><td class="num">30</td><td class="num">27</td><td><span class="badge bad">Descenso</span></td></tr>
+          <tr class="danger"><td>18</td><td>Güemes</td><td class="num">26</td><td class="num">5</td><td class="num">8</td><td class="num">13</td><td class="num">21</td><td class="num">41</td><td class="num">23</td><td><span class="badge bad">Descenso</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="simulacion">
+    <span class="section-kicker">30.000 temporadas simuladas</span>
+    <div class="section-head"><h2>El modelo, y qué dice de cada equipo</h2></div>
+    <p>Se calculó una fuerza de ataque y de defensa por equipo a partir del xG real de los 225 partidos de la Zona B ya jugados (con más peso a los últimos partidos, para capturar el cambio de entrenador de fecha 9). Con esas fuerzas se corrieron 30.000 versiones aleatorias de las 8 fechas que faltan -goles por Poisson, como se hace en cualquier modelo serio de fútbol- y se contó en cuántas de esas versiones cada equipo termina 17° o 18°.</p>
+    <div class="chart-wrap">
+      <div class="chart-title">Probabilidad de descenso por equipo — Zona B, 30.000 simulaciones</div>
+      <div class="bars" id="bars-descenso">
+        <div class="bar-row"><div class="bar-label">Güemes</div><div class="bar-track"><div class="bar-fill crit" style="width:97.6%"></div></div><div class="bar-val">97.6%</div></div>
+        <div class="bar-row"><div class="bar-label">Club Atlético Chacarita Juniors</div><div class="bar-track"><div class="bar-fill crit" style="width:69.8%"></div></div><div class="bar-val">69.8%</div></div>
+        <div class="bar-row"><div class="bar-label">Patronato</div><div class="bar-track"><div class="bar-fill warn" style="width:13.0%"></div></div><div class="bar-val">13.0%</div></div>
+        <div class="bar-row"><div class="bar-label">Nueva Chicago</div><div class="bar-track"><div class="bar-fill ok" style="width:8.4%"></div></div><div class="bar-val">8.4%</div></div>
+        <div class="bar-row"><div class="bar-label">Agropecuario Argentino</div><div class="bar-track"><div class="bar-fill ok" style="width:6.6%"></div></div><div class="bar-val">6.6%</div></div>
+        <div class="bar-row"><div class="bar-label">Almagro</div><div class="bar-track"><div class="bar-fill ok" style="width:3.4%"></div></div><div class="bar-val">3.4%</div></div>
+        <div class="bar-row"><div class="bar-label">Quilmes Atlético Club</div><div class="bar-track"><div class="bar-fill ok" style="width:1.5%"></div></div><div class="bar-val">0.7%</div></div>
+        <div class="bar-row"><div class="bar-label">Atlético de Rafaela</div><div class="bar-track"><div class="bar-fill ok" style="width:1.5%"></div></div><div class="bar-val">0.2%</div></div>
+        <div class="bar-row"><div class="bar-label">San Martín de Tucumán</div><div class="bar-track"><div class="bar-fill ok" style="width:1.5%"></div></div><div class="bar-val">0.1%</div></div>
+        <div class="bar-row"><div class="bar-label">Tristán Suárez</div><div class="bar-track"><div class="bar-fill ok" style="width:1.5%"></div></div><div class="bar-val">0.0%</div></div>
+        <div class="bar-row"><div class="bar-label">Temperley</div><div class="bar-track"><div class="bar-fill ok" style="width:1.5%"></div></div><div class="bar-val">0.0%</div></div>
+        <div class="bar-row"><div class="bar-label">Colegiales</div><div class="bar-track"><div class="bar-fill ok" style="width:1.5%"></div></div><div class="bar-val">0.0%</div></div>
+        <div class="bar-row"><div class="bar-label">Deportivo Maipú</div><div class="bar-track"><div class="bar-fill ok" style="width:1.5%"></div></div><div class="bar-val">0.0%</div></div>
+        <div class="bar-row"><div class="bar-label">San Martín de San Juan</div><div class="bar-track"><div class="bar-fill ok" style="width:1.5%"></div></div><div class="bar-val">0.0%</div></div>
+        <div class="bar-row"><div class="bar-label">Atlanta</div><div class="bar-track"><div class="bar-fill ok" style="width:1.5%"></div></div><div class="bar-val">0.0%</div></div>
+        <div class="bar-row"><div class="bar-label">Ferrocarril Midland</div><div class="bar-track"><div class="bar-fill ok" style="width:1.5%"></div></div><div class="bar-val">0.0%</div></div>
+        <div class="bar-row"><div class="bar-label">Gimnasia Y Esgrima De Jujuy</div><div class="bar-track"><div class="bar-fill ok" style="width:1.5%"></div></div><div class="bar-val">0.0%</div></div>
+        <div class="bar-row"><div class="bar-label">Gimnasia y Tiro de Salta</div><div class="bar-track"><div class="bar-fill ok" style="width:1.5%"></div></div><div class="bar-val">0.0%</div></div>
+      </div>
+    </div>
+    <div class="evidence">
+      <div class="ev-head"><span><span class="dot"></span>Control de sensibilidad</span><span>¿cambia mucho el resultado según cómo se pondere?</span></div>
+      <pre>Modelo ponderado por forma reciente (half-life 75 días):  69,8% de descenso
+Modelo con toda la temporada pesando igual:                69,0% de descenso
+Diferencia entre ambos enfoques:                            0,8 puntos porcentuales</pre>
+      <div class="ev-caption">El resultado es robusto: no depende de un supuesto metodológico frágil. Se reporta 69,5% como número central.</div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="puntos">
+    <span class="section-kicker">El dato para el cuerpo técnico</span>
+    <div class="section-head"><h2>Cuántos puntos hacen falta</h2></div>
+    <p>En vez de solo dar una probabilidad, el mismo modelo permite responder la pregunta que realmente importa en la práctica: <strong>si Chacarita suma X puntos en las 8 fechas, ¿qué probabilidad de descenso le queda?</strong> (el resto de los resultados de la zona se sigue simulando al azar).</p>
+    <div class="table-scroll">
+      <table class="dt">
+        <caption>simulación condicional · 40.000 corridas</caption>
+        <thead><tr><th>Puntos sumados en las 8 fechas</th><th class="num">Equivalente aprox.</th><th class="num">Prob. de descenso</th></tr></thead>
+        <tbody>
+          <tr class="danger"><td>0-2</td><td class="num">0 victorias</td><td class="num">100%</td></tr>
+          <tr class="danger"><td>3-5</td><td class="num">1 victoria</td><td class="num">99,8%</td></tr>
+          <tr class="danger"><td>6-8</td><td class="num">2 victorias</td><td class="num">95,6%</td></tr>
+          <tr><td>9-11</td><td class="num">3 victorias</td><td class="num">70,8%</td></tr>
+          <tr><td><strong>12-14</strong></td><td class="num">4 victorias</td><td class="num"><strong>24,5%</strong></td></tr>
+          <tr class="highlight"><td><strong>15-17</strong></td><td class="num">5 victorias</td><td class="num"><strong>1,4%</strong></td></tr>
+          <tr class="highlight"><td>18+</td><td class="num">6 victorias</td><td class="num">~0%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout method">
+      <span class="eyebrow">Lectura práctica</span>
+      <p style="max-width:none;">El promedio actual de Chacarita (0,96 pts/partido) proyecta unos <strong>7-8 puntos</strong> en las 8 fechas si nada cambia — eso deja el riesgo de descenso prácticamente intacto (95%+). <strong>El objetivo mínimo realista para dar vuelta la temporada es 12-14 puntos</strong> (cuatro victorias y el resto de puntos sueltos), que baja el riesgo de "coin flip perdedor" a "amenaza controlada" (24,5%). Con 15+ puntos, el descenso deja de ser un tema.</p>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="rivales">
+    <span class="section-kicker">Fecha 29 a 36</span>
+    <div class="section-head"><h2>Los 8 rivales, uno por uno</h2></div>
+    <p>Tres de los ocho son cruces <strong>directos</strong> por la permanencia: contra rivales que están, como Chacarita, mirando para abajo en la tabla. El de local contra Patronato (fecha 32) es probablemente el más determinante de todo el campeonato: hoy los separa apenas un punto.</p>
+    <div class="evidence" style="margin-top:0; margin-bottom:22px;">
+      <div class="ev-head"><span><span class="dot"></span>Para el cuerpo técnico</span><span>dossier completo, rival por rival</span></div>
+      <div class="ev-caption" style="border-top:none; padding-top:14px;">Esta tabla es el resumen. El análisis táctico completo -perfil de juego, fortalezas, debilidades y recomendaciones por partido, con contexto de cada DT rival- está en <a href="https://claude.ai/code/artifact/383cc600-f04e-4b71-b5db-180709a17a3f" target="_blank" rel="noopener"><strong>Central de Rivales</strong></a>.</div>
+    </div>
+    <div class="table-scroll">
+      <table class="dt wide">
+        <thead><tr><th>Fecha</th><th>Día</th><th>Cond.</th><th>Rival</th><th class="num">Pos.</th><th class="num">Pts</th><th class="num">Ataque</th><th class="num">Defensa</th><th>Tipo de partido</th></tr></thead>
+        <tbody>
+          <tr><td>29</td><td>12-sep</td><td>Visitante</td><td>Ferrocarril Midland</td><td class="num">5°</td><td class="num">41</td><td class="num">1,06</td><td class="num">1,03</td><td>Exigente</td></tr>
+          <tr class="highlight"><td>30</td><td>19-sep</td><td>Local</td><td>Quilmes</td><td class="num">13°</td><td class="num">32</td><td class="num">1,27</td><td class="num">0,99</td><td><span class="badge bad">Directo</span></td></tr>
+          <tr><td>31</td><td>26-sep</td><td>Visitante</td><td>Colegiales</td><td class="num">10°</td><td class="num">37</td><td class="num">1,16</td><td class="num">0,76</td><td>Exigente</td></tr>
+          <tr class="highlight"><td>32</td><td>03-oct</td><td>Local</td><td><strong>Patronato</strong></td><td class="num">16°</td><td class="num">28</td><td class="num">1,02</td><td class="num">0,98</td><td><span class="badge bad">Directo — clave</span></td></tr>
+          <tr><td>33</td><td>10-oct</td><td>Visitante</td><td>Almagro</td><td class="num">12°</td><td class="num">34</td><td class="num">0,82</td><td class="num">1,20</td><td>Accesible</td></tr>
+          <tr><td>34</td><td>17-oct</td><td>Local</td><td>Deportivo Maipú</td><td class="num">8°</td><td class="num">38</td><td class="num">1,13</td><td class="num">0,96</td><td>Exigente</td></tr>
+          <tr><td>35</td><td>24-oct</td><td>Visitante</td><td>Temperley</td><td class="num">2°</td><td class="num">46</td><td class="num">0,86</td><td class="num">1,11</td><td>Muy difícil</td></tr>
+          <tr class="highlight"><td>36</td><td>31-oct</td><td>Local</td><td>Nueva Chicago</td><td class="num">15°</td><td class="num">29</td><td class="num">0,94</td><td class="num">0,93</td><td><span class="badge bad">Directo — cierre</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:16px; font-size:0.9rem; color:var(--muted);">Ataque/defensa: fuerza relativa al promedio de la zona (1,00 = promedio). Un valor de ataque de 1,27 en Quilmes indica que genera 27% más peligro ofensivo que el equipo promedio de la zona.</p>
+
+    <div class="callout method">
+      <span class="eyebrow">Dato de Transfermarkt: no parece un problema de plantel</span>
+      <p style="max-width:none;">Se bajó el plantel completo (con valor de mercado) de los ocho próximos rivales.</p>
+      <div class="table-scroll" style="margin-top:10px;">
+        <table class="dt">
+          <thead><tr><th>Plantel</th><th class="num">Valor total</th><th class="num">Edad prom.</th><th class="num">Posición hoy</th></tr></thead>
+          <tbody>
+            <tr class="highlight"><td>Chacarita</td><td class="num">€4,35M</td><td class="num">26,9</td><td class="num">17°</td></tr>
+            <tr><td>Patronato (fecha 32, directo)</td><td class="num">€3,31M</td><td class="num">26,5</td><td class="num">16°</td></tr>
+            <tr><td>Temperley (fecha 35)</td><td class="num">€3,27M</td><td class="num">27,6</td><td class="num">2°</td></tr>
+            <tr><td>Quilmes (fecha 30, directo)</td><td class="num">€3,04M</td><td class="num">26,9</td><td class="num">13°</td></tr>
+            <tr><td>Deportivo Maipú (fecha 34)</td><td class="num">€2,76M</td><td class="num">25,3</td><td class="num">8°</td></tr>
+            <tr><td>Almagro (fecha 33)</td><td class="num">€2,38M</td><td class="num">26,5</td><td class="num">12°</td></tr>
+            <tr><td>Colegiales (fecha 31)</td><td class="num">€2,06M</td><td class="num">26,7</td><td class="num">10°</td></tr>
+            <tr><td>Ferrocarril Midland (fecha 29)</td><td class="num">€1,68M</td><td class="num">25,3</td><td class="num">5°</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="max-width:none; margin-top:12px;"><strong>Chacarita tiene el plantel más caro de los ocho</strong> -incluso más que Temperley, que está 2° en la zona-. Buena parte de ese valor está concentrado en un solo jugador (Cristian Guanca, €2,2M, más de la mitad del plantel). Esto no descarta reforzar en enero, pero sugiere que el problema de esta temporada es, ante todo, de <strong>rendimiento colectivo</strong>, no de presupuesto de plantel.</p>
+    </div>
+    <div class="verdict" style="margin-top:24px;">
+      <p><strong>El dato más accionable de todo el análisis, y el modelo genérico de arriba no lo captura del todo:</strong> Chacarita es un equipo radicalmente distinto según juegue de local o visitante.</p>
+    </div>
+    <div class="grid-2">
+      <div class="card" style="border-left:3px solid var(--good);">
+        <h3>De local: 1,62 pts/partido</h3>
+        <p>13 partidos, 21 puntos. xG a favor 1,09 vs xG en contra 0,71 — de local, Chacarita domina. Ese promedio lo pondría cómodo a mitad de tabla.</p>
+      </div>
+      <div class="card" style="border-left:3px solid var(--bad);">
+        <h3>De visitante: 0,46 pts/partido</h3>
+        <p>13 partidos, apenas 6 puntos. xG a favor 0,61 vs xG en contra 1,52 — de visitante le generan casi el triple de lo que genera. Ahí está casi todo el problema.</p>
+      </div>
+    </div>
+    <p style="margin-top:16px;">De las 8 fechas que quedan, <strong>4 son de local</strong> (Quilmes, Patronato, Deportivo Maipú, Nueva Chicago) — y no es casualidad: <strong>3 de esos 4 son justo los cruces directos por la permanencia</strong>. Si el patrón de esta temporada se sostiene, ahí está la vía más realista para salvar la categoría, más que en pelear los 4 partidos de visitante (Midland, Colegiales, Almagro, Temperley).</p>
+    <p style="font-size:0.85rem; color:var(--muted);">Nota metodológica: la simulación Monte Carlo de la sección anterior ya incorpora localía (usa el promedio de xG local/visitante de toda la zona), pero no exagera la brecha local/visitante específica de Chacarita tanto como muestran estos números -por eso esta lectura cualitativa complementa, no reemplaza, el 69,5%.</p>
+
+    <div class="verdict critical">
+      <p><strong>El dato más urgente de todos, corregido tras verificar quién dirige hoy:</strong> el técnico actual es <strong>Sergio Rondina</strong> (asumió el 11 de agosto, tras la salida de Cristian Grabinski), no Azconzábal como se había puesto en la primera versión de este informe -error ya corregido-. Rondina lleva <strong>4 presentaciones, 4 derrotas, 0 de 12 puntos posibles</strong>: debut 0-2 vs Estudiantes de Buenos Aires (fecha 25), y derrotas en las fechas 26, 27 y 28. Este sábado, fecha 29 vs Ferrocarril Midland, es su quinta oportunidad -y ya no hay margen para otro colectivo sin puntos-.</p>
+    </div>
+    <div class="table-scroll" style="margin-top:20px;">
+      <table class="dt">
+        <caption>rendimiento de Chacarita por ciclo técnico 2026</caption>
+        <thead><tr><th>DT</th><th class="num">Fechas</th><th class="num">PJ</th><th class="num">Pts</th><th class="num">Pts/PJ</th><th class="num">xG a favor</th><th class="num">xG en contra</th></tr></thead>
+        <tbody>
+          <tr><td>Matías Módolo</td><td class="num">1-8</td><td class="num">7</td><td class="num">6</td><td class="num">0,86</td><td class="num">0,69</td><td class="num">0,86</td></tr>
+          <tr><td>Cristian Grabinski</td><td class="num">9-24</td><td class="num">16</td><td class="num">21</td><td class="num"><strong>1,31</strong></td><td class="num">0,92</td><td class="num">1,22</td></tr>
+          <tr class="danger"><td><strong>Sergio Rondina (actual)</strong></td><td class="num">25-28</td><td class="num">4</td><td class="num"><strong>0</strong></td><td class="num"><strong>0,00</strong></td><td class="num">~0,7*</td><td class="num">~1,4*</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:0.85rem; color:var(--muted); margin-top:8px;">*Los valores de xG de la era Rondina son parciales: el partido de su debut (fecha 25, vs Estudiantes de Buenos Aires) no tiene estadísticas de xG descargadas -se reconstruyó el resultado (derrota 0-2) vía prensa, no vía Sofascore-, así que el promedio de xG de esta fila usa solo 3 de los 4 partidos.</p>
+    <div class="callout legal" style="margin-top:16px;">
+      <span class="eyebrow">Paradoja incómoda para tener en cuenta</span>
+      <p style="max-width:none;">Grabinski, que fue destituido, tenía el mejor rendimiento en puntos de los tres ciclos (1,31 pts/partido) -aunque también el peor xG en contra de los tres hasta ahora, o sea que también sufría defensivamente y "le alcanzaba". Rondina no sumó un solo punto en su primera oportunidad de mostrar una mejora. Esto no es una crítica al técnico -4 partidos es una muestra chica y pudo tocarle un fixture más duro- pero sí es el dato que el cuerpo técnico necesita tener sobre la mesa: <strong>el cambio de entrenador, hasta ahora, no mejoró nada</strong>, y el margen para que lo haga se redujo a 8 finales.</p>
+    </div>
+    <div class="callout method" style="margin-top:16px;">
+      <span class="eyebrow">Lo que los números no ven</span>
+      <p style="max-width:none;">No se encontraron reportes estructurados de lesionados o suspendidos para las próximas fechas -el fútbol argentino de ascenso no publica esta información de forma sistemática como sí ocurre en Europa-. Eso es información que solo el cuerpo técnico del club tiene de primera mano.</p>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="historia">
+    <span class="section-kicker">Para dimensionar la caída</span>
+    <div class="section-head"><h2>2026 en perspectiva histórica</h2></div>
+    <p>Chacarita jugó en Primera División en <strong>2009/10</strong> y otra vez en <strong>2017/18</strong> (la Superliga). En menos de una década pasó de la máxima categoría a pelear el descenso a la tercera. La temporada actual, con 0,96 puntos por partido, es la peor desde aquel descenso de 2017/18.</p>
+    <div class="chart-wrap">
+      <div class="chart-title">Puntos por partido, por temporada — historial completo en Sofascore (2009-2026)</div>
+      <div id="chart-historia"><svg viewBox="0 0 880 260" width="100%" style="overflow:visible; font-family:IBM Plex Mono,monospace;"><line x1="40" y1="112.7" x2="860" y2="112.7" stroke="var(--grid-line)" stroke-width="1" stroke-dasharray="4 3"/><text x="860" y="108.7" font-size="10" fill="var(--muted)" text-anchor="end">~1.0 pts/PJ</text><rect x="46.8" y="124.9" width="31.9" height="65.1" rx="3" fill="var(--bad)" ><title>1ra 09/10: 0.84 pts/PJ (38 partidos)</title></rect><text x="62.8" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 62.8 206)">1ra 09/10</text><rect x="92.4" y="100.5" width="31.9" height="89.5" rx="3" fill="var(--warn)" ><title>PBN 10/11: 1.16 pts/PJ (38 partidos)</title></rect><text x="108.3" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 108.3 206)">PBN 10/11</text><rect x="137.9" y="124.3" width="31.9" height="65.7" rx="3" fill="var(--bad)" ><title>PBN 11/12: 0.85 pts/PJ (40 partidos)</title></rect><text x="153.9" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 153.9 206)">PBN 11/12</text><rect x="183.5" y="93.4" width="31.9" height="96.6" rx="3" fill="var(--warn)" ><title>PB 13/14: 1.25 pts/PJ (36 partidos)</title></rect><text x="199.4" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 199.4 206)">PB 13/14</text><rect x="229.1" y="26.9" width="31.9" height="163.1" rx="3" fill="var(--good)" ><title>PB 2014: 2.11 pts/PJ (18 partidos)</title></rect><text x="245.0" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 245.0 206)">PB 2014</text><rect x="274.6" y="95.8" width="31.9" height="94.2" rx="3" fill="var(--warn)" ><title>PBN 2015: 1.22 pts/PJ (41 partidos)</title></rect><text x="290.6" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 290.6 206)">PBN 2015</text><rect x="320.2" y="31.8" width="31.9" height="158.2" rx="3" fill="var(--good)" ><title>PBN 2016: 2.05 pts/PJ (21 partidos)</title></rect><text x="336.1" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 336.1 206)">PBN 2016</text><rect x="365.7" y="54.8" width="31.9" height="135.2" rx="3" fill="var(--good)" ><title>PBN 16/17: 1.75 pts/PJ (44 partidos)</title></rect><text x="381.7" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 381.7 206)">PBN 16/17</text><rect x="411.3" y="138.5" width="31.9" height="51.5" rx="3" fill="var(--bad)" ><title>1ra(SL) 17/18: 0.67 pts/PJ (27 partidos)</title></rect><text x="427.2" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 427.2 206)">1ra(SL) 17/18</text><rect x="456.8" y="112.7" width="31.9" height="77.3" rx="3" fill="var(--warn)" ><title>PBN 18/19: 1.00 pts/PJ (24 partidos)</title></rect><text x="472.8" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 472.8 206)">PBN 18/19</text><rect x="502.4" y="101.7" width="31.9" height="88.3" rx="3" fill="var(--warn)" ><title>PN 19/20: 1.14 pts/PJ (21 partidos)</title></rect><text x="518.3" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 518.3 206)">PN 19/20</text><rect x="547.9" y="134.8" width="31.9" height="55.2" rx="3" fill="var(--bad)" ><title>PN 20/21: 0.71 pts/PJ (7 partidos)</title></rect><text x="563.9" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 563.9 206)">PN 20/21</text><rect x="593.5" y="124.8" width="31.9" height="65.2" rx="3" fill="var(--bad)" ><title>PN 2021: 0.84 pts/PJ (32 partidos)</title></rect><text x="609.4" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 609.4 206)">PN 2021</text><rect x="639.1" y="87.0" width="31.9" height="103.0" rx="3" fill="var(--good)" ><title>PN 2022: 1.33 pts/PJ (36 partidos)</title></rect><text x="655.0" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 655.0 206)">PN 2022</text><rect x="684.6" y="42.1" width="31.9" height="147.9" rx="3" fill="var(--good)" ><title>PN 2023: 1.91 pts/PJ (35 partidos)</title></rect><text x="700.6" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 700.6 206)">PN 2023</text><rect x="730.2" y="98.5" width="31.9" height="91.5" rx="3" fill="var(--warn)" ><title>PN 2024: 1.18 pts/PJ (38 partidos)</title></rect><text x="746.1" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 746.1 206)">PN 2024</text><rect x="775.7" y="78.6" width="31.9" height="111.4" rx="3" fill="var(--good)" ><title>PN 2025: 1.44 pts/PJ (34 partidos)</title></rect><text x="791.7" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 791.7 206)">PN 2025</text><rect x="821.3" y="115.5" width="31.9" height="74.5" rx="3" fill="var(--bad)" stroke="var(--ink)" stroke-width="2"><title>PN 2026: 0.96 pts/PJ (28 partidos)</title></rect><text x="837.2" y="206" font-size="9.5" fill="var(--muted)" text-anchor="middle" transform="rotate(55 837.2 206)">PN 2026</text></svg></div>
+      <p style="font-size:0.82rem; color:var(--muted); margin-top:8px; max-width:none;">PBN = Primera B Nacional · PN = Primera Nacional (mismo torneo, renombrado en 2019) · 1ra = Primera División. El contorno oscuro marca la temporada actual.</p>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="scouting">
+    <span class="section-kicker">Prioridad 2 · de cara a 2027</span>
+    <div class="section-head"><h2>Scouting para los dos escenarios</h2></div>
+    <p>Con 69,5% de probabilidad de descenso, cualquier plan de refuerzos serio tiene que cubrir <strong>los dos caminos</strong>: si Chacarita se salva, necesita reforzar para seguir en Primera Nacional; si desciende, necesita un plantel armado para pelear el ascenso inmediato desde <strong>Primera B Metropolitana</strong> (ver corrección más abajo sobre a qué liga cae realmente). Se armó una base de datos real para ambos casos.</p>
+  </section>
+
+  <hr class="rule">
+
+  <section id="validacion">
+    <div class="section-head"><h2>¿Funciona mirar ligas de abajo? Sí — y hay 406 casos que lo prueban</h2></div>
+    <p>Antes de armar una lista de candidatos, se validó la premisa: se bajó el plantel completo de los 18 equipos de la Zona B (630 jugadores) y su historial de transferencias, y se cruzó contra los equipos que hoy juegan en Federal A, Primera B y Primera C Metropolitana.</p>
+    <div class="stat-grid">
+      <div class="stat-tile"><div class="num tabular">406</div><div class="label">jugadores de los planteles actuales de Zona B que llegaron desde una categoría inferior en los últimos años</div></div>
+      <div class="stat-tile"><div class="num tabular">5</div><div class="label">de esos casos son del propio plantel de Chacarita — el club ya recluta por esta vía</div></div>
+      <div class="stat-tile"><div class="num tabular">24,7</div><div class="label">edad mediana real al momento del salto de categoría (rango típico: 22 a 27 años)</div></div>
+    </div>
+    <p style="margin-top:14px; font-size:0.9rem; color:var(--muted);">Dato que ajusta el criterio de scouting: solo 7 de los 406 casos (1,7%) tenían entre 15 y 19 años al momento de subir. La ventana real de mayor probabilidad de éxito es 22-27 años (el 65% de los casos), no los juveniles extremos.</p>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Top 5 "canteras" (de dónde salió más gente)</h3>
+        <p>Alvarado (29 casos) · Arsenal de Sarandí (26) · CSD Flandria (21) · Guillermo Brown (20) · Brown de Adrogué (19)</p>
+      </div>
+      <div class="card">
+        <h3>Fichajes de Chacarita desde categoría inferior: qué pasó realmente</h3>
+        <p>Solo <strong>Luciano Nieto</strong> (2020-2022, ex Brown de Adrogué) tuvo continuidad real -y ese caso ya tiene varios años, no es de esta temporada-. Los otros cuatro identificados no cuajaron: ver el detalle abajo.</p>
+      </div>
+    </div>
+
+    <div class="table-scroll" style="margin-top:18px;">
+      <table class="dt wide">
+        <caption>seguimiento real de los 4 fichajes recientes -no solo "llegaron", sino "cómo les fue"-</caption>
+        <thead><tr><th>Jugador</th><th>Origen</th><th>Qué pasó</th><th>Lectura</th></tr></thead>
+        <tbody>
+          <tr><td>Francisco Cristaldo</td><td>CSR Español</td><td>18 años. Apenas <strong>2 partidos jugados en toda la temporada 2026</strong>, 1 gol.</td><td class="small">Sin continuidad — o no convenció en pretemporada, o es un caso de espera a largo plazo</td></tr>
+          <tr><td>Tomás Pizarro</td><td>Centro Español</td><td>Pasó cedido por el fútbol guatemalteco (Xinabajul, Zacapa) y hoy está <strong>cedido a Cañuelas</strong>, varias categorías por debajo.</td><td class="small">No se afianzó — carrera errática desde que llegó</td></tr>
+          <tr><td>Juan Pablo Gobetto</td><td>Juventud Unida Universitario</td><td>Ya no está en Chacarita: <strong>hoy juega en Deportivo Maipú</strong> -uno de los próximos rivales- con <strong>5 goles y 824 minutos</strong> esta temporada.</td><td class="small">El jugador rindió — pero en otro club. Se fue y le está yendo bien afuera</td></tr>
+          <tr class="highlight"><td>Luciano Nieto</td><td>Brown de Adrogué</td><td>Jugó <strong>dos temporadas completas en Chacarita (2020-2022)</strong>.</td><td class="small">El único caso de continuidad real -pero es de hace 4-6 años, no de este ciclo</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout method" style="margin-top:16px;">
+      <span class="eyebrow">Lo que esto cambia del criterio de scouting</span>
+      <p style="max-width:none;">La muestra es chica (4 casos) para sacar conclusiones estadísticas duras, pero el patrón cualitativo es consistente con el dato de edad de arriba: <strong>Cristaldo (18) es el más joven de los cuatro y el que menos jugó</strong> -otra señal, además de la estadística de los 406 casos, de no apostar a extremos de juventud sin rodaje-. El caso Gobetto es distinto: no es que el jugador no sirviera, es que <strong>no se le dio continuidad en Chacarita y rindió en otro lado</strong> -un problema de gestión/uso, no de scouting-. Para el próximo mercado, esto sugiere agregar un filtro que el fichaje anterior no tuvo: exigir minutos ya jugados en su club de origen como condición, no solo potencial.</p>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="candidatos">
+    <div class="section-head"><h2>Candidatos concretos</h2></div>
+    <p><strong>Escenario A — si Chacarita se mantiene en Nacional:</strong> se armó un ranking de los jugadores que hoy destacan en múltiples métricas (goles, asistencias, rating, regates, pases clave, pases largos) dentro de la propia Primera Nacional 2026, con edad y valor de mercado estimado.</p>
+    <div class="table-scroll">
+      <table class="dt wide">
+        <caption>top candidatos Primera Nacional 2026 · destacan en 2+ métricas distintas</caption>
+        <thead><tr><th>Jugador</th><th>Equipo</th><th>Pos.</th><th class="num">Edad</th><th class="num">Categorías top-20</th><th class="num">Mejor puesto</th><th class="num">Valor de mercado</th></tr></thead>
+        <tbody id="tabla-candidatos-nacional">
+        <tr><td>Ignacio Lago</td><td>Club Atletico Colón</td><td>M</td><td class="num">24</td><td class="num">6</td><td class="num">#2</td><td class="num">€580.000</td></tr>
+        <tr><td>Marcelo Eggel</td><td>Deportivo Maipú</td><td>M</td><td class="num">28</td><td class="num">5</td><td class="num">#1</td><td class="num">€550.000</td></tr>
+        <tr><td>Francisco Molina</td><td>Gimnasia Y Esgrima De Jujuy</td><td>M</td><td class="num">36</td><td class="num">5</td><td class="num">#2</td><td class="num">€52.000</td></tr>
+        <tr><td>Marcos Roseti</td><td>Ferrocarril Midland</td><td>M</td><td class="num">29</td><td class="num">4</td><td class="num">#1</td><td class="num">€220.000</td></tr>
+        <tr><td>Franco Fagundez</td><td>Deportivo Morón</td><td>F</td><td class="num">28</td><td class="num">4</td><td class="num">#1</td><td class="num">€280.000</td></tr>
+        <tr><td>Martin Pino</td><td>Godoy Cruz</td><td>F</td><td class="num">28</td><td class="num">3</td><td class="num">#3</td><td class="num">€390.000</td></tr>
+        <tr><td>Franco Saccone</td><td>Deportivo Maipú</td><td>M</td><td class="num">25</td><td class="num">3</td><td class="num">#4</td><td class="num">€140.000</td></tr>
+        <tr><td>Nazareno Fúnez</td><td>San Martín de San Juan</td><td>F</td><td class="num">25</td><td class="num">3</td><td class="num">#5</td><td class="num">€270.000</td></tr>
+        <tr><td>Franco Benitez</td><td>Temperley</td><td>M</td><td class="num">24</td><td class="num">3</td><td class="num">#6</td><td class="num">€160.000</td></tr>
+        <tr><td>Agustín Lavezzi</td><td>Quilmes Atlético Club</td><td>F</td><td class="num">31</td><td class="num">3</td><td class="num">#10</td><td class="num">€325.000</td></tr>
+        <tr><td>Facundo Ardiles</td><td>Estudiantes de Buenos Aires</td><td>M</td><td class="num">28</td><td class="num">3</td><td class="num">#11</td><td class="num">€160.000</td></tr>
+        <tr style="background:var(--good-soft);"><td>Alex Chamorro</td><td>Los Andes</td><td>M</td><td class="num">20</td><td class="num">2</td><td class="num">#1</td><td class="num">€77.000</td></tr>
+        <tr><td>Daniel Franco</td><td>Los Andes</td><td>D</td><td class="num">35</td><td class="num">2</td><td class="num">#1</td><td class="num">€265.000</td></tr>
+        <tr><td>Nicolas Diego Dematei</td><td>Gimnasia Y Esgrima De Jujuy</td><td>D</td><td class="num">39</td><td class="num">2</td><td class="num">#2</td><td class="num">€23.000</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:14px; font-size:0.88rem; color:var(--muted);">"Categorías top-20" = en cuántas métricas distintas (goles, asistencias, rating, regates, pases clave, pases largos) aparece entre los 20 mejores de toda la Primera Nacional.</p>
+    <div class="grid-2" style="margin-top:6px;">
+      <div class="card">
+        <h3>Ignacio Lago (Colón) — el candidato con más respaldo</h3>
+        <p>24 años, debutó en Primera a los 15. Pasó por Talleres, México (Tlaxcala), San Martín de San Juan y Atlético de Rafaela antes de afianzarse en Colón (58 PJ, 11 goles, 7 asistencias desde 2024). Trayectoria larga y consistente antes de llegar a su mejor nivel -el patrón inverso al de Cristaldo en Chacarita-.</p>
+      </div>
+      <div class="card">
+        <h3>Alex Chamorro (Los Andes) — alto techo, más riesgo</h3>
+        <p>19-20 años, paraguayo, a préstamo de Lanús, con pasado en la Sub-20 de Paraguay. Titular recién desde la fecha 8 de esta temporada -es una revelación reciente, no un jugador con rodaje probado-. Mismo perfil de riesgo que Cristaldo en Chacarita (18 años, sin continuidad): puede salir muy bien o no cuajar todavía.</p>
+      </div>
+    </div>
+    <p style="margin-top:10px; font-size:0.88rem; color:var(--muted);">Esto no descarta a Chamorro -es real que rinde- pero para un club sin margen de error como Chacarita hoy, un perfil con trayectoria comprobada (como Lago) es la apuesta más segura; un perfil-revelación como Chamorro conviene tratarlo como apuesta a mediano plazo, no como refuerzo de urgencia.</p>
+
+    <p style="margin-top:30px;"><strong>Escenario B — si desciende:</strong> Chacarita caería a <strong>Primera B Metropolitana</strong>, no a Federal A (ver la corrección abajo). Sofascore no calcula rankings de goleadores para ninguna de las dos ligas, así que hay que reconstruirlo a mano procesando los goles de cada partido jugado -el mismo método ya probado con éxito para Federal A, solo que apuntado a la liga correcta-.</p>
+    <div id="federal-a-block">
+      <div class="callout legal">
+        <span class="eyebrow">Corrección: el trabajo de esta sección apuntó a la liga equivocada</span>
+        <p style="max-width:none;">Se había asumido que Chacarita, por descenso, caería a Federal A, y se llegó a construir y probar el extractor de goleadores para esa liga (reconstruyendo goles evento por evento, ~130 partidos, ya que Sofascore tampoco calcula rankings ahí). <strong>Ese supuesto era incorrecto</strong>: Federal A es para clubes de afiliación indirecta (del interior del país); Chacarita, club porteño de afiliación directa, caería a <strong>Primera B Metropolitana</strong>. El extractor ya construido y probado sirve igual -solo hay que apuntarlo a la liga correcta (id de torneo 1347 en vez de 14090)-, pero el trabajo quedó pendiente de rehacer porque el acceso a Sofascore se cortó (ver el bloqueo 403 documentado más abajo) antes de poder corregir y volver a correrlo.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="metodologia">
+    <div class="section-head"><h2>Metodología y honestidad sobre los límites</h2></div>
+    <div class="callout legal">
+      <span class="eyebrow">Qué es sólido y qué es una aproximación</span>
+      <ul>
+        <li><strong>La tabla de posiciones y el fixture son datos oficiales en vivo</strong> (Sofascore), no una estimación.</li>
+        <li><strong>El modelo de descenso es una simplificación deliberada</strong> (Poisson con fuerza de ataque/defensa vía xG). No incorpora lesionados, suspendidos, ni el efecto de un cambio de entrenador a mitad de camino — todo eso puede mover la probabilidad real varios puntos en cualquier dirección. 69,5% es un punto de partida cuantitativo, no una sentencia.</li>
+        <li><strong>El scouting de Primera Nacional es un ranking real</strong>, pero "destacar en una métrica" no es lo mismo que "encajar en el equipo" — filtra candidatos, no reemplaza ver a los jugadores jugar.</li>
+        <li><strong>Se cometió y corrigió un error real en esta misma sesión:</strong> se asumió primero que Chacarita descendería a Federal A; una verificación posterior (afiliación directa vs indirecta a AFA) mostró que el destino correcto es Primera B Metropolitana. Se deja constancia en vez de borrar el rastro -el trabajo en Federal A no se tira, queda como base técnica reutilizable para la liga correcta-.</li>
+        <li><strong>El alcance quedó limitado a Argentina esta noche</strong> (Federal A, Primera B/C Metropolitana). No se llegó a sumar Uruguay, Chile o Paraguay como se había dejado abierto — es la extensión natural de este trabajo si se decide continuar.</li>
+        <li>Todas las fuentes usadas son las mismas del informe anterior (Sofascore, no oficial) — se aplica el mismo encuadre legal ya discutido: válido para uso interno del club, no para redistribuir.</li>
+      </ul>
+    </div>
+    <div class="callout legal" style="margin-top:16px;">
+      <span class="eyebrow">Ocurrió en vivo mientras se armaba esto</span>
+      <p style="max-width:none;">A mitad de esta sesión, tras varios miles de requests corriendo en paralelo (Zona B + scouting + historial), <strong>Sofascore empezó a devolver error 403 a todo</strong> -incluso a <code>curl</code>, que hasta ese momento no tenía ningún bloqueo-. Es la confirmación empírica, en el peor momento posible, de lo que el informe de fuentes ya advertía como riesgo teórico: "puede endurecerse en cualquier momento, sin aviso". Por eso el shortlist de Federal A y las estadísticas del historial completo quedaron pendientes -no por falta de tiempo, sino porque la fuente se cortó a mitad de camino-. Se corrigió el pipeline para ir más despacio (menos requests en paralelo, más pausa entre cada uno) y quedó reintentando solo cuando el bloqueo se levante.</p>
+    </div>
+    <div class="evidence" style="margin-top:24px;">
+      <div class="ev-head"><span><span class="dot"></span>Reproducibilidad</span><span>todo queda en tu carpeta</span></div>
+      <pre>scripts/sofa_lib.py                 -> libreria base (cache + reintentos)
+scripts/fetch_zone_b.py             -> calendario + stats Zona B 2026
+scripts/simulate_zone_b.py          -> modelo Poisson + Monte Carlo
+scripts/fetch_scouting.py                 -> transfer-history planteles Zona B
+scripts/fetch_primera_b_metro_scouting.py -> goleadores Primera B Metro (destino real de descenso)
+scripts/fetch_federal_a_scouting.py       -> mismo extractor, aplicado por error a la liga equivocada
+scripts/fetch_transfermarkt_squad.py      -> valores de mercado de planteles (Chacarita + rivales)
+scripts/fetch_chacarita_historia.py       -> historial completo 2009-2026
+data/raw/ y data/processed/         -> todos los CSV generados esta noche</pre>
+      <div class="ev-caption">Correr de nuevo cualquier script actualiza los números con los resultados más recientes -conviene repetir esto después de cada fecha.</div>
+    </div>
+  </section>
+
+  <footer>
+    Chacarita: 8 Finales — panel de decisión generado la madrugada del 06 sep 2026, con datos en vivo. Ver también el informe de fuentes de datos (Chacarita Data Project) para el detalle de dónde sale cada dato.
+  </footer>
+
+</main>

@@ -1,0 +1,6 @@
+=== players keys ===
+['players', 'foreignPlayers', 'nationalPlayers', 'supportStaff', 'playerPreviousTeam', 'nationalTeamPlayerStatistics', 'teamDepthAssignments']
+sample from players : [{"player": {"name": "Facundo Marín", "firstName": "Facundo Marín", "slug": "facundo-marin", "shortName": "F. Marín", "team": {"name": "Ferrocarril Midland", "slug": "ferrocarril-midland", "shortName": "Midland", "gender": "M", "sport": {"name": "Football", "slug": "football", "id": 1}, "tournament": {"name": "Primera C, Apertura", "slug": "primera-c-apertura", "category": {"name": "Argentina", "slug": "argentina", "sport": {"name": "Football", "slug": "football", "id": 1}, "priority": 0, "count
+
+=== teamTransfers keys ===
+['transfersIn', 'transfersOut']

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 860 220" width="100%" style="overflow:visible; font-family:IBM Plex Mono,monospace;">
+<line x1="36" y1="16" x2="36" y2="190" stroke="var(--line)" stroke-width="1"/>
+<line x1="36" y1="190" x2="844" y2="190" stroke="var(--line)" stroke-width="1"/>
+<polyline points="36.0,145.8 69.7,112.7 103.3,80.9 137.0,89.5 170.7,84.2 204.3,66.2 238.0,68.5 271.7,87.3 305.3,94.4 339.0,99.4 372.7,102.7 406.3,95.4 440.0,62.0 473.7,43.7 507.3,61.2 541.0,67.1 574.7,72.9 608.3,75.8 642.0,75.8 675.7,62.7 709.3,46.8 743.0,51.8 776.7,71.9 810.3,64.6 844.0,71.0" fill="none" stroke="var(--good)" stroke-width="2.5"/>
+<polyline points="36.0,62.3 69.7,124.3 103.3,144.2 137.0,145.8 170.7,141.4 204.3,159.7 238.0,142.0 271.7,124.0 305.3,120.9 339.0,118.8 372.7,115.1 406.3,104.8 440.0,115.9 473.7,116.1 507.3,82.1 541.0,79.2 574.7,83.8 608.3,68.7 642.0,65.4 675.7,107.1 709.3,97.9 743.0,109.8 776.7,92.3 810.3,78.3 844.0,31.8" fill="none" stroke="var(--bad)" stroke-width="2.5"/>
+<circle cx="305.3" cy="120.9" r="4" fill="var(--ink)"/>
+<text x="305.3" y="206" font-size="9" fill="var(--muted)" text-anchor="middle">vs Chaca (ida)</text>
+<circle cx="844.0" cy="71.0" r="4" fill="var(--good)"/>
+<circle cx="844.0" cy="31.8" r="4" fill="var(--bad)"/>
+<text x="40" y="26" font-size="9" fill="var(--muted)">1.8 xG</text>
+<text x="40" y="186" font-size="9" fill="var(--muted)">0</text>
+</svg>

@@ -1,0 +1,91 @@
+﻿event_id,tournament,season,round,home_team,away_team,home_score,away_score,start_timestamp,status,date
+15275428,Primera B Nacional,Primera Nacional 2026,3,Güemes,Club Atlético Chacarita Juniors,2.0,1.0,1772395200,Ended,2026-03-01 20:00:00
+15275439,Primera B Nacional,Primera Nacional 2026,4,Club Atlético Chacarita Juniors,Tristán Suárez,,,1773000000,Postponed,2026-03-08 20:00:00
+15275464,Primera B Nacional,Primera Nacional 2026,5,Agropecuario Argentino,Club Atlético Chacarita Juniors,2.0,0.0,1773601200,Ended,2026-03-15 19:00:00
+15275477,Primera B Nacional,Primera Nacional 2026,6,Club Atlético Chacarita Juniors,Atlético de Rafaela,0.0,1.0,1774206000,Ended,2026-03-22 19:00:00
+15275489,Primera B Nacional,Primera Nacional 2026,7,Club Atlético Chacarita Juniors,Estudiantes de Buenos Aires,0.0,3.0,1774810800,Ended,2026-03-29 19:00:00
+15275517,Primera B Nacional,Primera Nacional 2026,8,San Martín de Tucumán,Club Atlético Chacarita Juniors,1.0,1.0,1775334600,Ended,2026-04-04 20:30:00
+15275532,Primera B Nacional,Primera Nacional 2026,9,Club Atlético Chacarita Juniors,Gimnasia y Tiro de Salta,2.0,0.0,1776016800,Ended,2026-04-12 18:00:00
+15275552,Primera B Nacional,Primera Nacional 2026,10,Atlanta,Club Atlético Chacarita Juniors,1.0,0.0,1776729600,Ended,2026-04-21 00:00:00
+15275569,Primera B Nacional,Primera Nacional 2026,11,Club Atlético Chacarita Juniors,Ferrocarril Midland,1.0,0.0,1777228200,Ended,2026-04-26 18:30:00
+15275589,Primera B Nacional,Primera Nacional 2026,12,Quilmes Atlético Club,Club Atlético Chacarita Juniors,0.0,0.0,1777935600,Ended,2026-05-04 23:00:00
+15275608,Primera B Nacional,Primera Nacional 2026,13,Club Atlético Chacarita Juniors,Colegiales,2.0,0.0,1778437800,Ended,2026-05-10 18:30:00
+15275624,Primera B Nacional,Primera Nacional 2026,14,Patronato,Club Atlético Chacarita Juniors,2.0,0.0,1779044400,Ended,2026-05-17 19:00:00
+15275647,Primera B Nacional,Primera Nacional 2026,15,Club Atlético Chacarita Juniors,Almagro,1.0,0.0,1779647400,Ended,2026-05-24 18:30:00
+15275661,Primera B Nacional,Primera Nacional 2026,16,Deportivo Maipú,Club Atlético Chacarita Juniors,3.0,2.0,1780257600,Ended,2026-05-31 20:00:00
+15275684,Primera B Nacional,Primera Nacional 2026,17,Club Atlético Chacarita Juniors,Temperley,0.0,1.0,1780857000,Ended,2026-06-07 18:30:00
+15275696,Primera B Nacional,Primera Nacional 2026,18,Nueva Chicago,Club Atlético Chacarita Juniors,2.0,0.0,1781375400,Ended,2026-06-13 18:30:00
+15943796,Primera B Nacional,Primera Nacional 2026,4,Club Atlético Chacarita Juniors,Tristán Suárez,0.0,0.0,1782066600,Ended,2026-06-21 18:30:00
+15275731,Primera B Nacional,Primera Nacional 2026,20,Gimnasia Y Esgrima De Jujuy,Club Atlético Chacarita Juniors,,,1783195200,Postponed,2026-07-04 20:00:00
+15275721,Primera B Nacional,Primera Nacional 2026,19,San Martín de San Juan,Club Atlético Chacarita Juniors,0.0,1.0,1783278000,Ended,2026-07-05 19:00:00
+16388563,Primera B Nacional,Primera Nacional 2026,20,Gimnasia Y Esgrima De Jujuy,Club Atlético Chacarita Juniors,1.0,1.0,1783879200,Ended,2026-07-12 18:00:00
+15275757,Primera B Nacional,Primera Nacional 2026,21,Club Atlético Chacarita Juniors,Güemes,,,1784570400,Postponed,2026-07-20 18:00:00
+15275768,Primera B Nacional,Primera Nacional 2026,22,Tristán Suárez,Club Atlético Chacarita Juniors,1.0,0.0,1785002400,Ended,2026-07-25 18:00:00
+15275793,Primera B Nacional,Primera Nacional 2026,23,Club Atlético Chacarita Juniors,Agropecuario Argentino,2.0,1.0,1785693600,Ended,2026-08-02 18:00:00
+15275806,Primera B Nacional,Primera Nacional 2026,24,Atlético de Rafaela,Club Atlético Chacarita Juniors,1.0,0.0,1786215600,Ended,2026-08-08 19:00:00
+15275818,Primera B Nacional,Primera Nacional 2026,25,Estudiantes de Buenos Aires,Club Atlético Chacarita Juniors,,,1786219200,Postponed,2026-08-08 20:00:00
+16744861,Primera B Nacional,Primera Nacional 2026,25,Estudiantes de Buenos Aires,Club Atlético Chacarita Juniors,2.0,0.0,1786831200,Ended,2026-08-15 22:00:00
+16611054,Primera B Nacional,Primera Nacional 2026,21,Club Atlético Chacarita Juniors,Güemes,0.0,0.0,1787162400,Ended,2026-08-19 18:00:00
+15275849,Primera B Nacional,Primera Nacional 2026,26,Club Atlético Chacarita Juniors,San Martín de Tucumán,1.0,2.0,1787508000,Ended,2026-08-23 18:00:00
+15275866,Primera B Nacional,Primera Nacional 2026,27,Gimnasia y Tiro de Salta,Club Atlético Chacarita Juniors,1.0,0.0,1787965200,Ended,2026-08-29 01:00:00
+15275886,Primera B Nacional,Primera Nacional 2026,28,Club Atlético Chacarita Juniors,Atlanta,0.0,1.0,1788633000,Ended,2026-09-05 18:30:00
+13445461,"Primera Nacional, Group B",Primera Nacional 2025,9,Club Atlético Chacarita Juniors,Defensores Unidos,2.0,0.0,1743870600,Ended,2025-04-05 16:30:00
+13445485,"Primera Nacional, Group B",Primera Nacional 2025,10,Temperley,Club Atlético Chacarita Juniors,0.0,3.0,1744574400,Ended,2025-04-13 20:00:00
+13445507,"Primera Nacional, Group B",Primera Nacional 2025,11,Club Atlético Chacarita Juniors,Club Atletico Colón,3.0,2.0,1745172000,Ended,2025-04-20 18:00:00
+13445529,"Primera Nacional, Group B",Primera Nacional 2025,12,CA Mitre,Club Atlético Chacarita Juniors,0.0,0.0,1745784000,Ended,2025-04-27 20:00:00
+13445549,"Primera Nacional, Group B",Primera Nacional 2025,13,Club Atlético Chacarita Juniors,Chaco For Ever,0.0,3.0,1746381600,Ended,2025-05-04 18:00:00
+13445565,"Primera Nacional, Group B",Primera Nacional 2025,14,Almirante Brown,Club Atlético Chacarita Juniors,1.0,3.0,1746996300,Ended,2025-05-11 20:45:00
+13445591,"Primera Nacional, Group B",Primera Nacional 2025,15,Club Atlético Chacarita Juniors,Central Norte de Salta,4.0,0.0,1747593000,Ended,2025-05-18 18:30:00
+13445607,"Primera Nacional, Group B",Primera Nacional 2025,16,Gimnasia y Esgrima Mendoza,Club Atlético Chacarita Juniors,0.0,0.0,1748197800,Ended,2025-05-25 18:30:00
+13445635,"Primera Nacional, Group B",Primera Nacional 2025,17,Club Atlético Chacarita Juniors,Gimnasia Y Esgrima De Jujuy,0.0,1.0,1748799000,Ended,2025-06-01 17:30:00
+13969363,"Primera Nacional, Group B",Primera Nacional 2025,18,Club Atlético Chacarita Juniors,Agropecuario Argentino,3.0,0.0,1749924000,Ended,2025-06-14 18:00:00
+13977071,"Primera Nacional, Group B",Primera Nacional 2025,19,San Telmo,Club Atlético Chacarita Juniors,0.0,1.0,1750608600,Ended,2025-06-22 16:10:00
+14021408,"Primera Nacional, Group B",Primera Nacional 2025,20,Club Atlético Chacarita Juniors,Nueva Chicago,0.0,0.0,1751134500,Ended,2025-06-28 18:15:00
+13445719,"Primera Nacional, Group B",Primera Nacional 2025,21,Club Atlético Chacarita Juniors,Defensores de Belgrano,0.0,2.0,1751825100,Ended,2025-07-06 18:05:00
+14089045,"Primera Nacional, Group B",Primera Nacional 2025,22,Estudiantes de Río Cuarto,Club Atlético Chacarita Juniors,1.0,1.0,1752432300,Ended,2025-07-13 18:45:00
+14135557,"Primera Nacional, Group B",Primera Nacional 2025,23,Club Atlético Chacarita Juniors,Talleres Remedios de Escalada,2.0,1.0,1753030800,Ended,2025-07-20 17:00:00
+14185582,"Primera Nacional, Group B",Primera Nacional 2025,24,Deportivo Morón,Club Atlético Chacarita Juniors,0.0,2.0,1753560000,Ended,2025-07-26 20:00:00
+14248149,"Primera Nacional, Group B",Primera Nacional 2025,25,Club Atlético Chacarita Juniors,Estudiantes de Buenos Aires,0.0,3.0,1754245800,Ended,2025-08-03 18:30:00
+14349199,"Primera Nacional, Group B",Primera Nacional 2025,26,Defensores Unidos,Club Atlético Chacarita Juniors,0.0,0.0,1754759400,Ended,2025-08-09 17:10:00
+14349792,"Primera Nacional, Group B",Primera Nacional 2025,27,Club Atlético Chacarita Juniors,Temperley,0.0,0.0,1755364200,Ended,2025-08-16 17:10:00
+13445851,"Primera Nacional, Group B",Primera Nacional 2025,28,Club Atletico Colón,Club Atlético Chacarita Juniors,1.0,1.0,1755979500,Ended,2025-08-23 20:05:00
+13445871,"Primera Nacional, Group B",Primera Nacional 2025,29,Club Atlético Chacarita Juniors,CA Mitre,2.0,2.0,1756573200,Ended,2025-08-30 17:00:00
+13445891,"Primera Nacional, Group B",Primera Nacional 2025,30,Chaco For Ever,Club Atlético Chacarita Juniors,0.0,0.0,1757282400,Ended,2025-09-07 22:00:00
+13445909,"Primera Nacional, Group B",Primera Nacional 2025,31,Club Atlético Chacarita Juniors,Almirante Brown,0.0,1.0,1757874600,Ended,2025-09-14 18:30:00
+13445932,"Primera Nacional, Group B",Primera Nacional 2025,32,Central Norte de Salta,Club Atlético Chacarita Juniors,2.0,1.0,1758484800,Ended,2025-09-21 20:00:00
+13445947,"Primera Nacional, Group B",Primera Nacional 2025,33,Club Atlético Chacarita Juniors,Gimnasia y Esgrima Mendoza,1.0,1.0,1759083300,Ended,2025-09-28 18:15:00
+13445970,"Primera Nacional, Group B",Primera Nacional 2025,34,Gimnasia Y Esgrima De Jujuy,Club Atlético Chacarita Juniors,2.0,0.0,1759689000,Ended,2025-10-05 18:30:00
+15275392,Primera B Nacional,Primera Nacional 2026,1,Club Atlético Chacarita Juniors,San Martín de San Juan,,,1770494400,Postponed,2026-02-07 20:00:00
+15275402,Primera B Nacional,Primera Nacional 2026,2,Club Atlético Chacarita Juniors,Gimnasia Y Esgrima De Jujuy,,,1771099200,Postponed,2026-02-14 20:00:00
+15459026,Primera B Nacional,Primera Nacional 2026,1,Club Atlético Chacarita Juniors,San Martín de San Juan,1.0,1.0,1771185600,Ended,2026-02-15 20:00:00
+15463211,Primera B Nacional,Primera Nacional 2026,2,Club Atlético Chacarita Juniors,Gimnasia Y Esgrima De Jujuy,3.0,1.0,1771790400,Ended,2026-02-22 20:00:00
+11972708,Primera B Nacional,Primera Nacional 2024,18,Club Atlético Chacarita Juniors,Güemes,2.0,0.0,1717266600,Ended,2024-06-01 18:30:00
+12352900,Copa Argentina,Copa Argentina 2024,6,San Lorenzo,Club Atlético Chacarita Juniors,2.0,0.0,1717801200,Ended,2024-06-07 23:00:00
+11972729,Primera B Nacional,Primera Nacional 2024,19,Gimnasia Y Esgrima De Jujuy,Club Atlético Chacarita Juniors,0.0,1.0,1718215800,Ended,2024-06-12 18:10:00
+11972745,Primera B Nacional,Primera Nacional 2024,20,Deportivo Maipú,Club Atlético Chacarita Juniors,0.0,2.0,1719165600,Ended,2024-06-23 18:00:00
+11972768,Primera B Nacional,Primera Nacional 2024,21,Club Atlético Chacarita Juniors,Club Ferro Carril Oeste,1.0,1.0,1719767400,Ended,2024-06-30 17:10:00
+11972782,Primera B Nacional,Primera Nacional 2024,22,San Miguel,Club Atlético Chacarita Juniors,2.0,1.0,1720375500,Ended,2024-07-07 18:05:00
+11972807,Primera B Nacional,Primera Nacional 2024,23,Club Atlético Chacarita Juniors,Quilmes Atlético Club,0.0,4.0,1720890600,Ended,2024-07-13 17:10:00
+11972819,Primera B Nacional,Primera Nacional 2024,24,Talleres Remedios de Escalada,Club Atlético Chacarita Juniors,2.0,1.0,1721593800,Ended,2024-07-21 20:30:00
+11972846,Primera B Nacional,Primera Nacional 2024,25,Club Atlético Chacarita Juniors,Estudiantes de Buenos Aires,1.0,1.0,1722103200,Ended,2024-07-27 18:00:00
+11972875,Primera B Nacional,Primera Nacional 2024,26,Defensores de Belgrano,Club Atlético Chacarita Juniors,2.0,2.0,1722809400,Ended,2024-08-04 22:10:00
+11972884,Primera B Nacional,Primera Nacional 2024,27,San Martín de Tucumán,Club Atlético Chacarita Juniors,1.0,0.0,1723406400,Ended,2024-08-11 20:00:00
+11972895,Primera B Nacional,Primera Nacional 2024,28,Club Atlético Chacarita Juniors,Arsenal de Sarandí,0.0,0.0,1724004000,Ended,2024-08-18 18:00:00
+11972921,Primera B Nacional,Primera Nacional 2024,29,San Martín de San Juan,Club Atlético Chacarita Juniors,4.0,0.0,1724612400,Ended,2024-08-25 19:00:00
+11972934,Primera B Nacional,Primera Nacional 2024,30,Club Atlético Chacarita Juniors,Guillermo Brown,1.0,0.0,1725213600,Ended,2024-09-01 18:00:00
+11972958,Primera B Nacional,Primera Nacional 2024,31,Agropecuario Argentino,Club Atlético Chacarita Juniors,2.0,0.0,1725732000,Ended,2024-09-07 18:00:00
+11972973,Primera B Nacional,Primera Nacional 2024,32,Club Atlético Chacarita Juniors,All Boys,0.0,1.0,1726425000,Ended,2024-09-15 18:30:00
+11972995,Primera B Nacional,Primera Nacional 2024,33,Tristán Suárez,Club Atlético Chacarita Juniors,0.0,0.0,1726945200,Ended,2024-09-21 19:00:00
+11973012,Primera B Nacional,Primera Nacional 2024,34,Club Atlético Chacarita Juniors,Patronato,1.0,0.0,1727547000,Ended,2024-09-28 18:10:00
+11973032,Primera B Nacional,Primera Nacional 2024,35,Racing de Córdoba,Club Atlético Chacarita Juniors,1.0,1.0,1728083400,Ended,2024-10-04 23:10:00
+11973051,Primera B Nacional,Primera Nacional 2024,36,Club Atlético Chacarita Juniors,Alvarado,2.0,1.0,1728844200,Ended,2024-10-13 18:30:00
+11973069,Primera B Nacional,Primera Nacional 2024,37,Güemes,Club Atlético Chacarita Juniors,2.0,1.0,1729360800,Ended,2024-10-19 18:00:00
+11973090,Primera B Nacional,Primera Nacional 2024,38,Club Atlético Chacarita Juniors,Gimnasia Y Esgrima De Jujuy,0.0,0.0,1730052300,Ended,2024-10-27 18:05:00
+13387590,"Primera Nacional, Group B",Primera Nacional 2025,1,Agropecuario Argentino,Club Atlético Chacarita Juniors,0.0,1.0,1739233800,Ended,2025-02-11 00:30:00
+13408138,"Primera Nacional, Group B",Primera Nacional 2025,2,Club Atlético Chacarita Juniors,San Telmo,1.0,1.0,1739736000,Ended,2025-02-16 20:00:00
+13437923,"Primera Nacional, Group B",Primera Nacional 2025,3,Nueva Chicago,Club Atlético Chacarita Juniors,1.0,1.0,1740434400,Ended,2025-02-24 22:00:00
+13437950,"Primera Nacional, Group B",Primera Nacional 2025,4,Defensores de Belgrano,Club Atlético Chacarita Juniors,1.0,0.0,1740953700,Ended,2025-03-02 22:15:00
+13366694,"Primera Nacional, Group B",Primera Nacional 2025,5,Club Atlético Chacarita Juniors,Estudiantes de Río Cuarto,0.0,2.0,1741550400,Ended,2025-03-09 20:00:00
+13445425,"Primera Nacional, Group B",Primera Nacional 2025,6,Talleres Remedios de Escalada,Club Atlético Chacarita Juniors,0.0,2.0,1742079600,Ended,2025-03-15 23:00:00
+13445439,"Primera Nacional, Group B",Primera Nacional 2025,7,Club Atlético Chacarita Juniors,Deportivo Morón,1.0,1.0,1742751900,Ended,2025-03-23 17:45:00
+13366995,"Primera Nacional, Group B",Primera Nacional 2025,8,Estudiantes de Buenos Aires,Club Atlético Chacarita Juniors,0.0,2.0,1743280200,Ended,2025-03-29 20:30:00

@@ -1,0 +1,8 @@
+﻿round,rival,local,minuto,tiempo_extra,jugador,asistencia,penal,en_contra_propia,marcador_local,marcador_visitante
+6,Atlético de Rafaela,True,17,,Lucas Albertengo,Mauro Quiroga,False,False,1,0
+10,Atlanta,False,45,5.0,Rodrigo Moreira,Alejo Dramisino,False,False,0,1
+19,San Martín de San Juan,False,37,,Maximiliano Meléndez,Alvaro Cuello,False,False,0,1
+20,Gimnasia Y Esgrima De Jujuy,False,18,,Alexis Domínguez,Maximiliano Meléndez,False,False,0,1
+23,Agropecuario Argentino,True,69,,Cristian Guanca,,False,False,2,1
+23,Agropecuario Argentino,True,66,,Cristian Guanca,,True,False,1,1
+26,San Martín de Tucumán,True,8,,Maximiliano Meléndez,,False,False,1,0

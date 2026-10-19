@@ -1,0 +1,771 @@
+Chacarita: 8 Finales
+Panel de decisión · generado durante la madrugada del 06 sep 2026
+17° de 18. A un punto
+de zafar. Ocho finales.
+Chacarita está en zona de descenso directo en la Primera Nacional. Este documento junta todo lo que se pudo bajar y calcular en una noche de trabajo: cuán grave es la situación en números, qué hace falta en las 8 fechas que quedan, y quiénes son los candidatos reales de scouting para el año que viene -para los dos escenarios posibles-.
+Posición:
+17° de 18 (Zona B)
+Puntos:
+27
+Fechas restantes:
+8
+Simulaciones corridas:
+30.000+
+La situación
+Reglamento
+Simulación
+Puntos necesarios
+8 rivales
+Contexto histórico
+Scouting 2027
+Validación del método
+Candidatos
+Metodología y límites
+La situación, sin vueltas
+El modelo propio (Poisson + Monte Carlo, 30.000 temporadas simuladas con los datos reales de xG de las 29 fechas ya jugadas) da 69,5% de probabilidad de que Chacarita descienda.
+No es una sensación ni un titular de diario: es el resultado de simular el resto del campeonato miles de veces usando la fuerza de ataque y defensa real de los 18 equipos de la Zona B.
+La buena noticia es que el margen es chico y se puede cuantificar: Chacarita está a
+un solo punto
+de la zona segura, y el modelo dice exactamente cuántos puntos hacen falta en las 8 fechas para dar vuelta esa probabilidad (ver más abajo).
+69,5%
+probabilidad de descenso según la simulación (modelo ponderado por forma reciente)
+27 / 28
+puntos en 28 partidos jugados — 0,96 puntos por partido, la peor marca desde el descenso de Primera División en 2017/18
+14+
+de los 24 puntos en juego que hacen falta para bajar el riesgo de descenso a ~4%
+3 de 8
+próximos rivales son cruces directos por la permanencia (Quilmes, Patronato, Nueva Chicago)
+Antes de los números, las reglas del juego
+Cómo se define el descenso
+La Primera Nacional 2026 tiene 36 equipos en dos zonas de 18.
+Descienden 4 equipos en total: los dos últimos de cada zona
+, directo, sin repechaje ni promedios de temporadas anteriores -eso es un mecanismo distinto, propio de la Liga Profesional (1ª división), que no aplica acá-. El destino depende de la afiliación de cada club: los de afiliación
+indirecta
+(clubes del interior del país) bajan a Federal A; los de afiliación
+directa
+(Capital Federal y Gran Buenos Aires) bajan a Primera B Metropolitana. Chacarita -club porteño fundado en 1906, afiliado directo a AFA desde 1920- caería a
+Primera B Metropolitana
+, no a Federal A.
+Zona B completa · Primera Nacional 2026 · fecha 29 de 36 (datos en vivo, Sofascore)
+Pos
+Equipo
+PJ
+G
+E
+P
+GF
+GC
+Pts
+Situación
+1
+Tristán Suárez
+26
+13
+9
+4
+28
+14
+48
+Final
+2
+Temperley
+27
+12
+10
+5
+30
+22
+46
+Reducido
+3
+Gimnasia y Esgrima (J)
+27
+13
+7
+7
+40
+33
+46
+Reducido
+4
+Atlanta
+28
+14
+3
+11
+32
+28
+45
+Reducido
+5
+Ferrocarril Midland
+27
+11
+8
+8
+29
+22
+41
+Reducido
+6
+Gimnasia y Tiro (Salta)
+27
+11
+8
+8
+28
+25
+41
+Reducido
+7
+Atlético de Rafaela
+27
+10
+9
+8
+20
+20
+39
+–
+8
+Deportivo Maipú
+27
+11
+5
+11
+34
+28
+38
+–
+9
+San Martín de San Juan
+26
+10
+8
+8
+28
+24
+38
+–
+10
+Colegiales
+27
+10
+7
+10
+27
+25
+37
+–
+11
+San Martín de Tucumán
+28
+8
+12
+8
+27
+26
+36
+–
+12
+Almagro
+27
+9
+7
+11
+22
+29
+34
+–
+13
+Quilmes
+27
+8
+8
+11
+27
+23
+32
+–
+14
+Agropecuario Argentino
+27
+7
+9
+11
+23
+31
+30
+–
+15
+Nueva Chicago
+27
+7
+8
+12
+20
+27
+29
+–
+16
+Patronato
+27
+5
+13
+9
+23
+30
+28
+Línea de corte
+17
+Chacarita Juniors
+28
+7
+6
+15
+19
+30
+27
+Descenso
+18
+Güemes
+26
+5
+8
+13
+21
+41
+23
+Descenso
+30.000 temporadas simuladas
+El modelo, y qué dice de cada equipo
+Se calculó una fuerza de ataque y de defensa por equipo a partir del xG real de los 225 partidos de la Zona B ya jugados (con más peso a los últimos partidos, para capturar el cambio de entrenador de fecha 9). Con esas fuerzas se corrieron 30.000 versiones aleatorias de las 8 fechas que faltan -goles por Poisson, como se hace en cualquier modelo serio de fútbol- y se contó en cuántas de esas versiones cada equipo termina 17° o 18°.
+Probabilidad de descenso por equipo — Zona B, 30.000 simulaciones
+Güemes
+97.6%
+Club Atlético Chacarita Juniors
+69.8%
+Patronato
+13.0%
+Nueva Chicago
+8.4%
+Agropecuario Argentino
+6.6%
+Almagro
+3.4%
+Quilmes Atlético Club
+0.7%
+Atlético de Rafaela
+0.2%
+San Martín de Tucumán
+0.1%
+Tristán Suárez
+0.0%
+Temperley
+0.0%
+Colegiales
+0.0%
+Deportivo Maipú
+0.0%
+San Martín de San Juan
+0.0%
+Atlanta
+0.0%
+Ferrocarril Midland
+0.0%
+Gimnasia Y Esgrima De Jujuy
+0.0%
+Gimnasia y Tiro de Salta
+0.0%
+Control de sensibilidad
+¿cambia mucho el resultado según cómo se pondere?
+Modelo ponderado por forma reciente (half-life 75 días):  69,8% de descenso
+Modelo con toda la temporada pesando igual:                69,0% de descenso
+Diferencia entre ambos enfoques:                            0,8 puntos porcentuales
+El resultado es robusto: no depende de un supuesto metodológico frágil. Se reporta 69,5% como número central.
+El dato para el cuerpo técnico
+Cuántos puntos hacen falta
+En vez de solo dar una probabilidad, el mismo modelo permite responder la pregunta que realmente importa en la práctica:
+si Chacarita suma X puntos en las 8 fechas, ¿qué probabilidad de descenso le queda?
+(el resto de los resultados de la zona se sigue simulando al azar).
+simulación condicional · 40.000 corridas
+Puntos sumados en las 8 fechas
+Equivalente aprox.
+Prob. de descenso
+0-2
+0 victorias
+100%
+3-5
+1 victoria
+99,8%
+6-8
+2 victorias
+95,6%
+9-11
+3 victorias
+70,8%
+12-14
+4 victorias
+24,5%
+15-17
+5 victorias
+1,4%
+18+
+6 victorias
+~0%
+Lectura práctica
+El promedio actual de Chacarita (0,96 pts/partido) proyecta unos
+7-8 puntos
+en las 8 fechas si nada cambia — eso deja el riesgo de descenso prácticamente intacto (95%+).
+El objetivo mínimo realista para dar vuelta la temporada es 12-14 puntos
+(cuatro victorias y el resto de puntos sueltos), que baja el riesgo de "coin flip perdedor" a "amenaza controlada" (24,5%). Con 15+ puntos, el descenso deja de ser un tema.
+Fecha 29 a 36
+Los 8 rivales, uno por uno
+Tres de los ocho son cruces
+directos
+por la permanencia: contra rivales que están, como Chacarita, mirando para abajo en la tabla. El de local contra Patronato (fecha 32) es probablemente el más determinante de todo el campeonato: hoy los separa apenas un punto.
+Para el cuerpo técnico
+dossier completo, rival por rival
+Esta tabla es el resumen. El análisis táctico completo -perfil de juego, fortalezas, debilidades y recomendaciones por partido, con contexto de cada DT rival- está en
+Central de Rivales
+.
+Fecha
+Día
+Cond.
+Rival
+Pos.
+Pts
+Ataque
+Defensa
+Tipo de partido
+29
+12-sep
+Visitante
+Ferrocarril Midland
+5°
+41
+1,06
+1,03
+Exigente
+30
+19-sep
+Local
+Quilmes
+13°
+32
+1,27
+0,99
+Directo
+31
+26-sep
+Visitante
+Colegiales
+10°
+37
+1,16
+0,76
+Exigente
+32
+03-oct
+Local
+Patronato
+16°
+28
+1,02
+0,98
+Directo — clave
+33
+10-oct
+Visitante
+Almagro
+12°
+34
+0,82
+1,20
+Accesible
+34
+17-oct
+Local
+Deportivo Maipú
+8°
+38
+1,13
+0,96
+Exigente
+35
+24-oct
+Visitante
+Temperley
+2°
+46
+0,86
+1,11
+Muy difícil
+36
+31-oct
+Local
+Nueva Chicago
+15°
+29
+0,94
+0,93
+Directo — cierre
+Ataque/defensa: fuerza relativa al promedio de la zona (1,00 = promedio). Un valor de ataque de 1,27 en Quilmes indica que genera 27% más peligro ofensivo que el equipo promedio de la zona.
+Dato de Transfermarkt: no parece un problema de plantel
+Se bajó el plantel completo (con valor de mercado) de los ocho próximos rivales.
+Plantel
+Valor total
+Edad prom.
+Posición hoy
+Chacarita
+€4,35M
+26,9
+17°
+Patronato (fecha 32, directo)
+€3,31M
+26,5
+16°
+Temperley (fecha 35)
+€3,27M
+27,6
+2°
+Quilmes (fecha 30, directo)
+€3,04M
+26,9
+13°
+Deportivo Maipú (fecha 34)
+€2,76M
+25,3
+8°
+Almagro (fecha 33)
+€2,38M
+26,5
+12°
+Colegiales (fecha 31)
+€2,06M
+26,7
+10°
+Ferrocarril Midland (fecha 29)
+€1,68M
+25,3
+5°
+Chacarita tiene el plantel más caro de los ocho
+-incluso más que Temperley, que está 2° en la zona-. Buena parte de ese valor está concentrado en un solo jugador (Cristian Guanca, €2,2M, más de la mitad del plantel). Esto no descarta reforzar en enero, pero sugiere que el problema de esta temporada es, ante todo, de
+rendimiento colectivo
+, no de presupuesto de plantel.
+El dato más accionable de todo el análisis, y el modelo genérico de arriba no lo captura del todo:
+Chacarita es un equipo radicalmente distinto según juegue de local o visitante.
+De local: 1,62 pts/partido
+13 partidos, 21 puntos. xG a favor 1,09 vs xG en contra 0,71 — de local, Chacarita domina. Ese promedio lo pondría cómodo a mitad de tabla.
+De visitante: 0,46 pts/partido
+13 partidos, apenas 6 puntos. xG a favor 0,61 vs xG en contra 1,52 — de visitante le generan casi el triple de lo que genera. Ahí está casi todo el problema.
+De las 8 fechas que quedan,
+4 son de local
+(Quilmes, Patronato, Deportivo Maipú, Nueva Chicago) — y no es casualidad:
+3 de esos 4 son justo los cruces directos por la permanencia
+. Si el patrón de esta temporada se sostiene, ahí está la vía más realista para salvar la categoría, más que en pelear los 4 partidos de visitante (Midland, Colegiales, Almagro, Temperley).
+Nota metodológica: la simulación Monte Carlo de la sección anterior ya incorpora localía (usa el promedio de xG local/visitante de toda la zona), pero no exagera la brecha local/visitante específica de Chacarita tanto como muestran estos números -por eso esta lectura cualitativa complementa, no reemplaza, el 69,5%.
+El dato más urgente de todos, corregido tras verificar quién dirige hoy:
+el técnico actual es
+Sergio Rondina
+(asumió el 11 de agosto, tras la salida de Cristian Grabinski), no Azconzábal como se había puesto en la primera versión de este informe -error ya corregido-. Rondina lleva
+4 presentaciones, 4 derrotas, 0 de 12 puntos posibles
+: debut 0-2 vs Estudiantes de Buenos Aires (fecha 25), y derrotas en las fechas 26, 27 y 28. Este sábado, fecha 29 vs Ferrocarril Midland, es su quinta oportunidad -y ya no hay margen para otro colectivo sin puntos-.
+rendimiento de Chacarita por ciclo técnico 2026
+DT
+Fechas
+PJ
+Pts
+Pts/PJ
+xG a favor
+xG en contra
+Matías Módolo
+1-8
+7
+6
+0,86
+0,69
+0,86
+Cristian Grabinski
+9-24
+16
+21
+1,31
+0,92
+1,22
+Sergio Rondina (actual)
+25-28
+4
+0
+0,00
+~0,7*
+~1,4*
+*Los valores de xG de la era Rondina son parciales: el partido de su debut (fecha 25, vs Estudiantes de Buenos Aires) no tiene estadísticas de xG descargadas -se reconstruyó el resultado (derrota 0-2) vía prensa, no vía Sofascore-, así que el promedio de xG de esta fila usa solo 3 de los 4 partidos.
+Paradoja incómoda para tener en cuenta
+Grabinski, que fue destituido, tenía el mejor rendimiento en puntos de los tres ciclos (1,31 pts/partido) -aunque también el peor xG en contra de los tres hasta ahora, o sea que también sufría defensivamente y "le alcanzaba". Rondina no sumó un solo punto en su primera oportunidad de mostrar una mejora. Esto no es una crítica al técnico -4 partidos es una muestra chica y pudo tocarle un fixture más duro- pero sí es el dato que el cuerpo técnico necesita tener sobre la mesa:
+el cambio de entrenador, hasta ahora, no mejoró nada
+, y el margen para que lo haga se redujo a 8 finales.
+Lo que los números no ven
+No se encontraron reportes estructurados de lesionados o suspendidos para las próximas fechas -el fútbol argentino de ascenso no publica esta información de forma sistemática como sí ocurre en Europa-. Eso es información que solo el cuerpo técnico del club tiene de primera mano.
+Para dimensionar la caída
+2026 en perspectiva histórica
+Chacarita jugó en Primera División en
+2009/10
+y otra vez en
+2017/18
+(la Superliga). En menos de una década pasó de la máxima categoría a pelear el descenso a la tercera. La temporada actual, con 0,96 puntos por partido, es la peor desde aquel descenso de 2017/18.
+Puntos por partido, por temporada — historial completo en Sofascore (2009-2026)
+~1.0 pts/PJ
+1ra 09/10: 0.84 pts/PJ (38 partidos)
+1ra 09/10
+PBN 10/11: 1.16 pts/PJ (38 partidos)
+PBN 10/11
+PBN 11/12: 0.85 pts/PJ (40 partidos)
+PBN 11/12
+PB 13/14: 1.25 pts/PJ (36 partidos)
+PB 13/14
+PB 2014: 2.11 pts/PJ (18 partidos)
+PB 2014
+PBN 2015: 1.22 pts/PJ (41 partidos)
+PBN 2015
+PBN 2016: 2.05 pts/PJ (21 partidos)
+PBN 2016
+PBN 16/17: 1.75 pts/PJ (44 partidos)
+PBN 16/17
+1ra(SL) 17/18: 0.67 pts/PJ (27 partidos)
+1ra(SL) 17/18
+PBN 18/19: 1.00 pts/PJ (24 partidos)
+PBN 18/19
+PN 19/20: 1.14 pts/PJ (21 partidos)
+PN 19/20
+PN 20/21: 0.71 pts/PJ (7 partidos)
+PN 20/21
+PN 2021: 0.84 pts/PJ (32 partidos)
+PN 2021
+PN 2022: 1.33 pts/PJ (36 partidos)
+PN 2022
+PN 2023: 1.91 pts/PJ (35 partidos)
+PN 2023
+PN 2024: 1.18 pts/PJ (38 partidos)
+PN 2024
+PN 2025: 1.44 pts/PJ (34 partidos)
+PN 2025
+PN 2026: 0.96 pts/PJ (28 partidos)
+PN 2026
+PBN = Primera B Nacional · PN = Primera Nacional (mismo torneo, renombrado en 2019) · 1ra = Primera División. El contorno oscuro marca la temporada actual.
+Prioridad 2 · de cara a 2027
+Scouting para los dos escenarios
+Con 69,5% de probabilidad de descenso, cualquier plan de refuerzos serio tiene que cubrir
+los dos caminos
+: si Chacarita se salva, necesita reforzar para seguir en Primera Nacional; si desciende, necesita un plantel armado para pelear el ascenso inmediato desde
+Primera B Metropolitana
+(ver corrección más abajo sobre a qué liga cae realmente). Se armó una base de datos real para ambos casos.
+¿Funciona mirar ligas de abajo? Sí — y hay 406 casos que lo prueban
+Antes de armar una lista de candidatos, se validó la premisa: se bajó el plantel completo de los 18 equipos de la Zona B (630 jugadores) y su historial de transferencias, y se cruzó contra los equipos que hoy juegan en Federal A, Primera B y Primera C Metropolitana.
+406
+jugadores de los planteles actuales de Zona B que llegaron desde una categoría inferior en los últimos años
+5
+de esos casos son del propio plantel de Chacarita — el club ya recluta por esta vía
+24,7
+edad mediana real al momento del salto de categoría (rango típico: 22 a 27 años)
+Dato que ajusta el criterio de scouting: solo 7 de los 406 casos (1,7%) tenían entre 15 y 19 años al momento de subir. La ventana real de mayor probabilidad de éxito es 22-27 años (el 65% de los casos), no los juveniles extremos.
+Top 5 "canteras" (de dónde salió más gente)
+Alvarado (29 casos) · Arsenal de Sarandí (26) · CSD Flandria (21) · Guillermo Brown (20) · Brown de Adrogué (19)
+Fichajes de Chacarita desde categoría inferior: qué pasó realmente
+Solo
+Luciano Nieto
+(2020-2022, ex Brown de Adrogué) tuvo continuidad real -y ese caso ya tiene varios años, no es de esta temporada-. Los otros cuatro identificados no cuajaron: ver el detalle abajo.
+seguimiento real de los 4 fichajes recientes -no solo "llegaron", sino "cómo les fue"-
+Jugador
+Origen
+Qué pasó
+Lectura
+Francisco Cristaldo
+CSR Español
+18 años. Apenas
+2 partidos jugados en toda la temporada 2026
+, 1 gol.
+Sin continuidad — o no convenció en pretemporada, o es un caso de espera a largo plazo
+Tomás Pizarro
+Centro Español
+Pasó cedido por el fútbol guatemalteco (Xinabajul, Zacapa) y hoy está
+cedido a Cañuelas
+, varias categorías por debajo.
+No se afianzó — carrera errática desde que llegó
+Juan Pablo Gobetto
+Juventud Unida Universitario
+Ya no está en Chacarita:
+hoy juega en Deportivo Maipú
+-uno de los próximos rivales- con
+5 goles y 824 minutos
+esta temporada.
+El jugador rindió — pero en otro club. Se fue y le está yendo bien afuera
+Luciano Nieto
+Brown de Adrogué
+Jugó
+dos temporadas completas en Chacarita (2020-2022)
+.
+El único caso de continuidad real -pero es de hace 4-6 años, no de este ciclo
+Lo que esto cambia del criterio de scouting
+La muestra es chica (4 casos) para sacar conclusiones estadísticas duras, pero el patrón cualitativo es consistente con el dato de edad de arriba:
+Cristaldo (18) es el más joven de los cuatro y el que menos jugó
+-otra señal, además de la estadística de los 406 casos, de no apostar a extremos de juventud sin rodaje-. El caso Gobetto es distinto: no es que el jugador no sirviera, es que
+no se le dio continuidad en Chacarita y rindió en otro lado
+-un problema de gestión/uso, no de scouting-. Para el próximo mercado, esto sugiere agregar un filtro que el fichaje anterior no tuvo: exigir minutos ya jugados en su club de origen como condición, no solo potencial.
+Candidatos concretos
+Escenario A — si Chacarita se mantiene en Nacional:
+se armó un ranking de los jugadores que hoy destacan en múltiples métricas (goles, asistencias, rating, regates, pases clave, pases largos) dentro de la propia Primera Nacional 2026, con edad y valor de mercado estimado.
+top candidatos Primera Nacional 2026 · destacan en 2+ métricas distintas
+Jugador
+Equipo
+Pos.
+Edad
+Categorías top-20
+Mejor puesto
+Valor de mercado
+Ignacio Lago
+Club Atletico Colón
+M
+24
+6
+#2
+€580.000
+Marcelo Eggel
+Deportivo Maipú
+M
+28
+5
+#1
+€550.000
+Francisco Molina
+Gimnasia Y Esgrima De Jujuy
+M
+36
+5
+#2
+€52.000
+Marcos Roseti
+Ferrocarril Midland
+M
+29
+4
+#1
+€220.000
+Franco Fagundez
+Deportivo Morón
+F
+28
+4
+#1
+€280.000
+Martin Pino
+Godoy Cruz
+F
+28
+3
+#3
+€390.000
+Franco Saccone
+Deportivo Maipú
+M
+25
+3
+#4
+€140.000
+Nazareno Fúnez
+San Martín de San Juan
+F
+25
+3
+#5
+€270.000
+Franco Benitez
+Temperley
+M
+24
+3
+#6
+€160.000
+Agustín Lavezzi
+Quilmes Atlético Club
+F
+31
+3
+#10
+€325.000
+Facundo Ardiles
+Estudiantes de Buenos Aires
+M
+28
+3
+#11
+€160.000
+Alex Chamorro
+Los Andes
+M
+20
+2
+#1
+€77.000
+Daniel Franco
+Los Andes
+D
+35
+2
+#1
+€265.000
+Nicolas Diego Dematei
+Gimnasia Y Esgrima De Jujuy
+D
+39
+2
+#2
+€23.000
+"Categorías top-20" = en cuántas métricas distintas (goles, asistencias, rating, regates, pases clave, pases largos) aparece entre los 20 mejores de toda la Primera Nacional.
+Ignacio Lago (Colón) — el candidato con más respaldo
+24 años, debutó en Primera a los 15. Pasó por Talleres, México (Tlaxcala), San Martín de San Juan y Atlético de Rafaela antes de afianzarse en Colón (58 PJ, 11 goles, 7 asistencias desde 2024). Trayectoria larga y consistente antes de llegar a su mejor nivel -el patrón inverso al de Cristaldo en Chacarita-.
+Alex Chamorro (Los Andes) — alto techo, más riesgo
+19-20 años, paraguayo, a préstamo de Lanús, con pasado en la Sub-20 de Paraguay. Titular recién desde la fecha 8 de esta temporada -es una revelación reciente, no un jugador con rodaje probado-. Mismo perfil de riesgo que Cristaldo en Chacarita (18 años, sin continuidad): puede salir muy bien o no cuajar todavía.
+Esto no descarta a Chamorro -es real que rinde- pero para un club sin margen de error como Chacarita hoy, un perfil con trayectoria comprobada (como Lago) es la apuesta más segura; un perfil-revelación como Chamorro conviene tratarlo como apuesta a mediano plazo, no como refuerzo de urgencia.
+Escenario B — si desciende:
+Chacarita caería a
+Primera B Metropolitana
+, no a Federal A (ver la corrección abajo). Sofascore no calcula rankings de goleadores para ninguna de las dos ligas, así que hay que reconstruirlo a mano procesando los goles de cada partido jugado -el mismo método ya probado con éxito para Federal A, solo que apuntado a la liga correcta-.
+Corrección: el trabajo de esta sección apuntó a la liga equivocada
+Se había asumido que Chacarita, por descenso, caería a Federal A, y se llegó a construir y probar el extractor de goleadores para esa liga (reconstruyendo goles evento por evento, ~130 partidos, ya que Sofascore tampoco calcula rankings ahí).
+Ese supuesto era incorrecto
+: Federal A es para clubes de afiliación indirecta (del interior del país); Chacarita, club porteño de afiliación directa, caería a
+Primera B Metropolitana
+. El extractor ya construido y probado sirve igual -solo hay que apuntarlo a la liga correcta (id de torneo 1347 en vez de 14090)-, pero el trabajo quedó pendiente de rehacer porque el acceso a Sofascore se cortó (ver el bloqueo 403 documentado más abajo) antes de poder corregir y volver a correrlo.
+Metodología y honestidad sobre los límites
+Qué es sólido y qué es una aproximación
+La tabla de posiciones y el fixture son datos oficiales en vivo
+(Sofascore), no una estimación.
+El modelo de descenso es una simplificación deliberada
+(Poisson con fuerza de ataque/defensa vía xG). No incorpora lesionados, suspendidos, ni el efecto de un cambio de entrenador a mitad de camino — todo eso puede mover la probabilidad real varios puntos en cualquier dirección. 69,5% es un punto de partida cuantitativo, no una sentencia.
+El scouting de Primera Nacional es un ranking real
+, pero "destacar en una métrica" no es lo mismo que "encajar en el equipo" — filtra candidatos, no reemplaza ver a los jugadores jugar.
+Se cometió y corrigió un error real en esta misma sesión:
+se asumió primero que Chacarita descendería a Federal A; una verificación posterior (afiliación directa vs indirecta a AFA) mostró que el destino correcto es Primera B Metropolitana. Se deja constancia en vez de borrar el rastro -el trabajo en Federal A no se tira, queda como base técnica reutilizable para la liga correcta-.
+El alcance quedó limitado a Argentina esta noche
+(Federal A, Primera B/C Metropolitana). No se llegó a sumar Uruguay, Chile o Paraguay como se había dejado abierto — es la extensión natural de este trabajo si se decide continuar.
+Todas las fuentes usadas son las mismas del informe anterior (Sofascore, no oficial) — se aplica el mismo encuadre legal ya discutido: válido para uso interno del club, no para redistribuir.
+Ocurrió en vivo mientras se armaba esto
+A mitad de esta sesión, tras varios miles de requests corriendo en paralelo (Zona B + scouting + historial),
+Sofascore empezó a devolver error 403 a todo
+-incluso a
+curl
+, que hasta ese momento no tenía ningún bloqueo-. Es la confirmación empírica, en el peor momento posible, de lo que el informe de fuentes ya advertía como riesgo teórico: "puede endurecerse en cualquier momento, sin aviso". Por eso el shortlist de Federal A y las estadísticas del historial completo quedaron pendientes -no por falta de tiempo, sino porque la fuente se cortó a mitad de camino-. Se corrigió el pipeline para ir más despacio (menos requests en paralelo, más pausa entre cada uno) y quedó reintentando solo cuando el bloqueo se levante.
+Reproducibilidad
+todo queda en tu carpeta
+scripts/sofa_lib.py                 -> libreria base (cache + reintentos)
+scripts/fetch_zone_b.py             -> calendario + stats Zona B 2026
+scripts/simulate_zone_b.py          -> modelo Poisson + Monte Carlo
+scripts/fetch_scouting.py                 -> transfer-history planteles Zona B
+scripts/fetch_primera_b_metro_scouting.py -> goleadores Primera B Metro (destino real de descenso)
+scripts/fetch_federal_a_scouting.py       -> mismo extractor, aplicado por error a la liga equivocada
+scripts/fetch_transfermarkt_squad.py      -> valores de mercado de planteles (Chacarita + rivales)
+scripts/fetch_chacarita_historia.py       -> historial completo 2009-2026
+data/raw/ y data/processed/         -> todos los CSV generados esta noche
+Correr de nuevo cualquier script actualiza los números con los resultados más recientes -conviene repetir esto después de cada fecha.
+Chacarita: 8 Finales — panel de decisión generado la madrugada del 06 sep 2026, con datos en vivo. Ver también el informe de fuentes de datos (Chacarita Data Project) para el detalle de dónde sale cada dato.

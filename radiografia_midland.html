@@ -1,0 +1,528 @@
+<title>Radiografía: Midland</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root{
+    --bg:#F6F2EB; --surface:#FFFFFF; --surface-2:#EFE9DE;
+    --ink:#1C1712; --muted:#6E6357; --line:#DFD6C6;
+    --accent:#7C1626; --accent-soft:#F1DEDF;
+    --good:#3F7D4F; --good-soft:#E3EFE1;
+    --warn:#96650F; --warn-soft:#F3E7CE;
+    --bad:#AB3131; --bad-soft:#F4E0DD;
+    --info:#3B6C87; --info-soft:#DFEAEE;
+    --gold:#8A6A1F; --gold-soft:#F1E6C8;
+    --shadow: 0 1px 2px rgba(28,23,18,0.06), 0 8px 24px rgba(28,23,18,0.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#15110D; --surface:#1D1712; --surface-2:#251E17;
+      --ink:#EFE7DB; --muted:#AB9F8E; --line:#382E24;
+      --accent:#D2626F; --accent-soft:#3A2024;
+      --good:#7CBE8B; --good-soft:#20301F;
+      --warn:#E0B45C; --warn-soft:#3A2E14;
+      --bad:#E38686; --bad-soft:#3A2320;
+      --info:#8FC1D8; --info-soft:#1E2E33;
+      --gold:#D8B65C; --gold-soft:#3A2F14;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 30px rgba(0,0,0,0.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#15110D; --surface:#1D1712; --surface-2:#251E17;
+    --ink:#EFE7DB; --muted:#AB9F8E; --line:#382E24;
+    --accent:#D2626F; --accent-soft:#3A2024;
+    --good:#7CBE8B; --good-soft:#20301F;
+    --warn:#E0B45C; --warn-soft:#3A2E14;
+    --bad:#E38686; --bad-soft:#3A2320;
+    --info:#8FC1D8; --info-soft:#1E2E33;
+    --gold:#D8B65C; --gold-soft:#3A2F14;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 30px rgba(0,0,0,0.35);
+  }
+
+  *{box-sizing:border-box;}
+  body{ background:var(--bg); color:var(--ink); font-family:'Source Serif 4', Georgia, serif; font-size:16.5px; line-height:1.62; margin:0; }
+  ::selection{ background:var(--accent-soft); }
+  .wrap{ max-width:1000px; margin:0 auto; padding:0 24px 130px; }
+  h1,h2,h3,h4{ font-family:'Big Shoulders Display','Arial Narrow',sans-serif; text-transform:uppercase; letter-spacing:0.01em; text-wrap:balance; color:var(--ink); margin:0; }
+  .eyebrow{ font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--accent); font-weight:600; }
+  p{ margin:0 0 1em; max-width:72ch; }
+  .lede{ font-size:1.12rem; color:var(--muted); max-width:64ch; }
+  a{ color:var(--accent); }
+  strong{ color:var(--ink); }
+  code,.mono{ font-family:'IBM Plex Mono',monospace; }
+  .tabular{ font-variant-numeric:tabular-nums; }
+
+  header.masthead{ border-bottom:1px solid var(--line);
+    background: repeating-linear-gradient(90deg, var(--ink) 0 3px, transparent 3px 34px);
+    background-size:100% 6px; background-repeat:repeat-x; background-position:bottom; }
+  .masthead-inner{ max-width:1000px; margin:0 auto; padding:46px 24px 30px; }
+  .masthead h1{ font-size:clamp(2rem,5vw,3.4rem); font-weight:800; line-height:1.0; margin-top:12px; }
+  .masthead .lede{ margin-top:14px; }
+  .meta-row{ display:flex; flex-wrap:wrap; gap:10px 22px; margin-top:20px; font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em; }
+  .meta-row span b{ color:var(--ink); font-weight:600; }
+
+  nav.toc{ position:sticky; top:0; z-index:5; background:color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter:blur(6px); border-bottom:1px solid var(--line); }
+  nav.toc .toc-inner{ max-width:1000px; margin:0 auto; padding:10px 24px; display:flex; gap:16px; overflow-x:auto; font-family:'IBM Plex Mono',monospace; font-size:11.5px; letter-spacing:0.04em; text-transform:uppercase; white-space:nowrap; }
+  nav.toc a{ color:var(--muted); text-decoration:none; padding:4px 0; border-bottom:2px solid transparent; }
+  nav.toc a:hover{ color:var(--ink); }
+
+  section{ padding:52px 0 0; }
+  .section-head{ display:flex; align-items:baseline; gap:14px; margin-bottom:18px; }
+  .section-head h2{ font-size:1.9rem; font-weight:700; }
+  .section-kicker{ font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--accent); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:6px; display:block; }
+  .rule{ height:1px; background:var(--line); border:none; margin:52px 0 0; }
+
+  .stat-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); margin-top:22px; overflow:hidden; }
+  .stat-tile{ background:var(--surface); padding:18px 18px; }
+  .stat-tile .num{ font-family:'Big Shoulders Display',sans-serif; font-weight:800; font-size:2rem; color:var(--accent); line-height:1; }
+  .stat-tile.good .num{ color:var(--good); }
+  .stat-tile.bad .num{ color:var(--bad); }
+  .stat-tile .label{ margin-top:6px; font-size:0.87rem; color:var(--muted); font-family:'Source Serif 4',serif; max-width:none; }
+
+  .verdict{ margin-top:22px; padding:20px 22px; background:var(--surface); border:1px solid var(--line); border-left:4px solid var(--accent); box-shadow:var(--shadow); }
+  .verdict p:last-child{ margin-bottom:0; }
+
+  .badge{ display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.04em; text-transform:uppercase; font-weight:600; padding:3px 8px; border-radius:3px; white-space:nowrap; }
+  .badge.good{ background:var(--good-soft); color:var(--good); }
+  .badge.warn{ background:var(--warn-soft); color:var(--warn); }
+  .badge.bad{ background:var(--bad-soft); color:var(--bad); }
+  .badge.info{ background:var(--info-soft); color:var(--info); }
+  .badge.gold{ background:var(--gold-soft); color:var(--gold); }
+
+  .table-scroll{ overflow-x:auto; margin-top:18px; border:1px solid var(--line); }
+  table.dt{ border-collapse:collapse; width:100%; min-width:600px; background:var(--surface); }
+  table.dt.wide{ min-width:860px; }
+  table.dt caption{ text-align:left; padding:9px 14px; font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--muted); border-bottom:1px solid var(--line); }
+  table.dt th, table.dt td{ padding:9px 13px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top; font-size:0.87rem; }
+  table.dt thead th{ font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:0.05em; text-transform:uppercase; color:var(--muted); background:var(--surface-2); }
+  table.dt tbody tr:last-child td{ border-bottom:none; }
+  table.dt td.num, table.dt th.num{ text-align:right; font-variant-numeric:tabular-nums; }
+  table.dt td.pos{ color:var(--good); font-weight:600; } table.dt td.neg{ color:var(--bad); font-weight:600; }
+  table.dt td.small{ color:var(--muted); font-size:0.82rem; }
+  table.dt tr.highlight{ background:var(--accent-soft); }
+
+  .chart-wrap{ margin-top:24px; border:1px solid var(--line); background:var(--surface); padding:18px 20px 14px; }
+  .chart-title{ font-family:'IBM Plex Mono',monospace; font-size:11.5px; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted); margin-bottom:10px; }
+  .legend-inline{ display:flex; gap:18px; margin-top:8px; font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--muted); }
+  .legend-inline span{ display:inline-flex; align-items:center; gap:6px; }
+  .legend-inline i{ width:14px; height:2.5px; display:inline-block; border-radius:2px; }
+
+  .grid-2{ display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px; }
+  @media (max-width:680px){ .grid-2{ grid-template-columns:1fr; } }
+  .card{ padding:16px 18px; border:1px solid var(--line); background:var(--surface); }
+  .card h3{ font-size:1.02rem; font-weight:700; margin-bottom:8px; }
+  .card p{ color:var(--muted); font-size:0.9rem; margin-bottom:0; }
+
+  .callout{ margin-top:20px; padding:16px 18px; border:1px solid var(--line); background:var(--surface-2); }
+  .callout .eyebrow{ display:block; margin-bottom:8px; }
+  .callout.method{ border-left:4px solid var(--info); }
+  .callout.legal{ border-left:4px solid var(--warn); }
+  .callout.gold{ border-left:4px solid var(--gold); }
+
+  /* --- player cards --- */
+  .line-header{ display:flex; align-items:baseline; gap:12px; margin:34px 0 14px; padding-bottom:8px; border-bottom:2px solid var(--ink); }
+  .line-header h3{ font-size:1.3rem; font-weight:800; }
+  .line-header .count{ font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--muted); }
+  .player-grid{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  @media (max-width:760px){ .player-grid{ grid-template-columns:1fr; } }
+  .player-card{ border:1px solid var(--line); background:var(--surface); padding:16px 18px; position:relative; }
+  .player-card.starter{ border-left:3px solid var(--accent); }
+  .player-card .pname{ display:flex; align-items:baseline; justify-content:space-between; gap:8px; flex-wrap:wrap; }
+  .player-card .pname h4{ font-size:1.08rem; font-weight:700; text-transform:none; letter-spacing:0; font-family:'Source Serif 4',serif; color:var(--ink); }
+  .player-card .pnum{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--muted); }
+  .player-card .pmeta{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:0.03em; margin:4px 0 10px; }
+  .player-card p{ font-size:0.87rem; margin-bottom:8px; color:var(--ink); }
+  .player-card .ptag{ display:inline-block; margin-top:2px; }
+
+  .pitch{ margin-top:24px; border:1px solid var(--line); background:var(--good-soft); padding:20px; position:relative; aspect-ratio: 3.2/2; max-width:640px; }
+  :root:not([data-theme="light"]) .pitch, :root[data-theme="dark"] .pitch{ background:#1c2e1f; }
+  .pitch .pos-dot{ position:absolute; transform:translate(-50%,-50%); text-align:center; }
+  .pitch .pos-dot .dot{ width:34px; height:34px; border-radius:50%; background:var(--accent); color:#fff; display:flex; align-items:center; justify-content:center; font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:700; margin:0 auto; box-shadow:var(--shadow); }
+  .pitch .pos-dot .plabel{ font-family:'IBM Plex Mono',monospace; font-size:9.5px; color:#fff; margin-top:3px; white-space:nowrap; text-shadow:0 1px 2px rgba(0,0,0,0.5); }
+
+  footer{ margin-top:64px; padding:28px 0 10px; border-top:1px solid var(--line); color:var(--muted); font-size:0.83rem; }
+</style>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <span class="eyebrow">Prioridad absoluta · para Sergio Rondina y el cuerpo técnico</span>
+    <h1>Radiografía completa:<br>Ferrocarril Midland</h1>
+    <p class="lede">Todo lo que se pudo levantar sobre el rival de este sábado: perfil táctico completo con las 25 fechas ya jugadas, plantel jugador por jugador con trayectoria y estadísticas 2026, contexto institucional, y el dato que más pesa para este partido específico -Midland de local es un equipo completamente distinto al que se enfrentó en la ida-.</p>
+    <div class="meta-row">
+      <span>Partido: <b>Fecha 29 · sáb 12-sep · Cancha de Midland</b></span>
+      <span>DT rival: <b>Joaquín Iturrería</b></span>
+      <span>Fuentes: <b>Sofascore (25 partidos), Transfermarkt, prensa especializada de ascenso</b></span>
+    </div>
+  </div>
+</header>
+
+<nav class="toc">
+  <div class="toc-inner">
+    <a href="#resumen">Resumen</a>
+    <a href="#tactico">Perfil táctico</a>
+    <a href="#local">De local</a>
+    <a href="#estilo">Estilo de juego</a>
+    <a href="#goleadores">Goleadores</a>
+    <a href="#setpieces">Pelota parada</a>
+    <a href="#plantel">Plantel completo</a>
+    <a href="#formacion">Once probable</a>
+    <a href="#debilidades">Puntos débiles</a>
+    <a href="#metodologia">Metodología</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="resumen">
+    <div class="section-head"><h2>Lo esencial, antes de entrar en detalle</h2></div>
+    <div class="verdict">
+      <p><strong>El dato que cambia la lectura de todo este partido:</strong> Midland de local promedia <strong>2,08 puntos por partido</strong> (17 de 24 disputados en su cancha), con <strong>62% de vallas invictas</strong> y apenas 0,46 goles recibidos por partido. De visitante, en cambio, cae a 0,83 puntos por partido. El sábado juega en su cancha -Chacarita no va a enfrentar al Midland "promedio" de la tabla, sino a una de las mejores localías de toda la Primera Nacional.</p>
+    </div>
+    <div class="stat-grid">
+      <div class="stat-tile bad"><div class="num tabular">2,08</div><div class="label">puntos por partido de LOCAL (vs 0,83 de visitante) — 13 PJ, 8 clean sheets</div></div>
+      <div class="stat-tile"><div class="num tabular">5°</div><div class="label">posición general, 41 pts en 27 PJ — pelea el reducido de ascenso</div></div>
+      <div class="stat-tile good"><div class="num tabular">1-0</div><div class="label">resultado de la ida (gol de Barbieri) — pero ambos equipos estaban en posiciones de tabla muy distintas a las actuales (Chaca 13°, Midland 8°)</div></div>
+      <div class="stat-tile"><div class="num tabular">1ª vez</div><div class="label">en su historia en Primera Nacional — ascendió en 2026 tras ganar Apertura y Clausura de la B Metro invicto</div></div>
+      <div class="stat-tile bad"><div class="num tabular">-0,19 / -0,12</div><div class="label">tendencia de rating de Leguiza (arquero) y Recalde (líder defensivo) — los dos vienen en baja a la vez</div></div>
+      <div class="stat-tile bad"><div class="num tabular">2 seguidas</div><div class="label">derrotas de visitante consecutivas: 0-3 vs Colegiales (2-sep) y 2-3 vs San Martín SJ (6-sep, hoy) — en ambas, más de la mitad de los goles en contra fueron por pelota parada/segunda jugada, no de jugada corrida (ver "Perfil táctico")</div></div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="institucional" class="tight">
+    <div class="kv-inline" style="font-size:13px;">
+      <span>DT: <b>Joaquín Iturrería</b> (desde dic-2024)</span>
+      <span>Cancha: <b>Ciudad de Libertad, Merlo</b> — césped natural</span>
+      <span>Sin presión de descenso — pelea el reducido</span>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="tactico">
+    <span class="section-kicker">25 partidos de datos reales, no proyecciones</span>
+    <div class="section-head"><h2>Perfil táctico de la temporada completa</h2></div>
+    <p>Ataque de volumen alto: <strong>13,7 tiros por partido, el más alto de los ocho rivales que le quedan a Chacarita</strong>, con buena definición (5,1 al arco). Particularidad marcada: casi la mitad de esos remates son desde afuera del área (7,3 de 13,7) — un equipo que dispara mucho de media distancia. Circula con más posesión que el promedio de zona (52% vs 50%) y presiona más por posicionamiento que por contacto directo: hace pocas entradas (3,2/partido, bajo) pero intercepta mucho (16,8/partido, alto) — lee líneas de pase en vez de ir al choque.</p>
+    <div class="chart-wrap">
+      <div class="chart-title">Tendencia de xG a favor / en contra — media móvil de 5 partidos, orden cronológico real</div>
+      <div><svg viewBox="0 0 860 220" width="100%" style="overflow:visible; font-family:IBM Plex Mono,monospace;">
+<line x1="36" y1="16" x2="36" y2="190" stroke="var(--line)" stroke-width="1"/>
+<line x1="36" y1="190" x2="844" y2="190" stroke="var(--line)" stroke-width="1"/>
+<polyline points="36.0,145.8 69.7,112.7 103.3,80.9 137.0,89.5 170.7,84.2 204.3,66.2 238.0,68.5 271.7,87.3 305.3,94.4 339.0,99.4 372.7,102.7 406.3,95.4 440.0,62.0 473.7,43.7 507.3,61.2 541.0,67.1 574.7,72.9 608.3,75.8 642.0,75.8 675.7,62.7 709.3,46.8 743.0,51.8 776.7,71.9 810.3,64.6 844.0,71.0" fill="none" stroke="var(--good)" stroke-width="2.5"/>
+<polyline points="36.0,62.3 69.7,124.3 103.3,144.2 137.0,145.8 170.7,141.4 204.3,159.7 238.0,142.0 271.7,124.0 305.3,120.9 339.0,118.8 372.7,115.1 406.3,104.8 440.0,115.9 473.7,116.1 507.3,82.1 541.0,79.2 574.7,83.8 608.3,68.7 642.0,65.4 675.7,107.1 709.3,97.9 743.0,109.8 776.7,92.3 810.3,78.3 844.0,31.8" fill="none" stroke="var(--bad)" stroke-width="2.5"/>
+<circle cx="305.3" cy="120.9" r="4" fill="var(--ink)"/>
+<text x="305.3" y="206" font-size="9" fill="var(--muted)" text-anchor="middle">vs Chaca (ida)</text>
+<circle cx="844.0" cy="71.0" r="4" fill="var(--good)"/>
+<circle cx="844.0" cy="31.8" r="4" fill="var(--bad)"/>
+<text x="40" y="26" font-size="9" fill="var(--muted)">1.8 xG</text>
+<text x="40" y="186" font-size="9" fill="var(--muted)">0</text>
+</svg></div>
+      <div class="legend-inline">
+        <span><i style="background:var(--good)"></i>xG a favor</span>
+        <span><i style="background:var(--bad)"></i>xG en contra</span>
+        <span>● negro = partido de ida vs Chacarita</span>
+      </div>
+    </div>
+    <div class="verdict">
+      <span class="eyebrow">Anomalía confirmada: la derrota 0-3 en detalle, con evidencia dura + crónica</span>
+      <p style="max-width:none; margin-top:8px;"><strong>Midland tuvo 65% de posesión, 399 pases (286 precisos) y aun así perdió 0-3, con Colegiales generando 2,82 xG contra apenas 0,50 de Midland.</strong> No fue mala suerte: perdió el 59% de los duelos de suelo (43/106, 41% de efectividad) y perdió la pelota 13 veces (Colegiales solo 4) — la posesión fue estéril, sin traducirse en peligro real.</p>
+      <div class="table-scroll" style="margin-top:10px;">
+        <table class="dt">
+          <thead><tr><th>Gol</th><th>Minuto</th><th>Mecanismo</th></tr></thead>
+          <tbody>
+            <tr><td>1-0 Castillo</td><td class="num">27'</td><td><strong>Contraataque por la derecha</strong>, centro que cruza el área, define al segundo palo</td></tr>
+            <tr class="highlight"><td>2-0 Albertengo</td><td class="num">43'</td><td><strong>Pelotazo en profundidad</strong> — le gana la espalda a un defensor y define mano a mano con el arquero</td></tr>
+            <tr><td>3-0 Monserrat</td><td class="num">90'</td><td>Sella el resultado, partido ya resuelto</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="max-width:none; margin-top:10px;"><strong>Patrón sistemático que se repite en los números de toda la temporada</strong> (ver "Estilo de juego" abajo): pocas entradas directas (3,2/partido, de las más bajas de sus rivales) — presiona por posicionamiento, no por contacto. Cuando lo superan en velocidad o en el primer control, no tiene una segunda línea de recuperación fuerte. Este partido es el caso extremo de esa debilidad: <strong>vulnerable a la transición rápida y al pelotazo por detrás de la línea defensiva</strong>, incluso dominando la posesión.</p>
+    </div>
+
+    <div class="verdict">
+      <span class="eyebrow">Segunda derrota consecutiva: 2-3 vs San Martín de San Juan (HOY, 06-sep, de visitante)</span>
+      <p style="max-width:none; margin-top:8px;"><strong>Confirmado cruzando tres fuentes independientes</strong> (Sofascore vía sitio principal, Promiedos, crónicas de prensa de San Juan): Midland perdió 3-2 en Concepción, en la fecha 28. Estadística de equipo (Promiedos): <strong>Midland tiró menos (11 vs 14) pero con mucha más puntería (7 remates al arco vs 3 de San Martín)</strong> — perdió con más definición que su rival, no por falta de generación. Concedió más córners (8 vs 4) y jugó con 45% de posesión.</p>
+      <div class="table-scroll" style="margin-top:10px;">
+        <table class="dt">
+          <thead><tr><th>Marcador</th><th>Minuto</th><th>Equipo</th><th>Goleador</th><th>Zona / tipo de remate (según crónica)</th></tr></thead>
+          <tbody>
+            <tr><td>1-0</td><td class="num">12'</td><td>San Martín</td><td>S. González</td><td><strong>Cabezazo</strong>, tras centro de F. Murillo (asistencia confirmada por Sofascore)</td></tr>
+            <tr class="highlight"><td>1-1</td><td class="num">52'</td><td><strong>Midland</strong></td><td>M. Flores</td><td>Remate dentro del área tras jugada colectiva (la crónica no precisa pie ni banda exacta)</td></tr>
+            <tr class="highlight"><td>1-2</td><td class="num">77'</td><td><strong>Midland</strong></td><td>M. Roseti</td><td><strong>Media/larga distancia, al ángulo</strong> ("zapatazo", fuera del área) — asistencia de M. Flores</td></tr>
+            <tr><td>2-2</td><td class="num">86'</td><td>San Martín</td><td>L. Ferreyra</td><td><strong>Penal</strong> (punto fijo, 11m)</td></tr>
+            <tr><td>3-2</td><td class="num">90'+1</td><td>San Martín</td><td>D. Álvarez</td><td><strong>Zurdazo dentro del área</strong>, sobre rebote de un lateral (segunda jugada, no de jugada corrida)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="max-width:none; margin-top:10px;"><strong>Los 2 goles que hizo Midland fueron de jugada abierta, ninguno de cabeza ni de pelota parada propia</strong> (1 remate de área, 1 de media distancia al ángulo). <strong>De los 3 goles que recibió: 1 aéreo por centro, 1 penal, 1 sobre segunda jugada/rebote dentro del área</strong> — ningún gol en contra fue de jugada colectiva corrida de principio a fin; los tres partieron de una acción a balón parado o detenida (córner/lateral/centro) o de un error puntual (penal). Coincide con el patrón ya señalado en el 0-3 vs Colegiales: <strong>Midland concede más por transición/segunda jugada que por ser superado en el juego abierto</strong>.</p>
+      <p style="max-width:none; margin-top:10px; font-size:0.85rem; color:var(--muted);"><strong>Límite honesto del dato:</strong> la API de Sofascore (shotmap con coordenadas x/y, distancia exacta en metros, parte del cuerpo) sigue bloqueada incluso para este partido puntual (probado en vivo, 403) — lo de arriba es lo máximo verificable hoy sin fabricar precisión falsa. Si la API se desbloquea, este cuadro se puede completar con distancia exacta y mapa de tiros real.</p>
+    </div>
+
+    <div class="callout method">
+      <span class="eyebrow">Lo que dice el gráfico -y un matiz importante-</span>
+      <p style="max-width:none;">La fase defensiva viene empeorando en el tramo más reciente de la temporada -el xG en contra en media móvil termina en 1,65, el punto más alto de todo el año-, y ahora hay <strong>dos derrotas de visitante seguidas</strong>: 0-3 vs Colegiales (2-sep) y 2-3 vs San Martín de San Juan (6-sep, hoy). <strong>El matiz importante: ambas caídas fueron jugando de visitante -su peor faceta-, no contradicen el patrón de localía fuerte, lo confirman.</strong> De hecho, en su último partido de local (29-ago) le había ganado 2-0 a Nueva Chicago sin sufrir. Llega a este partido golpeado por dos resultados negativos seguidos, pero jugando exactamente en la condición donde raramente pierde.</p>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="local">
+    <span class="section-kicker">El apartado más importante de todo el informe</span>
+    <div class="section-head"><h2>Midland de local: otro equipo</h2></div>
+    <p>13 partidos de local jugados esta temporada. El resumen: <strong>7 victorias, 4 empates, apenas 2 derrotas</strong>. Solo perdió con San Martín de San Juan (9° en la tabla, el resultado más "anómalo" de su localía) y con Atlanta (4°, rival de nivel alto). <strong>Contra absolutamente todos los rivales de la mitad inferior de la tabla que enfrentó de local, no perdió</strong> -exactamente el perfil de rival que es Chacarita hoy-.</p>
+    <div class="table-scroll">
+      <table class="dt wide">
+        <caption>los 13 partidos de local, ordenados por posición del rival en la tabla actual</caption>
+        <thead><tr><th>Rival</th><th class="num">Posición hoy</th><th>Resultado</th><th class="num">GF</th><th class="num">GC</th></tr></thead>
+        <tbody>
+          <tr><td>Temperley</td><td class="num">2°</td><td>Empate</td><td class="num">0</td><td class="num">0</td></tr>
+          <tr><td>Gimnasia Y Esgrima de Jujuy</td><td class="num">3°</td><td>Empate</td><td class="num">1</td><td class="num">1</td></tr>
+          <tr><td>Atlanta</td><td class="num">4°</td><td class="neg">Derrota</td><td class="num">1</td><td class="num">2</td></tr>
+          <tr><td>Deportivo Maipú</td><td class="num">8°</td><td class="pos">Victoria</td><td class="num">2</td><td class="num">0</td></tr>
+          <tr><td>San Martín de San Juan</td><td class="num">9°</td><td class="neg">Derrota</td><td class="num">0</td><td class="num">1</td></tr>
+          <tr><td>Colegiales</td><td class="num">10°</td><td class="pos">Victoria</td><td class="num">2</td><td class="num">0</td></tr>
+          <tr><td>San Martín de Tucumán</td><td class="num">11°</td><td class="pos">Victoria</td><td class="num">2</td><td class="num">0</td></tr>
+          <tr><td>Almagro</td><td class="num">12°</td><td>Empate</td><td class="num">1</td><td class="num">1</td></tr>
+          <tr class="highlight"><td>Quilmes</td><td class="num">13°</td><td class="pos">Victoria</td><td class="num">1</td><td class="num">0</td></tr>
+          <tr><td>Agropecuario Argentino</td><td class="num">14°</td><td class="pos">Victoria</td><td class="num">2</td><td class="num">0</td></tr>
+          <tr><td>Nueva Chicago</td><td class="num">15°</td><td class="pos">Victoria</td><td class="num">2</td><td class="num">0</td></tr>
+          <tr><td>Patronato</td><td class="num">16°</td><td class="pos">Victoria</td><td class="num">1</td><td class="num">0</td></tr>
+          <tr class="highlight"><td>Güemes</td><td class="num">18°</td><td class="pos">Victoria</td><td class="num">2</td><td class="num">1</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="stat-grid" style="margin-top:20px;">
+      <div class="stat-tile bad"><div class="num tabular">62%</div><div class="label">clean sheets de local (8 de 13 partidos sin recibir gol)</div></div>
+      <div class="stat-tile"><div class="num tabular">1,29</div><div class="label">xG a favor de local (vs 1,09 de visitante)</div></div>
+      <div class="stat-tile bad"><div class="num tabular">0,76</div><div class="label">xG en contra de local (vs 1,21 de visitante) — su mejor versión defensiva</div></div>
+      <div class="stat-tile"><div class="num tabular">2,15</div><div class="label">córners concedidos por partido de local (vs 4,42 de visitante) — la mitad</div></div>
+    </div>
+    <div class="callout legal">
+      <span class="eyebrow">Para tener muy presente</span>
+      <p style="max-width:none;">Chacarita, de visitante, promedia apenas <strong>0,46 puntos por partido</strong> en toda la temporada (ver <a href="https://claude.ai/code/artifact/68edfd27-634d-44ff-9632-b2c0cbefd71d" target="_blank" rel="noopener">Chacarita: 8 Finales</a>). Cruzar la peor faceta de Chacarita (visitante) contra la mejor faceta de Midland (local) es, en los números, la combinación más adversa de las ocho fechas que quedan -más incluso que el partido con Temperley, aunque ese rival sea de mayor nivel general-.</p>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="estilo">
+    <div class="section-head"><h2>Estilo de juego en detalle</h2></div>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Construcción y circulación</h3>
+        <p>Posesión por encima del promedio (52%, sube a 55,8% de local). Buen acierto en pases largos que sube de local (48,9% vs 45,8% de la temporada completa) — de local juegan más directo, buscan la profundidad rápido. Buen porcentaje de regates (63,4%).</p>
+      </div>
+      <div class="card">
+        <h3>Ataque</h3>
+        <p>Mucho volumen de disparo (13,7/partido) con alta proporción desde fuera del área (53% de los tiros). Centros con buen acierto (33% vs 30,7% de zona) pero volumen bajo (13,5 intentos, menos que el promedio) — no es un equipo que bombardee el área, ataca más por el juego interior y la llegada de mediocampistas.</p>
+      </div>
+      <div class="card">
+        <h3>Presión y recuperación</h3>
+        <p>Pocas entradas directas (3,2/partido, de las más bajas de sus próximos rivales de Chacarita) pero muchas intercepciones (16,8/partido, de las más altas) — equipo que se posiciona para cortar circulación antes que ir al choque. Puede ser vulnerable al 1v1 encarado si se lo supera la primera línea de presión.</p>
+      </div>
+      <div class="card">
+        <h3>Duelos y físico</h3>
+        <p>50-50 en el juego aéreo (48,2%, ni fuerte ni débil marcadamente). Disciplina normal (11,6 faltas/partido, 2,24 amarillas/partido) — no es un equipo que se destaque por la dureza.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="goleadores">
+    <span class="section-kicker">Reconstruido partido por partido, vía crónicas de prensa</span>
+    <div class="section-head"><h2>Quién convierte -y un hallazgo importante-</h2></div>
+    <div class="verdict">
+      <p><strong>Se reconstruyeron los goleadores de la mayoría de los 25 partidos rastreando crónica por crónica, y se confirmaron las bajas exactas cruzando contra el historial de transferencias real de Sofascore (extraído del sitio, no de la API bloqueada). El hallazgo central: el goleador líder de Midland en toda la temporada, Maximiliano Rogoski (referente del club, más de 100 partidos en su historia), <strong>se fue el 1° de julio de 2026 -a Nueva Chicago, uno de los propios rivales de Chacarita (fecha 36)-</strong>. También se confirmaron las salidas de Agustín Campana (30-jun, a Macará de Ecuador), Juan Cruz Vega (29-jun, de vuelta a Argentino de Rosario) y Valentín Gargiulo (30-jun, a Villa Dálmine).</strong></p>
+    </div>
+    <div class="table-scroll">
+      <table class="dt">
+        <caption>goleadores identificados en crónicas -no es la lista completa de la temporada, es lo que se pudo reconstruir manualmente-</caption>
+        <thead><tr><th>Jugador</th><th class="num">Goles identificados</th><th>¿Sigue en el plantel hoy?</th></tr></thead>
+        <tbody>
+          <tr class="highlight"><td>Maximiliano Rogoski</td><td class="num">3-4</td><td><span class="badge bad">Se fue 1-jul → Nueva Chicago</span></td></tr>
+          <tr><td>Ezequiel Bulacio</td><td class="num">3</td><td><span class="badge good">Sí</span></td></tr>
+          <tr><td>Jeremías Perales</td><td class="num">2-3</td><td><span class="badge good">Sí</span></td></tr>
+          <tr><td>Marcos Roseti</td><td class="num">2</td><td><span class="badge good">Sí</span></td></tr>
+          <tr class="highlight"><td>Agustín Campana</td><td class="num">2</td><td><span class="badge bad">Se fue 30-jun → Macará (ECU)</span></td></tr>
+          <tr class="highlight"><td>Juan Cruz Vega</td><td class="num">1-2</td><td><span class="badge bad">Se fue 29-jun → Argentino Rosario</span></td></tr>
+          <tr><td>Matías Flores</td><td class="num">1</td><td><span class="badge good">Sí</span></td></tr>
+          <tr><td>Lautaro Díaz Laharque</td><td class="num">1</td><td><span class="badge good">Sí</span></td></tr>
+          <tr><td>Jesús Camaño</td><td class="num">1</td><td><span class="badge good">Sí</span></td></tr>
+          <tr><td>Ramiro Luna</td><td class="num">1</td><td><span class="badge good">Sí</span></td></tr>
+          <tr><td>Rodrigo Cao</td><td class="num">1</td><td><span class="badge good">Sí</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:14px; font-size:0.9rem; color:var(--muted);">Juan Cruz Vega merece nota aparte: llegó siendo <strong>goleador de jerarquía en Argentino de Rosario (15 goles, clave en su ascenso)</strong> -exactamente el tipo de fichaje "de categoría inferior que rinde" que Chacarita busca (ver el informe de scouting)-, pero según una fuente lideraba la tabla de Midland con apenas 1 gol antes de irse: la categoría superior le costó más de lo esperado.</p>
+    <p style="font-size:0.9rem; color:var(--muted);"><strong>Dato para guardar de cara a la fecha 36:</strong> Rogoski, el ex-goleador de Midland, hoy juega para <strong>Nueva Chicago</strong> -el rival del cierre de temporada de Chacarita-. Vale la pena revisar su situación en ese momento del año en <a href="https://claude.ai/code/artifact/383cc600-f04e-4b71-b5db-180709a17a3f" target="_blank" rel="noopener">Central de Rivales</a>.</p>
+    <div class="callout legal" style="margin-top:16px;">
+      <span class="eyebrow">Por qué esto importa para el sábado</span>
+      <p style="max-width:none;">Con Rogoski, Campana y Vega afuera, el ataque actual de Midland está más repartido y con menos jerarquía comprobada que a mitad de año: descansa en Bulacio (bueno pero suplente habitual, 4 titularidades en 19 PJ), Perales (más minutos pero menos gol) y Roseti (irregular). Es una versión ofensivamente más débil e impredecible que la que asoma en el promedio de toda la temporada -otro motivo más para no descartar este partido, más allá de la fortaleza local general de Midland-.</p>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="setpieces">
+    <div class="section-head"><h2>Pelota parada</h2></div>
+    <p>Genera 4,36 córners por partido (algo por encima del promedio de zona) y en su cancha, defiende excepcionalmente bien los córners rivales (2,15 concedidos por partido, la mitad que de visitante). <strong>Confirmado por crónica de partido: el primer gol de Bulacio en la victoria 2-0 sobre Deportivo Maipú fue de cabeza, a los 6' de un córner</strong> -Midland sí remata de pelota parada con gente de área, no es solo volumen de córners sin conversión-. Recalde (1,84m) y Bulacio son los referentes de área más probables tanto atacando como defendiendo córners propios.</p>
+  </section>
+
+  <hr class="rule">
+
+  <section id="plantel">
+    <span class="section-kicker">Ahora con rating real partido a partido -no solo texto-</span>
+    <div class="section-head"><h2>El plantel, jugador por jugador</h2></div>
+    <div class="verdict">
+      <p><strong>Actualización clave:</strong> Sofascore sigue bloqueando su API, pero el sitio principal (sofascore.com) renderiza en el HTML el <strong>rating de Sofascore de cada partido de cada jugador</strong> -sin pasar por la API-. Se extrajo esto para los 16 jugadores con rodaje real en la Primera Nacional 2026 (371 partidos individuales en total). Es la estadística más cercana a "forma real, con número" que se puede conseguir hoy sin la API completa -no reemplaza duelos/pases/tackles por jugador (eso sigue sin estar disponible), pero da una base objetiva de rendimiento que antes no existía en este informe.</p>
+    </div>
+    <div class="table-scroll">
+      <table class="dt wide">
+        <caption>rating Sofascore por jugador · Primera Nacional 2026 · ordenado por rating promedio</caption>
+        <thead><tr><th>Jugador</th><th class="num">PJ</th><th class="num">Rating temporada</th><th class="num">Rating últimos 5</th><th class="num">Tendencia</th></tr></thead>
+        <tbody>
+          <tr><td>Marcos Roseti</td><td class="num">25</td><td class="num">7,50</td><td class="num">7,38</td><td class="num neg">-0,12</td></tr>
+          <tr class="highlight"><td>Genaro Cepeda</td><td class="num">23</td><td class="num">7,17</td><td class="num">7,50</td><td class="num pos">+0,33</td></tr>
+          <tr><td>Luciano Recalde</td><td class="num">19</td><td class="num">7,10</td><td class="num">6,98</td><td class="num neg">-0,12</td></tr>
+          <tr><td>Mauro Leguiza</td><td class="num">28</td><td class="num">7,09</td><td class="num">6,90</td><td class="num neg">-0,19</td></tr>
+          <tr class="highlight"><td>Lautaro Díaz Laharque</td><td class="num">25</td><td class="num">6,99</td><td class="num">7,36</td><td class="num pos">+0,37</td></tr>
+          <tr><td>Ramiro Luna</td><td class="num">17</td><td class="num">6,94</td><td class="num">7,18</td><td class="num pos">+0,24</td></tr>
+          <tr><td>Ezequiel Bulacio</td><td class="num">22</td><td class="num">6,88</td><td class="num">7,10</td><td class="num pos">+0,22</td></tr>
+          <tr><td>Pablo Casarico</td><td class="num">24</td><td class="num">6,88</td><td class="num">6,96</td><td class="num pos">+0,08</td></tr>
+          <tr><td>Nicolás Violini</td><td class="num">25</td><td class="num">6,85</td><td class="num">6,92</td><td class="num pos">+0,07</td></tr>
+          <tr><td>Jesús Camaño</td><td class="num">22</td><td class="num">6,83</td><td class="num">6,78</td><td class="num neg">-0,05</td></tr>
+          <tr><td>Facundo Marín</td><td class="num">8</td><td class="num">6,78</td><td class="num">6,76</td><td class="num">-0,01</td></tr>
+          <tr><td>Pedro Castorani</td><td class="num">10</td><td class="num">6,74</td><td class="num">7,00</td><td class="num pos">+0,26</td></tr>
+          <tr><td>Jeremías Perales</td><td class="num">27</td><td class="num">6,72</td><td class="num">6,58</td><td class="num neg">-0,14</td></tr>
+          <tr><td>Matías Flores</td><td class="num">18</td><td class="num">6,69</td><td class="num">6,66</td><td class="num">-0,03</td></tr>
+          <tr><td>Mariano Penepil</td><td class="num">18</td><td class="num">6,61</td><td class="num">6,52</td><td class="num neg">-0,09</td></tr>
+          <tr class="highlight"><td>Rodrigo Cao</td><td class="num">20</td><td class="num">6,57</td><td class="num">6,54</td><td class="num">-0,03</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="grid-2" style="margin-top:16px;">
+      <div class="card" style="border-left:3px solid var(--good);">
+        <h3>En ascenso -atención especial</h3>
+        <p><strong>Díaz Laharque (+0,37) y Cepeda (+0,33)</strong> tienen la mejor tendencia de todo el plantel: llegan a este partido en su mejor momento individual del año, más allá de que Cepeda recién esté en su primera temporada en la categoría.</p>
+      </div>
+      <div class="card" style="border-left:3px solid var(--bad);">
+        <h3>En baja -oportunidad</h3>
+        <p><strong>Leguiza (-0,19), el arquero titular, viene en caída</strong>, igual que Perales (-0,14) y Recalde (-0,12) -el propio referente defensivo-. Que el arquero y el líder de la defensa vengan ambos en baja de rating es una señal a explotar con juego directo al área.</p>
+      </div>
+    </div>
+    <p style="margin-top:14px; font-size:0.85rem; color:var(--muted);">"Rating últimos 5" es la media móvil de los 5 partidos más recientes de cada jugador en la Primera Nacional 2026 (no incluye Liga Profesional ni Federal A de temporadas anteriores). "Tendencia" = rating últimos 5 menos rating de toda la temporada.</p>
+
+    <p style="margin-top:26px; font-size:0.9rem; color:var(--muted);">Solo jugadores con rodaje real (rating registrado en Primera Nacional 2026). Los marcados en el <a href="#formacion">once probable</a> tienen ⭐.</p>
+
+    <div class="table-scroll">
+      <table class="dt wide">
+        <caption>plantel con datos duros — sin relleno de trayectoria</caption>
+        <thead><tr><th>Jugador</th><th>Línea</th><th class="num">Edad</th><th class="num">Valor</th><th class="num">PJ</th><th class="num">Rating</th><th class="num">Últ. 5</th><th class="num">Tend.</th><th>Nota</th></tr></thead>
+        <tbody>
+          <tr class="highlight"><td>⭐ Leguiza</td><td>GK</td><td class="num">33</td><td class="num">€75k</td><td class="num">28</td><td class="num">7,09</td><td class="num">6,90</td><td class="num neg">-0,19</td><td class="small">3 penales atajados en Copa Arg. (ene-26)</td></tr>
+          <tr><td>Escobar</td><td>GK</td><td class="num">24</td><td class="num">-</td><td class="num">-</td><td class="num">-</td><td class="num">-</td><td class="num">-</td><td class="small">Suplente, sin rodaje</td></tr>
+          <tr><td>Recalde</td><td>DC</td><td class="num">29</td><td class="num">€275k</td><td class="num">19</td><td class="num">7,10</td><td class="num">6,98</td><td class="num neg">-0,12</td><td class="small">1,84m — referencia aérea propia y rival</td></tr>
+          <tr class="highlight"><td>Cepeda</td><td>DC</td><td class="num">25</td><td class="num">€150k</td><td class="num">23</td><td class="num">7,17</td><td class="num">7,50</td><td class="num pos">+0,33</td><td class="small">1° año en la categoría, en ascenso</td></tr>
+          <tr><td>Casarico</td><td>DC</td><td class="num">25</td><td class="num">€150k</td><td class="num">24</td><td class="num">6,88</td><td class="num">6,96</td><td class="num pos">+0,08</td><td class="small">Zurdo</td></tr>
+          <tr><td>Castorani</td><td>DC</td><td class="num">23</td><td class="num">-</td><td class="num">10</td><td class="num">6,74</td><td class="num">7,00</td><td class="num pos">+0,26</td><td class="small">8 PJ, las 8 de suplente</td></tr>
+          <tr class="highlight"><td>Penepil</td><td>LI</td><td class="num">22</td><td class="num">€25k</td><td class="num">18</td><td class="num">6,61</td><td class="num">6,52</td><td class="num neg">-0,09</td><td class="small">Rating más bajo de la defensa. Zurdo</td></tr>
+          <tr><td>Díaz Laharque</td><td>LD</td><td class="num">30</td><td class="num">€100k</td><td class="num">25</td><td class="num">6,99</td><td class="num">7,36</td><td class="num pos">+0,37</td><td class="small">Mejor tendencia de todo el plantel</td></tr>
+          <tr><td>Porro / Andrada / Muia / Canalda</td><td>Def.</td><td class="num">-</td><td class="num">-</td><td class="num">-</td><td class="num">-</td><td class="num">-</td><td class="num">-</td><td class="small">Rotación, sin rodaje real</td></tr>
+          <tr class="highlight"><td>Violini</td><td>MC</td><td class="num">25</td><td class="num">€100k</td><td class="num">25</td><td class="num">6,85</td><td class="num">6,92</td><td class="num pos">+0,07</td><td class="small">Desv. estándar más baja del plantel (0,33) — el más regular</td></tr>
+          <tr class="highlight"><td>Aguilar</td><td>MC</td><td class="num">22</td><td class="num">€10k</td><td class="num">-</td><td class="num">-</td><td class="num">-</td><td class="num">-</td><td class="small">Sin rating registrado aún</td></tr>
+          <tr><td>Roseti</td><td>MC</td><td class="num">28</td><td class="num">€225k</td><td class="num">25</td><td class="num">7,50</td><td class="num">7,38</td><td class="num neg">-0,12</td><td class="small">Rating más alto del plantel. Gol vs N. Chicago (29-ago)</td></tr>
+          <tr><td>Luna</td><td>MC</td><td class="num">30</td><td class="num">€175k</td><td class="num">17</td><td class="num">6,94</td><td class="num">7,18</td><td class="num pos">+0,24</td><td class="small">Gol vs N. Chicago (29-ago)</td></tr>
+          <tr><td>Camaño</td><td>MC</td><td class="num">24</td><td class="num">€50k</td><td class="num">22</td><td class="num">6,83</td><td class="num">6,78</td><td class="num neg">-0,05</td><td class="small">Rotura de LCR previa (Quilmes)</td></tr>
+          <tr class="highlight"><td>Flores</td><td>MC/EN</td><td class="num">25</td><td class="num">€75k</td><td class="num">18</td><td class="num">6,69</td><td class="num">6,66</td><td class="num">-0,03</td><td class="small">Gol vs Quilmes (fecha 20)</td></tr>
+          <tr class="highlight"><td>Bulacio</td><td>DC</td><td class="num">24</td><td class="num">€75k</td><td class="num">22</td><td class="num">6,88</td><td class="num">7,10</td><td class="num pos">+0,22</td><td class="small">Doblete vs Maipú (1 de cabeza en córner). 4 titularidades/19 PJ</td></tr>
+          <tr><td>Perales</td><td>DC</td><td class="num">25</td><td class="num">€75k</td><td class="num">27</td><td class="num">6,72</td><td class="num">6,58</td><td class="num neg">-0,14</td><td class="small">17 titular/24 PJ, más minutos que Bulacio pero baja</td></tr>
+          <tr class="highlight"><td>Marín</td><td>EX</td><td class="num">25</td><td class="num">€25k</td><td class="num">8</td><td class="num">6,78</td><td class="num">6,76</td><td class="num">-0,01</td><td class="small">Llegó jun-2026, sin gol/asist. aún</td></tr>
+          <tr><td>Cao</td><td>DC</td><td class="num">25</td><td class="num">€50k</td><td class="num">20</td><td class="num">6,57</td><td class="num">6,54</td><td class="num">-0,03</td><td class="small">Rating más bajo con muestra real</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+  <hr class="rule">
+
+  <section id="formacion">
+    <div class="section-head"><h2>Once probable</h2></div>
+    <p>Según la formación probable más reciente identificada en fuentes de prensa (a confirmar el día del partido, siempre sujeta a lesiones/suspensiones de último momento): un esquema de base 4-3-3 / 4-1-2-3 con salida jugada y llegada de volantes al área.</p>
+    <div class="pitch">
+      <div class="pos-dot" style="left:50%; top:92%;"><div class="dot">GK</div><div class="plabel">Leguiza</div></div>
+      <div class="pos-dot" style="left:15%; top:72%;"><div class="dot">LI</div><div class="plabel">Penepil</div></div>
+      <div class="pos-dot" style="left:38%; top:76%;"><div class="dot">DC</div><div class="plabel">Recalde</div></div>
+      <div class="pos-dot" style="left:62%; top:76%;"><div class="dot">DC</div><div class="plabel">Cepeda</div></div>
+      <div class="pos-dot" style="left:85%; top:72%;"><div class="dot">LD</div><div class="plabel">Díaz Laharque</div></div>
+      <div class="pos-dot" style="left:30%; top:50%;"><div class="dot">MC</div><div class="plabel">Aguilar</div></div>
+      <div class="pos-dot" style="left:50%; top:46%;"><div class="dot">MC</div><div class="plabel">Violini</div></div>
+      <div class="pos-dot" style="left:70%; top:50%;"><div class="dot">MC</div><div class="plabel">Roseti</div></div>
+      <div class="pos-dot" style="left:20%; top:20%;"><div class="dot">EI</div><div class="plabel">Marín</div></div>
+      <div class="pos-dot" style="left:50%; top:14%;"><div class="dot">DC</div><div class="plabel">Bulacio</div></div>
+      <div class="pos-dot" style="left:78%; top:20%;"><div class="dot">EO</div><div class="plabel">Flores</div></div>
+    </div>
+    <div class="callout method">
+      <span class="eyebrow">Ajuste sobre la formación probable original</span>
+      <p style="max-width:none;">La fuente de la formación probable puso a Castorani de lateral derecho, pero sus propios números lo desmienten: <strong>8 partidos, los 8 de suplente, y el rating más bajo de los defensores (6,74)</strong>. Se reemplazó en el diagrama por Díaz Laharque -campeón del ascenso 2025, con gol reciente ante Patronato y la <strong>mejor tendencia de rating de todo el plantel (+0,37)</strong>-, el candidato con mucho más respaldo real. La duda del "9" ahora tiene sustento estadístico: <strong>Perales viene en baja (-0,14) justo cuando Bulacio viene en alza (+0,22)</strong> -el dato de rating apoya la hipótesis de que Iturrería elija a Bulacio pese a que Perales tiene más minutos históricos-. Recomendación: confirmar el 11 real con la previa de la semana del partido, no dar esto por definitivo.</p>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="debilidades">
+    <div class="section-head"><h2>Sintesis: puntos débiles a explotar</h2></div>
+    <div class="grid-2">
+      <div class="card" style="border-left:3px solid var(--good);">
+        <h3>1. Fase defensiva reciente en baja</h3>
+        <p>El xG en contra en media móvil de 5 partidos está en su punto más alto del año (1,65), tras la goleada 0-3 sufrida ante Colegiales apenas 10 días antes de este partido. Puede llegar golpeado anímicamente pese a jugar de local.</p>
+      </div>
+      <div class="card" style="border-left:3px solid var(--good);">
+        <h3>2. Rotación sin dueño claro en los laterales</h3>
+        <p>Ni Penepil (3 titularidades de 18 PJ) ni Casarico (135') tienen la posición consolidada, y hasta Díaz Laharque -campeón 2025- podría estar relegado. Sector con menos certezas que el resto del equipo.</p>
+      </div>
+      <div class="card" style="border-left:3px solid var(--good);">
+        <h3>3. Vulnerable a la transición y al pelotazo en profundidad</h3>
+        <p>Confirmado con evidencia de partido real (0-3 vs Colegiales, ver arriba): 2 de los 3 goles fueron por contraataque y pelotazo por detrás de la defensa. Conecta con el dato de toda la temporada: 3,2 tackles/partido (bajo) -presionan por posicionamiento, no por contacto- y pierde el 59% de los duelos de suelo cuando el rival ataca rápido.</p>
+      </div>
+      <div class="card" style="border-left:3px solid var(--good);">
+        <h3>4. Dependencia del remate lejano</h3>
+        <p>Más de la mitad de sus tiros son desde fuera del área. Estadísticamente, ese tipo de remate tiene mucho menos valor de gol esperado por intento que uno de área -cerrar bien el círculo central reduce buena parte de su peligro real, incluso si el volumen de tiros se mantiene alto-.</p>
+      </div>
+      <div class="card" style="border-left:3px solid var(--good);">
+        <h3>5. Arquero y líder defensivo, ambos en baja</h3>
+        <p>Con datos de rating real: Leguiza (arquero titular, -0,19) y Recalde (central referente, -0,12) llegan con la peor tendencia de rating de toda la defensa, al mismo tiempo. Es el punto más concreto -con número, no solo intuición- para insistir con juego directo al área.</p>
+      </div>
+    </div>
+    <div class="callout gold" style="margin-top:20px;">
+      <span class="eyebrow">Pero el contexto real es adverso</span>
+      <p style="max-width:none;">Ninguno de estos puntos débiles cambia el dato central: de local, contra rivales del tramo bajo de la tabla -exactamente el lugar donde está Chacarita hoy- Midland no perdió ni un partido en toda la temporada. El plan de partido tiene que asumir que va a enfrentar a la mejor versión de este rival, no a un punto débil de la tabla.</p>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="metodologia">
+    <div class="section-head"><h2>Metodología y qué falta</h2></div>
+    <div class="callout method">
+      <span class="eyebrow">Fuentes</span>
+      <p style="max-width:none;">Estadísticas de partido (xG, posesión, tiros, córners, duelos, faltas): Sofascore, sobre los 25 partidos de liga ya jugados por Midland en 2026 -no estimaciones-. Datos de plantel, edades y valores de mercado: Transfermarkt. Trayectorias individuales, contexto institucional y formación probable: prensa especializada de ascenso (Infobae, Mundo Ascenso, Solo Ascenso, medios de Merlo/zona oeste) — se contrastaron múltiples fuentes por jugador cuando fue posible, y se marcan explícitamente los casos donde las fuentes se contradicen (Roseti, la formación de los laterales).</p>
+    </div>
+    <div class="callout method">
+      <span class="eyebrow">Actualización: se encontró una vía alternativa a la API bloqueada</span>
+      <p style="max-width:none;">El bloqueo 403 es específico de las rutas <code>/api/v1/*</code> (en cualquier subdominio), pero el sitio principal (<code>www.sofascore.com</code>) sigue respondiendo normal. Sus páginas usan Next.js con datos pre-renderizados en el HTML (<code>__NEXT_DATA__</code>) que no dependen de esa API -incluyendo, para cada jugador, el <strong>rating de cada partido de la temporada</strong>-. Con eso se armó la tabla de rating de la sección de plantel, para 16 de los 35 jugadores del plantel (los que tienen minutos reales esta temporada). Ver <code>scripts/sofa_web_scrape.py</code>.</p>
+    </div>
+    <div class="callout legal">
+      <span class="eyebrow">Lo que sigue sin estar disponible</span>
+      <ul style="margin:8px 0 0; padding-left:20px;">
+        <li style="margin-bottom:6px;"><strong>Estadísticas de cancha por jugador</strong> (duelos ganados, pases completados, tackles, regates) -el sitio marca que existen ("hasSeasonStatistics: true", "hasPentagon: true") pero el valor en sí se carga por fetch del cliente hacia la API bloqueada, no viene en el HTML-.</li>
+        <li style="margin-bottom:6px;"><strong>Goleadores/asistencias/tarjetas exactas de Midland reconstruidas evento por evento</strong> -la técnica ya está probada (se usó para Federal A), pero requiere la API de incidentes, todavía bloqueada.</li>
+        <li><strong>Formación y alineación confirmada</strong> del último partido (vs Colegiales, 2-sep) -las páginas de partido tampoco traen esto pre-renderizado-.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    Radiografía: Midland — informe de scouting, 06-sep-2026. Parte de la Central de Rivales de Chacarita Juniors. Ver también <a href="https://claude.ai/code/artifact/383cc600-f04e-4b71-b5db-180709a17a3f" target="_blank" rel="noopener">Central de Rivales</a> (los otros 7 rivales) y <a href="https://claude.ai/code/artifact/68edfd27-634d-44ff-9632-b2c0cbefd71d" target="_blank" rel="noopener">Chacarita: 8 Finales</a> (panorama general).
+  </footer>
+
+</main>

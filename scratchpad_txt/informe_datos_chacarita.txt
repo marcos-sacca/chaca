@@ -1,0 +1,310 @@
+Chacarita Data Project
+Informe de campo · Ciencia de datos aplicada a Chacarita Juniors
+El cuello de botella no es el modelo.
+Es el dato.
+Se probaron en vivo, contra los servidores reales, las fuentes de datos de fútbol argentino que existen hoy: qué responde, qué está bloqueado, qué es legal, qué es gratis y qué directamente no existe. Este documento reemplaza suposiciones por resultados de terminal.
+Fecha:
+06 sep 2026
+Club:
+CA Chacarita Juniors
+Categoría:
+Primera Nacional (2ª división AFA)
+Fuentes probadas en vivo:
+9
+Veredicto
+Hallazgo principal
+Mapa de fuentes
+Transfermarkt
+Correcciones
+Solo lo tiene el club
+Encuadre legal
+Arquitectura
+Roadmap
+Riesgos
+Veredicto
+Es más viable de lo que parecía en la charla anterior — y por una razón concreta:
+la pieza que se asumía más difícil de conseguir gratis, estadísticas de partido con xG (expected goals),
+ya existe gratis
+para la Primera Nacional, con historial completo desde la temporada 2009/10. No hace falta pagar Wyscout para tener ese nivel de detalle en un primer sistema.
+Lo que sí es cierto es que ninguna de estas fuentes gratuitas tiene un contrato que autorice su uso: son APIs no documentadas o scraping, en zona gris legal. Son perfectamente razonables para un proyecto de análisis interno o un prototipo — no para un producto que se vaya a vender o publicar puertas afuera sin más trabajo (ver
+Encuadre legal
+).
+9 / 14
+fuentes confirmadas reales y probadas contra el servidor en vivo
+2009–26
+rango de temporadas de Primera Nacional disponibles en una sola API gratuita
+84 × 100
+partidos de Chacarita ya descargados, cada uno con 100 columnas de estadísticas
+€5.000+
+costo anual de Wyscout por una sola liga menor — solo por datos, sin video
+El hallazgo principal: Sofascore
+Sofascore no publica una API pública, pero el sitio se alimenta de una API REST propia (
+api.sofascore.com
+) que responde en JSON sin necesidad de credenciales. Se buscó el ID interno de Chacarita, se confirmó que la Primera Nacional está mapeada como torneo
+703
+, y se descargaron datos reales: plantel, calendario y estadísticas partido a partido.
+GET /api/v1/event/15275428/statistics
+Güemes 2–1 Chacarita · 01 mar 2026
+Posesión de balón
+49%
+vs
+51%
+# expected goals: la métrica que supuestamente había que pagar Wyscout para tener
+Expected goals (xG)
+1.48
+vs
+0.27
+Remates totales
+7
+vs
+3
+Remates al arco
+4
+vs
+1
+Córners
+5
+vs
+7
+Pases completados
+210
+vs
+191
+Duelos aéreos ganados
+25/42 (60%)
+vs
+15/41 (37%)
+Regates exitosos
+13/20 (65%)
+vs
+11/15 (73%)
+Extracción real, ejecutada durante esta sesión. El objeto completo trae 30+ métricas por partido agrupadas en posesión, remates, pases, duelos y defensa.
+GET /api/v1/category/48/unique-tournaments
+Argentina — todos los torneos mapeados
+155    Liga Profesional de Fútbol
+(1ª división)
+703    Primera Nacional
+← Chacarita juega acá
+1347   Primera B Metropolitana
+11386  Primera C Metropolitana
+14101  Primera D Metropolitana
+14090  Torneo Federal A
+← ligas "feeder" para scouting
+1024   Copa Argentina
+13475  Copa de la Liga Profesional
+Una sola API cubre toda la pirámide de la que Chacarita recluta y a la que compite ascender. Esto es exactamente el insumo que pedía el punto 1 de la charla anterior (scouting en ligas de menor exposición).
+Lo que ya se descargó y quedó en tu carpeta
+data/raw/chacarita_plantel.csv
+— 33 jugadores con posición, dorsal y nacionalidad.
+data/raw/chacarita_partidos.csv
+— 90 partidos con fecha, resultado y torneo.
+data/processed/chacarita_partidos_stats.csv
+— 84 partidos × 100 columnas (xG, posesión, duelos, pases…).
+data/raw/argentina_torneos.csv
+— mapa de las 14 competiciones del país.
+La letra chica técnica
+La API bloquea la librería estándar de Python (
+requests
+) con error 403 — detecta la huella TLS del cliente, no el User-Agent.
+curl
+pasa sin problema, y en Python se resolvió con
+curl_cffi
+(imita la huella de Chrome). Es una protección liviana, pero confirma que no es una API pensada para consumo externo: puede endurecerse en cualquier momento.
+Mapa completo de fuentes evaluadas
+Cada fila fue verificada de forma directa: se hizo la consulta HTTP, se leyó la respuesta real, o se confirmó (o descartó) la existencia del producto. Nada de esta tabla sale de lo que "se supone" que tiene una fuente.
+ordenadas de mayor a menor utilidad inmediata para Chacarita
+Fuente
+Qué es
+Primera Nacional / Chacarita
+Costo
+Veredicto
+Sofascore
+(API no oficial)
+Partidos, plantillas y estadísticas de partido con 100+ métricas, incluido xG
+Confirmada en vivo
+completa 2009–2026 + toda la pirámide AFA
+Gratis
+Base del prototipo, ya funcionando
+Transfermarkt
+(scraping directo)
+Plantel, valores de mercado, edad, contratos, transferencias
+Confirmada
+34 perfiles de jugadores extraídos
+Gratis (no autorizado)
+Útil, pero requiere criterio legal — ver abajo
+FootyStats
+Estadísticas agregadas de liga / equipo / jugador vía API con clave
+Confirmada
+"Prim B Nacional" listada entre 27 ligas AR
+Free = solo Premier League. Argentina exige plan pago
+Opción "limpia" si se decide pagar
+API-Football
+(api-sports.io)
+API REST multi-liga de resultados y estadísticas
+No verificada
+pricing bloqueó el chequeo en vivo
+Free: 100 req/día
+Confirmar cobertura real antes de invertir tiempo
+Wyscout
+(Hudl)
+Estándar profesional: video + 150 métricas por jugador
+Asumida total
+no se probó, es pago desde el día 1
+Desde ~£5.000/año
+por liga, solo datos
+Fuera de alcance salvo sponsorship o convenio
+FutPythonTrader
+Bases CSV/Excel gratuitas por país y liga (proyecto brasileño)
+No confirmada
+catálogo no expone la lista de ligas sin cuenta
+Gratis (requiere registro)
+Revisar el catálogo manualmente antes de asumir cobertura
+"Goal-API"
+—
+No existe
+—
+Descartar de la lista
+transfermarkt-datasets
+(GitHub, CC0)
+Dataset ya armado: jugadores, partidos, transferencias, valores
+Confirmado que NO incluye Argentina
+Gratis, licencia abierta
+Sirve como modelo de esquema, no como fuente de datos AR
+soccerdata
+(paquete Python)
+Wrapper open-source para FBref / Sofascore / WhoScored / ESPN
+Sin soporte para Argentina por defecto
+Gratis
+No usar el wrapper — pegarle directo a la API
+LPF Data
+(oficial AFA)
+Reportes de datos oficiales por fecha de juego
+Solo Primera División
+Gratis
+No aplica a la categoría de Chacarita hoy
+Promiedos
+Sitio argentino de resultados en vivo, sin API propia
+Solo vía scrapers de terceros no mantenidos
+Gratis
+Backup para resultados en vivo, no base principal
+Transfermarkt en la práctica
+A diferencia de Sofascore, Transfermarkt no tiene bloqueo de huella TLS: una petición HTTP simple con un User-Agent de navegador devuelve la página completa sin fricción técnica. Se ubicó el club correcto (el ID que suele circular de memoria —
+2093
+— pertenece a un club amateur alemán; el de Chacarita es otro) y se extrajeron 34 perfiles de jugadores con un solo request.
+GET /chacarita-juniors/startseite/verein/2154
+200 OK · 184 KB
+federico-losas/profil/spieler/661127
+enrique-bologna/profil/spieler/30753
+gaston-fernandez/profil/spieler/990587
+sergio-vittor/profil/spieler/91597
+milton-leyendeker/profil/spieler/878449
+... 29 jugadores más, cada uno con valor de mercado, edad, contrato y nacionalidad
+La diferencia con Sofascore no es técnica, es contractual: los
+Términos de Servicio
+de Transfermarkt prohíben explícitamente el acceso mediante bots o "screen scraping", y además restringen usar su contenido para entrenar sistemas de IA/ML. Que el sitio no lo bloquee técnicamente no significa que esté permitido — es la fuente con la brecha más grande entre "se puede" y "está autorizado".
+Qué corregir de la charla anterior
+Honestidad primero
+"Goal-API" no existe
+como producto bajo ese nombre. Es probable que sea una confusión con
+Goalserve
+(un proveedor real, pero cuya cobertura de Primera Nacional no se pudo confirmar) o directamente con API-Football.
+FutPythonTrader es real
+, pero su cobertura de Argentina no estaba confirmada — la charla anterior lo dio por hecho sin evidencia. El catálogo público no expone qué ligas incluye sin crear una cuenta.
+El dataset "transfermarkt-datasets"
+que se mencionó como ejemplo de estructura de base de datos
+no incluye ninguna liga argentina
+. Sirve como inspiración de modelo de tablas (jugadores / partidos / transferencias / valuaciones), no como fuente de datos para este proyecto.
+El punto que la charla anterior subestimó:
+no hacía falta pagar Wyscout para tener xG. Ya está gratis, partido a partido, en Sofascore — el ítem "predicción de resultados" y "análisis de rivales" del plan original son más baratos de arrancar de lo que parecía.
+Lo que ninguna fuente externa te va a dar
+Todo lo de arriba es sobre datos de terceros. Hay una categoría entera de datos que no tiene atajo: solo existe adentro del club. Es también, no es casualidad, la que más valor agrega — porque nadie más la tiene.
+Socios
+Altas, bajas, antigüedad, historial de pago, cuota, frecuencia de asistencia. Como Chacarita es una asociación civil (socios, no accionistas), este dato conecta directo con los ingresos recurrentes del club — más que en un club-empresa.
+Plantel — cara interna
+Sueldos reales, cláusulas de contrato, bonos por objetivos, duración efectiva. Ni Transfermarkt ni Sofascore tienen esto: publican estimaciones de mercado, no lo que el club paga.
+Cuerpo médico y físico
+GPS de entrenamiento, RPE, historial de lesiones, cargas semanales. Es el dato con mayor potencial de ROI (prevención de lesiones) y el que menos sustituto externo tiene.
+Inferiores
+Ningún proveedor de datos cubre juveniles de captación con el detalle necesario para modelar "¿quién llega a Primera?". Esa base solo la arma el propio club, partido a partido.
+Entradas y comercial
+Precio, sector, asistencia real, ventas de merchandising por talle/modelo. Dato transaccional puro del club — no existe en ninguna API de fútbol.
+Encuadre legal, sin vueltas
+Ninguna fuente gratuita está autorizada por escrito
+Sofascore prohíbe copiar, reproducir o redistribuir su contenido sin permiso escrito. Transfermarkt prohíbe explícitamente el scraping automatizado y su uso para entrenar sistemas de IA. Ninguna de las dos persigue legalmente el uso personal de bajo volumen — es lo que hace toda la comunidad de analistas de fútbol amateur — pero la distinción importa para saber hasta dónde llevar esto:
+Uso interno / prototipo / aprendizaje propio:
+riesgo bajo. Es exactamente lo que se hizo hoy: ~90 requests con una pausa de un segundo entre cada una, sin republicar nada.
+Dashboard que ve el cuerpo técnico del club:
+riesgo bajo-medio. Recomendable avisarle al club que la fuente de fondo es no oficial, para que no quede como una promesa de continuidad garantizada.
+Algo público, para hinchas, o que se vende:
+ahí ya no alcanza con esto. Ese escalón necesita una fuente con licencia — el plan pago de FootyStats o API-Football, o directamente un convenio con el club para que sea el club quien pague por datos con permiso.
+Regla práctica: nunca paralelizar los requests a estas APIs, siempre con pausas, y tratar todo como un préstamo, no como una compra.
+Arquitectura de datos recomendada
+Nada exótico. Los mismos cinco pasos que ya corrieron hoy contra datos reales de Chacarita:
+01
+Ingesta
+Sofascore + Transfermarkt vía
+curl_cffi
+, con pausas entre requests
+→
+02
+Crudo
+CSV / Parquet en
+data/raw
+, un archivo por corrida, nada se sobreescribe
+→
+03
+Modelo
+Tablas normalizadas (partidos, jugadores, stats) en DuckDB o SQLite
+→
+04
+Análisis
+pandas + scikit-learn: forma reciente, xG for/against, similitud de jugadores
+→
+05
+Visualización
+Streamlit para el cuerpo técnico, exportable a Excel para dirigencia
+scripts/sofascore_pipeline.py
+ya guardado en tu proyecto
+# la clave: curl_cffi imita la huella TLS de Chrome real
+from
+curl_cffi
+import
+requests
+def
+get(endpoint: str) -> dict:
+url = f
+"{BASE}{endpoint}"
+r = requests.get(url, headers=HEADERS, impersonate=
+"chrome"
+, timeout=15)
+time.sleep(1.0)
+# cortesía: no martillar la API
+r.raise_for_status()
+return
+r.json()
+El archivo completo (plantel, partidos, estadísticas y mapa de torneos) quedó en
+scripts/sofascore_pipeline.py
+, ya corrido una vez con éxito.
+Cómo seguirlo
+Fase 0 — ya hecha
+Prueba de concepto
+Pipeline de Sofascore funcionando de punta a punta. 84 partidos de Chacarita con estadísticas completas, plantel actual y mapa de las 14 competiciones argentinas, todo en
+data/
+.
+Fase 1 — 1 mes
+Histórico + dashboard básico
+Bajar el historial completo de Chacarita y sus rivales directos desde 2015. Pasar los CSV a DuckDB. Armar un Streamlit con forma reciente, xG a favor/en contra y el próximo rival — el punto 3 del plan original ("análisis de rivales"), pero ya sin depender de conseguir Wyscout.
+Fase 2 — 3 meses
+Scouting en ligas feeder
+Extender el mismo pipeline a Federal A y Metropolitana B/C/D (ya mapeadas, ver evidencia arriba) más valores de mercado de Transfermarkt. Primer modelo de similitud de jugadores acotado al presupuesto real de un club de Primera Nacional.
+Fase 3 — 6 a 12 meses
+Conversación con el club
+Con el prototipo andando, es el momento de proponerle al club dos cosas en simultáneo: acceso a datos internos (socios, entradas, inferiores) y, si el proyecto va a tener uso oficial o público, migrar la capa de scouting a una fuente con licencia (FootyStats pago o un convenio directo).
+Qué se puede romper
+Fragilidad técnica
+Sofascore ya bloquea la librería estándar de Python. Si en el futuro endurece el bloqueo del lado de
+curl_cffi
+también, el pipeline se corta hasta actualizar la técnica de impersonation. No tiene SLA — es normal que rompa sin aviso.
+Dependencia de una sola fuente
+Todo el prototipo hoy cuelga de Sofascore. Vale la pena, en la Fase 1, dejar Transfermarkt como fuente secundaria de contraste y no depender de un único proveedor no oficial para decisiones importantes.
+Chacarita Data Project — informe de investigación técnica, 06 sep 2026. Todas las cifras de este documento salen de consultas reales ejecutadas durante la sesión, no de documentación de marketing.

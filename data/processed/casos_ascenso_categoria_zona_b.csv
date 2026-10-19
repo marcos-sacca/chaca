@@ -1,0 +1,407 @@
+﻿player_id,from_team,from_team_id,to_team,to_team_id,transfer_date_ts,fee,from_is_lower,name,team_id
+868706,Brown de Adrogué,107201.0,Club Atlético Platense,36837.0,1451606400,Unknown,True,Alejandro Gabriel Quintana,53799
+790757,Defensores Villa Ramallo,222513.0,Independiente Rivadavia,36842.0,1531094400,Unknown,True,Federico Castro,53799
+790757,CYB Ramón Santamarina,165912.0,Sarmiento,42338.0,1467244800,-,True,Federico Castro,53799
+790757,Defensores Villa Ramallo,222513.0,Sarmiento,42338.0,1421625600,Unknown,True,Federico Castro,53799
+790757,Defensores de Cambaceres,248679.0,Defensores Villa Ramallo,222513.0,1388534400,Free,True,Federico Castro,53799
+817519,Arsenal de Sarandí,3221.0,Defensa y Justicia,36839.0,1703980800,-,True,Braian Rivero,53799
+842861,Gimnasia y Esgrima de Concepción del Uruguay,93517.0,Instituto AC Cordoba Reserves,401294.0,1325376000,Free,True,Christian Bernardi,53799
+1086340,Argentino de Merlo,199311.0,Lanús Reserve,236219.0,1735603200,-,True,Kevin Benitez,53799
+1875390,San Martín Formosa,314629.0,Atlanta,53799.0,1767225600,-,True,Rodrigo Sosa,53799
+1875390,San Martín Formosa,314629.0,San Telmo,213361.0,1736380800,-,True,Rodrigo Sosa,53799
+1875390,Ituzaingó,265447.0,San Martín Formosa,314629.0,1708387200,Free,True,Rodrigo Sosa,53799
+1468116,Olimpo,3222.0,Nueva Chicago,3200.0,1672531200,Free,True,Gustavo Mendoza,53799
+1468116,Juventud Antoniana,93519.0,Olimpo,3222.0,1563667200,Unknown,True,Gustavo Mendoza,53799
+1468116,Villa San Carlos,107199.0,Juventud Antoniana,93519.0,1514764800,Unknown,True,Gustavo Mendoza,53799
+1468116,Defensores de Cambaceres,248679.0,Villa San Carlos,107199.0,1483228800,Unknown,True,Gustavo Mendoza,53799
+989677,Fundación Amigos Por El Deporte,340976.0,San Lorenzo Reserve,235857.0,1640908800,-,True,Lautaro López,53799
+992089,Alvarado,273715.0,Atlanta,53799.0,1533081600,Free,True,Juan Rago,53799
+992089,Sportivo Barracas,200658.0,,,1277942400,Free,True,Juan Rago,53799
+1021876,Brown de Adrogué,107201.0,Tristán Suárez,93513.0,1704672000,Free,True,Agustín Lavezzi,4936
+1021876,Boca Unidos,36835.0,Brown de Adrogué,107201.0,1674950400,Free,True,Agustín Lavezzi,4936
+1021876,Sportivo Las Parejas,257686.0,Racing de Córdoba,273657.0,1639180800,Free,True,Agustín Lavezzi,4936
+1465721,Deportivo Armenio,93105.0,Quilmes Atlético Club,4936.0,1782950400,-,True,Pio Bonacci,4936
+1465721,Deportivo Armenio,93105.0,Deportivo Madryn,222120.0,1767398400,-,True,Pio Bonacci,4936
+1465721,Deportivo Armenio,93105.0,Deportivo Maipú,213042.0,1737072000,-,True,Pio Bonacci,4936
+1465721,Deportivo Armenio,93105.0,Ñublense,7029.0,1722470400,-,True,Pio Bonacci,4936
+1465721,Deportivo Armenio,93105.0,Almirante Brown,43740.0,1704240000,-,True,Pio Bonacci,4936
+1465721,Deportivo Armenio,93105.0,San Martín de Tucumán,23950.0,1672531200,-,True,Pio Bonacci,4936
+1465721,Justo José de Urquiza,201161.0,Deportivo Armenio,93105.0,1640995200,Free,True,Pio Bonacci,4936
+1512471,Arsenal de Sarandí,3221.0,Quilmes Atlético Club,4936.0,1767139200,-,True,Axel Batista,4936
+174509,Guillermo Brown,53801.0,Tristán Suárez,93513.0,1735689600,Free,True,Mauro Fernández,4936
+174509,Guillermo Brown,53801.0,Tigres UANL,1940.0,1467331200,Unknown,True,Mauro Fernández,4936
+174509,Guillermo Brown,53801.0,Estudiantes de La Plata,3206.0,1309478400,Unknown,True,Mauro Fernández,4936
+895347,Alvarado,273715.0,Quilmes Atlético Club,4936.0,1767571200,Free,True,Agustín Bolívar,4936
+895347,Guillermo Brown,53801.0,Gimnasia y Esgrima,3205.0,1593475200,-,True,Agustín Bolívar,4936
+883236,Brown de Adrogué,107201.0,San Miguel,264945.0,1704844800,Free,True,Ariel Kippes,4936
+883236,Brown de Adrogué,107201.0,Sarmiento,42338.0,1625011200,-,True,Ariel Kippes,4936
+1020507,Deportivo Armenio,93105.0,Quilmes Atlético Club,4936.0,1653782400,-,True,Esteban Glellel,4936
+1485384,Guillermo Brown,53801.0,Estudiantes de La Plata,3206.0,1735603200,-,True,Martiniano Moreno,34976
+129862,Gimnasia y Esgrima de Concepción del Uruguay,93517.0,San Martín de Tucumán,23950.0,1470614400,Free,True,Mauro Quiroga,34976
+129862,Gimnasia y Esgrima de Concepción del Uruguay,93517.0,CD Lugo,24332.0,1342483200,Free,True,Mauro Quiroga,34976
+129862,Gimnasia y Esgrima de Concepción del Uruguay,93517.0,UD Las Palmas,6577.0,1280620800,-,True,Mauro Quiroga,34976
+248105,Arsenal de Sarandí,3221.0,Defensa y Justicia,36839.0,1641772800,Free,True,Lucas Albertengo,34976
+249301,Arsenal de Sarandí,3221.0,Independiente Rivadavia,36842.0,1706659200,Free,True,Juan Cavallaro,34976
+796999,Villa Dálmine,112509.0,Atlético de Rafaela,34976.0,1561939200,Free,True,Ijiel Cesar Protti,34976
+249899,Villa Dálmine,112509.0,Sol de América,36439.0,1546819200,Free,True,Federico Jourdan,34976
+249899,Sportivo Las Parejas,257686.0,Villa Dálmine,112509.0,1501545600,Free,True,Federico Jourdan,34976
+857479,Guillermo Brown,53801.0,Atlético de Rafaela,34976.0,1593475200,-,True,Facundo Soloa,34976
+249905,CYB Ramón Santamarina,165912.0,Atlético de Rafaela,34976.0,1737331200,Free,True,Marcos Gabriel Fernandez,34976
+249905,CSD Flandria,112505.0,Sportivo Estudiantes,1134718.0,1708041600,Free,True,Marcos Gabriel Fernandez,34976
+249905,Sarmiento de Resistencia,65670.0,San Martín de San Juan,7772.0,1561939200,Unknown,True,Marcos Gabriel Fernandez,34976
+249905,Sportivo Las Parejas,257686.0,Unión de Sunchales,228166.0,1498867200,Unknown,True,Marcos Gabriel Fernandez,34976
+333761,Sportivo Belgrano,65664.0,Barracas Central,65668.0,1594684800,Free,True,Juan Capurro,34976
+333761,Defensores Villa Ramallo,222513.0,Chaco For Ever,252726.0,1531526400,Unknown,True,Juan Capurro,34976
+333761,Club Cipolletti,255427.0,Unión Santa Fe Reserve,235856.0,1451520000,-,True,Juan Capurro,34976
+1393579,Excursionistas,65672.0,Club Ferro Carril Oeste,36841.0,1735603200,-,True,Ulises Yegros,34976
+927671,Brown de Adrogué,107201.0,Lanús Reserve,236219.0,1561852800,-,True,Leonardo Flores,34976
+1111807,CA Sarmiento de la Banda,508986.0,Atlético de Rafaela,34976.0,1736726400,Free,True,Gabriel Fernandez,34976
+1111807,Alvarado,273715.0,Güemes,224646.0,1602547200,Free,True,Gabriel Fernandez,34976
+1018461,Douglas Haig,76199.0,Colegiales,112493.0,1735689600,Free,True,Fernando Ponce,34976
+1018461,Sarmiento de Resistencia,65670.0,Douglas Haig,76199.0,1705363200,Free,True,Fernando Ponce,34976
+1018461,Alvarado,273715.0,Cobresal,3167.0,1616976000,Free,True,Fernando Ponce,34976
+1018461,Sportivo Belgrano,65664.0,Alvarado,273715.0,1533081600,Free,True,Fernando Ponce,34976
+1018461,Defensores Villa Ramallo,222513.0,Sportivo Belgrano,65664.0,1498867200,Free,True,Fernando Ponce,34976
+1018461,Alvarado,273715.0,Defensores Villa Ramallo,222513.0,1483228800,Free,True,Fernando Ponce,34976
+1876773,CA Sarmiento de la Banda,508986.0,Estudiantes de Río Cuarto,266694.0,1767139200,-,True,Agustin Solveyra,34976
+1876773,Circulo Deportivo,327909.0,Estudiantes de Río Cuarto,266694.0,1718064000,Free,True,Agustin Solveyra,34976
+932900,Alvarado,273715.0,No team,241802.0,1602547200,Free,True,Gabriel Fernández,34976
+1184847,CYB Ramón Santamarina,165912.0,Aldosivi,36836.0,1735603200,-,True,Facundo De La Vega,4938
+949680,CSD Flandria,112505.0,Almagro,4938.0,1767225600,Free,True,Franco Bustamante,4938
+824589,UAI Urquiza,112507.0,Acassuso,112491.0,1597104000,Free,True,Claudio Salto,4938
+824589,Fénix,112495.0,UAI Urquiza,112507.0,1590969600,Free,True,Claudio Salto,4938
+1186583,9 de Julio de Rafaela,260688.0,Almagro,4938.0,1767398400,-,True,Tobias Macies,4938
+1186583,Gimnasia de Chivilcoy,1078785.0,9 de Julio de Rafaela,260688.0,1739836800,-,True,Tobias Macies,4938
+1186583,9 de Julio de Rafaela,260688.0,Gimnasia de Chivilcoy,1078785.0,1728518400,-,True,Tobias Macies,4938
+928937,Alvarado,273715.0,Almagro,4938.0,1768262400,Free,True,Enzo Martinez,4938
+928937,Olimpo,3222.0,Gimnasia y Esgrima Reserve,237357.0,1534982400,-,True,Enzo Martinez,4938
+2484722,9 de Julio de Rafaela,260688.0,Unión Santa Fe Reserve,235856.0,1767139200,-,True,Jeremías Bustos,4938
+989991,Sarmiento de Resistencia,65670.0,Patronato,43741.0,1640908800,-,True,Brian Negro,4938
+796601,Alvarado,273715.0,Almagro,4938.0,1735689600,Free,True,Julian Vitale,4938
+796601,Alvarado,273715.0,Deportivo Morón,93109.0,1704067200,-,True,Julian Vitale,4938
+933181,Brown de Adrogué,107201.0,Deportivo Morón,93109.0,1561939200,Free,True,Matías Cortave,4938
+933181,Brown de Adrogué,107201.0,Maccabi Herzliya,7478.0,1468972800,Free,True,Matías Cortave,4938
+2125422,Boca Unidos,36835.0,Almagro,4938.0,1770249600,Free,True,Santiago Chamorro,4938
+2125422,Boca Unidos,36835.0,Comision de Actividades Infantiles,36838.0,1728518400,-,True,Santiago Chamorro,4938
+849173,Sportivo Italiano,36843.0,Gimnasia Y Esgrima De Jujuy,5292.0,1735689600,Free,True,Sebastian Anchoverri,4938
+849173,Deportivo Español,165914.0,Ferrocarril Midland,270344.0,1625097600,Free,True,Sebastian Anchoverri,4938
+849173,Brown de Adrogué,107201.0,San Miguel,264945.0,1561939200,Free,True,Sebastian Anchoverri,4938
+849173,Olimpo,3222.0,San Telmo,213361.0,1522886400,-,True,Sebastian Anchoverri,4938
+2229958,Centro Español,248380.0,Club Atlético Chacarita Juniors,3214.0,1767225600,Free,True,Francisco Cristaldo,3214
+249081,Olimpo,3222.0,Internacional de Bogotá,1164534.0,1420675200,-,True,Mauricio Cuero,3214
+1387036,CYB Ramón Santamarina,165912.0,Tristán Suárez,93513.0,1672531200,Free,True,Tomás Pérez Serra,3214
+1387036,Deportivo Español,165914.0,CYB Ramón Santamarina,165912.0,1656288000,Free,True,Tomás Pérez Serra,3214
+981450,Atenas Rio Cuarto,314862.0,Estudiantes de Río Cuarto,266694.0,1485388800,Unknown,True,Alvaro Cuello,3214
+1835745,CS Dock Sud,270405.0,Defensa y Justicia Reserve,240767.0,1752537600,-,True,Lorenzo Brun,3214
+1899412,Cañuelas FC,252131.0,Club Atlético Chacarita Juniors,3214.0,1767139200,-,True,Tomás Pizarro,3214
+777343,Olimpo,3222.0,Patronato,43741.0,1531180800,Free,True,Nicolás Pantaleone,3214
+2054523,Fénix,112495.0,Ferro Carril Oeste Reserve,267566.0,1735603200,-,True,Nicolás Dell Aquila,3214
+1187528,Argentino de Rosario,266184.0,Club Atlético Chacarita Juniors,3214.0,1767312000,Free,True,Gastón Fernández,3214
+1187528,Central Córdoba de Rosario,211939.0,Argentino de Rosario,266184.0,1672531200,Free,True,Gastón Fernández,3214
+974679,Defensores Villa Ramallo,222513.0,Independiente Rivadavia,36842.0,1642118400,Free,True,Franco Coronel,7772
+974679,Olimpo,3222.0,Defensores Villa Ramallo,222513.0,1625097600,Free,True,Franco Coronel,7772
+974679,Douglas Haig,76199.0,Olimpo,3222.0,1599868800,Free,True,Franco Coronel,7772
+974679,Defensores Villa Ramallo,222513.0,Douglas Haig,76199.0,1561939200,Unknown,True,Franco Coronel,7772
+974679,Defensores Villa Ramallo,222513.0,Estudiantes de Río Cuarto,266694.0,1498867200,-,True,Franco Coronel,7772
+943795,Alvarado,273715.0,San Martín de San Juan,7772.0,1768435200,Free,True,Sebastián Jaurena,7772
+943795,Alvarado,273715.0,Deportivo Municipal,7031.0,1673568000,-,True,Sebastián Jaurena,7772
+943795,Alvarado,273715.0,Club Atlético Unión de Santa Fe,3204.0,1642982400,-,True,Sebastián Jaurena,7772
+1187878,CA Sol de America de Formosa,407265.0,San Martín de San Juan,7772.0,1768176000,Free,True,Nicolás Iachetti,7772
+1187878,Club Cipolletti,255427.0,CA Sol de America de Formosa,407265.0,1737331200,Free,True,Nicolás Iachetti,7772
+1187878,Club Cipolletti,255427.0,Jorge Newbery de Comodoro Rivadavia,495221.0,1667260800,-,True,Nicolás Iachetti,7772
+1187878,Club Cipolletti,255427.0,Independiente de Neuquén,197928.0,1625097600,-,True,Nicolás Iachetti,7772
+1431953,Arsenal de Sarandí,3221.0,San Martín de San Juan,7772.0,1767571200,Free,True,Manuel Cocca,7772
+887428,Guillermo Brown,53801.0,Atlético Tucumán,36833.0,1593475200,-,True,Mauro Osores,7772
+1182427,CSD Flandria,112505.0,San Martín de San Juan,7772.0,1706572800,Free,True,Julián Marchio,7772
+897111,Guillermo Brown,53801.0,Club Atlético Belgrano,3203.0,1614297600,Free,True,Leonel Álvarez,7772
+897111,CSD Flandria,112505.0,Club Ferro Carril Oeste,36841.0,1593475200,-,True,Leonel Álvarez,7772
+971201,CSD Flandria,112505.0,Club Ferro Carril Oeste,36841.0,1703980800,-,True,Federico Murillo,7772
+830706,Arsenal de Sarandí,3221.0,River Plate,3211.0,1530316800,-,True,Maximiliano Velazco,7772
+1182428,CSD Flandria,112505.0,Club Ferro Carril Oeste,36841.0,1654473600,-,True,Lautaro Gordillo,222126
+859965,Alvarado,273715.0,Estudiantes de Buenos Aires,93107.0,1598486400,Free,True,Nicolás Rinaldi,222126
+859965,CSD Flandria,112505.0,Alvarado,273715.0,1562803200,Free,True,Nicolás Rinaldi,222126
+1016652,Arsenal de Sarandí,3221.0,Racing Club,3215.0,1692748800,-,True,Tiago Banega,222126
+940609,Defensores Unidos,93515.0,Gimnasia y Tiro de Salta,222126.0,1736899200,Free,True,Franco Sivetti,222126
+940609,Guillermo Brown,53801.0,Estudiantes de La Plata Reserve,235858.0,1640908800,-,True,Franco Sivetti,222126
+1182423,CSD Flandria,112505.0,Gimnasia y Tiro de Salta,222126.0,1767398400,Free,True,Juan Rocca,222126
+1182423,Defensores Unidos,93515.0,CSD Flandria,112505.0,1767139200,-,True,Juan Rocca,222126
+1182423,CSD Flandria,112505.0,Defensores Unidos,93515.0,1735689600,-,True,Juan Rocca,222126
+1197976,Camioneros,253807.0,Gimnasia y Tiro de Salta,222126.0,1616025600,Free,True,Matías Birge,222126
+1197976,Huracán Las Heras,197278.0,Camioneros,253807.0,1605225600,Free,True,Matías Birge,222126
+1197976,Villa San Carlos,107199.0,Deportivo Madryn,222120.0,1483228800,Unknown,True,Matías Birge,222126
+1197976,Villa San Carlos,107199.0,Jorge Newbery de Comodoro Rivadavia,495221.0,1341100800,Unknown,True,Matías Birge,222126
+385424,Villa San Carlos,107199.0,Universitario de Deportes,2305.0,1391212800,Unknown,True,Gonzalo Manuel Soto,222126
+889493,CSD Flandria,112505.0,San Luis de Quillota,39220.0,1499212800,Free,True,Gabriel Díaz,222126
+889493,CSD Flandria,112505.0,CD Suchitepéquez,7022.0,1483228800,Unknown,True,Gabriel Díaz,222126
+889493,Club Comunicaciones,112501.0,Gimnasia Y Esgrima De Jujuy,5292.0,1309478400,Free,True,Gabriel Díaz,222126
+1197979,Atenas Rio Cuarto,314862.0,Gimnasia y Tiro de Salta,222126.0,1563408000,Free,True,Ruben Villarreal,222126
+1117452,Huracán Las Heras,197278.0,Gimnasia y Tiro de Salta,222126.0,1641254400,Free,True,Adolfo Tallura,222126
+789396,CYB Ramón Santamarina,165912.0,Club Atlético Unión de Santa Fe,3204.0,1593475200,-,True,Joaquin Matias Papaleo,222126
+896983,Juventud Unida Universitario,273210.0,Gimnasia y Tiro de Salta,222126.0,1672876800,Free,True,Federico Cosentino,222126
+896983,Olimpo,3222.0,Comerciantes Unidos,213609.0,1616457600,Free,True,Federico Cosentino,222126
+896983,Huracán Las Heras,197278.0,Olimpo,3222.0,1600128000,Free,True,Federico Cosentino,222126
+896983,Sportivo Belgrano,65664.0,Huracán Las Heras,197278.0,1561939200,Free,True,Federico Cosentino,222126
+2574127,Juventud Antoniana,93519.0,,,1727740800,Unknown,True,Santiago Nogales,222126
+1501343,Juventud Antoniana,93519.0,Colegiales,112493.0,1767225600,Free,True,Mateo Mamani,112493
+871833,Defensores Unidos,93515.0,Estudiantes de Buenos Aires,93107.0,1703980800,-,True,Nicolas Toloza,112493
+871833,CSD Flandria,112505.0,Estudiantes de Buenos Aires,93107.0,1672444800,-,True,Nicolas Toloza,112493
+2041930,General Lamadrid,266134.0,Colegiales,112493.0,1767225600,-,True,Rodrigo Monserrat,112493
+2041930,Camioneros,253807.0,General Lamadrid,266134.0,1704412800,Free,True,Rodrigo Monserrat,112493
+2041930,Camioneros,253807.0,Cerrito,6877.0,1675209600,-,True,Rodrigo Monserrat,112493
+834022,Alvarado,273715.0,Atlético San Jorge,930898.0,1698883200,Unknown,True,Mauro Albertengo,112493
+834022,Argentino de Quilmes,194523.0,Atlético San Jorge,930898.0,1404172800,Unknown,True,Mauro Albertengo,112493
+834022,Argentino de Quilmes,194523.0,Argentino de Quilmes,194523.0,1372636800,-,True,Mauro Albertengo,112493
+1800520,Defensores Unidos,93515.0,Colegiales,112493.0,1770163200,Free,True,Lucas Ricciotti,112493
+1800520,Sportivo Las Parejas,257686.0,Defensores Unidos,93515.0,1739404800,Free,True,Lucas Ricciotti,112493
+1627957,Talleres Remedios de Escalada,201162.0,Colegiales,112493.0,1767225600,68k €,True,Franco Zicarelli,112493
+1627957,Talleres Remedios de Escalada,201162.0,Delfín,213638.0,1736899200,-,True,Franco Zicarelli,112493
+1627957,Sportivo Italiano,36843.0,Talleres Remedios de Escalada,201162.0,1735603200,-,True,Franco Zicarelli,112493
+1627957,Talleres Remedios de Escalada,201162.0,Sportivo Italiano,36843.0,1718668800,-,True,Franco Zicarelli,112493
+898756,Deportivo Merlo,36840.0,FC Carlos Stein,335037.0,1710806400,Free,True,Mateo Ramirez,112493
+898756,Justo José de Urquiza,201161.0,Los Andes,112497.0,1646092800,Free,True,Mateo Ramirez,112493
+898756,Fénix,112495.0,Justo José de Urquiza,201161.0,1601510400,-,True,Mateo Ramirez,112493
+898756,Guillermo Brown,53801.0,Fénix,112495.0,1578873600,Free,True,Mateo Ramirez,112493
+898756,Boca Unidos,36835.0,Gimnasia y Esgrima Mendoza,188441.0,1501545600,Unknown,True,Mateo Ramirez,112493
+1201524,Brown de Adrogué,107201.0,Colegiales,112493.0,1767225600,Free,True,Lucio Castillo,112493
+860053,Guillermo Brown,53801.0,Huracán,7629.0,1735603200,-,True,Federico Marín,112493
+860053,Sacachispas,184969.0,Huracán,7629.0,1654214400,-,True,Federico Marín,112493
+581732,Defensores Unidos,93515.0,Colegiales,112493.0,1768003200,Free,True,Enzo Trinidad,112493
+581732,CSD Flandria,112505.0,Nacional Asunción,33001.0,1672531200,Free,True,Enzo Trinidad,112493
+581732,Brown de Adrogué,107201.0,Banfield Reserve,239534.0,1498780800,-,True,Enzo Trinidad,112493
+2153513,Guillermo Brown,53801.0,Colegiales,112493.0,1767225600,Free,True,Leonardo Hernán González,112493
+2153513,CSD Flandria,112505.0,Guillermo Brown,53801.0,1740441600,Free,True,Leonardo Hernán González,112493
+941468,Justo José de Urquiza,201161.0,Defensores de Belgrano,52215.0,1199059200,-,True,Leandro Martínez Montagnoli,112493
+895337,Alvarado,273715.0,Colegiales,112493.0,1736812800,Free,True,Franco Malagueño,112493
+895337,Alvarado,273715.0,Gimnasia Y Esgrima De Jujuy,5292.0,1672531200,Unknown,True,Franco Malagueño,112493
+830619,Sarmiento de Resistencia,65670.0,Colegiales,112493.0,1705622400,Free,True,Emilio Di Fulvio,112493
+830619,Douglas Haig,76199.0,Rosario Central Reserve,235853.0,1498780800,-,True,Emilio Di Fulvio,112493
+1102453,Defensores Villa Ramallo,222513.0,Colegiales,112493.0,1767139200,-,True,Augusto Alcorcel,112493
+226544,Arsenal de Sarandí,3221.0,Temperley,112499.0,1500163200,Free,True,Juan Sánchez Sotelo,224646
+226544,Olimpo,3222.0,CA Talleres,3210.0,1372636800,Free,True,Juan Sánchez Sotelo,224646
+1092609,UAI Urquiza,112507.0,Deportivo Morón,93109.0,1685664000,-,True,Santiago Sala,224646
+2086030,Sportivo Las Parejas,257686.0,Atlético de Rafaela,34976.0,1730332800,-,True,Ciro Andrés Leineker,224646
+981329,CA Sarmiento de la Banda,508986.0,Gimnasia Y Esgrima De Jujuy,5292.0,1767916800,Free,True,Axel Pinto,224646
+1464121,CD Argentino Monte Maiz,403460.0,Güemes,224646.0,1767225600,Free,True,Gianfranco Baier,224646
+1464121,CD Argentino Monte Maiz,403460.0,Unión Magdalena,89376.0,1673395200,-,True,Gianfranco Baier,224646
+1654083,El Porvenir,270343.0,Ferrocarril Midland,270344.0,1672531200,Free,True,Franco Berges,224646
+1092303,Sportivo Las Parejas,257686.0,Gimnasia Y Esgrima De Jujuy,5292.0,1641859200,Free,True,Iván Ortigoza,224646
+583660,Atenas Rio Cuarto,314862.0,Club Atlético Tembetary,318176.0,1751328000,Free,True,Marcelo Benítez,224646
+871814,Olimpo,3222.0,Güemes,224646.0,1767225600,Free,True,Tomás Oneto,224646
+863307,Villa Dálmine,112509.0,Gimnasia Y Esgrima De Jujuy,5292.0,1641168000,Free,True,Facundo Rizzi,224646
+1879573,Olimpo,3222.0,Deportivo Morón,93109.0,1704067200,Unknown,True,Emilio Lazza,224646
+1879573,Gimnasia y Esgrima de Concepción del Uruguay,93517.0,Atlético Paraná,188414.0,1625097600,Unknown,True,Emilio Lazza,224646
+872142,Sportivo Barracas,200658.0,Barracas Central,65668.0,1612310400,Free,True,Axel Bordon,224646
+872142,Argentino de Merlo,199311.0,Sportivo Barracas,200658.0,1561939200,Unknown,True,Axel Bordon,224646
+872142,Real Pilar,266250.0,Argentino de Merlo,199311.0,1530403200,Unknown,True,Axel Bordon,224646
+1891530,Boca Unidos,36835.0,Güemes,224646.0,1704067200,Free,True,Walter Juárez,224646
+1891530,Juventud Antoniana,93519.0,Boca Unidos,36835.0,1673481600,Free,True,Walter Juárez,224646
+1114508,Sportivo Las Parejas,257686.0,Atlético de Rafaela,34976.0,1736726400,Free,True,Matías Martínez,224646
+892473,Alvarado,273715.0,Argentinos Juniors,3216.0,1735603200,-,True,Leandro Finochietto,224646
+2077679,Gimnasia de Chivilcoy,1078785.0,Güemes,224646.0,1767225600,Free,True,Tomás Palleres,224646
+800243,CYB Ramón Santamarina,165912.0,Racing Reserve,235851.0,1501459200,-,True,Facundo Castro,3200
+158255,Arsenal de Sarandí,3221.0,FC Arouca,25777.0,1643414400,Free,True,Alan Ruiz,3200
+1416978,Alvarado,273715.0,Racing Club,3215.0,1751241600,-,True,Matías Bergara,3200
+841958,Arsenal de Sarandí,3221.0,Sarmiento,42338.0,1642118400,Free,True,Emiliano Méndez,3200
+841958,Villa San Carlos,107199.0,Sportivo Estudiantes,1134718.0,1420070400,Unknown,True,Emiliano Méndez,3200
+1102451,Talleres Remedios de Escalada,201162.0,Ferrocarril Midland,270344.0,1718755200,-,True,Maximiliano Rogoski,3200
+1102451,Arsenal de Sarandí,3221.0,Ferrocarril Midland,270344.0,1640908800,-,True,Maximiliano Rogoski,3200
+1102451,Leandro Nicéforo Alem,254169.0,Ferrocarril Midland,270344.0,1561939200,Unknown,True,Maximiliano Rogoski,3200
+1087336,Huracán Las Heras,197278.0,Arsenal de Sarandí Reserve,235852.0,1672444800,-,True,Rodrigo Rámirez,3200
+1087336,Sol de Mayo,254166.0,Arsenal de Sarandí Reserve,235852.0,1640908800,-,True,Rodrigo Rámirez,3200
+989881,Arsenal de Sarandí,3221.0,Nueva Chicago,3200.0,1704326400,Free,True,Ramiro Balbuena,3200
+989881,Arsenal de Sarandí,3221.0,Estudiantes de Río Cuarto,266694.0,1640995200,-,True,Ramiro Balbuena,3200
+989881,Sol de Mayo,254166.0,Arsenal de Sarandí,3221.0,1640908800,-,True,Ramiro Balbuena,3200
+989881,Arsenal de Sarandí,3221.0,Sol de Mayo,254166.0,1614211200,-,True,Ramiro Balbuena,3200
+2074186,Atenas Rio Cuarto,314862.0,Huracán de Comodoro Rivadavia,495220.0,1728345600,Unknown,True,Javier Pereyra,3200
+2044354,El Linqueño,262289.0,Ferro de General Pico,303784.0,1704067200,Free,True,Germán Mansilla,3200
+2044387,Deportivo Laferrere,228062.0,Nueva Chicago,3200.0,1736121600,Free,True,Tomás Orqueida,3200
+128384,Arsenal de Sarandí,3221.0,No team,241802.0,1744675200,-,True,Dylan Gissi,3200
+128384,Olimpo,3222.0,Montpellier,1642.0,1406160000,Free,True,Dylan Gissi,3200
+1109995,Sacachispas,184969.0,Barracas Central,65668.0,1612569600,Free,True,Gonzalo Paz,3200
+1109995,Deportivo Armenio,93105.0,Sacachispas,184969.0,1602201600,Free,True,Gonzalo Paz,3200
+1109995,Deportivo Armenio,93105.0,Stade Nyonnais,2490.0,1514764800,Free,True,Gonzalo Paz,3200
+249999,Guillermo Brown,53801.0,Deportivo Maipú,213042.0,1641254400,Free,True,Guillermo Ferracutti,3200
+992104,Arsenal de Sarandí,3221.0,Nueva Chicago,3200.0,1767225600,Free,True,Matías Vera,3200
+973551,Olimpo,3222.0,Gimnasia Y Esgrima De Jujuy,5292.0,1703980800,-,True,Iván Antunes,3200
+2065626,Argentino de Quilmes,194523.0,Nueva Chicago,3200.0,1767225600,Free,True,Gerónimo Velozo,3200
+1086974,Arsenal de Sarandí,3221.0,Club Atletico Colón,3207.0,1735603200,-,True,Facundo Masuero,3200
+288317,Sportivo Belgrano,65664.0,Central Córdoba,65676.0,1454457600,Unknown,True,Diego Diellos,23950
+1127517,Juventud Unida Universitario,273210.0,San Martín de Tucumán,23950.0,1672444800,-,True,Nicolás Moreno,23950
+896985,Arsenal de Sarandí,3221.0,Patronato,43741.0,1641168000,Free,True,Nicolás Castro,23950
+896985,Juventud Unida Universitario,273210.0,Unión de Mar Del Plata,189720.0,1356998400,Unknown,True,Nicolás Castro,23950
+830586,Sol de Mayo,254166.0,Güemes,224646.0,1672531200,Free,True,Matias Garcia,23950
+830586,Arsenal de Sarandí,3221.0,Club Atlético Unión de Santa Fe,3204.0,1532390400,Free,True,Matias Garcia,23950
+946165,Villa Dálmine,112509.0,Deportivo Maipú,213042.0,1594944000,Free,True,Álvaro Veliez,23950
+1654124,San Martin de Mendoza,213044.0,Almagro,4938.0,1704067200,Free,True,Laureano Rodríguez,23950
+944659,Sportivo Las Parejas,257686.0,Sportivo Estudiantes,1134718.0,1642291200,Free,True,Santiago Briñone,23950
+1092314,Sacachispas,184969.0,Gimnasia Y Esgrima De Jujuy,5292.0,1598918400,Unknown,True,Jorge Emanuel Juárez,23950
+340013,Olimpo,3222.0,Aldosivi,36836.0,1500163200,Free,True,Ezequiel Parnisiari,23950
+340013,Olimpo,3222.0,Deportivo Anzoátegui,7742.0,1373846400,-,True,Ezequiel Parnisiari,23950
+790190,Club Comunicaciones,112501.0,Nueva Chicago,3200.0,1641254400,Free,True,Rodrigo Ayala,23950
+790190,Villa San Carlos,107199.0,Estudiantes de La Plata Reserve,235858.0,1530316800,-,True,Rodrigo Ayala,23950
+939951,Atenas Rio Cuarto,314862.0,San Martín de Tucumán,23950.0,1735603200,-,True,Juan Jaime,23950
+2058971,Sportivo Las Parejas,257686.0,Club Atlético Unión de Santa Fe,3204.0,1768348800,125k €,True,Diego Diaz,43741
+2058971,Sportivo Las Parejas,257686.0,,,1705363200,-,True,Diego Diaz,43741
+938560,CYB Ramón Santamarina,165912.0,Correcaminos UAT,36526.0,1502064000,Free,True,Hernán Rivero,43741
+864074,Sportivo Belgrano,65664.0,Club Atlético Belgrano,3203.0,1703980800,-,True,Tomas Attis,43741
+912789,Boca Unidos,36835.0,Juventud Unida Gualeguaychú,189721.0,1612137600,Unknown,True,Renzo Reynaga,43741
+1180584,CSD Flandria,112505.0,Deportivo Morón,93109.0,1767139200,-,True,Gonzalo Salega,43741
+1108653,Villa Dálmine,112509.0,Agropecuario Argentino,265787.0,1672531200,Free,True,Fernando Moreyra,43741
+1108653,Sportivo Belgrano,65664.0,Deportivo Maipú,213042.0,1597104000,Free,True,Fernando Moreyra,43741
+1381797,Sarmiento de Resistencia,65670.0,,,1759190400,-,True,Santiago Piccioni,43741
+1381797,Fénix,112495.0,,,1735603200,-,True,Santiago Piccioni,43741
+1474917,Cañuelas FC,252131.0,,,1672444800,-,True,Facundo Díaz,43741
+257461,CSD Flandria,112505.0,Patronato,43741.0,1768348800,Free,True,Fernando Evangelista,43741
+872392,Villa Dálmine,112509.0,Gimnasia Y Esgrima De Jujuy,5292.0,1686787200,Free,True,Alan Sosa,43741
+872392,Real Pilar,266250.0,Villa Dálmine,112509.0,1640995200,Free,True,Alan Sosa,43741
+340521,CSD Flandria,112505.0,Agropecuario Argentino,265787.0,1705017600,Free,True,Alejandro Gagliardi,265787
+340521,CYB Ramón Santamarina,165912.0,CSD Flandria,112505.0,1672531200,Free,True,Alejandro Gagliardi,265787
+340521,Villa Dálmine,112509.0,Gimnasia Y Esgrima De Jujuy,5292.0,1641772800,Free,True,Alejandro Gagliardi,265787
+806381,Alvarado,273715.0,Quilmes Atlético Club,4936.0,1735689600,Free,True,Oscar Belinetz,265787
+806381,Brown de Adrogué,107201.0,Universidad Técnica de Cajamarca,87854.0,1672531200,Free,True,Oscar Belinetz,265787
+806381,Guillermo Brown,53801.0,Brown de Adrogué,107201.0,1643068800,Free,True,Oscar Belinetz,265787
+806381,Juventud Unida Universitario,273210.0,Atlético Paraná,188414.0,1502064000,Free,True,Oscar Belinetz,265787
+1920842,Argentino de Rosario,266184.0,Agropecuario Argentino,265787.0,1784851200,-,True,Juan Cruz Vega,265787
+1920842,Argentino de Rosario,266184.0,Ferrocarril Midland,270344.0,1767744000,-,True,Juan Cruz Vega,265787
+1920842,Argentino de Rosario,266184.0,Universidad Técnica de Cajamarca,87854.0,1753228800,-,True,Juan Cruz Vega,265787
+1920842,Argentino de Rosario,266184.0,San Lorenzo,3201.0,1724371200,-,True,Juan Cruz Vega,265787
+341981,Sarmiento de Resistencia,65670.0,Deportes Iquique,33596.0,1546300800,Free,True,Rodrigo Castro,265787
+341981,Sportivo Belgrano,65664.0,CA Mitre,255425.0,1498867200,Free,True,Rodrigo Castro,265787
+340453,Douglas Haig,76199.0,General Caballero,387619.0,1672531200,Free,True,Santiago Gallucci,265787
+340453,Douglas Haig,76199.0,Unión Española,3153.0,1498867200,Free,True,Santiago Gallucci,265787
+1468709,Independiente de Chivilcoy,261786.0,Agropecuario Argentino,265787.0,1704067200,Free,True,Rodrigo Mosqueira,265787
+2051189,Defensores Villa Ramallo,222513.0,Agropecuario Argentino,265787.0,1736985600,Free,True,Braian Aranda,265787
+2051189,Defensores Villa Ramallo,222513.0,,,1672531200,-,True,Braian Aranda,265787
+789921,Deportivo Merlo,36840.0,Nueva Chicago,3200.0,1338508800,-,True,Damián Lemos,265787
+1495204,Club Comunicaciones,112501.0,Agropecuario Argentino,265787.0,1770163200,-,True,Federico Héctor Pérez,265787
+1495204,Club Comunicaciones,112501.0,Quilmes Atlético Club,4936.0,1704499200,-,True,Federico Héctor Pérez,265787
+257455,Douglas Haig,76199.0,Boca Juniors Reserve,237358.0,1451520000,-,True,Alan Aguirre,265787
+789368,Douglas Haig,76199.0,Estudiantes de Río Cuarto,266694.0,1504051200,Free,True,Fernando Gonzalez,265787
+789368,Olimpo,3222.0,Douglas Haig,76199.0,1468886400,Free,True,Fernando Gonzalez,265787
+932870,Boca Unidos,36835.0,Atlanta,53799.0,1531267200,Unknown,True,Alan Perez,265787
+932870,Boca Unidos,36835.0,Boca Juniors Reserve,237358.0,1404086400,-,True,Alan Perez,265787
+1110290,Brown de Adrogué,107201.0,San Miguel,264945.0,1451606400,Unknown,True,Milton Ramos,265787
+2153514,Guillermo Brown,53801.0,Sarmiento Reserve,256479.0,1767139200,-,True,Danilo Actis,265787
+2153514,El Linqueño,262289.0,Sarmiento Reserve,256479.0,1730332800,-,True,Danilo Actis,265787
+932936,Club Comunicaciones,112501.0,Central Norte de Salta,255426.0,1686096000,Free,True,Germán Salort,265787
+1914534,Defensores Villa Ramallo,222513.0,Belgrano Reserve,248683.0,1703980800,-,True,Mirko Bonfigli,213042
+1094083,Alvarado,273715.0,Deportivo Maipú,213042.0,1767225600,Free,True,Juan Pablo Gobetto,213042
+1094083,Juventud Unida Universitario,273210.0,CA Mitre,255425.0,1704412800,Free,True,Juan Pablo Gobetto,213042
+1094083,Juventud Unida Universitario,273210.0,Club Atlético Chacarita Juniors,3214.0,1600473600,-,True,Juan Pablo Gobetto,213042
+1094083,Fundación Amigos Por El Deporte,340976.0,Juventud Unida Universitario,273210.0,1561939200,Free,True,Juan Pablo Gobetto,213042
+989395,San Martin de Mendoza,213044.0,Boca Juniors Reserve,237358.0,1452556800,15k €,True,Matías Viguet,213042
+1657209,Juventud Unida Universitario,273210.0,Deportivo Maipú,213042.0,1704067200,Free,True,Juan Cruz Arno,213042
+249331,Arsenal de Sarandí,3221.0,Club Atlético Unión de Santa Fe,3204.0,1404086400,-,True,Fausto Montero,213042
+1128477,CSD Flandria,112505.0,Colegiales,112493.0,1672531200,Free,True,Gastón Mansilla,213042
+1128477,Arsenal de Sarandí,3221.0,CSD Flandria,112505.0,1641168000,Free,True,Gastón Mansilla,213042
+1217999,Huracán Las Heras,197278.0,Deportivo Maipú,213042.0,1735603200,-,True,Tomas Silva,213042
+1217999,Sol de Mayo,254166.0,Deportivo Maipú,213042.0,1640995200,Free,True,Tomas Silva,213042
+1479452,Huracán Las Heras,197278.0,,,1637280000,Free,True,Aron Rodrigo Aguero Gimenez,213042
+1465723,Alvarado,273715.0,Deportivo Maipú,213042.0,1767916800,Free,True,Mateo Ortale,213042
+1650473,Juventud Unida Universitario,273210.0,CA Mitre,255425.0,1704412800,10k €,True,Tiago Ferreyra,213042
+2046433,Defensores Villa Ramallo,222513.0,Deportivo Maipú,213042.0,1736812800,Free,True,Nahuel Galardi,213042
+2046433,Fénix,112495.0,Defensores Villa Ramallo,222513.0,1704067200,Free,True,Nahuel Galardi,213042
+988856,Alvarado,273715.0,Huracán,7629.0,1703980800,-,True,Sebastián Ramírez,93513
+1130221,Fénix,112495.0,,,1656633600,Unknown,True,Agustin Gallo,93513
+879873,Alvarado,273715.0,Tristán Suárez,93513.0,1767225600,Free,True,Diego Becker,93513
+879873,Alvarado,273715.0,Rosario Central,3217.0,1593475200,-,True,Diego Becker,93513
+941471,Villa Dálmine,112509.0,CA Independiente,3209.0,1593475200,-,True,Nicolás Del Priore,93513
+1065604,Guillermo Brown,53801.0,Tristán Suárez,93513.0,1767657600,-,True,Maximiliano Luayza,93513
+1065604,Guillermo Brown,53801.0,Almagro,4938.0,1735689600,-,True,Maximiliano Luayza,93513
+1182406,Brown de Adrogué,107201.0,Tristán Suárez,93513.0,1767830400,Free,True,Ayrton Sánchez,93513
+1182406,Brown de Adrogué,107201.0,General Caballero,387619.0,1751500800,-,True,Ayrton Sánchez,93513
+1182406,Brown de Adrogué,107201.0,Quilmes Atlético Club,4936.0,1704844800,-,True,Ayrton Sánchez,93513
+789298,Brown de Adrogué,107201.0,Deportivo Madryn,222120.0,1641168000,Free,True,Nicolas Sanchez,93513
+789298,Villa Dálmine,112509.0,CA Mitre,255425.0,1530403200,Unknown,True,Nicolas Sanchez,93513
+2067056,Defensores Unidos,93515.0,Tigre Reserve,235855.0,1767139200,-,True,Maximo Ferulano,93513
+1085930,Alvarado,273715.0,Gimnasia y Esgrima,3205.0,1756598400,-,True,Diego Mastrangelo,93513
+992971,Arsenal de Sarandí,3221.0,Estudiantes de Río Cuarto,266694.0,1672444800,-,True,Joaquín Bigo,93513
+584698,Sacachispas,184969.0,Estudiantes de Buenos Aires,93107.0,1640995200,Free,True,Daniel Monllor,93513
+584698,Talleres Remedios de Escalada,201162.0,Colegiales,112493.0,1530403200,Unknown,True,Daniel Monllor,93513
+584698,Deportivo Armenio,93105.0,Talleres Remedios de Escalada,201162.0,1469923200,Unknown,True,Daniel Monllor,93513
+875234,UAI Urquiza,112507.0,,,1659225600,Free,True,Joaquín Mendive,93513
+875234,Sacachispas,184969.0,Huracán,7629.0,1593475200,-,True,Joaquín Mendive,93513
+2467108,Deportivo Paraguayo,266133.0,Huracán de Comodoro Rivadavia,495220.0,1672531200,Free,True,Marcos Funes,93513
+1597466,Cañuelas FC,252131.0,Temperley,112499.0,1704067200,50k €,True,Facundo Nicolas Kruger,112499
+1597466,Cañuelas FC,252131.0,Deportes Valdivia,228591.0,1622246400,-,True,Facundo Nicolas Kruger,112499
+789372,Berazategui,269781.0,Temperley,112499.0,1388534400,Unknown,True,Adrián Arregui,112499
+1018402,Sportivo Barracas,200658.0,Temperley Reserve,235860.0,1590969600,-,True,Franco Díaz,112499
+789678,Brown de Adrogué,107201.0,Club Atlético Chacarita Juniors,3214.0,1598918400,Free,True,Luciano Nieto,112499
+789678,Brown de Adrogué,107201.0,Sport Boys Warnes,103267.0,1530403200,-,True,Luciano Nieto,112499
+789678,Guillermo Brown,53801.0,Brown de Adrogué,107201.0,1467331200,Free,True,Luciano Nieto,112499
+789378,Villa Dálmine,112509.0,Lija Athletic FC,44493.0,1599264000,Free,True,Fernando Brandan,112499
+1131817,Brown de Adrogué,107201.0,Argentinos Juniors Reserve,238120.0,1735603200,-,True,Franco Benitez,112499
+1018432,Argentino de Merlo,199311.0,Deportivo Morón,93109.0,1640995200,Free,True,Lucas Angelini,112499
+1018432,San Martin de Burzaco,269780.0,Temperley,112499.0,1559347200,Free,True,Lucas Angelini,112499
+1200740,Alvarado,273715.0,Temperley,112499.0,1767657600,Free,True,Valentino Werro,112499
+1200740,Guillermo Brown,53801.0,Alvarado,273715.0,1738800000,Free,True,Valentino Werro,112499
+2050786,Deportivo Merlo,36840.0,Temperley,112499.0,1736035200,Free,True,Lorenzo Monti,112499
+2050786,Fénix,112495.0,No team,241802.0,1672876800,-,True,Lorenzo Monti,112499
+1469373,CSYD Liniers,192841.0,Temperley,112499.0,1767139200,-,True,Oswaldo Pacheco,112499
+873185,Arsenal de Sarandí,3221.0,Temperley,112499.0,1767139200,-,True,Jerónimo Pourtau,112499
+249639,Club Comunicaciones,112501.0,Club Atlético Platense,36837.0,1420070400,Unknown,True,Ezequiel Mastrolia,112499
+896149,Juventud Antoniana,93519.0,Gimnasia Y Esgrima De Jujuy,5292.0,1768348800,Free,True,Juan Cruz Franzoni,5292
+896149,CSD Flandria,112505.0,Juventud Antoniana,93519.0,1740441600,Free,True,Juan Cruz Franzoni,5292
+896149,Villa Dálmine,112509.0,Central Norte de Salta,255426.0,1676937600,Free,True,Juan Cruz Franzoni,5292
+1094073,Juventud Antoniana,93519.0,Barracas Central,65668.0,1595808000,Free,True,Mauro Cachi,5292
+943794,Villa Dálmine,112509.0,Gimnasia Y Esgrima De Jujuy,5292.0,1704067200,Free,True,Francisco Molina,5292
+943794,Deportivo Armenio,93105.0,Deportivo Madryn,222120.0,1614556800,Unknown,True,Francisco Molina,5292
+943794,Alvarado,273715.0,Sarmiento,42338.0,1562198400,Free,True,Francisco Molina,5292
+943794,Deportivo Armenio,93105.0,Alvarado,273715.0,1467331200,Unknown,True,Francisco Molina,5292
+943794,Alvarado,273715.0,Deportivo Armenio,93105.0,1451606400,Unknown,True,Francisco Molina,5292
+943794,Juventud Unida Universitario,273210.0,Alvarado,273715.0,1420070400,Unknown,True,Francisco Molina,5292
+943794,Alvarado,273715.0,Juventud Unida Universitario,273210.0,1404172800,Free,True,Francisco Molina,5292
+895355,Justo José de Urquiza,201161.0,CS Ben Hur,314092.0,1635724800,Free,True,Maximiliano Casa,5292
+895355,CSD Flandria,112505.0,Atlético San Jorge,930898.0,1404172800,Unknown,True,Maximiliano Casa,5292
+943167,Sportivo Las Parejas,257686.0,Sarmiento,42338.0,1641772800,59k €,True,David Gallardo,5292
+943167,Sportivo Las Parejas,257686.0,Club Ferro Carril Oeste,36841.0,1615420800,-,True,David Gallardo,5292
+943167,Sportivo Las Parejas,257686.0,Tigre,7628.0,1595289600,-,True,David Gallardo,5292
+943167,Villa Dálmine,112509.0,Sportivo Las Parejas,257686.0,1593475200,-,True,David Gallardo,5292
+943167,Sportivo Las Parejas,257686.0,Villa Dálmine,112509.0,1530403200,-,True,David Gallardo,5292
+789631,Guillermo Brown,53801.0,Atlético de Rafaela,34976.0,1501545600,Unknown,True,Nicolas Diego Dematei,5292
+950814,Sportivo Italiano,36843.0,Los Andes,112497.0,1609459200,Free,True,Delfor Minervino,5292
+950814,Club Luján,250840.0,Sportivo Italiano,36843.0,1498867200,Free,True,Delfor Minervino,5292
+895204,Sportivo Italiano,36843.0,Colegiales,112493.0,1420070400,Free,True,Milton Álvarez,5292
+1021871,Juventud Antoniana,93519.0,,,1672531200,-,True,Gonzalo Gómez,5292
+1021871,Huracán Las Heras,197278.0,Gimnasia Y Esgrima De Jujuy,5292.0,1561939200,Free,True,Gonzalo Gómez,5292
+2116602,Central Córdoba de Rosario,211939.0,Deportes Limache,331131.0,1767225600,Free,True,Facundo Marín,270344
+1605507,Talleres Remedios de Escalada,201162.0,Ferrocarril Midland,270344.0,1767225600,Free,True,Rodrigo Cao,270344
+1605507,Deportivo Merlo,36840.0,Talleres Remedios de Escalada,201162.0,1767139200,-,True,Rodrigo Cao,270344
+1605507,Talleres Remedios de Escalada,201162.0,Deportivo Merlo,36840.0,1718668800,-,True,Rodrigo Cao,270344
+1605507,Villa San Carlos,107199.0,Quilmes Reserve,238379.0,1672444800,-,True,Rodrigo Cao,270344
+2229943,Centro Español,248380.0,Ferrocarril Midland,270344.0,1782864000,Unknown,True,Ezequiel Bulacio,270344
+2229943,Centro Español,248380.0,Deportivo Morón,93109.0,1767225600,-,True,Ezequiel Bulacio,270344
+2229943,CSYD Liniers,192841.0,Centro Español,248380.0,1751328000,Free,True,Ezequiel Bulacio,270344
+2229943,Central Ballester,266135.0,CSYD Liniers,192841.0,1736035200,Free,True,Ezequiel Bulacio,270344
+2229943,Lugano,200132.0,Central Ballester,266135.0,1704067200,Free,True,Ezequiel Bulacio,270344
+1109319,Deportivo Laferrere,228062.0,CD Iztapa,111283.0,1686700800,-,True,Marcos Roseti,270344
+1109319,Berazategui,269781.0,Deportivo Laferrere,228062.0,1612137600,Unknown,True,Marcos Roseti,270344
+1084975,Arsenal de Sarandí,3221.0,Ferrocarril Midland,270344.0,1640908800,-,True,Ramiro Luna,270344
+1084975,Leandro Nicéforo Alem,254169.0,Ferrocarril Midland,270344.0,1561939200,Unknown,True,Ramiro Luna,270344
+1119877,Berazategui,269781.0,Ferrocarril Midland,270344.0,1767225600,Free,True,Matías Flores,270344
+1119877,Talleres Remedios de Escalada,201162.0,Berazategui,269781.0,1767139200,-,True,Matías Flores,270344
+1119877,Berazategui,269781.0,Talleres Remedios de Escalada,201162.0,1749686400,-,True,Matías Flores,270344
+1119877,Arsenal de Sarandí,3221.0,Berazategui,269781.0,1749513600,-,True,Matías Flores,270344
+1119877,Berazategui,269781.0,Arsenal de Sarandí,3221.0,1736121600,-,True,Matías Flores,270344
+896864,Cañuelas FC,252131.0,Acassuso,112491.0,1640995200,Free,True,Mauro Frattini,270344
+896864,Deportivo Merlo,36840.0,Cañuelas FC,252131.0,1561939200,Unknown,True,Mauro Frattini,270344
+896864,CSD Flandria,112505.0,Deportivo Merlo,36840.0,1451606400,Unknown,True,Mauro Frattini,270344
+896864,Villa Dálmine,112509.0,CSD Flandria,112505.0,1420070400,Unknown,True,Mauro Frattini,270344
+896864,Deportivo Armenio,93105.0,Villa Dálmine,112509.0,1404172800,Unknown,True,Mauro Frattini,270344
+896864,Deportivo Armenio,93105.0,Godoy Cruz,6074.0,1343779200,Free,True,Mauro Frattini,270344
+1388632,Defensores Villa Ramallo,222513.0,Ferro de General Pico,303784.0,1758672000,Unknown,True,Jesus Camaño,270344
+2138812,Arsenal de Sarandí,3221.0,Ferrocarril Midland,270344.0,1750896000,Free,True,Matías Román Abbruzzese,270344
+2138812,Fénix,112495.0,Arsenal de Sarandí,3221.0,1736640000,Free,True,Matías Román Abbruzzese,270344
+896879,Villa Dálmine,112509.0,Rosario Central Reserve,235853.0,1498780800,-,True,Luciano Recalde,270344
+2065837,Villa Mitre,226815.0,CS Ben Hur,314092.0,1760745600,Unknown,True,Genaro Cepeda,270344
+2065837,Defensores Villa Ramallo,222513.0,Villa Mitre,226815.0,1737590400,Free,True,Genaro Cepeda,270344
+2065837,Defensores Villa Ramallo,222513.0,CS Ben Hur,314092.0,1666137600,-,True,Genaro Cepeda,270344
+883927,Sportivo Italiano,36843.0,Ferrocarril Midland,270344.0,1767225600,Free,True,Emilio Porro,270344
+883927,Excursionistas,65672.0,Acassuso,112491.0,1672531200,Free,True,Emilio Porro,270344
+1196717,Deportivo Merlo,36840.0,Ferro Carril Oeste Reserve,267566.0,1735603200,-,True,Mariano Penepil,270344
+1627971,Fénix,112495.0,Ferrocarril Midland,270344.0,1735689600,Free,True,Lautaro Díaz Laharque,270344
+1627971,CA Atlas,200133.0,Fénix,112495.0,1719792000,Free,True,Lautaro Díaz Laharque,270344
+1627971,CA Atlas,200133.0,San Miguel,264945.0,1672531200,-,True,Lautaro Díaz Laharque,270344
+1627971,Deportivo Muñiz,266136.0,CA Atlas,200133.0,1546300800,-,True,Lautaro Díaz Laharque,270344
+1468717,Independiente de Chivilcoy,261786.0,Ferrocarril Midland,270344.0,1704067200,Free,True,Mauro Leguiza,270344
+2446693,Sacachispas,184969.0,Ferrocarril Midland,270344.0,1767225600,Free,True,Santiago García,270344

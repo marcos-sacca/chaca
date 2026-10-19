@@ -1,0 +1,631 @@
+﻿player_id,name,position,jersey_number,country,height,preferred_foot,date_of_birth_ts,market_value_eur,team_id
+868706,Alejandro Gabriel Quintana,F,20,Argentina,190.0,Right,698544000.0,180000.0,53799
+790757,Federico Castro,F,20,Argentina,176.0,Right,714960000.0,180000.0,53799
+2715986,Gabriel Potense,F,18,Argentina,,,,,53799
+1537843,Ignacio Rodríguez,M,9,Uruguay,178.0,Right,1100044800.0,240000.0,53799
+1065612,Tomás Castro Ponce,M,8,Argentina,186.0,Right,983664000.0,230000.0,53799
+1092324,Alejo Dramisino,M,29,Argentina,178.0,Left,956102400.0,255000.0,53799
+906807,Nicolás Previtali,M,5,Argentina,184.0,,805075200.0,370000.0,53799
+817519,Braian Rivero,M,21,Argentina,178.0,Right,824947200.0,120000.0,53799
+1104321,Federico Bisanz,M,11,Argentina,181.0,Left,998956800.0,245000.0,53799
+1085344,Jere Puch,M,21,Argentina,171.0,Left,926726400.0,285000.0,53799
+1120461,Lautaro Fedele,M,18,Argentina,164.0,Right,995068800.0,290000.0,53799
+1486149,Federico Álvarez,M,7,Argentina,179.0,Right,986428800.0,97000.0,53799
+842861,Christian Bernardi,M,10,Argentina,179.0,Right,639705600.0,80000.0,53799
+2024668,Julián Aquino,M,32,Argentina,160.0,Both,1077840000.0,55000.0,53799
+1126750,Agustín Morales,M,18,Argentina,170.0,Right,918950400.0,24000.0,53799
+1086340,Kevin Benitez,M,17,Argentina,174.0,Left,1010188800.0,,53799
+2511117,Matías Ibarra,M,10,,,,,,53799
+2108207,Mateo Araujo,M,23,Argentina,176.0,Right,1116288000.0,,53799
+122618,Leonel Galeano,D,6,Argentina,183.0,Right,681091200.0,235000.0,53799
+1093193,Patricio Ostachuk,D,5,Argentina,180.0,Right,957484800.0,190000.0,53799
+974709,Martín García,D,16,Argentina,177.0,Right,904003200.0,300000.0,53799
+1891466,Tomás Rojas,D,6,Argentina,191.0,Left,1021939200.0,360000.0,53799
+358966,Rodrigo Moreira,D,2,Argentina,185.0,Right,837388800.0,165000.0,53799
+1875390,Rodrigo Sosa,D,3,Argentina,179.0,Left,1027209600.0,71000.0,53799
+1468116,Gustavo Mendoza,D,4,Argentina,175.0,Right,798681600.0,120000.0,53799
+2047965,Dylan Argüello,D,14,Argentina,166.0,Left,1081900800.0,26000.0,53799
+2050840,Rodrigo Sosa,D,3,Argentina,174.0,Left,1019692800.0,,53799
+1657207,Thiago Román Herrera,D,13,Argentina,177.0,Right,1107216000.0,,53799
+2465565,Santino Pasini,D,13,Argentina,187.0,Left,1133222400.0,,53799
+989677,Lautaro López,G,12,Argentina,191.0,,980294400.0,77000.0,53799
+992089,Juan Rago,G,1,Argentina,185.0,Right,594259200.0,77000.0,53799
+2053533,Lautaro López Kaleniuk,G,12,Argentina,,,,,53799
+1972040,Rocco Pasquale,G,12,Argentina,,Right,1109376000.0,,53799
+2589597,Francisco Villafañe,G,12,Argentina,,,1150329600.0,,53799
+1217907,Nahuel Urtasun,,15,Argentina,,,,,53799
+2162010,Tiago Romero,,19,Argentina,,,,,53799
+2634068,Gonzalo Sebastián Miranda,,,,,,,,53799
+1021876,Agustín Lavezzi,F,7,Argentina,177.0,Right,821664000.0,325000.0,4936
+1167615,Aaron Spetale,F,20,Argentina,187.0,Right,959472000.0,73000.0,4936
+2163525,Gabriel Vazquez,F,9,Argentina,178.0,Left,1208736000.0,155000.0,4936
+2073026,Jano Coronel,F,20,Argentina,173.0,Right,1075939200.0,115000.0,4936
+1465721,Pio Bonacci,F,20,Argentina,189.0,Right,909360000.0,290000.0,4936
+2678866,Gonzalo Vega,F,,Argentina,,,1186531200.0,,4936
+1183942,Juan Yangali,M,25,Argentina,168.0,Left,951955200.0,71000.0,4936
+1512471,Axel Batista,M,17,Argentina,182.0,Right,1020902400.0,205000.0,4936
+1465702,Ulises Vera,M,11,Argentina,181.0,Right,1066694400.0,170000.0,4936
+174509,Mauro Fernández,M,18,Argentina,171.0,Right,607305600.0,24000.0,4936
+895347,Agustín Bolívar,M,5,Argentina,173.0,Right,821145600.0,205000.0,4936
+1799515,Ramiro Martínez,M,8,Argentina,180.0,Right,1064620800.0,140000.0,4936
+966531,Joaquín Novillo,D,6,Argentina,190.0,Left,887846400.0,215000.0,4936
+1017439,Thomas Ortega,D,3,Argentina,185.0,Left,976060800.0,170000.0,4936
+106294,Nicolás Colazo,D,19,Argentina,178.0,Left,647395200.0,24000.0,4936
+1908080,Lucas Romeo,D,13,Argentina,182.0,Right,1084492800.0,,4936
+1514482,Martín Vallejos,D,4,Argentina,178.0,Right,977702400.0,160000.0,4936
+971170,Agustín Bindella,D,14,Argentina,171.0,Left,983750400.0,73000.0,4936
+883236,Ariel Kippes,D,2,Argentina,184.0,Right,762134400.0,270000.0,4936
+1020507,Esteban Glellel,G,12,Syria,185.0,Right,915753600.0,285000.0,4936
+42571,Gonzalo Marinelli,G,1,Argentina,180.0,Right,602812800.0,52000.0,4936
+2174953,Joaquín Canadell,G,,Argentina,190.0,,1050710400.0,,4936
+2708985,Mateo Rodriguez,G,14,Argentina,,,1144368000.0,,4936
+2295534,Thiago Mejias,,19,,,,,,4936
+2295790,Santino Ezequiel Rodriguez,,,Argentina,,,1230768000.0,,4936
+2573081,Santino Rodriguez,,,,,,,,4936
+882607,Alexis Rodríguez,F,21,Argentina,170.0,Right,827366400.0,275000.0,34976
+1485384,Martiniano Moreno,F,7,Argentina,178.0,Right,1052870400.0,435000.0,34976
+129862,Mauro Quiroga,F,18,Argentina,190.0,Left,628992000.0,23000.0,34976
+248105,Lucas Albertengo,F,9,Argentina,178.0,Right,665193600.0,27000.0,34976
+922441,Agustín Obando,M,19,Argentina,172.0,Left,952732800.0,68000.0,34976
+249301,Juan Cavallaro,M,19,Argentina,171.0,Right,772761600.0,120000.0,34976
+1085228,Gabriel Esparza,M,11,Argentina,168.0,Left,728352000.0,110000.0,34976
+1087031,Matías Morello,M,,Argentina,185.0,Right,981936000.0,73000.0,34976
+895207,Matías Pardo,M,11,Argentina,169.0,Right,797212800.0,54000.0,34976
+796999,Ijiel Cesar Protti,M,20,Argentina,180.0,Left,791510400.0,27000.0,34976
+981460,Nahuel Cainelli,M,11,Argentina,178.0,Right,777168000.0,135000.0,34976
+249899,Federico Jourdan,M,28,Argentina,175.0,Right,663724800.0,68000.0,34976
+857479,Facundo Soloa,M,5,Argentina,172.0,Right,846979200.0,130000.0,34976
+249905,Marcos Gabriel Fernandez,M,16,Argentina,176.0,Right,735264000.0,,34976
+1981620,Thomas Rojas,M,17,Argentina,180.0,Right,1117152000.0,,34976
+333761,Juan Capurro,M,8,Argentina,178.0,Right,774576000.0,54000.0,34976
+1498725,Luciano Biolatto,M,17,Argentina,,,,,34976
+1839311,Alejo Macellari,M,17,Argentina,179.0,,,,34976
+1917953,Damiano Jaime,M,16,Argentina,173.0,Right,1141171200.0,,34976
+1561867,Lisandro Merlino,M,23,Argentina,178.0,Left,,,34976
+2466108,Valentino Arro,M,,Argentina,171.0,Right,1114646400.0,,34976
+2613313,Nicolas Solveyra,M,,Argentina,,,,,34976
+1020055,Nicolás Ramos,D,3,Uruguay,183.0,Right,921024000.0,240000.0,34976
+1897921,Enzo Wuattier,D,3,Argentina,176.0,Left,1114560000.0,93000.0,34976
+1393579,Ulises Yegros,D,3,Argentina,183.0,Right,987811200.0,185000.0,34976
+1425093,Ariel Gonzalez,D,,Argentina,176.0,Right,1124150400.0,24000.0,34976
+1819628,Lorenzo Moscoloni,D,3,Argentina,178.0,Left,1075334400.0,,34976
+927671,Leonardo Flores,D,14,Argentina,169.0,Right,858556800.0,105000.0,34976
+974663,Roque Ramírez,D,,Argentina,177.0,Left,934761600.0,26000.0,34976
+1863004,Luciano Echeverria,D,36,Argentina,189.0,Right,1082505600.0,,34976
+1111807,Gabriel Fernandez,D,13,Argentina,188.0,Right,702259200.0,27000.0,34976
+1018461,Fernando Ponce,D,6,Argentina,184.0,Left,711849600.0,24000.0,34976
+1653800,Ignacio Schaab,D,,Argentina,,,1011225600.0,,34976
+1876773,Agustin Solveyra,D,4,Argentina,186.0,Right,978566400.0,105000.0,34976
+932900,Gabriel Fernández,D,2,Argentina,,,733795200.0,205000.0,34976
+830709,Ramiro Martinez,G,12,Argentina,178.0,Right,671932800.0,46000.0,34976
+1507131,Mayco Bergia,G,1,Argentina,190.0,Right,996451200.0,155000.0,34976
+2550434,Jeremias Torrens,,,,,,,,34976
+1834396,Ignacio Fernández,,,Argentina,,,1058832000.0,,34976
+2488998,Joel Bonifácio,,17,,,,,,34976
+1184847,Facundo De La Vega,F,22,Argentina,190.0,Right,1050364800.0,110000.0,4938
+1464536,Tiziano Dornell,F,9,Argentina,184.0,Right,1119484800.0,185000.0,4938
+1597479,Joel  Orlando,F,19,Argentina,188.0,Right,1130371200.0,135000.0,4938
+546342,Julián Marchioni,M,5,Argentina,181.0,Right,731808000.0,240000.0,4938
+146950,Matías Laba,M,5,Argentina,176.0,Right,692409600.0,47000.0,4938
+1597501,Juan Martín Fernández Pinto,M,15,Argentina,171.0,Right,1120694400.0,70000.0,4938
+949680,Franco Bustamante,M,18,Argentina,167.0,Right,921456000.0,105000.0,4938
+824589,Claudio Salto,M,10,Argentina,183.0,Right,789177600.0,170000.0,4938
+1186583,Tobias Macies,M,8,Argentina,174.0,Right,972777600.0,73000.0,4938
+2179446,Thiago José López,M,10,Argentina,175.0,Right,1089763200.0,54000.0,4938
+928937,Enzo Martinez,M,17,Argentina,178.0,Right,842227200.0,53000.0,4938
+2484722,Jeremías Bustos,M,11,Argentina,182.0,Left,1058486400.0,24000.0,4938
+2485449,Santino Sparapani,M,,Argentina,168.0,Right,1232236800.0,,4938
+1385659,Francisco Marco,D,13,Argentina,192.0,Left,1056672000.0,97000.0,4938
+989991,Brian Negro,D,6,Argentina,182.0,Left,873676800.0,190000.0,4938
+1179176,Nicolás Tolosa,D,14,Argentina,176.0,Left,991267200.0,24000.0,4938
+868363,Gonzalo Asis,D,4,Argentina,174.0,Right,827971200.0,97000.0,4938
+796601,Julian Vitale,D,6,Argentina,182.0,Right,803692800.0,140000.0,4938
+933181,Matías Cortave,D,2,Argentina,189.0,Right,709603200.0,81000.0,4938
+1109105,Enzo Silcan,D,3,Argentina,182.0,Left,959385600.0,97000.0,4938
+2045703,Aldo Rimbelitti,D,14,Argentina,173.0,Right,1073692800.0,,4938
+2125422,Santiago Chamorro,D,,Argentina,182.0,Right,1054252800.0,,4938
+2485104,Joaquin Flores,D,,Argentina,,,,,4938
+993236,Emiliano González,G,1,Argentina,194.0,Right,896400000.0,330000.0,4938
+2465616,Franco Mangudo,G,,Argentina,185.0,Right,1122422400.0,,4938
+849173,Sebastian Anchoverri,G,,Argentina,181.0,Right,672624000.0,,4938
+2059485,Maku Ivars,G,12,,,,,,4938
+2485499,Pedro Blanco,,,,,,,,4938
+2484757,Juan Fernándes Pinto,,16,,,,,,4938
+2484785,Uriel Villalobos,,,,,,,,4938
+2485450,Santino Colangelo,,,,,,,,4938
+2485480,Roman Sanchez,,,,,,,,4938
+2485491,Julian Rodriguez,,,Argentina,,,,,4938
+2619295,Canale,,,,,,,,4938
+879625,Alexis Domínguez,F,9,Argentina,185.0,Right,846633600.0,325000.0,3214
+2229958,Francisco Cristaldo,F,11,Argentina,181.0,Right,1085270400.0,,3214
+2469254,Francisco Cristaldo,F,,Argentina,181.0,,1080172800.0,,3214
+789438,Cristian Guanca,M,10,Argentina,177.0,Left,733190400.0,2100000.0,3214
+249081,Mauricio Cuero,M,7,Colombia,176.0,Right,728179200.0,110000.0,3214
+1798778,Maximiliano Meléndez,M,8,Argentina,178.0,Right,1083888000.0,410000.0,3214
+1114870,Misael Jaime,M,11,Argentina,172.0,Both,1073952000.0,26000.0,3214
+1385490,Mario Sanabria,M,7,Argentina,170.0,Right,1027555200.0,155000.0,3214
+829936,Luciano Perdomo,M,15,Argentina,174.0,Right,842313600.0,73000.0,3214
+1835747,Lucas Bustos,M,17,Argentina,174.0,Right,1112140800.0,26000.0,3214
+1387036,Tomás Pérez Serra,M,5,Argentina,186.0,Right,910915200.0,205000.0,3214
+981450,Alvaro Cuello,M,10,Argentina,185.0,Right,771638400.0,145000.0,3214
+1835745,Lorenzo Brun,M,38,Argentina,168.0,Right,1120953600.0,,3214
+2169729,André Maldonado,M,,Argentina,172.0,Right,1183939200.0,,3214
+1899412,Tomás Pizarro,M,,Argentina,173.0,Left,1041379200.0,110000.0,3214
+2203592,Barrios,M,15,,,,,,3214
+122616,Sergio Vittor,D,14,Argentina,189.0,Right,613353600.0,97000.0,3214
+1086937,Brian Calderara,D,3,Argentina,170.0,Left,907200000.0,105000.0,3214
+2050732,Tomas Migliore,D,3,Argentina,188.0,Left,1091491200.0,,3214
+1020496,Nicolás Chávez,D,17,Argentina,170.0,Left,978307200.0,69000.0,3214
+1111886,Milton Leyendeker,D,14,Argentina,185.0,Right,889315200.0,105000.0,3214
+777343,Nicolás Pantaleone,D,6,Argentina,180.0,Left,729993600.0,52000.0,3214
+2044356,Gonzalo Dell Aquila,D,15,Argentina,,,991353600.0,,3214
+2465617,Francisco Facello,D,,Argentina,170.0,Right,1042243200.0,23000.0,3214
+1897541,Dylan Duran,D,15,Argentina,177.0,,1097539200.0,,3214
+1966878,Santiago Acosta,D,13,Argentina,173.0,Right,1130112000.0,,3214
+2054523,Nicolás Dell Aquila,D,4,Argentina,172.0,Right,991353600.0,77000.0,3214
+107418,Enrique Bologna,G,1,Argentina,189.0,Right,382406400.0,,3214
+1003020,Federico Losas,G,12,Argentina,183.0,Right,1017273600.0,145000.0,3214
+1187528,Gastón Fernández,G,12,Argentina,187.0,Right,946857600.0,,3214
+1974174,Ezequiel Geréz,,20,,,,,,3214
+1883869,Adriano Nicastro,,17,,,,,,3214
+2574161,Thiago dos Santos,,,,,,,,3214
+1117089,Nazareno Fúnez,F,23,Argentina,187.0,Left,991440000.0,270000.0,7772
+1117035,Genaro Rossi,F,9,Argentina,181.0,Right,1025568000.0,77000.0,7772
+974679,Franco Coronel,F,,Argentina,170.0,Right,742089600.0,135000.0,7772
+1654447,Luciano Riveros,F,20,Argentina,185.0,Left,1083801600.0,,7772
+2564536,Lautaro Agüero,F,17,Argentina,,,,,7772
+2564987,Lautaro Aguero,F,,Argentina,,,1041379200.0,,7772
+2723737,Lautaro Agüero,F,,Argentina,,,1058140800.0,,7772
+1087068,Luciano Ferreyra,M,15,Argentina,164.0,Right,1014076800.0,430000.0,7772
+830747,Guillermo Acosta,M,8,Argentina,168.0,Right,594259200.0,26000.0,7772
+250015,Gabriel Hachen,M,21,Argentina,167.0,Left,656035200.0,105000.0,7772
+943795,Sebastián Jaurena,M,22,Argentina,175.0,Right,932601600.0,240000.0,7772
+79711,Sebastian Gonzalez,M,19,Argentina,175.0,Right,699667200.0,105000.0,7772
+1523681,Bruno Juncos,M,18,Argentina,178.0,Left,1011657600.0,77000.0,7772
+1109997,Ramiro Rúmbolo,M,10,Argentina,173.0,Right,1068681600.0,26000.0,7772
+1095005,Leonardo Monje,M,5,Argentina,175.0,Right,1017100800.0,71000.0,7772
+915163,Diego Mercado,M,5,Argentina,169.0,Right,852249600.0,120000.0,7772
+316030,Nicolas Pelaitay,M,15,Argentina,168.0,Right,725414400.0,135000.0,7772
+1444671,Lucas Acosta,M,,Argentina,179.0,Left,1113868800.0,27000.0,7772
+801254,Carlo Lattanzio,M,11,Argentina,178.0,Left,869788800.0,165000.0,7772
+1187878,Nicolás Iachetti,M,7,Argentina,179.0,,956275200.0,26000.0,7772
+1189173,Nicolás Paz,D,32,Argentina,180.0,Right,1034726400.0,425000.0,7772
+1431953,Manuel Cocca,D,13,Argentina,182.0,Left,1036713600.0,185000.0,7772
+147576,Emanuel Aguilera,D,28,Argentina,188.0,Right,613526400.0,46000.0,7772
+1179170,Hernán Zuliani,D,16,Argentina,180.0,Left,1070236800.0,380000.0,7772
+914144,Facundo Nadalín,D,14,Argentina,176.0,Right,871689600.0,220000.0,7772
+887428,Mauro Osores,D,2,Argentina,190.0,Right,856396800.0,205000.0,7772
+1182427,Julián Marchio,D,6,Argentina,188.0,Left,971481600.0,97000.0,7772
+897111,Leonel Álvarez,D,3,Argentina,166.0,Left,827712000.0,45000.0,7772
+971201,Federico Murillo,D,4,Argentina,176.0,Right,852336000.0,270000.0,7772
+2058162,Gonzalo Matias Lucero,D,31,Argentina,170.0,Left,1070064000.0,,7772
+1392591,Dante Alvarez,D,,Argentina,,,,,7772
+1131034,Sebastián Díaz,G,12,Argentina,185.0,Right,1067644800.0,130000.0,7772
+1201403,Lautaro Garzón,G,42,Argentina,178.0,Right,1059523200.0,24000.0,7772
+830706,Maximiliano Velazco,G,1,Argentina,186.0,Right,794620800.0,110000.0,7772
+789879,Federico Bonansea,G,12,Argentina,183.0,Right,889747200.0,27000.0,7772
+2522963,Sebastian Robles,G,,,,,,,7772
+1182428,Lautaro Gordillo,F,9,Argentina,183.0,Right,923356800.0,390000.0,222126
+603758,Nicolás Contín,F,20,Argentina,183.0,Right,818294400.0,170000.0,222126
+1799507,Juan Ignacio Capano,F,15,Argentina,186.0,Right,1065916800.0,77000.0,222126
+2057369,Juan Turletti,F,19,Argentina,183.0,,1109116800.0,,222126
+341077,Walter Montoya,M,59,Argentina,172.0,Right,743212800.0,180000.0,222126
+859965,Nicolás Rinaldi,M,10,Argentina,185.0,Right,746064000.0,215000.0,222126
+1016652,Tiago Banega,M,18,Argentina,177.0,Right,930787200.0,92000.0,222126
+1627952,Fabricio Rojas,M,11,Argentina,167.0,Right,973814400.0,215000.0,222126
+384262,Jonás Aguirre,M,7,Argentina,170.0,Left,699753600.0,105000.0,222126
+940609,Franco Sivetti,M,8,Argentina,178.0,Right,896486400.0,54000.0,222126
+1523699,Juan Capano,M,15,Argentina,,,1066780800.0,,222126
+1182423,Juan Rocca,M,7,Argentina,168.0,Right,955670400.0,49000.0,222126
+1197976,Matías Birge,M,20,Argentina,173.0,Right,600825600.0,,222126
+796581,Manuel Guanini,D,2,Argentina,193.0,Right,824256000.0,230000.0,222126
+830657,Lautaro Montoya,D,3,Argentina,180.0,Left,781488000.0,130000.0,222126
+940695,Juan Galetto,D,4,Argentina,170.0,Right,843264000.0,73000.0,222126
+385424,Gonzalo Manuel Soto,D,6,Argentina,190.0,Both,639100800.0,23000.0,222126
+889493,Gabriel Díaz,D,6,Argentina,186.0,Right,624585600.0,,222126
+849028,Ivo Chaves,D,4,Argentina,174.0,Right,741398400.0,73000.0,222126
+1197979,Ruben Villarreal,D,3,Argentina,176.0,Left,667267200.0,,222126
+1117452,Adolfo Tallura,D,13,Argentina,180.0,Right,545011200.0,,222126
+789396,Joaquin Matias Papaleo,G,1,Argentina,188.0,Right,764380800.0,120000.0,222126
+896983,Federico Cosentino,G,12,Argentina,186.0,Right,557452800.0,,222126
+2574127,Santiago Nogales,G,,Argentina,190.0,,883180800.0,,222126
+2708088,Santiago Nogales Gallardo,G,,Argentina,,,883180800.0,,222126
+2222529,Daniel Villalva,,15,,,,,,222126
+2076844,Adrian Vega,,22,Argentina,,,,,222126
+2575390,Pablo Rodriguez,,17,,,,1123459200.0,,222126
+2688821,Agustin Rodríguez,,,,,,1218153600.0,,222126
+2698054,Lucas Rodríguez,,,,,,,,222126
+1501343,Mateo Mamani,F,7,Argentina,170.0,Left,1023321600.0,26000.0,112493
+871833,Nicolas Toloza,F,9,Argentina,183.0,Right,910310400.0,140000.0,112493
+2468547,Lucas Tomas Juarez,F,18,Argentina,162.0,Right,1135296000.0,,112493
+2041930,Rodrigo Monserrat,F,19,Argentina,186.0,Right,975715200.0,47000.0,112493
+2237697,Tomás Perri,F,,Argentina,,,1224547200.0,24000.0,112493
+834022,Mauro Albertengo,F,20,Argentina,186.0,Right,631411200.0,,112493
+2044348,Brian Romero,F,,Argentina,,,1088553600.0,,112493
+2467846,Lucas Juarez,F,17,,,,,,112493
+1800520,Lucas Ricciotti,F,,Argentina,180.0,Right,1050364800.0,,112493
+1639945,Elias Ocampo,M,8,Argentina,167.0,Right,1077753600.0,165000.0,112493
+1627957,Franco Zicarelli,M,18,Argentina,174.0,Right,1017187200.0,110000.0,112493
+898756,Mateo Ramirez,M,23,Argentina,186.0,Right,790387200.0,24000.0,112493
+1201524,Lucio Castillo,M,10,Argentina,162.0,Left,1010707200.0,140000.0,112493
+860053,Federico Marín,M,5,Argentina,179.0,Right,890697600.0,79000.0,112493
+581732,Enzo Trinidad,M,11,Argentina,179.0,Left,843091200.0,145000.0,112493
+2049764,Tomas Almada,M,15,Argentina,174.0,Right,1118275200.0,23000.0,112493
+1819646,Franco  Zicarelli,M,10,Argentina,174.0,Right,1009843200.0,,112493
+2044350,Facundo Montiel,M,14,Argentina,185.0,Right,1098316800.0,105000.0,112493
+2153513,Leonardo Hernán González,M,15,Argentina,175.0,Right,986256000.0,24000.0,112493
+1020528,Fernando Miranda,M,16,Argentina,173.0,Right,876787200.0,110000.0,112493
+2688262,Alejo Acevedo,M,16,Argentina,,Right,1247529600.0,,112493
+250345,Emanuel Insua,D,13,Argentina,181.0,Left,671155200.0,130000.0,112493
+1490357,Franco Hanashiro,D,3,Argentina,169.0,Left,997401600.0,220000.0,112493
+2113608,Leonel Ortiz,D,2,Argentina,195.0,Right,1014422400.0,48000.0,112493
+1210374,Facundo Rivero,D,2,Argentina,190.0,Both,744681600.0,97000.0,112493
+941468,Leandro Martínez Montagnoli,D,4,Argentina,187.0,Right,545961600.0,,112493
+895337,Franco Malagueño,D,4,Argentina,167.0,Right,907977600.0,97000.0,112493
+830619,Emilio Di Fulvio,G,1,Argentina,188.0,Left,800668800.0,250000.0,112493
+1102453,Augusto Alcorcel,G,12,Argentina,188.0,Right,966211200.0,26000.0,112493
+1836920,Gustavo Calderari,G,,Argentina,188.0,Right,1076889600.0,,112493
+2044377,Santiago Coronel,G,,Argentina,,,1062028800.0,,112493
+2476617,Ezequiel Aguirre,,6,,,,,,112493
+226544,Juan Sánchez Sotelo,F,20,Argentina,180.0,Right,560131200.0,53000.0,224646
+1092609,Santiago Sala,F,7,Argentina,176.0,Left,1006992000.0,140000.0,224646
+2036963,Bautista Gerez,F,39,Argentina,182.0,,1168646400.0,27000.0,224646
+2086030,Ciro Andrés Leineker,F,9,Argentina,183.0,Right,1022803200.0,23000.0,224646
+2289926,Pablo Alvarenga,F,20,Paraguay,,,,,224646
+1654395,Hernan Brylko,F,19,,,,,,224646
+981329,Axel Pinto,F,19,Argentina,168.0,Right,969235200.0,,224646
+1482461,Lucas Guiñazú,M,33,Paraguay,181.0,Right,1156464000.0,325000.0,224646
+122614,Fernando Godoy,M,11,Argentina,172.0,Right,641520000.0,24000.0,224646
+1067810,Maico Quiroz,M,14,Argentina,174.0,Right,1006214400.0,96000.0,224646
+1464121,Gianfranco Baier,M,5,Argentina,176.0,Right,919296000.0,93000.0,224646
+941539,Gianluca Pugliese,M,18,Argentina,179.0,Right,762998400.0,23000.0,224646
+1835863,Santiago Farrera,M,,Argentina,171.0,Left,1130976000.0,,224646
+1134870,David Véliz,M,10,Argentina,180.0,Left,962323200.0,160000.0,224646
+1654083,Franco Berges,M,16,Argentina,179.0,Right,993859200.0,105000.0,224646
+1092303,Iván Ortigoza,M,,Argentina,167.0,Left,794880000.0,110000.0,224646
+1654394,Milton Gerez,M,7,Argentina,178.0,Right,883094400.0,155000.0,224646
+1469371,Néstor Tobías Arévalos,M,15,Paraguay,178.0,Left,959731200.0,49000.0,224646
+2619819,Jonas Crranza,M,19,Argentina,,,,,224646
+583660,Marcelo Benítez,D,3,Argentina,178.0,Left,663724800.0,27000.0,224646
+1015630,Óscar Vanegas,D,2,Colombia,185.0,Right,831427200.0,145000.0,224646
+871814,Tomás Oneto,D,13,Argentina,185.0,Right,887846400.0,24000.0,224646
+863307,Facundo Rizzi,D,15,Argentina,175.0,Left,872726400.0,26000.0,224646
+1879573,Emilio Lazza,D,,Argentina,189.0,Left,773712000.0,70000.0,224646
+872142,Axel Bordon,D,14,Argentina,173.0,Right,827971200.0,23000.0,224646
+1891530,Walter Juárez,D,2,Argentina,178.0,Right,913766400.0,130000.0,224646
+974662,Facundo Melillan,D,13,Argentina,183.0,Left,861753600.0,45000.0,224646
+1114508,Matías Martínez,D,6,Argentina,185.0,Right,972777600.0,23000.0,224646
+2465598,Rodrigo Arnay,D,,Argentina,,Right,1120435200.0,,224646
+2699574,Alan Indalecio González,D,,Argentina,,,1077667200.0,,224646
+892473,Leandro Finochietto,G,1,Argentina,187.0,Right,861926400.0,120000.0,224646
+1131366,Laureano Martínez,G,12,Argentina,188.0,Right,1015200000.0,195000.0,224646
+2077679,Tomás Palleres,G,,Argentina,186.0,Right,941673600.0,,224646
+875307,Alan Gonzalez,G,,Argentina,185.0,Right,837820800.0,24000.0,224646
+2701809,Axel Tevez,G,12,,,,728611200.0,,224646
+2607407,Julian Juarez,,,,,,,,224646
+2626706,Jonas Carranza,,,,,,,,224646
+800243,Facundo Castro,F,20,Argentina,177.0,Right,825465600.0,185000.0,3200
+1018462,Sebastián Cocimano,F,9,Argentina,186.0,Right,958694400.0,325000.0,3200
+1485386,Mauro Pérez,F,19,Argentina,177.0,Right,1045440000.0,135000.0,3200
+158255,Alan Ruiz,M,16,Argentina,181.0,Left,745718400.0,290000.0,3200
+1131028,Gabriel Vega,M,27,Argentina,186.0,Right,1019088000.0,130000.0,3200
+2228012,Thiago Ocampo,M,,Argentina,169.0,Right,1220745600.0,210000.0,3200
+1022263,Enzo Roldán,M,10,Argentina,176.0,Right,976233600.0,210000.0,3200
+974656,Evelio Cardozo,M,11,Argentina,170.0,Right,981417600.0,155000.0,3200
+1416978,Matías Bergara,M,15,Argentina,175.0,Left,1074038400.0,230000.0,3200
+1097567,Lucas Ambrogio,M,10,Argentina,181.0,Right,931046400.0,350000.0,3200
+841958,Emiliano Méndez,M,5,Argentina,186.0,Right,603504000.0,,3200
+1537856,Lucas Vázquez,M,19,Argentina,171.0,Left,1074124800.0,,3200
+1392510,Tomas Rodriguez,M,8,Argentina,174.0,Right,1014249600.0,180000.0,3200
+1835828,Diego Barros,M,10,Argentina,171.0,Left,1133136000.0,27000.0,3200
+1102451,Maximiliano Rogoski,M,7,Argentina,176.0,Right,771811200.0,97000.0,3200
+1087336,Rodrigo Rámirez,M,14,Argentina,173.0,Right,946771200.0,110000.0,3200
+989881,Ramiro Balbuena,M,17,Argentina,176.0,Left,951696000.0,49000.0,3200
+2074186,Javier Pereyra,M,16,Argentina,175.0,Right,988761600.0,,3200
+2074294,Christopher Ocampo,M,7,USA,,,1169683200.0,,3200
+2216610,Nazareno Petrecca,M,20,Argentina,,,1145836800.0,27000.0,3200
+1020575,Lucas López,M,20,Argentina,179.0,Left,893721600.0,,3200
+2044354,Germán Mansilla,M,17,Argentina,175.0,Right,890697600.0,,3200
+2044387,Tomás Orqueida,M,,Argentina,,,1061596800.0,,3200
+1482278,Gonzalo Trindade,D,3,Argentina,174.0,Left,1084406400.0,135000.0,3200
+128384,Dylan Gissi,D,6,Switzerland,191.0,Right,672710400.0,53000.0,3200
+1015313,Elías Machuca,D,13,Argentina,180.0,Right,1048809600.0,27000.0,3200
+1109995,Gonzalo Paz,D,6,Argentina,180.0,Left,739324800.0,160000.0,3200
+1095779,Bruno Palazzo,D,4,Argentina,184.0,Right,974505600.0,315000.0,3200
+249999,Guillermo Ferracutti,D,13,Argentina,175.0,Left,666230400.0,81000.0,3200
+1498998,Diego Arroyo,D,3,Argentina,174.0,Left,1044576000.0,105000.0,3200
+2003707,Román Zalazar,D,2,Argentina,185.0,Right,1104710400.0,82000.0,3200
+992104,Matías Vera,D,4,Argentina,174.0,,879984000.0,54000.0,3200
+2465623,Ian Silveira,D,,Argentina,,Left,1140480000.0,,3200
+973551,Iván Antunes,D,,Argentina,179.0,Right,893289600.0,165000.0,3200
+2065626,Gerónimo Velozo,D,3,Argentina,187.0,Left,1057536000.0,,3200
+1597481,Matías Fernando Vera,D,4,Argentina,174.0,Right,903571200.0,,3200
+1086974,Facundo Masuero,G,12,Argentina,190.0,Right,959040000.0,220000.0,3200
+1020522,Luciano Jachfe,G,12,Argentina,185.0,Left,995414400.0,355000.0,3200
+1117068,Lautaro Ovando,F,7,Argentina,172.0,Right,1044835200.0,190000.0,23950
+288317,Diego Diellos,F,20,Argentina,183.0,Right,748828800.0,160000.0,23950
+2108142,Luca Arfaras,F,9,Argentina,181.0,Right,1139443200.0,27000.0,23950
+1127517,Nicolás Moreno,F,18,Argentina,186.0,Right,984009600.0,27000.0,23950
+1182500,Mauro Verón,F,,Argentina,180.0,Right,917568000.0,110000.0,23950
+2587984,Leonel Sir,F,23,Argentina,,,1226534400.0,,23950
+830742,Gabriel Carabajal,M,,Argentina,178.0,Right,692236800.0,185000.0,23950
+1163996,Kevin Lopez,M,17,Argentina,170.0,Right,1009497600.0,295000.0,23950
+1651228,Bruno Cabrera,M,20,Argentina,175.0,Right,1056153600.0,190000.0,23950
+340863,Matías García,M,10,Argentina,174.0,Left,688089600.0,52000.0,23950
+896985,Nicolás Castro,M,17,Argentina,181.0,Right,650678400.0,77000.0,23950
+1471231,Milton Ríos,M,36,Argentina,187.0,Left,1081987200.0,,23950
+830586,Matias Garcia,M,20,Argentina,179.0,Left,816048000.0,310000.0,23950
+1957498,Alan Cisneros,M,11,Argentina,180.0,Right,1080691200.0,160000.0,23950
+932899,Gonzalo Rodríguez,M,19,Argentina,178.0,Right,653616000.0,,23950
+946165,Álvaro Veliez,M,21,Argentina,177.0,Right,799718400.0,170000.0,23950
+1654124,Laureano Rodríguez,M,5,Argentina,183.0,Right,1038009600.0,105000.0,23950
+944659,Santiago Briñone,M,8,Argentina,178.0,Right,851731200.0,270000.0,23950
+1092314,Jorge Emanuel Juárez,M,14,Argentina,170.0,Right,826070400.0,135000.0,23950
+2044379,Agustín Graneros,M,22,Argentina,,,991267200.0,,23950
+2509689,Octavio Zamora,M,15,Argentina,,,1228089600.0,,23950
+2552366,Juan Valdez,M,15,Argentina,,,1180396800.0,,23950
+909478,Nahuel Gallardo,D,3,Argentina,179.0,Left,894672000.0,160000.0,23950
+384150,Víctor Salazar,D,18,Argentina,175.0,Right,738374400.0,145000.0,23950
+340839,Nicolás Ferreyra,D,2,Argentina,193.0,Right,733449600.0,190000.0,23950
+340013,Ezequiel Parnisiari,D,13,Argentina,180.0,Right,644198400.0,80000.0,23950
+790190,Rodrigo Ayala,D,3,Argentina,179.0,Left,776563200.0,205000.0,23950
+1465711,Guillermo Rodriguez,D,14,Argentina,,Right,1025740800.0,265000.0,23950
+2047986,Aníbal Paz,D,18,Argentina,,,1034035200.0,,23950
+2509688,Alejandro Galvan,D,13,Argentina,,,,,23950
+932935,Darío Sand,G,12,Argentina,180.0,Right,570931200.0,92000.0,23950
+1018448,Nahuel Manganelli,G,1,Argentina,184.0,,982540800.0,24000.0,23950
+939951,Juan Jaime,G,12,Argentina,178.0,Right,883699200.0,26000.0,23950
+1524468,Tomas García,G,,Argentina,,,,,23950
+2723978,Garcia,,,,,,,,23950
+2735273,Leonardo Monroy,,,,,,,,23950
+2058971,Diego Diaz,F,29,Argentina,185.0,Right,1010620800.0,140000.0,43741
+789446,Franco Soldano,F,7,Argentina,180.0,Right,779500800.0,180000.0,43741
+938560,Hernán Rivero,F,20,Argentina,190.0,Both,716256000.0,96000.0,43741
+864074,Tomas Attis,F,9,Argentina,183.0,Right,938822400.0,145000.0,43741
+1979832,Ramon Valentin Villarreal,F,19,Argentina,,,1101168000.0,,43741
+912789,Renzo Reynaga,F,20,Argentina,184.0,Right,928281600.0,72000.0,43741
+1394198,Joaquin Barolin,F,11,Argentina,176.0,Right,1053302400.0,27000.0,43741
+2479144,Álvaro Schrooh,F,,Argentina,,,1104278400.0,,43741
+980767,Brandon Cortés,M,10,Argentina,180.0,Right,993513600.0,180000.0,43741
+1214766,Juan Pablo Barinaga,M,8,Argentina,166.0,Right,960854400.0,300000.0,43741
+1186317,Valentín Pereyra,M,18,Argentina,167.0,Left,1019088000.0,180000.0,43741
+321463,Federico Bravo,M,5,Argentina,185.0,Right,749779200.0,240000.0,43741
+990059,Juan Salas,M,17,Argentina,183.0,Right,923443200.0,170000.0,43741
+1180584,Gonzalo Salega,M,8,Argentina,167.0,Right,930873600.0,395000.0,43741
+1598286,Alejo Agustín Miró,M,18,Argentina,178.0,Right,1108684800.0,26000.0,43741
+1510913,Augusto Picco,M,15,Argentina,175.0,Right,1061942400.0,23000.0,43741
+1509270,Bartolomé Velásquez,M,17,Argentina,180.0,Left,,,43741
+2045706,Luciano Pacco,M,16,Argentina,,Right,1066089600.0,26000.0,43741
+2479141,Alejandro Leiva,M,,Argentina,,,,,43741
+2479145,Benjamín Zuqui,M,,Argentina,,,,,43741
+2479152,Gaetano Motta,M,,Argentina,,,,,43741
+1131032,Nahuel Genez,D,17,Argentina,173.0,Left,1055894400.0,105000.0,43741
+1518750,Gabriel Díaz,D,4,Argentina,188.0,Right,1053820800.0,250000.0,43741
+992108,Walter Rueda,D,10,Argentina,176.0,Right,881020800.0,230000.0,43741
+1108653,Fernando Moreyra,D,6,Argentina,184.0,Left,659923200.0,24000.0,43741
+1381797,Santiago Piccioni,D,23,Argentina,193.0,Left,946684800.0,,43741
+1474917,Facundo Díaz,D,2,Argentina,190.0,Right,992563200.0,,43741
+1110009,Facundo Heredia,D,,Argentina,170.0,Left,923356800.0,70000.0,43741
+257461,Fernando Evangelista,D,,Argentina,184.0,Left,688003200.0,,43741
+992966,Franco Meritello,D,6,Argentina,185.0,Right,826588800.0,140000.0,43741
+1597464,Fernando Ezequiel Moreyra Aldana,D,3,Argentina,184.0,Left,650160000.0,,43741
+2479146,Francisco Lencinas,D,,Argentina,,,1225065600.0,,43741
+2479164,Santiago Piccioni,D,,Argentina,,,1045008000.0,,43741
+872392,Alan Sosa,G,24,Argentina,183.0,Right,830563200.0,245000.0,43741
+2148109,Román Peralta,G,12,Argentina,,Right,1086048000.0,,43741
+989851,Franco Rivasseau,G,12,Argentina,189.0,Right,900028800.0,27000.0,43741
+2507765,Strey,,,,,,,,43741
+2580569,Ignacio Giacinti,,,Argentina,,,,,43741
+128388,Carlos Auzqui,F,28,Argentina,174.0,Right,669081600.0,110000.0,265787
+941410,Brian Blando,F,7,Argentina,177.0,Right,796694400.0,350000.0,265787
+340521,Alejandro Gagliardi,F,20,Argentina,180.0,Right,618364800.0,23000.0,265787
+2167742,Jarol  Heritier,F,22,Argentina,174.0,Right,1078099200.0,27000.0,265787
+806381,Oscar Belinetz,F,9,Argentina,190.0,Right,789436800.0,105000.0,265787
+2465622,Lorenzo Barrera,F,23,Argentina,180.0,Right,1043625600.0,27000.0,265787
+1920842,Juan Cruz Vega,M,20,Argentina,166.0,Right,897350400.0,93000.0,265787
+341981,Rodrigo Castro,M,5,Argentina,169.0,Left,739756800.0,240000.0,265787
+1103932,Antonio Napolitano,M,18,Argentina,178.0,Right,919123200.0,70000.0,265787
+155706,Jorge Valdez,M,8,Argentina,176.0,Right,769910400.0,355000.0,265787
+340453,Santiago Gallucci,M,15,Argentina,180.0,Right,668390400.0,46000.0,265787
+1468709,Rodrigo Mosqueira,M,10,Argentina,175.0,Right,807580800.0,145000.0,265787
+2051188,Enzo Aguirre,M,11,Argentina,170.0,Right,1059868800.0,105000.0,265787
+2051189,Braian Aranda,M,21,Argentina,172.0,Right,1068076800.0,120000.0,265787
+1654222,Diego Vásquez,M,16,Argentina,174.0,Both,968630400.0,97000.0,265787
+789921,Damián Lemos,M,,Argentina,178.0,Right,602121600.0,145000.0,265787
+2465609,Martín Corda,M,,Argentina,169.0,Right,1105056000.0,,265787
+1842455,Brian Rojas,M,7,Argentina,175.0,Left,1087776000.0,,265787
+2048021,Danilo Ruiz Díaz,M,17,Argentina,173.0,Both,1050364800.0,68000.0,265787
+1003027,Tomas Lecanda,D,13,Argentina,185.0,Right,1012262400.0,145000.0,265787
+1495204,Federico Héctor Pérez,D,14,Argentina,168.0,Right,1078444800.0,180000.0,265787
+257455,Alan Aguirre,D,6,Argentina,182.0,Right,745200000.0,205000.0,265787
+789368,Fernando Gonzalez,D,6,Argentina,177.0,Left,591148800.0,,265787
+932870,Alan Perez,D,,Argentina,183.0,Right,672105600.0,93000.0,265787
+1485368,Facundo Sanchez,D,2,Argentina,165.0,Left,1059004800.0,110000.0,265787
+897147,Matías Molina,D,4,Argentina,180.0,Right,739929600.0,45000.0,265787
+1110290,Milton Ramos,D,19,Argentina,170.0,Left,776563200.0,115000.0,265787
+2078864,Jorge Manuel Cabello,D,13,Argentina,175.0,Left,1043020800.0,23000.0,265787
+2153514,Danilo Actis,D,14,Argentina,183.0,Left,1029974400.0,,265787
+2643725,Gonzalez,D,,Argentina,,,,,265787
+2204330,Luciano Acosta,G,1,Argentina,179.0,Right,1078444800.0,170000.0,265787
+932936,Germán Salort,G,12,Argentina,182.0,Right,592790400.0,,265787
+2231030,Alejo Medina,G,,Argentina,184.0,Right,1063843200.0,,265787
+1887086,Facundo Sanchez,,2,,,,,,265787
+2558765,Jarol Heritier,,,Argentina,,,,,265787
+2548953,Jorge Valdéz Vidal Chamorro,,,,,,,,265787
+2671375,Natanael Pereyra,,16,,,,,,265787
+1113642,Lisandro Cabrera,F,29,Argentina,182.0,Right,883872000.0,105000.0,213042
+1398216,Juan Cruz Giacone,F,18,Argentina,187.0,Right,1073606400.0,24000.0,213042
+1846927,Diego Yavante Gaitán,F,19,Argentina,180.0,Right,1115856000.0,53000.0,213042
+2476631,Aaron Jeremías Vera,F,,Argentina,,,1165449600.0,,213042
+33958,Enzo Pérez,M,24,Argentina,177.0,Right,509414400.0,97000.0,213042
+1914534,Mirko Bonfigli,M,8,Argentina,176.0,Right,1084406400.0,165000.0,213042
+1404361,Franco Saccone,M,7,Italy,170.0,Right,1008720000.0,140000.0,213042
+1094083,Juan Pablo Gobetto,M,11,Argentina,185.0,Right,830044800.0,225000.0,213042
+989395,Matías Viguet,M,20,Argentina,183.0,Left,896486400.0,190000.0,213042
+1657209,Juan Cruz Arno,M,15,Argentina,186.0,Left,1072915200.0,54000.0,213042
+249331,Fausto Montero,M,16,Argentina,178.0,Right,593481600.0,,213042
+1128477,Gastón Mansilla,M,5,Argentina,187.0,Right,864950400.0,205000.0,213042
+1217999,Tomas Silva,M,17,Chile,172.0,Left,979257600.0,79000.0,213042
+2599510,Joaquín Nazar,M,,Argentina,,,,,213042
+1160547,Juan Pablo De la Reta,M,3,Argentina,,,,,213042
+1836760,Luca Landriel,M,17,Argentina,174.0,Left,1116374400.0,,213042
+2461561,Julián Vera,M,19,,,,,,213042
+2108952,Julián Ariel Vera,M,,Argentina,175.0,Right,1051833600.0,24000.0,213042
+2680654,Ian Sambueza,M,15,Argentina,,,1084924800.0,,213042
+1479452,Aron Rodrigo Aguero Gimenez,D,6,Argentina,186.0,Right,1041033600.0,330000.0,213042
+1185976,Nicolas Fernandez,D,15,Argentina,179.0,Left,1013385600.0,48000.0,213042
+1465723,Mateo Ortale,D,14,Argentina,177.0,Right,1016496000.0,24000.0,213042
+1650473,Tiago Ferreyra,D,3,Argentina,189.0,Left,1019001600.0,245000.0,213042
+1183699,Lucas Faggioli,D,4,Argentina,176.0,Right,855619200.0,220000.0,213042
+1490990,Luciano Arnijas,D,2,Argentina,191.0,Right,1048118400.0,245000.0,213042
+1393295,Juan De la Reta,D,3,Argentina,175.0,Left,1114992000.0,190000.0,213042
+1650470,Santiago Paulini,D,14,Argentina,185.0,Right,1017446400.0,24000.0,213042
+2194512,Agustin Leiva,D,13,Argentina,187.0,Left,1116547200.0,,213042
+2437590,Víctor Barrera,D,,Argentina,,,,,213042
+2046433,Nahuel Galardi,G,1,Argentina,190.0,Right,1021420800.0,110000.0,213042
+1087063,Luciano Peraggini,G,12,Argentina,188.0,Right,1013558400.0,23000.0,213042
+949822,Víctor Barrera,G,18,,,,966902400.0,,213042
+2460008,Agustín Pavón,G,,Argentina,,,1089072000.0,,213042
+1117454,Aron Agüero,,6,,,,,,213042
+1979810,Agustin Gaitan,,19,,,,,,213042
+2607816,Raúl Villarreal,,,,,,1149120000.0,,213042
+2275922,Matteo Alexis,,,,,,,,213042
+2461843,Victor Barrera,,,,,,,,213042
+988856,Sebastián Ramírez,F,19,Argentina,175.0,Right,968025600.0,165000.0,93513
+1388907,Jonathan Berón,F,23,Argentina,173.0,Right,1023580800.0,210000.0,93513
+1130221,Agustin Gallo,F,,Argentina,196.0,Right,917913600.0,53000.0,93513
+879873,Diego Becker,F,18,Argentina,169.0,Left,880329600.0,105000.0,93513
+1887080,Maximiliano Álvarez,F,9,Argentina,178.0,Right,844300800.0,205000.0,93513
+1117099,Renzo Conechny,F,18,Argentina,178.0,Right,983577600.0,27000.0,93513
+1503513,Gianluca Banuera,F,22,Argentina,,,1150934400.0,,93513
+1598397,Gianluca Ezequiel Banuera,F,,Argentina,170.0,Right,1153526400.0,,93513
+1017458,Marcos Enrique,M,,Argentina,178.0,Right,946512000.0,155000.0,93513
+902452,Alejandro Molina,M,15,Argentina,168.0,Right,871171200.0,270000.0,93513
+1900664,Kevin Colli,M,10,Argentina,180.0,Right,1053302400.0,130000.0,93513
+1485214,Fernando Álvarez,M,28,Argentina,174.0,Right,1088208000.0,,93513
+941471,Nicolás Del Priore,M,5,Argentina,182.0,Right,839980800.0,180000.0,93513
+1065604,Maximiliano Luayza,M,18,Argentina,180.0,Right,1018828800.0,140000.0,93513
+1182406,Ayrton Sánchez,M,16,Argentina,173.0,Left,952300800.0,77000.0,93513
+789298,Nicolas Sanchez,M,19,Argentina,180.0,Both,698630400.0,52000.0,93513
+1823096,Santiago Magnotta,M,20,Argentina,186.0,Right,1057276800.0,,93513
+1197692,Augusto Berrondo,M,20,Argentina,187.0,Right,949017600.0,97000.0,93513
+2067056,Maximo Ferulano,M,17,Argentina,,,1096761600.0,26000.0,93513
+1469375,Walter Berrondo,M,9,Argentina,,,949017600.0,,93513
+2507687,Mateo Bustamante,M,18,Argentina,,,,,93513
+2650921,Tiziano Noriega,M,,Argentina,173.0,Left,1206662400.0,,93513
+1086328,Brian Aguilar,D,2,Argentina,179.0,Right,1050192000.0,220000.0,93513
+992055,Agustín Baldi,D,6,Argentina,188.0,Left,1021075200.0,265000.0,93513
+1482280,Manuel Agustin Guillen,D,7,Argentina,,Right,982800000.0,,93513
+1085930,Diego Mastrangelo,D,6,Argentina,176.0,Left,1036627200.0,71000.0,93513
+1131031,Matías Olguín,D,4,Argentina,180.0,Right,982195200.0,160000.0,93513
+1540067,Manuel Guillen,D,15,Argentina,183.0,Right,999734400.0,97000.0,93513
+1023103,Mauricio Guzmán,D,4,Argentina,179.0,Right,937440000.0,,93513
+974678,Nicolás Fernández,D,14,Argentina,178.0,Left,803606400.0,170000.0,93513
+2045701,Alan Gorosito,D,11,Argentina,,,986601600.0,,93513
+2166446,Santiago Aquino,D,13,Argentina,,Left,1104451200.0,,93513
+992971,Joaquín Bigo,G,1,Argentina,183.0,Left,900288000.0,215000.0,93513
+584698,Daniel Monllor,G,12,Argentina,190.0,Right,459129600.0,,93513
+875234,Joaquín Mendive,G,12,Argentina,178.0,Right,839462400.0,27000.0,93513
+2467108,Marcos Funes,G,12,Argentina,189.0,Right,918691200.0,,93513
+2045705,Alvaro Veliz,,19,,,,,,93513
+2049758,Alexander Sosa,,20,,,,,,93513
+2166448,Juan Romero,,20,,,,,,93513
+2166449,Franco Meza,,14,,,,,,93513
+1184980,Marcos Echeverria,F,9,Argentina,183.0,Left,1050883200.0,230000.0,112499
+1597466,Facundo Nicolas Kruger,F,18,Argentina,184.0,Right,960163200.0,49000.0,112499
+2461573,Jonathan Díaz,F,23,,,,,,112499
+2613314,Francisco Silva,F,,Argentina,,,1114732800.0,,112499
+2460047,Nicolás Molina,F,20,Argentina,,,978998400.0,,112499
+38784,Gabriel Hauche,M,17,Argentina,168.0,Right,533433600.0,,112499
+789372,Adrián Arregui,M,8,Argentina,176.0,Right,713577600.0,270000.0,112499
+1018402,Franco Díaz,M,30,Argentina,182.0,Right,967420800.0,290000.0,112499
+1471245,Julian Carrasco,M,21,Argentina,175.0,Right,1015977600.0,27000.0,112499
+1109640,Pedro Souto,M,27,Argentina,178.0,Left,957484800.0,190000.0,112499
+789678,Luciano Nieto,M,10,Argentina,178.0,Left,664243200.0,110000.0,112499
+789378,Fernando Brandan,M,7,Argentina,168.0,Left,638496000.0,73000.0,112499
+974689,Geronimo Tomasetti,M,15,Argentina,180.0,Right,958089600.0,105000.0,112499
+1845671,Lucas Richarte,M,5,Argentina,175.0,Right,1099872000.0,110000.0,112499
+1131817,Franco Benitez,M,21,Argentina,175.0,Right,1016409600.0,160000.0,112499
+795362,Alejandro Melo,M,18,Argentina,180.0,Right,821318400.0,245000.0,112499
+2634091,Román Baigorria,M,,Argentina,,,1167609600.0,,112499
+2044755,Valentín Gabriel Aguiñagalde,D,6,Argentina,185.0,Left,1098748800.0,315000.0,112499
+1018432,Lucas Angelini,D,3,Argentina,185.0,Left,791251200.0,195000.0,112499
+1200740,Valentino Werro,D,4,Argentina,168.0,Right,1010275200.0,97000.0,112499
+2050786,Lorenzo Monti,D,14,Argentina,181.0,Right,888796800.0,155000.0,112499
+1119882,Iago Iriarte,D,,Argentina,188.0,Right,959558400.0,325000.0,112499
+1469373,Oswaldo Pacheco,D,13,Colombia,191.0,Right,1035849600.0,24000.0,112499
+897110,Rodrigo Mazur,D,3,Argentina,175.0,Left,694396800.0,,112499
+873185,Jerónimo Pourtau,G,1,Argentina,191.0,Right,948585600.0,135000.0,112499
+249639,Ezequiel Mastrolia,G,1,Argentina,182.0,Right,669859200.0,190000.0,112499
+1983471,Lisandro Morrone,G,12,Argentina,,,,,112499
+1654119,Valentin Diaz,G,1,Argentina,192.0,Right,1116460800.0,,112499
+1868857,Matias Calzon,,13,,,,1115596800.0,,112499
+2219958,Franco Council,,,,,,,,112499
+2633931,Román Quiroga,,17,Argentina,,,,,112499
+2725384,León  Trebotic,,,Argentina,,,1145836800.0,,112499
+1183525,Octavio Bianchi,F,20,Argentina,187.0,Right,812851200.0,215000.0,5292
+47333,Cristian Menéndez,F,11,Argentina,184.0,Right,575942400.0,27000.0,5292
+896149,Juan Cruz Franzoni,F,21,Argentina,180.0,Right,940118400.0,49000.0,5292
+1657098,Manuel Severich,F,9,Argentina,175.0,,1054944000.0,,5292
+1018449,Pablo Argañaraz,M,18,Argentina,174.0,Right,900979200.0,145000.0,5292
+1094073,Mauro Cachi,M,9,Argentina,166.0,Left,903744000.0,295000.0,5292
+1182395,Agustín Alonso,M,16,Argentina,171.0,Both,980294400.0,93000.0,5292
+1119881,Federico Paradela,M,8,Argentina,176.0,Right,994118400.0,77000.0,5292
+246161,Hugo Soria,M,5,Uruguay,174.0,Right,635126400.0,95000.0,5292
+943794,Francisco Molina,M,10,Argentina,178.0,Left,655344000.0,52000.0,5292
+1126884,Francisco Maidana,M,7,Argentina,169.0,Right,1009584000.0,570000.0,5292
+897060,Claudio Pombo,M,16,Argentina,171.0,Right,767491200.0,105000.0,5292
+895355,Maximiliano Casa,M,17,Argentina,181.0,Right,729993600.0,97000.0,5292
+943167,David Gallardo,M,8,Argentina,180.0,Right,857088000.0,130000.0,5292
+1383864,Juan Pablo Córdoba,M,17,Argentina,177.0,Right,1056585600.0,26000.0,5292
+1615360,Gonzalo Villarreal,D,23,Argentina,188.0,Right,890179200.0,190000.0,5292
+789631,Nicolas Diego Dematei,D,6,Argentina,177.0,Left,564278400.0,23000.0,5292
+913607,Joaquín Varela,D,13,Argentina,190.0,Right,859248000.0,27000.0,5292
+895230,Emiliano Endrizzi,D,15,Argentina,183.0,Left,762998400.0,210000.0,5292
+1958562,Martin Lazarte,D,3,Argentina,172.0,Left,1127088000.0,54000.0,5292
+295165,Guillermo Cosaro,D,2,Argentina,177.0,Left,605232000.0,27000.0,5292
+950814,Delfor Minervino,D,4,Argentina,171.0,Right,829094400.0,240000.0,5292
+1597936,Franco Nahuel Camargo,D,4,Argentina,177.0,Right,969667200.0,27000.0,5292
+789858,Sebastian Fernando Sanchez,D,,Argentina,183.0,Both,590716800.0,,5292
+932939,Diego López,D,4,Argentina,181.0,Right,706233600.0,49000.0,5292
+1892582,Gonzalo Villarreal,D,4,Argentina,,,886377600.0,,5292
+905831,Diego López,D,14,,,,,,5292
+1085296,Matías Ramos Mingo,G,12,Argentina,195.0,Right,965347200.0,23000.0,5292
+895204,Milton Álvarez,G,1,Argentina,185.0,Left,601776000.0,130000.0,5292
+1021871,Gonzalo Gómez,G,,Argentina,180.0,Right,512092800.0,,5292
+2082853,Chacho Zambrano,,23,Argentina,,,,,5292
+2116602,Facundo Marín,F,11,Argentina,171.0,Right,972000000.0,26000.0,270344
+1903029,Santino Primante,F,31,Argentina,183.0,Right,1103500800.0,24000.0,270344
+1182299,Jeremias Perales,F,23,Argentina,180.0,Right,973814400.0,73000.0,270344
+1605507,Rodrigo Cao,F,22,Argentina,180.0,Right,982800000.0,54000.0,270344
+2229943,Ezequiel Bulacio,F,7,Argentina,192.0,Right,1010880000.0,73000.0,270344
+1476914,Matteo Cucinotta,F,23,Argentina,181.0,Right,1094083200.0,,270344
+2446695,Valentino Madalón,F,17,Argentina,190.0,Right,1115769600.0,,270344
+2054595,Uriel Burns,F,,Argentina,,,1088294400.0,,270344
+1109319,Marcos Roseti,M,10,Argentina,167.0,Right,870566400.0,220000.0,270344
+1084975,Ramiro Luna,M,20,Argentina,178.0,Left,806284800.0,170000.0,270344
+1119877,Matías Flores,M,19,Argentina,169.0,Left,967161600.0,79000.0,270344
+1923429,Diago Guzman,M,9,Argentina,178.0,Right,1129075200.0,,270344
+896864,Mauro Frattini,M,16,Argentina,170.0,Right,648259200.0,,270344
+1214761,Nicolás Ezequiel Violini,M,5,Argentina,176.0,Right,961804800.0,110000.0,270344
+1388632,Jesus Camaño,M,8,Argentina,177.0,Right,1009843200.0,49000.0,270344
+2054605,Dylan Aguilar,M,18,Argentina,172.0,Right,1077494400.0,,270344
+2138812,Matías Román Abbruzzese,M,16,Argentina,181.0,Right,983750400.0,,270344
+1831575,Gonzalo Gomez,M,7,,,,,,270344
+1901968,Isaías Andrada,D,21,Argentina,174.0,Right,1045008000.0,26000.0,270344
+896879,Luciano Recalde,D,6,Argentina,184.0,Left,808185600.0,295000.0,270344
+2065837,Genaro Cepeda,D,2,Argentina,190.0,Right,965865600.0,140000.0,270344
+883927,Emilio Porro,D,17,Argentina,183.0,Right,833155200.0,,270344
+1196717,Mariano Penepil,D,15,Argentina,172.0,Left,1059436800.0,27000.0,270344
+1514550,Pablo Casarico,D,3,Argentina,184.0,Left,988156800.0,145000.0,270344
+1627971,Lautaro Díaz Laharque,D,4,Argentina,175.0,Right,810345600.0,110000.0,270344
+1923407,Joel Canalda,D,,Argentina,183.0,Right,1110758400.0,,270344
+1819635,Tomás Muia,D,14,Argentina,180.0,Both,1074643200.0,,270344
+1831579,Pedro Castorani,D,14,Argentina,177.0,Right,1051142400.0,,270344
+2054602,Ignacio Locciazano,D,,Argentina,,Right,1083888000.0,,270344
+2054604,Emmanuel Zárate,D,,Argentina,,,1089849600.0,,270344
+2710136,Isaías Alejandro Andrada,D,,Argentina,,,1045008000.0,,270344
+1468717,Mauro Leguiza,G,1,Argentina,186.0,Right,745286400.0,72000.0,270344
+1201405,Lucas Escobar,G,12,Argentina,185.0,Right,1021507200.0,,270344
+2446693,Santiago García,G,12,Argentina,184.0,Right,1100131200.0,,270344
+2054598,Nahuel Avedaño,G,12,Argentina,,,779414400.0,,270344

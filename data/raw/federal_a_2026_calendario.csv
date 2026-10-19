@@ -1,0 +1,477 @@
+﻿event_id,tournament_id,tournament,season_id,season,round,home_id,home_team,away_id,away_team,home_score,away_score,start_timestamp,status,status_type,winner_code
+15673078,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,65664,Sportivo Belgrano,260688,9 de Julio de Rafaela,3.0,0.0,1774051200,Ended,finished,1.0
+15673163,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,65670,Sarmiento de Resistencia,93519,Juventud Antoniana,1.0,3.0,1774051200,Ended,finished,2.0
+15673253,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,314862,Atenas Rio Cuarto,255427,Club Cipolletti,3.0,1.0,1774051200,Ended,finished,1.0
+15673245,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,213044,San Martin de Mendoza,273210,Juventud Unida Universitario,0.0,0.0,1774053000,Ended,finished,3.0
+15673240,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,1078784,Costa Brava de General Pico,340976,Fundación Amigos Por El Deporte,3.0,0.0,1774134000,Ended,finished,1.0
+15673394,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,254166,Sol de Mayo,464795,CA Germinal,1.0,1.0,1774202400,Ended,finished,3.0
+15673079,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,222513,Defensores Villa Ramallo,93517,Gimnasia y Esgrima de Concepción del Uruguay,2.0,1.0,1774206000,Ended,finished,1.0
+15673081,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,262289,El Linqueño,257686,Sportivo Las Parejas,1.0,0.0,1774206000,Ended,finished,1.0
+15673076,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,261786,Independiente de Chivilcoy,1135691,Atlético Escobar,2.0,1.0,1774206000,Ended,finished,1.0
+15673164,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,931085,Tucumán Central,1078890,CA Bartolome Mitre,1.0,0.0,1774206000,Ended,finished,1.0
+15673395,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,53801,Guillermo Brown,165912,CYB Ramón Santamarina,2.0,2.0,1774206000,Ended,finished,3.0
+15673313,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,340428,Kimberley,226815,Villa Mitre,1.0,0.0,1774206000,Ended,finished,1.0
+15673396,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,3222,Olimpo,273715,Alvarado,2.0,0.0,1774206000,Ended,finished,1.0
+15673193,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,314629,San Martín Formosa,502775,Defensores Puerto Vilelas,2.0,1.0,1774207800,Ended,finished,1.0
+15673165,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,36835,Boca Unidos,508986,CA Sarmiento de la Banda,3.0,1.0,1774209600,Ended,finished,1.0
+15673239,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,197278,Huracán Las Heras,403460,CD Argentino Monte Maiz,0.0,0.0,1774209600,Ended,finished,3.0
+15673082,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,76199,Douglas Haig,1078785,Gimnasia de Chivilcoy,2.0,1.0,1774211400,Ended,finished,1.0
+16650335,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,1135691,Atlético Escobar,36835,Boca Unidos,0.0,3.0,1785609000,Ended,finished,2.0
+16650330,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,1078785,Gimnasia de Chivilcoy,65664,Sportivo Belgrano,0.0,0.0,1785612600,Ended,finished,3.0
+16650337,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,340976,Fundación Amigos Por El Deporte,327909,Circulo Deportivo,1.0,0.0,1785681000,Ended,finished,1.0
+16648799,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,3222,Olimpo,93519,Juventud Antoniana,0.0,0.0,1785693600,Ended,finished,3.0
+16650336,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,262289,El Linqueño,257686,Sportivo Las Parejas,2.0,0.0,1785693600,Ended,finished,1.0
+16650339,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,464795,CA Germinal,273210,Juventud Unida Universitario,2.0,1.0,1785693600,Ended,finished,1.0
+16648792,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,254166,Sol de Mayo,165912,CYB Ramón Santamarina,1.0,0.0,1785693600,Ended,finished,1.0
+16648786,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,222513,Defensores Villa Ramallo,1078890,CA Bartolome Mitre,1.0,0.0,1785695400,Ended,finished,1.0
+16648789,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,255427,Club Cipolletti,197278,Huracán Las Heras,1.0,0.0,1785695400,Ended,finished,1.0
+16648797,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,93517,Gimnasia y Esgrima de Concepción del Uruguay,931085,Tucumán Central,4.0,0.0,1785695400,Ended,finished,1.0
+16650338,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,285745,Deportivo Rincón,53801,Guillermo Brown,2.0,0.0,1785695400,Ended,finished,1.0
+16650333,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,314862,Atenas Rio Cuarto,226815,Villa Mitre,0.0,1.0,1785696300,Ended,finished,2.0
+16650331,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,260688,9 de Julio de Rafaela,76199,Douglas Haig,0.0,0.0,1785697200,Ended,finished,3.0
+16648794,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,314629,San Martín Formosa,407265,CA Sol de America de Formosa,2.0,1.0,1785697200,Ended,finished,1.0
+16650340,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,213044,San Martin de Mendoza,1078784,Costa Brava de General Pico,2.0,2.0,1785699000,Ended,finished,3.0
+16650332,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,340428,Kimberley,403460,CD Argentino Monte Maiz,1.0,0.0,1785780000,Ended,finished,1.0
+16650334,14090,Torneo Federal A,91002,Torneo Federal A 2026,1,502775,Defensores Puerto Vilelas,65670,Sarmiento de Resistencia,4.0,1.0,1785781800,Ended,finished,1.0
+15673169,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,93519,Juventud Antoniana,407265,CA Sol de America de Formosa,2.0,1.0,1774659600,Ended,finished,1.0
+15673251,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,340976,Fundación Amigos Por El Deporte,285745,Deportivo Rincón,2.0,2.0,1774706400,Ended,finished,3.0
+15673168,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,502775,Defensores Puerto Vilelas,931085,Tucumán Central,1.0,0.0,1774724400,Ended,finished,1.0
+15673246,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,273210,Juventud Unida Universitario,197278,Huracán Las Heras,2.0,0.0,1774726200,Ended,finished,1.0
+15673312,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,165912,CYB Ramón Santamarina,254166,Sol de Mayo,0.0,2.0,1774735200,Ended,finished,2.0
+15673077,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,260688,9 de Julio de Rafaela,261786,Independiente de Chivilcoy,3.0,2.0,1774792800,Ended,finished,1.0
+15673315,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,464795,CA Germinal,340428,Kimberley,0.0,0.0,1774807200,Ended,finished,3.0
+15673183,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,1078785,Gimnasia de Chivilcoy,65664,Sportivo Belgrano,0.0,0.0,1774809000,Ended,finished,3.0
+15673250,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,255427,Club Cipolletti,213044,San Martin de Mendoza,3.0,0.0,1774809000,Ended,finished,1.0
+15673311,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,273715,Alvarado,53801,Guillermo Brown,2.0,0.0,1774809000,Ended,finished,1.0
+15673180,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,222513,Defensores Villa Ramallo,262289,El Linqueño,3.0,1.0,1774810800,Ended,finished,1.0
+15673249,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,403460,CD Argentino Monte Maiz,1078784,Costa Brava de General Pico,0.0,0.0,1774810800,Ended,finished,3.0
+15673316,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,226815,Villa Mitre,327909,Circulo Deportivo,2.0,0.0,1774810800,Ended,finished,1.0
+15673192,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,93517,Gimnasia y Esgrima de Concepción del Uruguay,76199,Douglas Haig,1.0,3.0,1774812600,Ended,finished,2.0
+15673162,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,1078890,CA Bartolome Mitre,36835,Boca Unidos,1.0,0.0,1774812600,Ended,finished,1.0
+15673166,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,508986,CA Sarmiento de la Banda,65670,Sarmiento de Resistencia,1.0,1.0,1774818000,Ended,finished,3.0
+15673080,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,1135691,Atlético Escobar,257686,Sportivo Las Parejas,1.0,1.0,1774897200,Ended,finished,3.0
+16648784,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,65664,Sportivo Belgrano,260688,9 de Julio de Rafaela,1.0,1.0,1786146300,Ended,finished,3.0
+16648787,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,93519,Juventud Antoniana,273715,Alvarado,0.0,2.0,1786150800,Ended,finished,2.0
+16648796,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,257686,Sportivo Las Parejas,502775,Defensores Puerto Vilelas,0.0,0.0,1786210200,Ended,finished,3.0
+16648785,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,76199,Douglas Haig,314629,San Martín Formosa,1.0,4.0,1786212000,Ended,finished,2.0
+16648800,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,403460,CD Argentino Monte Maiz,314862,Atenas Rio Cuarto,1.0,2.0,1786212000,Ended,finished,2.0
+16648802,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,165912,CYB Ramón Santamarina,213044,San Martin de Mendoza,0.0,1.0,1786212000,Ended,finished,2.0
+16648795,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,327909,Circulo Deportivo,53801,Guillermo Brown,1.0,0.0,1786212000,Ended,finished,1.0
+16648790,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,273210,Juventud Unida Universitario,340976,Fundación Amigos Por El Deporte,1.0,0.0,1786212000,Ended,finished,1.0
+16648793,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,254166,Sol de Mayo,285745,Deportivo Rincón,2.0,4.0,1786212000,Ended,finished,2.0
+16653250,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,1078890,CA Bartolome Mitre,508986,CA Sarmiento de la Banda,1.0,1.0,1786213800,Ended,finished,3.0
+16648798,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,197278,Huracán Las Heras,3222,Olimpo,0.0,1.0,1786213800,Ended,finished,2.0
+16648788,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,226815,Villa Mitre,255427,Club Cipolletti,1.0,1.0,1786213800,Ended,finished,3.0
+16648791,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,36835,Boca Unidos,261786,Independiente de Chivilcoy,1.0,1.0,1786213800,Ended,finished,3.0
+16653337,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,1078784,Costa Brava de General Pico,464795,CA Germinal,1.0,1.0,1786213800,Ended,finished,3.0
+16648801,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,65670,Sarmiento de Resistencia,1135691,Atlético Escobar,0.0,1.0,1786215600,Ended,finished,2.0
+16653307,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,931085,Tucumán Central,262289,El Linqueño,1.0,1.0,1786215600,Ended,finished,3.0
+16653249,14090,Torneo Federal A,91002,Torneo Federal A 2026,2,407265,CA Sol de America de Formosa,222513,Defensores Villa Ramallo,1.0,0.0,1786228200,Ended,finished,1.0
+15673319,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,254166,Sol de Mayo,273715,Alvarado,0.0,0.0,1775241000,Ended,finished,3.0
+15673314,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,327909,Circulo Deportivo,464795,CA Germinal,2.0,1.0,1775327400,Ended,finished,1.0
+15673172,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,36835,Boca Unidos,502775,Defensores Puerto Vilelas,2.0,4.0,1775332800,Ended,finished,2.0
+15673307,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,1078784,Costa Brava de General Pico,273210,Juventud Unida Universitario,1.0,1.0,1775336400,Ended,finished,3.0
+15673318,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,53801,Guillermo Brown,3222,Olimpo,0.0,2.0,1775413800,Ended,finished,2.0
+15673317,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,340428,Kimberley,165912,CYB Ramón Santamarina,0.0,0.0,1775413800,Ended,finished,3.0
+15673184,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,262289,El Linqueño,1135691,Atlético Escobar,2.0,1.0,1775415600,Ended,finished,1.0
+15673083,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,261786,Independiente de Chivilcoy,1078785,Gimnasia de Chivilcoy,3.0,0.0,1775415600,Ended,finished,1.0
+15673181,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,257686,Sportivo Las Parejas,260688,9 de Julio de Rafaela,1.0,1.0,1775415600,Ended,finished,3.0
+15673171,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,931085,Tucumán Central,314629,San Martín Formosa,2.0,0.0,1775415600,Ended,finished,1.0
+15673248,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,285745,Deportivo Rincón,403460,CD Argentino Monte Maiz,2.0,0.0,1775415600,Ended,finished,1.0
+15673256,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,197278,Huracán Las Heras,255427,Club Cipolletti,1.0,1.0,1775416500,Ended,finished,3.0
+15673167,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,407265,CA Sol de America de Formosa,508986,CA Sarmiento de la Banda,1.0,0.0,1775417400,Ended,finished,1.0
+15673309,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,213044,San Martin de Mendoza,314862,Atenas Rio Cuarto,1.0,0.0,1775419200,Ended,finished,1.0
+15673090,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,76199,Douglas Haig,222513,Defensores Villa Ramallo,3.0,2.0,1775421000,Ended,finished,1.0
+15673170,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,65670,Sarmiento de Resistencia,1078890,CA Bartolome Mitre,0.0,0.0,1775422800,Ended,finished,3.0
+15673086,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,65664,Sportivo Belgrano,93517,Gimnasia y Esgrima de Concepción del Uruguay,0.0,0.0,1775431800,Ended,finished,3.0
+16653338,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,340976,Fundación Amigos Por El Deporte,1078784,Costa Brava de General Pico,0.0,0.0,1786545000,Ended,finished,3.0
+16653310,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,1135691,Atlético Escobar,257686,Sportivo Las Parejas,0.0,0.0,1786557600,Ended,finished,3.0
+16653341,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,464795,CA Germinal,165912,CYB Ramón Santamarina,5.0,1.0,1786557600,Ended,finished,1.0
+16653342,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,285745,Deportivo Rincón,327909,Circulo Deportivo,0.0,0.0,1786557600,Ended,finished,3.0
+16653340,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,53801,Guillermo Brown,273210,Juventud Unida Universitario,2.0,1.0,1786557600,Ended,finished,1.0
+16653251,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,222513,Defensores Villa Ramallo,76199,Douglas Haig,0.0,0.0,1786559400,Ended,finished,3.0
+16653279,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,273715,Alvarado,197278,Huracán Las Heras,1.0,0.0,1786559400,Ended,finished,1.0
+16653280,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,255427,Club Cipolletti,403460,CD Argentino Monte Maiz,1.0,0.0,1786559400,Ended,finished,1.0
+16653311,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,502775,Defensores Puerto Vilelas,931085,Tucumán Central,4.0,3.0,1786559400,Ended,finished,1.0
+16653306,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,261786,Independiente de Chivilcoy,65670,Sarmiento de Resistencia,1.0,2.0,1786559400,Ended,finished,2.0
+16653255,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,314629,San Martín Formosa,65664,Sportivo Belgrano,2.0,0.0,1786561200,Ended,finished,1.0
+16653281,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,3222,Olimpo,226815,Villa Mitre,2.0,0.0,1786573800,Ended,finished,1.0
+16653312,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,262289,El Linqueño,93517,Gimnasia y Esgrima de Concepción del Uruguay,0.0,0.0,1786577400,Ended,finished,3.0
+16653253,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,260688,9 de Julio de Rafaela,1078785,Gimnasia de Chivilcoy,1.0,0.0,1786578300,Ended,finished,1.0
+16653282,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,314862,Atenas Rio Cuarto,340428,Kimberley,2.0,1.0,1786579200,Ended,finished,1.0
+16653339,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,213044,San Martin de Mendoza,254166,Sol de Mayo,2.0,1.0,1786580100,Ended,finished,1.0
+16653252,14090,Torneo Federal A,91002,Torneo Federal A 2026,3,508986,CA Sarmiento de la Banda,407265,CA Sol de America de Formosa,0.0,0.0,1786581000,Ended,finished,3.0
+15673321,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,273715,Alvarado,340428,Kimberley,0.0,0.0,1775932200,Ended,finished,3.0
+15673174,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,1078890,CA Bartolome Mitre,407265,CA Sol de America de Formosa,0.0,0.0,1775935800,Ended,finished,3.0
+15673320,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,165912,CYB Ramón Santamarina,327909,Circulo Deportivo,4.0,0.0,1775943000,Ended,finished,1.0
+15673089,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,93517,Gimnasia y Esgrima de Concepción del Uruguay,261786,Independiente de Chivilcoy,0.0,1.0,1775944800,Ended,finished,2.0
+15673343,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,464795,CA Germinal,226815,Villa Mitre,1.0,0.0,1776016800,Ended,finished,1.0
+15673308,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,255427,Club Cipolletti,1078784,Costa Brava de General Pico,1.0,1.0,1776018600,Ended,finished,3.0
+15673243,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,273210,Juventud Unida Universitario,285745,Deportivo Rincón,0.0,0.0,1776018600,Ended,finished,3.0
+15673322,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,3222,Olimpo,254166,Sol de Mayo,1.0,0.0,1776018600,Ended,finished,1.0
+15673087,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,222513,Defensores Villa Ramallo,65664,Sportivo Belgrano,1.0,1.0,1776020400,Ended,finished,3.0
+15673091,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,1078785,Gimnasia de Chivilcoy,257686,Sportivo Las Parejas,1.0,0.0,1776020400,Ended,finished,1.0
+15673242,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,403460,CD Argentino Monte Maiz,340976,Fundación Amigos Por El Deporte,0.0,0.0,1776020400,Ended,finished,3.0
+15673085,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,76199,Douglas Haig,262289,El Linqueño,1.0,0.0,1776022200,Ended,finished,1.0
+15673310,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,314862,Atenas Rio Cuarto,197278,Huracán Las Heras,0.0,0.0,1776022200,Ended,finished,3.0
+15673084,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,260688,9 de Julio de Rafaela,1135691,Atlético Escobar,4.0,1.0,1776024000,Ended,finished,1.0
+15673179,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,314629,San Martín Formosa,36835,Boca Unidos,1.0,1.0,1776029400,Ended,finished,3.0
+15673175,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,508986,CA Sarmiento de la Banda,93519,Juventud Antoniana,0.0,0.0,1776031200,Ended,finished,3.0
+15673173,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,502775,Defensores Puerto Vilelas,65670,Sarmiento de Resistencia,2.0,2.0,1776123000,Ended,finished,3.0
+16653314,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,931085,Tucumán Central,1135691,Atlético Escobar,2.0,3.0,1786820400,Ended,finished,2.0
+16653346,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,1078784,Costa Brava de General Pico,53801,Guillermo Brown,1.0,0.0,1786888800,Ended,finished,1.0
+16653256,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,76199,Douglas Haig,508986,CA Sarmiento de la Banda,3.0,1.0,1786903200,Ended,finished,1.0
+16653254,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,1078785,Gimnasia de Chivilcoy,314629,San Martín Formosa,1.0,1.0,1786903200,Ended,finished,3.0
+16653285,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,403460,CD Argentino Monte Maiz,3222,Olimpo,1.0,1.0,1786903200,Ended,finished,3.0
+16653283,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,340428,Kimberley,255427,Club Cipolletti,3.0,1.0,1786903200,Ended,finished,1.0
+16653316,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,257686,Sportivo Las Parejas,261786,Independiente de Chivilcoy,0.0,0.0,1786903200,Ended,finished,3.0
+16653347,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,273210,Juventud Unida Universitario,327909,Circulo Deportivo,0.0,0.0,1786903200,Ended,finished,3.0
+16653344,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,254166,Sol de Mayo,464795,CA Germinal,1.0,0.0,1786903200,Ended,finished,1.0
+16653286,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,197278,Huracán Las Heras,93519,Juventud Antoniana,1.0,0.0,1786905000,Ended,finished,1.0
+16653284,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,226815,Villa Mitre,273715,Alvarado,0.0,0.0,1786905000,Ended,finished,3.0
+16653313,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,93517,Gimnasia y Esgrima de Concepción del Uruguay,502775,Defensores Puerto Vilelas,2.0,0.0,1786905000,Ended,finished,1.0
+16653315,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,65670,Sarmiento de Resistencia,36835,Boca Unidos,0.0,3.0,1786906800,Ended,finished,2.0
+16653343,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,213044,San Martin de Mendoza,285745,Deportivo Rincón,1.0,0.0,1786912200,Ended,finished,1.0
+16653260,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,407265,CA Sol de America de Formosa,1078890,CA Bartolome Mitre,2.0,1.0,1786917600,Ended,finished,1.0
+16653257,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,65664,Sportivo Belgrano,222513,Defensores Villa Ramallo,0.0,2.0,1786993200,Ended,finished,2.0
+16653345,14090,Torneo Federal A,91002,Torneo Federal A 2026,4,165912,CYB Ramón Santamarina,340976,Fundación Amigos Por El Deporte,2.0,0.0,1787000400,Ended,finished,1.0
+15673088,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,1135691,Atlético Escobar,1078785,Gimnasia de Chivilcoy,0.0,2.0,1776362400,Ended,finished,2.0
+15673092,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,65664,Sportivo Belgrano,76199,Douglas Haig,0.0,1.0,1776468900,Ended,finished,2.0
+15673178,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,93519,Juventud Antoniana,1078890,CA Bartolome Mitre,1.0,2.0,1776474000,Ended,finished,2.0
+15673324,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,327909,Circulo Deportivo,273715,Alvarado,0.0,1.0,1776535200,Ended,finished,2.0
+15673094,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,261786,Independiente de Chivilcoy,222513,Defensores Villa Ramallo,1.0,1.0,1776537000,Ended,finished,3.0
+15673347,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,340428,Kimberley,3222,Olimpo,0.0,1.0,1776537000,Ended,finished,2.0
+15673177,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,65670,Sarmiento de Resistencia,314629,San Martín Formosa,1.0,1.0,1776538800,Ended,finished,3.0
+15673244,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,285745,Deportivo Rincón,255427,Club Cipolletti,1.0,2.0,1776538800,Ended,finished,2.0
+15673176,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,407265,CA Sol de America de Formosa,502775,Defensores Puerto Vilelas,2.0,1.0,1776540600,Ended,finished,1.0
+15673185,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,36835,Boca Unidos,931085,Tucumán Central,3.0,1.0,1776607200,Ended,finished,1.0
+15673241,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,340976,Fundación Amigos Por El Deporte,273210,Juventud Unida Universitario,1.0,3.0,1776607200,Ended,finished,2.0
+15673323,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,254166,Sol de Mayo,53801,Guillermo Brown,1.0,0.0,1776607200,Ended,finished,1.0
+15673093,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,257686,Sportivo Las Parejas,93517,Gimnasia y Esgrima de Concepción del Uruguay,2.0,0.0,1776614400,Ended,finished,1.0
+15673095,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,262289,El Linqueño,260688,9 de Julio de Rafaela,0.0,3.0,1776618000,Ended,finished,2.0
+15673252,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,197278,Huracán Las Heras,213044,San Martin de Mendoza,1.0,0.0,1776621600,Ended,finished,1.0
+15673325,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,226815,Villa Mitre,165912,CYB Ramón Santamarina,0.0,0.0,1776621600,Ended,finished,3.0
+15673247,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,1078784,Costa Brava de General Pico,314862,Atenas Rio Cuarto,0.0,1.0,1776637800,Ended,finished,2.0
+16653289,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,93519,Juventud Antoniana,226815,Villa Mitre,0.0,0.0,1787356800,Ended,finished,3.0
+16653354,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,327909,Circulo Deportivo,1078784,Costa Brava de General Pico,0.0,1.0,1787421600,Ended,finished,2.0
+16653348,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,340976,Fundación Amigos Por El Deporte,254166,Sol de Mayo,2.0,0.0,1787495400,Ended,finished,1.0
+16653317,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,1135691,Atlético Escobar,93517,Gimnasia y Esgrima de Concepción del Uruguay,0.0,2.0,1787508000,Ended,finished,2.0
+16653349,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,464795,CA Germinal,213044,San Martin de Mendoza,0.0,0.0,1787508000,Ended,finished,3.0
+16653350,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,285745,Deportivo Rincón,273210,Juventud Unida Universitario,1.0,0.0,1787508000,Ended,finished,1.0
+16653351,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,53801,Guillermo Brown,165912,CYB Ramón Santamarina,1.0,0.0,1787508000,Ended,finished,1.0
+16653258,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,222513,Defensores Villa Ramallo,1078785,Gimnasia de Chivilcoy,0.0,1.0,1787509800,Ended,finished,2.0
+16653292,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,273715,Alvarado,403460,CD Argentino Monte Maiz,1.0,1.0,1787509800,Ended,finished,3.0
+16653287,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,255427,Club Cipolletti,314862,Atenas Rio Cuarto,2.0,2.0,1787509800,Ended,finished,3.0
+16653288,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,3222,Olimpo,340428,Kimberley,1.0,0.0,1787509800,Ended,finished,1.0
+16653319,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,502775,Defensores Puerto Vilelas,262289,El Linqueño,0.0,0.0,1787509800,Ended,finished,3.0
+16653321,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,261786,Independiente de Chivilcoy,931085,Tucumán Central,2.0,0.0,1787509800,Ended,finished,1.0
+16653265,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,1078890,CA Bartolome Mitre,76199,Douglas Haig,0.0,3.0,1787511600,Ended,finished,2.0
+16653262,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,508986,CA Sarmiento de la Banda,65664,Sportivo Belgrano,3.0,0.0,1787511600,Ended,finished,1.0
+16653261,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,314629,San Martín Formosa,260688,9 de Julio de Rafaela,2.0,1.0,1787511600,Ended,finished,1.0
+16653320,14090,Torneo Federal A,91002,Torneo Federal A 2026,5,36835,Boca Unidos,257686,Sportivo Las Parejas,1.0,0.0,1787511600,Ended,finished,1.0
+15673182,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,931085,Tucumán Central,65670,Sarmiento de Resistencia,1.0,1.0,1777143600,Ended,finished,3.0
+15673189,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,502775,Defensores Puerto Vilelas,93519,Juventud Antoniana,0.0,1.0,1777149000,Ended,finished,2.0
+15673332,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,165912,CYB Ramón Santamarina,464795,CA Germinal,0.0,0.0,1777152600,Ended,finished,3.0
+15673382,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,273715,Alvarado,226815,Villa Mitre,1.0,1.0,1777226400,Ended,finished,3.0
+15673098,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,93517,Gimnasia y Esgrima de Concepción del Uruguay,1135691,Atlético Escobar,1.0,2.0,1777228200,Ended,finished,2.0
+15673257,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,255427,Club Cipolletti,340976,Fundación Amigos Por El Deporte,2.0,1.0,1777228200,Ended,finished,1.0
+15673261,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,273210,Juventud Unida Universitario,403460,CD Argentino Monte Maiz,1.0,2.0,1777228200,Ended,finished,2.0
+15673334,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,53801,Guillermo Brown,340428,Kimberley,3.0,4.0,1777228200,Ended,finished,2.0
+15673099,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,222513,Defensores Villa Ramallo,257686,Sportivo Las Parejas,2.0,0.0,1777230000,Ended,finished,1.0
+15673097,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,76199,Douglas Haig,261786,Independiente de Chivilcoy,1.0,0.0,1777230000,Ended,finished,1.0
+15673100,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,1078785,Gimnasia de Chivilcoy,260688,9 de Julio de Rafaela,1.0,0.0,1777230000,Ended,finished,1.0
+15673096,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,65664,Sportivo Belgrano,262289,El Linqueño,1.0,1.0,1777230600,Ended,finished,3.0
+15673186,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,1078890,CA Bartolome Mitre,508986,CA Sarmiento de la Banda,0.0,0.0,1777231800,Ended,finished,3.0
+15673188,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,314629,San Martín Formosa,407265,CA Sol de America de Formosa,1.0,0.0,1777231800,Ended,finished,1.0
+15673254,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,213044,San Martin de Mendoza,1078784,Costa Brava de General Pico,0.0,0.0,1777231800,Ended,finished,3.0
+15673258,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,314862,Atenas Rio Cuarto,285745,Deportivo Rincón,3.0,1.0,1777240800,Ended,finished,1.0
+15673326,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,3222,Olimpo,327909,Circulo Deportivo,1.0,0.0,1777312800,Ended,finished,1.0
+16653322,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,931085,Tucumán Central,36835,Boca Unidos,2.0,2.0,1788026400,Ended,finished,3.0
+16653357,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,213044,San Martin de Mendoza,340976,Fundación Amigos Por El Deporte,0.0,2.0,1788046200,Ended,finished,2.0
+16653266,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,76199,Douglas Haig,407265,CA Sol de America de Formosa,1.0,2.0,1788112800,Ended,finished,2.0
+16653293,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,340428,Kimberley,273715,Alvarado,0.0,2.0,1788112800,Ended,finished,2.0
+16653352,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,464795,CA Germinal,285745,Deportivo Rincón,0.0,0.0,1788112800,Ended,finished,3.0
+16653355,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,1078784,Costa Brava de General Pico,273210,Juventud Unida Universitario,1.0,2.0,1788112800,Ended,finished,2.0
+16653353,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,254166,Sol de Mayo,53801,Guillermo Brown,0.0,2.0,1788112800,Ended,finished,2.0
+16653295,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,226815,Villa Mitre,197278,Huracán Las Heras,3.0,0.0,1788114600,Ended,finished,1.0
+16653318,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,262289,El Linqueño,1135691,Atlético Escobar,1.0,1.0,1788114600,Ended,finished,3.0
+16653323,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,93517,Gimnasia y Esgrima de Concepción del Uruguay,261786,Independiente de Chivilcoy,0.0,0.0,1788114600,Ended,finished,3.0
+16653294,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,403460,CD Argentino Monte Maiz,93519,Juventud Antoniana,1.0,0.0,1788115500,Ended,finished,1.0
+16653259,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,260688,9 de Julio de Rafaela,222513,Defensores Villa Ramallo,1.0,0.0,1788116400,Ended,finished,1.0
+16653270,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,1078785,Gimnasia de Chivilcoy,508986,CA Sarmiento de la Banda,1.0,0.0,1788116400,Ended,finished,1.0
+16653324,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,257686,Sportivo Las Parejas,65670,Sarmiento de Resistencia,3.0,0.0,1788116400,Ended,finished,1.0
+16653263,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,65664,Sportivo Belgrano,1078890,CA Bartolome Mitre,2.0,0.0,1788116700,Ended,finished,1.0
+16653291,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,314862,Atenas Rio Cuarto,3222,Olimpo,1.0,0.0,1788118200,Ended,finished,1.0
+16653356,14090,Torneo Federal A,91002,Torneo Federal A 2026,6,165912,CYB Ramón Santamarina,327909,Circulo Deportivo,2.0,1.0,1788123600,Ended,finished,1.0
+15673384,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,327909,Circulo Deportivo,53801,Guillermo Brown,1.0,1.0,1777744800,Ended,finished,3.0
+15673103,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,261786,Independiente de Chivilcoy,65664,Sportivo Belgrano,0.0,3.0,1777746600,Ended,finished,2.0
+15673263,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,1078784,Costa Brava de General Pico,197278,Huracán Las Heras,1.0,2.0,1777746600,Ended,finished,2.0
+15673360,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,340428,Kimberley,254166,Sol de Mayo,0.0,0.0,1777746600,Ended,finished,3.0
+15673259,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,340976,Fundación Amigos Por El Deporte,314862,Atenas Rio Cuarto,4.0,0.0,1777816800,Ended,finished,1.0
+15673104,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,1135691,Atlético Escobar,222513,Defensores Villa Ramallo,3.0,2.0,1777831200,Ended,finished,1.0
+15673262,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,285745,Deportivo Rincón,213044,San Martin de Mendoza,1.0,0.0,1777831200,Ended,finished,1.0
+15673327,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,464795,CA Germinal,273715,Alvarado,1.0,0.0,1777831200,Ended,finished,1.0
+15673367,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,226815,Villa Mitre,3222,Olimpo,0.0,0.0,1777831200,Ended,finished,3.0
+15673101,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,260688,9 de Julio de Rafaela,93517,Gimnasia y Esgrima de Concepción del Uruguay,4.0,1.0,1777834800,Ended,finished,1.0
+15673102,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,262289,El Linqueño,1078785,Gimnasia de Chivilcoy,1.0,1.0,1777834800,Ended,finished,3.0
+15673106,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,257686,Sportivo Las Parejas,76199,Douglas Haig,0.0,0.0,1777834800,Ended,finished,3.0
+15673191,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,407265,CA Sol de America de Formosa,931085,Tucumán Central,3.0,0.0,1777834800,Ended,finished,1.0
+15673195,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,65670,Sarmiento de Resistencia,36835,Boca Unidos,1.0,1.0,1777834800,Ended,finished,3.0
+15673255,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,403460,CD Argentino Monte Maiz,255427,Club Cipolletti,2.0,0.0,1777834800,Ended,finished,1.0
+15673187,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,508986,CA Sarmiento de la Banda,502775,Defensores Puerto Vilelas,1.0,2.0,1777836600,Ended,finished,2.0
+15673190,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,93519,Juventud Antoniana,314629,San Martín Formosa,0.0,3.0,1777838400,Ended,finished,2.0
+16653297,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,93519,Juventud Antoniana,340428,Kimberley,0.0,3.0,1788570000,Ended,finished,2.0
+16653329,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,65670,Sarmiento de Resistencia,931085,Tucumán Central,1.0,0.0,1788634800,Ended,finished,1.0
+16653358,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,340976,Fundación Amigos Por El Deporte,464795,CA Germinal,,,1788705000,Not started,notstarted,
+16653298,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,273715,Alvarado,314862,Atenas Rio Cuarto,,,1788717600,Not started,notstarted,
+16653360,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,327909,Circulo Deportivo,254166,Sol de Mayo,,,1788717600,Not started,notstarted,
+16653362,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,285745,Deportivo Rincón,1078784,Costa Brava de General Pico,,,1788717600,Not started,notstarted,
+16653359,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,53801,Guillermo Brown,213044,San Martin de Mendoza,,,1788717600,Not started,notstarted,
+16653361,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,273210,Juventud Unida Universitario,165912,CYB Ramón Santamarina,,,1788717600,Not started,notstarted,
+16653267,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,1078890,CA Bartolome Mitre,1078785,Gimnasia de Chivilcoy,,,1788719400,Not started,notstarted,
+16653296,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,197278,Huracán Las Heras,403460,CD Argentino Monte Maiz,,,1788719400,Not started,notstarted,
+16653299,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,3222,Olimpo,255427,Club Cipolletti,,,1788719400,Not started,notstarted,
+16653268,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,508986,CA Sarmiento de la Banda,260688,9 de Julio de Rafaela,,,1788721200,Not started,notstarted,
+16653264,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,222513,Defensores Villa Ramallo,314629,San Martín Formosa,,,1788721200,Not started,notstarted,
+16653326,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,36835,Boca Unidos,93517,Gimnasia y Esgrima de Concepción del Uruguay,,,1788721200,Not started,notstarted,
+16653325,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,261786,Independiente de Chivilcoy,262289,El Linqueño,,,1788721200,Not started,notstarted,
+16653269,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,407265,CA Sol de America de Formosa,65664,Sportivo Belgrano,,,1788732000,Not started,notstarted,
+16653327,14090,Torneo Federal A,91002,Torneo Federal A 2026,7,1135691,Atlético Escobar,502775,Defensores Puerto Vilelas,,,1788804000,Not started,notstarted,
+15673107,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,261786,Independiente de Chivilcoy,262289,El Linqueño,1.0,0.0,1778351400,Ended,finished,1.0
+15673199,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,502775,Defensores Puerto Vilelas,1078890,CA Bartolome Mitre,1.0,3.0,1778369400,Ended,finished,2.0
+15673330,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,273715,Alvarado,165912,CYB Ramón Santamarina,3.0,0.0,1778436000,Ended,finished,1.0
+15673371,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,53801,Guillermo Brown,226815,Villa Mitre,1.0,0.0,1778436000,Ended,finished,1.0
+15673328,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,254166,Sol de Mayo,327909,Circulo Deportivo,0.0,0.0,1778436000,Ended,finished,3.0
+15673109,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,93517,Gimnasia y Esgrima de Concepción del Uruguay,1078785,Gimnasia de Chivilcoy,1.0,0.0,1778437800,Ended,finished,1.0
+15673265,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,314862,Atenas Rio Cuarto,403460,CD Argentino Monte Maiz,1.0,0.0,1778437800,Ended,finished,1.0
+15673266,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,255427,Club Cipolletti,273210,Juventud Unida Universitario,0.0,1.0,1778437800,Ended,finished,2.0
+15673329,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,3222,Olimpo,464795,CA Germinal,1.0,0.0,1778437800,Ended,finished,1.0
+15673110,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,222513,Defensores Villa Ramallo,260688,9 de Julio de Rafaela,0.0,0.0,1778439600,Ended,finished,3.0
+15673108,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,76199,Douglas Haig,1135691,Atlético Escobar,4.0,1.0,1778439600,Ended,finished,1.0
+15673105,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,65664,Sportivo Belgrano,257686,Sportivo Las Parejas,2.0,0.0,1778439600,Ended,finished,1.0
+15673194,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,36835,Boca Unidos,407265,CA Sol de America de Formosa,0.0,1.0,1778439600,Ended,finished,2.0
+15673198,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,931085,Tucumán Central,93519,Juventud Antoniana,1.0,0.0,1778439600,Ended,finished,1.0
+15673260,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,197278,Huracán Las Heras,285745,Deportivo Rincón,1.0,1.0,1778439600,Ended,finished,3.0
+15673264,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,213044,San Martin de Mendoza,340976,Fundación Amigos Por El Deporte,1.0,1.0,1778439600,Ended,finished,3.0
+15673197,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,314629,San Martín Formosa,508986,CA Sarmiento de la Banda,4.0,2.0,1778441400,Ended,finished,1.0
+16653273,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,260688,9 de Julio de Rafaela,1078890,CA Bartolome Mitre,,,1789324200,Not started,notstarted,
+16653272,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,1078785,Gimnasia de Chivilcoy,407265,CA Sol de America de Formosa,,,1789324200,Not started,notstarted,
+16653271,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,314629,San Martín Formosa,508986,CA Sarmiento de la Banda,,,1789324200,Not started,notstarted,
+16653274,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,65664,Sportivo Belgrano,76199,Douglas Haig,,,1789324200,Not started,notstarted,
+16653302,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,314862,Atenas Rio Cuarto,93519,Juventud Antoniana,,,1789324200,Not started,notstarted,
+16653301,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,403460,CD Argentino Monte Maiz,226815,Villa Mitre,,,1789324200,Not started,notstarted,
+16653300,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,255427,Club Cipolletti,273715,Alvarado,,,1789324200,Not started,notstarted,
+16653303,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,340428,Kimberley,197278,Huracán Las Heras,,,1789324200,Not started,notstarted,
+16653328,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,502775,Defensores Puerto Vilelas,261786,Independiente de Chivilcoy,,,1789329600,Not started,notstarted,
+16653330,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,262289,El Linqueño,36835,Boca Unidos,,,1789329600,Not started,notstarted,
+16653331,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,93517,Gimnasia y Esgrima de Concepción del Uruguay,65670,Sarmiento de Resistencia,,,1789329600,Not started,notstarted,
+16653332,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,931085,Tucumán Central,257686,Sportivo Las Parejas,,,1789329600,Not started,notstarted,
+16653364,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,464795,CA Germinal,53801,Guillermo Brown,,,1789329600,Not started,notstarted,
+16653367,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,165912,CYB Ramón Santamarina,1078784,Costa Brava de General Pico,,,1789329600,Not started,notstarted,
+16653363,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,340976,Fundación Amigos Por El Deporte,285745,Deportivo Rincón,,,1789329600,Not started,notstarted,
+16653365,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,213044,San Martin de Mendoza,327909,Circulo Deportivo,,,1789329600,Not started,notstarted,
+16653366,14090,Torneo Federal A,91002,Torneo Federal A 2026,8,254166,Sol de Mayo,273210,Juventud Unida Universitario,,,1789329600,Not started,notstarted,
+15673112,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,1078785,Gimnasia de Chivilcoy,222513,Defensores Villa Ramallo,3.0,0.0,1778956200,Ended,finished,1.0
+15673268,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,340976,Fundación Amigos Por El Deporte,197278,Huracán Las Heras,1.0,0.0,1779028200,Ended,finished,1.0
+15673111,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,262289,El Linqueño,93517,Gimnasia y Esgrima de Concepción del Uruguay,0.0,0.0,1779040800,Ended,finished,3.0
+15673273,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,285745,Deportivo Rincón,1078784,Costa Brava de General Pico,1.0,0.0,1779040800,Ended,finished,1.0
+15673335,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,464795,CA Germinal,53801,Guillermo Brown,1.0,1.0,1779040800,Ended,finished,3.0
+15673337,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,327909,Circulo Deportivo,340428,Kimberley,0.0,1.0,1779040800,Ended,finished,2.0
+15673333,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,226815,Villa Mitre,254166,Sol de Mayo,2.0,1.0,1779040800,Ended,finished,1.0
+15673113,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,260688,9 de Julio de Rafaela,76199,Douglas Haig,2.0,0.0,1779042600,Ended,finished,1.0
+15673119,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,1135691,Atlético Escobar,65664,Sportivo Belgrano,1.0,3.0,1779042600,Ended,finished,2.0
+15673201,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,93519,Juventud Antoniana,36835,Boca Unidos,0.0,0.0,1779042600,Ended,finished,3.0
+15673267,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,403460,CD Argentino Monte Maiz,213044,San Martin de Mendoza,4.0,1.0,1779042600,Ended,finished,1.0
+15673269,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,273210,Juventud Unida Universitario,314862,Atenas Rio Cuarto,0.0,1.0,1779042600,Ended,finished,2.0
+15673115,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,257686,Sportivo Las Parejas,261786,Independiente de Chivilcoy,1.0,0.0,1779044400,Ended,finished,1.0
+15673196,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,1078890,CA Bartolome Mitre,314629,San Martín Formosa,2.0,0.0,1779044400,Ended,finished,1.0
+15673204,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,407265,CA Sol de America de Formosa,65670,Sarmiento de Resistencia,3.0,0.0,1779044400,Ended,finished,1.0
+15673200,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,508986,CA Sarmiento de la Banda,931085,Tucumán Central,1.0,0.0,1779046200,Ended,finished,1.0
+15673331,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,165912,CYB Ramón Santamarina,3222,Olimpo,0.0,0.0,1779052200,Ended,finished,3.0
+16653276,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,407265,CA Sol de America de Formosa,260688,9 de Julio de Rafaela,,,1789923600,Not started,notstarted,
+16653275,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,76199,Douglas Haig,1078785,Gimnasia de Chivilcoy,,,1789923600,Not started,notstarted,
+16653304,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,197278,Huracán Las Heras,314862,Atenas Rio Cuarto,,,1789923600,Not started,notstarted,
+16653305,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,226815,Villa Mitre,340428,Kimberley,,,1789923600,Not started,notstarted,
+16653335,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,65670,Sarmiento de Resistencia,262289,El Linqueño,,,1789923600,Not started,notstarted,
+16653334,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,257686,Sportivo Las Parejas,93517,Gimnasia y Esgrima de Concepción del Uruguay,,,1789923600,Not started,notstarted,
+16653372,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,1078784,Costa Brava de General Pico,254166,Sol de Mayo,,,1789923600,Not started,notstarted,
+16653368,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,285745,Deportivo Rincón,165912,CYB Ramón Santamarina,,,1789923600,Not started,notstarted,
+16653277,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,1078890,CA Bartolome Mitre,314629,San Martín Formosa,,,1790010000,Not started,notstarted,
+16653308,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,93519,Juventud Antoniana,255427,Club Cipolletti,,,1790010000,Not started,notstarted,
+16653333,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,36835,Boca Unidos,502775,Defensores Puerto Vilelas,,,1790010000,Not started,notstarted,
+16653370,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,273210,Juventud Unida Universitario,213044,San Martin de Mendoza,,,1790010000,Not started,notstarted,
+16653278,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,508986,CA Sarmiento de la Banda,222513,Defensores Villa Ramallo,,,1790096400,Not started,notstarted,
+16653309,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,273715,Alvarado,3222,Olimpo,,,1790096400,Not started,notstarted,
+16653336,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,261786,Independiente de Chivilcoy,1135691,Atlético Escobar,,,1790096400,Not started,notstarted,
+16653369,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,327909,Circulo Deportivo,464795,CA Germinal,,,1790096400,Not started,notstarted,
+16653371,14090,Torneo Federal A,91002,Torneo Federal A 2026,9,53801,Guillermo Brown,340976,Fundación Amigos Por El Deporte,,,1790096400,Not started,notstarted,
+15673205,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,93519,Juventud Antoniana,65670,Sarmiento de Resistencia,2.0,0.0,1779498000,Ended,finished,1.0
+15673117,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,1078785,Gimnasia de Chivilcoy,76199,Douglas Haig,2.0,0.0,1779561000,Ended,finished,1.0
+15673271,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,403460,CD Argentino Monte Maiz,197278,Huracán Las Heras,1.0,0.0,1779561000,Ended,finished,1.0
+15673270,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,273210,Juventud Unida Universitario,213044,San Martin de Mendoza,1.0,1.0,1779561000,Ended,finished,3.0
+15673118,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,260688,9 de Julio de Rafaela,65664,Sportivo Belgrano,0.0,2.0,1779631200,Ended,finished,2.0
+15673126,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,93517,Gimnasia y Esgrima de Concepción del Uruguay,222513,Defensores Villa Ramallo,1.0,0.0,1779631200,Ended,finished,1.0
+15673341,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,165912,CYB Ramón Santamarina,53801,Guillermo Brown,0.0,2.0,1779631200,Ended,finished,2.0
+15673272,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,340976,Fundación Amigos Por El Deporte,1078784,Costa Brava de General Pico,2.0,0.0,1779633000,Ended,finished,1.0
+15673340,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,273715,Alvarado,3222,Olimpo,2.0,0.0,1779635700,Ended,finished,1.0
+15673114,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,257686,Sportivo Las Parejas,262289,El Linqueño,1.0,0.0,1779638400,Ended,finished,1.0
+15673338,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,464795,CA Germinal,254166,Sol de Mayo,1.0,0.0,1779645600,Ended,finished,1.0
+15673116,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,1135691,Atlético Escobar,261786,Independiente de Chivilcoy,0.0,0.0,1779647400,Ended,finished,3.0
+15673274,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,255427,Club Cipolletti,314862,Atenas Rio Cuarto,1.0,0.0,1779647400,Ended,finished,1.0
+15673336,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,226815,Villa Mitre,340428,Kimberley,0.0,0.0,1779732000,Ended,finished,3.0
+15673202,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,1078890,CA Bartolome Mitre,931085,Tucumán Central,1.0,0.0,1779734700,Ended,finished,1.0
+15673203,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,508986,CA Sarmiento de la Banda,36835,Boca Unidos,3.0,0.0,1779735600,Ended,finished,1.0
+15673206,14090,Torneo Federal A,91002,Torneo Federal A 2026,10,502775,Defensores Puerto Vilelas,314629,San Martín Formosa,2.0,3.0,1779735600,Ended,finished,2.0
+15673344,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,340428,Kimberley,464795,CA Germinal,1.0,0.0,1780165800,Ended,finished,1.0
+15673123,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,257686,Sportivo Las Parejas,1135691,Atlético Escobar,1.0,0.0,1780169400,Ended,finished,1.0
+15673120,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,262289,El Linqueño,222513,Defensores Villa Ramallo,0.0,2.0,1780250400,Ended,finished,2.0
+15673122,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,261786,Independiente de Chivilcoy,260688,9 de Julio de Rafaela,2.0,2.0,1780250400,Ended,finished,3.0
+15673277,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,1078784,Costa Brava de General Pico,403460,CD Argentino Monte Maiz,2.0,0.0,1780250400,Ended,finished,1.0
+15673278,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,285745,Deportivo Rincón,340976,Fundación Amigos Por El Deporte,0.0,0.0,1780250400,Ended,finished,3.0
+15673346,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,327909,Circulo Deportivo,226815,Villa Mitre,0.0,0.0,1780250400,Ended,finished,3.0
+15673339,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,53801,Guillermo Brown,273715,Alvarado,0.0,0.0,1780250400,Ended,finished,3.0
+15673342,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,254166,Sol de Mayo,165912,CYB Ramón Santamarina,3.0,2.0,1780250400,Ended,finished,1.0
+15673136,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,76199,Douglas Haig,93517,Gimnasia y Esgrima de Concepción del Uruguay,0.0,0.0,1780252200,Ended,finished,3.0
+15673208,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,36835,Boca Unidos,1078890,CA Bartolome Mitre,2.0,1.0,1780252200,Ended,finished,1.0
+15673209,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,407265,CA Sol de America de Formosa,93519,Juventud Antoniana,1.0,0.0,1780253100,Ended,finished,1.0
+15673124,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,65664,Sportivo Belgrano,1078785,Gimnasia de Chivilcoy,1.0,0.0,1780254000,Ended,finished,1.0
+15673213,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,65670,Sarmiento de Resistencia,508986,CA Sarmiento de la Banda,0.0,1.0,1780254000,Ended,finished,2.0
+15673207,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,931085,Tucumán Central,502775,Defensores Puerto Vilelas,2.0,0.0,1780254000,Ended,finished,1.0
+15673276,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,197278,Huracán Las Heras,273210,Juventud Unida Universitario,1.0,0.0,1780254000,Ended,finished,1.0
+15673275,14090,Torneo Federal A,91002,Torneo Federal A 2026,11,213044,San Martin de Mendoza,255427,Club Cipolletti,1.0,0.0,1780254000,Ended,finished,1.0
+15673216,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,502775,Defensores Puerto Vilelas,36835,Boca Unidos,2.0,0.0,1780770600,Ended,finished,1.0
+15673210,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,1078890,CA Bartolome Mitre,65670,Sarmiento de Resistencia,2.0,0.0,1780771500,Ended,finished,1.0
+15673279,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,273210,Juventud Unida Universitario,1078784,Costa Brava de General Pico,0.0,0.0,1780855200,Ended,finished,3.0
+15673350,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,273715,Alvarado,254166,Sol de Mayo,2.0,0.0,1780855200,Ended,finished,1.0
+15673345,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,464795,CA Germinal,327909,Circulo Deportivo,0.0,0.0,1780855200,Ended,finished,3.0
+15673349,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,3222,Olimpo,53801,Guillermo Brown,0.0,0.0,1780855200,Ended,finished,3.0
+15673128,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,260688,9 de Julio de Rafaela,257686,Sportivo Las Parejas,2.0,2.0,1780857000,Ended,finished,3.0
+15673121,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,1135691,Atlético Escobar,262289,El Linqueño,1.0,0.0,1780857000,Ended,finished,1.0
+15673130,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,222513,Defensores Villa Ramallo,76199,Douglas Haig,1.0,0.0,1780857000,Ended,finished,1.0
+15673125,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,1078785,Gimnasia de Chivilcoy,261786,Independiente de Chivilcoy,0.0,0.0,1780857000,Ended,finished,3.0
+15673127,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,93517,Gimnasia y Esgrima de Concepción del Uruguay,65664,Sportivo Belgrano,1.0,0.0,1780857000,Ended,finished,1.0
+15673283,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,314862,Atenas Rio Cuarto,213044,San Martin de Mendoza,0.0,0.0,1780857000,Ended,finished,3.0
+15673281,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,403460,CD Argentino Monte Maiz,285745,Deportivo Rincón,2.0,0.0,1780857000,Ended,finished,1.0
+15673280,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,255427,Club Cipolletti,197278,Huracán Las Heras,3.0,0.0,1780857000,Ended,finished,1.0
+15673348,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,165912,CYB Ramón Santamarina,340428,Kimberley,1.0,0.0,1780857000,Ended,finished,1.0
+15673211,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,508986,CA Sarmiento de la Banda,407265,CA Sol de America de Formosa,2.0,0.0,1780860600,Ended,finished,1.0
+15673212,14090,Torneo Federal A,91002,Torneo Federal A 2026,12,314629,San Martín Formosa,931085,Tucumán Central,3.0,2.0,1780860600,Ended,finished,1.0
+15673215,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,93519,Juventud Antoniana,508986,CA Sarmiento de la Banda,0.0,1.0,1781312400,Ended,finished,2.0
+15673133,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,1135691,Atlético Escobar,260688,9 de Julio de Rafaela,2.0,0.0,1781373600,Ended,finished,1.0
+15673132,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,257686,Sportivo Las Parejas,1078785,Gimnasia de Chivilcoy,0.0,0.0,1781379000,Ended,finished,3.0
+15673282,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,340976,Fundación Amigos Por El Deporte,403460,CD Argentino Monte Maiz,2.0,2.0,1781447400,Ended,finished,3.0
+15673353,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,340428,Kimberley,273715,Alvarado,2.0,2.0,1781458200,Ended,finished,3.0
+15673134,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,262289,El Linqueño,76199,Douglas Haig,2.0,0.0,1781460000,Ended,finished,1.0
+15673131,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,261786,Independiente de Chivilcoy,93517,Gimnasia y Esgrima de Concepción del Uruguay,0.0,0.0,1781460000,Ended,finished,3.0
+15673289,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,285745,Deportivo Rincón,273210,Juventud Unida Universitario,2.0,1.0,1781460000,Ended,finished,1.0
+15673351,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,327909,Circulo Deportivo,165912,CYB Ramón Santamarina,0.0,0.0,1781460000,Ended,finished,3.0
+15673355,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,254166,Sol de Mayo,3222,Olimpo,1.0,1.0,1781460000,Ended,finished,3.0
+15673356,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,226815,Villa Mitre,464795,CA Germinal,0.0,0.0,1781460000,Ended,finished,3.0
+15673217,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,36835,Boca Unidos,314629,San Martín Formosa,3.0,1.0,1781461800,Ended,finished,1.0
+15673287,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,197278,Huracán Las Heras,314862,Atenas Rio Cuarto,1.0,0.0,1781461800,Ended,finished,1.0
+15673214,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,407265,CA Sol de America de Formosa,1078890,CA Bartolome Mitre,0.0,0.0,1781462700,Ended,finished,3.0
+15673221,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,65670,Sarmiento de Resistencia,502775,Defensores Puerto Vilelas,2.0,0.0,1781463600,Ended,finished,1.0
+15673284,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,1078784,Costa Brava de General Pico,255427,Club Cipolletti,1.0,0.0,1781467200,Ended,finished,1.0
+15673129,14090,Torneo Federal A,91002,Torneo Federal A 2026,13,65664,Sportivo Belgrano,222513,Defensores Villa Ramallo,1.0,0.0,1781557200,Ended,finished,1.0
+15673142,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,76199,Douglas Haig,65664,Sportivo Belgrano,0.0,0.0,1781978400,Ended,finished,3.0
+15673137,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,1078785,Gimnasia de Chivilcoy,1135691,Atlético Escobar,2.0,0.0,1781978400,Ended,finished,1.0
+15673354,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,273715,Alvarado,327909,Circulo Deportivo,1.0,0.0,1781978400,Ended,finished,1.0
+15673369,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,3222,Olimpo,340428,Kimberley,0.0,0.0,1781978400,Ended,finished,3.0
+15673285,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,273210,Juventud Unida Universitario,340976,Fundación Amigos Por El Deporte,0.0,0.0,1781978700,Ended,finished,3.0
+15673222,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,1078890,CA Bartolome Mitre,93519,Juventud Antoniana,0.0,0.0,1781981100,Ended,finished,3.0
+15673352,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,165912,CYB Ramón Santamarina,226815,Villa Mitre,0.0,2.0,1781989200,Ended,finished,2.0
+15673291,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,213044,San Martin de Mendoza,197278,Huracán Las Heras,3.0,1.0,1781998200,Ended,finished,1.0
+15673392,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,53801,Guillermo Brown,254166,Sol de Mayo,0.0,1.0,1782064800,Ended,finished,2.0
+15673140,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,222513,Defensores Villa Ramallo,261786,Independiente de Chivilcoy,2.0,0.0,1782066600,Ended,finished,1.0
+15673218,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,502775,Defensores Puerto Vilelas,407265,CA Sol de America de Formosa,2.0,1.0,1782066600,Ended,finished,1.0
+15673286,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,255427,Club Cipolletti,285745,Deportivo Rincón,2.0,1.0,1782066600,Ended,finished,1.0
+15673139,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,93517,Gimnasia y Esgrima de Concepción del Uruguay,257686,Sportivo Las Parejas,0.0,1.0,1782068400,Ended,finished,2.0
+15673226,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,314629,San Martín Formosa,65670,Sarmiento de Resistencia,3.0,0.0,1782068400,Ended,finished,1.0
+15673223,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,931085,Tucumán Central,36835,Boca Unidos,2.0,0.0,1782068400,Ended,finished,1.0
+15673290,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,314862,Atenas Rio Cuarto,1078784,Costa Brava de General Pico,1.0,1.0,1782070200,Ended,finished,3.0
+15673135,14090,Torneo Federal A,91002,Torneo Federal A 2026,14,260688,9 de Julio de Rafaela,262289,El Linqueño,3.0,2.0,1782170100,Ended,finished,1.0
+15673292,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,340976,Fundación Amigos Por El Deporte,255427,Club Cipolletti,0.0,0.0,1782570600,Ended,finished,3.0
+15673295,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,403460,CD Argentino Monte Maiz,273210,Juventud Unida Universitario,0.0,0.0,1782585000,Ended,finished,3.0
+15673293,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,285745,Deportivo Rincón,314862,Atenas Rio Cuarto,0.0,1.0,1782585000,Ended,finished,2.0
+15673144,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,257686,Sportivo Las Parejas,222513,Defensores Villa Ramallo,1.0,1.0,1782588600,Ended,finished,3.0
+15673141,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,262289,El Linqueño,65664,Sportivo Belgrano,1.0,1.0,1782669600,Ended,finished,3.0
+15673143,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,261786,Independiente de Chivilcoy,76199,Douglas Haig,0.0,4.0,1782669600,Ended,finished,2.0
+15673228,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,407265,CA Sol de America de Formosa,314629,San Martín Formosa,1.0,2.0,1782669600,Ended,finished,2.0
+15673357,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,464795,CA Germinal,165912,CYB Ramón Santamarina,1.0,0.0,1782669600,Ended,finished,1.0
+15673361,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,327909,Circulo Deportivo,3222,Olimpo,1.0,1.0,1782669600,Ended,finished,3.0
+15673358,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,340428,Kimberley,53801,Guillermo Brown,3.0,0.0,1782669600,Ended,finished,1.0
+15673363,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,226815,Villa Mitre,273715,Alvarado,1.0,0.0,1782669600,Ended,finished,1.0
+15673146,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,1135691,Atlético Escobar,93517,Gimnasia y Esgrima de Concepción del Uruguay,2.0,1.0,1782671400,Ended,finished,1.0
+15673238,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,93519,Juventud Antoniana,502775,Defensores Puerto Vilelas,4.0,0.0,1782671400,Ended,finished,1.0
+15673288,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,1078784,Costa Brava de General Pico,213044,San Martin de Mendoza,2.0,1.0,1782671400,Ended,finished,1.0
+15673145,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,260688,9 de Julio de Rafaela,1078785,Gimnasia de Chivilcoy,2.0,1.0,1782673200,Ended,finished,1.0
+15673224,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,508986,CA Sarmiento de la Banda,1078890,CA Bartolome Mitre,1.0,0.0,1782673200,Ended,finished,1.0
+15673220,14090,Torneo Federal A,91002,Torneo Federal A 2026,15,65670,Sarmiento de Resistencia,931085,Tucumán Central,1.0,0.0,1782673200,Ended,finished,1.0
+15673219,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,502775,Defensores Puerto Vilelas,508986,CA Sarmiento de la Banda,3.0,0.0,1783189800,Ended,finished,1.0
+15673298,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,197278,Huracán Las Heras,1078784,Costa Brava de General Pico,2.0,0.0,1783189800,Ended,finished,1.0
+15673362,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,273715,Alvarado,464795,CA Germinal,5.0,0.0,1783270800,Ended,finished,1.0
+15673150,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,76199,Douglas Haig,257686,Sportivo Las Parejas,0.0,0.0,1783274400,Ended,finished,3.0
+15673148,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,93517,Gimnasia y Esgrima de Concepción del Uruguay,260688,9 de Julio de Rafaela,3.0,0.0,1783274400,Ended,finished,1.0
+15673297,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,314862,Atenas Rio Cuarto,340976,Fundación Amigos Por El Deporte,1.0,3.0,1783274400,Ended,finished,2.0
+15673375,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,53801,Guillermo Brown,327909,Circulo Deportivo,1.0,0.0,1783274400,Ended,finished,1.0
+15673359,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,3222,Olimpo,226815,Villa Mitre,0.0,0.0,1783274400,Ended,finished,3.0
+15673365,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,254166,Sol de Mayo,340428,Kimberley,1.0,2.0,1783274400,Ended,finished,2.0
+15673149,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,222513,Defensores Villa Ramallo,1135691,Atlético Escobar,1.0,1.0,1783276200,Ended,finished,3.0
+15673232,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,36835,Boca Unidos,65670,Sarmiento de Resistencia,2.0,0.0,1783276200,Ended,finished,1.0
+15673294,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,255427,Club Cipolletti,403460,CD Argentino Monte Maiz,2.0,2.0,1783276200,Ended,finished,3.0
+15673147,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,1078785,Gimnasia de Chivilcoy,262289,El Linqueño,1.0,0.0,1783278000,Ended,finished,1.0
+15673152,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,65664,Sportivo Belgrano,261786,Independiente de Chivilcoy,1.0,1.0,1783278000,Ended,finished,3.0
+15673231,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,314629,San Martín Formosa,93519,Juventud Antoniana,0.0,0.0,1783278000,Ended,finished,3.0
+15673227,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,931085,Tucumán Central,407265,CA Sol de America de Formosa,0.0,1.0,1783278000,Ended,finished,2.0
+15673296,14090,Torneo Federal A,91002,Torneo Federal A 2026,16,213044,San Martin de Mendoza,285745,Deportivo Rincón,1.0,0.0,1783278000,Ended,finished,1.0
+15673303,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,273210,Juventud Unida Universitario,255427,Club Cipolletti,0.0,1.0,1783792800,Ended,finished,2.0
+15673151,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,1135691,Atlético Escobar,76199,Douglas Haig,2.0,1.0,1783794600,Ended,finished,1.0
+15673370,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,165912,CYB Ramón Santamarina,273715,Alvarado,0.0,0.0,1783794600,Ended,finished,3.0
+15673301,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,340976,Fundación Amigos Por El Deporte,213044,San Martin de Mendoza,0.0,0.0,1783866600,Ended,finished,3.0
+15673157,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,257686,Sportivo Las Parejas,65664,Sportivo Belgrano,0.0,0.0,1783872000,Ended,finished,3.0
+15673154,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,262289,El Linqueño,261786,Independiente de Chivilcoy,2.0,1.0,1783879200,Ended,finished,1.0
+15673230,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,407265,CA Sol de America de Formosa,36835,Boca Unidos,3.0,2.0,1783879200,Ended,finished,1.0
+15673368,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,464795,CA Germinal,3222,Olimpo,0.0,1.0,1783879200,Ended,finished,2.0
+15673364,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,327909,Circulo Deportivo,254166,Sol de Mayo,3.0,1.0,1783879200,Ended,finished,1.0
+15673366,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,226815,Villa Mitre,53801,Guillermo Brown,3.0,0.0,1783879200,Ended,finished,1.0
+15673229,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,1078890,CA Bartolome Mitre,502775,Defensores Puerto Vilelas,1.0,0.0,1783881000,Ended,finished,1.0
+15673225,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,93519,Juventud Antoniana,931085,Tucumán Central,3.0,1.0,1783881000,Ended,finished,1.0
+15673299,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,285745,Deportivo Rincón,197278,Huracán Las Heras,0.0,1.0,1783881000,Ended,finished,2.0
+15673300,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,403460,CD Argentino Monte Maiz,314862,Atenas Rio Cuarto,0.0,0.0,1783881900,Ended,finished,3.0
+15673235,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,508986,CA Sarmiento de la Banda,314629,San Martín Formosa,2.0,0.0,1783882800,Ended,finished,1.0
+15673155,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,1078785,Gimnasia de Chivilcoy,93517,Gimnasia y Esgrima de Concepción del Uruguay,0.0,0.0,1783886400,Ended,finished,3.0
+15673153,14090,Torneo Federal A,91002,Torneo Federal A 2026,17,260688,9 de Julio de Rafaela,222513,Defensores Villa Ramallo,1.0,2.0,1783978200,Ended,finished,2.0
+15673158,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,222513,Defensores Villa Ramallo,1078785,Gimnasia de Chivilcoy,,,1784491200,Postponed,postponed,
+15673161,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,76199,Douglas Haig,260688,9 de Julio de Rafaela,,,1784491200,Postponed,postponed,
+15673156,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,93517,Gimnasia y Esgrima de Concepción del Uruguay,262289,El Linqueño,,,1784491200,Postponed,postponed,
+15673160,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,261786,Independiente de Chivilcoy,257686,Sportivo Las Parejas,,,1784491200,Postponed,postponed,
+15673159,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,65664,Sportivo Belgrano,1135691,Atlético Escobar,,,1784491200,Postponed,postponed,
+15673237,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,36835,Boca Unidos,93519,Juventud Antoniana,,,1784491200,Postponed,postponed,
+15673233,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,314629,San Martín Formosa,1078890,CA Bartolome Mitre,,,1784491200,Postponed,postponed,
+15673236,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,65670,Sarmiento de Resistencia,407265,CA Sol de America de Formosa,,,1784491200,Postponed,postponed,
+15673234,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,931085,Tucumán Central,508986,CA Sarmiento de la Banda,,,1784491200,Postponed,postponed,
+15673302,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,314862,Atenas Rio Cuarto,273210,Juventud Unida Universitario,,,1784491200,Postponed,postponed,
+15673306,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,1078784,Costa Brava de General Pico,285745,Deportivo Rincón,,,1784491200,Postponed,postponed,
+15673305,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,197278,Huracán Las Heras,340976,Fundación Amigos Por El Deporte,,,1784491200,Postponed,postponed,
+15673304,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,213044,San Martin de Mendoza,403460,CD Argentino Monte Maiz,,,1784491200,Postponed,postponed,
+15673373,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,53801,Guillermo Brown,464795,CA Germinal,,,1784491200,Postponed,postponed,
+15673379,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,340428,Kimberley,327909,Circulo Deportivo,,,1784491200,Postponed,postponed,
+15673372,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,3222,Olimpo,165912,CYB Ramón Santamarina,,,1784491200,Postponed,postponed,
+15673374,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,254166,Sol de Mayo,226815,Villa Mitre,,,1784491200,Postponed,postponed,
+16571337,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,340428,Kimberley,327909,Circulo Deportivo,1.0,1.0,1784916000,Ended,finished,3.0
+16564339,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,65664,Sportivo Belgrano,1135691,Atlético Escobar,2.0,2.0,1784936100,Ended,finished,3.0
+16578366,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,222513,Defensores Villa Ramallo,1078785,Gimnasia de Chivilcoy,2.0,2.0,1785002400,Ended,finished,3.0
+16572907,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,1078784,Costa Brava de General Pico,285745,Deportivo Rincón,0.0,1.0,1785004200,Ended,finished,2.0
+16557595,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,76199,Douglas Haig,260688,9 de Julio de Rafaela,2.0,1.0,1785088800,Ended,finished,1.0
+16558994,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,93517,Gimnasia y Esgrima de Concepción del Uruguay,262289,El Linqueño,0.0,1.0,1785088800,Ended,finished,2.0
+16571276,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,261786,Independiente de Chivilcoy,257686,Sportivo Las Parejas,1.0,1.0,1785088800,Ended,finished,3.0
+16572903,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,36835,Boca Unidos,93519,Juventud Antoniana,0.0,3.0,1785088800,Ended,finished,2.0
+16584936,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,314862,Atenas Rio Cuarto,273210,Juventud Unida Universitario,0.0,0.0,1785088800,Ended,finished,3.0
+16572906,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,197278,Huracán Las Heras,340976,Fundación Amigos Por El Deporte,0.0,0.0,1785088800,Ended,finished,3.0
+16578152,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,213044,San Martin de Mendoza,403460,CD Argentino Monte Maiz,1.0,1.0,1785088800,Ended,finished,3.0
+16572905,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,53801,Guillermo Brown,464795,CA Germinal,2.0,0.0,1785088800,Ended,finished,1.0
+16571349,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,3222,Olimpo,165912,CYB Ramón Santamarina,2.0,0.0,1785088800,Ended,finished,1.0
+16572908,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,254166,Sol de Mayo,226815,Villa Mitre,3.0,3.0,1785088800,Ended,finished,3.0
+16573973,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,314629,San Martín Formosa,1078890,CA Bartolome Mitre,1.0,0.0,1785090600,Ended,finished,1.0
+16566939,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,65670,Sarmiento de Resistencia,407265,CA Sol de America de Formosa,2.0,1.0,1785092400,Ended,finished,1.0
+16572904,14090,Torneo Federal A,91002,Torneo Federal A 2026,18,931085,Tucumán Central,508986,CA Sarmiento de la Banda,1.0,1.0,1785092400,Ended,finished,3.0

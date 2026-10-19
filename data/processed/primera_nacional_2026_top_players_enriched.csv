@@ -1,0 +1,87 @@
+﻿player_id,country,height,foot,dob_ts,market_value_eur,current_team,age
+1502092,Uruguay,182.0,Left,913593600.0,280000.0,Deportivo Morón,27.7
+1182428,Argentina,183.0,Right,923356800.0,390000.0,Gimnasia y Tiro de Salta,27.4
+1132948,Argentina,172.0,Right,1028505600.0,580000.0,Club Atletico Colón,24.1
+994452,Argentina,185.0,Right,890006400.0,390000.0,Godoy Cruz,28.5
+1117173,Argentina,174.0,Right,990144000.0,190000.0,CA Mitre,25.3
+951083,Argentina,187.0,Right,634176000.0,52000.0,Deportivo Madryn,36.6
+1117089,Argentina,187.0,Left,991440000.0,270000.0,San Martín de San Juan,25.3
+121973,Argentina,182.0,Right,568080000.0,73000.0,Racing de Córdoba,38.7
+226544,Argentina,180.0,Right,560131200.0,53000.0,Güemes,38.9
+1021876,Argentina,177.0,Right,821664000.0,325000.0,Quilmes Atlético Club,30.6
+946161,Argentina,178.0,Right,764294400.0,160000.0,Club Ferro Carril Oeste,32.5
+1597532,Argentina,185.0,Right,770860800.0,210000.0,Chaco For Ever,32.3
+941534,Argentina,191.0,Right,831340800.0,350000.0,Club Atletico Colón,30.3
+47333,Argentina,184.0,Right,575942400.0,27000.0,Gimnasia Y Esgrima De Jujuy,38.4
+1167615,Argentina,187.0,Right,959472000.0,73000.0,Quilmes Atlético Club,26.3
+581666,Argentina,187.0,Right,774921600.0,220000.0,Los Andes,32.1
+2229943,Argentina,192.0,Right,1010880000.0,73000.0,Ferrocarril Midland,24.6
+1020531,Argentina,180.0,Right,768441600.0,210000.0,Deportivo Morón,32.3
+1109640,Argentina,178.0,Left,957484800.0,190000.0,Temperley,26.3
+1093100,Argentina,188.0,Right,906422400.0,160000.0,Estudiantes de Buenos Aires,28.0
+943794,Argentina,178.0,Left,655344000.0,52000.0,Gimnasia Y Esgrima De Jujuy,35.9
+1512471,Argentina,182.0,Right,1020902400.0,205000.0,Quilmes Atlético Club,24.3
+773629,Argentina,169.0,Right,769046400.0,180000.0,Club Ferro Carril Oeste,32.3
+1131817,Argentina,175.0,Right,1016409600.0,160000.0,Temperley,24.5
+1404361,Italy,170.0,Right,1008720000.0,140000.0,Deportivo Maipú,24.7
+1597474,Argentina,179.0,Right,1032652800.0,440000.0,Deportivo Morón,24.0
+1018402,Argentina,182.0,Right,967420800.0,290000.0,Temperley,26.0
+1191418,Argentina,179.0,Left,916531200.0,550000.0,Palestino,27.6
+1109319,Argentina,167.0,Right,870566400.0,220000.0,Ferrocarril Midland,29.1
+2063992,Argentina,170.0,Left,766886400.0,310000.0,Deportivo Madryn,32.4
+1547224,Argentina,179.0,Left,957916800.0,430000.0,Club Ferro Carril Oeste,26.3
+1179170,Argentina,180.0,Left,1070236800.0,380000.0,San Martín de San Juan,22.8
+585954,Argentina,178.0,Right,584841600.0,,Deportivo Morón,38.1
+932094,Argentina,172.0,Left,892080000.0,120000.0,Almirante Brown,28.4
+974722,Argentina,176.0,Left,818812800.0,180000.0,Acassuso,30.7
+868706,Argentina,190.0,Right,698544000.0,180000.0,Atlanta,34.5
+1597451,Argentina,190.0,Right,1027987200.0,,Atlético de Rafaela,24.1
+791146,Argentina,184.0,Left,679536000.0,265000.0,Los Andes,35.1
+933171,Argentina,167.0,Left,705369600.0,170000.0,CA Mitre,34.3
+1210374,Argentina,190.0,Both,744681600.0,97000.0,Colegiales,33.1
+819193,Argentina,187.0,Right,495504000.0,,Los Andes,41.0
+340847,Argentina,187.0,Right,653702400.0,130000.0,Deportivo Madryn,36.0
+42571,Argentina,180.0,Right,602812800.0,52000.0,Quilmes Atlético Club,37.6
+1185165,Argentina,186.0,Right,612144000.0,,Chaco For Ever,37.3
+2003010,Paraguay,165.0,Right,1150156800.0,77000.0,Los Andes,20.2
+992971,Argentina,183.0,Left,900288000.0,215000.0,Tristán Suárez,28.2
+789631,Argentina,177.0,Left,564278400.0,23000.0,Gimnasia Y Esgrima De Jujuy,38.8
+2469039,Argentina,172.0,Left,1115856000.0,285000.0,Racing Club,21.3
+249639,Argentina,182.0,Right,669859200.0,190000.0,Temperley,35.5
+1199311,Argentina,191.0,Right,998438400.0,120000.0,San Telmo,25.0
+796581,Argentina,193.0,Right,824256000.0,230000.0,Gimnasia y Tiro de Salta,30.6
+2228012,Argentina,169.0,Right,1220745600.0,210000.0,Nueva Chicago,18.0
+949680,Argentina,167.0,Right,921456000.0,105000.0,Almagro,27.5
+1835769,Argentina,174.0,Right,1124064000.0,93000.0,San Miguel,21.1
+943795,Argentina,175.0,Right,932601600.0,240000.0,San Martín de San Juan,27.1
+1086963,Argentina,171.0,Left,970012800.0,325000.0,Defensor Sporting,25.9
+943167,Argentina,180.0,Right,857088000.0,130000.0,Gimnasia Y Esgrima De Jujuy,29.5
+1385490,Argentina,170.0,Right,1027555200.0,155000.0,Club Atlético Chacarita Juniors,24.1
+249081,Colombia,176.0,Right,728179200.0,110000.0,Club Atlético Chacarita Juniors,33.6
+1111534,Argentina,177.0,Left,894067200.0,220000.0,Macará,28.3
+1798778,Argentina,178.0,Right,1083888000.0,410000.0,Club Atlético Chacarita Juniors,22.3
+1085344,Argentina,171.0,Left,926726400.0,285000.0,Atlanta,27.3
+896922,Argentina,162.0,Right,695001600.0,240000.0,Defensores de Belgrano,34.7
+1819646,Argentina,174.0,Right,1009843200.0,,Colegiales,24.7
+341077,Argentina,172.0,Right,743212800.0,180000.0,Gimnasia y Tiro de Salta,33.1
+1120461,Argentina,164.0,Right,995068800.0,290000.0,Atlanta,25.1
+971190,Argentina,177.0,Right,909360000.0,205000.0,Club Ferro Carril Oeste,27.9
+941083,Argentina,176.0,Right,896832000.0,580000.0,Club Atletico Colón,28.3
+830656,Argentina,182.0,Right,806889600.0,105000.0,CA Mitre,31.1
+295165,Argentina,177.0,Left,605232000.0,27000.0,Gimnasia Y Esgrima De Jujuy,37.5
+992966,Argentina,185.0,Right,826588800.0,140000.0,Patronato,30.5
+932870,Argentina,183.0,Right,672105600.0,93000.0,Agropecuario Argentino,35.4
+938547,Argentina,182.0,Right,821059200.0,190000.0,Almirante Brown,30.7
+789368,Argentina,177.0,Left,591148800.0,,Agropecuario Argentino,37.9
+860000,Argentina,192.0,Left,799545600.0,185000.0,Estudiantes de Buenos Aires,31.3
+2189070,,,,,,Almirante Brown,
+249999,Argentina,175.0,Left,666230400.0,81000.0,Nueva Chicago,35.6
+1431953,Argentina,182.0,Left,1036713600.0,185000.0,San Martín de San Juan,23.8
+2065837,Argentina,190.0,Right,965865600.0,140000.0,Ferrocarril Midland,26.1
+140103,Argentina,180.0,Right,646790400.0,155000.0,Club Atletico Colón,36.2
+1018461,Argentina,184.0,Left,711849600.0,24000.0,Atlético de Rafaela,34.1
+841958,Argentina,186.0,Right,603504000.0,,Nueva Chicago,37.6
+1125239,Argentina,184.0,Right,951868800.0,235000.0,Los Andes,26.5
+147576,Argentina,188.0,Right,613526400.0,46000.0,San Martín de San Juan,37.2
+1597464,Argentina,184.0,Left,650160000.0,,Patronato,36.1
+128384,Switzerland,191.0,Right,672710400.0,53000.0,Nueva Chicago,35.4
