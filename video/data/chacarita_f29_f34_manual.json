@@ -1,0 +1,22 @@
+{
+  "_fuente": "Pegado por Marcos el 21/10/2026 (fichas de partido estilo ESPN). Reemplaza los placeholders 'Not started' de la cache de Sofascore del 6/09.",
+  "_verificacion": "Marcador = local-visitante (el titulo de la ficha pone al visitante primero). Con la cache F1-F28 (27 pts, DG -11) + estos 6 partidos: 36 pts y DG -9, igual que la tabla de las fichas (puesto 16, 36 pts, -9). Con el orden inverso daria DG -13.",
+  "matches": [
+    {"round": 29, "home": "Midland",    "away": "Chacarita", "hs": 1, "as": 0, "date": "2026-09-13"},
+    {"round": 30, "home": "Chacarita",  "away": "Quilmes",   "hs": 3, "as": 0, "date": "2026-09-20"},
+    {"round": 31, "home": "Colegiales", "away": "Chacarita", "hs": 2, "as": 1, "date": "2026-09-26"},
+    {"round": 32, "home": "Chacarita",  "away": "Patronato", "hs": 1, "as": 0, "date": "2026-10-04"},
+    {"round": 33, "home": "Almagro",    "away": "Chacarita", "hs": 2, "as": 1, "date": "2026-10-10"},
+    {"round": 34, "home": "Chacarita",  "away": "Maipú",     "hs": 1, "as": 0, "date": "2026-10-17"}
+  ],
+  "_tabla_final_segun_fichas": {
+    "_nota": "Foto tras la fecha 34 (todos con 34 PJ). Sirve para validar la tabla calculada de la ultima pantalla.",
+    "Colegiales": {"pos": 7, "pts": 50, "dg": 4},
+    "Midland": {"pos": 6, "pts": 51, "dg": 11},
+    "Deportivo Maipú": {"pos": 8, "pts": 48, "dg": 7},
+    "Almagro": {"pos": 12, "pts": 41, "dg": -10},
+    "Quilmes": {"pos": 14, "pts": 39, "dg": 1},
+    "Patronato": {"pos": 15, "pts": 37, "dg": -4},
+    "Chacarita": {"pos": 16, "pts": 36, "dg": -9}
+  }
+}
