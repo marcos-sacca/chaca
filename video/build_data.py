@@ -215,7 +215,7 @@ def main():
         cutoff = day_end(ts_for_table)
         # Faltan resultados del resto de la zona (cache vieja): la tabla seria
         # falsa, asi que no se genera la pantalla en vez de inventarla.
-        stale = [x for x in matches if x["status"] == "Not started" and x["ts"] < cutoff]
+        stale = [x for x in matches if x["status"] == "Not started" and x["ts"] < cutoff and x["round"] <= last_round_played]  # fechas aun no jugadas por Chacarita: horarios provisorios
         if stale:
             skipped.append((m["round"], local(label_ts).strftime("%d/%m"), len(stale)))
             return

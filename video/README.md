@@ -40,22 +40,30 @@ que indique `CHROME_BIN`) y `ffmpeg`. Fuente: Liberation Sans.
   (mismos puntos, DG y GF; p. ej. Chicago antes que Atlanta): su criterio no se puede
   deducir, así que acá van en orden alfabético.
 
-## Estado de los datos (21-oct-2026)
+## Estado de los datos (21-oct-2026): completo, fechas 1 a 34
 
-La cache de Sofascore es del 6-sep. Para las fechas **28 a 34** solo se conocen los
-resultados de Chacarita (los de la 28 vienen de la cache; los de la 29 a la 34 están
-pegados a mano), pero la tabla necesita **todos** los partidos de la zona, así que esas
-pantallas **no se generan** hasta tener el resto. Dos formas de completarlo:
+- **Fechas 1 a 27**: cache de Sofascore del 6-sep (`data/cache`).
+- **Fechas 29 a 34**: resultados pegados de una pagina de resultados
+  (`data/fuente_resultados_f29_f34.txt`), cargados con `parse_resultados.py` en
+  `data/resultados_faltantes.csv`. Los 6 partidos de Chacarita estan ademas en
+  `data/chacarita_f29_f34_manual.json` y ambas fuentes coinciden.
+- **Derivados de las tablas del video de referencia** (no estaban en ninguna fuente de texto;
+  cada uno lleva su nota en el CSV): los 6 partidos de la fecha 28 que faltaban
+  (Chicago 1-0 Quilmes sale del encabezado de ese video), el San Martin 1-0 Chicago de la
+  fecha 17 (abandonado el 6/06; el video lo cuenta entre el 24/08 y el 31/08, por eso el dia
+  26/08 es aproximado) y el San Martin 0-0 Tristan Suarez de la fecha 21 (reprogramado).
+  Se obtienen restando, equipo por equipo, lo calculado a la tabla del video: cada partido
+  aparece espejado en los dos equipos, y los puntos, partidos y goles de ambos cierran.
 
-1. `python video/refresh_data.py` (necesita acceso a `api.sofascore.com`).
-2. Completar a mano `data/resultados_faltantes.csv`: ya trae los 57 cruces que faltan
-   (7 de la fecha 28, 48 de la 29 a la 34, el abandonado San Martín–Chicago de la F17 y el
-   San Martín–Tristán Suárez reprogramado de la F21). Solo hay que poner `goles_local` y
-   `goles_visitante` (y `dia` si se jugó otro día). Cada fila completa habilita pantallas.
+### Verificacion contra el video original
 
-Los marcadores de ese JSON son **local-visitante**: el título de las fichas pone al
-visitante primero y confunde. Se verificó sumando a la cache: Chacarita termina con
-36 pts y DG -9 (puesto 16), igual que la tabla de las fichas; con el orden inverso el DG
-daría -13.
+- **Fecha 34** (tabla final): las 18 filas coinciden en posicion, puntos, partidos y goles.
+- **Fecha 30**: las 18 filas coinciden (confirma que el reprogramado de la F21 ya esta jugado).
+- **Fecha 28**: coincide por construccion (de ahi se derivaron los 6 partidos).
+- Fechas 5 y 29 a 34 de Chacarita: ver mas arriba; los datos de Chacarita (36 pts, DG -9,
+  puesto 16) coinciden con las fichas de partido.
+
+Los marcadores de las fuentes son **local-visitante**; el titulo de las fichas de partido
+pone al visitante primero y confunde. Con el orden inverso Chacarita terminaria con DG -13.
 
 Datos de Sofascore: uso interno, ver `informe_datos_chacarita.html` para el encuadre legal.

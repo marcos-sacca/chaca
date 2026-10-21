@@ -1,0 +1,788 @@
+Vie 11/9
+Final
+
+Gimnasia y Tiro
+
+Tristán Suárez
+0
+0
+Sáb 12/9
+Final
+
+Colegiales
+
+Nueva Chicago
+1
+0
+Final
+
+Atlanta
+
+Güemes
+2
+0
+Final
+
+Almagro
+
+Deportivo Maipú
+2
+2
+Final
+
+All Boys
+
+San Telmo
+0
+1
+Final
+
+Ciudad de Bolívar
+
+Central Norte
+0
+0
+Final
+
+Quilmes
+
+San Martín San Juan
+1
+0
+Dom 13/9
+Final
+
+Los Andes
+
+San Miguel
+1
+1
+Final
+
+Patronato
+
+Temperley
+0
+0
+Final
+
+Almirante Brown
+
+Ferro Carril Oeste
+0
+0
+Final
+
+Estudiantes
+
+Acassuso
+1
+0
+Final
+
+Gimnasia Jujuy
+
+Atlético Rafaela
+2
+1
+Final
+
+Mitre Santiago d. Estero
+
+Chaco For Ever
+0
+0
+Final
+
+Racing Córdoba
+
+Deportivo Morón
+1
+2
+Final
+
+Midland
+
+Chacarita Juniors
+1
+0
+Final
+
+Godoy Cruz
+
+Colón
+2
+0
+Final
+
+San Martín Tucumán
+
+Agropecuario
+3
+0
+Lun 14/9
+Final
+
+Defensores de Belgrano
+
+Deportivo Madryn
+2
+1
+Sáb 19/9
+Final
+
+Acassuso
+
+Mitre Santiago d. Estero
+2
+0
+Final
+
+San Miguel
+
+All Boys
+1
+1
+Final
+
+San Telmo
+
+Estudiantes
+0
+1
+Final
+
+Ferro Carril Oeste
+
+Ciudad de Bolívar
+1
+0
+Final
+
+Atlético Rafaela
+
+San Martín Tucumán
+4
+2
+Final
+
+Temperley
+
+Almagro
+3
+1
+Dom 20/9
+Final
+
+Agropecuario
+
+Gimnasia y Tiro
+1
+0
+Final
+
+Chacarita Juniors
+
+Quilmes
+3
+0
+Final
+
+Deportivo Morón
+
+Godoy Cruz
+1
+2
+Final
+
+Deportivo Madryn
+
+Racing Córdoba
+2
+0
+Final
+
+Deportivo Maipú
+
+Gimnasia Jujuy
+1
+1
+Final
+
+Colón
+
+Los Andes
+3
+0
+Final
+
+Güemes
+
+Midland
+0
+2
+Final
+
+San Martín San Juan
+
+Colegiales
+2
+0
+Final
+
+Chaco For Ever
+
+Almirante Brown
+1
+0
+Final
+
+Central Norte
+
+Defensores de Belgrano
+0
+1
+Lun 21/9
+Final
+
+Tristán Suárez
+
+Atlanta
+0
+0
+Final
+
+Nueva Chicago
+
+Patronato
+1
+1
+Sáb 26/9
+Final
+
+Almirante Brown
+
+Acassuso
+0
+1
+Final
+
+Estudiantes
+
+San Miguel
+2
+1
+Final
+
+Quilmes
+
+Güemes
+2
+0
+Final
+
+Ciudad de Bolívar
+
+Chaco For Ever
+2
+1
+Final
+
+All Boys
+
+Colón
+0
+0
+Final
+
+Deportivo Madryn
+
+Central Norte
+0
+0
+Final
+
+Colegiales
+
+Chacarita Juniors
+2
+1
+Dom 27/9
+Final
+
+Almagro
+
+Nueva Chicago
+0
+1
+Final
+
+Atlanta
+
+Agropecuario
+1
+0
+Final
+
+Defensores de Belgrano
+
+Ferro Carril Oeste
+0
+1
+Final
+
+Los Andes
+
+Deportivo Morón
+2
+1
+Final
+
+Patronato
+
+San Martín San Juan
+3
+0
+Final
+
+Mitre Santiago d. Estero
+
+San Telmo
+0
+2
+Final
+
+Deportivo Maipú
+
+Temperley
+1
+0
+Final
+
+Midland
+
+Tristán Suárez
+0
+1
+Final
+
+Racing Córdoba
+
+Godoy Cruz
+2
+2
+Final
+
+Gimnasia y Tiro
+
+Atlético Rafaela
+1
+0
+Final
+
+Gimnasia Jujuy
+
+San Martín Tucumán
+2
+2
+Temporada
+
+
+Vie 2/10 — Lun 5/10
+Vie 2/10
+Final
+
+Ferro Carril Oeste
+
+Deportivo Madryn
+0
+2
+Sáb 3/10
+Final
+
+Tristán Suárez
+
+Quilmes
+0
+0
+Final
+
+Temperley
+
+Gimnasia Jujuy
+2
+1
+Final
+
+Deportivo Morón
+
+All Boys
+2
+1
+Final
+
+Colón
+
+Estudiantes
+1
+0
+Final
+
+San Miguel
+
+Mitre Santiago d. Estero
+0
+2
+Final
+
+Acassuso
+
+Ciudad de Bolívar
+0
+1
+Dom 4/10
+Final
+
+Agropecuario
+
+Midland
+0
+0
+Final
+
+Chacarita Juniors
+
+Patronato
+1
+0
+Final
+
+San Telmo
+
+Almirante Brown
+3
+2
+Final
+
+Central Norte
+
+Racing Córdoba
+1
+1
+Final
+
+Güemes
+
+Colegiales
+0
+1
+Final
+
+San Martín San Juan
+
+Almagro
+1
+2
+Final
+
+Chaco For Ever
+
+Defensores de Belgrano
+2
+2
+Final
+
+Atlético Rafaela
+
+Atlanta
+2
+3
+Final
+
+Godoy Cruz
+
+Los Andes
+2
+1
+Final
+
+San Martín Tucumán
+
+Gimnasia y Tiro
+1
+0
+Lun 5/10
+Final
+
+Nueva Chicago
+
+Deportivo Maipú
+0
+1
+Temporada
+
+
+Sáb 10/10 — Lun 12/10
+Sáb 10/10
+Final
+
+Colegiales
+
+Tristán Suárez
+0
+0
+Final
+
+Almagro
+
+Chacarita Juniors
+2
+1
+Final
+
+Quilmes
+
+Agropecuario
+0
+1
+Final
+
+Midland
+
+Atlético Rafaela
+4
+0
+Dom 11/10
+Final
+
+Atlanta
+
+San Martín Tucumán
+1
+0
+Final
+
+Deportivo Madryn
+
+Chaco For Ever
+1
+2
+Final
+
+Defensores de Belgrano
+
+Acassuso
+0
+3
+Final
+
+Almirante Brown
+
+San Miguel
+1
+1
+Final
+
+Estudiantes
+
+Deportivo Morón
+2
+0
+Final
+
+Gimnasia Jujuy
+
+Gimnasia y Tiro
+2
+2
+Final
+
+Mitre Santiago d. Estero
+
+Colón
+0
+0
+Final
+
+Temperley
+
+Nueva Chicago
+2
+1
+Final
+
+Patronato
+
+Güemes
+2
+0
+Final
+
+Central Norte
+
+Ferro Carril Oeste
+1
+1
+Final
+
+Deportivo Maipú
+
+San Martín San Juan
+1
+1
+Final
+
+Ciudad de Bolívar
+
+San Telmo
+1
+0
+Lun 12/10
+Final
+
+Racing Córdoba
+
+Los Andes
+1
+0
+Final
+
+All Boys
+
+Godoy Cruz
+0
+0
+Temporada
+
+
+Vie 16/10 — Lun 19/10
+Vie 16/10
+Final
+
+Atlético Rafaela
+
+Quilmes
+1
+0
+Final
+
+Gimnasia y Tiro
+
+Atlanta
+3
+1
+Sáb 17/10
+Final
+
+Chacarita Juniors
+
+Deportivo Maipú
+1
+0
+Final
+
+Agropecuario
+
+Colegiales
+0
+3
+Final
+
+San Miguel
+
+Ciudad de Bolívar
+1
+2
+Final
+
+Acassuso
+
+Deportivo Madryn
+0
+0
+Final
+
+Tristán Suárez
+
+Patronato
+1
+0
+Final
+
+Colón
+
+Almirante Brown
+2
+2
+Dom 18/10
+Final
+
+Deportivo Morón
+
+Mitre Santiago d. Estero
+0
+2
+Final
+
+Los Andes
+
+All Boys
+1
+1
+Final
+
+Nueva Chicago
+
+Gimnasia Jujuy
+0
+1
+Final
+
+Ferro Carril Oeste
+
+Racing Córdoba
+1
+0
+Final
+
+Chaco For Ever
+
+Central Norte
+1
+2
+Final
+
+Güemes
+
+Almagro
+2
+1
+Final
+
+Godoy Cruz
+
+Estudiantes
+6
+3
+Final
+
+San Martín San Juan
+
+Temperley
+1
+1
+Final
+
+San Martín Tucumán
+
+Midland
+3
+2
+Lun 19/10
+Final
+
+San Telmo
+
+Defensores de Belgrano
+0
+0
