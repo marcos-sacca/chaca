@@ -42,9 +42,16 @@ que indique `CHROME_BIN`) y `ffmpeg`. Fuente: Liberation Sans.
 
 ## Estado de los datos (21-oct-2026)
 
-La cache de Sofascore es del 6-sep (hasta la fecha 28). Para las fechas **29 a 34** solo
-se conocen los resultados de Chacarita (pegados a mano) y no los del resto de la zona,
-así que esas 6 pantallas **no se generan** hasta correr `refresh_data.py`.
+La cache de Sofascore es del 6-sep. Para las fechas **28 a 34** solo se conocen los
+resultados de Chacarita (los de la 28 vienen de la cache; los de la 29 a la 34 están
+pegados a mano), pero la tabla necesita **todos** los partidos de la zona, así que esas
+pantallas **no se generan** hasta tener el resto. Dos formas de completarlo:
+
+1. `python video/refresh_data.py` (necesita acceso a `api.sofascore.com`).
+2. Completar a mano `data/resultados_faltantes.csv`: ya trae los 57 cruces que faltan
+   (7 de la fecha 28, 48 de la 29 a la 34, el abandonado San Martín–Chicago de la F17 y el
+   San Martín–Tristán Suárez reprogramado de la F21). Solo hay que poner `goles_local` y
+   `goles_visitante` (y `dia` si se jugó otro día). Cada fila completa habilita pantallas.
 
 Los marcadores de ese JSON son **local-visitante**: el título de las fichas pone al
 visitante primero y confunde. Se verificó sumando a la cache: Chacarita termina con

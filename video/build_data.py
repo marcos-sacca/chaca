@@ -113,6 +113,35 @@ def apply_manual(evs):
     return n
 
 
+def apply_results_csv(evs):
+    """Completa partidos sin resultado desde video/data/resultados_faltantes.csv
+    (columnas: fecha, dia, local, visitante, goles_local, goles_visitante).
+    Solo se usan las filas con los dos goles cargados. 'dia' (AAAA-MM-DD) es el dia
+    en que se jugo; si queda vacio se mantiene el de la cache. Devuelve cuantas aplico."""
+    import csv
+
+    path = Path(__file__).resolve().parent / "data" / "resultados_faltantes.csv"
+    if not path.exists():
+        return 0
+    by_name = {}
+    for e in evs:
+        for tid, t in e["teams"].items():
+            by_name[short(t["name"])] = tid
+    n = 0
+    with open(path, encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            if row["goles_local"].strip() == "" or row["goles_visitante"].strip() == "":
+                continue
+            h, a = by_name[row["local"].strip()], by_name[row["visitante"].strip()]
+            for e in evs:
+                if e["round"] == int(row["fecha"]) and e["home"] == h and e["away"] == a and e["status"] != "Ended":
+                    e.update(hs=int(row["goles_local"]), as_=int(row["goles_visitante"]), status="Ended")
+                    if row["dia"].strip():
+                        e["ts"] = int(datetime.fromisoformat(row["dia"].strip() + "T18:00:00").replace(tzinfo=AR).timestamp())
+                    n += 1
+    return n
+
+
 def standings(matches, teams, cutoff_ts):
     st = {t: dict(pts=0, pj=0, gf=0, gc=0, g=0, e=0, p=0, form=[]) for t in teams}
     for m in sorted(matches, key=lambda m: m["ts"]):
@@ -153,6 +182,7 @@ def day_end(ts):
 def main():
     evs = dedupe(load_events())
     manual = apply_manual(evs)
+    from_csv = apply_results_csv(evs)
     # Zona B: los 18 equipos del calendario que bajo scripts/fetch_zone_b.py
     # (partidos entre si). Las interzonales traen rivales de la otra zona.
     import csv
@@ -174,7 +204,7 @@ def main():
     def round_close(r):
         """Ultimo partido de la fecha r jugado 'en fecha' (a lo sumo 5 dias
         despues de lo previsto; mas que eso es un partido recuperado)."""
-        ts = [x["ts"] for x in matches if x["round"] == r and x["status"] == "Ended" and x["ts"] - x["orig_ts"] <= 5 * 86400]
+        ts = [x["ts"] for x in matches if x["round"] == r and x["status"] in ("Ended", "Not started") and x["ts"] - x["orig_ts"] <= 5 * 86400]
         return max(ts) if ts else 0
 
     steps = []
@@ -238,7 +268,7 @@ def main():
     }
     json.dump(dict(chacarita=CHACARITA_ID, last_round=last_round_played, teams=meta, steps=steps),
               open(OUT / "steps.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"{len(steps)} pasos con datos completos (Chacarita jugo hasta la fecha {last_round_played}; {manual} partidos cargados a mano)")
+    print(f"{len(steps)} pasos con datos completos (Chacarita jugo hasta la fecha {last_round_played}; {manual} partidos de Chacarita cargados a mano, {from_csv} del resto de la zona desde la planilla)")
     for r, d, n in skipped:
         print(f"  SIN GENERAR fecha {r} ({d}): faltan {n} resultados de otros partidos de la zona en la cache")
     for s in steps:

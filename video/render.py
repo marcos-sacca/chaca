@@ -24,8 +24,9 @@ CHROME = os.environ.get("CHROME_BIN") or next(
     (str(p) for p in sorted(Path("/opt/pw-browsers").glob("chromium-*/chrome-linux/chrome"))), "chromium"
 )
 
-SECONDS_PER_STEP = 2.3
-SECONDS_LAST_STEP = 4.5
+SPEED = 1.3  # 1.0 = ritmo del video de referencia (~2.3 s por pantalla)
+SECONDS_PER_STEP = round(2.3 / SPEED, 2)
+SECONDS_LAST_STEP = round(4.5 / SPEED, 2)
 
 # Columnas (px): pos | equipo | PTS | J | Gol | +/- | G | E | P | Ultimas   (suman 686 = ancho interior de la tarjeta)
 COLS = "50px 237px 50px 34px 74px 34px 40px 24px 38px 105px"
