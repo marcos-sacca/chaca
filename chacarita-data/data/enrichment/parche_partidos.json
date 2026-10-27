@@ -1,0 +1,2675 @@
+{
+ "patch": [
+  {
+   "id": 242,
+   "fecha": "1937-12-12",
+   "partido": "Huracan 5-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Rafael Carou",
+   "fuente": "Historical-Lineups 1937.pdf p.37"
+  },
+  {
+   "id": 672,
+   "fecha": "1951-09-23",
+   "partido": "Chacarita 1-2 Racing Club",
+   "campo": "Árbitro",
+   "valor": "Bert Cross",
+   "fuente": "Historical-Lineups 1951.pdf p.27"
+  },
+  {
+   "id": 779,
+   "fecha": "1955-07-03",
+   "partido": "Chacarita 0-0 Velez",
+   "campo": "Árbitro",
+   "valor": "Luis Ventre",
+   "fuente": "Historical-Lineups 1955.pdf p.11"
+  },
+  {
+   "id": 784,
+   "fecha": "1955-08-17",
+   "partido": "Independiente 0-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Leslie Burfield",
+   "fuente": "Historical-Lineups 1955.pdf p.16"
+  },
+  {
+   "id": 1177,
+   "fecha": "1967-10-07",
+   "partido": "Chacarita 0-2 Los Andes",
+   "campo": "DT",
+   "valor": "Nito Chanes",
+   "fuente": "Historical-Lineups 1967.pdf p.82"
+  },
+  {
+   "id": 1248,
+   "fecha": "1969-07-06",
+   "partido": "Chacarita 4-1 River Plate",
+   "campo": "Árbitro",
+   "valor": "Roberto Osvaldo Barreiro",
+   "fuente": "Historical-Lineups 1969.pdf p.48"
+  },
+  {
+   "id": 1248,
+   "fecha": "1969-07-06",
+   "partido": "Chacarita 4-1 River Plate",
+   "campo": "DT",
+   "valor": "Victor Rodolfo Rodríguez",
+   "fuente": "Historical-Lineups 1969.pdf p.48"
+  },
+  {
+   "id": 1273,
+   "fecha": "1970-05-03",
+   "partido": "Colon 0-2 Chacarita",
+   "campo": "Espectadores",
+   "valor": 4058,
+   "fuente": "Historical-Lineups 1970.pdf p.18"
+  },
+  {
+   "id": 1283,
+   "fecha": "1970-07-05",
+   "partido": "Banfield 3-2 Chacarita",
+   "campo": "Espectadores",
+   "valor": 3433,
+   "fuente": "Historical-Lineups 1970.pdf p.39"
+  },
+  {
+   "id": 1285,
+   "fecha": "1970-07-19",
+   "partido": "Chacarita 1-2 San Lorenzo",
+   "campo": "Espectadores",
+   "valor": 12360,
+   "fuente": "Historical-Lineups 1970.pdf p.42"
+  },
+  {
+   "id": 1308,
+   "fecha": "1971-03-11",
+   "partido": "Racing Club 2-2 Chacarita",
+   "campo": "Espectadores",
+   "valor": 2860,
+   "fuente": "Historical-Lineups 1971.pdf p.6"
+  },
+  {
+   "id": 1309,
+   "fecha": "1971-03-14",
+   "partido": "Chacarita 2-0 Huracan",
+   "campo": "Espectadores",
+   "valor": 10564,
+   "fuente": "Historical-Lineups 1971.pdf p.7"
+  },
+  {
+   "id": 1313,
+   "fecha": "1971-04-02",
+   "partido": "Chacarita 5-2 Velez",
+   "campo": "Espectadores",
+   "valor": 2528,
+   "fuente": "Historical-Lineups 1971.pdf p.15"
+  },
+  {
+   "id": 1321,
+   "fecha": "1971-05-16",
+   "partido": "Chacarita 0-2 Argentinos",
+   "campo": "Espectadores",
+   "valor": 7896,
+   "fuente": "Historical-Lineups 1971.pdf p.33"
+  },
+  {
+   "id": 1331,
+   "fecha": "1971-08-08",
+   "partido": "Velez 2-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 8516,
+   "fuente": "Historical-Lineups 1971.pdf p.54"
+  },
+  {
+   "id": 1336,
+   "fecha": "1971-09-03",
+   "partido": "Chacarita 1-2 San Lorenzo",
+   "campo": "Espectadores",
+   "valor": 4041,
+   "fuente": "Historical-Lineups 1971.pdf p.65"
+  },
+  {
+   "id": 1341,
+   "fecha": "1971-10-20",
+   "partido": "Chacarita 1-3 Boca Juniors",
+   "campo": "Espectadores",
+   "valor": 17104,
+   "fuente": "Historical-Lineups 1971.pdf p.113"
+  },
+  {
+   "id": 1364,
+   "fecha": "1972-03-19",
+   "partido": "San Lorenzo 2-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Roberto Osvaldo Barreiro",
+   "fuente": "Historical-Lineups 1972.pdf p.12"
+  },
+  {
+   "id": 1364,
+   "fecha": "1972-03-19",
+   "partido": "San Lorenzo 2-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 14959,
+   "fuente": "Historical-Lineups 1972.pdf p.12"
+  },
+  {
+   "id": 1364,
+   "fecha": "1972-03-19",
+   "partido": "San Lorenzo 2-0 Chacarita",
+   "campo": "DT",
+   "valor": "Antonio D' Accorso",
+   "fuente": "Historical-Lineups 1972.pdf p.12"
+  },
+  {
+   "id": 1372,
+   "fecha": "1972-04-30",
+   "partido": "Huracan 2-2 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Humberto Oreste Dellacasa",
+   "fuente": "Historical-Lineups 1972.pdf p.27"
+  },
+  {
+   "id": 1372,
+   "fecha": "1972-04-30",
+   "partido": "Huracan 2-2 Chacarita",
+   "campo": "Espectadores",
+   "valor": 8469,
+   "fuente": "Historical-Lineups 1972.pdf p.27"
+  },
+  {
+   "id": 1372,
+   "fecha": "1972-04-30",
+   "partido": "Huracan 2-2 Chacarita",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.27"
+  },
+  {
+   "id": 1374,
+   "fecha": "1972-05-14",
+   "partido": "Rosario Central 2-3 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Humberto Oreste Dellacasa",
+   "fuente": "Historical-Lineups 1972.pdf p.32"
+  },
+  {
+   "id": 1374,
+   "fecha": "1972-05-14",
+   "partido": "Rosario Central 2-3 Chacarita",
+   "campo": "Espectadores",
+   "valor": 5827,
+   "fuente": "Historical-Lineups 1972.pdf p.32"
+  },
+  {
+   "id": 1374,
+   "fecha": "1972-05-14",
+   "partido": "Rosario Central 2-3 Chacarita",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.32"
+  },
+  {
+   "id": 1393,
+   "fecha": "1972-10-01",
+   "partido": "Chacarita 3-1 Independiente",
+   "campo": "Árbitro",
+   "valor": "Andrés Washington Mateo",
+   "fuente": "Historical-Lineups 1972.pdf p.70"
+  },
+  {
+   "id": 1393,
+   "fecha": "1972-10-01",
+   "partido": "Chacarita 3-1 Independiente",
+   "campo": "Espectadores",
+   "valor": 2681,
+   "fuente": "Historical-Lineups 1972.pdf p.70"
+  },
+  {
+   "id": 1393,
+   "fecha": "1972-10-01",
+   "partido": "Chacarita 3-1 Independiente",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.70"
+  },
+  {
+   "id": 1393,
+   "fecha": "1972-10-01",
+   "partido": "Chacarita 3-1 Independiente",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.118"
+  },
+  {
+   "id": 1396,
+   "fecha": "1972-11-29",
+   "partido": "Chacarita 3-2 Newells",
+   "campo": "Árbitro",
+   "valor": "Jorge Eduardo Romero",
+   "fuente": "Historical-Lineups 1972.pdf p.123"
+  },
+  {
+   "id": 1396,
+   "fecha": "1972-11-29",
+   "partido": "Chacarita 3-2 Newells",
+   "campo": "Espectadores",
+   "valor": 1317,
+   "fuente": "Historical-Lineups 1972.pdf p.123"
+  },
+  {
+   "id": 1396,
+   "fecha": "1972-11-29",
+   "partido": "Chacarita 3-2 Newells",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.123"
+  },
+  {
+   "id": 1428,
+   "fecha": "1973-07-22",
+   "partido": "Chacarita 0-2 Newells",
+   "campo": "DT",
+   "valor": "Ángel Amadeo Labruna",
+   "fuente": "Historical-Lineups 1973.pdf p.25"
+  },
+  {
+   "id": 1419,
+   "fecha": "1973-05-20",
+   "partido": "Chacarita 2-2 River Plate",
+   "campo": "Árbitro",
+   "valor": "Humberto Oreste Dellacasa",
+   "fuente": "Historical-Lineups 1973.pdf p.27"
+  },
+  {
+   "id": 1419,
+   "fecha": "1973-05-20",
+   "partido": "Chacarita 2-2 River Plate",
+   "campo": "DT",
+   "valor": "Ángel Amadeo Labruna",
+   "fuente": "Historical-Lineups 1973.pdf p.27"
+  },
+  {
+   "id": 1420,
+   "fecha": "1973-05-27",
+   "partido": "All Boys 3-4 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Ángel Norberto Coerezza",
+   "fuente": "Historical-Lineups 1973.pdf p.29"
+  },
+  {
+   "id": 1420,
+   "fecha": "1973-05-27",
+   "partido": "All Boys 3-4 Chacarita",
+   "campo": "DT",
+   "valor": "Ángel Amadeo Labruna",
+   "fuente": "Historical-Lineups 1973.pdf p.29"
+  },
+  {
+   "id": 1426,
+   "fecha": "1973-07-08",
+   "partido": "San Lorenzo 1-2 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Luis Pestarino",
+   "fuente": "Historical-Lineups 1973.pdf p.41"
+  },
+  {
+   "id": 1426,
+   "fecha": "1973-07-08",
+   "partido": "San Lorenzo 1-2 Chacarita",
+   "campo": "DT",
+   "valor": "Argentino Geronazzo",
+   "fuente": "Historical-Lineups 1973.pdf p.41"
+  },
+  {
+   "id": 1427,
+   "fecha": "1973-07-15",
+   "partido": "Argentinos 4-2 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Arturo Andrés Ithurralde",
+   "fuente": "Historical-Lineups 1973.pdf p.45"
+  },
+  {
+   "id": 1427,
+   "fecha": "1973-07-15",
+   "partido": "Argentinos 4-2 Chacarita",
+   "campo": "DT",
+   "valor": "Argentino Geronazzo",
+   "fuente": "Historical-Lineups 1973.pdf p.45"
+  },
+  {
+   "id": 1429,
+   "fecha": "1973-07-29",
+   "partido": "Atlanta 0-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Luis Machuca",
+   "fuente": "Historical-Lineups 1973.pdf p.49"
+  },
+  {
+   "id": 1429,
+   "fecha": "1973-07-29",
+   "partido": "Atlanta 0-1 Chacarita",
+   "campo": "DT",
+   "valor": "Argentino Geronazzo",
+   "fuente": "Historical-Lineups 1973.pdf p.49"
+  },
+  {
+   "id": 1436,
+   "fecha": "1973-09-07",
+   "partido": "Chacarita 2-3 All Boys",
+   "campo": "Árbitro",
+   "valor": "Arturo Andrés Ithurralde",
+   "fuente": "Historical-Lineups 1973.pdf p.63"
+  },
+  {
+   "id": 1436,
+   "fecha": "1973-09-07",
+   "partido": "Chacarita 2-3 All Boys",
+   "campo": "DT",
+   "valor": "Argentino Geronazzo",
+   "fuente": "Historical-Lineups 1973.pdf p.63"
+  },
+  {
+   "id": 1464,
+   "fecha": "1973-12-02",
+   "partido": "Chacarita 1-3 Atlanta",
+   "campo": "Árbitro",
+   "valor": "Raúl Galvé",
+   "fuente": "Historical-Lineups 1973.pdf p.105"
+  },
+  {
+   "id": 1464,
+   "fecha": "1973-12-02",
+   "partido": "Chacarita 1-3 Atlanta",
+   "campo": "DT",
+   "valor": "Ataúlfo Pablo Sánchez",
+   "fuente": "Historical-Lineups 1973.pdf p.105"
+  },
+  {
+   "id": 1405,
+   "fecha": "1973-10-26",
+   "partido": "Chacarita 1-1 All Boys",
+   "campo": "Árbitro",
+   "valor": "Claudio Aquiles Busca",
+   "fuente": "Historical-Lineups 1973.pdf p.109"
+  },
+  {
+   "id": 1405,
+   "fecha": "1973-10-26",
+   "partido": "Chacarita 1-1 All Boys",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1973.pdf p.109"
+  },
+  {
+   "id": 1461,
+   "fecha": "1973-12-02",
+   "partido": "Newells 2-2 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Luis Pestarino",
+   "fuente": "Historical-Lineups 1973.pdf p.130"
+  },
+  {
+   "id": 1461,
+   "fecha": "1973-12-02",
+   "partido": "Newells 2-2 Chacarita",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1973.pdf p.130"
+  },
+  {
+   "id": 1439,
+   "fecha": "1973-12-09",
+   "partido": "Chacarita 1-0 River Plate",
+   "campo": "Árbitro",
+   "valor": "Roberto Osvaldo Barreiro",
+   "fuente": "Historical-Lineups 1973.pdf p.133"
+  },
+  {
+   "id": 1439,
+   "fecha": "1973-12-09",
+   "partido": "Chacarita 1-0 River Plate",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1973.pdf p.133"
+  },
+  {
+   "id": 1483,
+   "fecha": "1974-03-10",
+   "partido": "Chacarita 2-5 Atlanta",
+   "campo": "Árbitro",
+   "valor": "Roberto Osvaldo Barreiro",
+   "fuente": "Historical-Lineups 1974.pdf p.16"
+  },
+  {
+   "id": 1483,
+   "fecha": "1974-03-10",
+   "partido": "Chacarita 2-5 Atlanta",
+   "campo": "Espectadores",
+   "valor": 2635,
+   "fuente": "Historical-Lineups 1974.pdf p.16"
+  },
+  {
+   "id": 1483,
+   "fecha": "1974-03-10",
+   "partido": "Chacarita 2-5 Atlanta",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1974.pdf p.16"
+  },
+  {
+   "id": 1454,
+   "fecha": "1974-08-11",
+   "partido": "Chacarita 3-0 Atlanta",
+   "campo": "Árbitro",
+   "valor": "Miguel Francisco Comesaña",
+   "fuente": "Historical-Lineups 1974.pdf p.76"
+  },
+  {
+   "id": 1454,
+   "fecha": "1974-08-11",
+   "partido": "Chacarita 3-0 Atlanta",
+   "campo": "Espectadores",
+   "valor": 3767,
+   "fuente": "Historical-Lineups 1974.pdf p.76"
+  },
+  {
+   "id": 1454,
+   "fecha": "1974-08-11",
+   "partido": "Chacarita 3-0 Atlanta",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1974.pdf p.76"
+  },
+  {
+   "id": 1452,
+   "fecha": "1974-09-13",
+   "partido": "San Lorenzo 4-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Humberto Oreste Dellacasa",
+   "fuente": "Historical-Lineups 1974.pdf p.90"
+  },
+  {
+   "id": 1452,
+   "fecha": "1974-09-13",
+   "partido": "San Lorenzo 4-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 3656,
+   "fuente": "Historical-Lineups 1974.pdf p.90"
+  },
+  {
+   "id": 1452,
+   "fecha": "1974-09-13",
+   "partido": "San Lorenzo 4-1 Chacarita",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1974.pdf p.90"
+  },
+  {
+   "id": 1445,
+   "fecha": "1974-11-24",
+   "partido": "Chacarita 1-3 San Lorenzo",
+   "campo": "Árbitro",
+   "valor": "Claudio Aquiles Busca",
+   "fuente": "Historical-Lineups 1974.pdf p.99"
+  },
+  {
+   "id": 1445,
+   "fecha": "1974-11-24",
+   "partido": "Chacarita 1-3 San Lorenzo",
+   "campo": "Espectadores",
+   "valor": 5554,
+   "fuente": "Historical-Lineups 1974.pdf p.99"
+  },
+  {
+   "id": 1445,
+   "fecha": "1974-11-24",
+   "partido": "Chacarita 1-3 San Lorenzo",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1974.pdf p.99"
+  },
+  {
+   "id": 1451,
+   "fecha": "1974-11-18",
+   "partido": "Racing Club 4-3 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Ángel Norberto Coerezza",
+   "fuente": "Historical-Lineups 1974.pdf p.114"
+  },
+  {
+   "id": 1451,
+   "fecha": "1974-11-18",
+   "partido": "Racing Club 4-3 Chacarita",
+   "campo": "Espectadores",
+   "valor": 1450,
+   "fuente": "Historical-Lineups 1974.pdf p.114"
+  },
+  {
+   "id": 1451,
+   "fecha": "1974-11-18",
+   "partido": "Racing Club 4-3 Chacarita",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1974.pdf p.114"
+  },
+  {
+   "id": 1507,
+   "fecha": "1975-03-16",
+   "partido": "All Boys 3-3 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Luis Pestarino",
+   "fuente": "Historical-Lineups 1975.pdf p.15"
+  },
+  {
+   "id": 1507,
+   "fecha": "1975-03-16",
+   "partido": "All Boys 3-3 Chacarita",
+   "campo": "Espectadores",
+   "valor": 3461,
+   "fuente": "Historical-Lineups 1975.pdf p.15"
+  },
+  {
+   "id": 1507,
+   "fecha": "1975-03-16",
+   "partido": "All Boys 3-3 Chacarita",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.15"
+  },
+  {
+   "id": 1523,
+   "fecha": "1975-05-25",
+   "partido": "River Plate 5-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Roberto Maino",
+   "fuente": "Historical-Lineups 1975.pdf p.48"
+  },
+  {
+   "id": 1523,
+   "fecha": "1975-05-25",
+   "partido": "River Plate 5-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 20464,
+   "fuente": "Historical-Lineups 1975.pdf p.48"
+  },
+  {
+   "id": 1523,
+   "fecha": "1975-05-25",
+   "partido": "River Plate 5-0 Chacarita",
+   "campo": "DT",
+   "valor": "Juan Carlos Montaño",
+   "fuente": "Historical-Lineups 1975.pdf p.48"
+  },
+  {
+   "id": 1525,
+   "fecha": "1975-06-04",
+   "partido": "Huracan 7-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Miguel Francisco Comesaña",
+   "fuente": "Historical-Lineups 1975.pdf p.51"
+  },
+  {
+   "id": 1525,
+   "fecha": "1975-06-04",
+   "partido": "Huracan 7-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 1142,
+   "fuente": "Historical-Lineups 1975.pdf p.51"
+  },
+  {
+   "id": 1525,
+   "fecha": "1975-06-04",
+   "partido": "Huracan 7-1 Chacarita",
+   "campo": "DT",
+   "valor": "Juan Carlos Montaño",
+   "fuente": "Historical-Lineups 1975.pdf p.51"
+  },
+  {
+   "id": 1532,
+   "fecha": "1975-07-20",
+   "partido": "Chacarita 1-5 Boca Juniors",
+   "campo": "Árbitro",
+   "valor": "Roberto Goicoechea",
+   "fuente": "Historical-Lineups 1975.pdf p.66"
+  },
+  {
+   "id": 1532,
+   "fecha": "1975-07-20",
+   "partido": "Chacarita 1-5 Boca Juniors",
+   "campo": "Espectadores",
+   "valor": 16605,
+   "fuente": "Historical-Lineups 1975.pdf p.66"
+  },
+  {
+   "id": 1532,
+   "fecha": "1975-07-20",
+   "partido": "Chacarita 1-5 Boca Juniors",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.66"
+  },
+  {
+   "id": 1533,
+   "fecha": "1975-07-23",
+   "partido": "Temperley 0-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Claudio Aquiles Busca",
+   "fuente": "Historical-Lineups 1975.pdf p.68"
+  },
+  {
+   "id": 1533,
+   "fecha": "1975-07-23",
+   "partido": "Temperley 0-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 2293,
+   "fuente": "Historical-Lineups 1975.pdf p.68"
+  },
+  {
+   "id": 1533,
+   "fecha": "1975-07-23",
+   "partido": "Temperley 0-1 Chacarita",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.68"
+  },
+  {
+   "id": 1535,
+   "fecha": "1975-07-30",
+   "partido": "Argentinos 2-2 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Roberto Osvaldo Barreiro",
+   "fuente": "Historical-Lineups 1975.pdf p.71"
+  },
+  {
+   "id": 1535,
+   "fecha": "1975-07-30",
+   "partido": "Argentinos 2-2 Chacarita",
+   "campo": "Espectadores",
+   "valor": 1327,
+   "fuente": "Historical-Lineups 1975.pdf p.71"
+  },
+  {
+   "id": 1535,
+   "fecha": "1975-07-30",
+   "partido": "Argentinos 2-2 Chacarita",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.71"
+  },
+  {
+   "id": 1498,
+   "fecha": "1975-10-08",
+   "partido": "Union 4-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Oscar Antonio Veiró",
+   "fuente": "Historical-Lineups 1975.pdf p.123"
+  },
+  {
+   "id": 1498,
+   "fecha": "1975-10-08",
+   "partido": "Union 4-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 3146,
+   "fuente": "Historical-Lineups 1975.pdf p.123"
+  },
+  {
+   "id": 1498,
+   "fecha": "1975-10-08",
+   "partido": "Union 4-1 Chacarita",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.123"
+  },
+  {
+   "id": 643,
+   "fecha": "1950-10-28",
+   "partido": "Newells 0-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Charles Wood",
+   "fuente": "Historical-Lineups 1950.pdf p.34"
+  },
+  {
+   "id": 958,
+   "fecha": "1960-11-06",
+   "partido": "Rosario Central 2-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Manuel Velarde",
+   "fuente": "Historical-Lineups 1960.pdf p.29"
+  },
+  {
+   "id": 958,
+   "fecha": "1960-11-06",
+   "partido": "Rosario Central 2-1 Chacarita",
+   "campo": "DT",
+   "valor": "René Alejandro Pontoni",
+   "fuente": "Historical-Lineups 1960.pdf p.29"
+  },
+  {
+   "id": 982,
+   "fecha": "1961-10-01",
+   "partido": "Chacarita 1-1 San Lorenzo",
+   "campo": "Árbitro",
+   "valor": "Duval Goicoechea",
+   "fuente": "Historical-Lineups 1961.pdf p.22"
+  },
+  {
+   "id": 982,
+   "fecha": "1961-10-01",
+   "partido": "Chacarita 1-1 San Lorenzo",
+   "campo": "DT",
+   "valor": "Horacio Amable Torres",
+   "fuente": "Historical-Lineups 1961.pdf p.22"
+  },
+  {
+   "id": 1148,
+   "fecha": "1966-12-02",
+   "partido": "Rosario Central 1-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Luis Pedro Spinetto",
+   "fuente": "Historical-Lineups 1966.pdf p.59"
+  },
+  {
+   "id": 1148,
+   "fecha": "1966-12-02",
+   "partido": "Rosario Central 1-0 Chacarita",
+   "campo": "DT",
+   "valor": "Pedro Falzone",
+   "fuente": "Historical-Lineups 1966.pdf p.59"
+  },
+  {
+   "id": 1225,
+   "fecha": "1969-06-01",
+   "partido": "Chacarita 1-0 Atlanta",
+   "campo": "DT",
+   "valor": "Federico Antonio Pizarro",
+   "fuente": "Historical-Lineups 1969.pdf p.6"
+  },
+  {
+   "id": 1245,
+   "fecha": "1969-05-01",
+   "partido": "Chacarita 3-2 Platense",
+   "campo": "Árbitro",
+   "valor": "Guillermo José Nimo",
+   "fuente": "Historical-Lineups 1969.pdf p.27"
+  },
+  {
+   "id": 1245,
+   "fecha": "1969-05-01",
+   "partido": "Chacarita 3-2 Platense",
+   "campo": "DT",
+   "valor": "Federico Antonio Pizarro",
+   "fuente": "Historical-Lineups 1969.pdf p.27"
+  },
+  {
+   "id": 1225,
+   "fecha": "1969-06-01",
+   "partido": "Chacarita 1-0 Atlanta",
+   "campo": "Árbitro",
+   "valor": "Aurelio Domingo Bossolino",
+   "fuente": "Historical-Lineups 1969.pdf p.36"
+  },
+  {
+   "id": 1225,
+   "fecha": "1969-06-01",
+   "partido": "Chacarita 1-0 Atlanta",
+   "campo": "DT",
+   "valor": "Federico Antonio Pizarro",
+   "fuente": "Historical-Lineups 1969.pdf p.36"
+  },
+  {
+   "id": 1247,
+   "fecha": "1969-07-02",
+   "partido": "Chacarita 1-0 Racing Club",
+   "campo": "Árbitro",
+   "valor": "Arturo Andrés Ithurralde",
+   "fuente": "Historical-Lineups 1969.pdf p.48"
+  },
+  {
+   "id": 1247,
+   "fecha": "1969-07-02",
+   "partido": "Chacarita 1-0 Racing Club",
+   "campo": "DT",
+   "valor": "Victor Rodolfo Rodríguez",
+   "fuente": "Historical-Lineups 1969.pdf p.48"
+  },
+  {
+   "id": 1268,
+   "fecha": "1970-03-29",
+   "partido": "Chacarita 1-3 Argentinos",
+   "campo": "Espectadores",
+   "valor": 4471,
+   "fuente": "Historical-Lineups 1970.pdf p.9"
+  },
+  {
+   "id": 1291,
+   "fecha": "1970-10-07",
+   "partido": "Racing Club 1-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 6826,
+   "fuente": "Historical-Lineups 1970.pdf p.10"
+  },
+  {
+   "id": 1270,
+   "fecha": "1970-04-10",
+   "partido": "Atlanta 1-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 3676,
+   "fuente": "Historical-Lineups 1970.pdf p.12"
+  },
+  {
+   "id": 1274,
+   "fecha": "1970-05-10",
+   "partido": "Chacarita 2-0 Lanus",
+   "campo": "Espectadores",
+   "valor": 6244,
+   "fuente": "Historical-Lineups 1970.pdf p.21"
+  },
+  {
+   "id": 1275,
+   "fecha": "1970-05-17",
+   "partido": "Chacarita 2-0 Independiente",
+   "campo": "Espectadores",
+   "valor": 21792,
+   "fuente": "Historical-Lineups 1970.pdf p.22"
+  },
+  {
+   "id": 1276,
+   "fecha": "1970-05-24",
+   "partido": "Huracan 1-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 12741,
+   "fuente": "Historical-Lineups 1970.pdf p.25"
+  },
+  {
+   "id": 1278,
+   "fecha": "1970-05-31",
+   "partido": "Chacarita 2-0 Los Andes",
+   "campo": "Espectadores",
+   "valor": 2999,
+   "fuente": "Historical-Lineups 1970.pdf p.29"
+  },
+  {
+   "id": 1279,
+   "fecha": "1970-06-05",
+   "partido": "Chacarita 1-1 River Plate",
+   "campo": "Espectadores",
+   "valor": 6551,
+   "fuente": "Historical-Lineups 1970.pdf p.30"
+  },
+  {
+   "id": 1280,
+   "fecha": "1970-06-14",
+   "partido": "Platense 1-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 5451,
+   "fuente": "Historical-Lineups 1970.pdf p.33"
+  },
+  {
+   "id": 1281,
+   "fecha": "1970-06-21",
+   "partido": "Chacarita 1-0 Quilmes",
+   "campo": "Espectadores",
+   "valor": 1491,
+   "fuente": "Historical-Lineups 1970.pdf p.34"
+  },
+  {
+   "id": 3525,
+   "fecha": "1970-08-09",
+   "partido": "Chacarita 0-0 Quilmes",
+   "campo": "Árbitro",
+   "valor": "Jorge Aníbal Alvarez",
+   "fuente": "Historical-Lineups 1970.pdf p.51"
+  },
+  {
+   "id": 3525,
+   "fecha": "1970-08-09",
+   "partido": "Chacarita 0-0 Quilmes",
+   "campo": "DT",
+   "valor": "Vladislao Cap",
+   "fuente": "Historical-Lineups 1970.pdf p.51"
+  },
+  {
+   "id": 1301,
+   "fecha": "1970-11-29",
+   "partido": "Chacarita 1-0 Racing Club",
+   "campo": "Espectadores",
+   "valor": 8971,
+   "fuente": "Historical-Lineups 1970.pdf p.83"
+  },
+  {
+   "id": 1303,
+   "fecha": "1970-12-08",
+   "partido": "Chacarita 2-0 Newells",
+   "campo": "Espectadores",
+   "valor": 3719,
+   "fuente": "Historical-Lineups 1970.pdf p.87"
+  },
+  {
+   "id": 1311,
+   "fecha": "1971-03-24",
+   "partido": "Chacarita 3-0 Colon",
+   "campo": "Espectadores",
+   "valor": 2417,
+   "fuente": "Historical-Lineups 1971.pdf p.11"
+  },
+  {
+   "id": 1315,
+   "fecha": "1971-04-11",
+   "partido": "Chacarita 0-0 Newells",
+   "campo": "Espectadores",
+   "valor": 8981,
+   "fuente": "Historical-Lineups 1971.pdf p.19"
+  },
+  {
+   "id": 1316,
+   "fecha": "1971-04-21",
+   "partido": "River Plate 0-2 Chacarita",
+   "campo": "Espectadores",
+   "valor": 24375,
+   "fuente": "Historical-Lineups 1971.pdf p.23"
+  },
+  {
+   "id": 1317,
+   "fecha": "1971-04-25",
+   "partido": "Chacarita 0-0 Independiente",
+   "campo": "Espectadores",
+   "valor": 16632,
+   "fuente": "Historical-Lineups 1971.pdf p.25"
+  },
+  {
+   "id": 1318,
+   "fecha": "1971-04-30",
+   "partido": "San Lorenzo 0-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 6772,
+   "fuente": "Historical-Lineups 1971.pdf p.27"
+  },
+  {
+   "id": 1319,
+   "fecha": "1971-05-05",
+   "partido": "Chacarita 2-1 Banfield",
+   "campo": "Espectadores",
+   "valor": 2919,
+   "fuente": "Historical-Lineups 1971.pdf p.29"
+  },
+  {
+   "id": 1320,
+   "fecha": "1971-05-09",
+   "partido": "Ferro 0-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 11843,
+   "fuente": "Historical-Lineups 1971.pdf p.31"
+  },
+  {
+   "id": 1323,
+   "fecha": "1971-05-25",
+   "partido": "Chacarita 2-1 Rosario Central",
+   "campo": "Espectadores",
+   "valor": 5392,
+   "fuente": "Historical-Lineups 1971.pdf p.37"
+  },
+  {
+   "id": 1344,
+   "fecha": "1971-10-12",
+   "partido": "Chacarita 2-1 Racing Club",
+   "campo": "Espectadores",
+   "valor": 3240,
+   "fuente": "Historical-Lineups 1971.pdf p.40"
+  },
+  {
+   "id": 1327,
+   "fecha": "1971-06-12",
+   "partido": "Huracan 1-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 1136,
+   "fuente": "Historical-Lineups 1971.pdf p.45"
+  },
+  {
+   "id": 1329,
+   "fecha": "1971-06-20",
+   "partido": "Colon 1-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 5688,
+   "fuente": "Historical-Lineups 1971.pdf p.49"
+  },
+  {
+   "id": 1335,
+   "fecha": "1971-09-15",
+   "partido": "Independiente 1-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 9039,
+   "fuente": "Historical-Lineups 1971.pdf p.64"
+  },
+  {
+   "id": 1338,
+   "fecha": "1971-09-12",
+   "partido": "Chacarita 2-1 Ferro",
+   "campo": "Espectadores",
+   "valor": 4014,
+   "fuente": "Historical-Lineups 1971.pdf p.69"
+  },
+  {
+   "id": 1339,
+   "fecha": "1971-09-19",
+   "partido": "Argentinos 1-2 Chacarita",
+   "campo": "Espectadores",
+   "valor": 4092,
+   "fuente": "Historical-Lineups 1971.pdf p.71"
+  },
+  {
+   "id": 1348,
+   "fecha": "1971-09-26",
+   "partido": "Rosario Central 1-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 4799,
+   "fuente": "Historical-Lineups 1971.pdf p.76"
+  },
+  {
+   "id": 1353,
+   "fecha": "1971-10-09",
+   "partido": "San Lorenzo 1-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 4567,
+   "fuente": "Historical-Lineups 1971.pdf p.104"
+  },
+  {
+   "id": 1344,
+   "fecha": "1971-10-12",
+   "partido": "Chacarita 2-1 Racing Club",
+   "campo": "Espectadores",
+   "valor": 5363,
+   "fuente": "Historical-Lineups 1971.pdf p.107"
+  },
+  {
+   "id": 1355,
+   "fecha": "1971-10-17",
+   "partido": "Velez 1-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 4835,
+   "fuente": "Historical-Lineups 1971.pdf p.111"
+  },
+  {
+   "id": 1346,
+   "fecha": "1971-10-24",
+   "partido": "Atlanta 2-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 4151,
+   "fuente": "Historical-Lineups 1971.pdf p.116"
+  },
+  {
+   "id": 1343,
+   "fecha": "1971-10-31",
+   "partido": "Chacarita 0-0 Colon",
+   "campo": "Espectadores",
+   "valor": 1039,
+   "fuente": "Historical-Lineups 1971.pdf p.120"
+  },
+  {
+   "id": 1352,
+   "fecha": "1971-12-11",
+   "partido": "Rosario Central 0-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 8104,
+   "fuente": "Historical-Lineups 1971.pdf p.143"
+  },
+  {
+   "id": 1361,
+   "fecha": "1972-03-05",
+   "partido": "Argentinos 0-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Humberto Oreste Dellacasa",
+   "fuente": "Historical-Lineups 1972.pdf p.5"
+  },
+  {
+   "id": 1361,
+   "fecha": "1972-03-05",
+   "partido": "Argentinos 0-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 5216,
+   "fuente": "Historical-Lineups 1972.pdf p.5"
+  },
+  {
+   "id": 1361,
+   "fecha": "1972-03-05",
+   "partido": "Argentinos 0-0 Chacarita",
+   "campo": "DT",
+   "valor": "Antonio D' Accorso",
+   "fuente": "Historical-Lineups 1972.pdf p.5"
+  },
+  {
+   "id": 1362,
+   "fecha": "1972-03-12",
+   "partido": "Chacarita 2-1 Banfield",
+   "campo": "Árbitro",
+   "valor": "Miguel Francisco Comesaña",
+   "fuente": "Historical-Lineups 1972.pdf p.7"
+  },
+  {
+   "id": 1362,
+   "fecha": "1972-03-12",
+   "partido": "Chacarita 2-1 Banfield",
+   "campo": "Espectadores",
+   "valor": 3581,
+   "fuente": "Historical-Lineups 1972.pdf p.7"
+  },
+  {
+   "id": 1362,
+   "fecha": "1972-03-12",
+   "partido": "Chacarita 2-1 Banfield",
+   "campo": "DT",
+   "valor": "Antonio D' Accorso",
+   "fuente": "Historical-Lineups 1972.pdf p.7"
+  },
+  {
+   "id": 1363,
+   "fecha": "1972-03-15",
+   "partido": "Chacarita 2-1 Colon",
+   "campo": "Árbitro",
+   "valor": "Ángel Norberto Coerezza",
+   "fuente": "Historical-Lineups 1972.pdf p.9"
+  },
+  {
+   "id": 1363,
+   "fecha": "1972-03-15",
+   "partido": "Chacarita 2-1 Colon",
+   "campo": "Espectadores",
+   "valor": 4844,
+   "fuente": "Historical-Lineups 1972.pdf p.9"
+  },
+  {
+   "id": 1363,
+   "fecha": "1972-03-15",
+   "partido": "Chacarita 2-1 Colon",
+   "campo": "DT",
+   "valor": "Antonio D' Accorso",
+   "fuente": "Historical-Lineups 1972.pdf p.9"
+  },
+  {
+   "id": 1365,
+   "fecha": "1972-03-26",
+   "partido": "Chacarita 1-3 Ferro",
+   "campo": "Árbitro",
+   "valor": "Jorge Martínez Mayo",
+   "fuente": "Historical-Lineups 1972.pdf p.13"
+  },
+  {
+   "id": 1365,
+   "fecha": "1972-03-26",
+   "partido": "Chacarita 1-3 Ferro",
+   "campo": "Espectadores",
+   "valor": 2389,
+   "fuente": "Historical-Lineups 1972.pdf p.13"
+  },
+  {
+   "id": 1365,
+   "fecha": "1972-03-26",
+   "partido": "Chacarita 1-3 Ferro",
+   "campo": "DT",
+   "valor": "Antonio D' Accorso",
+   "fuente": "Historical-Lineups 1972.pdf p.13"
+  },
+  {
+   "id": 1366,
+   "fecha": "1972-03-30",
+   "partido": "Newells 3-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Andrés Washington Mateo",
+   "fuente": "Historical-Lineups 1972.pdf p.16"
+  },
+  {
+   "id": 1366,
+   "fecha": "1972-03-30",
+   "partido": "Newells 3-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 8698,
+   "fuente": "Historical-Lineups 1972.pdf p.16"
+  },
+  {
+   "id": 1366,
+   "fecha": "1972-03-30",
+   "partido": "Newells 3-1 Chacarita",
+   "campo": "DT",
+   "valor": "Antonio D' Accorso",
+   "fuente": "Historical-Lineups 1972.pdf p.16"
+  },
+  {
+   "id": 1367,
+   "fecha": "1972-04-02",
+   "partido": "Chacarita 1-3 River Plate",
+   "campo": "Árbitro",
+   "valor": "Alberto Jorge Ducatelli",
+   "fuente": "Historical-Lineups 1972.pdf p.17"
+  },
+  {
+   "id": 1367,
+   "fecha": "1972-04-02",
+   "partido": "Chacarita 1-3 River Plate",
+   "campo": "Espectadores",
+   "valor": 12825,
+   "fuente": "Historical-Lineups 1972.pdf p.17"
+  },
+  {
+   "id": 1367,
+   "fecha": "1972-04-02",
+   "partido": "Chacarita 1-3 River Plate",
+   "campo": "DT",
+   "valor": "Antonio D' Accorso",
+   "fuente": "Historical-Lineups 1972.pdf p.17"
+  },
+  {
+   "id": 1368,
+   "fecha": "1972-04-08",
+   "partido": "Racing Club 1-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Claudio Aquiles Busca",
+   "fuente": "Historical-Lineups 1972.pdf p.19"
+  },
+  {
+   "id": 1368,
+   "fecha": "1972-04-08",
+   "partido": "Racing Club 1-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 2166,
+   "fuente": "Historical-Lineups 1972.pdf p.19"
+  },
+  {
+   "id": 1368,
+   "fecha": "1972-04-08",
+   "partido": "Racing Club 1-1 Chacarita",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.19"
+  },
+  {
+   "id": 1371,
+   "fecha": "1972-04-23",
+   "partido": "Chacarita 4-1 Atlanta",
+   "campo": "Árbitro",
+   "valor": "Juan Carlos Ángel Rodríguez",
+   "fuente": "Historical-Lineups 1972.pdf p.25"
+  },
+  {
+   "id": 1371,
+   "fecha": "1972-04-23",
+   "partido": "Chacarita 4-1 Atlanta",
+   "campo": "Espectadores",
+   "valor": 4034,
+   "fuente": "Historical-Lineups 1972.pdf p.25"
+  },
+  {
+   "id": 1371,
+   "fecha": "1972-04-23",
+   "partido": "Chacarita 4-1 Atlanta",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.25"
+  },
+  {
+   "id": 1376,
+   "fecha": "1972-05-26",
+   "partido": "Independiente 1-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Juan Carlos Ángel Rodríguez",
+   "fuente": "Historical-Lineups 1972.pdf p.35"
+  },
+  {
+   "id": 1376,
+   "fecha": "1972-05-26",
+   "partido": "Independiente 1-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 752,
+   "fuente": "Historical-Lineups 1972.pdf p.35"
+  },
+  {
+   "id": 1376,
+   "fecha": "1972-05-26",
+   "partido": "Independiente 1-1 Chacarita",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.35"
+  },
+  {
+   "id": 1378,
+   "fecha": "1972-06-11",
+   "partido": "Chacarita 1-1 Argentinos",
+   "campo": "Árbitro",
+   "valor": "Juan Carlos Ángel Rodríguez",
+   "fuente": "Historical-Lineups 1972.pdf p.39"
+  },
+  {
+   "id": 1378,
+   "fecha": "1972-06-11",
+   "partido": "Chacarita 1-1 Argentinos",
+   "campo": "Espectadores",
+   "valor": 4052,
+   "fuente": "Historical-Lineups 1972.pdf p.39"
+  },
+  {
+   "id": 1378,
+   "fecha": "1972-06-11",
+   "partido": "Chacarita 1-1 Argentinos",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.39"
+  },
+  {
+   "id": 1380,
+   "fecha": "1972-06-25",
+   "partido": "Colon 3-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Alberto Jorge Ducatelli",
+   "fuente": "Historical-Lineups 1972.pdf p.43"
+  },
+  {
+   "id": 1380,
+   "fecha": "1972-06-25",
+   "partido": "Colon 3-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 4004,
+   "fuente": "Historical-Lineups 1972.pdf p.43"
+  },
+  {
+   "id": 1380,
+   "fecha": "1972-06-25",
+   "partido": "Colon 3-1 Chacarita",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.43"
+  },
+  {
+   "id": 1381,
+   "fecha": "1972-07-08",
+   "partido": "Chacarita 1-1 San Lorenzo",
+   "campo": "Árbitro",
+   "valor": "Oscar Antonio Veiró",
+   "fuente": "Historical-Lineups 1972.pdf p.45"
+  },
+  {
+   "id": 1381,
+   "fecha": "1972-07-08",
+   "partido": "Chacarita 1-1 San Lorenzo",
+   "campo": "Espectadores",
+   "valor": 14530,
+   "fuente": "Historical-Lineups 1972.pdf p.45"
+  },
+  {
+   "id": 1381,
+   "fecha": "1972-07-08",
+   "partido": "Chacarita 1-1 San Lorenzo",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.45"
+  },
+  {
+   "id": 1382,
+   "fecha": "1972-07-16",
+   "partido": "Ferro 0-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Alberto Jorge Ducatelli",
+   "fuente": "Historical-Lineups 1972.pdf p.47"
+  },
+  {
+   "id": 1382,
+   "fecha": "1972-07-16",
+   "partido": "Ferro 0-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 4698,
+   "fuente": "Historical-Lineups 1972.pdf p.47"
+  },
+  {
+   "id": 1382,
+   "fecha": "1972-07-16",
+   "partido": "Ferro 0-1 Chacarita",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.47"
+  },
+  {
+   "id": 1389,
+   "fecha": "1972-09-03",
+   "partido": "Chacarita 1-1 Huracan",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.59"
+  },
+  {
+   "id": 1403,
+   "fecha": "1972-10-22",
+   "partido": "Racing Club 1-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Sergio García",
+   "fuente": "Historical-Lineups 1972.pdf p.99"
+  },
+  {
+   "id": 1403,
+   "fecha": "1972-10-22",
+   "partido": "Racing Club 1-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 6115,
+   "fuente": "Historical-Lineups 1972.pdf p.99"
+  },
+  {
+   "id": 1403,
+   "fecha": "1972-10-22",
+   "partido": "Racing Club 1-0 Chacarita",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.99"
+  },
+  {
+   "id": 1359,
+   "fecha": "1972-11-05",
+   "partido": "Chacarita 1-2 Boca Juniors",
+   "campo": "DT",
+   "valor": "Rogelio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.105"
+  },
+  {
+   "id": 1359,
+   "fecha": "1972-11-05",
+   "partido": "Chacarita 1-2 Boca Juniors",
+   "campo": "Árbitro",
+   "valor": "Oscar Antonio Veiró",
+   "fuente": "Historical-Lineups 1972.pdf p.108"
+  },
+  {
+   "id": 1359,
+   "fecha": "1972-11-05",
+   "partido": "Chacarita 1-2 Boca Juniors",
+   "campo": "Espectadores",
+   "valor": 20400,
+   "fuente": "Historical-Lineups 1972.pdf p.108"
+  },
+  {
+   "id": 1359,
+   "fecha": "1972-11-05",
+   "partido": "Chacarita 1-2 Boca Juniors",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.108"
+  },
+  {
+   "id": 1399,
+   "fecha": "1972-11-08",
+   "partido": "Colon 1-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Alberto Jorge Ducatelli",
+   "fuente": "Historical-Lineups 1972.pdf p.111"
+  },
+  {
+   "id": 1399,
+   "fecha": "1972-11-08",
+   "partido": "Colon 1-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 4826,
+   "fuente": "Historical-Lineups 1972.pdf p.111"
+  },
+  {
+   "id": 1399,
+   "fecha": "1972-11-08",
+   "partido": "Colon 1-1 Chacarita",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.111"
+  },
+  {
+   "id": 1367,
+   "fecha": "1972-04-02",
+   "partido": "Chacarita 1-3 River Plate",
+   "campo": "Árbitro",
+   "valor": "Alberto Jorge Ducatelli",
+   "fuente": "Historical-Lineups 1972.pdf p.121"
+  },
+  {
+   "id": 1367,
+   "fecha": "1972-04-02",
+   "partido": "Chacarita 1-3 River Plate",
+   "campo": "Espectadores",
+   "valor": 13498,
+   "fuente": "Historical-Lineups 1972.pdf p.121"
+  },
+  {
+   "id": 1367,
+   "fecha": "1972-04-02",
+   "partido": "Chacarita 1-3 River Plate",
+   "campo": "DT",
+   "valor": "Rogelio Antonio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.121"
+  },
+  {
+   "id": 1365,
+   "fecha": "1972-03-26",
+   "partido": "Chacarita 1-3 Ferro",
+   "campo": "DT",
+   "valor": "Rogelio Domínguez",
+   "fuente": "Historical-Lineups 1972.pdf p.132"
+  },
+  {
+   "id": 1407,
+   "fecha": "1973-03-04",
+   "partido": "Chacarita 0-0 Ferro",
+   "campo": "Árbitro",
+   "valor": "Roberto Goicoechea",
+   "fuente": "Historical-Lineups 1973.pdf p.3"
+  },
+  {
+   "id": 1407,
+   "fecha": "1973-03-04",
+   "partido": "Chacarita 0-0 Ferro",
+   "campo": "DT",
+   "valor": "Ángel Labruna",
+   "fuente": "Historical-Lineups 1973.pdf p.3"
+  },
+  {
+   "id": 1412,
+   "fecha": "1973-04-08",
+   "partido": "Newells 0-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Jorge Eduardo Romero",
+   "fuente": "Historical-Lineups 1973.pdf p.14"
+  },
+  {
+   "id": 1412,
+   "fecha": "1973-04-08",
+   "partido": "Newells 0-0 Chacarita",
+   "campo": "DT",
+   "valor": "Ángel Amadeo Labruna",
+   "fuente": "Historical-Lineups 1973.pdf p.14"
+  },
+  {
+   "id": 1414,
+   "fecha": "1973-04-19",
+   "partido": "Colon 0-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Oscar Antonio Veiró",
+   "fuente": "Historical-Lineups 1973.pdf p.17"
+  },
+  {
+   "id": 1414,
+   "fecha": "1973-04-19",
+   "partido": "Colon 0-0 Chacarita",
+   "campo": "DT",
+   "valor": "Ángel Amadeo Labruna",
+   "fuente": "Historical-Lineups 1973.pdf p.17"
+  },
+  {
+   "id": 1415,
+   "fecha": "1973-04-22",
+   "partido": "Chacarita 0-0 Racing Club",
+   "campo": "Árbitro",
+   "valor": "Humberto Oreste Dellacasa",
+   "fuente": "Historical-Lineups 1973.pdf p.19"
+  },
+  {
+   "id": 1415,
+   "fecha": "1973-04-22",
+   "partido": "Chacarita 0-0 Racing Club",
+   "campo": "DT",
+   "valor": "Ángel Amadeo Labruna",
+   "fuente": "Historical-Lineups 1973.pdf p.19"
+  },
+  {
+   "id": 1416,
+   "fecha": "1973-04-29",
+   "partido": "Velez 1-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Teodoro Pascual Nitti",
+   "fuente": "Historical-Lineups 1973.pdf p.22"
+  },
+  {
+   "id": 1416,
+   "fecha": "1973-04-29",
+   "partido": "Velez 1-1 Chacarita",
+   "campo": "DT",
+   "valor": "Ángel Amadeo Labruna",
+   "fuente": "Historical-Lineups 1973.pdf p.22"
+  },
+  {
+   "id": 1422,
+   "fecha": "1973-06-22",
+   "partido": "Independiente 1-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Humberto Oreste Dellacasa",
+   "fuente": "Historical-Lineups 1973.pdf p.35"
+  },
+  {
+   "id": 1422,
+   "fecha": "1973-06-22",
+   "partido": "Independiente 1-0 Chacarita",
+   "campo": "DT",
+   "valor": "Vicente Bonavena",
+   "fuente": "Historical-Lineups 1973.pdf p.35"
+  },
+  {
+   "id": 1423,
+   "fecha": "1973-06-27",
+   "partido": "Ferro 1-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Roberto Osvaldo Barreiro",
+   "fuente": "Historical-Lineups 1973.pdf p.37"
+  },
+  {
+   "id": 1423,
+   "fecha": "1973-06-27",
+   "partido": "Ferro 1-1 Chacarita",
+   "campo": "DT",
+   "valor": "Vicente Bonavena",
+   "fuente": "Historical-Lineups 1973.pdf p.37"
+  },
+  {
+   "id": 1425,
+   "fecha": "1973-07-04",
+   "partido": "Chacarita 1-2 Boca Juniors",
+   "campo": "Árbitro",
+   "valor": "Humberto Oreste Dellacasa",
+   "fuente": "Historical-Lineups 1973.pdf p.43"
+  },
+  {
+   "id": 1425,
+   "fecha": "1973-07-04",
+   "partido": "Chacarita 1-2 Boca Juniors",
+   "campo": "DT",
+   "valor": "Argentino Geronazzo",
+   "fuente": "Historical-Lineups 1973.pdf p.43"
+  },
+  {
+   "id": 1431,
+   "fecha": "1973-08-12",
+   "partido": "Racing Club 2-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Ángel Norberto Coerezza",
+   "fuente": "Historical-Lineups 1973.pdf p.54"
+  },
+  {
+   "id": 1431,
+   "fecha": "1973-08-12",
+   "partido": "Racing Club 2-0 Chacarita",
+   "campo": "DT",
+   "valor": "Argentino Geronazzo",
+   "fuente": "Historical-Lineups 1973.pdf p.54"
+  },
+  {
+   "id": 1432,
+   "fecha": "1973-08-15",
+   "partido": "Chacarita 2-1 Velez",
+   "campo": "Árbitro",
+   "valor": "Jorge Eduardo Romero",
+   "fuente": "Historical-Lineups 1973.pdf p.55"
+  },
+  {
+   "id": 1432,
+   "fecha": "1973-08-15",
+   "partido": "Chacarita 2-1 Velez",
+   "campo": "DT",
+   "valor": "Argentino Geronazzo",
+   "fuente": "Historical-Lineups 1973.pdf p.55"
+  },
+  {
+   "id": 1414,
+   "fecha": "1973-04-19",
+   "partido": "Colon 0-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Ángel Norberto Coerezza",
+   "fuente": "Historical-Lineups 1973.pdf p.57"
+  },
+  {
+   "id": 1414,
+   "fecha": "1973-04-19",
+   "partido": "Colon 0-0 Chacarita",
+   "campo": "DT",
+   "valor": "Argentino Geronazzo",
+   "fuente": "Historical-Lineups 1973.pdf p.57"
+  },
+  {
+   "id": 1434,
+   "fecha": "1973-08-26",
+   "partido": "Chacarita 0-0 Huracan",
+   "campo": "Árbitro",
+   "valor": "Luis Pestarino",
+   "fuente": "Historical-Lineups 1973.pdf p.59"
+  },
+  {
+   "id": 1434,
+   "fecha": "1973-08-26",
+   "partido": "Chacarita 0-0 Huracan",
+   "campo": "DT",
+   "valor": "Argentino Geronazzo",
+   "fuente": "Historical-Lineups 1973.pdf p.59"
+  },
+  {
+   "id": 1435,
+   "fecha": "1973-09-01",
+   "partido": "River Plate 0-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Teodoro Pascual Nitti",
+   "fuente": "Historical-Lineups 1973.pdf p.61"
+  },
+  {
+   "id": 1435,
+   "fecha": "1973-09-01",
+   "partido": "River Plate 0-0 Chacarita",
+   "campo": "DT",
+   "valor": "Argentino Geronazzo",
+   "fuente": "Historical-Lineups 1973.pdf p.61"
+  },
+  {
+   "id": 1437,
+   "fecha": "1973-09-16",
+   "partido": "Rosario Central 1-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Sergio García",
+   "fuente": "Historical-Lineups 1973.pdf p.66"
+  },
+  {
+   "id": 1437,
+   "fecha": "1973-09-16",
+   "partido": "Rosario Central 1-1 Chacarita",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1973.pdf p.66"
+  },
+  {
+   "id": 1402,
+   "fecha": "1973-10-06",
+   "partido": "Chacarita 2-1 Racing Club",
+   "campo": "Árbitro",
+   "valor": "Miguel Francisco Comesaña",
+   "fuente": "Historical-Lineups 1973.pdf p.94"
+  },
+  {
+   "id": 1402,
+   "fecha": "1973-10-06",
+   "partido": "Chacarita 2-1 Racing Club",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1973.pdf p.94"
+  },
+  {
+   "id": 1440,
+   "fecha": "1973-10-14",
+   "partido": "Chacarita 0-0 San Lorenzo",
+   "campo": "Árbitro",
+   "valor": "Alberto Jorge Ducatelli",
+   "fuente": "Historical-Lineups 1973.pdf p.100"
+  },
+  {
+   "id": 1440,
+   "fecha": "1973-10-14",
+   "partido": "Chacarita 0-0 San Lorenzo",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1973.pdf p.100"
+  },
+  {
+   "id": 1474,
+   "fecha": "1974-02-03",
+   "partido": "Chacarita 2-1 San Lorenzo",
+   "campo": "Árbitro",
+   "valor": "Roberto Maino",
+   "fuente": "Historical-Lineups 1974.pdf p.4"
+  },
+  {
+   "id": 1474,
+   "fecha": "1974-02-03",
+   "partido": "Chacarita 2-1 San Lorenzo",
+   "campo": "Espectadores",
+   "valor": 2503,
+   "fuente": "Historical-Lineups 1974.pdf p.4"
+  },
+  {
+   "id": 1474,
+   "fecha": "1974-02-03",
+   "partido": "Chacarita 2-1 San Lorenzo",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1974.pdf p.4"
+  },
+  {
+   "id": 1479,
+   "fecha": "1974-02-10",
+   "partido": "Ferro 2-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Teodoro Pascual Nitti",
+   "fuente": "Historical-Lineups 1974.pdf p.5"
+  },
+  {
+   "id": 1479,
+   "fecha": "1974-02-10",
+   "partido": "Ferro 2-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 3657,
+   "fuente": "Historical-Lineups 1974.pdf p.5"
+  },
+  {
+   "id": 1479,
+   "fecha": "1974-02-10",
+   "partido": "Ferro 2-0 Chacarita",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1974.pdf p.5"
+  },
+  {
+   "id": 1469,
+   "fecha": "1974-02-17",
+   "partido": "Chacarita 1-1 Colon",
+   "campo": "Árbitro",
+   "valor": "Roberto Maino",
+   "fuente": "Historical-Lineups 1974.pdf p.8"
+  },
+  {
+   "id": 1469,
+   "fecha": "1974-02-17",
+   "partido": "Chacarita 1-1 Colon",
+   "campo": "Espectadores",
+   "valor": 3091,
+   "fuente": "Historical-Lineups 1974.pdf p.8"
+  },
+  {
+   "id": 1469,
+   "fecha": "1974-02-17",
+   "partido": "Chacarita 1-1 Colon",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1974.pdf p.8"
+  },
+  {
+   "id": 1472,
+   "fecha": "1974-03-17",
+   "partido": "Chacarita 2-2 Independiente",
+   "campo": "Árbitro",
+   "valor": "Teodoro Pascual Nitti",
+   "fuente": "Historical-Lineups 1974.pdf p.18"
+  },
+  {
+   "id": 1472,
+   "fecha": "1974-03-17",
+   "partido": "Chacarita 2-2 Independiente",
+   "campo": "Espectadores",
+   "valor": 11600,
+   "fuente": "Historical-Lineups 1974.pdf p.18"
+  },
+  {
+   "id": 1472,
+   "fecha": "1974-03-17",
+   "partido": "Chacarita 2-2 Independiente",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1974.pdf p.18"
+  },
+  {
+   "id": 1474,
+   "fecha": "1974-02-03",
+   "partido": "Chacarita 2-1 San Lorenzo",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1974.pdf p.20"
+  },
+  {
+   "id": 1482,
+   "fecha": "1974-03-31",
+   "partido": "San Lorenzo 2-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Claudio Aquiles Busca",
+   "fuente": "Historical-Lineups 1974.pdf p.21"
+  },
+  {
+   "id": 1482,
+   "fecha": "1974-03-31",
+   "partido": "San Lorenzo 2-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 1586,
+   "fuente": "Historical-Lineups 1974.pdf p.21"
+  },
+  {
+   "id": 1482,
+   "fecha": "1974-03-31",
+   "partido": "San Lorenzo 2-1 Chacarita",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1974.pdf p.21"
+  },
+  {
+   "id": 1477,
+   "fecha": "1974-04-14",
+   "partido": "Colon 2-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Claudio Aquiles Busca",
+   "fuente": "Historical-Lineups 1974.pdf p.26"
+  },
+  {
+   "id": 1477,
+   "fecha": "1974-04-14",
+   "partido": "Colon 2-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 7758,
+   "fuente": "Historical-Lineups 1974.pdf p.26"
+  },
+  {
+   "id": 1477,
+   "fecha": "1974-04-14",
+   "partido": "Colon 2-1 Chacarita",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1974.pdf p.26"
+  },
+  {
+   "id": 1468,
+   "fecha": "1974-04-21",
+   "partido": "Chacarita 2-2 Boca Juniors",
+   "campo": "Árbitro",
+   "valor": "Ángel Norberto Coerezza",
+   "fuente": "Historical-Lineups 1974.pdf p.27"
+  },
+  {
+   "id": 1468,
+   "fecha": "1974-04-21",
+   "partido": "Chacarita 2-2 Boca Juniors",
+   "campo": "Espectadores",
+   "valor": 18727,
+   "fuente": "Historical-Lineups 1974.pdf p.27"
+  },
+  {
+   "id": 1468,
+   "fecha": "1974-04-21",
+   "partido": "Chacarita 2-2 Boca Juniors",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1974.pdf p.27"
+  },
+  {
+   "id": 1473,
+   "fecha": "1974-05-02",
+   "partido": "Chacarita 0-1 Newells",
+   "campo": "Árbitro",
+   "valor": "Teodoro Pascual Nitti",
+   "fuente": "Historical-Lineups 1974.pdf p.32"
+  },
+  {
+   "id": 1473,
+   "fecha": "1974-05-02",
+   "partido": "Chacarita 0-1 Newells",
+   "campo": "Espectadores",
+   "valor": 2329,
+   "fuente": "Historical-Lineups 1974.pdf p.32"
+  },
+  {
+   "id": 1473,
+   "fecha": "1974-05-02",
+   "partido": "Chacarita 0-1 Newells",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1974.pdf p.32"
+  },
+  {
+   "id": 1484,
+   "fecha": "1974-05-05",
+   "partido": "Atlanta 2-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Claudio Aquiles Busca",
+   "fuente": "Historical-Lineups 1974.pdf p.34"
+  },
+  {
+   "id": 1484,
+   "fecha": "1974-05-05",
+   "partido": "Atlanta 2-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 4461,
+   "fuente": "Historical-Lineups 1974.pdf p.34"
+  },
+  {
+   "id": 1484,
+   "fecha": "1974-05-05",
+   "partido": "Atlanta 2-0 Chacarita",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1974.pdf p.34"
+  },
+  {
+   "id": 1480,
+   "fecha": "1974-05-12",
+   "partido": "Independiente 6-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Roberto Goicoechea",
+   "fuente": "Historical-Lineups 1974.pdf p.36"
+  },
+  {
+   "id": 1480,
+   "fecha": "1974-05-12",
+   "partido": "Independiente 6-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 2776,
+   "fuente": "Historical-Lineups 1974.pdf p.36"
+  },
+  {
+   "id": 1480,
+   "fecha": "1974-05-12",
+   "partido": "Independiente 6-1 Chacarita",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1974.pdf p.36"
+  },
+  {
+   "id": 1467,
+   "fecha": "1974-05-19",
+   "partido": "Chacarita 2-1 Argentinos",
+   "campo": "Árbitro",
+   "valor": "Teodoro Pascual Nitti",
+   "fuente": "Historical-Lineups 1974.pdf p.38"
+  },
+  {
+   "id": 1467,
+   "fecha": "1974-05-19",
+   "partido": "Chacarita 2-1 Argentinos",
+   "campo": "Espectadores",
+   "valor": 2787,
+   "fuente": "Historical-Lineups 1974.pdf p.38"
+  },
+  {
+   "id": 1467,
+   "fecha": "1974-05-19",
+   "partido": "Chacarita 2-1 Argentinos",
+   "campo": "DT",
+   "valor": "Humberto Dionisio Maschio",
+   "fuente": "Historical-Lineups 1974.pdf p.38"
+  },
+  {
+   "id": 1442,
+   "fecha": "1974-08-04",
+   "partido": "Chacarita 2-1 Ferro",
+   "campo": "Árbitro",
+   "valor": "Roberto Goicoechea",
+   "fuente": "Historical-Lineups 1974.pdf p.72"
+  },
+  {
+   "id": 1442,
+   "fecha": "1974-08-04",
+   "partido": "Chacarita 2-1 Ferro",
+   "campo": "Espectadores",
+   "valor": 3750,
+   "fuente": "Historical-Lineups 1974.pdf p.72"
+  },
+  {
+   "id": 1442,
+   "fecha": "1974-08-04",
+   "partido": "Chacarita 2-1 Ferro",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1974.pdf p.72"
+  },
+  {
+   "id": 1442,
+   "fecha": "1974-08-04",
+   "partido": "Chacarita 2-1 Ferro",
+   "campo": "Árbitro",
+   "valor": "Miguel Francisco Comesaña",
+   "fuente": "Historical-Lineups 1974.pdf p.78"
+  },
+  {
+   "id": 1442,
+   "fecha": "1974-08-04",
+   "partido": "Chacarita 2-1 Ferro",
+   "campo": "Espectadores",
+   "valor": 11183,
+   "fuente": "Historical-Lineups 1974.pdf p.78"
+  },
+  {
+   "id": 1442,
+   "fecha": "1974-08-04",
+   "partido": "Chacarita 2-1 Ferro",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1974.pdf p.78"
+  },
+  {
+   "id": 1502,
+   "fecha": "1975-02-21",
+   "partido": "Chacarita 1-2 Union",
+   "campo": "Árbitro",
+   "valor": "Humberto Oreste Dellacasa",
+   "fuente": "Historical-Lineups 1975.pdf p.5"
+  },
+  {
+   "id": 1502,
+   "fecha": "1975-02-21",
+   "partido": "Chacarita 1-2 Union",
+   "campo": "Espectadores",
+   "valor": 4091,
+   "fuente": "Historical-Lineups 1975.pdf p.5"
+  },
+  {
+   "id": 1502,
+   "fecha": "1975-02-21",
+   "partido": "Chacarita 1-2 Union",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.5"
+  },
+  {
+   "id": 1503,
+   "fecha": "1975-03-11",
+   "partido": "Rosario Central 1-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Juan Carlos Ángel Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.8"
+  },
+  {
+   "id": 1503,
+   "fecha": "1975-03-11",
+   "partido": "Rosario Central 1-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 3946,
+   "fuente": "Historical-Lineups 1975.pdf p.8"
+  },
+  {
+   "id": 1503,
+   "fecha": "1975-03-11",
+   "partido": "Rosario Central 1-1 Chacarita",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.8"
+  },
+  {
+   "id": 1505,
+   "fecha": "1975-03-05",
+   "partido": "Banfield 1-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Oscar Antonio Veiró",
+   "fuente": "Historical-Lineups 1975.pdf p.11"
+  },
+  {
+   "id": 1505,
+   "fecha": "1975-03-05",
+   "partido": "Banfield 1-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 1112,
+   "fuente": "Historical-Lineups 1975.pdf p.11"
+  },
+  {
+   "id": 1505,
+   "fecha": "1975-03-05",
+   "partido": "Banfield 1-1 Chacarita",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.11"
+  },
+  {
+   "id": 1506,
+   "fecha": "1975-03-09",
+   "partido": "Chacarita 1-1 Huracan",
+   "campo": "Árbitro",
+   "valor": "Claudio Aquiles Busca",
+   "fuente": "Historical-Lineups 1975.pdf p.13"
+  },
+  {
+   "id": 1506,
+   "fecha": "1975-03-09",
+   "partido": "Chacarita 1-1 Huracan",
+   "campo": "Espectadores",
+   "valor": 4609,
+   "fuente": "Historical-Lineups 1975.pdf p.13"
+  },
+  {
+   "id": 1506,
+   "fecha": "1975-03-09",
+   "partido": "Chacarita 1-1 Huracan",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.13"
+  },
+  {
+   "id": 1508,
+   "fecha": "1975-03-21",
+   "partido": "Chacarita 1-0 Independiente",
+   "campo": "Árbitro",
+   "valor": "Ángel Norberto Coerezza",
+   "fuente": "Historical-Lineups 1975.pdf p.18"
+  },
+  {
+   "id": 1508,
+   "fecha": "1975-03-21",
+   "partido": "Chacarita 1-0 Independiente",
+   "campo": "Espectadores",
+   "valor": 5017,
+   "fuente": "Historical-Lineups 1975.pdf p.18"
+  },
+  {
+   "id": 1508,
+   "fecha": "1975-03-21",
+   "partido": "Chacarita 1-0 Independiente",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.18"
+  },
+  {
+   "id": 1511,
+   "fecha": "1975-03-30",
+   "partido": "Atlanta 1-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Miguel Francisco Comesaña",
+   "fuente": "Historical-Lineups 1975.pdf p.23"
+  },
+  {
+   "id": 1511,
+   "fecha": "1975-03-30",
+   "partido": "Atlanta 1-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 5012,
+   "fuente": "Historical-Lineups 1975.pdf p.23"
+  },
+  {
+   "id": 1511,
+   "fecha": "1975-03-30",
+   "partido": "Atlanta 1-0 Chacarita",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.23"
+  },
+  {
+   "id": 1513,
+   "fecha": "1975-04-06",
+   "partido": "Boca Juniors 4-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Raúl Loureiro",
+   "fuente": "Historical-Lineups 1975.pdf p.27"
+  },
+  {
+   "id": 1513,
+   "fecha": "1975-04-06",
+   "partido": "Boca Juniors 4-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 16175,
+   "fuente": "Historical-Lineups 1975.pdf p.27"
+  },
+  {
+   "id": 1513,
+   "fecha": "1975-04-06",
+   "partido": "Boca Juniors 4-0 Chacarita",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.27"
+  },
+  {
+   "id": 1514,
+   "fecha": "1975-04-13",
+   "partido": "Chacarita 1-1 Temperley",
+   "campo": "Árbitro",
+   "valor": "Alberto Jorge Ducatelli",
+   "fuente": "Historical-Lineups 1975.pdf p.29"
+  },
+  {
+   "id": 1514,
+   "fecha": "1975-04-13",
+   "partido": "Chacarita 1-1 Temperley",
+   "campo": "Espectadores",
+   "valor": 3404,
+   "fuente": "Historical-Lineups 1975.pdf p.29"
+  },
+  {
+   "id": 1514,
+   "fecha": "1975-04-13",
+   "partido": "Chacarita 1-1 Temperley",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.29"
+  },
+  {
+   "id": 1516,
+   "fecha": "1975-04-20",
+   "partido": "Chacarita 2-1 Argentinos",
+   "campo": "Árbitro",
+   "valor": "Oscar Antonio Veiró",
+   "fuente": "Historical-Lineups 1975.pdf p.33"
+  },
+  {
+   "id": 1516,
+   "fecha": "1975-04-20",
+   "partido": "Chacarita 2-1 Argentinos",
+   "campo": "Espectadores",
+   "valor": 3097,
+   "fuente": "Historical-Lineups 1975.pdf p.33"
+  },
+  {
+   "id": 1516,
+   "fecha": "1975-04-20",
+   "partido": "Chacarita 2-1 Argentinos",
+   "campo": "DT",
+   "valor": "Roberto Rubén Pegnotti",
+   "fuente": "Historical-Lineups 1975.pdf p.33"
+  },
+  {
+   "id": 1517,
+   "fecha": "1975-04-23",
+   "partido": "Racing Club 1-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Roberto Goicoechea",
+   "fuente": "Historical-Lineups 1975.pdf p.36"
+  },
+  {
+   "id": 1517,
+   "fecha": "1975-04-23",
+   "partido": "Racing Club 1-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 2314,
+   "fuente": "Historical-Lineups 1975.pdf p.36"
+  },
+  {
+   "id": 1517,
+   "fecha": "1975-04-23",
+   "partido": "Racing Club 1-0 Chacarita",
+   "campo": "DT",
+   "valor": "Roberto Rubén Pegnotti",
+   "fuente": "Historical-Lineups 1975.pdf p.36"
+  },
+  {
+   "id": 1519,
+   "fecha": "1975-04-30",
+   "partido": "Velez 1-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Alberto Jorge Ducatelli",
+   "fuente": "Historical-Lineups 1975.pdf p.40"
+  },
+  {
+   "id": 1519,
+   "fecha": "1975-04-30",
+   "partido": "Velez 1-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 1468,
+   "fuente": "Historical-Lineups 1975.pdf p.40"
+  },
+  {
+   "id": 1519,
+   "fecha": "1975-04-30",
+   "partido": "Velez 1-1 Chacarita",
+   "campo": "DT",
+   "valor": "Roberto Rubén Pegnotti",
+   "fuente": "Historical-Lineups 1975.pdf p.40"
+  },
+  {
+   "id": 1514,
+   "fecha": "1975-04-13",
+   "partido": "Chacarita 1-1 Temperley",
+   "campo": "DT",
+   "valor": "Roberto Rubén Pegnotti",
+   "fuente": "Historical-Lineups 1975.pdf p.41"
+  },
+  {
+   "id": 1521,
+   "fecha": "1975-05-18",
+   "partido": "Union 1-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Teodoro Pascual Nitti",
+   "fuente": "Historical-Lineups 1975.pdf p.44"
+  },
+  {
+   "id": 1521,
+   "fecha": "1975-05-18",
+   "partido": "Union 1-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 4920,
+   "fuente": "Historical-Lineups 1975.pdf p.44"
+  },
+  {
+   "id": 1521,
+   "fecha": "1975-05-18",
+   "partido": "Union 1-0 Chacarita",
+   "campo": "DT",
+   "valor": "Juan Carlos Montaño",
+   "fuente": "Historical-Lineups 1975.pdf p.44"
+  },
+  {
+   "id": 1522,
+   "fecha": "1975-05-27",
+   "partido": "Chacarita 1-0 Rosario Central",
+   "campo": "Árbitro",
+   "valor": "Ángel Norberto Coerezza",
+   "fuente": "Historical-Lineups 1975.pdf p.46"
+  },
+  {
+   "id": 1522,
+   "fecha": "1975-05-27",
+   "partido": "Chacarita 1-0 Rosario Central",
+   "campo": "Espectadores",
+   "valor": 1226,
+   "fuente": "Historical-Lineups 1975.pdf p.46"
+  },
+  {
+   "id": 1522,
+   "fecha": "1975-05-27",
+   "partido": "Chacarita 1-0 Rosario Central",
+   "campo": "DT",
+   "valor": "Juan Carlos Montaño",
+   "fuente": "Historical-Lineups 1975.pdf p.46"
+  },
+  {
+   "id": 1530,
+   "fecha": "1975-07-13",
+   "partido": "Chacarita 1-1 Atlanta",
+   "campo": "Árbitro",
+   "valor": "Luis Pestarino",
+   "fuente": "Historical-Lineups 1975.pdf p.61"
+  },
+  {
+   "id": 1530,
+   "fecha": "1975-07-13",
+   "partido": "Chacarita 1-1 Atlanta",
+   "campo": "Espectadores",
+   "valor": 1593,
+   "fuente": "Historical-Lineups 1975.pdf p.61"
+  },
+  {
+   "id": 1530,
+   "fecha": "1975-07-13",
+   "partido": "Chacarita 1-1 Atlanta",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.61"
+  },
+  {
+   "id": 1534,
+   "fecha": "1975-07-27",
+   "partido": "Chacarita 1-2 San Lorenzo",
+   "campo": "Árbitro",
+   "valor": "Jorge Eduardo Romero",
+   "fuente": "Historical-Lineups 1975.pdf p.69"
+  },
+  {
+   "id": 1534,
+   "fecha": "1975-07-27",
+   "partido": "Chacarita 1-2 San Lorenzo",
+   "campo": "Espectadores",
+   "valor": 3414,
+   "fuente": "Historical-Lineups 1975.pdf p.69"
+  },
+  {
+   "id": 1534,
+   "fecha": "1975-07-27",
+   "partido": "Chacarita 1-2 San Lorenzo",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.69"
+  },
+  {
+   "id": 1538,
+   "fecha": "1975-08-17",
+   "partido": "Chacarita 2-2 Velez",
+   "campo": "Árbitro",
+   "valor": "Teodoro Pascual Nitti",
+   "fuente": "Historical-Lineups 1975.pdf p.77"
+  },
+  {
+   "id": 1538,
+   "fecha": "1975-08-17",
+   "partido": "Chacarita 2-2 Velez",
+   "campo": "Espectadores",
+   "valor": 1587,
+   "fuente": "Historical-Lineups 1975.pdf p.77"
+  },
+  {
+   "id": 1538,
+   "fecha": "1975-08-17",
+   "partido": "Chacarita 2-2 Velez",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.77"
+  },
+  {
+   "id": 1500,
+   "fecha": "1975-09-19",
+   "partido": "Atlanta 2-1 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Raúl Loureiro",
+   "fuente": "Historical-Lineups 1975.pdf p.107"
+  },
+  {
+   "id": 1500,
+   "fecha": "1975-09-19",
+   "partido": "Atlanta 2-1 Chacarita",
+   "campo": "Espectadores",
+   "valor": 1016,
+   "fuente": "Historical-Lineups 1975.pdf p.107"
+  },
+  {
+   "id": 1500,
+   "fecha": "1975-09-19",
+   "partido": "Atlanta 2-1 Chacarita",
+   "campo": "DT",
+   "valor": "Perfecto Rodríguez",
+   "fuente": "Historical-Lineups 1975.pdf p.107"
+  },
+  {
+   "id": 1497,
+   "fecha": "1975-11-05",
+   "partido": "Rosario Central 2-0 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Roberto Maino",
+   "fuente": "Historical-Lineups 1975.pdf p.135"
+  },
+  {
+   "id": 1497,
+   "fecha": "1975-11-05",
+   "partido": "Rosario Central 2-0 Chacarita",
+   "campo": "Espectadores",
+   "valor": 3059,
+   "fuente": "Historical-Lineups 1975.pdf p.135"
+  },
+  {
+   "id": 1497,
+   "fecha": "1975-11-05",
+   "partido": "Rosario Central 2-0 Chacarita",
+   "campo": "DT",
+   "valor": "Alfio Basile",
+   "fuente": "Historical-Lineups 1975.pdf p.135"
+  },
+  {
+   "id": 1567,
+   "fecha": "1976-06-13",
+   "partido": "Velez 2-2 Chacarita",
+   "campo": "Árbitro",
+   "valor": "Luis Pestarino",
+   "fuente": "Historical-Lineups 1976.pdf p.61"
+  },
+  {
+   "id": 1567,
+   "fecha": "1976-06-13",
+   "partido": "Velez 2-2 Chacarita",
+   "campo": "Espectadores",
+   "valor": 3429,
+   "fuente": "Historical-Lineups 1976.pdf p.61"
+  },
+  {
+   "id": 1567,
+   "fecha": "1976-06-13",
+   "partido": "Velez 2-2 Chacarita",
+   "campo": "DT",
+   "valor": "Alfio Basile",
+   "fuente": "Historical-Lineups 1976.pdf p.61"
+  },
+  {
+   "id": 1603,
+   "fecha": "1977-07-27",
+   "partido": "Chacarita 1-0 Ferro",
+   "campo": "Árbitro",
+   "valor": "Teodoro Pascual Nitti",
+   "fuente": "Historical-Lineups 1977.pdf p.32"
+  },
+  {
+   "id": 1603,
+   "fecha": "1977-07-27",
+   "partido": "Chacarita 1-0 Ferro",
+   "campo": "Espectadores",
+   "valor": 1946,
+   "fuente": "Historical-Lineups 1977.pdf p.32"
+  },
+  {
+   "id": 1603,
+   "fecha": "1977-07-27",
+   "partido": "Chacarita 1-0 Ferro",
+   "campo": "DT",
+   "valor": "Victorio Luis Spinetto",
+   "fuente": "Historical-Lineups 1977.pdf p.32"
+  },
+  {
+   "id": 1627,
+   "fecha": "1977-11-30",
+   "partido": "Chacarita 0-1 Boca Juniors",
+   "campo": "Árbitro",
+   "valor": "Luis Pestarino",
+   "fuente": "Historical-Lineups 1977.pdf p.138"
+  },
+  {
+   "id": 1627,
+   "fecha": "1977-11-30",
+   "partido": "Chacarita 0-1 Boca Juniors",
+   "campo": "Espectadores",
+   "valor": 11607,
+   "fuente": "Historical-Lineups 1977.pdf p.138"
+  },
+  {
+   "id": 1627,
+   "fecha": "1977-11-30",
+   "partido": "Chacarita 0-1 Boca Juniors",
+   "campo": "DT",
+   "valor": "Francisco Campana",
+   "fuente": "Historical-Lineups 1977.pdf p.138"
+  }
+ ],
+ "stats": {
+  "Árbitro": {
+   "comparados": 709,
+   "iguales": 685,
+   "por_decada": {
+    "1930": "123/126",
+    "1940": "158/171",
+    "1950": "124/128",
+    "1960": "135/136",
+    "1970": "133/136",
+    "1980": "12/12"
+   }
+  },
+  "Espectadores": {
+   "comparados": 110,
+   "iguales": 108,
+   "por_decada": {
+    "1960": "7/7",
+    "1970": "89/91",
+    "1980": "12/12"
+   }
+  },
+  "DT": {
+   "comparados": 293,
+   "iguales": 282,
+   "por_decada": {
+    "1960": "141/142",
+    "1970": "133/138",
+    "1980": "8/13"
+   }
+  }
+ },
+ "cobertura": {
+  "partidos_pdf": 1599,
+  "emparejados_verificados": 850,
+  "ambiguos": 176,
+  "sin_pareja": 346,
+  "rechazados_por_confiabilidad": 17
+ }
+}

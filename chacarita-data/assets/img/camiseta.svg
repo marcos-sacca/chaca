@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 440" role="img" aria-label="Camiseta de bastones rojos y negros">
+  <defs>
+    <clipPath id="s"><path d="M140 22 L92 40 Q60 52 40 78 L8 168 L82 196 L96 156 L96 410 Q96 426 112 426 H308 Q324 426 324 410 V156 L338 196 L412 168 L380 78 Q360 52 328 40 L280 22 Q262 52 210 52 Q158 52 140 22 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#s)">
+    <rect width="420" height="440" fill="#17120f"/>
+    <g fill="#e5160a">
+      <rect x="-10" width="30" height="440"/><rect x="50" width="30" height="440"/><rect x="110" width="30" height="440"/><rect x="170" width="30" height="440"/>
+      <rect x="230" width="30" height="440"/><rect x="290" width="30" height="440"/><rect x="350" width="30" height="440"/><rect x="410" width="30" height="440"/>
+    </g>
+    <path d="M140 22 Q158 52 210 52 Q262 52 280 22 L296 28 Q268 82 210 82 Q152 82 124 28 Z" fill="#17120f"/>
+    <path d="M82 196 L96 156 M338 196 L324 156" stroke="#17120f" stroke-width="3" opacity=".35"/>
+  </g>
+</svg>

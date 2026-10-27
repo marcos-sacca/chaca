@@ -1,0 +1,16 @@
+/* Archivo (títulos, ejes de peso y ancho) e Inter (texto y cifras). Ambas bajo licencia SIL OFL, servidas desde este mismo sitio. */
+@font-face {
+  font-family: "Archivo";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  src: url(../assets/fonts/Archivo-wdth-latin.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(../assets/fonts/Inter-latin.woff2) format("woff2");
+}

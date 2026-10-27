@@ -1,0 +1,283 @@
+{
+ "validacion": [
+  {
+   "torneo": "Campeonato 1943",
+   "excel": "12°",
+   "rsssf": 13,
+   "coincide": false
+  },
+  {
+   "torneo": "Campeonato 1944",
+   "excel": "15°",
+   "rsssf": 15,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1945",
+   "excel": "15°",
+   "rsssf": 15,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1946",
+   "excel": "13°",
+   "rsssf": 13,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1947",
+   "excel": "7°",
+   "rsssf": 7,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1948",
+   "excel": "11°",
+   "rsssf": 11,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1949",
+   "excel": "8°",
+   "rsssf": 8,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1950",
+   "excel": "8°",
+   "rsssf": 8,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1951",
+   "excel": "8°",
+   "rsssf": 8,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1952",
+   "excel": "11°",
+   "rsssf": 11,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1953",
+   "excel": "7°",
+   "rsssf": 7,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1954",
+   "excel": "8°",
+   "rsssf": 8,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1955",
+   "excel": "12°",
+   "rsssf": 12,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1956",
+   "excel": "14°",
+   "rsssf": 14,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1960",
+   "excel": "9° (compartido con Huracán)",
+   "rsssf": 9,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1961",
+   "excel": "6° (compartido con Vélez)",
+   "rsssf": 8,
+   "coincide": false
+  },
+  {
+   "torneo": "Campeonato 1962",
+   "excel": "5° (compartido con Rosario Central)",
+   "rsssf": 5,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1963",
+   "excel": "14°",
+   "rsssf": 14,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1964",
+   "excel": "12°",
+   "rsssf": 12,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1965",
+   "excel": "18°",
+   "rsssf": 18,
+   "coincide": true
+  },
+  {
+   "torneo": "Campeonato 1966",
+   "excel": "20°",
+   "rsssf": 20,
+   "coincide": true
+  },
+  {
+   "torneo": "Metropolitano 1973",
+   "excel": "13° de 17",
+   "rsssf": 13,
+   "coincide": true
+  },
+  {
+   "torneo": "Nacional 1973",
+   "excel": "7° de 15 (Zona A)",
+   "rsssf": 7,
+   "coincide": true
+  },
+  {
+   "torneo": "Metropolitano 1974",
+   "excel": "9° de 9 (Zona B)",
+   "rsssf": 9,
+   "coincide": true
+  },
+  {
+   "torneo": "Nacional 1974",
+   "excel": "5° de 9 (Zona C)",
+   "rsssf": 5,
+   "coincide": true
+  },
+  {
+   "torneo": "Metropolitano 1984",
+   "excel": "9°",
+   "rsssf": 10,
+   "coincide": false
+  },
+  {
+   "torneo": "Campeonato 1985-86",
+   "excel": "20°",
+   "rsssf": 19,
+   "coincide": false
+  }
+ ],
+ "patch": [
+  {
+   "torneo": "Campeonato 1931",
+   "campo": "Posición final",
+   "valor": "7° de 17",
+   "fuente": "RSSSF arghist-pro1930s.html"
+  },
+  {
+   "torneo": "Campeonato 1932",
+   "campo": "Posición final",
+   "valor": "13° de 17",
+   "fuente": "RSSSF arghist-pro1930s.html"
+  },
+  {
+   "torneo": "Campeonato 1933",
+   "campo": "Posición final",
+   "valor": "8° de 17",
+   "fuente": "RSSSF arghist-pro1930s.html"
+  },
+  {
+   "torneo": "Campeonato 1934",
+   "campo": "Posición final",
+   "valor": "11°",
+   "fuente": "RSSSF arghist-pro1930s.html"
+  },
+  {
+   "torneo": "Campeonato 1935",
+   "campo": "Posición final",
+   "valor": "14° de 17",
+   "fuente": "RSSSF arghist-pro1930s.html"
+  },
+  {
+   "torneo": "Campeonato 1942",
+   "campo": "Posición final",
+   "valor": "12° de 16",
+   "fuente": "RSSSF arghist-pro1940s.html"
+  },
+  {
+   "torneo": "Metropolitano 1971",
+   "campo": "Posición final",
+   "valor": "3° de 19",
+   "fuente": "RSSSF arghist-pro1970s.html"
+  },
+  {
+   "torneo": "Nacional 1971",
+   "campo": "Posición final",
+   "valor": "9° de 14",
+   "fuente": "RSSSF arghist-pro1970s.html"
+  },
+  {
+   "torneo": "Metropolitano 1972",
+   "campo": "Posición final",
+   "valor": "8° de 18",
+   "fuente": "RSSSF arghist-pro1970s.html"
+  },
+  {
+   "torneo": "Nacional 1972",
+   "campo": "Posición final",
+   "valor": "10° de 13",
+   "fuente": "RSSSF arghist-pro1970s.html"
+  },
+  {
+   "torneo": "Metropolitano 1975",
+   "campo": "Posición final",
+   "valor": "15° de 20",
+   "fuente": "RSSSF arghist-pro1970s.html"
+  },
+  {
+   "torneo": "Nacional 1975",
+   "campo": "Posición final",
+   "valor": "6° de 8",
+   "fuente": "RSSSF arghist-pro1970s.html"
+  },
+  {
+   "torneo": "Nacional 1976",
+   "campo": "Posición final",
+   "valor": "7° de 8",
+   "fuente": "RSSSF arghist-pro1970s.html"
+  },
+  {
+   "torneo": "Metropolitano 1977",
+   "campo": "Posición final",
+   "valor": "16° de 23",
+   "fuente": "RSSSF arghist-pro1970s.html"
+  },
+  {
+   "torneo": "Nacional 1977",
+   "campo": "Posición final",
+   "valor": "7° de 8",
+   "fuente": "RSSSF arghist-pro1970s.html"
+  },
+  {
+   "torneo": "Metropolitano 1978",
+   "campo": "Posición final",
+   "valor": "18° de 21",
+   "fuente": "RSSSF arghist-pro1970s.html"
+  },
+  {
+   "torneo": "Nacional 1978",
+   "campo": "Posición final",
+   "valor": "6° de 8",
+   "fuente": "RSSSF arghist-pro1970s.html"
+  }
+ ],
+ "sin_asignar": [
+  "Campeonato 1940",
+  "Nacional 1968",
+  "Metropolitano 1969",
+  "Nacional 1970 - Grupo A",
+  "Metropolitano 1976",
+  "Metropolitano 1979",
+  "Torneo Nacional 1985"
+ ],
+ "resumen_validacion": {
+  "coinciden": 23,
+  "difieren": 4
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "nota": "Posiciones leídas a mano de RSSSF (Argentina 1960s) donde la tabla es clara; se omite el «de N» cuando la tabla no lo confirma.",
+ "patch": [
+  {
+   "torneo": "Metropolitano 1967",
+   "campo": "pos",
+   "valor": "11° del Grupo A",
+   "fuente": "RSSSF arghist-pro1960s.html (1967)"
+  },
+  {
+   "torneo": "Metropolitano 1968",
+   "campo": "pos",
+   "valor": "7° del Grupo B",
+   "fuente": "RSSSF arghist-pro1960s.html (1968)"
+  },
+  {
+   "torneo": "Metropolitano 1969",
+   "campo": "pos",
+   "valor": "Campeón (2° del Grupo A; final 4-1 a River Plate)",
+   "fuente": "RSSSF arghist-pro1960s.html (1969)"
+  },
+  {
+   "torneo": "Nacional 1969",
+   "campo": "pos",
+   "valor": "7° de 18",
+   "fuente": "RSSSF arghist-pro1960s.html (1969)"
+  },
+  {
+   "torneo": "Metropolitano 1970",
+   "campo": "pos",
+   "valor": "13°",
+   "fuente": "RSSSF arghist-pro1960s.html (1970)"
+  },
+  {
+   "torneo": "Petit Torneo 1970",
+   "campo": "pos",
+   "valor": "2° de 4",
+   "fuente": "RSSSF arghist-pro1960s.html (1970)"
+  },
+  {
+   "torneo": "Nacional 1970 - Grupo A",
+   "campo": "pos",
+   "valor": "1° del Grupo A",
+   "fuente": "RSSSF arghist-pro1960s.html (1970)"
+  }
+ ]
+}
