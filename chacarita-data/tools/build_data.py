@@ -188,7 +188,7 @@ def main(xlsx, patches):
             continue
         rows, seen = [], set()
         for j in x["jugadores"]:
-            nm = resolve_player(j["cd"] if "cd" in j else j["tm"])
+            nm = resolve_player(j.get("n") or j.get("cd") or j.get("tm"))
             if nm and (nm, j["rol"]) not in seen and nm not in {r_[0] for r_ in rows}:
                 seen.add((nm, j["rol"]))
                 rows.append([nm, j["rol"]])
