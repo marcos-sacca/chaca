@@ -10,7 +10,7 @@ route("datos", async (r, page) => {
   const ok = (k) => { const x = P.stats[k]; return pct(x.iguales / x.comparados, 0); };
   const decs = [...new Set(M.map((x) => x.dec))].sort();
   const cov = (f) => decs.map((d) => { const l = M.filter((x) => x.dec === d); return l.filter(f).length / l.length; });
-  const camp = [["Resultado y goles", () => true], ["Goleadores", (x) => (x.gf + x.gc) === 0 || (x.g && x.g.length)], ["Formación", (x) => S.hasLineup.has(x.id)], ["Estadio", (x) => !!x.e], ["Árbitro", (x) => !!x.arb], ["Director técnico", (x) => !!x.dt], ["Espectadores", (x) => x.esp != null]];
+  const camp = [["Resultado y goles", () => true], ["Goleadores de Chacarita", (x) => x.gf === 0 || (x.g && x.g.length)], ["Formación", (x) => S.hasLineup.has(x.id)], ["Estadio", (x) => !!x.e], ["Árbitro", (x) => !!x.arb], ["Director técnico", (x) => !!x.dt], ["Espectadores", (x) => x.esp != null]];
   const heat = h("div.tblwrap", h("table.tbl.heat", [
     h("thead", h("tr", [h("th", "Dato"), ...decs.map((d) => h("th.r", `${d}s`))])),
     h("tbody", camp.map(([t, f]) => h("tr", [h("td", h("b", t)), ...cov(f).map((v) => { const td = h("td.c.r", pct(v, 0)); td.style.background = `color-mix(in srgb, var(--red) ${Math.round(v * 62)}%, var(--white))`; return td; })]))),
@@ -21,10 +21,13 @@ route("datos", async (r, page) => {
     pageHead("Datos", "De dónde sale cada cosa", "Todo parte de la planilla «DATACHACA Máster». Completamos lo que faltaba solo cuando una fuente pública lo confirmaba, y lo dejamos marcado."),
     h("section.sec", { style: { marginTop: "30px" } }, [h("h2", { style: { marginBottom: "12px" } }, "Qué tan completo está cada dato"), heat, h("p.cap", `Porcentaje de partidos de cada década que tiene el dato cargado. En total: ${n(m.partidos)} partidos, ${n(m.goles)} goles y ${n(m.formaciones)} apariciones en formaciones (${n(m.partidos_con_formacion)} partidos con formación).`)]),
     h("section.sec.cols2", { "data-reveal": "" }, [
-      h("div", [h("h2", { style: { marginBottom: "12px" } }, "Lo que agregamos"), h("p", `Se completaron ${m.enriquecidos.arb} árbitros, ${m.enriquecidos.dt} directores técnicos y ${m.enriquecidos.esp} cifras de espectadores que estaban vacíos, y ${m.posiciones_completadas} posiciones finales de campeonatos. Cada dato agregado aparece con la marca «agregado» y la fuente al pasar el mouse.`), h("p", P ? `Antes de agregar algo se comparó el método con datos que la planilla ya tenía: coincidió en ${ok("Árbitro")} de los árbitros, ${ok("Espectadores")} de los espectadores y ${ok("DT")} de los directores técnicos. Si en una década la coincidencia era baja, no se agregó nada.` : "Antes de agregar algo se comparó el método con datos que la planilla ya tenía."), h("p.muted", "Nunca se pisó un dato existente.")]),
+      h("div", [h("h2", { style: { marginBottom: "12px" } }, "Lo que agregamos"), h("p", `Se completaron ${m.enriquecidos.arb} árbitros, ${m.enriquecidos.dt} directores técnicos, ${m.enriquecidos.esp} cifras de espectadores y ${m.enriquecidos.lu} formaciones que estaban vacíos, y ${m.posiciones_completadas} posiciones finales de campeonatos. Cada dato agregado aparece con la marca «agregado» y la fuente al pasar el mouse.`), h("p", P ? `Antes de agregar algo se comparó el método con datos que la planilla ya tenía: coincidió en ${ok("Árbitro")} de los árbitros, ${ok("Espectadores")} de los espectadores y ${ok("DT")} de los directores técnicos. Si en una década la coincidencia era baja, no se agregó nada.` : "Antes de agregar algo se comparó el método con datos que la planilla ya tenía."), h("p.muted", "Nunca se pisó un dato existente.")]),
       h("div", [h("h2", { style: { marginBottom: "12px" } }, "Fuentes"), h("ul", { style: { paddingLeft: "1.1em", display: "grid", gap: "8px" } }, [
         h("li", [h("b", "Planilla DATACHACA Máster"), ": partidos, goles, formaciones y torneos (fuentes anotadas en la planilla)."]),
-        h("li", [h("b", "Historical-Lineups"), " (formaciones, árbitros, recaudación y espectadores de 1932 a 1984): ", ...(fuentesPatch.length ? [fuentesPatch.length + " archivos usados."] : [])]),
+        h("li", [h("b", "Chacarita Digital"), " (chacaritadigital.com.ar): crónica de cada partido con formaciones, DT, árbitro, entradas y cancha. Se usó para completar lo que la planilla tenía vacío; coincide con la planilla en 99 % de los árbitros y 96 % de los DT que ya estaban cargados."]),
+        h("li", [h("b", "Historical-Lineups"), " (formaciones, árbitros, recaudación y espectadores de 1932 a 1984)."]),
+        h("li", [h("b", "Transfermarkt"), ": árbitro, DT y formaciones desde 2002."]),
+        h("li", [h("b", "Historia y Fútbol"), " de José Carluccio (josecarluccio.blogspot.com): control cruzado de goleadores y sedes."]),
         h("li", [h("b", "RSSSF"), " (tablas finales de los campeonatos de Primera)."]),
         h("li", [h("b", "Wikimedia Commons"), " (fotos, con autor y licencia debajo)."]),
       ])]),

@@ -96,7 +96,8 @@ sec(`Ranking de goleadores (filtro de la planilla: división=${X.filtro_rank.div
 }
 
 sec("Partidos jugados por jugador (con formación)");
-X.pj_ranking.forEach(([pos, name, pj, tit, ing]) => { const p = S.playerMap.get(name); check(`${name} PJ`, p?.pj ?? 0, pj); check(`${name} titular`, p?.tit ?? 0, tit); });
+// las formaciones agregadas desde otras fuentes (marca «lu» en el partido) no están en la planilla: se descuentan para comparar
+X.pj_ranking.forEach(([pos, name, pj, tit, ing]) => { const p = S.playerMap.get(name); const base = (p?.apps ?? []).filter((a) => !(a.m.enr || []).includes("lu")); check(`${name} PJ`, base.length, pj); check(`${name} titular`, base.filter((a) => a.rol === 0).length, tit); });
 
 sec(`Efemérides (${X.efem.dia} de ${X.efem.mes})`);
 {

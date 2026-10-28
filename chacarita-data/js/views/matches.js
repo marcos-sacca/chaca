@@ -69,18 +69,15 @@ function csv(list) {
 let SRC = null;
 async function fuentes() {
   if (SRC) return SRC;
-  SRC = new Map();
-  try {
-    const p = await (await fetch("data/enrichment/parche_partidos.json")).json();
-    for (const x of p.patch) { if (!SRC.has(x.id)) SRC.set(x.id, {}); SRC.get(x.id)[{ Árbitro: "arb", Espectadores: "esp", DT: "dt" }[x.campo] || x.campo] = x.fuente; }
-  } catch { /* sin detalle de fuente */ }
+  SRC = {};
+  try { SRC = await (await fetch("data/enrichment_index.json")).json(); } catch { /* sin detalle de fuente */ }
   return SRC;
 }
 
 route("partido", async (r, page) => {
   const m = S.byId.get(+r.arg);
   if (!m) { page.append(h("div.wrap.page", h("h1.h1", "No encontramos ese partido"), h("a.link", { href: "#/partidos" }, "Ir a la lista de partidos"))); return { title: "Partido" }; }
-  const src = (await fuentes()).get(m.id) || {};
+  const src = (await fuentes())[m.id] || {};
   const enr = (k) => (m.enr || []).includes(k) ? h("span.flag", { title: "Dato agregado: " + (src[k] || "fuente en la página de datos") }, "agregado") : null;
   const lu = (S.lineups[m.id] || []).map(([pid, rol]) => ({ name: S.players[pid], rol }));
   const idx = S.matches.indexOf(m), prev = S.matches[idx - 1], next = S.matches[idx + 1];
@@ -99,7 +96,7 @@ route("partido", async (r, page) => {
   ].filter(([, v]) => v);
   const tit = (arr) => arr.map(({ name, rol }) => h("li", [h("a", { href: href.player(name) }, name), rol ? h("small", "suplente") : null]));
   const tits = lu.filter((x) => !x.rol), sups = lu.filter((x) => x.rol);
-  const mkGoal = (g) => h("li", [h("span.min", g.m != null ? `${g.m}'` : "—"), g.p ? h("a", { href: href.player(g.p) }, g.p) : "Sin dato", g.pen ? h("span.pill", "penal") : null, g.ec ? h("span.pill", "en contra") : null]);
+  const mkGoal = (g) => h("li", [h("span.min", g.m != null ? `${g.m}'` : "—"), g.ec ? (/gol en contra/i.test(g.p || "") ? "Gol en contra" : h("span", [g.p, h("small.muted", " (rival)")])) : g.p ? h("a", { href: href.player(g.p) }, g.p) : "Sin dato", g.pen ? h("span.pill", "penal") : null, g.ec ? h("span.pill", "en contra") : null, g.ec ? enr("ec") : null]);
   page.append(h("div.wrap.page", [
     crumbs({ t: "Partidos", href: "#/partidos" }, { t: m.tn, href: `#/partidos?tn=${encodeURIComponent(m.tn)}` }, { t: dShort(m.d) }),
     h("div.score", { style: { paddingBottom: "6px" } }, [
@@ -110,7 +107,7 @@ route("partido", async (r, page) => {
     m.nt ? h("p.callout", { style: { marginTop: "22px" } }, m.nt) : null,
     h("section.sec.cols2", { "data-reveal": "" }, [
       h("div", [h("h2", { style: { marginBottom: "14px" } }, "Goles"), goals.length ? h("ul.goals", goals.map(mkGoal)) : h("p.muted", (m.gf ?? 0) + (m.gc ?? 0) === 0 ? "Sin goles." : "Los goleadores de este partido todavía no están cargados.")]),
-      h("div", [h("h2", { style: { marginBottom: "14px" } }, "Formación de Chacarita"), lu.length ? [h("ul.lineup", tit(tits)), sups.length ? [h("p.eyebrow", { style: { margin: "14px 0 6px" } }, "Ingresaron"), h("ul.lineup", tit(sups))] : null] : h("p.muted", "La formación de este partido todavía no está cargada.")]),
+      h("div", [h("h2", { style: { marginBottom: "14px" } }, ["Formación de Chacarita", enr("lu")]), lu.length ? [h("ul.lineup", tit(tits)), sups.length ? [h("p.eyebrow", { style: { margin: "14px 0 6px" } }, "Ingresaron"), h("ul.lineup", tit(sups))] : null] : h("p.muted", "La formación de este partido todavía no está cargada.")]),
     ]),
     h("div.row", { style: { justifyContent: "space-between", marginTop: "44px", borderTop: "1px solid var(--line-2)", paddingTop: "18px" } }, [
       prev ? h("a.link", { href: href.match(prev), style: { flexDirection: "row-reverse" } }, `Anterior: ${prev.l} ${prev.gl ?? "?"}-${prev.gv ?? "?"} ${prev.v}`) : h("span"),

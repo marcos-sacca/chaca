@@ -1,0 +1,492 @@
+{
+"nota": "Nombres de los rivales que convirtieron goles en contra (la planilla solo dice «Gol en contra (rival)»). Fuente: Historia y Fútbol (josecarluccio.blogspot.com).",
+"goles_en_contra": [
+{
+"id": 3243,
+"fecha": "2018-10-29",
+"partido": "Chacarita 1-0 Gimnasia (J)",
+"nombres": [
+"Alejandro Frezzotti"
+],
+"fuente": "https://josecarluccio.blogspot.com/2025/11/argentina-1ra-nacional-b-afa-201819.html"
+},
+{
+"id": 3129,
+"fecha": "2015-08-24",
+"partido": "Chacarita 1-3 Atletico Tucumán",
+"nombres": [
+"Franco Sbuttoni"
+],
+"fuente": "https://josecarluccio.blogspot.com/2017/04/argentina-1ra-b-nacional-afa-2015.html"
+},
+{
+"id": 3048,
+"fecha": "2013-11-08",
+"partido": "Chacarita 1-0 Almagro",
+"nombres": [
+"Diego Coria"
+],
+"fuente": "https://josecarluccio.blogspot.com/2016/07/argentina-1ra-b-nacional-afa-201314_16.html"
+},
+{
+"id": 2914,
+"fecha": "2010-09-16",
+"partido": "San Martin (SJ) 0-1 Chacarita",
+"nombres": [
+"Pablo Melo"
+],
+"fuente": "https://josecarluccio.blogspot.com/2015/03/argentina-1ra-b-nacional-afa-201011.html"
+},
+{
+"id": 2937,
+"fecha": "2011-04-09",
+"partido": "Chacarita 1-1 San Martín (T)",
+"nombres": [
+"Jorge Serrano"
+],
+"fuente": "https://josecarluccio.blogspot.com/2015/03/argentina-1ra-b-nacional-afa-201011.html"
+},
+{
+"id": 2838,
+"fecha": "2008-09-18",
+"partido": "Los Andes 1-3 Chacarita",
+"nombres": [
+"Maximiliano Natalicchio"
+],
+"fuente": "https://josecarluccio.blogspot.com/2014/07/argentina-1ra-b-nacional-afa-200809.html"
+},
+{
+"id": 2780,
+"fecha": "2007-03-03",
+"partido": "Chacarita 2-1 Platense",
+"nombres": [
+"Charles Pérez"
+],
+"fuente": "https://josecarluccio.blogspot.com/2014/03/argentina-1ra-b-nacional-afa-torneo_11.html"
+},
+{
+"id": 2695,
+"fecha": "2005-02-28",
+"partido": "Chacarita 1-1 Porvenir",
+"nombres": [
+"Gabriel Marra"
+],
+"fuente": "https://josecarluccio.blogspot.com/2013/09/argentina-1ra-b-nacional-afa-torneo.html"
+},
+{
+"id": 2702,
+"fecha": "2005-04-16",
+"partido": "Chacarita 3-0 Defensa y Justicia",
+"nombres": [
+"Alejandro Arébalo"
+],
+"fuente": "https://josecarluccio.blogspot.com/2013/09/argentina-1ra-b-nacional-afa-torneo.html"
+},
+{
+"id": 2659,
+"fecha": "2004-03-26",
+"partido": "Racing Club 2-1 Chacarita",
+"nombres": [
+"Mario Cuenca"
+],
+"fuente": "https://josecarluccio.blogspot.com/2013/06/argentina-1ra-division-afa-torneo_29.html"
+},
+{
+"id": 2649,
+"fecha": "2003-11-23",
+"partido": "Chacarita 1-0 River Plate",
+"nombres": [
+"Germán Lux"
+],
+"fuente": "https://josecarluccio.blogspot.com/2013/06/argentina-1ra-division-afa-torneo.html"
+},
+{
+"id": 2596,
+"fecha": "2002-05-19",
+"partido": "Talleres (C) 2-2 Chacarita",
+"nombres": [
+"Gustavo Lillo"
+],
+"fuente": "https://josecarluccio.blogspot.com/2013/03/argentina-1ra-division-afa-torneo_22.html"
+},
+{
+"id": 2410,
+"fecha": "1997-11-22",
+"partido": "Chacarita 5-1 Deportivo Morón",
+"nombres": [
+"Gonzalo J. Martínez"
+],
+"fuente": "https://josecarluccio.blogspot.com/2012/10/argentina-1ra-b-nacional-afa-199798_26.html"
+},
+{
+"id": 2256,
+"fecha": "1993-10-30",
+"partido": "Chacarita 4-0 Tigre",
+"nombres": [
+"Mario A. Maggio"
+],
+"fuente": "https://josecarluccio.blogspot.com/2012/04/argentina-1ra-b-afa-torneo-apertura.html"
+},
+{
+"id": 2213,
+"fecha": "1992-10-10",
+"partido": "Chacarita 4-0 Deportivo Merlo",
+"nombres": [
+"Damián A. Bazán"
+],
+"fuente": "https://josecarluccio.blogspot.com/2012/02/argentina-1ra-b-afa-199293.html"
+},
+{
+"id": 2109,
+"fecha": "1989-09-16",
+"partido": "San Miguel 2-1 Chacarita",
+"nombres": [
+"Correa"
+],
+"fuente": "https://josecarluccio.blogspot.com/2011/11/argentina-1ra-b-afa-198990.html"
+},
+{
+"id": 1989,
+"fecha": "1986-09-28",
+"partido": "Gimnasia (J) 2-2 Chacarita",
+"nombres": [
+"Fidel A. Gasparovic"
+],
+"fuente": "https://josecarluccio.blogspot.com/2011/07/argentina-afa-1ra-b-nacional-198687.html"
+},
+{
+"id": 1999,
+"fecha": "1986-11-22",
+"partido": "Chacarita 1-2 Deportivo Armenio",
+"nombres": [
+"Carlos A. Argüeso"
+],
+"fuente": "https://josecarluccio.blogspot.com/2011/07/argentina-afa-1ra-b-nacional-198687.html"
+},
+{
+"id": 1966,
+"fecha": "1986-01-26",
+"partido": "Chacarita 1-1 San Lorenzo",
+"nombres": [
+"Juan J. Sánchez"
+],
+"fuente": "https://josecarluccio.blogspot.com/2011/05/argentina-1ra-division-afa-198586.html"
+},
+{
+"id": 1944,
+"fecha": "1985-03-24",
+"partido": "Chacarita 1-2 Newells",
+"nombres": [
+"Jorge W. Theiler"
+],
+"fuente": "https://josecarluccio.blogspot.com/2011/04/argentina-1ra-division-afa-1985_8306.html"
+},
+{
+"id": 1919,
+"fecha": "1984-10-07",
+"partido": "Chacarita 1-1 Rosario Central",
+"nombres": [
+"Daniel Kuchen"
+],
+"fuente": "https://josecarluccio.blogspot.com/2011/02/argentina-1ra-division-afa-1984_18.html"
+},
+{
+"id": 1924,
+"fecha": "1984-11-11",
+"partido": "Chacarita 1-2 San Lorenzo",
+"nombres": [
+"Jorge N. Higuaín"
+],
+"fuente": "https://josecarluccio.blogspot.com/2011/02/argentina-1ra-division-afa-1984_18.html"
+},
+{
+"id": 1893,
+"fecha": "1984-03-18",
+"partido": "Kimberley (MdP) 0-3 Chacarita",
+"nombres": [
+"Juan C. Peralta"
+],
+"fuente": "https://josecarluccio.blogspot.com/2011/02/argentina-1ra-division-afa-1984_3997.html"
+},
+{
+"id": 1888,
+"fecha": "1983-12-27",
+"partido": "Los Andes 3-3 Chacarita",
+"nombres": [
+"Enrique A. Medina"
+],
+"fuente": "https://josecarluccio.blogspot.com/2011/01/argentina-1ra-b-afa-1983-torneo.html"
+},
+{
+"id": 1789,
+"fecha": "1981-10-03",
+"partido": "Chacarita 4-0 Cambaceres",
+"nombres": [
+"Saucedo"
+],
+"fuente": "https://josecarluccio.blogspot.com/2010/10/argentina-1ra-c-afa-1981.html"
+},
+{
+"id": 1683,
+"fecha": "1978-12-13",
+"partido": "Chacarita 2-3 Boca Juniors",
+"nombres": [
+"Jorge J. Benítez"
+],
+"fuente": "https://josecarluccio.blogspot.com/2010/07/argentina-1ra-division-afa-1978_22.html"
+},
+{
+"id": 1594,
+"fecha": "1977-04-17",
+"partido": "Estudiantes (LP) 4-2 Chacarita",
+"nombres": [
+"Jorge Solari Gil",
+"Horacio Rodríguez"
+],
+"fuente": "https://josecarluccio.blogspot.com/2010/06/argentina-1ra-division-afa-1977.html"
+},
+{
+"id": 1571,
+"fecha": "1976-12-12",
+"partido": "Chacarita 1-2 Boca Juniors",
+"nombres": [
+"Darío Felman"
+],
+"fuente": "https://josecarluccio.blogspot.com/2010/05/argentina-1ra-division-afa-1976_28.html"
+},
+{
+"id": 1568,
+"fecha": "1976-05-23",
+"partido": "Chacarita 3-0 Atlanta",
+"nombres": [
+"Luis A. Ramos"
+],
+"fuente": "https://josecarluccio.blogspot.com/2010/05/argentina-1ra-division-afa-1976_27.html"
+},
+{
+"id": 1518,
+"fecha": "1975-04-27",
+"partido": "Chacarita 2-4 Estudiantes (LP)",
+"nombres": [
+"Miguel A. Reguera"
+],
+"fuente": "https://josecarluccio.blogspot.com/2010/05/argentina-1ra-division-afa-1975.html"
+},
+{
+"id": 1441,
+"fecha": "1973-11-25",
+"partido": "Chacarita 3-0 San Lorenzo (MdP)",
+"nombres": [
+"Ricardo Etcheverry"
+],
+"fuente": "https://josecarluccio.blogspot.com/2010/03/argentina-1ra-division-afa-1973_21.html"
+},
+{
+"id": 1417,
+"fecha": "1973-05-06",
+"partido": "Chacarita 1-2 Estudiantes (LP)",
+"nombres": [
+"Néstor Togneri"
+],
+"fuente": "https://josecarluccio.blogspot.com/2010/03/argentina-1ra-division-afa-1973.html"
+},
+{
+"id": 1238,
+"fecha": "1969-05-11",
+"partido": "Colon 0-1 Chacarita",
+"nombres": [
+"Ernesto Jáuregui"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/11/argentina-1ra-division-afa-1969.html"
+},
+{
+"id": 1229,
+"fecha": "1969-06-22",
+"partido": "Chacarita 2-1 Gimnasia (LP)",
+"nombres": [
+"Rubens Nemiña"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/11/argentina-1ra-division-afa-1969.html"
+},
+{
+"id": 1077,
+"fecha": "1965-04-18",
+"partido": "Racing Club 1-1 Chacarita",
+"nombres": [
+"Miguel A. Vidal"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/09/argentina-1ra-division-afa-1965.html"
+},
+{
+"id": 1056,
+"fecha": "1964-07-19",
+"partido": "Huracan 5-1 Chacarita",
+"nombres": [
+"Víctor H. Alarcón"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/09/argentina-1ra-division-afa-1964.html"
+},
+{
+"id": 1060,
+"fecha": "1964-08-16",
+"partido": "Gimnasia (LP) 2-2 Chacarita",
+"nombres": [
+"Walter Davoine"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/09/argentina-1ra-division-afa-1964.html"
+},
+{
+"id": 1065,
+"fecha": "1964-09-20",
+"partido": "Chacarita 1-0 Velez",
+"nombres": [
+"Roberto Canosa"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/09/argentina-1ra-division-afa-1964.html"
+},
+{
+"id": 699,
+"fecha": "1952-09-28",
+"partido": "Chacarita 3-4 Platense",
+"nombres": [
+"Emilio Bozalla"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/05/argentina-1ra-division-afa-1952.html"
+},
+{
+"id": 617,
+"fecha": "1950-04-30",
+"partido": "Chacarita 1-3 Rosario Central",
+"nombres": [
+"Vicente Altomonte"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/05/ar.html"
+},
+{
+"id": 531,
+"fecha": "1947-07-06",
+"partido": "Lanus 2-3 Chacarita",
+"nombres": [
+"Héctor Barchielli"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/04/argentina-1ra-division-afa-1947.html"
+},
+{
+"id": 447,
+"fecha": "1944-08-20",
+"partido": "Chacarita 2-1 Platense",
+"nombres": [
+"José A.Piano"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/04/argentina-1ra-division-afa-1944.html"
+},
+{
+"id": 458,
+"fecha": "1944-11-22",
+"partido": "Chacarita 6-3 Huracan",
+"nombres": [
+"Carlos Marinelli"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/04/argentina-1ra-division-afa-1944.html"
+},
+{
+"id": 459,
+"fecha": "1944-11-26",
+"partido": "Atlanta 7-2 Chacarita",
+"nombres": [
+"Manuel Rodríguez"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/04/argentina-1ra-division-afa-1944.html"
+},
+{
+"id": 370,
+"fecha": "1942-04-05",
+"partido": "Platense 1-1 Chacarita",
+"nombres": [
+"Carlos Aldabe"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/03/argentina-1ra-division-afa-1942.html"
+},
+{
+"id": 291,
+"fecha": "1939-07-16",
+"partido": "Chacarita 4-1 Huracan",
+"nombres": [
+"Rafael Villagra"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/03/argentina-1ra-division-afa-1939.html"
+},
+{
+"id": 250,
+"fecha": "1938-06-05",
+"partido": "Boca Juniors 4-2 Chacarita",
+"nombres": [
+"Héctor Cuenya"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/03/argentina-1ra-division-afa-1938.html"
+},
+{
+"id": 258,
+"fecha": "1938-08-14",
+"partido": "Atlanta 5-3 Chacarita",
+"nombres": [
+"Ramón Bresoli"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/03/argentina-1ra-division-afa-1938.html"
+},
+{
+"id": 271,
+"fecha": "1938-11-20",
+"partido": "Independiente 9-2 Chacarita",
+"nombres": [
+"Juan M. Baigorria"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/03/argentina-1ra-division-afa-1938.html"
+},
+{
+"id": 219,
+"fecha": "1937-06-27",
+"partido": "Boca Juniors 5-2 Chacarita",
+"nombres": [
+"Pedro Arico Suárez"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/03/argentina-1ra-division-afa-1937.html"
+},
+{
+"id": 152,
+"fecha": "1935-06-02",
+"partido": "Tigre 1-3 Chacarita",
+"nombres": [
+"Alfredo Luaces"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/02/argentina-1ra-division-afa-1935.html"
+},
+{
+"id": 76,
+"fecha": "1933-04-30",
+"partido": "Huracan 0-1 Chacarita",
+"nombres": [
+"Emilio Moyano"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/02/argentina-1ra-division-liga-argentina_12.html"
+},
+{
+"id": 91,
+"fecha": "1933-08-20",
+"partido": "Chacarita 2-1 Racing Club",
+"nombres": [
+"Arturo Scarcella"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/02/argentina-1ra-division-liga-argentina_12.html"
+},
+{
+"id": 38,
+"fecha": "1932-04-10",
+"partido": "Chacarita 4-0 Atlanta",
+"nombres": [
+"Lorenzo Saint Estévez"
+],
+"fuente": "https://josecarluccio.blogspot.com/2009/02/argentina-1ra-division-liga-argentina_10.html"
+}
+]
+}

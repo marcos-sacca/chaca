@@ -46,7 +46,7 @@ export async function load() {
   // jugadores: goles (de GOLES) y apariciones (de APARICIONES)
   const pm = new Map();
   const P = (name) => { if (!pm.has(name)) pm.set(name, { name, goals: [], ownGoals: 0, apps: [] }); return pm.get(name); };
-  for (const m of matches) for (const g of m.g || []) { if (!g.p) continue; if (g.ec) P(g.p).ownGoals++; else P(g.p).goals.push({ m, min: g.m, pen: g.pen }); }
+  for (const m of matches) for (const g of m.g || []) { if (!g.p || g.ec) continue; P(g.p).goals.push({ m, min: g.m, pen: g.pen }); }
   for (const [id, arr] of Object.entries(lineups)) { const m = byId.get(+id); if (!m) continue; for (const [pid, rol] of arr) P(players[pid]).apps.push({ m, rol }); }
   S.playerList = [...pm.values()].map((p) => {
     const ys = [...p.goals.map((g) => g.m.y), ...p.apps.map((a) => a.m.y)];

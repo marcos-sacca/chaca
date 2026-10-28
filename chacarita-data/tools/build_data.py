@@ -63,13 +63,18 @@ def main(xlsx, patches):
     E = E[E["Club (rival oficial)"].notna()].copy()
 
     # ---- parches (celdas vacías completadas desde otras fuentes)
-    patch, tpatch = {}, {}
+    patch, tpatch, lpatch, ecpatch = {}, {}, {}, {}
     for pf in patches:
-        for x in json.loads(Path(pf).read_text(encoding="utf-8"))["patch"]:
+        data = json.loads(Path(pf).read_text(encoding="utf-8"))
+        for x in data.get("patch", []):
             if "torneo" in x:
                 tpatch.setdefault(x["torneo"], (x["valor"], x["fuente"]))
             else:
                 patch.setdefault(int(x["id"]), {}).setdefault(x["campo"], (x["valor"], x["fuente"]))
+        for x in data.get("formaciones", []):
+            lpatch.setdefault(int(x["id"]), x)
+        for x in data.get("goles_en_contra", []):
+            ecpatch.setdefault(int(x["id"]), x)
 
     # ---- torneos
     torneos = []
@@ -98,6 +103,7 @@ def main(xlsx, patches):
 
     # ---- partidos
     matches = []
+    src_index = {}
     for _, r in P.sort_values(["Fecha", "ID"]).iterrows():
         mid = int(r["ID"])
         gl_raw, gv_raw = clean(r["G.L"]), clean(r["G.V"])
@@ -118,14 +124,22 @@ def main(xlsx, patches):
         if pen:
             item["pen"] = pen
         enr = []
-        for campo, key in (("Árbitro", "arb"), ("Espectadores", "esp"), ("DT", "dt")):
+        for campo, key in (("Árbitro", "arb"), ("Espectadores", "esp"), ("DT", "dt"), ("Cancha", "cd")):
             if item[key] is None and mid in patch and campo in patch[mid]:
                 item[key] = patch[mid][campo][0]
                 enr.append(key)
-        if enr:
-            item["enr"] = enr
+                src_index.setdefault(mid, {})[key] = patch[mid][campo][1]
         if mid in goals:
             item["g"] = goals[mid]
+            if mid in ecpatch:  # la planilla dice «Gol en contra (rival)»; la crónica nombra al jugador rival
+                gens = [g for g in item["g"] if g["ec"] and re.search(r"gol en contra", g["p"] or "", re.I)]
+                if len(gens) == len(ecpatch[mid]["nombres"]):
+                    for g, nm in zip(gens, ecpatch[mid]["nombres"]):
+                        g["p"] = nm
+                    enr.append("ec")
+                    src_index.setdefault(mid, {})["ec"] = ecpatch[mid]["fuente"]
+        if enr:
+            item["enr"] = enr
         matches.append(item)
 
     # ---- jugadores y formaciones
@@ -142,6 +156,46 @@ def main(xlsx, patches):
     for _, r in A.iterrows():
         nm = clave2of.get(norm(r["jug"])) or str(r["jug"]).strip()
         lineups.setdefault(str(int(r["id"])), []).append([pid(nm), 0 if r["rol"] == "Titular" else 1])
+    # formaciones agregadas desde otras fuentes (solo para partidos que no tienen ninguna cargada)
+    by_id = {m["id"]: m for m in matches}
+    known = {}
+    for nm in list(players):
+        known.setdefault(norm(re.sub(r"\s*\([^)]*\)", "", nm)), nm)
+    nuevos_jug = set()
+
+    def resolve_player(full):
+        toks = full.replace(".", " ").split()
+        if not toks:
+            return None
+        up = [t for t in toks if t.isupper() and len(t) > 1]
+        if up and len(up) < len(toks):
+            first, sur = toks[0], [t for t in toks if t.isupper()]
+        else:
+            first, sur = toks[0], [toks[-1]] if len(toks) > 1 else [toks[0]]
+        for cand in (f"{first} {' '.join(sur)}", f"{first} {sur[-1]}", " ".join(toks)):
+            k = norm(cand)
+            if k in clave2of and clave2of[k]:
+                return clave2of[k]
+            if k in known:
+                return known[k]
+        nm = f"{first.title()} {' '.join(x.title() for x in sur)}"
+        nuevos_jug.add(nm)
+        known[norm(nm)] = nm
+        return nm
+
+    for mid, x in sorted(lpatch.items()):
+        if str(mid) in lineups or mid not in by_id:
+            continue
+        rows, seen = [], set()
+        for j in x["jugadores"]:
+            nm = resolve_player(j["cd"] if "cd" in j else j["tm"])
+            if nm and (nm, j["rol"]) not in seen and nm not in {r_[0] for r_ in rows}:
+                seen.add((nm, j["rol"]))
+                rows.append([nm, j["rol"]])
+        if len(rows) >= 10:
+            lineups[str(mid)] = [[pid(n_), r_] for n_, r_ in rows]
+            by_id[mid].setdefault("enr", []).append("lu")
+            src_index.setdefault(mid, {})["lu"] = x["fuente"]
     for g in goals.values():
         for x in g:
             if x["p"]:
@@ -154,14 +208,16 @@ def main(xlsx, patches):
     meta = dict(
         generado=datetime.now().strftime("%Y-%m-%d"), partidos=len(matches),
         ultimo_partido=max(m["d"] for m in matches), primer_partido=min(m["d"] for m in matches),
-        goles=int(len(G)), formaciones=int(len(A)), partidos_con_formacion=len(lineups),
-        enriquecidos={k: sum(1 for m in matches if k in m.get("enr", [])) for k in ("arb", "esp", "dt")},
+        goles=int(len(G)), formaciones=sum(len(v) for v in lineups.values()), partidos_con_formacion=len(lineups),
+        enriquecidos={k: sum(1 for m in matches if k in m.get("enr", [])) for k in ("arb", "esp", "dt", "cd", "lu", "ec")},
+        jugadores_nuevos=len(nuevos_jug),
         posiciones_completadas=sum(1 for t in torneos if t.get("pos_fuente")),
     )
     for name, obj in (("matches", matches), ("torneos", torneos), ("players", players), ("lineups", lineups),
                       ("estadios", estadios), ("meta", meta)):
         (OUT / f"{name}.json").write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         print(f"{name}.json  {(OUT / f'{name}.json').stat().st_size / 1024:.0f} KB")
+    (OUT / "enrichment_index.json").write_text(json.dumps({str(k): v for k, v in src_index.items()}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(meta)
 
 
