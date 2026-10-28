@@ -26,7 +26,7 @@ route("datos", async (r, page) => {
         h("li", [h("b", "Planilla DATACHACA Máster"), ": partidos, goles, formaciones y torneos (fuentes anotadas en la planilla)."]),
         h("li", [h("b", "Chacarita Digital"), " (chacaritadigital.com.ar): crónica de cada partido con formaciones, DT, árbitro, entradas y cancha. Se usó para completar lo que la planilla tenía vacío; coincide con la planilla en 99 % de los árbitros y 96 % de los DT que ya estaban cargados."]),
         h("li", [h("b", "Historical-Lineups"), " (formaciones, árbitros, recaudación y espectadores de 1932 a 1984)."]),
-        h("li", [h("b", "Transfermarkt"), ": árbitro, DT y formaciones desde 2002."]),
+        h("li", [h("b", "Transfermarkt"), ": árbitro, DT, espectadores y formaciones de partidos desde 1995."]),
         h("li", [h("b", "Historia y Fútbol"), " de José Carluccio (josecarluccio.blogspot.com): control cruzado de goleadores y sedes."]),
         h("li", [h("b", "RSSSF"), " (tablas finales de los campeonatos de Primera)."]),
         h("li", [h("b", "Wikimedia Commons"), " (fotos, con autor y licencia debajo)."]),

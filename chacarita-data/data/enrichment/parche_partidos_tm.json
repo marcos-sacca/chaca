@@ -1,0 +1,7588 @@
+{
+"stats": {
+"cruzados": 703,
+"arb": 213,
+"dt": 148,
+"esp": 178,
+"sin_cruce": 23,
+"sin_ficha": 3,
+"formaciones": 48
+},
+"patch": [
+{
+"id": 2542,
+"fecha": "2001-02-14",
+"partido": "Chacarita 0-1 Gimnasia (LP)",
+"campo": "Árbitro",
+"valor": "Roberto Ruscio",
+"fuente": "Transfermarkt (ficha 3836010)"
+},
+{
+"id": 2542,
+"fecha": "2001-02-14",
+"partido": "Chacarita 0-1 Gimnasia (LP)",
+"campo": "DT",
+"valor": "Osvaldo Sosa",
+"fuente": "Transfermarkt (ficha 3836010)"
+},
+{
+"id": 2544,
+"fecha": "2001-02-25",
+"partido": "Chacarita 2-2 Racing Club",
+"campo": "Espectadores",
+"valor": 7500,
+"fuente": "Transfermarkt (ficha 3836057)"
+},
+{
+"id": 2545,
+"fecha": "2001-03-04",
+"partido": "Belgrano 1-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Horacio Elizondo",
+"fuente": "Transfermarkt (ficha 3836215)"
+},
+{
+"id": 2545,
+"fecha": "2001-03-04",
+"partido": "Belgrano 1-2 Chacarita",
+"campo": "DT",
+"valor": "Osvaldo Sosa",
+"fuente": "Transfermarkt (ficha 3836215)"
+},
+{
+"id": 2554,
+"fecha": "2001-04-30",
+"partido": "Chacarita 1-1 Talleres (C)",
+"campo": "Árbitro",
+"valor": "Óscar Sequeira",
+"fuente": "Transfermarkt (ficha 3836797)"
+},
+{
+"id": 2554,
+"fecha": "2001-04-30",
+"partido": "Chacarita 1-1 Talleres (C)",
+"campo": "DT",
+"valor": "Osvaldo Sosa",
+"fuente": "Transfermarkt (ficha 3836797)"
+},
+{
+"id": 2557,
+"fecha": "2001-05-27",
+"partido": "Estudiantes (LP) 0-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Ángel Sánchez",
+"fuente": "Transfermarkt (ficha 3836822)"
+},
+{
+"id": 2557,
+"fecha": "2001-05-27",
+"partido": "Estudiantes (LP) 0-1 Chacarita",
+"campo": "DT",
+"valor": "Osvaldo Sosa",
+"fuente": "Transfermarkt (ficha 3836822)"
+},
+{
+"id": 2522,
+"fecha": "2000-08-06",
+"partido": "Gimnasia (LP) 2-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Juan Pablo Pompei",
+"fuente": "Transfermarkt (ficha 3837532)"
+},
+{
+"id": 2522,
+"fecha": "2000-08-06",
+"partido": "Gimnasia (LP) 2-0 Chacarita",
+"campo": "DT",
+"valor": "Daniel Córdoba",
+"fuente": "Transfermarkt (ficha 3837532)"
+},
+{
+"id": 2525,
+"fecha": "2000-09-06",
+"partido": "Chacarita 2-2 Belgrano",
+"campo": "Árbitro",
+"valor": "Sergio Pezzotta",
+"fuente": "Transfermarkt (ficha 3840485)"
+},
+{
+"id": 2525,
+"fecha": "2000-09-06",
+"partido": "Chacarita 2-2 Belgrano",
+"campo": "DT",
+"valor": "Daniel Córdoba",
+"fuente": "Transfermarkt (ficha 3840485)"
+},
+{
+"id": 2534,
+"fecha": "2000-11-11",
+"partido": "Talleres (C) 2-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Rafael Furchi",
+"fuente": "Transfermarkt (ficha 3844218)"
+},
+{
+"id": 2534,
+"fecha": "2000-11-11",
+"partido": "Talleres (C) 2-1 Chacarita",
+"campo": "DT",
+"valor": "Osvaldo Sosa",
+"fuente": "Transfermarkt (ficha 3844218)"
+},
+{
+"id": 2537,
+"fecha": "2000-12-03",
+"partido": "Chacarita 0-3 Estudiantes (LP)",
+"campo": "Árbitro",
+"valor": "Roberto Ruscio",
+"fuente": "Transfermarkt (ficha 3844249)"
+},
+{
+"id": 2537,
+"fecha": "2000-12-03",
+"partido": "Chacarita 0-3 Estudiantes (LP)",
+"campo": "DT",
+"valor": "Osvaldo Sosa",
+"fuente": "Transfermarkt (ficha 3844249)"
+},
+{
+"id": 2578,
+"fecha": "2002-02-10",
+"partido": "Chacarita 0-2 Huracan",
+"campo": "Espectadores",
+"valor": 12000,
+"fuente": "Transfermarkt (ficha 3771976)"
+},
+{
+"id": 2579,
+"fecha": "2002-02-16",
+"partido": "Union 2-2 Chacarita",
+"campo": "Espectadores",
+"valor": 7000,
+"fuente": "Transfermarkt (ficha 3793643)"
+},
+{
+"id": 2580,
+"fecha": "2002-02-20",
+"partido": "Chacarita 2-1 Estudiantes (LP)",
+"campo": "Árbitro",
+"valor": "Horacio Elizondo",
+"fuente": "Transfermarkt (ficha 3835809)"
+},
+{
+"id": 2580,
+"fecha": "2002-02-20",
+"partido": "Chacarita 2-1 Estudiantes (LP)",
+"campo": "DT",
+"valor": "José Pastoriza",
+"fuente": "Transfermarkt (ficha 3835809)"
+},
+{
+"id": 2580,
+"fecha": "2002-02-20",
+"partido": "Chacarita 2-1 Estudiantes (LP)",
+"campo": "Espectadores",
+"valor": 5500,
+"fuente": "Transfermarkt (ficha 3835809)"
+},
+{
+"id": 2583,
+"fecha": "2002-03-13",
+"partido": "Nueva Chicago 1-1 Chacarita",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 3835821)"
+},
+{
+"id": 2581,
+"fecha": "2002-03-03",
+"partido": "Chacarita 1-1 Boca Juniors",
+"campo": "Espectadores",
+"valor": 11500,
+"fuente": "Transfermarkt (ficha 3835830)"
+},
+{
+"id": 2582,
+"fecha": "2002-03-10",
+"partido": "Banfield 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 6500,
+"fuente": "Transfermarkt (ficha 3835836)"
+},
+{
+"id": 2584,
+"fecha": "2002-03-16",
+"partido": "Chacarita 1-1 Velez",
+"campo": "Espectadores",
+"valor": 8000,
+"fuente": "Transfermarkt (ficha 3835873)"
+},
+{
+"id": 2585,
+"fecha": "2002-03-22",
+"partido": "Independiente 1-3 Chacarita",
+"campo": "Espectadores",
+"valor": 6000,
+"fuente": "Transfermarkt (ficha 3835882)"
+},
+{
+"id": 2586,
+"fecha": "2002-03-27",
+"partido": "Chacarita 2-1 Newells",
+"campo": "Espectadores",
+"valor": 6000,
+"fuente": "Transfermarkt (ficha 3836003)"
+},
+{
+"id": 2587,
+"fecha": "2002-03-31",
+"partido": "Belgrano 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Roberto Ruscio",
+"fuente": "Transfermarkt (ficha 3835908)"
+},
+{
+"id": 2587,
+"fecha": "2002-03-31",
+"partido": "Belgrano 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 5000,
+"fuente": "Transfermarkt (ficha 3835908)"
+},
+{
+"id": 2588,
+"fecha": "2002-04-03",
+"partido": "Chacarita 0-1 San Lorenzo",
+"campo": "Espectadores",
+"valor": 6500,
+"fuente": "Transfermarkt (ficha 3835918)"
+},
+{
+"id": 2589,
+"fecha": "2002-04-07",
+"partido": "Colon 1-1 Chacarita",
+"campo": "Espectadores",
+"valor": 7500,
+"fuente": "Transfermarkt (ficha 3835925)"
+},
+{
+"id": 2590,
+"fecha": "2002-04-14",
+"partido": "Chacarita 0-1 Gimnasia (LP)",
+"campo": "Árbitro",
+"valor": "Fabián Madorrán",
+"fuente": "Transfermarkt (ficha 3835937)"
+},
+{
+"id": 2590,
+"fecha": "2002-04-14",
+"partido": "Chacarita 0-1 Gimnasia (LP)",
+"campo": "DT",
+"valor": "José Pastoriza",
+"fuente": "Transfermarkt (ficha 3835937)"
+},
+{
+"id": 2590,
+"fecha": "2002-04-14",
+"partido": "Chacarita 0-1 Gimnasia (LP)",
+"campo": "Espectadores",
+"valor": 9000,
+"fuente": "Transfermarkt (ficha 3835937)"
+},
+{
+"id": 2591,
+"fecha": "2002-04-17",
+"partido": "Chacarita 1-1 Racing Club",
+"campo": "Espectadores",
+"valor": 8000,
+"fuente": "Transfermarkt (ficha 3835950)"
+},
+{
+"id": 2592,
+"fecha": "2002-04-21",
+"partido": "River Plate 2-2 Chacarita",
+"campo": "Espectadores",
+"valor": 26000,
+"fuente": "Transfermarkt (ficha 3835961)"
+},
+{
+"id": 2593,
+"fecha": "2002-04-28",
+"partido": "Chacarita 1-1 Lanus",
+"campo": "Espectadores",
+"valor": 6000,
+"fuente": "Transfermarkt (ficha 3835967)"
+},
+{
+"id": 2596,
+"fecha": "2002-05-19",
+"partido": "Talleres (C) 2-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Héctor María Boxler",
+"fuente": "Transfermarkt (ficha 3835999)"
+},
+{
+"id": 2596,
+"fecha": "2002-05-19",
+"partido": "Talleres (C) 2-2 Chacarita",
+"campo": "DT",
+"valor": "José Pastoriza",
+"fuente": "Transfermarkt (ficha 3835999)"
+},
+{
+"id": 2560,
+"fecha": "2001-08-19",
+"partido": "Huracan 2-2 Chacarita",
+"campo": "Espectadores",
+"valor": 17000,
+"fuente": "Transfermarkt (ficha 3772072)"
+},
+{
+"id": 2561,
+"fecha": "2001-08-24",
+"partido": "Chacarita 2-2 Union",
+"campo": "Espectadores",
+"valor": 9000,
+"fuente": "Transfermarkt (ficha 3793622)"
+},
+{
+"id": 2562,
+"fecha": "2001-08-29",
+"partido": "Estudiantes (LP) 0-3 Chacarita",
+"campo": "Árbitro",
+"valor": "Ángel Sánchez",
+"fuente": "Transfermarkt (ficha 3793655)"
+},
+{
+"id": 2562,
+"fecha": "2001-08-29",
+"partido": "Estudiantes (LP) 0-3 Chacarita",
+"campo": "DT",
+"valor": "Osvaldo Sosa",
+"fuente": "Transfermarkt (ficha 3793655)"
+},
+{
+"id": 2562,
+"fecha": "2001-08-29",
+"partido": "Estudiantes (LP) 0-3 Chacarita",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 3793655)"
+},
+{
+"id": 2563,
+"fecha": "2001-09-02",
+"partido": "Chacarita 2-0 Nueva Chicago",
+"campo": "Espectadores",
+"valor": 18000,
+"fuente": "Transfermarkt (ficha 3794938)"
+},
+{
+"id": 2564,
+"fecha": "2001-09-09",
+"partido": "Boca Juniors 3-1 Chacarita",
+"campo": "Espectadores",
+"valor": 29000,
+"fuente": "Transfermarkt (ficha 3794944)"
+},
+{
+"id": 2565,
+"fecha": "2001-09-16",
+"partido": "Chacarita 2-0 Banfield",
+"campo": "Espectadores",
+"valor": 10500,
+"fuente": "Transfermarkt (ficha 3794964)"
+},
+{
+"id": 2566,
+"fecha": "2001-09-22",
+"partido": "Velez 1-2 Chacarita",
+"campo": "Espectadores",
+"valor": 11000,
+"fuente": "Transfermarkt (ficha 3801116)"
+},
+{
+"id": 2567,
+"fecha": "2001-09-29",
+"partido": "Chacarita 1-1 Independiente",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 3801131)"
+},
+{
+"id": 2568,
+"fecha": "2001-10-03",
+"partido": "Newells 1-1 Chacarita",
+"campo": "Espectadores",
+"valor": 15000,
+"fuente": "Transfermarkt (ficha 3801143)"
+},
+{
+"id": 2569,
+"fecha": "2001-10-21",
+"partido": "Chacarita 2-2 Belgrano",
+"campo": "Árbitro",
+"valor": "Horacio Elizondo",
+"fuente": "Transfermarkt (ficha 3801569)"
+},
+{
+"id": 2569,
+"fecha": "2001-10-21",
+"partido": "Chacarita 2-2 Belgrano",
+"campo": "DT",
+"valor": "Osvaldo Sosa",
+"fuente": "Transfermarkt (ficha 3801569)"
+},
+{
+"id": 2569,
+"fecha": "2001-10-21",
+"partido": "Chacarita 2-2 Belgrano",
+"campo": "Espectadores",
+"valor": 6100,
+"fuente": "Transfermarkt (ficha 3801569)"
+},
+{
+"id": 2570,
+"fecha": "2001-10-27",
+"partido": "San Lorenzo 3-3 Chacarita",
+"campo": "Espectadores",
+"valor": 9500,
+"fuente": "Transfermarkt (ficha 3801578)"
+},
+{
+"id": 2571,
+"fecha": "2001-11-04",
+"partido": "Chacarita 1-1 Colon",
+"campo": "Espectadores",
+"valor": 6000,
+"fuente": "Transfermarkt (ficha 3801588)"
+},
+{
+"id": 2572,
+"fecha": "2001-11-10",
+"partido": "Gimnasia (LP) 0-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Claudio Martín",
+"fuente": "Transfermarkt (ficha 3801597)"
+},
+{
+"id": 2572,
+"fecha": "2001-11-10",
+"partido": "Gimnasia (LP) 0-2 Chacarita",
+"campo": "DT",
+"valor": "Osvaldo Sosa",
+"fuente": "Transfermarkt (ficha 3801597)"
+},
+{
+"id": 2572,
+"fecha": "2001-11-10",
+"partido": "Gimnasia (LP) 0-2 Chacarita",
+"campo": "Espectadores",
+"valor": 8000,
+"fuente": "Transfermarkt (ficha 3801597)"
+},
+{
+"id": 2573,
+"fecha": "2001-11-18",
+"partido": "Racing Club 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 49000,
+"fuente": "Transfermarkt (ficha 3801613)"
+},
+{
+"id": 2574,
+"fecha": "2001-11-25",
+"partido": "Chacarita 1-4 River Plate",
+"campo": "Espectadores",
+"valor": 22000,
+"fuente": "Transfermarkt (ficha 3801622)"
+},
+{
+"id": 2575,
+"fecha": "2001-12-01",
+"partido": "Lanus 0-2 Chacarita",
+"campo": "Espectadores",
+"valor": 3000,
+"fuente": "Transfermarkt (ficha 3801626)"
+},
+{
+"id": 2576,
+"fecha": "2001-12-08",
+"partido": "Chacarita 0-1 Argentinos",
+"campo": "Espectadores",
+"valor": 3500,
+"fuente": "Transfermarkt (ficha 3801903)"
+},
+{
+"id": 2577,
+"fecha": "2001-12-15",
+"partido": "Rosario Central 1-1 Chacarita",
+"campo": "Espectadores",
+"valor": 8000,
+"fuente": "Transfermarkt (ficha 3801926)"
+},
+{
+"id": 2540,
+"fecha": "2002-02-01",
+"partido": "Chacarita 0-1 Talleres (C)",
+"campo": "Árbitro",
+"valor": "Rafael Furchi",
+"fuente": "Transfermarkt (ficha 3802003)"
+},
+{
+"id": 2540,
+"fecha": "2002-02-01",
+"partido": "Chacarita 0-1 Talleres (C)",
+"campo": "DT",
+"valor": "Osvaldo Sosa",
+"fuente": "Transfermarkt (ficha 3802003)"
+},
+{
+"id": 2540,
+"fecha": "2002-02-01",
+"partido": "Chacarita 0-1 Talleres (C)",
+"campo": "Espectadores",
+"valor": 3200,
+"fuente": "Transfermarkt (ficha 3802003)"
+},
+{
+"id": 2617,
+"fecha": "2003-02-23",
+"partido": "Chacarita 0-0 Colon",
+"campo": "Árbitro",
+"valor": "Horacio Elizondo",
+"fuente": "Transfermarkt (ficha 3777837)"
+},
+{
+"id": 2617,
+"fecha": "2003-02-23",
+"partido": "Chacarita 0-0 Colon",
+"campo": "DT",
+"valor": "José Pastoriza",
+"fuente": "Transfermarkt (ficha 3777837)"
+},
+{
+"id": 2617,
+"fecha": "2003-02-23",
+"partido": "Chacarita 0-0 Colon",
+"campo": "Espectadores",
+"valor": 12000,
+"fuente": "Transfermarkt (ficha 3777837)"
+},
+{
+"id": 2618,
+"fecha": "2003-03-02",
+"partido": "Chacarita 0-1 Estudiantes (LP)",
+"campo": "Árbitro",
+"valor": "Óscar Sequeira",
+"fuente": "Transfermarkt (ficha 3777844)"
+},
+{
+"id": 2618,
+"fecha": "2003-03-02",
+"partido": "Chacarita 0-1 Estudiantes (LP)",
+"campo": "DT",
+"valor": "José Pastoriza",
+"fuente": "Transfermarkt (ficha 3777844)"
+},
+{
+"id": 2618,
+"fecha": "2003-03-02",
+"partido": "Chacarita 0-1 Estudiantes (LP)",
+"campo": "Espectadores",
+"valor": 9000,
+"fuente": "Transfermarkt (ficha 3777844)"
+},
+{
+"id": 2622,
+"fecha": "2003-03-29",
+"partido": "Chacarita 2-1 Talleres (C)",
+"campo": "Árbitro",
+"valor": "Fabián Madorrán",
+"fuente": "Transfermarkt (ficha 3810903)"
+},
+{
+"id": 2622,
+"fecha": "2003-03-29",
+"partido": "Chacarita 2-1 Talleres (C)",
+"campo": "DT",
+"valor": "José Pastoriza",
+"fuente": "Transfermarkt (ficha 3810903)"
+},
+{
+"id": 2627,
+"fecha": "2003-05-17",
+"partido": "Chacarita 1-1 Union",
+"campo": "Árbitro",
+"valor": "Gabriel Favale",
+"fuente": "Transfermarkt (ficha 3811127)"
+},
+{
+"id": 2627,
+"fecha": "2003-05-17",
+"partido": "Chacarita 1-1 Union",
+"campo": "DT",
+"valor": "Carlos Babington",
+"fuente": "Transfermarkt (ficha 3811127)"
+},
+{
+"id": 2631,
+"fecha": "2003-06-15",
+"partido": "Gimnasia (LP) 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Juan Pablo Pompei",
+"fuente": "Transfermarkt (ficha 3811684)"
+},
+{
+"id": 2631,
+"fecha": "2003-06-15",
+"partido": "Gimnasia (LP) 1-0 Chacarita",
+"campo": "DT",
+"valor": "Oscar Alberto Manis",
+"fuente": "Transfermarkt (ficha 3811684)"
+},
+{
+"id": 2631,
+"fecha": "2003-06-15",
+"partido": "Gimnasia (LP) 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 5000,
+"fuente": "Transfermarkt (ficha 3811684)"
+},
+{
+"id": 2632,
+"fecha": "2003-06-22",
+"partido": "Chacarita 0-1 Olimpo",
+"campo": "Árbitro",
+"valor": "Javier Collado",
+"fuente": "Transfermarkt (ficha 3811770)"
+},
+{
+"id": 2632,
+"fecha": "2003-06-22",
+"partido": "Chacarita 0-1 Olimpo",
+"campo": "DT",
+"valor": "Oscar Alberto Manis",
+"fuente": "Transfermarkt (ficha 3811770)"
+},
+{
+"id": 2632,
+"fecha": "2003-06-22",
+"partido": "Chacarita 0-1 Olimpo",
+"campo": "Espectadores",
+"valor": 3000,
+"fuente": "Transfermarkt (ficha 3811770)"
+},
+{
+"id": 2598,
+"fecha": "2002-08-04",
+"partido": "Colon 3-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Sergio Pezzotta",
+"fuente": "Transfermarkt (ficha 3792252)"
+},
+{
+"id": 2598,
+"fecha": "2002-08-04",
+"partido": "Colon 3-1 Chacarita",
+"campo": "DT",
+"valor": "José Pastoriza",
+"fuente": "Transfermarkt (ficha 3792252)"
+},
+{
+"id": 2598,
+"fecha": "2002-08-04",
+"partido": "Colon 3-1 Chacarita",
+"campo": "Espectadores",
+"valor": 16500,
+"fuente": "Transfermarkt (ficha 3792252)"
+},
+{
+"id": 2599,
+"fecha": "2002-08-11",
+"partido": "Estudiantes (LP) 0-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Horacio Elizondo",
+"fuente": "Transfermarkt (ficha 3790867)"
+},
+{
+"id": 2599,
+"fecha": "2002-08-11",
+"partido": "Estudiantes (LP) 0-1 Chacarita",
+"campo": "DT",
+"valor": "José Pastoriza",
+"fuente": "Transfermarkt (ficha 3790867)"
+},
+{
+"id": 2603,
+"fecha": "2002-09-08",
+"partido": "Talleres (C) 0-3 Chacarita",
+"campo": "Árbitro",
+"valor": "Fabián Madorrán",
+"fuente": "Transfermarkt (ficha 3792951)"
+},
+{
+"id": 2603,
+"fecha": "2002-09-08",
+"partido": "Talleres (C) 0-3 Chacarita",
+"campo": "DT",
+"valor": "José Pastoriza",
+"fuente": "Transfermarkt (ficha 3792951)"
+},
+{
+"id": 2603,
+"fecha": "2002-09-08",
+"partido": "Talleres (C) 0-3 Chacarita",
+"campo": "Espectadores",
+"valor": 6000,
+"fuente": "Transfermarkt (ficha 3792951)"
+},
+{
+"id": 2612,
+"fecha": "2002-11-09",
+"partido": "Chacarita 2-0 Gimnasia (LP)",
+"campo": "Árbitro",
+"valor": "Ángel Sánchez",
+"fuente": "Transfermarkt (ficha 3793202)"
+},
+{
+"id": 2612,
+"fecha": "2002-11-09",
+"partido": "Chacarita 2-0 Gimnasia (LP)",
+"campo": "DT",
+"valor": "José Pastoriza",
+"fuente": "Transfermarkt (ficha 3793202)"
+},
+{
+"id": 2612,
+"fecha": "2002-11-09",
+"partido": "Chacarita 2-0 Gimnasia (LP)",
+"campo": "Espectadores",
+"valor": 6000,
+"fuente": "Transfermarkt (ficha 3793202)"
+},
+{
+"id": 2613,
+"fecha": "2002-11-17",
+"partido": "Olimpo 2-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Óscar Sequeira",
+"fuente": "Transfermarkt (ficha 3793215)"
+},
+{
+"id": 2613,
+"fecha": "2002-11-17",
+"partido": "Olimpo 2-0 Chacarita",
+"campo": "DT",
+"valor": "José Pastoriza",
+"fuente": "Transfermarkt (ficha 3793215)"
+},
+{
+"id": 2613,
+"fecha": "2002-11-17",
+"partido": "Olimpo 2-0 Chacarita",
+"campo": "Espectadores",
+"valor": 8000,
+"fuente": "Transfermarkt (ficha 3793215)"
+},
+{
+"id": 2655,
+"fecha": "2004-02-21",
+"partido": "Gimnasia (LP) 6-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Sergio Pezzotta",
+"fuente": "Transfermarkt (ficha 3768746)"
+},
+{
+"id": 2655,
+"fecha": "2004-02-21",
+"partido": "Gimnasia (LP) 6-1 Chacarita",
+"campo": "DT",
+"valor": "Luis Garisto",
+"fuente": "Transfermarkt (ficha 3768746)"
+},
+{
+"id": 2655,
+"fecha": "2004-02-21",
+"partido": "Gimnasia (LP) 6-1 Chacarita",
+"campo": "Espectadores",
+"valor": 13000,
+"fuente": "Transfermarkt (ficha 3768746)"
+},
+{
+"id": 2662,
+"fecha": "2004-04-14",
+"partido": "Chacarita 0-2 Boca Juniors",
+"campo": "Espectadores",
+"valor": 14000,
+"fuente": "Transfermarkt (ficha 3768786)"
+},
+{
+"id": 2661,
+"fecha": "2004-04-10",
+"partido": "Talleres (C) 2-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Gustavo Bassi",
+"fuente": "Transfermarkt (ficha 3768838)"
+},
+{
+"id": 2661,
+"fecha": "2004-04-10",
+"partido": "Talleres (C) 2-2 Chacarita",
+"campo": "DT",
+"valor": "Enrique Borrelli",
+"fuente": "Transfermarkt (ficha 3768838)"
+},
+{
+"id": 2661,
+"fecha": "2004-04-10",
+"partido": "Talleres (C) 2-2 Chacarita",
+"campo": "Espectadores",
+"valor": 20000,
+"fuente": "Transfermarkt (ficha 3768838)"
+},
+{
+"id": 2665,
+"fecha": "2004-05-02",
+"partido": "Chacarita 2-0 Estudiantes (LP)",
+"campo": "Árbitro",
+"valor": "Javier Collado",
+"fuente": "Transfermarkt (ficha 3769187)"
+},
+{
+"id": 2665,
+"fecha": "2004-05-02",
+"partido": "Chacarita 2-0 Estudiantes (LP)",
+"campo": "DT",
+"valor": "Enrique Borrelli",
+"fuente": "Transfermarkt (ficha 3769187)"
+},
+{
+"id": 2667,
+"fecha": "2004-05-16",
+"partido": "Chacarita 0-0 Independiente",
+"campo": "Árbitro",
+"valor": "Horacio Elizondo",
+"fuente": "Transfermarkt (ficha 3769234)"
+},
+{
+"id": 2667,
+"fecha": "2004-05-16",
+"partido": "Chacarita 0-0 Independiente",
+"campo": "DT",
+"valor": "Enrique Borrelli",
+"fuente": "Transfermarkt (ficha 3769234)"
+},
+{
+"id": 2671,
+"fecha": "2004-06-20",
+"partido": "Chacarita 1-2 Olimpo",
+"campo": "Árbitro",
+"valor": "Ángel Sánchez",
+"fuente": "Transfermarkt (ficha 3769272)"
+},
+{
+"id": 2671,
+"fecha": "2004-06-20",
+"partido": "Chacarita 1-2 Olimpo",
+"campo": "DT",
+"valor": "Enrique Borrelli",
+"fuente": "Transfermarkt (ficha 3769272)"
+},
+{
+"id": 2672,
+"fecha": "2004-06-27",
+"partido": "Colon 1-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Sergio Pezzotta",
+"fuente": "Transfermarkt (ficha 3769281)"
+},
+{
+"id": 2672,
+"fecha": "2004-06-27",
+"partido": "Colon 1-2 Chacarita",
+"campo": "DT",
+"valor": "Enrique Borrelli",
+"fuente": "Transfermarkt (ficha 3769281)"
+},
+{
+"id": 2636,
+"fecha": "2003-08-10",
+"partido": "Chacarita 2-2 Gimnasia (LP)",
+"campo": "Árbitro",
+"valor": "Fabián Madorrán",
+"fuente": "Transfermarkt (ficha 3769478)"
+},
+{
+"id": 2636,
+"fecha": "2003-08-10",
+"partido": "Chacarita 2-2 Gimnasia (LP)",
+"campo": "DT",
+"valor": "Néstor Craviotto",
+"fuente": "Transfermarkt (ficha 3769478)"
+},
+{
+"id": 2636,
+"fecha": "2003-08-10",
+"partido": "Chacarita 2-2 Gimnasia (LP)",
+"campo": "Espectadores",
+"valor": 17000,
+"fuente": "Transfermarkt (ficha 3769478)"
+},
+{
+"id": 2643,
+"fecha": "2003-10-11",
+"partido": "Chacarita 1-2 Talleres (C)",
+"campo": "Árbitro",
+"valor": "Claudio Martín",
+"fuente": "Transfermarkt (ficha 3774960)"
+},
+{
+"id": 2643,
+"fecha": "2003-10-11",
+"partido": "Chacarita 1-2 Talleres (C)",
+"campo": "DT",
+"valor": "Néstor Craviotto",
+"fuente": "Transfermarkt (ficha 3774960)"
+},
+{
+"id": 2646,
+"fecha": "2003-10-29",
+"partido": "Estudiantes (LP) 2-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Horacio Elizondo",
+"fuente": "Transfermarkt (ficha 3775551)"
+},
+{
+"id": 2646,
+"fecha": "2003-10-29",
+"partido": "Estudiantes (LP) 2-1 Chacarita",
+"campo": "DT",
+"valor": "Néstor Craviotto",
+"fuente": "Transfermarkt (ficha 3775551)"
+},
+{
+"id": 2646,
+"fecha": "2003-10-29",
+"partido": "Estudiantes (LP) 2-1 Chacarita",
+"campo": "Espectadores",
+"valor": 12000,
+"fuente": "Transfermarkt (ficha 3775551)"
+},
+{
+"id": 2648,
+"fecha": "2003-11-08",
+"partido": "Independiente 0-3 Chacarita",
+"campo": "Árbitro",
+"valor": "Claudio Martín",
+"fuente": "Transfermarkt (ficha 3775589)"
+},
+{
+"id": 2648,
+"fecha": "2003-11-08",
+"partido": "Independiente 0-3 Chacarita",
+"campo": "DT",
+"valor": "Néstor Craviotto",
+"fuente": "Transfermarkt (ficha 3775589)"
+},
+{
+"id": 2650,
+"fecha": "2003-11-26",
+"partido": "Quilmes 0-0 Chacarita",
+"campo": "Espectadores",
+"valor": 15000,
+"fuente": "Transfermarkt (ficha 3775897)"
+},
+{
+"id": 2652,
+"fecha": "2003-12-07",
+"partido": "Olimpo 2-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Sergio Pezzotta",
+"fuente": "Transfermarkt (ficha 3775920)"
+},
+{
+"id": 2652,
+"fecha": "2003-12-07",
+"partido": "Olimpo 2-0 Chacarita",
+"campo": "DT",
+"valor": "Néstor Craviotto",
+"fuente": "Transfermarkt (ficha 3775920)"
+},
+{
+"id": 2752,
+"fecha": "2006-05-16",
+"partido": "Talleres (C) 0-2 Chacarita",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4553092)"
+},
+{
+"id": 2753,
+"fecha": "2006-05-20",
+"partido": "Chacarita 0-0 Talleres (C)",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4553093)"
+},
+{
+"id": 2754,
+"fecha": "2006-05-23",
+"partido": "Huracán 3-0 Chacarita",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4553094)"
+},
+{
+"id": 2755,
+"fecha": "2006-05-27",
+"partido": "Chacarita 2-0 Huracán",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4553095)"
+},
+{
+"id": 2836,
+"fecha": "2008-09-08",
+"partido": "Belgrano 0-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Pablo Díaz",
+"fuente": "Transfermarkt (ficha 3757402)"
+},
+{
+"id": 2838,
+"fecha": "2008-09-18",
+"partido": "Los Andes 1-3 Chacarita",
+"campo": "Árbitro",
+"valor": "Luis Álvarez",
+"fuente": "Transfermarkt (ficha 3757429)"
+},
+{
+"id": 2842,
+"fecha": "2008-10-20",
+"partido": "Chacarita 1-1 Atletico Tucumán",
+"campo": "Espectadores",
+"valor": 4500,
+"fuente": "Transfermarkt (ficha 4562615)"
+},
+{
+"id": 2844,
+"fecha": "2008-11-01",
+"partido": "Chacarita 2-4 Ferro",
+"campo": "Árbitro",
+"valor": "Luis Álvarez",
+"fuente": "Transfermarkt (ficha 4562844)"
+},
+{
+"id": 2846,
+"fecha": "2008-11-13",
+"partido": "Chacarita 3-2 Talleres (C)",
+"campo": "Árbitro",
+"valor": "Jorge Baliño",
+"fuente": "Transfermarkt (ficha 4563237)"
+},
+{
+"id": 2849,
+"fecha": "2008-12-07",
+"partido": "San Martín (SJ) 1-3 Chacarita",
+"campo": "Árbitro",
+"valor": "Javier Ruiz",
+"fuente": "Transfermarkt (ficha 4563694)"
+},
+{
+"id": 2850,
+"fecha": "2008-12-12",
+"partido": "Chacarita 4-0 Almagro",
+"campo": "Árbitro",
+"valor": "Patricio Loustau",
+"fuente": "Transfermarkt (ficha 4563724)"
+},
+{
+"id": 2855,
+"fecha": "2009-03-13",
+"partido": "Chacarita 1-1 Belgrano",
+"campo": "Árbitro",
+"valor": "Javier Ruiz",
+"fuente": "Transfermarkt (ficha 4564941)"
+},
+{
+"id": 2856,
+"fecha": "2009-03-19",
+"partido": "Instituto 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Luis Álvarez",
+"fuente": "Transfermarkt (ficha 4564959)"
+},
+{
+"id": 2868,
+"fecha": "2009-06-15",
+"partido": "Chacarita 1-1 San Martin (SJ)",
+"campo": "Árbitro",
+"valor": "Patricio Loustau",
+"fuente": "Transfermarkt (ficha 4615796)"
+},
+{
+"id": 2889,
+"fecha": "2010-01-30",
+"partido": "Tigre 0-2 Chacarita",
+"campo": "Espectadores",
+"valor": 15000,
+"fuente": "Transfermarkt (ficha 991879)"
+},
+{
+"id": 2890,
+"fecha": "2010-02-04",
+"partido": "Chacarita 2-3 River Plate",
+"campo": "Espectadores",
+"valor": 18000,
+"fuente": "Transfermarkt (ficha 995683)"
+},
+{
+"id": 2892,
+"fecha": "2010-02-07",
+"partido": "Chacarita 2-1 Banfield",
+"campo": "Espectadores",
+"valor": 8000,
+"fuente": "Transfermarkt (ficha 997841)"
+},
+{
+"id": 2893,
+"fecha": "2010-02-12",
+"partido": "Rosario Central 1-1 Chacarita",
+"campo": "Espectadores",
+"valor": 34000,
+"fuente": "Transfermarkt (ficha 998669)"
+},
+{
+"id": 2894,
+"fecha": "2010-02-19",
+"partido": "Chacarita 1-2 Colon",
+"campo": "Árbitro",
+"valor": "Néstor Pitana",
+"fuente": "Transfermarkt (ficha 998679)"
+},
+{
+"id": 2894,
+"fecha": "2010-02-19",
+"partido": "Chacarita 1-2 Colon",
+"campo": "DT",
+"valor": "Fernando Gamboa",
+"fuente": "Transfermarkt (ficha 998679)"
+},
+{
+"id": 2894,
+"fecha": "2010-02-19",
+"partido": "Chacarita 1-2 Colon",
+"campo": "Espectadores",
+"valor": 8000,
+"fuente": "Transfermarkt (ficha 998679)"
+},
+{
+"id": 2895,
+"fecha": "2010-02-26",
+"partido": "Arsenal 0-3 Chacarita",
+"campo": "Espectadores",
+"valor": 5000,
+"fuente": "Transfermarkt (ficha 1000591)"
+},
+{
+"id": 2891,
+"fecha": "2010-03-04",
+"partido": "Chacarita 0-1 Gimnasia (LP)",
+"campo": "Árbitro",
+"valor": "Sergio Pezzotta",
+"fuente": "Transfermarkt (ficha 1000607)"
+},
+{
+"id": 2891,
+"fecha": "2010-03-04",
+"partido": "Chacarita 0-1 Gimnasia (LP)",
+"campo": "DT",
+"valor": "Fernando Gamboa",
+"fuente": "Transfermarkt (ficha 1000607)"
+},
+{
+"id": 2891,
+"fecha": "2010-03-04",
+"partido": "Chacarita 0-1 Gimnasia (LP)",
+"campo": "Espectadores",
+"valor": 15000,
+"fuente": "Transfermarkt (ficha 1000607)"
+},
+{
+"id": 2896,
+"fecha": "2010-03-08",
+"partido": "San Lorenzo 3-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Gabriel Favale",
+"fuente": "Transfermarkt (ficha 1000618)"
+},
+{
+"id": 2896,
+"fecha": "2010-03-08",
+"partido": "San Lorenzo 3-1 Chacarita",
+"campo": "DT",
+"valor": "Fernando Gamboa",
+"fuente": "Transfermarkt (ficha 1000618)"
+},
+{
+"id": 2896,
+"fecha": "2010-03-08",
+"partido": "San Lorenzo 3-1 Chacarita",
+"campo": "Espectadores",
+"valor": 14000,
+"fuente": "Transfermarkt (ficha 1000618)"
+},
+{
+"id": 2897,
+"fecha": "2010-03-13",
+"partido": "Chacarita 0-1 Independiente",
+"campo": "Árbitro",
+"valor": "Diego Abal",
+"fuente": "Transfermarkt (ficha 1003106)"
+},
+{
+"id": 2897,
+"fecha": "2010-03-13",
+"partido": "Chacarita 0-1 Independiente",
+"campo": "DT",
+"valor": "Fernando Gamboa",
+"fuente": "Transfermarkt (ficha 1003106)"
+},
+{
+"id": 2897,
+"fecha": "2010-03-13",
+"partido": "Chacarita 0-1 Independiente",
+"campo": "Espectadores",
+"valor": 13000,
+"fuente": "Transfermarkt (ficha 1003106)"
+},
+{
+"id": 2898,
+"fecha": "2010-03-19",
+"partido": "Huracan 2-0 Chacarita",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 1003114)"
+},
+{
+"id": 2899,
+"fecha": "2010-03-28",
+"partido": "Chacarita 4-1 Boca Juniors",
+"campo": "Espectadores",
+"valor": 20000,
+"fuente": "Transfermarkt (ficha 1004056)"
+},
+{
+"id": 2900,
+"fecha": "2010-04-03",
+"partido": "Argentinos 2-1 Chacarita",
+"campo": "Espectadores",
+"valor": 15000,
+"fuente": "Transfermarkt (ficha 1004659)"
+},
+{
+"id": 2901,
+"fecha": "2010-04-07",
+"partido": "Chacarita 1-2 Lanus",
+"campo": "Espectadores",
+"valor": 8000,
+"fuente": "Transfermarkt (ficha 1004677)"
+},
+{
+"id": 2902,
+"fecha": "2010-04-10",
+"partido": "Newells 3-0 Chacarita",
+"campo": "Espectadores",
+"valor": 26000,
+"fuente": "Transfermarkt (ficha 1004895)"
+},
+{
+"id": 2903,
+"fecha": "2010-04-17",
+"partido": "Chacarita 1-2 Atl Tucuman",
+"campo": "Espectadores",
+"valor": 7000,
+"fuente": "Transfermarkt (ficha 1008435)"
+},
+{
+"id": 2904,
+"fecha": "2010-04-23",
+"partido": "Godoy Cruz 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Saúl Laverni",
+"fuente": "Transfermarkt (ficha 1012912)"
+},
+{
+"id": 2904,
+"fecha": "2010-04-23",
+"partido": "Godoy Cruz 1-0 Chacarita",
+"campo": "DT",
+"valor": "Mauro Navas",
+"fuente": "Transfermarkt (ficha 1012912)"
+},
+{
+"id": 2904,
+"fecha": "2010-04-23",
+"partido": "Godoy Cruz 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 18000,
+"fuente": "Transfermarkt (ficha 1012912)"
+},
+{
+"id": 2905,
+"fecha": "2010-05-02",
+"partido": "Chacarita 1-2 Estudiantes (LP)",
+"campo": "Árbitro",
+"valor": "Diego Abal",
+"fuente": "Transfermarkt (ficha 1018545)"
+},
+{
+"id": 2905,
+"fecha": "2010-05-02",
+"partido": "Chacarita 1-2 Estudiantes (LP)",
+"campo": "DT",
+"valor": "Luis Marabotto",
+"fuente": "Transfermarkt (ficha 1018545)"
+},
+{
+"id": 2905,
+"fecha": "2010-05-02",
+"partido": "Chacarita 1-2 Estudiantes (LP)",
+"campo": "Espectadores",
+"valor": 20000,
+"fuente": "Transfermarkt (ficha 1018545)"
+},
+{
+"id": 2907,
+"fecha": "2010-05-15",
+"partido": "Chacarita 1-2 Racing Club",
+"campo": "Espectadores",
+"valor": 15000,
+"fuente": "Transfermarkt (ficha 1021433)"
+},
+{
+"id": 2870,
+"fecha": "2009-08-22",
+"partido": "Chacarita 1-2 Tigre",
+"campo": "Espectadores",
+"valor": 18000,
+"fuente": "Transfermarkt (ficha 959008)"
+},
+{
+"id": 2871,
+"fecha": "2009-08-30",
+"partido": "River Plate 4-3 Chacarita",
+"campo": "Espectadores",
+"valor": 41500,
+"fuente": "Transfermarkt (ficha 971090)"
+},
+{
+"id": 2872,
+"fecha": "2009-09-04",
+"partido": "Banfield 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 971814)"
+},
+{
+"id": 2873,
+"fecha": "2009-09-12",
+"partido": "Chacarita 0-1 Rosario Central",
+"campo": "Espectadores",
+"valor": 14500,
+"fuente": "Transfermarkt (ficha 972991)"
+},
+{
+"id": 2874,
+"fecha": "2009-09-19",
+"partido": "Colon 3-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Luis Álvarez",
+"fuente": "Transfermarkt (ficha 973570)"
+},
+{
+"id": 2874,
+"fecha": "2009-09-19",
+"partido": "Colon 3-1 Chacarita",
+"campo": "DT",
+"valor": "Ricardo Zielinski",
+"fuente": "Transfermarkt (ficha 973570)"
+},
+{
+"id": 2874,
+"fecha": "2009-09-19",
+"partido": "Colon 3-1 Chacarita",
+"campo": "Espectadores",
+"valor": 21800,
+"fuente": "Transfermarkt (ficha 973570)"
+},
+{
+"id": 2875,
+"fecha": "2009-09-26",
+"partido": "Chacarita 1-0 Arsenal",
+"campo": "Espectadores",
+"valor": 9000,
+"fuente": "Transfermarkt (ficha 974295)"
+},
+{
+"id": 2876,
+"fecha": "2009-10-04",
+"partido": "Gimnasia (LP) 2-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Luis Álvarez",
+"fuente": "Transfermarkt (ficha 974309)"
+},
+{
+"id": 2876,
+"fecha": "2009-10-04",
+"partido": "Gimnasia (LP) 2-0 Chacarita",
+"campo": "DT",
+"valor": "Fernando Gamboa",
+"fuente": "Transfermarkt (ficha 974309)"
+},
+{
+"id": 2876,
+"fecha": "2009-10-04",
+"partido": "Gimnasia (LP) 2-0 Chacarita",
+"campo": "Espectadores",
+"valor": 20500,
+"fuente": "Transfermarkt (ficha 974309)"
+},
+{
+"id": 2877,
+"fecha": "2009-10-09",
+"partido": "Chacarita 0-2 San Lorenzo",
+"campo": "Espectadores",
+"valor": 13200,
+"fuente": "Transfermarkt (ficha 974318)"
+},
+{
+"id": 2878,
+"fecha": "2009-10-18",
+"partido": "Independiente 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Rafael Furchi",
+"fuente": "Transfermarkt (ficha 978759)"
+},
+{
+"id": 2878,
+"fecha": "2009-10-18",
+"partido": "Independiente 1-1 Chacarita",
+"campo": "DT",
+"valor": "Fernando Gamboa",
+"fuente": "Transfermarkt (ficha 978759)"
+},
+{
+"id": 2878,
+"fecha": "2009-10-18",
+"partido": "Independiente 1-1 Chacarita",
+"campo": "Espectadores",
+"valor": 30000,
+"fuente": "Transfermarkt (ficha 978759)"
+},
+{
+"id": 2879,
+"fecha": "2009-10-24",
+"partido": "Chacarita 1-0 Huracan",
+"campo": "Espectadores",
+"valor": 15500,
+"fuente": "Transfermarkt (ficha 979816)"
+},
+{
+"id": 2880,
+"fecha": "2009-10-29",
+"partido": "Boca Juniors 3-0 Chacarita",
+"campo": "Espectadores",
+"valor": 30700,
+"fuente": "Transfermarkt (ficha 980778)"
+},
+{
+"id": 2881,
+"fecha": "2009-11-01",
+"partido": "Chacarita 2-2 Argentinos",
+"campo": "Espectadores",
+"valor": 14000,
+"fuente": "Transfermarkt (ficha 981546)"
+},
+{
+"id": 2883,
+"fecha": "2009-11-07",
+"partido": "Lanus 0-3 Chacarita",
+"campo": "Espectadores",
+"valor": 12000,
+"fuente": "Transfermarkt (ficha 982380)"
+},
+{
+"id": 2882,
+"fecha": "2009-11-13",
+"partido": "Chacarita 0-1 Newells",
+"campo": "Espectadores",
+"valor": 12000,
+"fuente": "Transfermarkt (ficha 982802)"
+},
+{
+"id": 2884,
+"fecha": "2009-11-21",
+"partido": "Atl Tucuman 2-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Saúl Laverni",
+"fuente": "Transfermarkt (ficha 982815)"
+},
+{
+"id": 2884,
+"fecha": "2009-11-21",
+"partido": "Atl Tucuman 2-1 Chacarita",
+"campo": "DT",
+"valor": "Fernando Gamboa",
+"fuente": "Transfermarkt (ficha 982815)"
+},
+{
+"id": 2884,
+"fecha": "2009-11-21",
+"partido": "Atl Tucuman 2-1 Chacarita",
+"campo": "Espectadores",
+"valor": 27000,
+"fuente": "Transfermarkt (ficha 982815)"
+},
+{
+"id": 2885,
+"fecha": "2009-11-28",
+"partido": "Chacarita 2-1 Godoy Cruz",
+"campo": "Árbitro",
+"valor": "Carlos Maglio",
+"fuente": "Transfermarkt (ficha 986274)"
+},
+{
+"id": 2885,
+"fecha": "2009-11-28",
+"partido": "Chacarita 2-1 Godoy Cruz",
+"campo": "DT",
+"valor": "Fernando Gamboa",
+"fuente": "Transfermarkt (ficha 986274)"
+},
+{
+"id": 2885,
+"fecha": "2009-11-28",
+"partido": "Chacarita 2-1 Godoy Cruz",
+"campo": "Espectadores",
+"valor": 8000,
+"fuente": "Transfermarkt (ficha 986274)"
+},
+{
+"id": 2886,
+"fecha": "2009-12-03",
+"partido": "Estudiantes (LP) 0-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Rafael Furchi",
+"fuente": "Transfermarkt (ficha 987048)"
+},
+{
+"id": 2886,
+"fecha": "2009-12-03",
+"partido": "Estudiantes (LP) 0-0 Chacarita",
+"campo": "DT",
+"valor": "Fernando Gamboa",
+"fuente": "Transfermarkt (ficha 987048)"
+},
+{
+"id": 2886,
+"fecha": "2009-12-03",
+"partido": "Estudiantes (LP) 0-0 Chacarita",
+"campo": "Espectadores",
+"valor": 8000,
+"fuente": "Transfermarkt (ficha 987048)"
+},
+{
+"id": 2887,
+"fecha": "2009-12-10",
+"partido": "Chacarita 0-0 Velez",
+"campo": "Espectadores",
+"valor": 8000,
+"fuente": "Transfermarkt (ficha 987064)"
+},
+{
+"id": 2888,
+"fecha": "2009-12-13",
+"partido": "Racing Club 0-2 Chacarita",
+"campo": "Espectadores",
+"valor": 30000,
+"fuente": "Transfermarkt (ficha 988517)"
+},
+{
+"id": 2908,
+"fecha": "2010-08-09",
+"partido": "Tiro Federal 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Carlos Maglio",
+"fuente": "Transfermarkt (ficha 1043603)"
+},
+{
+"id": 2908,
+"fecha": "2010-08-09",
+"partido": "Tiro Federal 1-1 Chacarita",
+"campo": "DT",
+"valor": "Marcelo Fuentes",
+"fuente": "Transfermarkt (ficha 1043603)"
+},
+{
+"id": 2908,
+"fecha": "2010-08-09",
+"partido": "Tiro Federal 1-1 Chacarita",
+"campo": "Espectadores",
+"valor": 1500,
+"fuente": "Transfermarkt (ficha 1043603)"
+},
+{
+"id": 2910,
+"fecha": "2010-08-23",
+"partido": "Gimnasia (J) 0-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Pablo Díaz",
+"fuente": "Transfermarkt (ficha 1044014)"
+},
+{
+"id": 2910,
+"fecha": "2010-08-23",
+"partido": "Gimnasia (J) 0-0 Chacarita",
+"campo": "DT",
+"valor": "Marcelo Fuentes",
+"fuente": "Transfermarkt (ficha 1044014)"
+},
+{
+"id": 2912,
+"fecha": "2010-09-04",
+"partido": "Defensa y Justicia 3-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Alejandro Castro",
+"fuente": "Transfermarkt (ficha 1044033)"
+},
+{
+"id": 2912,
+"fecha": "2010-09-04",
+"partido": "Defensa y Justicia 3-1 Chacarita",
+"campo": "DT",
+"valor": "Marcelo Fuentes",
+"fuente": "Transfermarkt (ficha 1044033)"
+},
+{
+"id": 2913,
+"fecha": "2010-09-09",
+"partido": "Chacarita 0-1 Almirante Brown",
+"campo": "Árbitro",
+"valor": "Mauro Giannini",
+"fuente": "Transfermarkt (ficha 1044043)"
+},
+{
+"id": 2913,
+"fecha": "2010-09-09",
+"partido": "Chacarita 0-1 Almirante Brown",
+"campo": "DT",
+"valor": "Marcelo Fuentes",
+"fuente": "Transfermarkt (ficha 1044043)"
+},
+{
+"id": 2913,
+"fecha": "2010-09-09",
+"partido": "Chacarita 0-1 Almirante Brown",
+"campo": "Espectadores",
+"valor": 8000,
+"fuente": "Transfermarkt (ficha 1044043)"
+},
+{
+"id": 2914,
+"fecha": "2010-09-16",
+"partido": "San Martin (SJ) 0-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Jorge Baliño",
+"fuente": "Transfermarkt (ficha 1044052)"
+},
+{
+"id": 2914,
+"fecha": "2010-09-16",
+"partido": "San Martin (SJ) 0-1 Chacarita",
+"campo": "DT",
+"valor": "Marcelo Fuentes",
+"fuente": "Transfermarkt (ficha 1044052)"
+},
+{
+"id": 2914,
+"fecha": "2010-09-16",
+"partido": "San Martin (SJ) 0-1 Chacarita",
+"campo": "Espectadores",
+"valor": 8500,
+"fuente": "Transfermarkt (ficha 1044052)"
+},
+{
+"id": 2915,
+"fecha": "2010-09-23",
+"partido": "Chacarita 1-0 Belgrano",
+"campo": "Árbitro",
+"valor": "Mariano González",
+"fuente": "Transfermarkt (ficha 1044064)"
+},
+{
+"id": 2915,
+"fecha": "2010-09-23",
+"partido": "Chacarita 1-0 Belgrano",
+"campo": "DT",
+"valor": "Marcelo Fuentes",
+"fuente": "Transfermarkt (ficha 1044064)"
+},
+{
+"id": 2917,
+"fecha": "2010-10-07",
+"partido": "Chacarita 0-2 Rosario Central",
+"campo": "Árbitro",
+"valor": "Patricio Loustau",
+"fuente": "Transfermarkt (ficha 1044085)"
+},
+{
+"id": 2917,
+"fecha": "2010-10-07",
+"partido": "Chacarita 0-2 Rosario Central",
+"campo": "DT",
+"valor": "Marcelo Fuentes",
+"fuente": "Transfermarkt (ficha 1044085)"
+},
+{
+"id": 2918,
+"fecha": "2010-10-14",
+"partido": "Rafaela 2-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Germán Delfino",
+"fuente": "Transfermarkt (ficha 1044090)"
+},
+{
+"id": 2918,
+"fecha": "2010-10-14",
+"partido": "Rafaela 2-0 Chacarita",
+"campo": "DT",
+"valor": "Marcelo Fuentes",
+"fuente": "Transfermarkt (ficha 1044090)"
+},
+{
+"id": 2919,
+"fecha": "2010-10-21",
+"partido": "Chacarita 0-1 CAI",
+"campo": "Árbitro",
+"valor": "Jose Capraro",
+"fuente": "Transfermarkt (ficha 1044106)"
+},
+{
+"id": 2919,
+"fecha": "2010-10-21",
+"partido": "Chacarita 0-1 CAI",
+"campo": "DT",
+"valor": "Marcelo Fuentes",
+"fuente": "Transfermarkt (ficha 1044106)"
+},
+{
+"id": 2920,
+"fecha": "2010-11-04",
+"partido": "Ferro 3-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Pablo Díaz",
+"fuente": "Transfermarkt (ficha 1044109)"
+},
+{
+"id": 2920,
+"fecha": "2010-11-04",
+"partido": "Ferro 3-0 Chacarita",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044109)"
+},
+{
+"id": 2921,
+"fecha": "2010-11-11",
+"partido": "Chacarita 0-0 Deportivo Merlo",
+"campo": "Árbitro",
+"valor": "Fernando Echenique",
+"fuente": "Transfermarkt (ficha 1044127)"
+},
+{
+"id": 2921,
+"fecha": "2010-11-11",
+"partido": "Chacarita 0-0 Deportivo Merlo",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044127)"
+},
+{
+"id": 2922,
+"fecha": "2010-11-21",
+"partido": "Patronato 3-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Silvio Trucco",
+"fuente": "Transfermarkt (ficha 1044128)"
+},
+{
+"id": 2922,
+"fecha": "2010-11-21",
+"partido": "Patronato 3-1 Chacarita",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044128)"
+},
+{
+"id": 2923,
+"fecha": "2010-11-29",
+"partido": "Independiente Rivadavia 0-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Ariel González",
+"fuente": "Transfermarkt (ficha 1044147)"
+},
+{
+"id": 2923,
+"fecha": "2010-11-29",
+"partido": "Independiente Rivadavia 0-2 Chacarita",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044147)"
+},
+{
+"id": 2924,
+"fecha": "2010-12-06",
+"partido": "Chacarita 1-1 Boca Unidos",
+"campo": "Árbitro",
+"valor": "Ariel Montero",
+"fuente": "Transfermarkt (ficha 1044149)"
+},
+{
+"id": 2924,
+"fecha": "2010-12-06",
+"partido": "Chacarita 1-1 Boca Unidos",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044149)"
+},
+{
+"id": 2925,
+"fecha": "2010-12-11",
+"partido": "Instituto 0-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Flavio Marquez",
+"fuente": "Transfermarkt (ficha 1044166)"
+},
+{
+"id": 2925,
+"fecha": "2010-12-11",
+"partido": "Instituto 0-0 Chacarita",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044166)"
+},
+{
+"id": 2926,
+"fecha": "2011-02-05",
+"partido": "Chacarita 1-0 Atletico Tucumán",
+"campo": "Árbitro",
+"valor": "Carlos Maglio",
+"fuente": "Transfermarkt (ficha 1044170)"
+},
+{
+"id": 2926,
+"fecha": "2011-02-05",
+"partido": "Chacarita 1-0 Atletico Tucumán",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044170)"
+},
+{
+"id": 2929,
+"fecha": "2011-02-12",
+"partido": "Chacarita 0-0 Tiro Federal",
+"campo": "Árbitro",
+"valor": "Fernando Rapallini",
+"fuente": "Transfermarkt (ficha 1044185)"
+},
+{
+"id": 2929,
+"fecha": "2011-02-12",
+"partido": "Chacarita 0-0 Tiro Federal",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044185)"
+},
+{
+"id": 2930,
+"fecha": "2011-02-21",
+"partido": "Unión 2-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Diego Abal",
+"fuente": "Transfermarkt (ficha 1044191)"
+},
+{
+"id": 2930,
+"fecha": "2011-02-21",
+"partido": "Unión 2-0 Chacarita",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044191)"
+},
+{
+"id": 2931,
+"fecha": "2011-02-26",
+"partido": "Chacarita 0-0 Gimnasia (J)",
+"campo": "Árbitro",
+"valor": "Fernando Echenique",
+"fuente": "Transfermarkt (ficha 1044204)"
+},
+{
+"id": 2931,
+"fecha": "2011-02-26",
+"partido": "Chacarita 0-0 Gimnasia (J)",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044204)"
+},
+{
+"id": 2932,
+"fecha": "2011-03-05",
+"partido": "Aldosivi 2-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Flavio Marquez",
+"fuente": "Transfermarkt (ficha 1044212)"
+},
+{
+"id": 2932,
+"fecha": "2011-03-05",
+"partido": "Aldosivi 2-0 Chacarita",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044212)"
+},
+{
+"id": 2933,
+"fecha": "2011-03-12",
+"partido": "Chacarita 1-0 Defensa y Justicia",
+"campo": "Árbitro",
+"valor": "Alejandro Sabino",
+"fuente": "Transfermarkt (ficha 1044223)"
+},
+{
+"id": 2933,
+"fecha": "2011-03-12",
+"partido": "Chacarita 1-0 Defensa y Justicia",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044223)"
+},
+{
+"id": 2934,
+"fecha": "2011-03-17",
+"partido": "Almirante Brown 0-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Mauro Vigliano",
+"fuente": "Transfermarkt (ficha 1044233)"
+},
+{
+"id": 2934,
+"fecha": "2011-03-17",
+"partido": "Almirante Brown 0-1 Chacarita",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044233)"
+},
+{
+"id": 2935,
+"fecha": "2011-03-25",
+"partido": "Chacarita 0-1 San Martín (SJ)",
+"campo": "Árbitro",
+"valor": "Alejandro Castro",
+"fuente": "Transfermarkt (ficha 1044242)"
+},
+{
+"id": 2935,
+"fecha": "2011-03-25",
+"partido": "Chacarita 0-1 San Martín (SJ)",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044242)"
+},
+{
+"id": 2936,
+"fecha": "2011-04-04",
+"partido": "Belgrano 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Fernando Rapallini",
+"fuente": "Transfermarkt (ficha 1044254)"
+},
+{
+"id": 2936,
+"fecha": "2011-04-04",
+"partido": "Belgrano 1-1 Chacarita",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044254)"
+},
+{
+"id": 2937,
+"fecha": "2011-04-09",
+"partido": "Chacarita 1-1 San Martín (T)",
+"campo": "Árbitro",
+"valor": "Jorge Baliño",
+"fuente": "Transfermarkt (ficha 1044261)"
+},
+{
+"id": 2937,
+"fecha": "2011-04-09",
+"partido": "Chacarita 1-1 San Martín (T)",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044261)"
+},
+{
+"id": 2938,
+"fecha": "2011-04-17",
+"partido": "Rosario Central 2-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Germán Delfino",
+"fuente": "Transfermarkt (ficha 1044275)"
+},
+{
+"id": 2938,
+"fecha": "2011-04-17",
+"partido": "Rosario Central 2-1 Chacarita",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044275)"
+},
+{
+"id": 2939,
+"fecha": "2011-04-22",
+"partido": "Chacarita 1-2 Rafaela",
+"campo": "Árbitro",
+"valor": "Mauro Vigliano",
+"fuente": "Transfermarkt (ficha 1044280)"
+},
+{
+"id": 2939,
+"fecha": "2011-04-22",
+"partido": "Chacarita 1-2 Rafaela",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044280)"
+},
+{
+"id": 2940,
+"fecha": "2011-04-30",
+"partido": "CAI 1-3 Chacarita",
+"campo": "Árbitro",
+"valor": "Flavio Marquez",
+"fuente": "Transfermarkt (ficha 1044296)"
+},
+{
+"id": 2940,
+"fecha": "2011-04-30",
+"partido": "CAI 1-3 Chacarita",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044296)"
+},
+{
+"id": 2941,
+"fecha": "2011-05-08",
+"partido": "Chacarita 0-3 Ferro",
+"campo": "Árbitro",
+"valor": "Germán Delfino",
+"fuente": "Transfermarkt (ficha 1044299)"
+},
+{
+"id": 2941,
+"fecha": "2011-05-08",
+"partido": "Chacarita 0-3 Ferro",
+"campo": "DT",
+"valor": "Humberto Zuccarelli",
+"fuente": "Transfermarkt (ficha 1044299)"
+},
+{
+"id": 2942,
+"fecha": "2011-05-14",
+"partido": "Deportivo Merlo 0-0 Chacarita",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 1044317)"
+},
+{
+"id": 2943,
+"fecha": "2011-05-21",
+"partido": "Chacarita 1-3 Patronato",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 1044318)"
+},
+{
+"id": 2944,
+"fecha": "2011-05-28",
+"partido": "Chacarita 0-0 Independiente Rivadavia",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 1044337)"
+},
+{
+"id": 2945,
+"fecha": "2011-06-05",
+"partido": "Boca Unidos 0-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Sebastián Mastrángelo",
+"fuente": "Transfermarkt (ficha 1044339)"
+},
+{
+"id": 2946,
+"fecha": "2011-06-11",
+"partido": "Chacarita 2-0 Instituto",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 1044356)"
+},
+{
+"id": 2947,
+"fecha": "2011-06-16",
+"partido": "Atletico Tucumán 0-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Darío Herrera",
+"fuente": "Transfermarkt (ficha 1044360)"
+},
+{
+"id": 2947,
+"fecha": "2011-06-16",
+"partido": "Atletico Tucumán 0-1 Chacarita",
+"campo": "DT",
+"valor": "Héctor Rivoira",
+"fuente": "Transfermarkt (ficha 1044360)"
+},
+{
+"id": 2947,
+"fecha": "2011-06-16",
+"partido": "Atletico Tucumán 0-1 Chacarita",
+"campo": "Espectadores",
+"valor": 35200,
+"fuente": "Transfermarkt (ficha 1044360)"
+},
+{
+"id": 2948,
+"fecha": "2011-08-16",
+"partido": "River Plate 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Héctor Baldassi",
+"fuente": "Transfermarkt (ficha 1136100)"
+},
+{
+"id": 2948,
+"fecha": "2011-08-16",
+"partido": "River Plate 1-0 Chacarita",
+"campo": "DT",
+"valor": "Héctor Rivoira",
+"fuente": "Transfermarkt (ficha 1136100)"
+},
+{
+"id": 2948,
+"fecha": "2011-08-16",
+"partido": "River Plate 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 35000,
+"fuente": "Transfermarkt (ficha 1136100)"
+},
+{
+"id": 2949,
+"fecha": "2011-08-21",
+"partido": "Chacarita 1-0 Desamparados (SJ)",
+"campo": "Árbitro",
+"valor": "Pablo Díaz",
+"fuente": "Transfermarkt (ficha 1161991)"
+},
+{
+"id": 2949,
+"fecha": "2011-08-21",
+"partido": "Chacarita 1-0 Desamparados (SJ)",
+"campo": "DT",
+"valor": "Héctor Rivoira",
+"fuente": "Transfermarkt (ficha 1161991)"
+},
+{
+"id": 2949,
+"fecha": "2011-08-21",
+"partido": "Chacarita 1-0 Desamparados (SJ)",
+"campo": "Espectadores",
+"valor": 9000,
+"fuente": "Transfermarkt (ficha 1161991)"
+},
+{
+"id": 2950,
+"fecha": "2011-08-28",
+"partido": "Defensa y Justicia 3-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Fernando Rapallini",
+"fuente": "Transfermarkt (ficha 1161998)"
+},
+{
+"id": 2950,
+"fecha": "2011-08-28",
+"partido": "Defensa y Justicia 3-0 Chacarita",
+"campo": "DT",
+"valor": "Héctor Rivoira",
+"fuente": "Transfermarkt (ficha 1161998)"
+},
+{
+"id": 2950,
+"fecha": "2011-08-28",
+"partido": "Defensa y Justicia 3-0 Chacarita",
+"campo": "Espectadores",
+"valor": 3000,
+"fuente": "Transfermarkt (ficha 1161998)"
+},
+{
+"id": 2951,
+"fecha": "2011-09-05",
+"partido": "Chacarita 0-3 Gimnasia (LP)",
+"campo": "Árbitro",
+"valor": "Jorge Baliño",
+"fuente": "Transfermarkt (ficha 1169042)"
+},
+{
+"id": 2951,
+"fecha": "2011-09-05",
+"partido": "Chacarita 0-3 Gimnasia (LP)",
+"campo": "DT",
+"valor": "Héctor Rivoira",
+"fuente": "Transfermarkt (ficha 1169042)"
+},
+{
+"id": 2951,
+"fecha": "2011-09-05",
+"partido": "Chacarita 0-3 Gimnasia (LP)",
+"campo": "Espectadores",
+"valor": 12000,
+"fuente": "Transfermarkt (ficha 1169042)"
+},
+{
+"id": 2952,
+"fecha": "2011-09-10",
+"partido": "Atlanta 0-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Héctor Baldassi",
+"fuente": "Transfermarkt (ficha 1162015)"
+},
+{
+"id": 2952,
+"fecha": "2011-09-10",
+"partido": "Atlanta 0-0 Chacarita",
+"campo": "DT",
+"valor": "Héctor Rivoira",
+"fuente": "Transfermarkt (ficha 1162015)"
+},
+{
+"id": 2952,
+"fecha": "2011-09-10",
+"partido": "Atlanta 0-0 Chacarita",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 1162015)"
+},
+{
+"id": 2953,
+"fecha": "2011-09-17",
+"partido": "Chacarita 0-1 Instituto",
+"campo": "Árbitro",
+"valor": "Jose Capraro",
+"fuente": "Transfermarkt (ficha 1162025)"
+},
+{
+"id": 2953,
+"fecha": "2011-09-17",
+"partido": "Chacarita 0-1 Instituto",
+"campo": "DT",
+"valor": "Héctor Rivoira",
+"fuente": "Transfermarkt (ficha 1162025)"
+},
+{
+"id": 2953,
+"fecha": "2011-09-17",
+"partido": "Chacarita 0-1 Instituto",
+"campo": "Espectadores",
+"valor": 7500,
+"fuente": "Transfermarkt (ficha 1162025)"
+},
+{
+"id": 2958,
+"fecha": "2011-10-21",
+"partido": "Gimnasia (J) 0-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Luis Álvarez",
+"fuente": "Transfermarkt (ficha 1162036)"
+},
+{
+"id": 2958,
+"fecha": "2011-10-21",
+"partido": "Gimnasia (J) 0-1 Chacarita",
+"campo": "DT",
+"valor": "Luis Marabotto",
+"fuente": "Transfermarkt (ficha 1162036)"
+},
+{
+"id": 2958,
+"fecha": "2011-10-21",
+"partido": "Gimnasia (J) 0-1 Chacarita",
+"campo": "Espectadores",
+"valor": 6000,
+"fuente": "Transfermarkt (ficha 1162036)"
+},
+{
+"id": 2954,
+"fecha": "2011-09-30",
+"partido": "Chacarita 1-2 Guillermo Brown (PM)",
+"campo": "Árbitro",
+"valor": "Darío Herrera",
+"fuente": "Transfermarkt (ficha 1162052)"
+},
+{
+"id": 2954,
+"fecha": "2011-09-30",
+"partido": "Chacarita 1-2 Guillermo Brown (PM)",
+"campo": "DT",
+"valor": "Héctor Rivoira",
+"fuente": "Transfermarkt (ficha 1162052)"
+},
+{
+"id": 2954,
+"fecha": "2011-09-30",
+"partido": "Chacarita 1-2 Guillermo Brown (PM)",
+"campo": "Espectadores",
+"valor": 9000,
+"fuente": "Transfermarkt (ficha 1162052)"
+},
+{
+"id": 2955,
+"fecha": "2011-10-05",
+"partido": "Boca Unidos 0-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Nicolás Lamolina",
+"fuente": "Transfermarkt (ficha 1162058)"
+},
+{
+"id": 2955,
+"fecha": "2011-10-05",
+"partido": "Boca Unidos 0-0 Chacarita",
+"campo": "DT",
+"valor": "Héctor Rivoira",
+"fuente": "Transfermarkt (ficha 1162058)"
+},
+{
+"id": 2955,
+"fecha": "2011-10-05",
+"partido": "Boca Unidos 0-0 Chacarita",
+"campo": "Espectadores",
+"valor": 5000,
+"fuente": "Transfermarkt (ficha 1162058)"
+},
+{
+"id": 2956,
+"fecha": "2011-10-09",
+"partido": "Chacarita 1-1 Almirante Brown",
+"campo": "Árbitro",
+"valor": "Silvio Trucco",
+"fuente": "Transfermarkt (ficha 1162067)"
+},
+{
+"id": 2956,
+"fecha": "2011-10-09",
+"partido": "Chacarita 1-1 Almirante Brown",
+"campo": "DT",
+"valor": "Héctor Rivoira",
+"fuente": "Transfermarkt (ficha 1162067)"
+},
+{
+"id": 2956,
+"fecha": "2011-10-09",
+"partido": "Chacarita 1-1 Almirante Brown",
+"campo": "Espectadores",
+"valor": 9000,
+"fuente": "Transfermarkt (ficha 1162067)"
+},
+{
+"id": 2957,
+"fecha": "2011-10-15",
+"partido": "Independiente Rivadavia 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Juan Pablo Pompei",
+"fuente": "Transfermarkt (ficha 1162082)"
+},
+{
+"id": 2957,
+"fecha": "2011-10-15",
+"partido": "Independiente Rivadavia 1-0 Chacarita",
+"campo": "DT",
+"valor": "Héctor Rivoira",
+"fuente": "Transfermarkt (ficha 1162082)"
+},
+{
+"id": 2959,
+"fecha": "2011-10-30",
+"partido": "Chacarita 1-3 Quilmes",
+"campo": "Árbitro",
+"valor": "Alejandro Castro",
+"fuente": "Transfermarkt (ficha 1162084)"
+},
+{
+"id": 2959,
+"fecha": "2011-10-30",
+"partido": "Chacarita 1-3 Quilmes",
+"campo": "DT",
+"valor": "Felipe de la Riva",
+"fuente": "Transfermarkt (ficha 1162084)"
+},
+{
+"id": 2959,
+"fecha": "2011-10-30",
+"partido": "Chacarita 1-3 Quilmes",
+"campo": "Espectadores",
+"valor": 9000,
+"fuente": "Transfermarkt (ficha 1162084)"
+},
+{
+"id": 2960,
+"fecha": "2011-11-05",
+"partido": "Deportivo Merlo 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Flavio Marquez",
+"fuente": "Transfermarkt (ficha 1187702)"
+},
+{
+"id": 2960,
+"fecha": "2011-11-05",
+"partido": "Deportivo Merlo 1-1 Chacarita",
+"campo": "DT",
+"valor": "Felipe de la Riva",
+"fuente": "Transfermarkt (ficha 1187702)"
+},
+{
+"id": 2960,
+"fecha": "2011-11-05",
+"partido": "Deportivo Merlo 1-1 Chacarita",
+"campo": "Espectadores",
+"valor": 3000,
+"fuente": "Transfermarkt (ficha 1187702)"
+},
+{
+"id": 2961,
+"fecha": "2011-11-12",
+"partido": "Chacarita 1-1 Ferro",
+"campo": "Árbitro",
+"valor": "Fernando Rapallini",
+"fuente": "Transfermarkt (ficha 1162112)"
+},
+{
+"id": 2961,
+"fecha": "2011-11-12",
+"partido": "Chacarita 1-1 Ferro",
+"campo": "DT",
+"valor": "Felipe de la Riva",
+"fuente": "Transfermarkt (ficha 1162112)"
+},
+{
+"id": 2961,
+"fecha": "2011-11-12",
+"partido": "Chacarita 1-1 Ferro",
+"campo": "Espectadores",
+"valor": 9360,
+"fuente": "Transfermarkt (ficha 1162112)"
+},
+{
+"id": 2962,
+"fecha": "2011-11-19",
+"partido": "Huracán 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Jorge Baliño",
+"fuente": "Transfermarkt (ficha 1162121)"
+},
+{
+"id": 2962,
+"fecha": "2011-11-19",
+"partido": "Huracán 1-0 Chacarita",
+"campo": "DT",
+"valor": "Felipe de la Riva",
+"fuente": "Transfermarkt (ficha 1162121)"
+},
+{
+"id": 2962,
+"fecha": "2011-11-19",
+"partido": "Huracán 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 16800,
+"fuente": "Transfermarkt (ficha 1162121)"
+},
+{
+"id": 2963,
+"fecha": "2011-11-27",
+"partido": "Chacarita 0-2 Aldosivi",
+"campo": "Árbitro",
+"valor": "Mariano González",
+"fuente": "Transfermarkt (ficha 1162132)"
+},
+{
+"id": 2963,
+"fecha": "2011-11-27",
+"partido": "Chacarita 0-2 Aldosivi",
+"campo": "DT",
+"valor": "Felipe de la Riva",
+"fuente": "Transfermarkt (ficha 1162132)"
+},
+{
+"id": 2963,
+"fecha": "2011-11-27",
+"partido": "Chacarita 0-2 Aldosivi",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 1162132)"
+},
+{
+"id": 2964,
+"fecha": "2011-12-02",
+"partido": "Atletico Tucumán 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Flavio Marquez",
+"fuente": "Transfermarkt (ficha 1162137)"
+},
+{
+"id": 2964,
+"fecha": "2011-12-02",
+"partido": "Atletico Tucumán 1-1 Chacarita",
+"campo": "DT",
+"valor": "Felipe de la Riva",
+"fuente": "Transfermarkt (ficha 1162137)"
+},
+{
+"id": 2964,
+"fecha": "2011-12-02",
+"partido": "Atletico Tucumán 1-1 Chacarita",
+"campo": "Espectadores",
+"valor": 15000,
+"fuente": "Transfermarkt (ficha 1162137)"
+},
+{
+"id": 2965,
+"fecha": "2011-12-09",
+"partido": "Chacarita 1-1 Rosario Central",
+"campo": "Árbitro",
+"valor": "Carlos Maglio",
+"fuente": "Transfermarkt (ficha 1162149)"
+},
+{
+"id": 2965,
+"fecha": "2011-12-09",
+"partido": "Chacarita 1-1 Rosario Central",
+"campo": "DT",
+"valor": "Felipe de la Riva",
+"fuente": "Transfermarkt (ficha 1162149)"
+},
+{
+"id": 2966,
+"fecha": "2012-02-05",
+"partido": "Patronato 0-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Mauro Giannini",
+"fuente": "Transfermarkt (ficha 1162160)"
+},
+{
+"id": 2966,
+"fecha": "2012-02-05",
+"partido": "Patronato 0-0 Chacarita",
+"campo": "DT",
+"valor": "Felipe de la Riva",
+"fuente": "Transfermarkt (ficha 1162160)"
+},
+{
+"id": 2966,
+"fecha": "2012-02-05",
+"partido": "Patronato 0-0 Chacarita",
+"campo": "Espectadores",
+"valor": 13000,
+"fuente": "Transfermarkt (ficha 1162160)"
+},
+{
+"id": 2967,
+"fecha": "2012-02-12",
+"partido": "Chacarita 0-2 River Plate",
+"campo": "Árbitro",
+"valor": "Luis Álvarez",
+"fuente": "Transfermarkt (ficha 1179146)"
+},
+{
+"id": 2967,
+"fecha": "2012-02-12",
+"partido": "Chacarita 0-2 River Plate",
+"campo": "DT",
+"valor": "Felipe de la Riva",
+"fuente": "Transfermarkt (ficha 1179146)"
+},
+{
+"id": 2967,
+"fecha": "2012-02-12",
+"partido": "Chacarita 0-2 River Plate",
+"campo": "Espectadores",
+"valor": 22000,
+"fuente": "Transfermarkt (ficha 1179146)"
+},
+{
+"id": 2968,
+"fecha": "2012-02-19",
+"partido": "Desamparados (SJ) 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Ariel Montero",
+"fuente": "Transfermarkt (ficha 1179161)"
+},
+{
+"id": 2968,
+"fecha": "2012-02-19",
+"partido": "Desamparados (SJ) 1-1 Chacarita",
+"campo": "DT",
+"valor": "Felipe de la Riva",
+"fuente": "Transfermarkt (ficha 1179161)"
+},
+{
+"id": 2968,
+"fecha": "2012-02-19",
+"partido": "Desamparados (SJ) 1-1 Chacarita",
+"campo": "Espectadores",
+"valor": 7000,
+"fuente": "Transfermarkt (ficha 1179161)"
+},
+{
+"id": 2969,
+"fecha": "2012-02-25",
+"partido": "Chacarita 1-1 Defensa y Justicia",
+"campo": "Árbitro",
+"valor": "Mauro Giannini",
+"fuente": "Transfermarkt (ficha 1186116)"
+},
+{
+"id": 2969,
+"fecha": "2012-02-25",
+"partido": "Chacarita 1-1 Defensa y Justicia",
+"campo": "DT",
+"valor": "Luis Marabotto",
+"fuente": "Transfermarkt (ficha 1186116)"
+},
+{
+"id": 2969,
+"fecha": "2012-02-25",
+"partido": "Chacarita 1-1 Defensa y Justicia",
+"campo": "Espectadores",
+"valor": 6000,
+"fuente": "Transfermarkt (ficha 1186116)"
+},
+{
+"id": 2970,
+"fecha": "2012-03-05",
+"partido": "Gimnasia (LP) 2-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Silvio Trucco",
+"fuente": "Transfermarkt (ficha 4030704)"
+},
+{
+"id": 2970,
+"fecha": "2012-03-05",
+"partido": "Gimnasia (LP) 2-0 Chacarita",
+"campo": "DT",
+"valor": "Luis Marabotto",
+"fuente": "Transfermarkt (ficha 4030704)"
+},
+{
+"id": 2970,
+"fecha": "2012-03-05",
+"partido": "Gimnasia (LP) 2-0 Chacarita",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 4030704)"
+},
+{
+"id": 2971,
+"fecha": "2012-03-11",
+"partido": "Chacarita 1-1 Atlanta",
+"campo": "Árbitro",
+"valor": "Fernando Rapallini",
+"fuente": "Transfermarkt (ficha 1186141)"
+},
+{
+"id": 2971,
+"fecha": "2012-03-11",
+"partido": "Chacarita 1-1 Atlanta",
+"campo": "DT",
+"valor": "Luis Marabotto",
+"fuente": "Transfermarkt (ficha 1186141)"
+},
+{
+"id": 2971,
+"fecha": "2012-03-11",
+"partido": "Chacarita 1-1 Atlanta",
+"campo": "Espectadores",
+"valor": 13000,
+"fuente": "Transfermarkt (ficha 1186141)"
+},
+{
+"id": 2972,
+"fecha": "2012-03-19",
+"partido": "Instituto 3-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Mauro Giannini",
+"fuente": "Transfermarkt (ficha 1186124)"
+},
+{
+"id": 2972,
+"fecha": "2012-03-19",
+"partido": "Instituto 3-1 Chacarita",
+"campo": "DT",
+"valor": "Luis Marabotto",
+"fuente": "Transfermarkt (ficha 1186124)"
+},
+{
+"id": 2972,
+"fecha": "2012-03-19",
+"partido": "Instituto 3-1 Chacarita",
+"campo": "Espectadores",
+"valor": 18500,
+"fuente": "Transfermarkt (ficha 1186124)"
+},
+{
+"id": 2973,
+"fecha": "2012-03-25",
+"partido": "Chacarita 1-1 Gimnasia (J)",
+"campo": "Árbitro",
+"valor": "Luis Álvarez",
+"fuente": "Transfermarkt (ficha 1186143)"
+},
+{
+"id": 2973,
+"fecha": "2012-03-25",
+"partido": "Chacarita 1-1 Gimnasia (J)",
+"campo": "DT",
+"valor": "Luis Marabotto",
+"fuente": "Transfermarkt (ficha 1186143)"
+},
+{
+"id": 2974,
+"fecha": "2012-04-01",
+"partido": "Guillermo Brown (PM) 5-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Maximiliano Stevenot",
+"fuente": "Transfermarkt (ficha 1186101)"
+},
+{
+"id": 2974,
+"fecha": "2012-04-01",
+"partido": "Guillermo Brown (PM) 5-2 Chacarita",
+"campo": "DT",
+"valor": "Luis Marabotto",
+"fuente": "Transfermarkt (ficha 1186101)"
+},
+{
+"id": 2974,
+"fecha": "2012-04-01",
+"partido": "Guillermo Brown (PM) 5-2 Chacarita",
+"campo": "Espectadores",
+"valor": 5000,
+"fuente": "Transfermarkt (ficha 1186101)"
+},
+{
+"id": 2977,
+"fecha": "2012-04-25",
+"partido": "Chacarita 0-4 Boca Unidos",
+"campo": "Árbitro",
+"valor": "Flavio Marquez",
+"fuente": "Transfermarkt (ficha 1186157)"
+},
+{
+"id": 2975,
+"fecha": "2012-04-17",
+"partido": "Almirante Brown 0-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Pablo Díaz",
+"fuente": "Transfermarkt (ficha 1186125)"
+},
+{
+"id": 2975,
+"fecha": "2012-04-17",
+"partido": "Almirante Brown 0-0 Chacarita",
+"campo": "Espectadores",
+"valor": 2500,
+"fuente": "Transfermarkt (ficha 1186125)"
+},
+{
+"id": 2976,
+"fecha": "2012-04-22",
+"partido": "Chacarita 0-1 Independiente Rivadavia",
+"campo": "Árbitro",
+"valor": "Alejandro Castro",
+"fuente": "Transfermarkt (ficha 1186177)"
+},
+{
+"id": 2978,
+"fecha": "2012-04-29",
+"partido": "Quilmes 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Ariel Montero",
+"fuente": "Transfermarkt (ficha 1186196)"
+},
+{
+"id": 2979,
+"fecha": "2012-05-07",
+"partido": "Chacarita 1-0 Deportivo Merlo",
+"campo": "Árbitro",
+"valor": "Jorge Baliño",
+"fuente": "Transfermarkt (ficha 3045881)"
+},
+{
+"id": 2980,
+"fecha": "2012-05-12",
+"partido": "Ferro 0-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Saúl Laverni",
+"fuente": "Transfermarkt (ficha 1186209)"
+},
+{
+"id": 2980,
+"fecha": "2012-05-12",
+"partido": "Ferro 0-0 Chacarita",
+"campo": "Espectadores",
+"valor": 3360,
+"fuente": "Transfermarkt (ficha 1186209)"
+},
+{
+"id": 2981,
+"fecha": "2012-05-18",
+"partido": "Chacarita 1-0 Huracán",
+"campo": "Árbitro",
+"valor": "Pablo Díaz",
+"fuente": "Transfermarkt (ficha 1186224)"
+},
+{
+"id": 2982,
+"fecha": "2012-05-26",
+"partido": "Aldosivi 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Jorge Baliño",
+"fuente": "Transfermarkt (ficha 1186225)"
+},
+{
+"id": 2982,
+"fecha": "2012-05-26",
+"partido": "Aldosivi 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 3000,
+"fuente": "Transfermarkt (ficha 1186225)"
+},
+{
+"id": 2983,
+"fecha": "2012-06-09",
+"partido": "Chacarita 0-0 Atletico Tucumán",
+"campo": "Árbitro",
+"valor": "Fernando Echenique",
+"fuente": "Transfermarkt (ficha 1186239)"
+},
+{
+"id": 2984,
+"fecha": "2012-06-17",
+"partido": "Rosario Central 1-3 Chacarita",
+"campo": "Árbitro",
+"valor": "Mauro Vigliano",
+"fuente": "Transfermarkt (ficha 1186258)"
+},
+{
+"id": 2985,
+"fecha": "2012-06-23",
+"partido": "Chacarita 3-0 Patronato",
+"campo": "Árbitro",
+"valor": "Luis Álvarez",
+"fuente": "Transfermarkt (ficha 1186260)"
+},
+{
+"id": 2986,
+"fecha": "2012-06-27",
+"partido": "Nueva Chicago 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Diego Ceballos",
+"fuente": "Transfermarkt (ficha 4230378)"
+},
+{
+"id": 2987,
+"fecha": "2012-06-30",
+"partido": "Chacarita 1-1 Nueva Chicago",
+"campo": "Árbitro",
+"valor": "Mauro Vigliano",
+"fuente": "Transfermarkt (ficha 4230379)"
+},
+{
+"id": 3002,
+"fecha": "2012-11-07",
+"partido": "Chacarita 5-0 Puerto Nuevo",
+"campo": "Espectadores",
+"valor": 1500,
+"fuente": "Transfermarkt (ficha 4139378)"
+},
+{
+"id": 3056,
+"fecha": "2014-02-27",
+"partido": "Chacarita 2-1 Deportivo Armenio",
+"campo": "Árbitro",
+"valor": "Martín Gonaldi",
+"fuente": "Transfermarkt (ficha 4289076)"
+},
+{
+"id": 3056,
+"fecha": "2014-02-27",
+"partido": "Chacarita 2-1 Deportivo Armenio",
+"campo": "DT",
+"valor": "Carlos Leeb",
+"fuente": "Transfermarkt (ficha 4289076)"
+},
+{
+"id": 3099,
+"fecha": "2015-03-06",
+"partido": "Chacarita 2-1 Boca Unidos",
+"campo": "Árbitro",
+"valor": "Luis Álvarez",
+"fuente": "Transfermarkt (ficha 2554899)"
+},
+{
+"id": 3100,
+"fecha": "2015-03-14",
+"partido": "Gimnasia (M) 2-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Nicolás Lamolina",
+"fuente": "Transfermarkt (ficha 2554904)"
+},
+{
+"id": 3105,
+"fecha": "2015-04-05",
+"partido": "Atletico Tucumán 2-1 Chacarita",
+"campo": "Espectadores",
+"valor": 21200,
+"fuente": "Transfermarkt (ficha 2554943)"
+},
+{
+"id": 3107,
+"fecha": "2015-04-19",
+"partido": "Instituto 2-2 Chacarita",
+"campo": "Espectadores",
+"valor": 8000,
+"fuente": "Transfermarkt (ficha 2554974)"
+},
+{
+"id": 3109,
+"fecha": "2015-05-02",
+"partido": "Atletico de Paraná 3-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Juan Pablo Pompei",
+"fuente": "Transfermarkt (ficha 2554986)"
+},
+{
+"id": 3119,
+"fecha": "2015-07-04",
+"partido": "Chacarita 0-0 Sportivo Belgrano (SF)",
+"campo": "Árbitro",
+"valor": "Jorge Baliño",
+"fuente": "Transfermarkt (ficha 2555112)"
+},
+{
+"id": 3131,
+"fecha": "2015-09-05",
+"partido": "Chacarita 1-0 Instituto",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 2555214)"
+},
+{
+"id": 3139,
+"fecha": "2015-11-01",
+"partido": "Douglas Haig 2-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Facundo Tello",
+"fuente": "Transfermarkt (ficha 2555300)"
+},
+{
+"id": 3095,
+"fecha": "2015-02-06",
+"partido": "Chacarita 2-0 UAI Urquiza",
+"campo": "Espectadores",
+"valor": 7000,
+"fuente": "Transfermarkt (ficha 4289784)"
+},
+{
+"id": 3151,
+"fecha": "2016-04-04",
+"partido": "Instituto 0-3 Chacarita",
+"campo": "Espectadores",
+"valor": 7000,
+"fuente": "Transfermarkt (ficha 2695985)"
+},
+{
+"id": 3169,
+"fecha": "2016-10-18",
+"partido": "Chacarita 0-2 Guillermo Brown (PM)",
+"campo": "Árbitro",
+"valor": "Mauro Giannini",
+"fuente": "Transfermarkt (ficha 2813460)"
+},
+{
+"id": 3173,
+"fecha": "2016-11-07",
+"partido": "Almagro 3-0 Chacarita",
+"campo": "Espectadores",
+"valor": 2565,
+"fuente": "Transfermarkt (ficha 2817115)"
+},
+{
+"id": 3182,
+"fecha": "2017-03-10",
+"partido": "Chacarita 2-3 Nueva Chicago",
+"campo": "Árbitro",
+"valor": "Ariel Suárez",
+"fuente": "Transfermarkt (ficha 2817306)"
+},
+{
+"id": 3184,
+"fecha": "2017-03-20",
+"partido": "Argentinos Juniors 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 6000,
+"fuente": "Transfermarkt (ficha 2839369)"
+},
+{
+"id": 3201,
+"fecha": "2017-07-01",
+"partido": "Flandria 0-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Pablo Dóvalo",
+"fuente": "Transfermarkt (ficha 2883560)"
+},
+{
+"id": 3207,
+"fecha": "2017-07-30",
+"partido": "Chacarita 1-1 Argentinos Juniors",
+"campo": "Espectadores",
+"valor": 23000,
+"fuente": "Transfermarkt (ficha 2888901)"
+},
+{
+"id": 3212,
+"fecha": "2017-10-08",
+"partido": "Argentinos 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 9000,
+"fuente": "Transfermarkt (ficha 2905399)"
+},
+{
+"id": 3208,
+"fecha": "2017-09-10",
+"partido": "Chacarita 1-1 Tigre",
+"campo": "Espectadores",
+"valor": 14000,
+"fuente": "Transfermarkt (ficha 2905408)"
+},
+{
+"id": 3209,
+"fecha": "2017-09-17",
+"partido": "Atl Tucuman 1-1 Chacarita",
+"campo": "Espectadores",
+"valor": 25000,
+"fuente": "Transfermarkt (ficha 2921655)"
+},
+{
+"id": 3211,
+"fecha": "2017-10-01",
+"partido": "Boca Juniors 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Néstor Pitana",
+"fuente": "Transfermarkt (ficha 2923946)"
+},
+{
+"id": 3219,
+"fecha": "2017-12-11",
+"partido": "Chacarita 3-0 Lanus",
+"campo": "Árbitro",
+"valor": "Nicolás Lamolina",
+"fuente": "Transfermarkt (ficha 2969633)"
+},
+{
+"id": 3219,
+"fecha": "2017-12-11",
+"partido": "Chacarita 3-0 Lanus",
+"campo": "DT",
+"valor": "Luis Marabotto",
+"fuente": "Transfermarkt (ficha 2969633)"
+},
+{
+"id": 3228,
+"fecha": "2018-04-01",
+"partido": "Chacarita 2-2 Arsenal",
+"campo": "Árbitro",
+"valor": "Fernando Espinoza",
+"fuente": "Transfermarkt (ficha 3015112)"
+},
+{
+"id": 3228,
+"fecha": "2018-04-01",
+"partido": "Chacarita 2-2 Arsenal",
+"campo": "DT",
+"valor": "Sebastián Pena",
+"fuente": "Transfermarkt (ficha 3015112)"
+},
+{
+"id": 3240,
+"fecha": "2018-10-02",
+"partido": "Agropecuario 0-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Lucas Novelli",
+"fuente": "Transfermarkt (ficha 3104832)"
+},
+{
+"id": 3243,
+"fecha": "2018-10-29",
+"partido": "Chacarita 1-0 Gimnasia (J)",
+"campo": "Árbitro",
+"valor": "Sebastián Ranciglio",
+"fuente": "Transfermarkt (ficha 3104874)"
+},
+{
+"id": 3250,
+"fecha": "2019-02-20",
+"partido": "Quilmes 2-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Nicolás Ramírez",
+"fuente": "Transfermarkt (ficha 3151094)"
+},
+{
+"id": 3250,
+"fecha": "2019-02-20",
+"partido": "Quilmes 2-1 Chacarita",
+"campo": "Espectadores",
+"valor": 14000,
+"fuente": "Transfermarkt (ficha 3151094)"
+},
+{
+"id": 3257,
+"fecha": "2019-04-06",
+"partido": "Chacarita 1-0 Atletico Rafaela",
+"campo": "Árbitro",
+"valor": "Mariano González",
+"fuente": "Transfermarkt (ficha 3172533)"
+},
+{
+"id": 3259,
+"fecha": "2019-04-20",
+"partido": "Chacarita 0-0 Central Córdoba (SDE)",
+"campo": "Árbitro",
+"valor": "Gerardo Méndez Cedro",
+"fuente": "Transfermarkt (ficha 3172600)"
+},
+{
+"id": 3261,
+"fecha": "2019-08-24",
+"partido": "Gimnasia (J) 2-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Julio Barraza",
+"fuente": "Transfermarkt (ficha 3232943)"
+},
+{
+"id": 3262,
+"fecha": "2019-08-31",
+"partido": "Chacarita 0-3 Santamarina Tandil",
+"campo": "Árbitro",
+"valor": "Lucas Comesaña",
+"fuente": "Transfermarkt (ficha 3232958)"
+},
+{
+"id": 3263,
+"fecha": "2019-09-07",
+"partido": "Instituto 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Yael Falcón Pérez",
+"fuente": "Transfermarkt (ficha 3247834)"
+},
+{
+"id": 3273,
+"fecha": "2019-11-26",
+"partido": "Chacarita 1-0 Quilmes",
+"campo": "Espectadores",
+"valor": 1800,
+"fuente": "Transfermarkt (ficha 3273086)"
+},
+{
+"id": 3275,
+"fecha": "2020-02-08",
+"partido": "All Boys 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Yael Falcón Pérez",
+"fuente": "Transfermarkt (ficha 3290150)"
+},
+{
+"id": 3280,
+"fecha": "2020-03-16",
+"partido": "Chacarita 1-2 Almagro",
+"campo": "Árbitro",
+"valor": "Pablo Dóvalo",
+"fuente": "Transfermarkt (ficha 3329066)"
+},
+{
+"id": 3289,
+"fecha": "2021-03-30",
+"partido": "Nueva Chicago 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Leandro Rey Hilfer",
+"fuente": "Transfermarkt (ficha 3532145)"
+},
+{
+"id": 3291,
+"fecha": "2021-04-13",
+"partido": "San Martín (T) 0-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Mario Ejarque",
+"fuente": "Transfermarkt (ficha 3542821)"
+},
+{
+"id": 3293,
+"fecha": "2021-04-26",
+"partido": "Riestra 4-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Mariano Negrete",
+"fuente": "Transfermarkt (ficha 3552939)"
+},
+{
+"id": 3294,
+"fecha": "2021-05-03",
+"partido": "Chacarita 0-4 Gimnasia (M)",
+"campo": "Árbitro",
+"valor": "Lucas Comesaña",
+"fuente": "Transfermarkt (ficha 3556486)"
+},
+{
+"id": 3296,
+"fecha": "2021-05-14",
+"partido": "Chacarita 1-2 Temperley",
+"campo": "Árbitro",
+"valor": "Pablo Giménez",
+"fuente": "Transfermarkt (ficha 3558552)"
+},
+{
+"id": 3297,
+"fecha": "2021-06-10",
+"partido": "Deportivo Maipú 1-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Luis Lobo Medina",
+"fuente": "Transfermarkt (ficha 3558569)"
+},
+{
+"id": 3313,
+"fecha": "2021-10-02",
+"partido": "Chacarita 1-2 Deportivo Maipú",
+"campo": "Espectadores",
+"valor": 3030,
+"fuente": "Transfermarkt (ficha 3665047)"
+},
+{
+"id": 3315,
+"fecha": "2021-10-17",
+"partido": "Chacarita 1-3 Quilmes",
+"campo": "Espectadores",
+"valor": 2500,
+"fuente": "Transfermarkt (ficha 3674395)"
+},
+{
+"id": 3319,
+"fecha": "2021-11-12",
+"partido": "Chacarita 1-3 Mitre (SdE)",
+"campo": "Árbitro",
+"valor": "Sebastián Martínez Beligoy",
+"fuente": "Transfermarkt (ficha 3674461)"
+},
+{
+"id": 3281,
+"fecha": "2020-11-28",
+"partido": "Instituto 2-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Jorge Broggi",
+"fuente": "Transfermarkt (ficha 3506092)"
+},
+{
+"id": 3282,
+"fecha": "2020-12-03",
+"partido": "Chacarita 0-0 Brown (A)",
+"campo": "Árbitro",
+"valor": "Sebastián Zunino",
+"fuente": "Transfermarkt (ficha 3512825)"
+},
+{
+"id": 3283,
+"fecha": "2020-12-12",
+"partido": "Santamarina Tandil 3-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Mariano González",
+"fuente": "Transfermarkt (ficha 3509989)"
+},
+{
+"id": 3284,
+"fecha": "2020-12-19",
+"partido": "Chacarita 0-1 Gimnasia (J)",
+"campo": "Árbitro",
+"valor": "Cristian Cernadas",
+"fuente": "Transfermarkt (ficha 3508593)"
+},
+{
+"id": 3285,
+"fecha": "2020-12-29",
+"partido": "Quilmes 3-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Andrés Gariano",
+"fuente": "Transfermarkt (ficha 3507041)"
+},
+{
+"id": 3286,
+"fecha": "2021-01-03",
+"partido": "Chacarita 0-0 All Boys",
+"campo": "Árbitro",
+"valor": "Ramiro López",
+"fuente": "Transfermarkt (ficha 3506639)"
+},
+{
+"id": 3287,
+"fecha": "2021-01-11",
+"partido": "Almagro 0-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Mariano González",
+"fuente": "Transfermarkt (ficha 3506625)"
+},
+{
+"id": 3321,
+"fecha": "2022-02-12",
+"partido": "Almirante Brown 4-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Nicolás Ramírez",
+"fuente": "Transfermarkt (ficha 3730171)"
+},
+{
+"id": 3321,
+"fecha": "2022-02-12",
+"partido": "Almirante Brown 4-2 Chacarita",
+"campo": "Espectadores",
+"valor": 16000,
+"fuente": "Transfermarkt (ficha 3730171)"
+},
+{
+"id": 3322,
+"fecha": "2022-02-19",
+"partido": "Chacarita 0-0 Gimnasia (J)",
+"campo": "Árbitro",
+"valor": "Pablo Dóvalo",
+"fuente": "Transfermarkt (ficha 3730268)"
+},
+{
+"id": 3322,
+"fecha": "2022-02-19",
+"partido": "Chacarita 0-0 Gimnasia (J)",
+"campo": "Espectadores",
+"valor": 9000,
+"fuente": "Transfermarkt (ficha 3730268)"
+},
+{
+"id": 3323,
+"fecha": "2022-02-27",
+"partido": "Flandria 1-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Jorge Broggi",
+"fuente": "Transfermarkt (ficha 3753014)"
+},
+{
+"id": 3323,
+"fecha": "2022-02-27",
+"partido": "Flandria 1-2 Chacarita",
+"campo": "Espectadores",
+"valor": 1200,
+"fuente": "Transfermarkt (ficha 3753014)"
+},
+{
+"id": 3320,
+"fecha": "2022-03-06",
+"partido": "Chacarita 2-2 Temperley",
+"campo": "Árbitro",
+"valor": "Lucas Comesaña",
+"fuente": "Transfermarkt (ficha 3757514)"
+},
+{
+"id": 3320,
+"fecha": "2022-03-06",
+"partido": "Chacarita 2-2 Temperley",
+"campo": "Espectadores",
+"valor": 9000,
+"fuente": "Transfermarkt (ficha 3757514)"
+},
+{
+"id": 3324,
+"fecha": "2022-03-13",
+"partido": "Deportivo Morón 0-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Sebastián Zunino",
+"fuente": "Transfermarkt (ficha 3762481)"
+},
+{
+"id": 3324,
+"fecha": "2022-03-13",
+"partido": "Deportivo Morón 0-1 Chacarita",
+"campo": "Espectadores",
+"valor": 20000,
+"fuente": "Transfermarkt (ficha 3762481)"
+},
+{
+"id": 3325,
+"fecha": "2022-03-19",
+"partido": "Chacarita 0-2 Deportivo Madryn",
+"campo": "Árbitro",
+"valor": "Leandro Rey Hilfer",
+"fuente": "Transfermarkt (ficha 3766626)"
+},
+{
+"id": 3325,
+"fecha": "2022-03-19",
+"partido": "Chacarita 0-2 Deportivo Madryn",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 3766626)"
+},
+{
+"id": 3326,
+"fecha": "2022-03-22",
+"partido": "Estudiantes (RC) 2-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Mario Ejarque",
+"fuente": "Transfermarkt (ficha 3773029)"
+},
+{
+"id": 3327,
+"fecha": "2022-03-27",
+"partido": "Chacarita 5-0 Alvarado",
+"campo": "Árbitro",
+"valor": "Franco Acita",
+"fuente": "Transfermarkt (ficha 3775349)"
+},
+{
+"id": 3327,
+"fecha": "2022-03-27",
+"partido": "Chacarita 5-0 Alvarado",
+"campo": "Espectadores",
+"valor": 9000,
+"fuente": "Transfermarkt (ficha 3775349)"
+},
+{
+"id": 3328,
+"fecha": "2022-04-02",
+"partido": "Almagro 1-3 Chacarita",
+"campo": "Árbitro",
+"valor": "Sebastián Zunino",
+"fuente": "Transfermarkt (ficha 3776656)"
+},
+{
+"id": 3328,
+"fecha": "2022-04-02",
+"partido": "Almagro 1-3 Chacarita",
+"campo": "Espectadores",
+"valor": 3500,
+"fuente": "Transfermarkt (ficha 3776656)"
+},
+{
+"id": 3329,
+"fecha": "2022-04-10",
+"partido": "Chacarita 3-1 Nueva Chicago",
+"campo": "Árbitro",
+"valor": "Nicolás Ramírez",
+"fuente": "Transfermarkt (ficha 3793728)"
+},
+{
+"id": 3329,
+"fecha": "2022-04-10",
+"partido": "Chacarita 3-1 Nueva Chicago",
+"campo": "Espectadores",
+"valor": 19000,
+"fuente": "Transfermarkt (ficha 3793728)"
+},
+{
+"id": 3330,
+"fecha": "2022-04-17",
+"partido": "Deportivo Maipú 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Pablo Giménez",
+"fuente": "Transfermarkt (ficha 3796324)"
+},
+{
+"id": 3331,
+"fecha": "2022-04-23",
+"partido": "Chacarita 2-2 Quilmes",
+"campo": "Árbitro",
+"valor": "Diego Ceballos",
+"fuente": "Transfermarkt (ficha 3801639)"
+},
+{
+"id": 3331,
+"fecha": "2022-04-23",
+"partido": "Chacarita 2-2 Quilmes",
+"campo": "Espectadores",
+"valor": 20000,
+"fuente": "Transfermarkt (ficha 3801639)"
+},
+{
+"id": 3332,
+"fecha": "2022-04-30",
+"partido": "Independiente Rivadavia 2-3 Chacarita",
+"campo": "Árbitro",
+"valor": "Gaston Monsón Brizuela",
+"fuente": "Transfermarkt (ficha 3807863)"
+},
+{
+"id": 3333,
+"fecha": "2022-05-08",
+"partido": "Chacarita 1-1 Ferro",
+"campo": "Árbitro",
+"valor": "Andrés Gariano",
+"fuente": "Transfermarkt (ficha 3813095)"
+},
+{
+"id": 3333,
+"fecha": "2022-05-08",
+"partido": "Chacarita 1-1 Ferro",
+"campo": "Espectadores",
+"valor": 19000,
+"fuente": "Transfermarkt (ficha 3813095)"
+},
+{
+"id": 3334,
+"fecha": "2022-05-15",
+"partido": "Mitre (SDE) 0-3 Chacarita",
+"campo": "Árbitro",
+"valor": "Luis Lobo Medina",
+"fuente": "Transfermarkt (ficha 3813666)"
+},
+{
+"id": 3335,
+"fecha": "2022-05-22",
+"partido": "Chacarita 0-1 Sacachispas",
+"campo": "Árbitro",
+"valor": "Jorge Broggi",
+"fuente": "Transfermarkt (ficha 3813673)"
+},
+{
+"id": 3335,
+"fecha": "2022-05-22",
+"partido": "Chacarita 0-1 Sacachispas",
+"campo": "Espectadores",
+"valor": 18200,
+"fuente": "Transfermarkt (ficha 3813673)"
+},
+{
+"id": 3336,
+"fecha": "2022-05-28",
+"partido": "Instituto 2-0 Chacarita",
+"campo": "Árbitro",
+"valor": "José Carreras",
+"fuente": "Transfermarkt (ficha 3813703)"
+},
+{
+"id": 3337,
+"fecha": "2022-06-04",
+"partido": "Chacarita 1-1 Agropecuario",
+"campo": "Árbitro",
+"valor": "Nazareno Arasa",
+"fuente": "Transfermarkt (ficha 3813708)"
+},
+{
+"id": 3337,
+"fecha": "2022-06-04",
+"partido": "Chacarita 1-1 Agropecuario",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 3813708)"
+},
+{
+"id": 3338,
+"fecha": "2022-06-11",
+"partido": "Tristán Suárez 3-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Nahuel Viñas",
+"fuente": "Transfermarkt (ficha 3813740)"
+},
+{
+"id": 3338,
+"fecha": "2022-06-11",
+"partido": "Tristán Suárez 3-2 Chacarita",
+"campo": "Espectadores",
+"valor": 2800,
+"fuente": "Transfermarkt (ficha 3813740)"
+},
+{
+"id": 3339,
+"fecha": "2022-06-18",
+"partido": "Chacarita 0-0 San Martín (T)",
+"campo": "Árbitro",
+"valor": "Ramiro López",
+"fuente": "Transfermarkt (ficha 3813743)"
+},
+{
+"id": 3339,
+"fecha": "2022-06-18",
+"partido": "Chacarita 0-0 San Martín (T)",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 3813743)"
+},
+{
+"id": 3340,
+"fecha": "2022-06-27",
+"partido": "Defensores (B) 2-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Diego Ceballos",
+"fuente": "Transfermarkt (ficha 3845881)"
+},
+{
+"id": 3340,
+"fecha": "2022-06-27",
+"partido": "Defensores (B) 2-0 Chacarita",
+"campo": "Espectadores",
+"valor": 2500,
+"fuente": "Transfermarkt (ficha 3845881)"
+},
+{
+"id": 3341,
+"fecha": "2022-07-02",
+"partido": "Chacarita 2-1 Brown (A)",
+"campo": "Árbitro",
+"valor": "Pablo Giménez",
+"fuente": "Transfermarkt (ficha 3850317)"
+},
+{
+"id": 3341,
+"fecha": "2022-07-02",
+"partido": "Chacarita 2-1 Brown (A)",
+"campo": "Espectadores",
+"valor": 12000,
+"fuente": "Transfermarkt (ficha 3850317)"
+},
+{
+"id": 3343,
+"fecha": "2022-07-17",
+"partido": "Guillermo Brown (PM) 0-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Nazareno Arasa",
+"fuente": "Transfermarkt (ficha 3871425)"
+},
+{
+"id": 3344,
+"fecha": "2022-07-23",
+"partido": "Chacarita 3-1 Atletico Rafaela",
+"campo": "Árbitro",
+"valor": "Lucas Comesaña",
+"fuente": "Transfermarkt (ficha 3884797)"
+},
+{
+"id": 3344,
+"fecha": "2022-07-23",
+"partido": "Chacarita 3-1 Atletico Rafaela",
+"campo": "Espectadores",
+"valor": 13000,
+"fuente": "Transfermarkt (ficha 3884797)"
+},
+{
+"id": 3345,
+"fecha": "2022-07-27",
+"partido": "Santamarina 2-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Nelson Sosa",
+"fuente": "Transfermarkt (ficha 3884818)"
+},
+{
+"id": 3346,
+"fecha": "2022-07-31",
+"partido": "Chacarita 0-1 Estudiantes (BA)",
+"campo": "Árbitro",
+"valor": "Pablo Giménez",
+"fuente": "Transfermarkt (ficha 3884840)"
+},
+{
+"id": 3346,
+"fecha": "2022-07-31",
+"partido": "Chacarita 0-1 Estudiantes (BA)",
+"campo": "Espectadores",
+"valor": 17000,
+"fuente": "Transfermarkt (ficha 3884840)"
+},
+{
+"id": 3342,
+"fecha": "2022-08-08",
+"partido": "Atlanta 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Nicolás Ramírez",
+"fuente": "Transfermarkt (ficha 3884845)"
+},
+{
+"id": 3342,
+"fecha": "2022-08-08",
+"partido": "Atlanta 1-1 Chacarita",
+"campo": "Espectadores",
+"valor": 8500,
+"fuente": "Transfermarkt (ficha 3884845)"
+},
+{
+"id": 3347,
+"fecha": "2022-08-14",
+"partido": "Chacarita 1-1 San Martín (SJ)",
+"campo": "Árbitro",
+"valor": "Adrián Franklin",
+"fuente": "Transfermarkt (ficha 3898031)"
+},
+{
+"id": 3347,
+"fecha": "2022-08-14",
+"partido": "Chacarita 1-1 San Martín (SJ)",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 3898031)"
+},
+{
+"id": 3348,
+"fecha": "2022-08-21",
+"partido": "Chaco For Ever 2-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Andrés Gariano",
+"fuente": "Transfermarkt (ficha 3898061)"
+},
+{
+"id": 3349,
+"fecha": "2022-08-27",
+"partido": "Chacarita 4-1 San Telmo",
+"campo": "Árbitro",
+"valor": "Franco Acita",
+"fuente": "Transfermarkt (ficha 3911775)"
+},
+{
+"id": 3349,
+"fecha": "2022-08-27",
+"partido": "Chacarita 4-1 San Telmo",
+"campo": "Espectadores",
+"valor": 10000,
+"fuente": "Transfermarkt (ficha 3911775)"
+},
+{
+"id": 3350,
+"fecha": "2022-09-03",
+"partido": "Gimnasia (M) 2-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Leandro Rey Hilfer",
+"fuente": "Transfermarkt (ficha 3916939)"
+},
+{
+"id": 3351,
+"fecha": "2022-09-10",
+"partido": "Chacarita 2-0 All Boys",
+"campo": "Árbitro",
+"valor": "Pablo Giménez",
+"fuente": "Transfermarkt (ficha 3916996)"
+},
+{
+"id": 3351,
+"fecha": "2022-09-10",
+"partido": "Chacarita 2-0 All Boys",
+"campo": "Espectadores",
+"valor": 12000,
+"fuente": "Transfermarkt (ficha 3916996)"
+},
+{
+"id": 3352,
+"fecha": "2022-09-18",
+"partido": "Guemes (SDE) 0-1 Chacarita",
+"campo": "Árbitro",
+"valor": "César Ceballo",
+"fuente": "Transfermarkt (ficha 3917030)"
+},
+{
+"id": 3353,
+"fecha": "2022-09-24",
+"partido": "Chacarita 1-1 Riestra",
+"campo": "Árbitro",
+"valor": "Lucas Comesaña",
+"fuente": "Transfermarkt (ficha 3917041)"
+},
+{
+"id": 3353,
+"fecha": "2022-09-24",
+"partido": "Chacarita 1-1 Riestra",
+"campo": "Espectadores",
+"valor": 18000,
+"fuente": "Transfermarkt (ficha 3917041)"
+},
+{
+"id": 3354,
+"fecha": "2022-10-03",
+"partido": "Belgrano 3-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Sebastián Zunino",
+"fuente": "Transfermarkt (ficha 3930512)"
+},
+{
+"id": 3354,
+"fecha": "2022-10-03",
+"partido": "Belgrano 3-0 Chacarita",
+"campo": "DT",
+"valor": "Marcelo Venturelli",
+"fuente": "Transfermarkt (ficha 3930512)"
+},
+{
+"id": 3355,
+"fecha": "2022-10-08",
+"partido": "Chacarita 0-0 Villa Dálmine",
+"campo": "Árbitro",
+"valor": "Juan Pafundi",
+"fuente": "Transfermarkt (ficha 3930525)"
+},
+{
+"id": 3355,
+"fecha": "2022-10-08",
+"partido": "Chacarita 0-0 Villa Dálmine",
+"campo": "DT",
+"valor": "Marcelo Venturelli",
+"fuente": "Transfermarkt (ficha 3930525)"
+},
+{
+"id": 3355,
+"fecha": "2022-10-08",
+"partido": "Chacarita 0-0 Villa Dálmine",
+"campo": "Espectadores",
+"valor": 12000,
+"fuente": "Transfermarkt (ficha 3930525)"
+},
+{
+"id": 3392,
+"fecha": "2024-02-03",
+"partido": "Chacarita 2-0 Deportivo Maipú",
+"campo": "Espectadores",
+"valor": 14000,
+"fuente": "Transfermarkt (ficha 4256739)"
+},
+{
+"id": 3395,
+"fecha": "2024-02-25",
+"partido": "Quilmes 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 22300,
+"fuente": "Transfermarkt (ficha 4291370)"
+},
+{
+"id": 3397,
+"fecha": "2024-03-09",
+"partido": "Estudiantes (BA) 0-0 Chacarita",
+"campo": "Espectadores",
+"valor": 5000,
+"fuente": "Transfermarkt (ficha 4296966)"
+},
+{
+"id": 3400,
+"fecha": "2024-03-30",
+"partido": "Arsenal 3-1 Chacarita",
+"campo": "Espectadores",
+"valor": 2000,
+"fuente": "Transfermarkt (ficha 4306716)"
+},
+{
+"id": 3401,
+"fecha": "2024-04-06",
+"partido": "Chacarita 1-1 San Martín (SJ)",
+"campo": "Espectadores",
+"valor": 12000,
+"fuente": "Transfermarkt (ficha 4306742)"
+},
+{
+"id": 3404,
+"fecha": "2024-04-21",
+"partido": "Chacarita 2-1 Agropecuario",
+"campo": "Espectadores",
+"valor": 9000,
+"fuente": "Transfermarkt (ficha 4306779)"
+},
+{
+"id": 3405,
+"fecha": "2024-04-28",
+"partido": "All Boys 0-0 Chacarita",
+"campo": "Espectadores",
+"valor": 9030,
+"fuente": "Transfermarkt (ficha 4306794)"
+},
+{
+"id": 3409,
+"fecha": "2024-05-26",
+"partido": "Alvarado 2-1 Chacarita",
+"campo": "Espectadores",
+"valor": 6590,
+"fuente": "Transfermarkt (ficha 4306853)"
+},
+{
+"id": 3411,
+"fecha": "2024-06-12",
+"partido": "Gimnasia (J) 0-1 Chacarita",
+"campo": "Espectadores",
+"valor": 7000,
+"fuente": "Transfermarkt (ficha 4306911)"
+},
+{
+"id": 3414,
+"fecha": "2024-07-07",
+"partido": "San Miguel 2-1 Chacarita",
+"campo": "Espectadores",
+"valor": 7000,
+"fuente": "Transfermarkt (ficha 4306945)"
+},
+{
+"id": 3419,
+"fecha": "2024-08-11",
+"partido": "San Martín (T) 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 29980,
+"fuente": "Transfermarkt (ficha 4307037)"
+},
+{
+"id": 3421,
+"fecha": "2024-08-25",
+"partido": "San Martín (SJ) 4-0 Chacarita",
+"campo": "Espectadores",
+"valor": 4600,
+"fuente": "Transfermarkt (ficha 4307074)"
+},
+{
+"id": 3431,
+"fecha": "2025-02-10",
+"partido": "Agropecuario 0-1 Chacarita",
+"campo": "Espectadores",
+"valor": 40,
+"fuente": "Transfermarkt (ficha 4514632)"
+},
+{
+"id": 3432,
+"fecha": "2025-02-16",
+"partido": "Chacarita 1-1 San Telmo",
+"campo": "Espectadores",
+"valor": 25203,
+"fuente": "Transfermarkt (ficha 4514657)"
+},
+{
+"id": 3433,
+"fecha": "2025-02-24",
+"partido": "Nueva Chicago 1-1 Chacarita",
+"campo": "Espectadores",
+"valor": 24000,
+"fuente": "Transfermarkt (ficha 4514667)"
+},
+{
+"id": 3434,
+"fecha": "2025-03-02",
+"partido": "Defensores (B) 1-0 Chacarita",
+"campo": "Espectadores",
+"valor": 5000,
+"fuente": "Transfermarkt (ficha 4553026)"
+},
+{
+"id": 3435,
+"fecha": "2025-03-09",
+"partido": "Chacarita 0-2 Estudiantes (RC)",
+"campo": "Espectadores",
+"valor": 25206,
+"fuente": "Transfermarkt (ficha 4554289)"
+},
+{
+"id": 3436,
+"fecha": "2025-03-15",
+"partido": "Talleres (RDE) 0-2 Chacarita",
+"campo": "Espectadores",
+"valor": 5000,
+"fuente": "Transfermarkt (ficha 4554301)"
+},
+{
+"id": 3482,
+"fecha": "2026-06-21",
+"partido": "Chacarita 0-0 Tristán Suárez",
+"campo": "Árbitro",
+"valor": "Bryan Ferreyra",
+"fuente": "Transfermarkt (ficha 4797700)"
+},
+{
+"id": 3468,
+"fecha": "2026-03-15",
+"partido": "Agropecuario 2-0 Chacarita",
+"campo": "DT",
+"valor": "Matías Módolo",
+"fuente": "Transfermarkt (ficha 4797652)"
+},
+{
+"id": 3469,
+"fecha": "2026-03-22",
+"partido": "Chacarita 0-1 Atletico Rafaela",
+"campo": "DT",
+"valor": "Matías Módolo",
+"fuente": "Transfermarkt (ficha 4797629)"
+},
+{
+"id": 3470,
+"fecha": "2026-03-29",
+"partido": "Chacarita 0-3 Estudiantes (BA)",
+"campo": "DT",
+"valor": "Matías Módolo",
+"fuente": "Transfermarkt (ficha 4797713)"
+},
+{
+"id": 3471,
+"fecha": "2026-04-04",
+"partido": "San Martín (T) 1-1 Chacarita",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4797741)"
+},
+{
+"id": 3472,
+"fecha": "2026-04-12",
+"partido": "Chacarita 2-0 Gimnasia y Tiro",
+"campo": "Árbitro",
+"valor": "Fabricio Llobet",
+"fuente": "Transfermarkt (ficha 4797756)"
+},
+{
+"id": 3472,
+"fecha": "2026-04-12",
+"partido": "Chacarita 2-0 Gimnasia y Tiro",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4797756)"
+},
+{
+"id": 3473,
+"fecha": "2026-04-20",
+"partido": "Atlanta 1-0 Chacarita",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4797776)"
+},
+{
+"id": 3474,
+"fecha": "2026-04-26",
+"partido": "Chacarita 1-0 Midland",
+"campo": "Árbitro",
+"valor": "Daniel Zamora",
+"fuente": "Transfermarkt (ficha 4797793)"
+},
+{
+"id": 3474,
+"fecha": "2026-04-26",
+"partido": "Chacarita 1-0 Midland",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4797793)"
+},
+{
+"id": 3475,
+"fecha": "2026-05-04",
+"partido": "Quilmes 0-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Pablo Giménez",
+"fuente": "Transfermarkt (ficha 4797811)"
+},
+{
+"id": 3476,
+"fecha": "2026-05-10",
+"partido": "Chacarita 2-0 Colegiales",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4797830)"
+},
+{
+"id": 3477,
+"fecha": "2026-05-17",
+"partido": "Patronato 2-0 Chacarita",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4797846)"
+},
+{
+"id": 3478,
+"fecha": "2026-05-24",
+"partido": "Chacarita 1-0 Almagro",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4797867)"
+},
+{
+"id": 3479,
+"fecha": "2026-05-31",
+"partido": "Deportivo Maipú 3-2 Chacarita",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4797881)"
+},
+{
+"id": 3480,
+"fecha": "2026-06-07",
+"partido": "Chacarita 0-1 Temperley",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4797904)"
+},
+{
+"id": 3481,
+"fecha": "2026-06-13",
+"partido": "Nueva Chicago 2-0 Chacarita",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4797916)"
+},
+{
+"id": 3483,
+"fecha": "2026-07-05",
+"partido": "San Martín (SJ) 0-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Daniel Zamora",
+"fuente": "Transfermarkt (ficha 4797941)"
+},
+{
+"id": 3483,
+"fecha": "2026-07-05",
+"partido": "San Martín (SJ) 0-1 Chacarita",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4797941)"
+},
+{
+"id": 3484,
+"fecha": "2026-07-12",
+"partido": "Gimnasia (J) 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Yamil Possi",
+"fuente": "Transfermarkt (ficha 4797951)"
+},
+{
+"id": 3484,
+"fecha": "2026-07-12",
+"partido": "Gimnasia (J) 1-1 Chacarita",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4797951)"
+},
+{
+"id": 3489,
+"fecha": "2026-08-19",
+"partido": "Chacarita 0-0 Guemes (SDE)",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4797977)"
+},
+{
+"id": 3485,
+"fecha": "2026-07-25",
+"partido": "Tristán Suárez 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Juan Pablo Loustau",
+"fuente": "Transfermarkt (ficha 4797988)"
+},
+{
+"id": 3485,
+"fecha": "2026-07-25",
+"partido": "Tristán Suárez 1-0 Chacarita",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4797988)"
+},
+{
+"id": 3486,
+"fecha": "2026-08-02",
+"partido": "Chacarita 2-1 Agropecuario",
+"campo": "Árbitro",
+"valor": "Juan Cruz Robledo",
+"fuente": "Transfermarkt (ficha 4798012)"
+},
+{
+"id": 3486,
+"fecha": "2026-08-02",
+"partido": "Chacarita 2-1 Agropecuario",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4798012)"
+},
+{
+"id": 3487,
+"fecha": "2026-08-08",
+"partido": "Atletico Rafaela 1-0 Chacarita",
+"campo": "Árbitro",
+"valor": "Juan Pafundi",
+"fuente": "Transfermarkt (ficha 4798025)"
+},
+{
+"id": 3487,
+"fecha": "2026-08-08",
+"partido": "Atletico Rafaela 1-0 Chacarita",
+"campo": "DT",
+"valor": "Cristian Grabinski",
+"fuente": "Transfermarkt (ficha 4798025)"
+},
+{
+"id": 3488,
+"fecha": "2026-08-15",
+"partido": "Estudiantes (BA) 2-0 Chacarita",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4798038)"
+},
+{
+"id": 3490,
+"fecha": "2026-08-23",
+"partido": "Chacarita 1-2 San Martín (T)",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4798055)"
+},
+{
+"id": 3491,
+"fecha": "2026-08-28",
+"partido": "Gimnasia y Tiro 1-0 Chacarita",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4798071)"
+},
+{
+"id": 3492,
+"fecha": "2026-09-05",
+"partido": "Chacarita 0-1 Atlanta",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4798100)"
+},
+{
+"id": 3493,
+"fecha": "2026-09-13",
+"partido": "Midland 1-0 Chacarita",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4798117)"
+},
+{
+"id": 3494,
+"fecha": "2026-09-20",
+"partido": "Chacarita 3-0 Quilmes",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4798135)"
+},
+{
+"id": 3495,
+"fecha": "2026-09-26",
+"partido": "Colegiales 2-1 Chacarita",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4798154)"
+},
+{
+"id": 3496,
+"fecha": "2026-10-04",
+"partido": "Chacarita 1-0 Patronato",
+"campo": "Árbitro",
+"valor": "Pablo Dóvalo",
+"fuente": "Transfermarkt (ficha 4798170)"
+},
+{
+"id": 3496,
+"fecha": "2026-10-04",
+"partido": "Chacarita 1-0 Patronato",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4798170)"
+},
+{
+"id": 3497,
+"fecha": "2026-10-10",
+"partido": "Almagro 2-1 Chacarita",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4798180)"
+},
+{
+"id": 3498,
+"fecha": "2026-10-17",
+"partido": "Chacarita 1-0 Deportivo Maipú",
+"campo": "DT",
+"valor": "Sergio Rondina",
+"fuente": "Transfermarkt (ficha 4798196)"
+},
+{
+"id": 3536,
+"fecha": "2026-10-25",
+"partido": "Temperley 0-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Juan Cruz Robledo",
+"fuente": "Transfermarkt (ficha 4798219)"
+}
+],
+"formaciones": [
+{
+"id": 2914,
+"fecha": "2010-09-16",
+"partido": "San Martin (SJ) 0-1 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Williams Martinez",
+"corto": "Martínez",
+"rol": 0
+},
+{
+"tm": "Leonardo Sanchez",
+"corto": "Sánchez",
+"rol": 0
+},
+{
+"tm": "Leandro Benitez",
+"corto": "Benítez",
+"rol": 0
+},
+{
+"tm": "Pablo Aguilar",
+"corto": "Aguilar",
+"rol": 0
+},
+{
+"tm": "Fernando De La Fuente",
+"corto": "de la Fuente",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Claudio Cevasco",
+"corto": "Cevasco",
+"rol": 0
+},
+{
+"tm": "Gonzalo Bustamante",
+"corto": "Bustamante",
+"rol": 0
+},
+{
+"tm": "Miguel Alba",
+"corto": "Alba",
+"rol": 0
+},
+{
+"tm": "Jose Tabares",
+"corto": "Tabares",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1044052)"
+},
+{
+"id": 2947,
+"fecha": "2011-06-16",
+"partido": "Atletico Tucumán 0-1 Chacarita",
+"jugadores": [
+{
+"tm": "Jorge Piris",
+"corto": "Piris",
+"rol": 0
+},
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Rodrigo Espindola",
+"corto": "Espíndola",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Pablo Aguilar",
+"corto": "Aguilar",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Angel Piz",
+"corto": "Piz",
+"rol": 0
+},
+{
+"tm": "Julio Marchant",
+"corto": "Marchant",
+"rol": 0
+},
+{
+"tm": "Jonathan Menendez",
+"corto": "Menéndez",
+"rol": 0
+},
+{
+"tm": "Federico Chiocarello",
+"corto": "Chiocarello",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1044360)"
+},
+{
+"id": 2948,
+"fecha": "2011-08-16",
+"partido": "River Plate 1-0 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Angel Piz",
+"corto": "Piz",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Santiago Raymonda",
+"corto": "Raymonda",
+"rol": 0
+},
+{
+"tm": "Pablo Bastianini",
+"corto": "Bastianini",
+"rol": 0
+},
+{
+"tm": "Carlos Herrera",
+"corto": "Herrera",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1136100)"
+},
+{
+"id": 2949,
+"fecha": "2011-08-21",
+"partido": "Chacarita 1-0 Desamparados (SJ)",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Angel Piz",
+"corto": "Piz",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Santiago Raymonda",
+"corto": "Raymonda",
+"rol": 0
+},
+{
+"tm": "Pablo Bastianini",
+"corto": "Bastianini",
+"rol": 0
+},
+{
+"tm": "Carlos Herrera",
+"corto": "Herrera",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1161991)"
+},
+{
+"id": 2950,
+"fecha": "2011-08-28",
+"partido": "Defensa y Justicia 3-0 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Angel Piz",
+"corto": "Piz",
+"rol": 0
+},
+{
+"tm": "Julio Marchant",
+"corto": "Marchant",
+"rol": 0
+},
+{
+"tm": "Santiago Raymonda",
+"corto": "Raymonda",
+"rol": 0
+},
+{
+"tm": "Pablo Bastianini",
+"corto": "Bastianini",
+"rol": 0
+},
+{
+"tm": "Carlos Herrera",
+"corto": "Herrera",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1161998)"
+},
+{
+"id": 2951,
+"fecha": "2011-09-05",
+"partido": "Chacarita 0-3 Gimnasia (LP)",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Juan Krupoviesa",
+"corto": "Krupoviesa",
+"rol": 0
+},
+{
+"tm": "Mario Vera",
+"corto": "Vera",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Santiago Raymonda",
+"corto": "Raymonda",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1169042)"
+},
+{
+"id": 2952,
+"fecha": "2011-09-10",
+"partido": "Atlanta 0-0 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Pablo Bastianini",
+"corto": "Bastianini",
+"rol": 0
+},
+{
+"tm": "Carlos Herrera",
+"corto": "Herrera",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1162015)"
+},
+{
+"id": 2953,
+"fecha": "2011-09-17",
+"partido": "Chacarita 0-1 Instituto",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Cristian Guanca",
+"corto": "Guanca",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Carlos Herrera",
+"corto": "Herrera",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1162025)"
+},
+{
+"id": 2958,
+"fecha": "2011-10-21",
+"partido": "Gimnasia (J) 0-1 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Juan Krupoviesa",
+"corto": "Krupoviesa",
+"rol": 0
+},
+{
+"tm": "Mario Vera",
+"corto": "Vera",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Julio Marchant",
+"corto": "Marchant",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Pablo Bastianini",
+"corto": "Bastianini",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1162036)"
+},
+{
+"id": 2954,
+"fecha": "2011-09-30",
+"partido": "Chacarita 1-2 Guillermo Brown (PM)",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Julio Marchant",
+"corto": "Marchant",
+"rol": 0
+},
+{
+"tm": "Santiago Raymonda",
+"corto": "Raymonda",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Carlos Herrera",
+"corto": "Herrera",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1162052)"
+},
+{
+"id": 2955,
+"fecha": "2011-10-05",
+"partido": "Boca Unidos 0-0 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Julio Marchant",
+"corto": "Marchant",
+"rol": 0
+},
+{
+"tm": "Santiago Raymonda",
+"corto": "Raymonda",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Carlos Herrera",
+"corto": "Herrera",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1162058)"
+},
+{
+"id": 2956,
+"fecha": "2011-10-09",
+"partido": "Chacarita 1-1 Almirante Brown",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Julio Marchant",
+"corto": "Marchant",
+"rol": 0
+},
+{
+"tm": "Santiago Raymonda",
+"corto": "Raymonda",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Carlos Herrera",
+"corto": "Herrera",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1162067)"
+},
+{
+"id": 2957,
+"fecha": "2011-10-15",
+"partido": "Independiente Rivadavia 1-0 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Julio Marchant",
+"corto": "Marchant",
+"rol": 0
+},
+{
+"tm": "Cristian Guanca",
+"corto": "Guanca",
+"rol": 0
+},
+{
+"tm": "Santiago Raymonda",
+"corto": "Raymonda",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Carlos Herrera",
+"corto": "Herrera",
+"rol": 1
+}
+],
+"fuente": "Transfermarkt (ficha 1162082)"
+},
+{
+"id": 2959,
+"fecha": "2011-10-30",
+"partido": "Chacarita 1-3 Quilmes",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Juan Krupoviesa",
+"corto": "Krupoviesa",
+"rol": 0
+},
+{
+"tm": "Mario Vera",
+"corto": "Vera",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Mauro Bellone",
+"corto": "Bellone",
+"rol": 0
+},
+{
+"tm": "Julio Marchant",
+"corto": "Marchant",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Pablo Bastianini",
+"corto": "Bastianini",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1162084)"
+},
+{
+"id": 2960,
+"fecha": "2011-11-05",
+"partido": "Deportivo Merlo 1-1 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Mario Vera",
+"corto": "Vera",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Julio Marchant",
+"corto": "Marchant",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Cristian Guanca",
+"corto": "Guanca",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1187702)"
+},
+{
+"id": 2961,
+"fecha": "2011-11-12",
+"partido": "Chacarita 1-1 Ferro",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Cristian Gutierrez",
+"corto": "Gutiérrez",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Julio Marchant",
+"corto": "Marchant",
+"rol": 0
+},
+{
+"tm": "Cristian Guanca",
+"corto": "Guanca",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Pablo Bastianini",
+"corto": "Bastianini",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1162112)"
+},
+{
+"id": 2962,
+"fecha": "2011-11-19",
+"partido": "Huracán 1-0 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Mario Vera",
+"corto": "Vera",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Matias Lopez",
+"corto": "López",
+"rol": 0
+},
+{
+"tm": "Angel Piz",
+"corto": "Piz",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Cristian Guanca",
+"corto": "Guanca",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1162121)"
+},
+{
+"id": 2963,
+"fecha": "2011-11-27",
+"partido": "Chacarita 0-2 Aldosivi",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Rodrigo Espindola",
+"corto": "Espíndola",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Mario Vera",
+"corto": "Vera",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Cristian Guanca",
+"corto": "Guanca",
+"rol": 0
+},
+{
+"tm": "Gabriel Tellas",
+"corto": "Tellas",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1162132)"
+},
+{
+"id": 2964,
+"fecha": "2011-12-02",
+"partido": "Atletico Tucumán 1-1 Chacarita",
+"jugadores": [
+{
+"tm": "Jorge Piris",
+"corto": "Piris",
+"rol": 0
+},
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Rodrigo Espindola",
+"corto": "Espíndola",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Angel Piz",
+"corto": "Piz",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Mauro Montenegro",
+"corto": "Montenegro",
+"rol": 0
+},
+{
+"tm": "Gabriel Tellas",
+"corto": "Tellas",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1162137)"
+},
+{
+"id": 2965,
+"fecha": "2011-12-09",
+"partido": "Chacarita 1-1 Rosario Central",
+"jugadores": [
+{
+"tm": "Jorge Piris",
+"corto": "Piris",
+"rol": 0
+},
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Angel Piz",
+"corto": "Piz",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Mauro Montenegro",
+"corto": "Montenegro",
+"rol": 0
+},
+{
+"tm": "Gabriel Tellas",
+"corto": "Tellas",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1162149)"
+},
+{
+"id": 2966,
+"fecha": "2012-02-05",
+"partido": "Patronato 0-0 Chacarita",
+"jugadores": [
+{
+"tm": "Jorge Piris",
+"corto": "Piris",
+"rol": 0
+},
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Rodrigo Espindola",
+"corto": "Espíndola",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Mauro Bellone",
+"corto": "Bellone",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Mauro Montenegro",
+"corto": "Montenegro",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1162160)"
+},
+{
+"id": 2967,
+"fecha": "2012-02-12",
+"partido": "Chacarita 0-2 River Plate",
+"jugadores": [
+{
+"tm": "Jorge Piris",
+"corto": "Piris",
+"rol": 0
+},
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Rodrigo Espindola",
+"corto": "Espíndola",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Matias Carabajal",
+"corto": "Carabajal",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Mauro Montenegro",
+"corto": "Montenegro",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1179146)"
+},
+{
+"id": 2968,
+"fecha": "2012-02-19",
+"partido": "Desamparados (SJ) 1-1 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Rodrigo Espindola",
+"corto": "Espíndola",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Angel Piz",
+"corto": "Piz",
+"rol": 0
+},
+{
+"tm": "Mauro Bellone",
+"corto": "Bellone",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1179161)"
+},
+{
+"id": 2969,
+"fecha": "2012-02-25",
+"partido": "Chacarita 1-1 Defensa y Justicia",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Rodrigo Espindola",
+"corto": "Espíndola",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Angel Piz",
+"corto": "Piz",
+"rol": 0
+},
+{
+"tm": "Leandro Serapio",
+"corto": "Serapio",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186116)"
+},
+{
+"id": 2970,
+"fecha": "2012-03-05",
+"partido": "Gimnasia (LP) 2-0 Chacarita",
+"jugadores": [
+{
+"tm": "Jorge Piris",
+"corto": "Piris",
+"rol": 0
+},
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 4030704)"
+},
+{
+"id": 2971,
+"fecha": "2012-03-11",
+"partido": "Chacarita 1-1 Atlanta",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Cristian Gutierrez",
+"corto": "Gutiérrez",
+"rol": 0
+},
+{
+"tm": "Juan Krupoviesa",
+"corto": "Krupoviesa",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Mauro Bellone",
+"corto": "Bellone",
+"rol": 0
+},
+{
+"tm": "Leandro Serapio",
+"corto": "Serapio",
+"rol": 0
+},
+{
+"tm": "Cristian Guanca",
+"corto": "Guanca",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186141)"
+},
+{
+"id": 2972,
+"fecha": "2012-03-19",
+"partido": "Instituto 3-1 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Cristian Gutierrez",
+"corto": "Gutiérrez",
+"rol": 0
+},
+{
+"tm": "Juan Krupoviesa",
+"corto": "Krupoviesa",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+},
+{
+"tm": "Gabriel Tellas",
+"corto": "Tellas",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186124)"
+},
+{
+"id": 2973,
+"fecha": "2012-03-25",
+"partido": "Chacarita 1-1 Gimnasia (J)",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Javier Paez",
+"corto": "Páez",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Cristian Gutierrez",
+"corto": "Gutiérrez",
+"rol": 0
+},
+{
+"tm": "Maximiliano Paredes",
+"corto": "Paredes",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Rodrigo Aliendro",
+"corto": "Aliendro",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Gabriel Tellas",
+"corto": "Tellas",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186143)"
+},
+{
+"id": 2974,
+"fecha": "2012-04-01",
+"partido": "Guillermo Brown (PM) 5-2 Chacarita",
+"jugadores": [
+{
+"tm": "Jorge Piris",
+"corto": "Piris",
+"rol": 0
+},
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Maximiliano Paredes",
+"corto": "Paredes",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Mauro Pajon",
+"corto": "Pajón",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186101)"
+},
+{
+"id": 2977,
+"fecha": "2012-04-25",
+"partido": "Chacarita 0-4 Boca Unidos",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Maximiliano Paredes",
+"corto": "Paredes",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186157)"
+},
+{
+"id": 2975,
+"fecha": "2012-04-17",
+"partido": "Almirante Brown 0-0 Chacarita",
+"jugadores": [
+{
+"tm": "Jorge Piris",
+"corto": "Piris",
+"rol": 0
+},
+{
+"tm": "Pedro Fernandez",
+"corto": "Fernández",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Maximiliano Paredes",
+"corto": "Paredes",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Angel Piz",
+"corto": "Piz",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Gabriel Tellas",
+"corto": "Tellas",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186125)"
+},
+{
+"id": 2976,
+"fecha": "2012-04-22",
+"partido": "Chacarita 0-1 Independiente Rivadavia",
+"jugadores": [
+{
+"tm": "Jorge Piris",
+"corto": "Piris",
+"rol": 0
+},
+{
+"tm": "Pedro Fernandez",
+"corto": "Fernández",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Maximiliano Paredes",
+"corto": "Paredes",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Matias Nizzo",
+"corto": "Nizzo",
+"rol": 0
+},
+{
+"tm": "Angel Piz",
+"corto": "Piz",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Cristian Guanca",
+"corto": "Guanca",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186177)"
+},
+{
+"id": 2978,
+"fecha": "2012-04-29",
+"partido": "Quilmes 1-0 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Maximiliano Paredes",
+"corto": "Paredes",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Mauro Pajon",
+"corto": "Pajón",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186196)"
+},
+{
+"id": 2979,
+"fecha": "2012-05-07",
+"partido": "Chacarita 1-0 Deportivo Merlo",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Maximiliano Paredes",
+"corto": "Paredes",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Mauro Pajon",
+"corto": "Pajón",
+"rol": 0
+},
+{
+"tm": "Mauro Bellone",
+"corto": "Bellone",
+"rol": 0
+},
+{
+"tm": "Gaston Rossi",
+"corto": "Rossi",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 3045881)"
+},
+{
+"id": 2980,
+"fecha": "2012-05-12",
+"partido": "Ferro 0-0 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Maximiliano Paredes",
+"corto": "Paredes",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Mauro Pajon",
+"corto": "Pajón",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186209)"
+},
+{
+"id": 2981,
+"fecha": "2012-05-18",
+"partido": "Chacarita 1-0 Huracán",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Maximiliano Paredes",
+"corto": "Paredes",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Mauro Pajon",
+"corto": "Pajón",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186224)"
+},
+{
+"id": 2982,
+"fecha": "2012-05-26",
+"partido": "Aldosivi 1-0 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Maximiliano Paredes",
+"corto": "Paredes",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Mauro Pajon",
+"corto": "Pajón",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186225)"
+},
+{
+"id": 2983,
+"fecha": "2012-06-09",
+"partido": "Chacarita 0-0 Atletico Tucumán",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Maximiliano Paredes",
+"corto": "Paredes",
+"rol": 0
+},
+{
+"tm": "Franco Dolci",
+"corto": "Dolci",
+"rol": 0
+},
+{
+"tm": "Mauro Pajon",
+"corto": "Pajón",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Mauro Bellone",
+"corto": "Bellone",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186239)"
+},
+{
+"id": 2984,
+"fecha": "2012-06-17",
+"partido": "Rosario Central 1-3 Chacarita",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Maximiliano Paredes",
+"corto": "Paredes",
+"rol": 0
+},
+{
+"tm": "Mauro Pajon",
+"corto": "Pajón",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Mauro Bellone",
+"corto": "Bellone",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186258)"
+},
+{
+"id": 2985,
+"fecha": "2012-06-23",
+"partido": "Chacarita 3-0 Patronato",
+"jugadores": [
+{
+"tm": "Nicolas Tauber",
+"corto": "Tauber",
+"rol": 0
+},
+{
+"tm": "Sebastian Pena",
+"corto": "Pena",
+"rol": 0
+},
+{
+"tm": "Matias Zaldivia",
+"corto": "Zaldivia",
+"rol": 0
+},
+{
+"tm": "Emanuel Morales",
+"corto": "Morales",
+"rol": 0
+},
+{
+"tm": "Maximiliano Paredes",
+"corto": "Paredes",
+"rol": 0
+},
+{
+"tm": "Mauro Pajon",
+"corto": "Pajón",
+"rol": 0
+},
+{
+"tm": "Damian Toledo",
+"corto": "Toledo",
+"rol": 0
+},
+{
+"tm": "Mauro Bellone",
+"corto": "Bellone",
+"rol": 0
+},
+{
+"tm": "Emanuel Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Sebastian Ereros",
+"corto": "Ereros",
+"rol": 0
+},
+{
+"tm": "Juan Manuel Cobelli",
+"corto": "Cobelli",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 1186260)"
+},
+{
+"id": 3228,
+"fecha": "2018-04-01",
+"partido": "Chacarita 2-2 Arsenal",
+"jugadores": [
+{
+"tm": "Pedro Fernandez",
+"corto": "Fernández",
+"rol": 0
+},
+{
+"tm": "German Re",
+"corto": "Ré",
+"rol": 0
+},
+{
+"tm": "Federico Rosso",
+"corto": "Rosso",
+"rol": 0
+},
+{
+"tm": "Hernan Petryk",
+"corto": "Petryk",
+"rol": 0
+},
+{
+"tm": "Nahuel Menendez",
+"corto": "Menéndez",
+"rol": 0
+},
+{
+"tm": "Juan Gonzalez",
+"corto": "González",
+"rol": 0
+},
+{
+"tm": "Miguel Mellado",
+"corto": "Mellado",
+"rol": 0
+},
+{
+"tm": "Federico Vismara",
+"corto": "Vismara",
+"rol": 0
+},
+{
+"tm": "Joaquin Ibanez",
+"corto": "Ibáñez",
+"rol": 0
+},
+{
+"tm": "Matias Rodriguez",
+"corto": "Rodríguez",
+"rol": 0
+},
+{
+"tm": "Mauro Matos",
+"corto": "Matos",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 3015112)"
+},
+{
+"id": 3243,
+"fecha": "2018-10-29",
+"partido": "Chacarita 1-0 Gimnasia (J)",
+"jugadores": [
+{
+"tm": "Pedro Fernandez",
+"corto": "Fernández",
+"rol": 0
+},
+{
+"tm": "German Re",
+"corto": "Ré",
+"rol": 0
+},
+{
+"tm": "Alan Robledo",
+"corto": "Robledo",
+"rol": 0
+},
+{
+"tm": "Juan Gonzalez",
+"corto": "González",
+"rol": 0
+},
+{
+"tm": "Nahuel Menendez",
+"corto": "Menéndez",
+"rol": 0
+},
+{
+"tm": "Federico Vismara",
+"corto": "Vismara",
+"rol": 0
+},
+{
+"tm": "Diego Rivero",
+"corto": "Rivero",
+"rol": 0
+},
+{
+"tm": "Leonardo Baima",
+"corto": "Baima",
+"rol": 0
+},
+{
+"tm": "Matias Sanchez",
+"corto": "Sánchez",
+"rol": 0
+},
+{
+"tm": "Francisco Vazzoler",
+"corto": "Vazzoler",
+"rol": 0
+},
+{
+"tm": "Elias Alderete",
+"corto": "Alderete",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 3104874)"
+},
+{
+"id": 3257,
+"fecha": "2019-04-06",
+"partido": "Chacarita 1-0 Atletico Rafaela",
+"jugadores": [
+{
+"tm": "Lucas Bruera",
+"corto": "Bruera",
+"rol": 0
+},
+{
+"tm": "Alan Ledesma",
+"corto": "Ledesma",
+"rol": 0
+},
+{
+"tm": "Alan Robledo",
+"corto": "Robledo",
+"rol": 0
+},
+{
+"tm": "Rodrigo Ayala",
+"corto": "Ayala",
+"rol": 0
+},
+{
+"tm": "Nicolas Alvarez",
+"corto": "Álvarez",
+"rol": 0
+},
+{
+"tm": "Juan Gonzalez",
+"corto": "González",
+"rol": 0
+},
+{
+"tm": "Joaquin Ibanez",
+"corto": "Ibáñez",
+"rol": 0
+},
+{
+"tm": "Diego Rivero",
+"corto": "Rivero",
+"rol": 0
+},
+{
+"tm": "Martin Lucero",
+"corto": "Lucero",
+"rol": 0
+},
+{
+"tm": "Juan Alvarez",
+"corto": "Álvarez",
+"rol": 0
+},
+{
+"tm": "Lucas Cano",
+"corto": "Cano",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 3172533)"
+},
+{
+"id": 3259,
+"fecha": "2019-04-20",
+"partido": "Chacarita 0-0 Central Córdoba (SDE)",
+"jugadores": [
+{
+"tm": "Lucas Bruera",
+"corto": "Bruera",
+"rol": 0
+},
+{
+"tm": "Alan Robledo",
+"corto": "Robledo",
+"rol": 0
+},
+{
+"tm": "Alan Ledesma",
+"corto": "Ledesma",
+"rol": 0
+},
+{
+"tm": "Nicolas Chaves",
+"corto": "Chaves",
+"rol": 0
+},
+{
+"tm": "Juan Gonzalez",
+"corto": "González",
+"rol": 0
+},
+{
+"tm": "Nicolas Alvarez",
+"corto": "Álvarez",
+"rol": 0
+},
+{
+"tm": "Diego Rivero",
+"corto": "Rivero",
+"rol": 0
+},
+{
+"tm": "Joaquin Ibanez",
+"corto": "Ibáñez",
+"rol": 0
+},
+{
+"tm": "Juan Alvarez",
+"corto": "Álvarez",
+"rol": 0
+},
+{
+"tm": "Bautista Pavlovsky",
+"corto": "Pavlovsky",
+"rol": 0
+},
+{
+"tm": "Lucas Cano",
+"corto": "Cano",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 3172600)"
+},
+{
+"id": 3275,
+"fecha": "2020-02-08",
+"partido": "All Boys 1-1 Chacarita",
+"jugadores": [
+{
+"tm": "Emanuel Tripodi",
+"corto": "Tripodi",
+"rol": 0
+},
+{
+"tm": "Diego Menghi",
+"corto": "Menghi",
+"rol": 0
+},
+{
+"tm": "Salvador Sanchez",
+"corto": "Sánchez",
+"rol": 0
+},
+{
+"tm": "Adrian Torres",
+"corto": "Torres",
+"rol": 0
+},
+{
+"tm": "Juan Gonzalez",
+"corto": "González",
+"rol": 0
+},
+{
+"tm": "Brian Mieres",
+"corto": "Mieres",
+"rol": 0
+},
+{
+"tm": "Luciano Perdomo",
+"corto": "Perdomo",
+"rol": 0
+},
+{
+"tm": "Jim Morrison Varela",
+"corto": "Varela",
+"rol": 0
+},
+{
+"tm": "Joaquin Ibanez",
+"corto": "Ibáñez",
+"rol": 0
+},
+{
+"tm": "Lucas Cano",
+"corto": "Cano",
+"rol": 0
+},
+{
+"tm": "Ramiro Fergonzi",
+"corto": "Fergonzi",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 3290150)"
+},
+{
+"id": 3291,
+"fecha": "2021-04-13",
+"partido": "San Martín (T) 0-1 Chacarita",
+"jugadores": [
+{
+"tm": "Emanuel Tripodi",
+"corto": "Tripodi",
+"rol": 0
+},
+{
+"tm": "Ivan Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Ramiro Rios",
+"corto": "Ríos",
+"rol": 0
+},
+{
+"tm": "Rodrigo Insua",
+"corto": "Insúa",
+"rol": 0
+},
+{
+"tm": "Enzo Silcan",
+"corto": "Silcan",
+"rol": 0
+},
+{
+"tm": "Nicolas Chaves",
+"corto": "Chaves",
+"rol": 0
+},
+{
+"tm": "Aaron Barquett",
+"corto": "Barquett",
+"rol": 0
+},
+{
+"tm": "Emanuel Ibanez",
+"corto": "Ibáñez",
+"rol": 0
+},
+{
+"tm": "Alexis Vega",
+"corto": "Vega",
+"rol": 0
+},
+{
+"tm": "Luciano Nieto",
+"corto": "Nieto",
+"rol": 0
+},
+{
+"tm": "Matias Gallegos",
+"corto": "Gallegos",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 3542821)"
+},
+{
+"id": 3293,
+"fecha": "2021-04-26",
+"partido": "Riestra 4-0 Chacarita",
+"jugadores": [
+{
+"tm": "Federico Losas",
+"corto": "Losas",
+"rol": 0
+},
+{
+"tm": "Diego Menghi",
+"corto": "Menghi",
+"rol": 0
+},
+{
+"tm": "Ramiro Rios",
+"corto": "Ríos",
+"rol": 0
+},
+{
+"tm": "Enzo Silcan",
+"corto": "Silcan",
+"rol": 0
+},
+{
+"tm": "Nicolas Chaves",
+"corto": "Chaves",
+"rol": 0
+},
+{
+"tm": "Federico Mazur",
+"corto": "Mazur",
+"rol": 0
+},
+{
+"tm": "Emanuel Ibanez",
+"corto": "Ibáñez",
+"rol": 0
+},
+{
+"tm": "Alexis Vega",
+"corto": "Vega",
+"rol": 0
+},
+{
+"tm": "Luciano Nieto",
+"corto": "Nieto",
+"rol": 0
+},
+{
+"tm": "Matias Sanchez",
+"corto": "Sánchez",
+"rol": 0
+},
+{
+"tm": "Matias Gallegos",
+"corto": "Gallegos",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 3552939)"
+},
+{
+"id": 3297,
+"fecha": "2021-06-10",
+"partido": "Deportivo Maipú 1-2 Chacarita",
+"jugadores": [
+{
+"tm": "Emanuel Tripodi",
+"corto": "Tripodi",
+"rol": 0
+},
+{
+"tm": "Ivan Centurion",
+"corto": "Centurión",
+"rol": 0
+},
+{
+"tm": "Alan Robledo",
+"corto": "Robledo",
+"rol": 0
+},
+{
+"tm": "Nicolas Chaves",
+"corto": "Chaves",
+"rol": 0
+},
+{
+"tm": "Enzo Silcan",
+"corto": "Silcan",
+"rol": 0
+},
+{
+"tm": "Federico Mazur",
+"corto": "Mazur",
+"rol": 0
+},
+{
+"tm": "Emanuel Ibanez",
+"corto": "Ibáñez",
+"rol": 0
+},
+{
+"tm": "Alexis Vega",
+"corto": "Vega",
+"rol": 0
+},
+{
+"tm": "Gonzalo Groba",
+"corto": "Groba",
+"rol": 0
+},
+{
+"tm": "Juan Ignacio Baiardino",
+"corto": "Baiardino",
+"rol": 0
+},
+{
+"tm": "Ramiro Fergonzi",
+"corto": "Fergonzi",
+"rol": 0
+}
+],
+"fuente": "Transfermarkt (ficha 3558569)"
+}
+],
+"sin_cruce": [
+[
+"3840474",
+"27/08/2000",
+"Racing Club",
+[
+2,
+1
+],
+"A"
+],
+[
+"3771796",
+"01/08/2002",
+"Vélez Sarsfield",
+[
+0,
+0
+],
+"H"
+],
+[
+"3793003",
+"08/10/2002",
+"Unión Santa Fe",
+[
+1,
+2
+],
+"A"
+],
+[
+"4615095",
+"25/06/2005",
+"Def. Belgrano",
+[
+4,
+5
+],
+"A"
+],
+[
+"4553070",
+"05/06/2007",
+"Tigre",
+[
+3,
+2
+],
+"H"
+],
+[
+"4553071",
+"09/06/2007",
+"Tigre",
+[
+1,
+0
+],
+"A"
+],
+[
+"1044001",
+"14/08/2010",
+"Unión Santa Fe",
+[
+1,
+0
+],
+"H"
+],
+[
+"1044022",
+"28/08/2010",
+"Aldosivi",
+[
+1,
+1
+],
+"H"
+],
+[
+"1044071",
+"02/10/2010",
+"San Martín (T)",
+[
+0,
+0
+],
+"A"
+],
+[
+"3949961",
+"24/11/2011",
+"Unión Santa Fe",
+[
+2,
+1
+],
+"H"
+],
+[
+"3949926",
+"15/03/2012",
+"San Lorenzo",
+[
+2,
+4
+],
+"H"
+],
+[
+"3967949",
+"20/02/2013",
+"Godoy Cruz",
+[
+7,
+6
+],
+"A"
+],
+[
+"3968063",
+"02/04/2014",
+"Instituto ACC",
+[
+3,
+1
+],
+"A"
+],
+[
+"2554914",
+"22/03/2015",
+"Central Córdoba",
+[
+2,
+0
+],
+"H"
+],
+[
+"3958281",
+"19/05/2015",
+"Newell's",
+[
+0,
+2
+],
+"A"
+],
+[
+"3932565",
+"22/07/2015",
+"All Boys",
+[
+2,
+1
+],
+"H"
+],
+[
+"3929297",
+"20/08/2015",
+"Defensa",
+[
+0,
+1
+],
+"H"
+],
+[
+"2763973",
+"21/09/2016",
+"Estudiantes SL",
+[
+1,
+1
+],
+"H"
+],
+[
+"3459212",
+"06/07/2017",
+"Guillermo Brown",
+[
+1,
+0
+],
+"A"
+],
+[
+"3409719",
+"15/05/2018",
+"Dep. Maipú",
+[
+0,
+3
+],
+"H"
+],
+[
+"3967112",
+"06/06/2023",
+"CA Talleres",
+[
+2,
+0
+],
+"A"
+],
+[
+"4244646",
+"21/02/2024",
+"Tigre",
+[
+4,
+5
+],
+"A"
+],
+[
+"4331657",
+"08/06/2024",
+"San Lorenzo",
+[
+2,
+0
+],
+"A"
+]
+]
+}
