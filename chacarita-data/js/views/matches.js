@@ -16,7 +16,7 @@ route("partidos", (r, page) => {
       f.cd ? h("p", { style: { margin: "0 0 12px" } }, h("span.pill.pill--red", ["Cancha: " + f.cd, h("button", { type: "button", "aria-label": "Quitar filtro de cancha", style: { border: 0, background: "none", color: "inherit", padding: "0 0 0 6px", fontWeight: 800 }, onclick: () => { f.cd = ""; draw(); } }, "×")])) : null,
       h("div.row", { style: { justifyContent: "space-between", margin: "4px 0 14px" } }, [
         h("p", { style: { margin: 0 } }, [h("b.num", n(list.length)), list.length === 1 ? " partido" : " partidos", list.length ? h("span.muted", ` · ${n(s.g)} G, ${n(s.e)} E, ${n(s.p)} P · goles ${n(s.gf)}–${n(s.gc)} · efectividad ${pct(s.ef, 1)}`) : null]),
-        h("div.row", [legendGEP(), list.length ? h("button.btn.btn--ghost.btn--sm", { type: "button", onclick: () => csv(list) }, "Descargar CSV") : null]),
+        h("div.row", [legendGEP(), list.length && !window.__EMBEDDED__ ? h("button.btn.btn--ghost.btn--sm", { type: "button", onclick: () => csv(list) }, "Descargar CSV") : null]),
       ]),
       list.length ? h("div", { style: { marginBottom: "20px" } }, stackBar(s, { tall: true })) : null,
       sortTable([

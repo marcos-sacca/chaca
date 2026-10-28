@@ -117,7 +117,7 @@ export function matchBrowser(list, { limit = 15, order = -1 } = {}) {
 /** Cambia el hash sin disparar la navegación (para filtros). */
 export function setQuery(path, q) {
   const qs = new URLSearchParams(Object.entries(q).filter(([, v]) => v !== "" && v != null)).toString();
-  history.replaceState(null, "", `#/${path}${qs ? "?" + qs : ""}`);
+  try { history.replaceState(null, "", `#/${path}${qs ? "?" + qs : ""}`); } catch { /* en un marco restringido la dirección no se actualiza */ }
 }
 
 export const statRow = (items) => h("div.stats", items.map(([k, v, d]) => h("div.stat", [h("span.stat__k", k), h("span.stat__v.num", String(v)), d ? h("span.stat__d", d) : null])));

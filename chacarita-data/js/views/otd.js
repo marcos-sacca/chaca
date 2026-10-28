@@ -14,7 +14,7 @@ route("efemerides", (r, page) => {
   const draw = () => {
     dd = Math.min(dd, dim(mm));
     const md = `${String(mm).padStart(2, "0")}-${String(dd).padStart(2, "0")}`;
-    history.replaceState(null, "", `#/efemerides/${md}`);
+    try { history.replaceState(null, "", `#/efemerides/${md}`); } catch { /* ídem */ }
     const list = onDay(md);
     const round = S.matches.filter((m) => ROUND.includes(year - m.y)).sort((a, b) => a.md.localeCompare(b.md));
     const upcoming = round.filter((m) => m.md >= md).concat(round.filter((m) => m.md < md));
