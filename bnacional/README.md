@@ -10,7 +10,7 @@ Sigue la estructura de la planilla «B Nacional histórica» (hojas `partidos`, 
 | `B_Nacional_historico.xlsx` | Todo junto en un libro de Excel (una hoja por CSV, con filtros). |
 | `tabla_general.csv` | **Tabla histórica**: PJ, PG, PE, PP, GF, GC, DG, descuentos y puntos (con el sistema de cada temporada y a 3 por victoria). |
 | `tabla_temporada.csv` | Tabla de cada temporada y de cada fase (zonas, Apertura/Clausura, etapas). |
-| `ranking_goleadores.csv` | Goleadores históricos (de las crónicas, 1986/87 a 2018/19). |
+| `ranking_goleadores.csv` | Goleadores históricos (crónicas hasta 2018/19 y Solo Ascenso desde 2017/18). |
 | `partidos.csv`, `goleadores.csv`, `reducidos.csv` | Un partido / un gol por fila. Los de reducidos, promociones y cruces fuera de zona están en `reducidos.csv` y no suman en las tablas. |
 | `temporadas.csv`, `sanciones.csv`, `equipos.csv`, `estadios.csv` | Datos de cada temporada, descuentos de puntos (leídos de las notas de la fuente), clubes y canchas. |
 | `control_fuente.csv` | Puntos de cada equipo según la crónica vs. puntos calculados con los partidos cargados (`OK` / `Revisar`). |
@@ -22,7 +22,8 @@ Sigue la estructura de la planilla «B Nacional histórica» (hojas `partidos`, 
 
 1. **Crónicas de José Carluccio, «Historia y Fútbol»** (josecarluccio.blogspot.com): resultados, goleadores, ciudades y notas de 1986/87 a 2018/19. Es la misma fuente de la planilla original.
 2. **RSSSF – Argentina Second Level**: segunda fuente de resultados 1986/87 a 2007/08.
-3. **Transfermarkt**: segunda fuente 2008/09 a 2018/19 y única fuente de resultados de 2017/18 y de 2019/20 en adelante (sin goleadores).
+3. **Transfermarkt**: segunda fuente 2008/09 a 2018/19 y control cruzado de las temporadas que salen de Solo Ascenso.
+4. **Solo Ascenso** (carpeta `ascenso/`): síntesis de cada partido con goleadores, árbitro y cancha. Fuente principal de 2017/18, 2019/20, Transición 2020 y 2021 a 2026, y control cruzado de 2014 a 2018/19 (coincide en el 99,5 % o más de los partidos).
 
 ## Cómo se controla
 
@@ -45,9 +46,9 @@ Para corregir o agregar algo a mano: editar el CSV correspondiente en `data/` **
 
 ## Límites conocidos
 
-* **Goleadores**: solo hasta 2018/19 (la crónica no sigue). 2017/18 y 2019/20 en adelante tienen solo resultados.
+* **Goleadores**: en todas las temporadas. 2017/18 y desde 2019/20 salen de Solo Ascenso; hay partidos con goleadores incompletos en la fuente (se marcan «Revisar» en `partidos.csv`).
 * **Formatos con zonas desde 2021**: los partidos están, pero la tabla de temporada de esos años mezcla las zonas (hace falta cargar a qué zona pertenece cada equipo).
-* **Transición 2014** no está en Transfermarkt: solo crónica.
+* **Transición 2020** (noviembre de 2020 a febrero de 2021) y las zonas de 2017/18 en adelante no están separadas en tablas por zona; el partido sí está.
 * **1996/97 y otros formatos con etapas**: algunas tablas publicadas incluyen puntos extra o arrastran puntos de etapas anteriores; figuran como `Revisar`.
 * **Canchas**: se asumen como la del local salvo que la nota diga otra cosa (`Origen dato cancha`).
 * **Jugadores**: los nombres se unifican por equipo (iniciales, tildes, apellido); puede haber duplicados que revisar.
