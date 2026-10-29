@@ -747,5 +747,40 @@
   "file": "aac7ul1626207505.png",
   "source": "TheSportsDB",
   "page": "https://www.thesportsdb.com/team/142503"
+ },
+ "deportivo-italiano": {
+  "img": "assets/img/crests/deportivo-italiano.png",
+  "article": "Club Sportivo Italiano",
+  "file": "Club Sportivo Italiano (Argentina) logo.svg",
+  "source": "Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Club_Sportivo_Italiano_%28Argentina%29_logo.svg"
+ },
+ "racing-de-nueva-italia": {
+  "img": "assets/img/crests/racing-de-nueva-italia.png",
+  "article": "Racing de Córdoba",
+  "file": "Escudo del Club Racing de Córdoba.svg",
+  "source": "Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Escudo_del_Club_Racing_de_C%C3%B3rdoba.svg"
+ },
+ "sacachispas": {
+  "img": "assets/img/crests/sacachispas.png",
+  "article": "Sacachispas Fútbol Club",
+  "file": "Logo del Sacachispas Fútbol Club.svg",
+  "source": "Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Logo_del_Sacachispas_F%C3%BAtbol_Club.svg"
+ },
+ "tiro-federal-de-rosario": {
+  "img": "assets/img/crests/tiro-federal-de-rosario.png",
+  "article": "Tiro Federal (Rosario)",
+  "file": "Tiro federal rosario logo.png",
+  "source": "Wikimedia (en.wikipedia)",
+  "page": "https://en.wikipedia.org/wiki/File:Tiro_federal_rosario_logo.png"
+ },
+ "estacion-quequen": {
+  "img": "assets/img/crests/estacion-quequen.png",
+  "article": "Club Social y Deportivo Estación Quequén",
+  "file": "Estacion Quequen.png",
+  "source": "Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Estacion_Quequen.png"
  }
 }
