@@ -4,9 +4,9 @@ export const S = {};
 const get = async (name) => (await fetch(`data/${name}.json`)).json();
 
 export async function load() {
-  const [meta, teams, seasons, phases, players, matches, scorers, general, fotos, videos] = await Promise.all(
-    ["meta", "teams", "seasons", "phases", "players", "matches", "scorers", "general", "fotos", "videos"].map((x) => get(x).catch(() => (x === "fotos" ? { entries: {}, general: [] } : x === "videos" ? [] : null))));
-  Object.assign(S, { meta, teams, seasons, phases, players, matches, scorers, scorers_raw: scorers, general, fotos, videos });
+  const [meta, teams, seasons, phases, players, matches, scorers, general, fotos, videos, crests, planteles, galeria] = await Promise.all(
+    ["meta", "teams", "seasons", "phases", "players", "matches", "scorers", "general", "fotos", "videos", "crests", "planteles", "galeria"].map((x) => get(x).catch(() => (x === "fotos" ? { entries: {}, general: [] } : x === "videos" ? [] : x === "galeria" ? { general: [], clubs: {} } : {}))));
+  Object.assign(S, { meta, teams, seasons, phases, players, matches, scorers, scorers_raw: scorers, general, fotos, videos, crests, planteles, galeria });
   S.teamBy = new Map(teams.map((t, i) => [t.s, i]));
   S.seasonBy = new Map(seasons.map((s, i) => [s.id, i]));
   // partidos por temporada y por club
@@ -25,6 +25,7 @@ export async function load() {
   // ascensos con foto
   S.ascensos = [];
   seasons.forEach((s, si) => s.promoted.forEach(([t, how]) => S.ascensos.push({ si, t, how, season: s, key: `${s.id}|${teams[t].s}` })));
+  S.crest = (ti) => S.crests[S.teams[ti].s] || null;
   S.photo = (key) => fotos.entries[key] || null;
   S.clubPhoto = (slug) => fotos.clubs?.[slug] || null;
   S.index = [

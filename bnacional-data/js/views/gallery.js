@@ -1,26 +1,36 @@
 import { route } from "../app.js";
 import { S } from "../store.js";
 import { h, imgSrc } from "../util.js";
-import { head, sec, T, openPhoto } from "./common.js";
+import { head, sec, T, openPhoto, crest, href } from "./common.js";
 import { race } from "../race.js";
 
 route("fotos", async () => {
   const page = h("div.wrap.page");
-  const seen = new Set(), items = [];
-  const add = (ph, title) => { if (!ph || seen.has(ph.img)) return; seen.add(ph.img); items.push({ ph, title }); };
-  (S.fotos.general || []).forEach((p) => add(p, "La categoría"));
-  S.ascensos.slice().reverse().forEach((a) => add(S.photo(a.key), `${T(a.t).short} · ${a.season.label}`));
-  Object.entries(S.fotos.clubs || {}).forEach(([slug, p]) => add(p, T(S.teamBy.get(slug))?.short));
-  page.append(head("Fotos", "La categoría en imágenes", "Imágenes libres de Wikimedia Commons. Cada una muestra su autor y licencia al abrirla."));
-  page.append(items.length ? h("div.gallery", items.map(({ ph, title }) => h("figure", [h("button", { type: "button", "aria-label": "Ampliar: " + ph.caption, onclick: () => openPhoto(ph, title) }, h("img", { src: imgSrc(ph.img), alt: ph.alt || ph.caption, loading: "lazy", decoding: "async" })), h("figcaption", [h("b", title), h("span", ph.caption)])]))) : h("p.muted", "Todavía no hay fotos cargadas."));
+  const clubs = Object.entries(S.galeria.clubs || {}).map(([slug, L]) => ({ slug, ti: S.teamBy.get(slug), L })).filter((c) => c.ti != null).sort((a, b) => T(a.ti).short.localeCompare(T(b.ti).short));
+  const nfotos = clubs.reduce((n, c) => n + c.L.length, 0);
+  const sel = h("select#gsel", { "aria-label": "Ir a un club", onchange: (e) => { const el = document.getElementById("g-" + e.target.value); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); } }, [h("option", { value: "" }, "Ir a un club…"), ...clubs.map((c) => h("option", { value: c.slug }, `${T(c.ti).short} (${c.L.length})`))]);
+  page.append(head("Fotos", "Las fotos, club por club", `${nfotos} imágenes libres de Wikimedia Commons agrupadas por club. Cada una muestra su autor y licencia al abrirla.`), h("div.gnav", [sel, h("a.btn.btn--ghost", { href: "#videos" }, "Ver videos")]));
+  for (const c of clubs) {
+    page.append(h("section.gclub", { id: "g-" + c.slug }, [
+      h("div.gclub__h", [crest(c.ti), h("h2", T(c.ti).n), h("a.link", { href: href.club(c.ti) }, "Historia del club →")]),
+      h("div.gallery", c.L.map((ph) => h("figure", [h("button", { type: "button", "aria-label": "Ampliar: " + ph.caption, onclick: () => openPhoto(ph, T(c.ti).short) }, h("img", { src: imgSrc(ph.img), alt: ph.alt || ph.caption, loading: "lazy", decoding: "async" })), h("figcaption", [h("b", ph.kind === "temporada" ? "De la temporada" : ph.kind === "general" ? "Partido" : "Del club"), h("span", ph.caption)])]))),
+    ]));
+  }
   return { page, title: "Fotos" };
 });
 
+const TIPOS = [["goles", "Compilados de goles", "Todos los goles de cada fecha y resúmenes de la B Nacional."], ["final", "Finales, festejos y ascensos", "Los partidos que definieron los ascensos."], ["partido", "Partidos de archivo", "Encuentros completos de la historia de la categoría."]];
 route("videos", async () => {
-  const page = h("div.wrap.page");
-  page.append(head("Videos", "Finales, festejos y ascensos", "Los videos se ven en YouTube; el botón abre cada uno en una pestaña nueva."));
-  const vs = S.videos || [];
-  page.append(vs.length ? h("div.vgrid", vs.map((v) => h("a.vcard", { href: `https://www.youtube.com/watch?v=${v.id}`, target: "_blank", rel: "noopener" }, [h("div.vcard__img", [h("img", { src: imgSrc(`assets/img/videos/${v.id}.jpg`), alt: "", loading: "lazy" }), h("span.vcard__play", { "aria-hidden": "true" }, "▶")]), h("div.vcard__txt", [h("b", v.title), h("span", v.year)])]))) : h("p.muted", "Todavía no hay videos cargados."));
+  const page = h("div.wrap.page"), vs = S.videos || [];
+  page.append(head("Videos", "Goles, finales y ascensos", `${vs.length} videos. Se ven en YouTube; cada uno abre en una pestaña nueva.`));
+  const card = (v) => h("a.vcard", { href: `https://www.youtube.com/watch?v=${v.id}`, target: "_blank", rel: "noopener" }, [h("div.vcard__img", [h("img", { src: imgSrc(`assets/img/videos/${v.id}.jpg`), alt: "", loading: "lazy" }), h("span.vcard__play", { "aria-hidden": "true" }, "▶")]), h("div.vcard__txt", [h("b", v.title), h("span", [v.year, v.club && S.teamBy.get(v.club) != null ? ` · ${T(S.teamBy.get(v.club)).short}` : ""])])]);
+  for (const [k, title, desc] of TIPOS) {
+    const L = vs.filter((v) => v.tipo === k); if (!L.length) continue;
+    if (k === "final") { // por club
+      const by = new Map(); for (const v of L) { const key = v.club || "otros"; if (!by.has(key)) by.set(key, []); by.get(key).push(v); }
+      page.append(h("section.vgroup", [h("h2", title), h("p.muted", desc), ...[...by.entries()].sort((a, b) => (S.teamBy.has(a[0]) ? T(S.teamBy.get(a[0])).short : "zz").localeCompare(S.teamBy.has(b[0]) ? T(S.teamBy.get(b[0])).short : "zz")).map(([club, V]) => h("div", { style: { marginTop: "22px" } }, [S.teamBy.has(club) ? h("div.gclub__h", [crest(S.teamBy.get(club)), h("h3", T(S.teamBy.get(club)).n)]) : null, h("div.vgrid", { style: { marginTop: "0" } }, V.map(card))]))]));
+    } else page.append(h("section.vgroup", [h("h2", title), h("p.muted", desc), h("div.vgrid", { style: { marginTop: "0" } }, L.map(card))]));
+  }
   page.append(h("p.cap", "Los videos son de terceros y están en YouTube. Este sitio solo enlaza."));
   return { page, title: "Videos" };
 });

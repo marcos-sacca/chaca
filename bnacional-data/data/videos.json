@@ -2,56 +2,176 @@
 {
 "id": "3BSusCmkh6U",
 "title": "Tigre campeón 2021 – Primera Nacional",
-"year": "2021"
+"year": "2021",
+"tipo": "final",
+"club": "tigre"
 },
 {
 "id": "YF4ajvq7_0g",
 "title": "Aldosivi ascendió a Primera – Show Nacional especial 2024",
-"year": "2024"
+"year": "2024",
+"tipo": "final",
+"club": "aldosivi-de-mar-del-plata"
 },
 {
 "id": "oshLdjZeh_Y",
 "title": "Aldosivi 2 – 0 San Martín (T): la final de 2024",
-"year": "2024"
+"year": "2024",
+"tipo": "final",
+"club": "aldosivi-de-mar-del-plata"
 },
 {
 "id": "PhUsoRVlXh8",
 "title": "Estudiantes de Río Cuarto festeja el ascenso",
-"year": "2025"
+"year": "2025",
+"tipo": "final",
+"club": "estudiantes-de-rio-cuarto"
 },
 {
 "id": "12XsGVuVy-I",
 "title": "La gran definición de la Zona B: San Martín (T) – Aldosivi",
-"year": "2024"
+"year": "2024",
+"tipo": "final",
+"club": "aldosivi-de-mar-del-plata"
 },
 {
 "id": "lyDifwHhpIw",
 "title": "Ascenso de Chaca: Chacarita – Argentinos Juniors",
-"year": "2016/17"
+"year": "2016/17",
+"tipo": "final",
+"club": "chacarita-juniors"
 },
 {
 "id": "SoFdmB40dMs",
 "title": "Talleres campeón, con la narración de Houriet",
-"year": "2016"
+"year": "2016",
+"tipo": "final",
+"club": "talleres-de-cordoba"
 },
 {
 "id": "eE7hYHWootQ",
 "title": "El ascenso de Central 2013: la película",
-"year": "2012/13"
+"year": "2012/13",
+"tipo": "final",
+"club": "rosario-central"
 },
 {
 "id": "PUJNPVa1CAg",
 "title": "Los festejos de Rosario Central, campeón de la B Nacional",
-"year": "2012/13"
+"year": "2012/13",
+"tipo": "final",
+"club": "rosario-central"
 },
 {
 "id": "TIGpN1DVtEw",
 "title": "River Plate 2 – 0 Almirante Brown: el partido del ascenso",
-"year": "2011/12"
+"year": "2011/12",
+"tipo": "final",
+"club": "river-plate"
 },
 {
 "id": "bHKmnDDZW2M",
 "title": "Quilmes vs Chacarita, B Nacional 1997/98",
-"year": "1997/98"
+"year": "1997/98",
+"tipo": "partido",
+"club": "quilmes"
+},
+{
+"id": "JGJMtBDgQwQ",
+"title": "Todos los goles. Fecha 1. Primera B Nacional 2015",
+"year": "2015",
+"tipo": "goles",
+"club": null
+},
+{
+"id": "W5RT3s5wBDo",
+"title": "Todos los goles. Fecha 17. Primera B Nacional 2015",
+"year": "2015",
+"tipo": "goles",
+"club": null
+},
+{
+"id": "hGCxB8EbeL8",
+"title": "Todos los goles. Fecha 24. Primera B Nacional 2015",
+"year": "2015",
+"tipo": "goles",
+"club": null
+},
+{
+"id": "GvKz9dfRZJE",
+"title": "Todos los goles. Fecha 34. Primera B Nacional 2015",
+"year": "2015",
+"tipo": "goles",
+"club": null
+},
+{
+"id": "PuUaCDGsXMc",
+"title": "Todos los goles. Final del Reducido, ida. B Nacional 2015",
+"year": "2015",
+"tipo": "goles",
+"club": null
+},
+{
+"id": "HZin2Om0hHM",
+"title": "Todos los goles: B Nacional 2016/17, fecha 7 (postergada)",
+"year": "2016/17",
+"tipo": "goles",
+"club": null
+},
+{
+"id": "AyvAXzwYLGs",
+"title": "Todos los goles: B Nacional 2016/17, fecha 25",
+"year": "2016/17",
+"tipo": "goles",
+"club": null
+},
+{
+"id": "G2V27Bap_8U",
+"title": "Todos los goles: B Nacional 2016/17, fecha 28",
+"year": "2016/17",
+"tipo": "goles",
+"club": null
+},
+{
+"id": "mBHaYA2x0xw",
+"title": "Todos los goles: B Nacional 2016/17, fecha 34",
+"year": "2016/17",
+"tipo": "goles",
+"club": null
+},
+{
+"id": "avGiRMtLIgA",
+"title": "Todos los goles: B Nacional 2016/17, fecha 35",
+"year": "2016/17",
+"tipo": "goles",
+"club": null
+},
+{
+"id": "tsIjmgz9wI4",
+"title": "Todos los goles: B Nacional 2017, fecha 39",
+"year": "2017",
+"tipo": "goles",
+"club": null
+},
+{
+"id": "tXFSY3cZXHI",
+"title": "Así se definió la B Nacional 2018 (resumen de la fecha 25)",
+"year": "2018",
+"tipo": "goles",
+"club": null
+},
+{
+"id": "0afEyN-P2o4",
+"title": "Los Andes 1994: los mejores goles",
+"year": "1994",
+"tipo": "goles",
+"club": "los-andes"
+},
+{
+"id": "NKwNDDJ6Z_E",
+"title": "Nacional B 1990/91, fecha 9: Cipolletti 2 – 1 Atlético de Rafaela",
+"year": "1990/91",
+"tipo": "partido",
+"club": null
 }
 ]

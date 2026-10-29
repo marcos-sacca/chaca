@@ -1,14 +1,15 @@
 import { route } from "../app.js";
 import { S } from "../store.js";
 import { h, n, fshort, fdate } from "../util.js";
-import { ascCard, head, sec, table, T, href, pill } from "./common.js";
+import { ascCard, head, sec, table, T, href, pill, crest, plantelBox } from "./common.js";
+import { imgSrc } from "../util.js";
 
 route("temporadas", async () => {
   const page = h("div.wrap.page");
   page.append(head("Temporadas", "42 torneos, de 1986/87 a hoy", "Desde 2015 el torneo es anual. Antes se jugaba de agosto a junio, a veces con Apertura y Clausura o con zonas."));
   page.append(h("div.sgrid", [...S.seasons.keys()].reverse().map((si) => {
     const s = S.seasons[si], ch = s.champion != null ? T(s.champion).short : "Sin campeón";
-    return h("a.scard", { href: href.season(si) }, [h("b.scard__y", s.label), h("span.scard__c", [h("small", s.champion != null ? "Campeón" : "Torneo"), ch]), h("span.scard__m", `${s.teams || "?"} equipos · ${n(s.played)} partidos`), s.promoted.length ? h("span.scard__p", `Subieron: ${s.promoted.map((p) => T(p[0]).short).join(", ")}`) : (si === S.seasons.length - 1 ? h("span.scard__p", "En disputa") : null)]);
+    return h("a.scard", { href: href.season(si) }, [h("div", { style: { display: "flex", justifyContent: "space-between", alignItems: "center" } }, [h("b.scard__y", s.label), s.champion != null && S.crest(s.champion) ? h("img.scard__crest", { src: imgSrc(S.crest(s.champion).img), alt: "", loading: "lazy" }) : null]), h("span.scard__c", [h("small", s.champion != null ? "Campeón" : "Torneo"), ch]), h("span.scard__m", `${s.teams || "?"} equipos · ${n(s.played)} partidos`), s.promoted.length ? h("span.scard__p", `Subieron: ${s.promoted.map((p) => T(p[0]).short).join(", ")}`) : (si === S.seasons.length - 1 ? h("span.scard__p", "En disputa") : null)]);
   })));
   return { page, title: "Temporadas" };
 });
@@ -19,7 +20,7 @@ route("t", async (r) => {
   page.append(h("nav.crumbs", [h("a", { href: "#temporadas" }, "Temporadas"), " / ", s.label]));
   page.append(head(s.label, s.champion != null ? `Campeón: ${T(s.champion).n}` : "Primera Nacional", `${s.teams || ""} equipos · ${n(s.played)} partidos de fase regular${s.sanciones.length ? " · con descuentos de puntos" : ""}.`));
   // quienes subieron
-  if (s.promoted.length) page.append(sec("Subieron a Primera", h("div.agrid", s.promoted.map(([t, how]) => ascCard({ si, t, how, season: s, key: `${s.id}|${S.teams[t].s}` })))));
+  if (s.promoted.length) { const as = s.promoted.map(([t, how]) => ({ si, t, how, season: s, key: `${s.id}|${S.teams[t].s}` })); page.append(sec("Subieron a Primera", [h("div.agrid", as.map((a) => ascCard(a))), h("div.plantels", as.map((a) => plantelBox(a)))])); }
   else if (si === S.seasons.length - 1) page.append(sec("Ascensos", h("p.muted", "El torneo está en juego. Los ascensos se definen al final de la temporada.")));
   // tablas
   if (s.tables.length) {
@@ -29,7 +30,7 @@ route("t", async (r) => {
     const drawT = () => {
       const t = s.tables[cur];
       box.replaceChildren(table([{ label: "Pos." }, { label: "Club" }, ...["PJ", "PG", "PE", "PP", "GF", "GC", "DG"].map((l) => ({ label: l, cls: "num" })), { label: "Pts", cls: "num" }],
-        t.rows.map(([pos, ti, pj, pg, pe, pp, gf, gc, dg, dd, pts]) => h("tr" + (promoted.has(ti) ? ".is-up" : ""), [h("td.num", pos), h("td", h("a", { href: href.club(ti) }, T(ti).short)), ...[pj, pg, pe, pp, gf, gc].map((v) => h("td.num", v)), h("td.num", (dg > 0 ? "+" : "") + dg), h("td.num", h("b", pts + (dd ? ` (−${dd})` : "")))]))));
+        t.rows.map(([pos, ti, pj, pg, pe, pp, gf, gc, dg, dd, pts]) => h("tr" + (promoted.has(ti) ? ".is-up" : ""), [h("td.num", pos), h("td", [crest(ti), h("a", { href: href.club(ti) }, T(ti).short)]), ...[pj, pg, pe, pp, gf, gc].map((v) => h("td.num", v)), h("td.num", (dg > 0 ? "+" : "") + dg), h("td.num", h("b", pts + (dd ? ` (−${dd})` : "")))]))));
     };
     drawT();
     page.append(sec("Tabla de posiciones", [s.tables.length > 1 ? tabs : null, box, h("p.cap", promoted.size ? "Las filas celestes son clubes que ascendieron." : ""), s.sanciones.length ? h("p.cap", "Descuentos de puntos: " + s.sanciones.filter((x) => x.club != null).map((x) => `${T(x.club).short} −${x.pts}`).join(", ") + ".") : null]));

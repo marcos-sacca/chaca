@@ -1,7 +1,7 @@
 import { route } from "../app.js";
 import { S, search } from "../store.js";
 import { h, n, countUp, debounce } from "../util.js";
-import { ascCard, sec, T, href } from "./common.js";
+import { ascCard, sec, T, href, crest } from "./common.js";
 import { race } from "../race.js";
 
 function stairs() {
@@ -42,7 +42,7 @@ route("inicio", async () => {
 
   page.append(h("div.wrap", sec("La tabla histórica en movimiento", [h("p.muted", "Cómo se fue armando la tabla de todos los tiempos, temporada por temporada. Mirá quién lidera en cada época o movelo vos."), race({ rows: 10, autoplay: true, compact: true })], h("a.link", { href: "#carrera" }, "Pantalla completa →"))));
 
-  page.append(h("div.wrap", sec("Todos los campeones", h("ol.champs", champs.map(({ s, si }) => h("li", h("a", { href: href.season(si) }, [h("span.champs__y", s.label), h("span.champs__n", T(s.champion).short), s.promoted.length > 1 ? h("span.champs__p", "también subieron " + s.promoted.filter((p) => p[0] !== s.champion).map((p) => T(p[0]).short).join(", ")) : null])))), h("a.link", { href: "#temporadas" }, "Todas las temporadas →"))));
+  page.append(h("div.wrap", sec("Todos los campeones", h("ol.champs", champs.map(({ s, si }) => h("li", h("a", { href: href.season(si) }, [h("span.champs__y", s.label), h("span.champs__n", [crest(s.champion), T(s.champion).short]), s.promoted.length > 1 ? h("span.champs__p", "también subieron " + s.promoted.filter((p) => p[0] !== s.champion).map((p) => T(p[0]).short).join(", ")) : null])))), h("a.link", { href: "#temporadas" }, "Todas las temporadas →"))));
 
   const top = [...S.general].sort((a, b) => b[12] - a[12]).slice(0, 10), mx = top[0][12];
   const left = h("div", [h("div.sec__head", [h("h2", "Tabla histórica"), h("a.link", { href: "#tabla" }, "Completa →")]), h("p.muted", "Puntos con 3 por victoria, para comparar todas las épocas."), h("ol.bars", top.map((r, i) => h("li", h("a", { href: href.club(r[1]) }, [h("span.bars__pos", i + 1), h("span.bars__n", T(r[1]).short), h("span.bars__bar", h("i", { style: { width: (r[12] / mx) * 100 + "%", animationDelay: 0.3 + i * 0.07 + "s" } })), h("span.bars__v", n(r[12]))]))))]);

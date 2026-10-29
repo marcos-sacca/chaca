@@ -13,6 +13,7 @@ route("datos", async () => {
     li("RSSSF y Transfermarkt", ": segunda fuente para corregir marcadores que no cerraban con la tabla publicada."),
     li("Wikipedia", ": lista de clubes que ascendieron cada año y campeones."),
     li("Wikimedia Commons", ": las fotos, con su autor y licencia."),
+    li("TheSportsDB y Wikipedia", ": los escudos. Son marcas de cada club y se muestran solo para identificarlo."),
   ])));
   page.append(sec("Cómo se controló", h("ul.plain", [
     li("Tablas: ", "cada tabla calculada se compara con la publicada. Hay unas 130 tablas de equipos que todavía no coinciden (sobre todo 1996/97 y los torneos de transición) y están marcadas en los archivos de datos."),
@@ -21,6 +22,8 @@ route("datos", async () => {
     li("Ascensos: ", "2026 sigue en disputa; el 2019/20 no tuvo ascensos por la pandemia; en la Transición 2014 subieron diez clubes porque Primera pasó de 20 a 30."),
   ])));
   page.append(sec("Fotos", h("p", "Las fotos vienen de Wikimedia Commons con licencia libre. Cuando no hay una foto de la temporada se muestra una del club (estadio, plantel o hinchada), y si tampoco existe, el club aparece con sus iniciales."), h("p.cap", `Fotos cargadas: ${new Set([...Object.values(S.fotos.entries || {}), ...Object.values(S.fotos.clubs || {}), ...(S.fotos.general || [])].map((p) => p.img)).size}.`)));
+  const nc = Object.keys(S.crests || {}).length;
+  page.append(sec("Escudos y planteles", h("p", `Hay escudo de ${nc} de ${M.clubes} clubes; los que faltan aparecen con sus iniciales. Los planteles de cada ascenso salen de las fichas de partido de Solo Ascenso (titulares y suplentes que entraron), por eso existen desde 2014; en los ascensos anteriores se muestran los goleadores del club en esa temporada.`)));
   page.append(sec("Actualizar", h("p", "Los datos se regeneran con un solo comando (python3 -I bnacional/tools/run.py) y el sitio con bnacional-data/tools/build_data.py. El repositorio explica cada paso.")));
   return { page, title: "Datos" };
 });

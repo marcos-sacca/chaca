@@ -1,0 +1,751 @@
+{
+ "acassuso": {
+  "img": "assets/img/crests/tsdb_acassuso.png",
+  "article": "Acassuso",
+  "file": "81kew41677993637.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/143091"
+ },
+ "agropecuario-argentino-de-carlos-casares": {
+  "img": "assets/img/crests/tsdb_agropecuario-argentino-de-carlos-casares.png",
+  "article": "Agropecuario",
+  "file": "jt027i1766678890.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137769"
+ },
+ "aldosivi-de-mar-del-plata": {
+  "img": "assets/img/crests/tsdb_aldosivi-de-mar-del-plata.png",
+  "article": "Aldosivi",
+  "file": "nqrjqb1517767667.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135150"
+ },
+ "all-boys": {
+  "img": "assets/img/crests/tsdb_all-boys.png",
+  "article": "All Boys",
+  "file": "zo4vm01578824142.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137781"
+ },
+ "almagro": {
+  "img": "assets/img/crests/tsdb_almagro.png",
+  "article": "Almagro",
+  "file": "zv7sju1578825975.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137787"
+ },
+ "almirante-brown": {
+  "img": "assets/img/crests/tsdb_almirante-brown.png",
+  "article": "Almirante Brown",
+  "file": "81i8mf1615822788.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/141011"
+ },
+ "almirante-brown-de-arrecifes": {
+  "img": "assets/img/crests/almirante-brown-de-arrecifes.png",
+  "article": "Club Atlético Almirante Brown (Arrecifes)",
+  "file": "Brown arrecifes logo.png",
+  "source": "commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Brown_arrecifes_logo.png"
+ },
+ "alvarado-de-mar-del-plata": {
+  "img": "assets/img/crests/tsdb_alvarado-de-mar-del-plata.png",
+  "article": "Alvarado",
+  "file": "yi9jjy1578820963.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137768"
+ },
+ "argentino-de-rosario": {
+  "img": "assets/img/crests/tsdb_argentino-de-rosario.png",
+  "article": "Argentino de Rosario",
+  "file": "jpzx1c1734117840.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/150162"
+ },
+ "argentinos-juniors": {
+  "img": "assets/img/crests/tsdb_argentinos-juniors.png",
+  "article": "Argentinos Juniors",
+  "file": "uqfjuo1769234850.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135151"
+ },
+ "arsenal-fc": {
+  "img": "assets/img/crests/tsdb_arsenal-fc.png",
+  "article": "Arsenal de Sarandí",
+  "file": "t5yzu71580842576.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135152"
+ },
+ "atlanta": {
+  "img": "assets/img/crests/tsdb_atlanta.png",
+  "article": "Atlanta",
+  "file": "ey0i4o1775792685.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137776"
+ },
+ "atletico-concepcion-de-tucuman": {
+  "img": "assets/img/crests/atletico-concepcion-de-tucuman.png",
+  "article": "Club Atlético Concepción",
+  "file": "Atlético Concepción Logo.png",
+  "source": "commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Atl%C3%A9tico_Concepci%C3%B3n_Logo.png"
+ },
+ "atletico-parana": {
+  "img": "assets/img/crests/atletico-parana.png",
+  "article": "Club Atlético Paraná",
+  "file": "Club Atlético Paraná.jpg",
+  "source": "commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Club_Atl%C3%A9tico_Paran%C3%A1.jpg"
+ },
+ "atletico-tucuman": {
+  "img": "assets/img/crests/tsdb_atletico-tucuman.png",
+  "article": "Atlético Tucumán",
+  "file": "m5i2q21775755577.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135681"
+ },
+ "atletico-de-rafaela": {
+  "img": "assets/img/crests/tsdb_atletico-de-rafaela.png",
+  "article": "Atlético de Rafaela",
+  "file": "v9b3yf1677638367.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135153"
+ },
+ "banfield": {
+  "img": "assets/img/crests/tsdb_banfield.png",
+  "article": "Banfield",
+  "file": "c2ea011775756104.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135154"
+ },
+ "barracas-central": {
+  "img": "assets/img/crests/tsdb_barracas-central.png",
+  "article": "Barracas Central",
+  "file": "rbkjba1707458543.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137771"
+ },
+ "belgrano-de-cordoba": {
+  "img": "assets/img/crests/tsdb_belgrano-de-cordoba.png",
+  "article": "Belgrano",
+  "file": "0twgzi1517768087.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135155"
+ },
+ "ben-hur-de-rafaela": {
+  "img": "assets/img/crests/tsdb_ben-hur-de-rafaela.png",
+  "article": "Ben Hur",
+  "file": "fgcpzr1740929452.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/151472"
+ },
+ "boca-unidos-de-corrientes": {
+  "img": "assets/img/crests/tsdb_boca-unidos-de-corrientes.png",
+  "article": "Boca Unidos",
+  "file": "gbe9cv1615318221.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/140804"
+ },
+ "brown-de-adrogue": {
+  "img": "assets/img/crests/tsdb_brown-de-adrogue.png",
+  "article": "Brown de Adrogué",
+  "file": "u0he2t1578823947.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137780"
+ },
+ "central-cordoba-de-rosario": {
+  "img": "assets/img/crests/tsdb_central-cordoba-de-rosario.png",
+  "article": "Central Córdoba de Rosario",
+  "file": "72n7wv1640484673.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/144737"
+ },
+ "central-cordoba-de-santiago-del-estero": {
+  "img": "assets/img/crests/tsdb_central-cordoba-de-santiago-del-estero.png",
+  "article": "Central Córdoba de Santiago del Estero",
+  "file": "d62xkc1576101576.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137603"
+ },
+ "central-norte-de-salta": {
+  "img": "assets/img/crests/tsdb_central-norte-de-salta.png",
+  "article": "Central Norte",
+  "file": "b0uo2b1678853683.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/142489"
+ },
+ "chacarita-juniors": {
+  "img": "assets/img/crests/tsdb_chacarita-juniors.png",
+  "article": "Chacarita Juniors",
+  "file": "pjam301511624231.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135899"
+ },
+ "chaco-for-ever": {
+  "img": "assets/img/crests/chaco-for-ever.png",
+  "article": "Club Atlético Chaco For Ever",
+  "file": "Chaco For Ever-ARG.png",
+  "source": "commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Chaco_For_Ever-ARG.png"
+ },
+ "cipolletti-de-rio-negro": {
+  "img": "assets/img/crests/tsdb_cipolletti-de-rio-negro.png",
+  "article": "Cipolletti",
+  "file": "h7u4011678854593.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/142487"
+ },
+ "ciudad-de-bolivar": {
+  "img": "assets/img/crests/tsdb_ciudad-de-bolivar.png",
+  "article": "Ciudad de Bolívar",
+  "file": "mgsv551730785508.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/149544"
+ },
+ "colegiales": {
+  "img": "assets/img/crests/tsdb_colegiales.png",
+  "article": "Colegiales",
+  "file": "ikdykr1677993843.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/143095"
+ },
+ "colon": {
+  "img": "assets/img/crests/tsdb_colon.png",
+  "article": "Colón",
+  "file": "l72gz21712750680.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135157"
+ },
+ "comision-de-actividades-infantiles": {
+  "img": "assets/img/crests/tsdb_comision-de-actividades-infantiles.png",
+  "article": "CAI",
+  "file": "mricov1732683066.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/150027"
+ },
+ "crucero-del-norte": {
+  "img": "assets/img/crests/tsdb_crucero-del-norte.png",
+  "article": "Crucero del Norte",
+  "file": "ojzsrx1694409089.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135158"
+ },
+ "defensa-y-justicia": {
+  "img": "assets/img/crests/tsdb_defensa-y-justicia.png",
+  "article": "Defensa y Justicia",
+  "file": "3guvlh1775778978.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135159"
+ },
+ "defensores-unidos-de-zarate": {
+  "img": "assets/img/crests/tsdb_defensores-unidos-de-zarate.png",
+  "article": "Defensores Unidos",
+  "file": "mdnsl41677636971.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/143089"
+ },
+ "defensores-de-belgrano": {
+  "img": "assets/img/crests/tsdb_defensores-de-belgrano.png",
+  "article": "Defensores de Belgrano",
+  "file": "8n9orj1578823535.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137779"
+ },
+ "deportivo-armenio": {
+  "img": "assets/img/crests/tsdb_deportivo-armenio.png",
+  "article": "Deportivo Armenio",
+  "file": "7m7dub1677993920.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/143092"
+ },
+ "deportivo-espanol": {
+  "img": "assets/img/crests/tsdb_deportivo-espanol.png",
+  "article": "Deportivo Español",
+  "file": "kn3b8o1734118782.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/150166"
+ },
+ "deportivo-laferrere": {
+  "img": "assets/img/crests/tsdb_deportivo-laferrere.png",
+  "article": "Laferrere",
+  "file": "qwtl8h1678855823.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/140806"
+ },
+ "deportivo-madryn": {
+  "img": "assets/img/crests/tsdb_deportivo-madryn.png",
+  "article": "Deportivo Madryn",
+  "file": "b2recn1626207994.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/142479"
+ },
+ "deportivo-maipu-de-mendoza": {
+  "img": "assets/img/crests/tsdb_deportivo-maipu-de-mendoza.png",
+  "article": "Deportivo Maipú",
+  "file": "skx52p1615822799.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/141013"
+ },
+ "deportivo-mandiyu-de-corrientes": {
+  "img": "assets/img/crests/deportivo-mandiyu-de-corrientes.png",
+  "article": "Club Deportivo Mandiyú",
+  "file": "Deportivo Mandiyú.png",
+  "source": "commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Deportivo_Mandiy%C3%BA.png"
+ },
+ "deportivo-merlo": {
+  "img": "assets/img/crests/tsdb_deportivo-merlo.png",
+  "article": "Deportivo Merlo",
+  "file": "fali7v1626632772.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/143097"
+ },
+ "deportivo-moron": {
+  "img": "assets/img/crests/tsdb_deportivo-moron.png",
+  "article": "Deportivo Morón",
+  "file": "iamiej1578821893.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137772"
+ },
+ "deportivo-riestra": {
+  "img": "assets/img/crests/tsdb_deportivo-riestra.png",
+  "article": "Deportivo Riestra",
+  "file": "332h0l1578824392.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137782"
+ },
+ "douglas-haig-de-pergamino": {
+  "img": "assets/img/crests/tsdb_douglas-haig-de-pergamino.png",
+  "article": "Douglas Haig",
+  "file": "f421mu1615318408.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/140805"
+ },
+ "el-porvenir": {
+  "img": "assets/img/crests/tsdb_el-porvenir.png",
+  "article": "El Porvenir",
+  "file": "jo366y1730784006.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/149539"
+ },
+ "estudiantes-de-buenos-aires": {
+  "img": "assets/img/crests/tsdb_estudiantes-de-buenos-aires.png",
+  "article": "Estudiantes de Buenos Aires",
+  "file": "tj6idn1766678690.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137767"
+ },
+ "estudiantes-de-la-plata": {
+  "img": "assets/img/crests/tsdb_estudiantes-de-la-plata.png",
+  "article": "Estudiantes de La Plata",
+  "file": "pf08dq1760634366.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135160"
+ },
+ "estudiantes-de-rio-cuarto": {
+  "img": "assets/img/crests/tsdb_estudiantes-de-rio-cuarto.png",
+  "article": "Estudiantes de Río Cuarto",
+  "file": "391thp1775793121.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137773"
+ },
+ "ferro-carril-oeste": {
+  "img": "assets/img/crests/tsdb_ferro-carril-oeste.png",
+  "article": "Ferro Carril Oeste",
+  "file": "qv5l9p1578822488.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137774"
+ },
+ "ferro-carril-oeste-de-general-pico": {
+  "img": "assets/img/crests/tsdb_ferro-carril-oeste-de-general-pico.png",
+  "article": "Ferro Carril Oeste de General Pico",
+  "file": "kse3jn1734021042.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/142498"
+ },
+ "ferrocarril-midland": {
+  "img": "assets/img/crests/tsdb_ferrocarril-midland.png",
+  "article": "Ferrocarril Midland",
+  "file": "l6vmj01730784534.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/149541"
+ },
+ "flandria": {
+  "img": "assets/img/crests/tsdb_flandria.png",
+  "article": "Flandria",
+  "file": "jfai201677557874.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/143086"
+ },
+ "general-paz-juniors": {
+  "img": "assets/img/crests/general-paz-juniors.png",
+  "article": "Club Atlético General Paz Juniors",
+  "file": "Logo of CA General Paz Juniors.png",
+  "source": "commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Logo_of_CA_General_Paz_Juniors.png"
+ },
+ "gimnasia-y-esgrima-la-plata": {
+  "img": "assets/img/crests/tsdb_gimnasia-y-esgrima-la-plata.png",
+  "article": "Gimnasia y Esgrima de La Plata",
+  "file": "dtqto61775838814.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135161"
+ },
+ "gimnasia-y-esgrima-de-concepcion-del-uruguay": {
+  "img": "assets/img/crests/tsdb_gimnasia-y-esgrima-de-concepcion-del-uruguay.png",
+  "article": "Gimnasia y Esgrima de Concepción del Uruguay",
+  "file": "b9ei3i1734116545.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/150158"
+ },
+ "gimnasia-y-esgrima-de-jujuy": {
+  "img": "assets/img/crests/tsdb_gimnasia-y-esgrima-de-jujuy.png",
+  "article": "Gimnasia y Esgrima de Jujuy",
+  "file": "1jxpz51677637810.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137783"
+ },
+ "gimnasia-y-esgrima-de-mendoza": {
+  "img": "assets/img/crests/tsdb_gimnasia-y-esgrima-de-mendoza.png",
+  "article": "Gimnasia y Esgrima de Mendoza",
+  "file": "h11mlf1677636958.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137778"
+ },
+ "gimnasia-y-tiro-de-salta": {
+  "img": "assets/img/crests/tsdb_gimnasia-y-tiro-de-salta.png",
+  "article": "Gimnasia y Tiro",
+  "file": "epmttr1678849271.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/144738"
+ },
+ "godoy-cruz-antonio-tomba": {
+  "img": "assets/img/crests/tsdb_godoy-cruz-antonio-tomba.png",
+  "article": "Godoy Cruz",
+  "file": "d3c0ds1517768584.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135162"
+ },
+ "guarani-antonio-franco-de-posadas": {
+  "img": "assets/img/crests/guarani-antonio-franco-de-posadas.png",
+  "article": "Club Deportivo Guaraní Antonio Franco",
+  "file": "Escudo del Club Guarani Antonio Franco.svg",
+  "source": "commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Escudo_del_Club_Guarani_Antonio_Franco.svg"
+ },
+ "guillermo-brown-de-puerto-madryn": {
+  "img": "assets/img/crests/tsdb_guillermo-brown-de-puerto-madryn.png",
+  "article": "Guillermo Brown",
+  "file": "xl3svk1772815524.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137770"
+ },
+ "guemes-de-santiago-del-estero": {
+  "img": "assets/img/crests/guemes-de-santiago-del-estero.png",
+  "article": "Club Atlético Güemes",
+  "file": "Club Atletico Guemes512x.png",
+  "source": "commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Club_Atletico_Guemes512x.png"
+ },
+ "huracan": {
+  "img": "assets/img/crests/tsdb_huracan.png",
+  "article": "Huracán",
+  "file": "kppi2b1775776550.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135163"
+ },
+ "huracan-corrientes": {
+  "img": "assets/img/crests/huracan-corrientes.png",
+  "article": "Club Atlético Huracán Corrientes",
+  "file": "Club Huracán Corrientes.png",
+  "source": "commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Club_Hurac%C3%A1n_Corrientes.png"
+ },
+ "huracan-de-tres-arroyos": {
+  "img": "assets/img/crests/huracan-de-tres-arroyos.png",
+  "article": "Club Atlético Huracán (Tres Arroyos)",
+  "file": "Huracan-tres-arroyos.png",
+  "source": "commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Huracan-tres-arroyos.png"
+ },
+ "independiente": {
+  "img": "assets/img/crests/tsdb_independiente.png",
+  "article": "Independiente",
+  "file": "eki4nd1580842605.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135164"
+ },
+ "independiente-rivadavia-de-mendoza": {
+  "img": "assets/img/crests/tsdb_independiente-rivadavia-de-mendoza.png",
+  "article": "Independiente Rivadavia",
+  "file": "qgzi2b1769406125.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137777"
+ },
+ "instituto-de-cordoba": {
+  "img": "assets/img/crests/tsdb_instituto-de-cordoba.png",
+  "article": "Instituto",
+  "file": "jup59w1578825794.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137786"
+ },
+ "ituzaingo": {
+  "img": "assets/img/crests/tsdb_ituzaingo.png",
+  "article": "Ituzaingó",
+  "file": "9r1ary1769405996.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/144740"
+ },
+ "juventud-antoniana-de-salta": {
+  "img": "assets/img/crests/tsdb_juventud-antoniana-de-salta.png",
+  "article": "Juventud Antoniana",
+  "file": "1jif6v1734116809.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/150159"
+ },
+ "juventud-unida-universitario-de-san-luis": {
+  "img": "assets/img/crests/tsdb_juventud-unida-universitario-de-san-luis.png",
+  "article": "Juventud Unida Universitario",
+  "file": "ti4y4e1730785778.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/149545"
+ },
+ "juventud-unida-de-gualeguaychu": {
+  "img": "assets/img/crests/juventud-unida-de-gualeguaychu.png",
+  "article": "Club Deportivo Juventud Unida",
+  "file": "Juventud unida (G).png",
+  "source": "commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Juventud_unida_%28G%29.png"
+ },
+ "lanus": {
+  "img": "assets/img/crests/tsdb_lanus.png",
+  "article": "Lanús",
+  "file": "ddty0w1769146364.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135165"
+ },
+ "los-andes": {
+  "img": "assets/img/crests/tsdb_los-andes.png",
+  "article": "Los Andes",
+  "file": "yjfgav1626632717.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/143087"
+ },
+ "mitre-de-santiago-del-estero": {
+  "img": "assets/img/crests/tsdb_mitre-de-santiago-del-estero.png",
+  "article": "Mitre",
+  "file": "818q3i1578818850.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137766"
+ },
+ "nueva-chicago": {
+  "img": "assets/img/crests/tsdb_nueva-chicago.png",
+  "article": "Nueva Chicago",
+  "file": "b37wr31677635658.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135167"
+ },
+ "olimpo-de-bahia-blanca": {
+  "img": "assets/img/crests/tsdb_olimpo-de-bahia-blanca.png",
+  "article": "Olimpo",
+  "file": "smg4f41704297909.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135168"
+ },
+ "patronato-de-parana": {
+  "img": "assets/img/crests/tsdb_patronato-de-parana.png",
+  "article": "Patronato",
+  "file": "diz3me1678849584.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135682"
+ },
+ "platense": {
+  "img": "assets/img/crests/tsdb_platense.png",
+  "article": "Platense",
+  "file": "lbs14n1769317149.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137775"
+ },
+ "quilmes": {
+  "img": "assets/img/crests/tsdb_quilmes.png",
+  "article": "Quilmes",
+  "file": "1nj5uk1517769025.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135169"
+ },
+ "racing-de-cordoba": {
+  "img": "assets/img/crests/tsdb_racing-de-cordoba.png",
+  "article": "Racing de Córdoba",
+  "file": "jeqlsn1677638050.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/144739"
+ },
+ "ramon-santamarina-de-tandil": {
+  "img": "assets/img/crests/tsdb_ramon-santamarina-de-tandil.png",
+  "article": "Santamarina",
+  "file": "hwin261772815711.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137784"
+ },
+ "river-plate": {
+  "img": "assets/img/crests/tsdb_river-plate.png",
+  "article": "River Plate",
+  "file": "03dmi31645539717.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135171"
+ },
+ "rosario-central": {
+  "img": "assets/img/crests/tsdb_rosario-central.png",
+  "article": "Rosario Central",
+  "file": "y6q1ds1769660256.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135172"
+ },
+ "san-martin-de-mendoza": {
+  "img": "assets/img/crests/tsdb_san-martin-de-mendoza.png",
+  "article": "San Martín de Mendoza",
+  "file": "z9fn4x1734115984.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/150155"
+ },
+ "san-martin-de-san-juan": {
+  "img": "assets/img/crests/tsdb_san-martin-de-san-juan.png",
+  "article": "San Martín de San Juan",
+  "file": "l7j84h1517769215.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135174"
+ },
+ "san-martin-de-tucuman": {
+  "img": "assets/img/crests/tsdb_san-martin-de-tucuman.png",
+  "article": "San Martín de Tucumán",
+  "file": "xymq001532856832.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/136197"
+ },
+ "san-miguel": {
+  "img": "assets/img/crests/tsdb_san-miguel.png",
+  "article": "San Miguel",
+  "file": "qa48v11714064966.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/143096"
+ },
+ "san-telmo": {
+  "img": "assets/img/crests/tsdb_san-telmo.png",
+  "article": "San Telmo",
+  "file": "27ft411615822804.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/141014"
+ },
+ "sarmiento-de-junin": {
+  "img": "assets/img/crests/tsdb_sarmiento-de-junin.png",
+  "article": "Sarmiento",
+  "file": "xxofu71677634191.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135175"
+ },
+ "sportivo-belgrano-de-san-francisco": {
+  "img": "assets/img/crests/tsdb_sportivo-belgrano-de-san-francisco.png",
+  "article": "Sportivo Belgrano",
+  "file": "xe51yy1740930014.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/142491"
+ },
+ "sportivo-desamparados-de-san-juan": {
+  "img": "assets/img/crests/tsdb_sportivo-desamparados-de-san-juan.png",
+  "article": "Sportivo Desamparados",
+  "file": "yi06fz1626208189.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/142499"
+ },
+ "sportivo-estudiantes-de-san-luis": {
+  "img": "assets/img/crests/tsdb_sportivo-estudiantes-de-san-luis.png",
+  "article": "Estudiantes de San Luis",
+  "file": "emprgp1626207797.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/142477"
+ },
+ "sportivo-italiano": {
+  "img": "assets/img/crests/tsdb_sportivo-italiano.png",
+  "article": "Sportivo Italiano",
+  "file": "vk4mou1734570321.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/150259"
+ },
+ "talleres-de-cordoba": {
+  "img": "assets/img/crests/tsdb_talleres-de-cordoba.png",
+  "article": "Talleres de Córdoba",
+  "file": "7hum2t1769310938.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/136674"
+ },
+ "talleres-de-remedios-de-escalada": {
+  "img": "assets/img/crests/tsdb_talleres-de-remedios-de-escalada.png",
+  "article": "Talleres de Remedios de Escalada",
+  "file": "f08ex91690264922.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/142478"
+ },
+ "temperley": {
+  "img": "assets/img/crests/tsdb_temperley.png",
+  "article": "Temperley",
+  "file": "48yf6p1517769378.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135176"
+ },
+ "tigre": {
+  "img": "assets/img/crests/tsdb_tigre.png",
+  "article": "Tigre",
+  "file": "krryg71765858882.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135177"
+ },
+ "tristan-suarez": {
+  "img": "assets/img/crests/tsdb_tristan-suarez.png",
+  "article": "Tristán Suárez",
+  "file": "6ohsr31775838113.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/141015"
+ },
+ "union-de-mar-del-plata": {
+  "img": "assets/img/crests/union-de-mar-del-plata.png",
+  "article": "Club Atlético Unión (Mar del Plata)",
+  "file": "Escudo del Club Union de Mar del Plata.svg",
+  "source": "commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Escudo_del_Club_Union_de_Mar_del_Plata.svg"
+ },
+ "union-de-santa-fe": {
+  "img": "assets/img/crests/tsdb_union-de-santa-fe.png",
+  "article": "Unión",
+  "file": "btnx6q1734587495.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/135178"
+ },
+ "union-de-villa-krause": {
+  "img": "assets/img/crests/union-de-villa-krause.png",
+  "article": "Club Atlético Unión (Villa Krause)",
+  "file": "Unión.png",
+  "source": "commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Uni%C3%B3n.png"
+ },
+ "villa-dalmine": {
+  "img": "assets/img/crests/tsdb_villa-dalmine.png",
+  "article": "Villa Dálmine",
+  "file": "nknweg1652125618.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/137785"
+ },
+ "villa-mitre-de-bahia-blanca": {
+  "img": "assets/img/crests/tsdb_villa-mitre-de-bahia-blanca.png",
+  "article": "Villa Mitre",
+  "file": "wth47o1678851818.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/142484"
+ },
+ "villa-san-carlos": {
+  "img": "assets/img/crests/tsdb_villa-san-carlos.png",
+  "article": "Villa San Carlos",
+  "file": "aac7ul1626207505.png",
+  "source": "TheSportsDB",
+  "page": "https://www.thesportsdb.com/team/142503"
+ }
+}

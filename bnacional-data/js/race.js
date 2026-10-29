@@ -1,6 +1,6 @@
 // carrera de la tabla histórica: puntos acumulados (3 por victoria) club por club, temporada tras temporada
 import { S } from "./store.js";
-import { h, n } from "./util.js";
+import { h, n, imgSrc } from "./util.js";
 
 let frames = null;
 function build() {
@@ -29,7 +29,7 @@ export function race({ rows = 12, autoplay = false, compact = false } = {}) {
   const rowFor = (t) => {
     let r = rowsEl.get(t);
     if (!r) {
-      r = h("a.race__row", { href: `#c-${S.teams[t].s}`, style: { transform: `translateY(${rows * ROW}px)`, opacity: 0 } }, [h("span.race__n", S.teams[t].short), h("span.race__bar", h("b", "0"))]);
+      r = h("a.race__row", { href: `#c-${S.teams[t].s}`, style: { transform: `translateY(${rows * ROW}px)`, opacity: 0 } }, [h("span.race__n", [S.crest(t) ? h("img", { src: imgSrc(S.crest(t).img), alt: "" }) : null, S.teams[t].short]), h("span.race__bar", h("b", "0"))]);
       rowsEl.set(t, r); stage.append(r);
     }
     return r;
