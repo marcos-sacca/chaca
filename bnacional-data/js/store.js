@@ -3,10 +3,36 @@ import { norm } from "./util.js";
 export const S = {};
 const get = async (name) => (await fetch(`data/${name}.json`)).json();
 
+// recursos agregados o sacados desde el panel (#admin): se guardan en este navegador hasta exportarlos a data/extra.json
+const LS = "bn_admin_v1";
+export const emptyDelta = () => ({ fotos: [], videos: [], ocultos: { fotos: [], videos: [] } });
+export function getLocal() {
+  try { const d = JSON.parse(localStorage.getItem(LS) || "null"); return d ? { ...emptyDelta(), ...d, ocultos: { fotos: [], videos: [], ...(d.ocultos || {}) } } : emptyDelta(); } catch { return emptyDelta(); }
+}
+export function setLocal(d) { try { localStorage.setItem(LS, JSON.stringify(d)); } catch { return false; } mergeResources(); return true; }
+export const hasLocal = () => { const d = getLocal(); return d.fotos.length + d.videos.length + d.ocultos.fotos.length + d.ocultos.videos.length > 0; };
+export const pkey = (p) => p.id || p.img;
+// arma S.galeria y S.videos con: lo de base + data/extra.json + cambios locales, sin lo que está oculto
+export function mergeResources() {
+  const ex = S.extra || emptyDelta(), lo = getLocal();
+  const hideP = new Set([...(ex.ocultos?.fotos || []), ...lo.ocultos.fotos]), hideV = new Set([...(ex.ocultos?.videos || []), ...lo.ocultos.videos]);
+  const clubs = {}, general = [];
+  const add = (club, p, src) => { if (hideP.has(pkey(p))) return; const q = { ...p, _src: src }; delete q.club; if (club === "general") general.push(q); else (clubs[club] ||= []).push(q); };
+  for (const [c, L] of Object.entries(S._base.clubs)) L.forEach((p) => add(c, p, "base"));
+  S._base.general.forEach((p) => add("general", p, "base"));
+  (ex.fotos || []).forEach((p) => add(p.club, p, "extra")); lo.fotos.forEach((p) => add(p.club, p, "local"));
+  const seen = new Set(), vids = [];
+  for (const [list, src] of [[S._base.videos, "base"], [ex.videos || [], "extra"], [lo.videos, "local"]]) for (const v of list) { if (hideV.has(v.id) || seen.has(v.id)) continue; seen.add(v.id); vids.push({ ...v, _src: src }); }
+  S.galeria = { ...(S._base.raw || {}), clubs, general }; S.videos = vids;
+}
+
 export async function load() {
-  const [meta, teams, seasons, phases, players, matches, scorers, general, fotos, videos, crests, planteles, galeria] = await Promise.all(
-    ["meta", "teams", "seasons", "phases", "players", "matches", "scorers", "general", "fotos", "videos", "crests", "planteles", "galeria"].map((x) => get(x).catch(() => (x === "fotos" ? { entries: {}, general: [] } : x === "videos" ? [] : x === "galeria" ? { general: [], clubs: {} } : {}))));
+  const [meta, teams, seasons, phases, players, matches, scorers, general, fotos, videos, crests, planteles, galeria, extra] = await Promise.all(
+    ["meta", "teams", "seasons", "phases", "players", "matches", "scorers", "general", "fotos", "videos", "crests", "planteles", "galeria", "extra"].map((x) => get(x).catch(() => (x === "fotos" ? { entries: {}, general: [] } : x === "videos" ? [] : x === "galeria" ? { general: [], clubs: {} } : {}))));
   Object.assign(S, { meta, teams, seasons, phases, players, matches, scorers, scorers_raw: scorers, general, fotos, videos, crests, planteles, galeria });
+  S.extra = extra && extra.fotos ? extra : emptyDelta();
+  S._base = { clubs: galeria.clubs || {}, general: galeria.general || [], videos: videos || [], raw: {} };
+  mergeResources();
   S.teamBy = new Map(teams.map((t, i) => [t.s, i]));
   S.seasonBy = new Map(seasons.map((s, i) => [s.id, i]));
   // partidos por temporada y por club
@@ -25,6 +51,13 @@ export async function load() {
   // ascensos con foto
   S.ascensos = [];
   seasons.forEach((s, si) => s.promoted.forEach(([t, how]) => S.ascensos.push({ si, t, how, season: s, key: `${s.id}|${teams[t].s}` })));
+  // ascensos, descensos y reducidos por club (índices de temporada)
+  S.cs = teams.map(() => ({ asc: [], champ: 0, desc: [], red: [], promo: [] }));
+  seasons.forEach((s, si) => {
+    s.promoted.forEach(([t, how]) => { S.cs[t].asc.push(si); if (how === "Campeón") S.cs[t].champ++; });
+    (s.desc || []).forEach((t) => S.cs[t].desc.push(si)); (s.red || []).forEach((t) => S.cs[t].red.push(si)); (s.promo || []).forEach((t) => S.cs[t].promo.push(si));
+  });
+  S.general.forEach((r) => { const c = S.cs[r[1]]; r[13] = c.asc.length; r[14] = c.desc.length; r[15] = c.red.length; });
   S.crest = (ti) => S.crests[S.teams[ti].s] || null;
   S.photo = (key) => fotos.entries[key] || null;
   S.clubPhoto = (slug) => fotos.clubs?.[slug] || null;

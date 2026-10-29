@@ -19,6 +19,7 @@ route("datos", async () => {
     li("Tablas: ", "cada tabla calculada se compara con la publicada. Hay unas 130 tablas de equipos que todavía no coinciden (sobre todo 1996/97 y los torneos de transición) y están marcadas en los archivos de datos."),
     li("Marcadores: ", "se cruzan con una segunda fuente. Si al corregir un marcador los puntos coinciden con la tabla oficial, se corrige y queda anotado."),
     li("Goleadores: ", "hasta 2018/19 los nombres traen la inicial del segundo nombre; desde 2017/18 vienen completos, por eso un jugador puede aparecer en dos filas."),
+    li("Descensos y reducidos: ", "no hay una lista oficial de descensos en la base: se cuenta como descenso que el club jugara la temporada, no ascendiera y no figurara en la siguiente. Los reducidos son los torneos por el ascenso; las promociones se muestran aparte."),
     li("Ascensos: ", "2026 sigue en disputa; el 2019/20 no tuvo ascensos por la pandemia; en la Transición 2014 subieron diez clubes porque Primera pasó de 20 a 30."),
   ])));
   page.append(sec("Fotos", h("p", "Las fotos vienen de Wikimedia Commons con licencia libre. Viven en la Galería, agrupadas por club (algunas son de una temporada puntual y otras del club en general); en los ascensos cada club se identifica solo con su escudo."), h("p.cap", `Fotos cargadas: ${new Set([...Object.values(S.fotos.entries || {}), ...Object.values(S.fotos.clubs || {}), ...(S.fotos.general || [])].map((p) => p.img)).size}.`)));

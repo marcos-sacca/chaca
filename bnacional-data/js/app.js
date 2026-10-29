@@ -1,5 +1,6 @@
 import { S, load, search } from "./store.js";
 import { h, el$, debounce } from "./util.js";
+import { supportButtons, mailto } from "./views/common.js";
 
 const routes = new Map();
 export const route = (name, fn) => routes.set(name, fn);
@@ -8,7 +9,7 @@ const app = el$("app"), nav = el$("nav");
 async function boot() {
   app.append(h("div.wrap.page", h("p.muted", "Cargando 40 años de ascensos…")));
   try { await load(); } catch (e) { app.replaceChildren(h("div.wrap.page", h("h2", "No se pudieron cargar los datos"), h("p", e.message))); return; }
-  await Promise.all(["home", "ascensos", "seasons", "clubs", "tabla", "scorers", "gallery", "about"].map((v) => import(`./views/${v}.js`)));
+  await Promise.all(["home", "ascensos", "seasons", "clubs", "tabla", "scorers", "gallery", "about", "admin"].map((v) => import(`./views/${v}.js`)));
   footer(); finder(); menu();
   addEventListener("hashchange", go); go();
 }
@@ -27,12 +28,12 @@ async function go() {
   app.replaceChildren(page);
   document.title = (res.title ? res.title + " · " : "") + "B Nacional Histórica";
   if (!first) scrollTo({ top: 0, behavior: "instant" }); first = false;
-  const key = { inicio: "inicio", ascensos: "ascensos", temporadas: "temporadas", t: "temporadas", clubes: "clubes", c: "clubes", tabla: "tabla", goleadores: "goleadores", fotos: "fotos", videos: "fotos", carrera: "carrera", datos: "datos" }[routes.has(r.name) ? r.name : "inicio"];
+  const key = { inicio: "inicio", ascensos: "ascensos", temporadas: "temporadas", t: "temporadas", clubes: "clubes", c: "clubes", tabla: "tabla", goleadores: "goleadores", fotos: "fotos", videos: "fotos", admin: "fotos", carrera: "carrera", datos: "datos" }[routes.has(r.name) ? r.name : "inicio"];
   nav.querySelectorAll("a").forEach((a) => { if (a.dataset.nav === key) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
 }
 function footer() {
   const m = S.meta;
-  el$("foot").append(h("div.wrap.foot__in", [h("p", [h("b", "B Nacional Histórica"), ` reúne ${m.partidos.toLocaleString("es-AR")} partidos de la Primera B Nacional y la Primera Nacional, de 1986/87 a ${m.ultimo.slice(0, 4)}.`]), h("p.muted", ["Proyecto de hinchas, sin vínculo con la AFA. ", h("a", { href: "#datos" }, "Fuentes, controles y créditos de las fotos"), "."])]));
+  el$("foot").append(h("div.wrap.foot__in", [h("p", [h("b", "B Nacional Histórica"), ` reúne ${m.partidos.toLocaleString("es-AR")} partidos de la Primera B Nacional y la Primera Nacional, de 1986/87 a ${m.ultimo.slice(0, 4)}.`]), h("p.muted", ["Proyecto de hinchas, sin vínculo con la AFA. ", h("a", { href: "#datos" }, "Fuentes, controles y créditos de las fotos"), "."]), h("div.foot__help", [h("span", "¿Tenés material de tu club?"), h("a.btn.btn--ghost.btn--s", { href: mailto("") }, "Mandalo por mail"), ...supportButtons().map((b) => { b.classList.add("btn--s"); return b; }), h("a.foot__adm", { href: "#admin" }, "Admin")])]));
 }
 function menu() { const b = el$("menubtn"); b.addEventListener("click", () => { const o = nav.classList.toggle("open"); b.setAttribute("aria-expanded", String(o)); }); }
 function finder() {

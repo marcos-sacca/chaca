@@ -118,6 +118,27 @@ for s in seasons:
                       champion=champ.get(s), promoted=asc.get(s, []), tables=[dict(fase=f, rows=rows) for f, rows in tables.get(s, {}).items()],
                       sanciones=sanc.get(s, []), reducidos=reds.get(s, [])))
 
+# --- descensos (clubes que estaban en la temporada, no ascendieron y ya no figuran en la siguiente) y reducidos
+import re as _re
+inseason = collections.defaultdict(set)
+for m in mlist:
+    inseason[m[0]].add(m[4]); inseason[m[0]].add(m[5])
+RED_ASC = _re.compile(r"Reducido|Octogonal|Dodecagonal|Cuadrangular|Ronda Final|por el (?:1er|2do)\.? ?Ascenso", _re.I)
+RED_PROMO = _re.compile(r"Promoci|Reválida|Descenso", _re.I)
+for si, sd in enumerate(sdata):
+    prom = {c for c, _ in sd["promoted"]}
+    sd["desc"] = sorted(inseason[si] - inseason[si + 1] - prom) if (si + 1) in inseason else []
+    red, pro = set(), set()
+    for r in sd["reducidos"]:
+        for c in (r[4], r[5]):
+            if c is None:
+                continue
+            if RED_PROMO.search(r[0]):
+                pro.add(c)
+            elif RED_ASC.search(r[0]):
+                red.add(c)
+    sd["red"], sd["promo"] = sorted(red), sorted(pro)
+
 teams = []
 for n in names:
     e = EQ.get(n, {})

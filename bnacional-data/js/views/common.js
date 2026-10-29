@@ -1,6 +1,7 @@
 import { h, imgSrc, el$ } from "../util.js";
 import { S } from "../store.js";
 
+import { CONFIG } from "../config.js";
 export const T = (i) => S.teams[i];
 export const href = { club: (i) => `#c-${S.teams[i].s}`, season: (si) => `#t-${S.seasons[si].id}` };
 export const initials = (name) => { const w = name.replace(/\(.*?\)/g, "").split(/\s+/).filter((x) => x.length > 2 && !/^(de|del|la|el|los|las|club|atl[eé]tico|deportivo)$/i.test(x)); return (w.length > 1 ? w[0][0] + w[1][0] : (w[0] || name).slice(0, 2)).toUpperCase(); };
@@ -51,7 +52,7 @@ export function openPhoto(ph, title) {
   const dlg = el$("lightbox"), body = el$("lightbody");
   body.replaceChildren(h("div.lb__media", h("img", { src: imgSrc(ph.img), alt: ph.alt || title || "" })), h("div.lb__info", [
     title ? h("p.eyebrow", title) : null, h("p.lb__cap", ph.caption),
-    h("p.lb__cred", [ph.author ? ph.author + " · " : "", ph.lic, " · ", h("a", { href: ph.page, target: "_blank", rel: "noopener" }, "Wikimedia Commons")])]));
+    h("p.lb__cred", [ph.author ? ph.author + " · " : "", ph.lic, ph.page ? [" · ", h("a", { href: ph.page, target: "_blank", rel: "noopener" }, /commons\.wikimedia/.test(ph.page) ? "Wikimedia Commons" : "Origen")] : null])]));
   if (!dlg.open) dlg.showModal();
 }
 export function table(cols, rows, { cls = "" } = {}) {
@@ -75,4 +76,20 @@ export function plantelBox(a) {
   const si = S.seasonBy.get(a.season.id), sc = Object.values(S.scBySeason[si] || {}).filter((o) => o.team === a.t).sort((x, y) => y.g - x.g);
   if (!sc.length) return null;
   return h("details.plantel", [h("summary", `Goleadores de ${t.short} ${a.season.label}`), h("div.plantel__in", [h("p.cap", "De esta temporada no hay formaciones publicadas; estos son los jugadores que convirtieron."), h("div.plantel__g", h("ul", sc.map((o) => h("li", [h("span", o.name), h("small", `${o.g} ${o.g === 1 ? "gol" : "goles"}`)]))))])]);
+}
+
+// invitación a mandar recursos + botones de apoyo
+export function mailto(club) {
+  const subj = club ? `Recursos para la página de ${club}` : "Recursos para la B Nacional Histórica";
+  const body = `Hola! Les mando ${club ? "material de " + club : "material"} para la página.\n\nClub:${club ? " " + club : ""}\nAño o temporada:\nQué es (foto, video, plantel, camiseta…):\nQuién lo sacó o de dónde sale:\nLink o archivo adjunto:\n\nAutorizo a que se publique en el sitio.`;
+  return `mailto:${CONFIG.emails.join(",")}?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}`;
+}
+export function supportButtons() {
+  return [h("a.btn.btn--coffee", { href: CONFIG.cafecito, target: "_blank", rel: "noopener" }, "☕ Invitame un cafecito"), CONFIG.apoyo.url ? h("a.btn.btn--ghost", { href: CONFIG.apoyo.url, target: "_blank", rel: "noopener" }, CONFIG.apoyo.texto) : null].filter(Boolean);
+}
+export function helpBox(club) {
+  return h("aside.help", [
+    h("div.help__t", [h("h3", club ? `¿Tenés fotos o videos de ${club}?` : "¿Tenés fotos o videos de tu club?"), h("p", ["Mandalos a ", ...CONFIG.emails.flatMap((e, i) => [i ? " y " : "", h("a", { href: `mailto:${e}` }, e)]), ", con el club, el año y quién los sacó. Los revisamos y los sumamos a la página de tu club."])]),
+    h("div.help__b", [h("a.btn", { href: mailto(club) }, "✉ Mandar mis recursos"), ...supportButtons()]),
+  ]);
 }

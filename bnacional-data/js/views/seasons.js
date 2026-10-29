@@ -22,6 +22,11 @@ route("t", async (r) => {
   // quienes subieron
   if (s.promoted.length) { const as = s.promoted.map(([t, how]) => ({ si, t, how, season: s, key: `${s.id}|${S.teams[t].s}` })); page.append(sec("Subieron a Primera", [h("div.agrid", as.map((a) => ascCard(a))), h("div.plantels", as.map((a) => plantelBox(a)))])); }
   else if (si === S.seasons.length - 1) page.append(sec("Ascensos", h("p.muted", "El torneo está en juego. Los ascensos se definen al final de la temporada.")));
+  // descensos y reducidos de la temporada
+  const clubList = (ids) => h("div.cgrid", ids.map((t) => h("a.ccard.ccard--s", { href: href.club(t) }, [crest(t), h("span.ccard__t", h("b", T(t).short))])));
+  if (s.desc && s.desc.length) page.append(sec("Descendieron", [clubList(s.desc), h("p.cap", "Clubes que jugaron esta temporada, no ascendieron y no figuran en la siguiente. Se calcula así: la base no trae una lista oficial de descensos.")]));
+  if (s.red && s.red.length) page.append(sec("Jugaron el reducido por el ascenso", clubList(s.red)));
+  if (s.promo && s.promo.length) page.append(sec("Promociones y reválidas", clubList(s.promo)));
   // tablas
   if (s.tables.length) {
     let cur = 0; const box = h("div");

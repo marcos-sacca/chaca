@@ -4,7 +4,7 @@ import { h, n, norm } from "../util.js";
 import { head, table, T, href } from "./common.js";
 
 const st = { by: 12, dir: -1, q: "", min: 1 };
-const COLS = [[2, "Temp.", "Temporadas jugadas"], [3, "PJ", "Partidos jugados"], [4, "PG", "Ganados"], [5, "PE", "Empatados"], [6, "PP", "Perdidos"], [7, "GF", "Goles a favor"], [8, "GC", "Goles en contra"], [9, "DG", "Diferencia de gol"], [11, "Pts", "Puntos según el sistema de cada época"], [12, "Pts (3 x V)", "Puntos con 3 por victoria, para comparar épocas"]];
+const COLS = [[2, "Temp.", "Temporadas jugadas"], [13, "Asc.", "Ascensos a Primera"], [14, "Desc.", "Descensos: temporadas en que el club salió de la categoría"], [15, "Red.", "Reducidos por el ascenso que jugó"], [3, "PJ", "Partidos jugados"], [4, "PG", "Ganados"], [5, "PE", "Empatados"], [6, "PP", "Perdidos"], [7, "GF", "Goles a favor"], [8, "GC", "Goles en contra"], [9, "DG", "Diferencia de gol"], [11, "Pts", "Puntos según el sistema de cada época"], [12, "Pts (3 x V)", "Puntos con 3 por victoria, para comparar épocas"]];
 route("tabla", async () => {
   const page = h("div.wrap.page"), box = h("div");
   const draw = () => {
