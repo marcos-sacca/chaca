@@ -3,7 +3,8 @@ Infobae (archivo desde 2002): crónicas con "Síntesis" (formaciones, DT, goles 
 Se listan los artículos de cada día con el sitemap diario (https://www.infobae.com/arc/outboundfeeds/sitemap/AAAA-MM-DD/)
 y se bajan los que tienen "chacarita" en la dirección.
 
-  python3 -I scrape_infobae.py <desde AAAA-MM-DD> <hasta AAAA-MM-DD> <salida.jsonl>
+  python3 -I scrape_infobae.py <desde AAAA-MM-DD> <hasta AAAA-MM-DD> <salida.jsonl> [regex_de_la_direccion]
+  (por defecto "chacarita|funebre"; con "chacarita|funebre|nacional|ascenso|primera-b" se bajan además las notas de la categoría)
 """
 import datetime
 import html as H
@@ -14,6 +15,7 @@ import time
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
+PAT = sys.argv[4] if len(sys.argv) > 4 else r"chacarita|funebre"
 UA = {"User-Agent": "Mozilla/5.0 (investigacion historica)"}
 
 
@@ -33,7 +35,7 @@ def day_urls(day):
     time.sleep(0.25)
     if not t:
         return day, []
-    return day, [u for u in re.findall(r"<loc>([^<]+)</loc>", t) if re.search(r"chacarita|funebre", u)]
+    return day, [u for u in re.findall(r"<loc>([^<]+)</loc>", t) if re.search(PAT, u)]
 
 
 def article(url):
@@ -52,6 +54,8 @@ def article(url):
             head = j.get("headline")
             break
     if not body:
+        return None
+    if "hacarita" not in body:
         return None
     return dict(url=url, titulo=head, cuerpo=body)
 

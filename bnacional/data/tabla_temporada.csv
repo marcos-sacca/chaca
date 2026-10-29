@@ -114,11 +114,11 @@
 1991/92,Fase regular,3,Colón,42,20,12,10,56,42,14,0,52
 1991/92,Fase regular,4,San Martín de Tucumán,42,18,15,9,59,33,26,0,51
 1991/92,Fase regular,5,Douglas Haig de Pergamino,42,16,18,8,49,39,10,0,50
-1991/92,Fase regular,6,Nueva Chicago,42,17,15,10,51,42,9,0,49
+1991/92,Fase regular,6,Nueva Chicago,43,17,15,11,52,44,8,0,49
 1991/92,Fase regular,7,Instituto de Córdoba,43,16,15,12,48,41,7,0,47
 1991/92,Fase regular,8,Atlético Tucumán,42,16,14,12,54,41,13,0,46
 1991/92,Fase regular,9,Chaco For Ever,42,14,18,10,47,37,10,0,46
-1991/92,Fase regular,10,Talleres de Remedios de Escalada,43,14,16,13,46,42,4,0,44
+1991/92,Fase regular,10,Talleres de Remedios de Escalada,42,14,16,12,45,40,5,0,44
 1991/92,Fase regular,11,Racing de Córdoba,42,16,11,15,47,53,-6,0,43
 1991/92,Fase regular,12,Central Córdoba de Rosario,42,14,14,14,41,43,-2,0,42
 1991/92,Fase regular,13,Deportivo Morón,42,12,17,13,49,52,-3,0,41
@@ -131,11 +131,11 @@
 1991/92,Fase regular,20,Villa Dálmine,42,3,23,16,37,53,-16,0,29
 1991/92,Fase regular,21,Deportivo Maipú de Mendoza,42,8,12,22,31,55,-24,0,28
 1991/92,Fase regular,22,Central Córdoba de Santiago del Estero,42,4,18,20,21,48,-27,0,26
-1992/93,Fase regular,1,Colón,43,20,18,5,59,39,20,0,58
+1992/93,Fase regular,1,Colón,44,20,18,6,59,42,17,0,58
 1992/93,Fase regular,2,Banfield,43,23,11,9,77,39,38,0,57
-1992/93,Fase regular,3,Gimnasia y Tiro de Salta,42,20,11,11,63,41,22,0,51
+1992/93,Fase regular,3,Gimnasia y Tiro de Salta,42,20,11,11,63,39,24,0,51
 1992/93,Fase regular,4,Deportivo Italiano,42,17,14,11,65,49,16,0,48
-1992/93,Fase regular,5,Central Córdoba de Rosario,43,17,12,14,56,53,3,0,46
+1992/93,Fase regular,5,Central Córdoba de Rosario,42,17,12,13,54,50,4,0,46
 1992/93,Fase regular,6,Arsenal FC,42,12,21,9,38,31,7,0,45
 1992/93,Fase regular,7,Quilmes,42,11,23,8,43,37,6,0,45
 1992/93,Fase regular,8,Almirante Brown,42,16,13,13,41,46,-5,0,45
@@ -179,14 +179,14 @@
 1994/95,Fase regular,3,Colón,42,20,12,10,73,44,29,0,52
 1994/95,Fase regular,4,Godoy Cruz Antonio Tomba,42,20,10,12,68,49,19,0,50
 1994/95,Fase regular,5,San Martín de Tucumán,42,20,8,14,68,50,18,0,48
-1994/95,Fase regular,6,Gimnasia y Tiro de Salta,43,17,14,12,51,50,1,0,48
+1994/95,Fase regular,6,Gimnasia y Tiro de Salta,42,17,14,11,51,49,2,0,48
 1994/95,Fase regular,7,All Boys,42,17,13,12,67,61,6,0,47
 1994/95,Fase regular,8,Quilmes,42,13,19,10,48,40,8,0,45
 1994/95,Fase regular,9,Douglas Haig de Pergamino,42,15,15,12,45,42,3,0,45
 1994/95,Fase regular,10,Unión de Santa Fe,42,16,12,14,68,54,14,0,44
 1994/95,Fase regular,11,Instituto de Córdoba,42,14,15,13,68,70,-2,0,43
-1994/95,Fase regular,12,Deportivo Morón,41,12,17,12,43,48,-5,0,41
-1994/95,Fase regular,13,Nueva Chicago,42,14,13,15,55,61,-6,0,41
+1994/95,Fase regular,12,Nueva Chicago,42,14,13,15,55,61,-6,0,41
+1994/95,Fase regular,13,Deportivo Morón,42,12,17,13,43,49,-6,0,41
 1994/95,Fase regular,14,Chacarita Juniors,42,10,20,12,51,55,-4,0,40
 1994/95,Fase regular,15,Los Andes,42,14,11,17,49,48,1,0,39
 1994/95,Fase regular,16,Central Córdoba de Rosario,42,12,15,15,50,56,-6,0,39
@@ -219,18 +219,18 @@
 1995/96,"1ra ""B"" Nacional AFA - Torneo Clausura 1996",21,Deportivo Morón,21,4,7,10,26,35,-9,0,19
 1995/96,"1ra ""B"" Nacional AFA - Torneo Clausura 1996",22,All Boys,21,3,7,11,20,32,-12,0,16
 1995/96,Torneo Apertura,1,Huracán Corrientes,21,12,6,3,37,23,14,0,42
-1995/96,Torneo Apertura,2,Atlético Tucumán,21,11,4,6,29,19,10,0,37
+1995/96,Torneo Apertura,2,Atlético Tucumán,21,11,4,6,28,18,10,0,37
 1995/96,Torneo Apertura,3,Atlético de Rafaela,21,10,6,5,33,23,10,0,36
 1995/96,Torneo Apertura,4,Talleres de Córdoba,21,11,2,8,31,21,10,0,35
 1995/96,Torneo Apertura,5,Quilmes,21,9,7,5,30,21,9,0,34
 1995/96,Torneo Apertura,6,Godoy Cruz Antonio Tomba,21,9,7,5,29,24,5,0,34
 1995/96,Torneo Apertura,7,Instituto de Córdoba,21,9,6,6,34,30,4,0,33
-1995/96,Torneo Apertura,8,San Martín de San Juan,22,9,6,7,28,25,3,0,33
+1995/96,Torneo Apertura,8,San Martín de San Juan,21,9,6,6,27,23,4,0,33
 1995/96,Torneo Apertura,9,Atlanta,21,9,5,7,26,26,0,0,32
 1995/96,Torneo Apertura,10,Nueva Chicago,21,8,7,6,29,24,5,0,31
 1995/96,Torneo Apertura,11,Gimnasia y Tiro de Salta,21,8,5,8,31,25,6,0,29
 1995/96,Torneo Apertura,12,Douglas Haig de Pergamino,21,7,7,7,21,21,0,0,28
-1995/96,Torneo Apertura,13,Unión de Santa Fe,21,7,6,8,25,27,-2,0,27
+1995/96,Torneo Apertura,13,Unión de Santa Fe,22,7,6,9,25,28,-3,0,27
 1995/96,Torneo Apertura,14,Chacarita Juniors,21,7,5,9,22,25,-3,0,26
 1995/96,Torneo Apertura,15,All Boys,21,6,7,8,19,28,-9,0,25
 1995/96,Torneo Apertura,16,Deportivo Morón,21,6,6,9,24,30,-6,0,24
@@ -289,8 +289,8 @@
 1996/97,"Etapa Permanencia - Zona ""A""",1,Chaco For Ever,16,9,2,5,26,17,9,0,29
 1996/97,"Etapa Permanencia - Zona ""A""",2,Cipolletti de Río Negro,16,8,4,4,28,17,11,0,28
 1996/97,"Etapa Permanencia - Zona ""A""",3,Instituto de Córdoba,16,9,1,6,32,29,3,0,28
-1996/97,"Etapa Permanencia - Zona ""A""",4,Aldosivi de Mar del Plata,15,8,2,5,19,20,-1,0,26
-1996/97,"Etapa Permanencia - Zona ""A""",5,San Martín de Tucumán,17,6,4,7,26,24,2,0,22
+1996/97,"Etapa Permanencia - Zona ""A""",4,Aldosivi de Mar del Plata,16,8,2,6,19,22,-3,0,26
+1996/97,"Etapa Permanencia - Zona ""A""",5,San Martín de Tucumán,16,6,4,6,26,22,4,0,22
 1996/97,"Etapa Permanencia - Zona ""A""",6,Gimnasia y Esgrima de Concepción del Uruguay,16,6,3,7,28,32,-4,0,21
 1996/97,"Etapa Permanencia - Zona ""A""",7,Douglas Haig de Pergamino,16,5,4,7,20,21,-1,0,19
 1996/97,"Etapa Permanencia - Zona ""A""",8,Juventud Antoniana de Salta,16,4,4,8,18,27,-9,0,16
@@ -387,16 +387,16 @@
 1998/99,"Etapa Clasificatoria - Zona ""B""",1,Chacarita Juniors,32,19,7,6,50,27,23,0,64
 1998/99,"Etapa Clasificatoria - Zona ""B""",2,Arsenal FC,32,16,9,7,52,36,16,0,57
 1998/99,"Etapa Clasificatoria - Zona ""B""",3,All Boys,32,14,9,9,46,40,6,0,51
-1998/99,"Etapa Clasificatoria - Zona ""B""",4,Quilmes,32,12,11,9,49,45,4,0,47
+1998/99,"Etapa Clasificatoria - Zona ""B""",4,Quilmes,32,12,11,9,51,46,5,0,47
 1998/99,"Etapa Clasificatoria - Zona ""B""",5,El Porvenir,32,12,9,11,50,49,1,0,45
-1998/99,"Etapa Clasificatoria - Zona ""B""",6,Nueva Chicago,31,11,11,9,44,36,8,0,44
+1998/99,"Etapa Clasificatoria - Zona ""B""",6,Nueva Chicago,32,11,11,10,45,39,6,0,44
 1998/99,"Etapa Clasificatoria - Zona ""B""",7,Defensa y Justicia,32,10,14,8,44,39,5,0,44
 1998/99,"Etapa Clasificatoria - Zona ""B""",8,Tigre,32,10,13,9,45,41,4,0,43
 1998/99,"Etapa Clasificatoria - Zona ""B""",9,San Miguel,32,11,10,11,30,27,3,0,43
 1998/99,"Etapa Clasificatoria - Zona ""B""",10,Central Córdoba de Rosario,32,10,13,9,43,41,2,0,43
 1998/99,"Etapa Clasificatoria - Zona ""B""",11,Deportivo Español,32,11,10,11,47,46,1,0,43
 1998/99,"Etapa Clasificatoria - Zona ""B""",12,Banfield,32,11,10,11,39,43,-4,0,43
-1998/99,"Etapa Clasificatoria - Zona ""B""",13,Almagro,33,8,12,13,36,51,-15,0,36
+1998/99,"Etapa Clasificatoria - Zona ""B""",13,Almagro,32,8,12,12,36,50,-14,0,36
 1998/99,"Etapa Clasificatoria - Zona ""B""",14,Atlanta,32,7,14,11,34,43,-9,0,35
 1998/99,"Etapa Clasificatoria - Zona ""B""",15,Deportivo Morón,32,7,13,12,32,37,-5,5,29
 1998/99,"Etapa Clasificatoria - Zona ""B""",16,Los Andes,32,4,16,12,29,43,-14,0,28
@@ -439,21 +439,21 @@
 2000/01,Zona Interior,2,Gimnasia y Esgrima de Concepción del Uruguay,32,15,10,7,42,34,8,0,55
 2000/01,Zona Interior,3,Racing de Córdoba,32,15,7,10,43,42,1,0,52
 2000/01,Zona Interior,4,San Martín de Mendoza,32,14,9,9,45,35,10,0,51
-2000/01,Zona Interior,5,San Martín de San Juan,32,14,8,10,44,33,11,0,50
+2000/01,Zona Interior,5,San Martín de San Juan,32,14,8,10,45,34,11,0,50
 2000/01,Zona Interior,6,Almirante Brown de Arrecifes,32,13,11,8,44,37,7,0,50
 2000/01,Zona Interior,7,Gimnasia y Esgrima de Jujuy,32,14,8,10,39,32,7,0,50
 2000/01,Zona Interior,8,Atlético de Rafaela,32,13,6,13,48,47,1,0,45
 2000/01,Zona Interior,9,Godoy Cruz Antonio Tomba,32,12,8,12,46,47,-1,0,44
 2000/01,Zona Interior,10,Atlético Tucumán,32,11,10,11,38,38,0,0,43
 2000/01,Zona Interior,11,Villa Mitre de Bahía Blanca,32,13,4,15,41,51,-10,0,43
-2000/01,Zona Interior,12,Juventud Antoniana de Salta,32,12,7,13,32,43,-11,0,43
-2000/01,Zona Interior,13,Independiente Rivadavia de Mendoza,34,10,8,16,39,38,1,0,38
+2000/01,Zona Interior,12,Juventud Antoniana de Salta,33,12,7,14,33,45,-12,0,43
+2000/01,Zona Interior,13,Independiente Rivadavia de Mendoza,33,10,8,15,39,37,2,0,38
 2000/01,Zona Interior,14,San Martín de Tucumán,32,9,5,18,36,42,-6,0,32
 2000/01,Zona Interior,15,Olimpo de Bahía Blanca,32,9,5,18,36,52,-16,0,32
 2000/01,Zona Interior,16,General Paz Juniors,32,7,8,17,38,53,-15,0,29
 2000/01,Zona Interior,17,Cipolletti de Río Negro,32,5,10,17,34,69,-35,0,25
-2000/01,Zona Metropolitana,1,Quilmes,25,15,5,5,47,20,27,0,50
-2000/01,Zona Metropolitana,2,Banfield,24,14,7,3,37,19,18,0,49
+2000/01,Zona Metropolitana,1,Quilmes,25,15,5,5,48,22,26,0,50
+2000/01,Zona Metropolitana,2,Banfield,24,14,7,3,39,20,19,0,49
 2000/01,Zona Metropolitana,3,Arsenal FC,24,13,5,6,30,21,9,0,44
 2000/01,Zona Metropolitana,4,Nueva Chicago,23,10,7,6,39,30,9,0,37
 2000/01,Zona Metropolitana,5,Platense,24,9,6,9,33,26,7,0,33
@@ -614,7 +614,7 @@
 2004/05,Torneo Apertura,18,Juventud Antoniana de Salta,19,4,7,8,23,31,-8,0,19
 2004/05,Torneo Apertura,19,Chacarita Juniors,19,4,6,9,23,29,-6,0,18
 2004/05,Torneo Apertura,20,Sarmiento de Junín,19,4,5,10,20,37,-17,0,17
-2004/05,Torneo Clausura,1,Gimnasia y Esgrima de Jujuy,19,10,5,4,30,17,13,0,35
+2004/05,Torneo Clausura,1,Gimnasia y Esgrima de Jujuy,20,10,5,5,30,18,12,0,35
 2004/05,Torneo Clausura,2,Comisión de Actividades Infantiles,19,8,10,1,26,18,8,0,34
 2004/05,Torneo Clausura,3,Atlético de Rafaela,19,7,8,4,26,23,3,0,29
 2004/05,Torneo Clausura,4,Talleres de Córdoba,19,6,10,3,27,18,9,0,28
@@ -622,7 +622,7 @@
 2004/05,Torneo Clausura,6,Huracán,19,8,3,8,25,23,2,0,27
 2004/05,Torneo Clausura,7,Tiro Federal de Rosario,19,6,9,4,14,17,-3,0,27
 2004/05,Torneo Clausura,8,Juventud Antoniana de Salta,18,6,8,4,23,18,5,0,26
-2004/05,Torneo Clausura,9,San Martín de San Juan,19,6,7,6,18,16,2,0,25
+2004/05,Torneo Clausura,9,San Martín de San Juan,18,6,7,5,18,15,3,0,25
 2004/05,Torneo Clausura,10,Belgrano de Córdoba,18,7,4,7,20,23,-3,0,25
 2004/05,Torneo Clausura,11,Godoy Cruz Antonio Tomba,19,6,7,6,23,27,-4,0,25
 2004/05,Torneo Clausura,12,Unión de Santa Fe,19,5,10,4,23,28,-5,0,25
@@ -639,14 +639,14 @@
 2005/06,Torneo Apertura,3,Huracán,20,10,5,5,27,17,10,0,35
 2005/06,Torneo Apertura,4,Chacarita Juniors,19,9,7,3,23,9,14,0,34
 2005/06,Torneo Apertura,5,Defensa y Justicia,19,7,9,3,19,13,6,0,30
-2005/06,Torneo Apertura,6,Ferro Carril Oeste,18,8,4,6,14,14,0,0,28
+2005/06,Torneo Apertura,6,Ferro Carril Oeste,19,8,5,6,15,15,0,0,29
 2005/06,Torneo Apertura,7,Tigre,19,4,12,3,16,13,3,0,24
 2005/06,Torneo Apertura,8,Ben Hur de Rafaela,19,6,6,7,20,19,1,0,24
 2005/06,Torneo Apertura,9,Unión de Santa Fe,19,5,9,5,29,29,0,0,24
 2005/06,Torneo Apertura,10,Belgrano de Córdoba,18,6,6,6,18,20,-2,0,24
-2005/06,Torneo Apertura,11,Huracán de Tres Arroyos,19,5,8,6,20,24,-4,0,23
-2005/06,Torneo Apertura,12,San Martín de San Juan,19,4,10,5,15,15,0,0,22
-2005/06,Torneo Apertura,13,Talleres de Córdoba,19,4,10,5,18,19,-1,0,22
+2005/06,Torneo Apertura,11,San Martín de San Juan,19,4,10,5,15,15,0,0,22
+2005/06,Torneo Apertura,12,Talleres de Córdoba,19,4,10,5,18,19,-1,0,22
+2005/06,Torneo Apertura,13,Huracán de Tres Arroyos,18,5,7,6,19,23,-4,0,22
 2005/06,Torneo Apertura,14,Atlético de Rafaela,18,5,7,6,19,24,-5,0,22
 2005/06,Torneo Apertura,15,Juventud Antoniana de Salta,19,5,6,8,13,16,-3,0,21
 2005/06,Torneo Apertura,16,Comisión de Actividades Infantiles,18,4,8,6,20,22,-2,0,20
@@ -945,16 +945,16 @@ Transición 2016,Fase regular,22,Instituto de Córdoba,20,4,4,12,18,32,-14,0,16
 2016/17,Fase regular,21,Villa Dálmine,44,12,11,21,45,60,-15,0,47
 2016/17,Fase regular,22,Atlético Paraná,44,9,13,22,34,57,-23,0,40
 2016/17,Fase regular,23,Crucero del Norte,44,8,13,23,36,50,-14,0,37
-2017/18,Fase regular,1,Almagro,24,11,8,5,31,16,15,0,41
-2017/18,Fase regular,2,Aldosivi de Mar del Plata,24,11,8,5,30,22,8,0,41
-2017/18,Fase regular,3,San Martín de Tucumán,24,9,12,3,29,21,8,0,39
-2017/18,Fase regular,4,Brown de Adrogué,24,10,7,7,27,20,7,0,37
-2017/18,Fase regular,5,Sarmiento de Junín,24,10,7,7,31,27,4,0,37
-2017/18,Fase regular,6,Instituto de Córdoba,24,10,7,7,22,19,3,0,37
-2017/18,Fase regular,7,Atlético de Rafaela,24,9,9,6,34,22,12,0,36
-2017/18,Fase regular,8,Villa Dálmine,24,10,6,8,24,17,7,0,36
-2017/18,Fase regular,9,Deportivo Riestra,24,9,8,7,29,24,5,0,35
-2017/18,Fase regular,10,Agropecuario Argentino de Carlos Casares,24,10,5,9,30,28,2,0,35
+2017/18,Fase regular,1,San Martín de Tucumán,29,11,14,4,40,26,14,0,47
+2017/18,Fase regular,2,Sarmiento de Junín,29,12,9,8,38,35,3,0,45
+2017/18,Fase regular,3,Aldosivi de Mar del Plata,25,12,8,5,33,23,10,0,44
+2017/18,Fase regular,4,Almagro,26,11,8,7,32,21,11,0,41
+2017/18,Fase regular,5,Brown de Adrogué,27,10,9,8,30,25,5,0,39
+2017/18,Fase regular,6,Agropecuario Argentino de Carlos Casares,27,11,6,10,32,31,1,0,39
+2017/18,Fase regular,7,Instituto de Córdoba,25,10,8,7,22,19,3,0,38
+2017/18,Fase regular,8,Atlético de Rafaela,25,9,10,6,34,22,12,0,37
+2017/18,Fase regular,9,Villa Dálmine,25,10,7,8,27,20,7,0,37
+2017/18,Fase regular,10,Deportivo Riestra,24,9,8,7,29,24,5,0,35
 2017/18,Fase regular,11,Gimnasia y Esgrima de Jujuy,24,7,13,4,18,11,7,0,34
 2017/18,Fase regular,12,Deportivo Morón,24,7,12,5,22,23,-1,0,33
 2017/18,Fase regular,13,Quilmes,24,8,8,8,24,23,1,0,32
@@ -1027,15 +1027,47 @@ Transición 2016,Fase regular,22,Instituto de Córdoba,20,4,4,12,18,32,-14,0,16
 2019/20,Fase regular,30,Gimnasia y Esgrima de Jujuy,21,4,7,10,13,22,-9,0,19
 2019/20,Fase regular,31,Mitre de Santiago del Estero,21,3,8,10,11,19,-8,0,17
 2019/20,Fase regular,32,Nueva Chicago,21,2,11,8,16,27,-11,0,17
-2021,Fase regular,1,Tigre,32,17,9,6,50,25,25,0,60
-2021,Fase regular,2,Quilmes,32,17,8,7,45,31,14,0,59
-2021,Fase regular,3,Almirante Brown,32,17,8,7,40,32,8,0,59
-2021,Fase regular,4,Barracas Central,34,15,13,6,43,33,10,0,58
-2021,Fase regular,5,Ferro Carril Oeste,34,15,12,7,49,28,21,0,57
-2021,Fase regular,6,San Martín de Tucumán,32,15,12,5,34,18,16,0,57
-2021,Fase regular,7,Independiente Rivadavia de Mendoza,34,14,14,6,47,39,8,0,56
-2021,Fase regular,8,Agropecuario Argentino de Carlos Casares,32,15,8,9,36,26,10,0,53
-2021,Fase regular,9,Deportivo Morón,34,16,5,13,36,34,2,0,53
+Transición 2020,Fase regular,1,Quilmes,10,6,2,2,13,9,4,0,20
+Transición 2020,Fase regular,2,Estudiantes de Buenos Aires,11,5,4,2,19,14,5,0,19
+Transición 2020,Fase regular,3,Estudiantes de Río Cuarto,10,4,6,0,14,7,7,0,18
+Transición 2020,Fase regular,4,Platense,10,4,6,0,13,7,6,0,18
+Transición 2020,Fase regular,5,Sarmiento de Junín,8,4,4,0,9,5,4,0,16
+Transición 2020,Fase regular,6,Defensores de Belgrano,9,5,1,3,8,4,4,0,16
+Transición 2020,Fase regular,7,San Martín de San Juan,9,4,4,1,7,5,2,0,16
+Transición 2020,Fase regular,8,Atlético de Rafaela,9,4,3,2,15,12,3,0,15
+Transición 2020,Fase regular,9,Barracas Central,8,4,3,1,9,6,3,0,15
+Transición 2020,Fase regular,10,Deportivo Riestra,10,3,4,3,10,11,-1,0,13
+Transición 2020,Fase regular,11,Belgrano de Córdoba,7,3,3,1,8,3,5,0,12
+Transición 2020,Fase regular,12,Almagro,7,4,0,3,7,5,2,0,12
+Transición 2020,Fase regular,13,Atlanta,10,3,3,4,16,16,0,0,12
+Transición 2020,Fase regular,14,Instituto de Córdoba,8,3,3,2,11,11,0,0,12
+Transición 2020,Fase regular,15,Ramón Santamarina de Tandil,7,3,1,3,11,10,1,0,10
+Transición 2020,Fase regular,16,Agropecuario Argentino de Carlos Casares,8,3,1,4,7,12,-5,0,10
+Transición 2020,Fase regular,17,Alvarado de Mar del Plata,7,2,3,2,12,8,4,0,9
+Transición 2020,Fase regular,18,Brown de Adrogué,7,2,3,2,6,5,1,0,9
+Transición 2020,Fase regular,19,Tigre,8,2,3,3,10,10,0,0,9
+Transición 2020,Fase regular,20,Deportivo Morón,9,2,3,4,8,10,-2,0,9
+Transición 2020,Fase regular,21,Ferro Carril Oeste,9,3,0,6,12,15,-3,0,9
+Transición 2020,Fase regular,22,Gimnasia y Esgrima de Jujuy,7,2,2,3,9,9,0,0,8
+Transición 2020,Fase regular,23,Mitre de Santiago del Estero,7,1,5,1,8,9,-1,0,8
+Transición 2020,Fase regular,24,Gimnasia y Esgrima de Mendoza,8,1,4,3,11,14,-3,0,7
+Transición 2020,Fase regular,25,All Boys,7,1,4,2,3,8,-5,0,7
+Transición 2020,Fase regular,26,Guillermo Brown de Puerto Madryn,7,1,3,3,6,7,-1,0,6
+Transición 2020,Fase regular,27,Temperley,8,1,3,4,3,6,-3,0,6
+Transición 2020,Fase regular,28,Villa Dálmine,8,1,3,4,6,11,-5,0,6
+Transición 2020,Fase regular,29,San Martín de Tucumán,8,1,3,4,5,10,-5,0,6
+Transición 2020,Fase regular,30,Chacarita Juniors,7,1,2,4,6,9,-3,0,5
+Transición 2020,Fase regular,31,Nueva Chicago,7,1,2,4,6,12,-6,0,5
+Transición 2020,Fase regular,32,Independiente Rivadavia de Mendoza,7,1,1,5,3,11,-8,0,4
+2021,Fase regular,1,Quilmes,37,18,12,7,50,35,15,0,66
+2021,Fase regular,2,Almirante Brown,36,18,10,8,44,36,8,0,64
+2021,Fase regular,3,Tigre,33,18,9,6,51,25,26,0,63
+2021,Fase regular,4,Barracas Central,38,16,15,7,46,36,10,0,63
+2021,Fase regular,5,Ferro Carril Oeste,38,16,13,9,53,32,21,0,61
+2021,Fase regular,6,San Martín de Tucumán,34,16,12,6,36,21,15,0,60
+2021,Fase regular,7,Independiente Rivadavia de Mendoza,36,14,15,7,48,41,7,0,57
+2021,Fase regular,8,Deportivo Morón,36,16,7,13,39,37,2,0,55
+2021,Fase regular,9,Agropecuario Argentino de Carlos Casares,32,15,8,9,36,26,10,0,53
 2021,Fase regular,10,Belgrano de Córdoba,32,15,7,10,35,24,11,0,52
 2021,Fase regular,11,Güemes de Santiago del Estero,34,13,13,8,38,31,7,0,52
 2021,Fase regular,12,Gimnasia y Esgrima de Jujuy,34,13,13,8,34,29,5,0,52
@@ -1063,20 +1095,20 @@ Transición 2016,Fase regular,22,Instituto de Córdoba,20,4,4,12,18,32,-14,0,16
 2021,Fase regular,34,Chacarita Juniors,32,6,9,17,29,50,-21,0,27
 2021,Fase regular,35,Nueva Chicago,32,4,9,19,23,49,-26,0,21
 2022,Fase regular,1,Belgrano de Córdoba,36,24,7,5,48,23,25,0,79
-2022,Fase regular,2,Instituto de Córdoba,36,19,11,6,48,23,25,0,68
-2022,Fase regular,3,San Martín de Tucumán,36,17,15,4,45,21,24,0,66
-2022,Fase regular,4,Gimnasia y Esgrima de Mendoza,36,17,13,6,42,21,21,0,64
-2022,Fase regular,5,All Boys,36,15,15,6,45,33,12,0,60
-2022,Fase regular,6,Estudiantes de Río Cuarto,36,14,16,6,39,29,10,0,58
-2022,Fase regular,7,Estudiantes de Buenos Aires,36,16,9,11,33,27,6,0,57
-2022,Fase regular,8,Almagro,36,16,9,11,35,33,2,0,57
-2022,Fase regular,9,Independiente Rivadavia de Mendoza,36,15,11,10,45,34,11,0,56
-2022,Fase regular,10,Deportivo Morón,36,13,16,7,33,21,12,0,55
-2022,Fase regular,11,Chaco For Ever,36,13,16,7,38,28,10,0,55
-2022,Fase regular,12,Defensores de Belgrano,36,13,15,8,37,30,7,0,54
-2022,Fase regular,13,Deportivo Riestra,36,12,18,6,33,27,6,0,54
+2022,Fase regular,2,Instituto de Córdoba,40,20,14,6,51,24,27,0,74
+2022,Fase regular,3,Estudiantes de Buenos Aires,42,20,11,11,40,28,12,0,71
+2022,Fase regular,4,Gimnasia y Esgrima de Mendoza,40,18,14,8,43,23,20,0,68
+2022,Fase regular,5,San Martín de Tucumán,37,17,15,5,45,24,21,0,66
+2022,Fase regular,6,Defensores de Belgrano,40,15,16,9,42,32,10,0,61
+2022,Fase regular,7,Estudiantes de Río Cuarto,38,15,16,7,40,30,10,0,61
+2022,Fase regular,8,All Boys,37,15,15,7,45,35,10,0,60
+2022,Fase regular,9,Independiente Rivadavia de Mendoza,38,16,11,11,47,36,11,0,59
+2022,Fase regular,10,Almagro,37,16,9,12,36,35,1,0,57
+2022,Fase regular,11,Chaco For Ever,37,13,16,8,38,31,7,0,55
+2022,Fase regular,12,Deportivo Morón,37,12,18,7,32,22,10,0,54
+2022,Fase regular,13,Deportivo Riestra,37,12,18,7,34,27,7,0,54
 2022,Fase regular,14,San Martín de San Juan,36,15,6,15,50,42,8,0,51
-2022,Fase regular,15,Deportivo Maipú de Mendoza,36,11,15,10,40,33,7,0,48
+2022,Fase regular,15,Deportivo Maipú de Mendoza,36,11,15,10,39,32,7,0,48
 2022,Fase regular,16,Chacarita Juniors,36,12,12,12,48,44,4,0,48
 2022,Fase regular,17,Ferro Carril Oeste,36,12,11,13,32,34,-2,0,47
 2022,Fase regular,18,Deportivo Madryn,36,10,16,10,44,42,2,0,46
@@ -1086,38 +1118,38 @@ Transición 2016,Fase regular,22,Instituto de Córdoba,20,4,4,12,18,32,-14,0,16
 2022,Fase regular,22,Brown de Adrogué,36,11,11,14,39,39,0,0,44
 2022,Fase regular,23,Gimnasia y Esgrima de Jujuy,36,11,11,14,38,50,-12,0,44
 2022,Fase regular,24,Guillermo Brown de Puerto Madryn,36,12,7,17,30,43,-13,0,43
-2022,Fase regular,25,Almirante Brown,36,9,14,13,38,45,-7,0,41
+2022,Fase regular,25,Almirante Brown,36,9,15,12,38,43,-5,0,42
 2022,Fase regular,26,Temperley,36,9,14,13,34,41,-7,0,41
-2022,Fase regular,27,Agropecuario Argentino de Carlos Casares,36,8,16,12,27,28,-1,0,40
-2022,Fase regular,28,Güemes de Santiago del Estero,36,8,15,13,28,35,-7,0,39
-2022,Fase regular,29,San Telmo,36,9,12,15,36,52,-16,0,39
-2022,Fase regular,30,Villa Dálmine,36,7,17,12,36,48,-12,0,38
-2022,Fase regular,31,Atlético de Rafaela,36,8,13,15,38,45,-7,0,37
-2022,Fase regular,32,Alvarado de Mar del Plata,36,8,13,15,32,45,-13,0,37
+2022,Fase regular,27,Güemes de Santiago del Estero,36,8,15,13,28,35,-7,0,39
+2022,Fase regular,28,San Telmo,36,9,12,15,36,52,-16,0,39
+2022,Fase regular,29,Atlético de Rafaela,36,8,14,14,40,43,-3,0,38
+2022,Fase regular,30,Agropecuario Argentino de Carlos Casares,36,7,17,12,25,30,-5,0,38
+2022,Fase regular,31,Villa Dálmine,36,7,17,12,36,48,-12,0,38
+2022,Fase regular,32,Alvarado de Mar del Plata,36,8,13,15,31,46,-15,0,37
 2022,Fase regular,33,Tristán Suárez,36,7,14,15,37,45,-8,0,35
 2022,Fase regular,34,Nueva Chicago,36,6,14,16,33,48,-15,0,32
 2022,Fase regular,35,Flandria,36,6,13,17,30,49,-19,0,31
 2022,Fase regular,36,Ramón Santamarina de Tandil,36,6,11,19,29,58,-29,0,29
 2022,Fase regular,37,Sacachispas,36,3,18,15,21,41,-20,0,27
-2023,Fase regular,1,Independiente Rivadavia de Mendoza,34,20,8,6,51,33,18,0,68
-2023,Fase regular,2,Chacarita Juniors,34,18,13,3,48,23,25,0,67
-2023,Fase regular,3,Deportivo Maipú de Mendoza,34,19,6,9,46,31,15,0,63
-2023,Fase regular,4,Almirante Brown,36,17,10,9,36,30,6,0,61
-2023,Fase regular,5,Agropecuario Argentino de Carlos Casares,36,17,8,11,46,36,10,0,59
-2023,Fase regular,6,San Martín de Tucumán,36,15,11,10,38,24,14,0,56
-2023,Fase regular,7,Estudiantes de Río Cuarto,36,16,7,13,34,32,2,0,55
-2023,Fase regular,8,Quilmes,34,15,8,11,44,31,13,0,53
-2023,Fase regular,9,Defensores de Belgrano,36,15,8,13,44,35,9,0,53
-2023,Fase regular,10,Gimnasia y Esgrima de Mendoza,36,13,14,9,45,37,8,0,53
-2023,Fase regular,11,Atlético de Rafaela,34,14,11,9,38,31,7,0,53
-2023,Fase regular,12,San Martín de San Juan,36,14,11,11,44,38,6,0,53
-2023,Fase regular,13,Temperley,36,13,14,9,42,38,4,0,53
-2023,Fase regular,14,Güemes de Santiago del Estero,36,13,14,9,37,34,3,0,53
-2023,Fase regular,15,Deportivo Morón,36,14,11,11,38,37,1,0,53
-2023,Fase regular,16,Nueva Chicago,36,13,13,10,34,25,9,0,52
-2023,Fase regular,17,Mitre de Santiago del Estero,34,15,7,12,38,37,1,0,52
-2023,Fase regular,18,Deportivo Riestra,34,12,14,8,40,34,6,0,50
-2023,Fase regular,19,Ferro Carril Oeste,34,13,10,11,45,37,8,0,49
+2023,Fase regular,1,Independiente Rivadavia de Mendoza,35,21,8,6,53,33,20,0,71
+2023,Fase regular,2,Deportivo Maipú de Mendoza,40,21,8,11,51,35,16,0,71
+2023,Fase regular,3,Chacarita Juniors,35,18,13,4,49,25,24,0,67
+2023,Fase regular,4,Deportivo Riestra,40,17,15,8,48,35,13,0,66
+2023,Fase regular,5,Almirante Brown,41,17,12,12,37,37,0,0,63
+2023,Fase regular,6,Estudiantes de Río Cuarto,41,17,11,13,36,33,3,0,62
+2023,Fase regular,7,Agropecuario Argentino de Carlos Casares,37,17,8,12,46,38,8,0,59
+2023,Fase regular,8,Temperley,39,15,14,10,46,42,4,0,59
+2023,Fase regular,9,Atlético de Rafaela,37,15,13,9,39,31,8,0,58
+2023,Fase regular,10,Quilmes,37,16,9,12,46,33,13,0,57
+2023,Fase regular,11,San Martín de Tucumán,37,15,11,11,38,25,13,0,56
+2023,Fase regular,12,Ferro Carril Oeste,37,14,12,11,48,38,10,0,54
+2023,Fase regular,13,Defensores de Belgrano,37,15,8,14,44,36,8,0,53
+2023,Fase regular,14,Gimnasia y Esgrima de Mendoza,37,13,14,10,45,38,7,0,53
+2023,Fase regular,15,San Martín de San Juan,37,14,11,12,44,39,5,0,53
+2023,Fase regular,16,Güemes de Santiago del Estero,36,13,14,9,37,34,3,0,53
+2023,Fase regular,17,Deportivo Morón,36,14,11,11,38,37,1,0,53
+2023,Fase regular,18,Nueva Chicago,36,13,13,10,34,25,9,0,52
+2023,Fase regular,19,Mitre de Santiago del Estero,35,15,7,13,38,38,0,0,52
 2023,Fase regular,20,Brown de Adrogué,34,11,14,9,34,31,3,0,47
 2023,Fase regular,21,Defensores Unidos de Zárate,36,12,11,13,30,31,-1,0,47
 2023,Fase regular,22,Gimnasia y Esgrima de Jujuy,34,13,5,16,36,40,-4,0,44
@@ -1136,23 +1168,27 @@ Transición 2016,Fase regular,22,Instituto de Córdoba,20,4,4,12,18,32,-14,0,16
 2023,Fase regular,35,Tristán Suárez,34,8,10,16,36,53,-17,0,34
 2023,Fase regular,36,Flandria,36,9,7,20,33,56,-23,0,34
 2023,Fase regular,37,Villa Dálmine,34,5,5,24,21,56,-35,0,20
-2024,Fase regular,1,San Martín de Tucumán,38,24,9,5,43,18,25,0,81
-2024,Fase regular,2,San Martín de San Juan,38,19,13,6,40,21,19,0,70
-2024,Fase regular,3,San Telmo,38,18,11,9,49,25,24,0,65
-2024,Fase regular,4,Aldosivi de Mar del Plata,38,17,13,8,41,24,17,0,64
-2024,Fase regular,5,Deportivo Madryn,38,17,13,8,35,20,15,0,64
-2024,Fase regular,6,Nueva Chicago,38,18,10,10,39,25,14,0,64
-2024,Fase regular,7,Quilmes,38,17,12,9,41,24,17,0,63
-2024,Fase regular,8,Gimnasia y Esgrima de Mendoza,38,17,12,9,44,33,11,0,63
-2024,Fase regular,9,Colón,38,16,10,12,40,26,14,0,58
-2024,Fase regular,10,Defensores de Belgrano,38,15,13,10,38,24,14,0,58
-2024,Fase regular,11,All Boys,38,15,13,10,34,24,10,0,58
-2024,Fase regular,12,Gimnasia y Esgrima de Jujuy,38,17,7,14,32,27,5,0,58
-2024,Fase regular,13,Gimnasia y Tiro de Salta,38,14,16,8,27,22,5,0,58
+2023,Fase regular,38,Gimnasia y Esgrima La Plata,1,1,0,0,1,0,1,0,3
+2023,Fase regular,39,Douglas Haig de Pergamino,1,0,1,0,0,0,0,0,1
+2023,Fase regular,40,San Miguel,1,0,1,0,0,0,0,0,1
+2023,Fase regular,41,Colón,1,0,0,1,0,1,-1,0,0
+2024,Fase regular,1,San Martín de Tucumán,43,26,10,7,47,22,25,0,88
+2024,Fase regular,2,San Martín de San Juan,44,23,14,7,49,26,23,0,83
+2024,Fase regular,3,Nueva Chicago,43,20,12,11,43,28,15,0,72
+2024,Fase regular,4,Gimnasia y Esgrima de Mendoza,44,19,14,11,49,38,11,0,71
+2024,Fase regular,5,San Telmo,41,19,11,11,51,29,22,0,68
+2024,Fase regular,6,Deportivo Madryn,41,18,14,9,37,23,14,0,68
+2024,Fase regular,7,Aldosivi de Mar del Plata,39,18,13,8,43,24,19,0,67
+2024,Fase regular,8,Quilmes,41,18,13,10,43,25,18,0,67
+2024,Fase regular,9,All Boys,41,15,15,11,37,28,9,0,60
+2024,Fase regular,10,Colón,39,16,11,12,41,27,14,0,59
+2024,Fase regular,11,Defensores de Belgrano,39,15,13,11,38,26,12,0,58
+2024,Fase regular,12,Gimnasia y Esgrima de Jujuy,39,17,7,15,32,28,4,0,58
+2024,Fase regular,13,Gimnasia y Tiro de Salta,39,14,16,9,28,24,4,0,58
 2024,Fase regular,14,Mitre de Santiago del Estero,38,13,18,7,27,20,7,0,57
-2024,Fase regular,15,Estudiantes de Buenos Aires,38,14,14,10,34,32,2,0,56
-2024,Fase regular,16,Racing de Córdoba,38,14,11,13,37,36,1,0,53
-2024,Fase regular,17,San Miguel,38,13,14,11,34,33,1,0,53
+2024,Fase regular,15,Estudiantes de Buenos Aires,39,14,15,10,35,33,2,0,57
+2024,Fase regular,16,Racing de Córdoba,39,14,12,13,38,37,1,0,54
+2024,Fase regular,17,San Miguel,39,13,15,11,34,33,1,0,54
 2024,Fase regular,18,Temperley,38,11,19,8,30,25,5,0,52
 2024,Fase regular,19,Estudiantes de Río Cuarto,38,12,15,11,27,28,-1,0,51
 2024,Fase regular,20,Atlanta,38,13,12,13,30,34,-4,0,51
@@ -1165,33 +1201,33 @@ Transición 2016,Fase regular,22,Instituto de Córdoba,20,4,4,12,18,32,-14,0,16
 2024,Fase regular,27,Alvarado de Mar del Plata,38,12,9,17,30,40,-10,0,45
 2024,Fase regular,28,Deportivo Morón,38,9,14,15,27,38,-11,0,41
 2024,Fase regular,29,Patronato de Paraná,38,10,10,18,36,44,-8,0,40
-2024,Fase regular,30,Arsenal FC,38,9,13,16,21,36,-15,0,40
-2024,Fase regular,31,Almagro,38,8,14,16,27,47,-20,0,38
-2024,Fase regular,32,Chaco For Ever,38,8,13,17,24,30,-6,0,37
-2024,Fase regular,33,Almirante Brown,38,8,13,17,26,40,-14,0,37
-2024,Fase regular,34,Talleres de Remedios de Escalada,38,7,16,15,26,41,-15,0,37
+2024,Fase regular,30,Talleres de Córdoba,39,8,16,15,28,42,-14,0,40
+2024,Fase regular,31,Arsenal FC,38,9,13,16,21,36,-15,0,40
+2024,Fase regular,32,Almagro,38,8,14,16,27,47,-20,0,38
+2024,Fase regular,33,Chaco For Ever,38,8,13,17,24,30,-6,0,37
+2024,Fase regular,34,Almirante Brown,38,8,13,17,26,40,-14,0,37
 2024,Fase regular,35,Defensores Unidos de Zárate,38,7,14,17,30,46,-16,0,35
 2024,Fase regular,36,Guillermo Brown de Puerto Madryn,38,7,12,19,29,44,-15,0,33
-2024,Fase regular,37,Atlético de Rafaela,38,6,12,20,24,43,-19,0,30
-2024,Fase regular,38,Brown de Adrogué,38,5,15,18,21,50,-29,0,30
-2025,Fase regular,1,Gimnasia y Esgrima de Mendoza,34,17,12,5,35,18,17,0,63
-2025,Fase regular,2,Deportivo Madryn,34,16,12,6,45,28,17,0,60
-2025,Fase regular,3,Estudiantes de Río Cuarto,34,16,12,6,35,22,13,0,60
-2025,Fase regular,4,Estudiantes de Buenos Aires,34,17,8,9,41,22,19,0,59
-2025,Fase regular,5,Deportivo Morón,34,15,13,6,36,19,17,0,58
-2025,Fase regular,6,Gimnasia y Esgrima de Jujuy,34,15,12,7,36,20,16,0,57
-2025,Fase regular,7,Temperley,34,14,13,7,30,22,8,0,55
-2025,Fase regular,8,Atlanta,34,14,13,7,31,28,3,0,55
-2025,Fase regular,9,Agropecuario Argentino de Carlos Casares,34,15,9,10,43,34,9,0,54
-2025,Fase regular,10,Chaco For Ever,34,15,8,11,34,26,8,0,53
-2025,Fase regular,11,Tristán Suárez,34,12,16,6,33,23,10,0,52
-2025,Fase regular,12,Gimnasia y Tiro de Salta,34,13,12,9,34,23,11,0,51
-2025,Fase regular,13,San Miguel,34,12,14,8,32,28,4,0,50
-2025,Fase regular,14,Chacarita Juniors,34,12,13,9,37,29,8,0,49
-2025,Fase regular,15,San Martín de Tucumán,34,12,13,9,32,29,3,0,49
-2025,Fase regular,16,Deportivo Maipú de Mendoza,34,12,12,10,34,30,4,0,48
-2025,Fase regular,17,Defensores de Belgrano,34,12,12,10,30,26,4,0,48
-2025,Fase regular,18,Patronato de Paraná,34,12,12,10,31,28,3,0,48
+2024,Fase regular,37,Atlético de Rafaela,40,7,12,21,27,46,-19,0,33
+2024,Fase regular,38,Brown de Adrogué,39,5,15,19,22,52,-30,0,30
+2025,Fase regular,1,Estudiantes de Río Cuarto,41,20,14,7,43,25,18,0,74
+2025,Fase regular,2,Estudiantes de Buenos Aires,39,20,9,10,44,23,21,0,69
+2025,Fase regular,3,Deportivo Madryn,41,18,14,9,49,34,15,0,68
+2025,Fase regular,4,Deportivo Morón,39,17,15,7,38,20,18,0,66
+2025,Fase regular,5,Gimnasia y Esgrima de Mendoza,35,17,13,5,36,19,17,0,64
+2025,Fase regular,6,Gimnasia y Esgrima de Jujuy,37,16,13,8,37,21,16,0,61
+2025,Fase regular,7,Atlanta,37,15,14,8,34,29,5,0,59
+2025,Fase regular,8,Tristán Suárez,37,13,17,7,35,25,10,0,56
+2025,Fase regular,9,Gimnasia y Tiro de Salta,37,14,13,10,36,25,11,0,55
+2025,Fase regular,10,Temperley,35,14,13,8,30,24,6,0,55
+2025,Fase regular,11,Agropecuario Argentino de Carlos Casares,35,15,9,11,44,36,8,0,54
+2025,Fase regular,12,Chaco For Ever,35,15,8,12,34,29,5,0,53
+2025,Fase regular,13,San Miguel,35,12,15,8,32,28,4,0,51
+2025,Fase regular,14,San Martín de Tucumán,35,12,14,9,32,29,3,0,50
+2025,Fase regular,15,Chacarita Juniors,34,12,13,9,37,29,8,0,49
+2025,Fase regular,16,Defensores de Belgrano,34,12,12,10,30,26,4,0,48
+2025,Fase regular,17,Deportivo Maipú de Mendoza,35,12,12,11,34,31,3,0,48
+2025,Fase regular,18,Patronato de Paraná,35,12,12,11,32,30,2,0,48
 2025,Fase regular,19,Colegiales,34,13,8,13,26,26,0,0,47
 2025,Fase regular,20,All Boys,34,8,17,9,26,25,1,0,41
 2025,Fase regular,21,Nueva Chicago,34,10,11,13,27,33,-6,0,41
@@ -1208,7 +1244,7 @@ Transición 2016,Fase regular,22,Instituto de Córdoba,20,4,4,12,18,32,-14,0,16
 2025,Fase regular,32,Arsenal FC,34,8,10,16,38,47,-9,0,34
 2025,Fase regular,33,Alvarado de Mar del Plata,34,6,15,13,18,33,-15,0,33
 2025,Fase regular,34,Colón,34,9,5,20,22,39,-17,0,32
-2025,Fase regular,35,Talleres de Remedios de Escalada,34,6,5,23,17,40,-23,0,23
+2025,Fase regular,35,Talleres de Córdoba,34,6,5,23,17,40,-23,0,23
 2025,Fase regular,36,Defensores Unidos de Zárate,34,3,12,19,17,52,-35,0,21
 2026,Fase regular,1,Ferro Carril Oeste,35,19,8,8,38,31,7,0,65
 2026,Fase regular,2,Godoy Cruz Antonio Tomba,35,18,9,8,51,32,19,0,63

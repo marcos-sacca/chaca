@@ -77,7 +77,19 @@ def compare(ms, ext, teams):
     return res
 
 
-def main(crudo, rs_dir, tm_json, out):
+def sa_by_season(sa_rows, ms):
+    """Partidos de Solo Ascenso dentro de las fechas de la temporada (con 15 días de margen)."""
+    ds = sorted(m["date"] for m in ms if m.get("date"))
+    if not ds or ds[0] < "2014-01-01":
+        return []
+    import datetime
+    n = len(ds)  # percentiles 3 y 97: unas pocas fechas mal tipeadas en la crónica no deben ensanchar la ventana
+    lo = (datetime.date.fromisoformat(ds[int(0.03 * n)]) - datetime.timedelta(days=7)).isoformat()
+    hi = (datetime.date.fromisoformat(ds[min(n - 1, int(0.97 * n))]) + datetime.timedelta(days=7)).isoformat()
+    return [dict(home=r["local"], away=r["visitante"], hg=int(r["gl"]), ag=int(r["gv"]), tag=r.get("ronda")) for r in sa_rows if lo <= r["fecha"] <= hi]
+
+
+def main(crudo, rs_dir, tm_json, out, sa_norm=None):
     os.makedirs(out, exist_ok=True)
     d = json.load(open(crudo, encoding="utf-8"))
     tm = json.load(open(tm_json, encoding="utf-8")) if os.path.exists(tm_json) else {}
@@ -85,6 +97,13 @@ def main(crudo, rs_dir, tm_json, out):
     for m in d["partidos"] + d["reducidos"]:
         bys[m["season"]].append(m)
     rows, summary, unresolved = [], [], collections.Counter()
+    sa_rows = []
+    if sa_norm and os.path.exists(sa_norm):
+        import gzip
+        for ln in gzip.open(sa_norm, "rt", encoding="utf-8"):
+            r = json.loads(ln)
+            if r.get("cat") == "Primera Nacional" and not r.get("sin_resultado") and (any(e["xi"] for e in r["eq"]) or r["gl"] != "0" or r["gv"] != "0"):
+                sa_rows.append(r)
     for season, ms in sorted(bys.items()):
         teams = sorted({m["home"] for m in ms} | {m["away"] for m in ms})
         ext, src = [], None
@@ -96,31 +115,34 @@ def main(crudo, rs_dir, tm_json, out):
         elif season in TM_SEASON and TM_SEASON[season] in tm:
             ext = [dict(home=x["home"], away=x["away"], hg=x["hg"], ag=x["ag"], tag=x["round"]) for x in tm[TM_SEASON[season]]["matches"] if x["hg"] is not None]
             src = "Transfermarkt"
-        if not ext:
-            continue
-        res = {}
-        mapped = []
-        for x in ext:
-            h, hs = best_among(x["home"], teams)
-            a, as_ = best_among(x["away"], teams)
-            if not h or not a:
-                unresolved[(season, x["home"] if not h else x["away"])] += 1
-                continue
-            mapped.append((h, a, x["hg"], x["ag"]))
-        blog = collections.defaultdict(list)
-        for m in sorted(ms, key=lambda m: m["date"]):
-            blog[(m["home"], m["away"])].append((m["hg"], m["ag"], m["date"], m["post"]))
-        extd = collections.defaultdict(list)
-        for h, a, hg, ag in mapped:
-            extd[(h, a)].append((hg, ag))
-        same, ob, oe, df = seq_compare(blog, extd)
-        summary.append([season, src, len(ms), len(mapped), same, len(df), len(ob), len(oe)])
-        for k, b, e in df:
-            rows.append([season, src, "Marcador distinto", k[0], k[1], f"{b[0]}-{b[1]}", f"{e[0]}-{e[1]}", b[2], b[3]])
-        for k, b in ob:
-            rows.append([season, src, "Solo en la crónica", k[0], k[1], f"{b[0]}-{b[1]}", "", b[2], b[3]])
-        for k, e in oe:
-            rows.append([season, src, "Solo en la otra fuente", k[0], k[1], "", f"{e[0]}-{e[1]}", "", ""])
+        srcs = [(ext, src)] if ext else []
+        # Solo Ascenso como segunda fuente para las temporadas de la crónica que cubre (desde 2014)
+        sa = sa_by_season(sa_rows, ms) if sa_rows and src != "SA" and not any(m["src"].endswith(("-SA", "-TM")) for m in ms) else []
+        if sa:
+            srcs.append((sa, "Solo Ascenso"))
+        for ext, src in srcs:
+            mapped = []
+            for x in ext:
+                h, hs = best_among(x["home"], teams)
+                a, as_ = best_among(x["away"], teams)
+                if not h or not a:
+                    unresolved[(season, x["home"] if not h else x["away"])] += 1
+                    continue
+                mapped.append((h, a, x["hg"], x["ag"]))
+            blog = collections.defaultdict(list)
+            for m in sorted(ms, key=lambda m: m["date"]):
+                blog[(m["home"], m["away"])].append((m["hg"], m["ag"], m["date"], m["post"]))
+            extd = collections.defaultdict(list)
+            for h, a, hg, ag in mapped:
+                extd[(h, a)].append((hg, ag))
+            same, ob, oe, df = seq_compare(blog, extd)
+            summary.append([season, src, len(ms), len(mapped), same, len(df), len(ob), len(oe)])
+            for k, b, e in df:
+                rows.append([season, src, "Marcador distinto", k[0], k[1], f"{b[0]}-{b[1]}", f"{e[0]}-{e[1]}", b[2], b[3]])
+            for k, b in ob:
+                rows.append([season, src, "Solo en la crónica", k[0], k[1], f"{b[0]}-{b[1]}", "", b[2], b[3]])
+            for k, e in oe:
+                rows.append([season, src, "Solo en la otra fuente", k[0], k[1], "", f"{e[0]}-{e[1]}", "", ""])
     with open(os.path.join(out, "diferencias_entre_fuentes.csv"), "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
         w.writerow(["Temporada", "Otra fuente", "Tipo", "Local", "Visitante", "Marcador en la crónica", "Marcador en la otra fuente", "Fecha (crónica)", "URL de la crónica"])
@@ -136,4 +158,4 @@ def main(crudo, rs_dir, tm_json, out):
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:5])
+    main(*sys.argv[1:6])

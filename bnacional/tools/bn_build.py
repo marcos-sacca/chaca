@@ -170,7 +170,7 @@ def estado_y_cancha(m, home):
     return estado, cancha, origen, notas
 
 
-def main(cache, catalog, out, rs_dir=None, tm_json=None):
+def main(cache, catalog, out, rs_dir=None, tm_json=None, sa_norm=None):
     os.makedirs(out, exist_ok=True)
     posts = json.load(open(catalog, encoding="utf-8"))
     posts = [p for p in posts if re.search(r'Nacional "B"|"B" Nacional|Nacional B', p["t"]) and "División AFA" not in p["t"]]
@@ -359,6 +359,25 @@ def main(cache, catalog, out, rs_dir=None, tm_json=None):
                     continue
                 partidos.append(dict(season=label, code=code, fase="Fase regular", red=False, stage=None, leg=None, fecha_n=int(re.match(r"(\d+)", x["round"]).group(1)) if re.match(r"(\d+)", x["round"]) else None, date=tm_local_date(x), city="", cancha=f"Cancha de {h}",
                                      origen="Asumida: cancha del local", home=h, away=a, hg=x["hg"], ag=x["ag"], estado="Jugado", obs="", hsrc=x["home"], asrc=x["away"], src=sid, hs=[], as_=[], extra="", ptsw=3, post=sid))
+    # donde hay síntesis de Solo Ascenso (con goleadores, árbitro y cancha) se prefieren a Transfermarkt, que queda para el control cruzado
+    if sa_norm and os.path.exists(sa_norm):
+        import bn_sa
+        from names_ext import best_among
+        allc = sorted({v[0] for v in R.values()})
+        sa_rows = bn_sa.cargar(sa_norm)
+        res_sa = lambda n: SA_ALIAS.get(n) or best_among(n, allc)[0]
+        for label in bn_sa.VENTANAS:
+            code = season_code(label)
+            tm_sid = f"SRC-{code}-TM"
+            old = [m for m in partidos if m["src"] == tm_sid]
+            sid = f"SRC-{code}-SA"
+            new = bn_sa.partidos(sa_rows, label, code, res_sa, errores, sid, season_code)
+            if new:
+                # si Solo Ascenso no tiene toda la temporada, lo que falta (y Transfermarkt sí) se conserva, sin goleadores
+                have = {(m["home"], m["away"]) for m in new}
+                keep = [m for m in old if (m["home"], m["away"]) not in have] if len(new) < 0.95 * len(old) else []
+                partidos[:] = [m for m in partidos if m["src"] != tm_sid] + new + keep
+                fuentes.append([sid, label, "Resultados, goleadores, árbitro y cancha", "https://www.soloascenso.com.ar/ (síntesis de partidos)", "Solo Ascenso", f"{len(new)} partidos", "Bajado por script (ascenso/tools/sa_scrape.py)", "", "", "Reemplaza a Transfermarkt como fuente principal de la temporada; Transfermarkt queda para el control cruzado", ""])
     rows_control = []
     for c in ctl:
         pub, tab, _ = table_info(c)
@@ -373,6 +392,8 @@ def main(cache, catalog, out, rs_dir=None, tm_json=None):
     print(len(partidos), "partidos de liga;", len(reducidos), "de reducidos/promociones;", len(errores), "líneas con problemas;", len(fixes), "correcciones con segunda fuente;", len(rows_control), "equipos controlados;", len(bad), "con diferencia de puntos")
 
 
+# nombres de Solo Ascenso que el resolvedor general no entiende (se completa con lo que aparece en errores_de_lectura.csv)
+SA_ALIAS = {}
 TM_ONLY = {"2017": "2017/18", "2019": "2019/20", "2020": "2021", "2021": "2022", "2022": "2023", "2023": "2024", "2024": "2025", "2025": "2026"}
 
 
@@ -454,4 +475,4 @@ def R_short(canon):
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:6])
+    main(*sys.argv[1:7])

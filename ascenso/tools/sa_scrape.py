@@ -82,8 +82,8 @@ def main():
     out, a, b = Path(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3])
     delay = float(sys.argv[4]) if len(sys.argv) > 4 else 0.35
     done = set()
-    if out.exists():
-        for ln in out.read_text(encoding="utf-8").splitlines():
+    for f in out.parent.glob("*.jsonl"):  # también lo que bajaron otros procesos en la misma carpeta
+        for ln in f.read_text(encoding="utf-8").splitlines():
             try: done.add(json.loads(ln)["id"])
             except Exception: pass
     with out.open("a", encoding="utf-8") as f:

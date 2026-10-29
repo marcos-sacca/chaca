@@ -37,9 +37,10 @@ def main():
         import datetime
         y = datetime.date.today().year
         run(*PY, os.path.join(HERE, "tm_league.py"), tmc, tm_json, str(2008 if bajar else y - 1), str(y))
-    run(*PY, os.path.join(HERE, "bn_build.py"), blog, cat, DATA, rs, tm_json)
+    sa = os.path.join(os.path.dirname(ROOT), "ascenso", "data", "sintesis_solo_ascenso.jsonl.gz")
+    run(*PY, os.path.join(HERE, "bn_build.py"), blog, cat, DATA, rs, tm_json, sa)
     run(*PY, os.path.join(HERE, "bn_export.py"), os.path.join(DATA, "_crudo.json"), DATA)
-    run(*PY, os.path.join(HERE, "crosscheck.py"), os.path.join(DATA, "_crudo.json"), rs, tm_json, DATA)
+    run(*PY, os.path.join(HERE, "crosscheck.py"), os.path.join(DATA, "_crudo.json"), rs, tm_json, DATA, sa)
     run(*PY, os.path.join(HERE, "xlsx_make.py"), DATA, os.path.join(DATA, "B_Nacional_historico.xlsx"))
 
 
