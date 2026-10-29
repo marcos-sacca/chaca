@@ -64,8 +64,11 @@ def describe(name, cache):
 
 
 def download(name, dest):
-    url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + urllib.parse.quote(name.replace(" ", "_")) + "?width=1000"
-    for _ in range(3):
+    import hashlib, time
+    n = name.replace(" ", "_"); h = hashlib.md5(n.encode()).hexdigest(); q = urllib.parse.quote(n)
+    urls = [f"https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{q}/{w}px-{q}" for w in (960, 500)] + [f"https://upload.wikimedia.org/wikipedia/commons/{h[0]}/{h[:2]}/{q}"]
+    for k in range(14):
+        url = urls[0 if k < 6 else 1 if k < 11 else 2]
         try:
             data = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=90).read()
             im = Image.open(io.BytesIO(data)).convert("RGB")
@@ -73,7 +76,7 @@ def download(name, dest):
             im.save(dest, "JPEG", quality=66, optimize=True, progressive=True)
             return im.size
         except Exception as e:
-            import time; time.sleep(12 if "429" in str(e) else 5)
+            time.sleep(4 if "429" in str(e) else 3)
     return None
 
 
@@ -96,6 +99,23 @@ def keyword_tokens(club):
     return toks[:3] if toks and toks[0] == "san" else toks[:2] if toks and toks[0] in AMBIG else toks[:1]
 
 
+FOOT = re.compile(r"f[uú]tbol|football|soccer|partido|match|equipo|team|squad|plantel|hinchada|hincha|fans|supporters|barra|estadio|stadium|ascenso|promot|campe|champion|cancha|torcida|festej|celebr|gol\b|goal|copa|torneo|primera|nacional", re.I)
+NOFOOT = re.compile(r"rugby|tennis|tenis|portrait|retrato|entrevista|interview|speaking|posing|hotel|world cup|mundial|fifa|olymp|hockey|basket|b[aá]squet|medical|school|escuela|graffiti|mural en homenaje a los|selecci[oó]n|argentina vs|vs germany", re.I)
+
+
+def relevant(f, d, kw, in_cat):
+    """El archivo trata de fútbol y del club: está en su categoría de Commons, o su nombre/descripción lo nombran."""
+    txt = norm_txt(f + " " + d["desc"])
+    if NOFOOT.search(f + " " + d["desc"]) or not FOOT.search(f + " " + d["desc"]):
+        return False
+    return in_cat or all(k in txt for k in kw)
+
+
+def norm_txt(t):
+    import unicodedata
+    return unicodedata.normalize("NFD", t).encode("ascii", "ignore").decode().lower().replace("_", " ")
+
+
 def main(cf, csvp, cache, imgdir, out):
     os.makedirs(imgdir, exist_ok=True)
     cf = json.load(open(cf, encoding="utf-8"))
@@ -108,13 +128,11 @@ def main(cf, csvp, cache, imgdir, out):
         dest = os.path.join(imgdir, fn)
         if name in used:
             return used[name]
-        if not os.path.exists(dest):
-            if not download(name, dest):
-                return None
         title = re.sub(r"\.(jpe?g|png)$", "", name, flags=re.I)
         cap = d["desc"] or title
         ph = dict(img=f"assets/img/ascensos/{fn}", caption=cap[:180], alt=title, author=re.sub(r"\s+", " ", d["author"]), lic=d["lic"], page="https://commons.wikimedia.org/wiki/File:" + urllib.parse.quote(name.replace(" ", "_")), kind=kind, file=name)
         used[name] = ph
+        ph["_dest"] = dest
         return ph
 
     general = []
@@ -126,31 +144,31 @@ def main(cf, csvp, cache, imgdir, out):
     for club, c in sorted(cf.items()):
         kw = keyword_tokens(club)
         gen_for_club = [f for f in general if kw and all(k in norm_(f) for k in kw)]
-        pool = gen_for_club + list(dict.fromkeys([f for f in c["articulo"] if EXT.search(f)] + [f for f in c["archivos"] if EXT.search(f)] + [f for fs in c["subcategorias"].values() for f in fs if EXT.search(f)]))
+        pool = gen_for_club + list(dict.fromkeys([f for f in c["articulo"] if EXT.search(f)] + [f for f in c["archivos"] if EXT.search(f)] + [f for sc, fs in c["subcategorias"].items() if not re.search(r"player|coach|manager|jugador", sc, re.I) for f in fs if EXT.search(f)]))
         pool = [f for f in pool if not BAD.search(f)]
+        cat_set = set(c["archivos"]) | {f for sc, fs in c["subcategorias"].items() if not re.search(r"player|coach|manager|jugador", sc, re.I) for f in fs} | set(gen_for_club)
         # fotos de cada temporada de ascenso (el año figura en el nombre del archivo)
         for r in rows:
             if r["Club"] != club:
                 continue
             ys = years_of(r["Temporada"])
-            cand = sorted([f for f in pool if any(str(y) in f for y in ys)], key=lambda f: -score(f, ys))[:2]
+            cand = sorted([f for f in pool if any(str(y) in f for y in ys)], key=lambda f: -score(f, ys))[:4]
             for f in cand:
                 d = describe(f, cache)
-                if d:
+                if d and relevant(f, d, kw, f in cat_set):
                     key = f"{slug(r['Temporada'])}"
                     ph = take(club, f, d, "temporada", key)
                     if ph:
                         entries[f"{slug(r['Temporada'].replace('/', '-'))}|{slug(club)}"] = ph
                         break
         # foto general del club
-        for f in sorted(pool, key=lambda f: -score(f))[:5]:
+        for f in sorted(pool, key=lambda f: -score(f))[:8]:
             d = describe(f, cache)
-            if d:
+            if d and relevant(f, d, kw, f in cat_set):
                 ph = take(club, f, d, "club", "club")
                 if ph:
                     clubs[slug(club)] = dict(ph, kind="club")
                     break
-        json.dump(dict(entries=entries, clubs=clubs, general=[]), open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
         print(club, "temporadas:", sum(1 for k in entries if k.endswith("|" + slug(club))), "club:", slug(club) in clubs, flush=True)
     gen_out = []
     for f in general:
@@ -159,11 +177,24 @@ def main(cf, csvp, cache, imgdir, out):
         if f in used:
             gen_out.append(used[f]); continue
         d = describe(f, cache)
-        if d:
+        if d and not NOFOOT.search(f + " " + d["desc"]) and len(d["desc"] or f) > 14 and all((d["desc"] or f)[:40] != (g["caption"] or "")[:40] for g in gen_out):
             ph = take("categoria", f, d, "general", slug(re.sub(r"\.\w+$", "", f))[:40])
             if ph:
                 gen_out.append(ph)
-    json.dump(dict(entries=entries, clubs=clubs, general=gen_out), open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
+    # descargas (al final, con reintentos: Wikimedia limita los pedidos de imágenes)
+    todo = [ph for ph in used.values() if not os.path.exists(ph["_dest"])]
+    print("para descargar:", len(todo), flush=True)
+    failed = set()
+    for ph in todo:
+        if not download(ph["file"], ph["_dest"]):
+            failed.add(ph["file"]); print("no se pudo bajar", ph["file"], flush=True)
+        else:
+            print("ok", ph["file"], flush=True)
+    entries = {k: v for k, v in entries.items() if v["file"] not in failed}
+    clubs = {k: v for k, v in clubs.items() if v["file"] not in failed}
+    gen_out = [g for g in gen_out if g["file"] not in failed]
+    clean = lambda d: {k: {kk: vv for kk, vv in v.items() if not kk.startswith("_")} for k, v in d.items()}
+    json.dump(dict(entries=clean(entries), clubs=clean(clubs), general=[{kk: vv for kk, vv in g.items() if not kk.startswith("_")} for g in gen_out]), open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
 
 
 if __name__ == "__main__":

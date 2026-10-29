@@ -24,7 +24,7 @@ export function ascCard(a, { compact = false } = {}) {
   const champ = a.how === "Campeón";
   const media = ph ? h("img", { src: imgSrc(ph.img), alt: ph.alt || `${t.n}`, loading: "lazy", decoding: "async" }) : monogram(a.t);
   const card = h("button.acard" + (compact ? ".acard--c" : ""), { type: "button", "aria-label": `${t.n}, ${champ ? "campeón" : "ascenso"} ${a.season.label}`, onclick: () => openCard(a) }, [
-    h("div.acard__img", [media, h("span.acard__badge" + (champ ? ".is-champ" : ""), champ ? "Campeón" : "Ascenso")]),
+    h("div.acard__img", [media, h("span.acard__badge" + (champ ? ".is-champ" : ""), champ ? "Campeón" : "Ascenso"), ph && ph.kind === "club" ? h("span.acard__kind", "Foto del club") : null]),
     h("div.acard__txt", [h("b", t.short), h("span", a.season.label)]),
   ]);
   return card;
