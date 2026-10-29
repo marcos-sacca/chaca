@@ -1,0 +1,1261 @@
+{{distinguir|la división paraguaya del mismo nombre, [[Primera División B Nacional (Paraguay)|Primera B Nacional]]}}
+
+{{Ficha de liga deportiva
+|tipo               = 
+|título             = Primera Nacional
+|color              = 
+|color texto        =
+|temporada actual   = [[Campeonato de Primera Nacional 2026|Primera Nacional 2026]]
+|imagen             =
+|tamañoimagen       =130px 
+|deporte            = [[Fútbol]] 
+|país               = {{ARG}}
+|fama               = Nacional
+|federación         = [[Asociación del Fútbol Argentino]] 
+|confederación      = [[Conmebol]] 
+|continente         = 
+|nombre oficial     = Primera Nacional
+|lema               =
+|fundación          = 19 de julio de 1986
+|principio          = 
+|primera temporada  = [[Campeonato Nacional B 1986-87|1986-87]] ({{edad|19|7|1986}})
+|primer campeón     = [[Club Deportivo Armenio|Deportivo Armenio]] 
+|equipos            = 36
+|campeón            = [[Club Atlético Gimnasia y Esgrima (Mendoza)|Gimnasia y Esgrima (M)]]
+|más campeonatos    = [[Club Atlético Banfield|Banfield]] <br/> [[Club Olimpo|Olimpo]] (3)
+|más participaciones = [[Instituto Atlético Central Córdoba|Instituto]] (31)
+|goleador           = [[Adrián Czornomaz]] (160)
+|nivel              = [[Segunda categoría del fútbol argentino|Segunda]]
+|ascenso            = [[Primera División de Argentina|Liga Profesional de Fútbol]] 
+|descenso           = [[Primera B (Argentina)|Primera B]]<br><small>([[Anexo:Clubes directamente afiliados a la AFA|Directamente afiliados]])</small><br> [[Torneo Federal A]]<br><small>(Indirectamente afiliados)</small>
+|clasifica          = 
+|copa               = [[Copa Argentina (fútbol)|Copa Argentina]] 
+|copa internacional = 
+|sponsor            = 
+|TV                 = LPF Play
+|web                = 
+}}
+
+{{VT|Anexo:Estadísticas de la segunda categoría del fútbol argentino|l1=Estadísticas de la segunda categoría}}
+La '''Primera Nacional''', anteriormente denominada '''Primera B Nacional''' o '''Torneo Nacional B''', es el [[Competiciones oficiales del fútbol argentino|campeonato de fútbol]] de segunda división de [[Argentina]]. Está organizado por la [[Asociación del Fútbol Argentino|AFA]] y es disputado tanto por clubes [[Anexo:Clubes directamente afiliados a la AFA|directa]] como indirectamente afiliados a la asociación. Es una de las cinco divisiones formalmente profesionales, junto a la [[Primera División de Argentina|Primera División]], la [[Primera B (Argentina)|Primera B]], el [[Torneo Federal A|Federal A]] y la [[Primera C (Argentina)|Primera C]].
+
+Los clubes con más conquistas desde el inicio de la disputa del torneo en la [[Campeonato Nacional B 1986-87|temporada 1986-87]] son [[Club Atlético Banfield|Banfield]] y [[Club Olimpo|Olimpo]],<ref name="Olimpo">En el campeonato 2001-02 ganó el Torneo Apertura, y fue proclamado campeón anual. En 2006-07 fue el ganador del primer ascenso y posteriormente listado como campeón</ref> con tres campeonatos cada uno. [[Instituto Atlético Central Córdoba|Instituto]] es el club que lidera la [[Anexo: Clasificación histórica de la Primera B Nacional|clasificación histórica]] de la competencia, por la cual han pasado 116 clubes en total, desde la primera temporada hasta la [[Campeonato de Primera Nacional 2026|temporada 2026]], inclusive. Por su parte, [[Club Deportivo Armenio|Deportivo Armenio]] fue el primer campeón en la temporada [[Campeonato Nacional B 1986-87|1986-87]].
+
+== Historia ==
+El torneo de la Primera B Nacional, con el nombre oficial de '''Campeonato Nacional B''', surgió a mediados de la década de 1980, como una continuación del anterior [[Campeonato Nacional de fútbol (Argentina)|Torneo Nacional]], incluido en una reestructuración generalizada de todos los [[Campeonatos oficiales de fútbol de Argentina|campeonatos oficiales del fútbol argentino]]. Se apuntó entonces a que los [[Anexo:Ligas regionales de fútbol en Argentina|clubes del interior]] del país tuvieran una competencia regular, sistematizando los [[Ascenso y descenso (deportes)|ascensos y descensos]]. Se reestructuró el sistema de competencias y se cambió el calendario por el de tipo ''europeo'' —es decir, las temporadas pasaron a comenzar a mediados de año y a finalizar a mediados del siguiente—, por lo que a partir del [[Campeonato Nacional B 1986-87|torneo 1986-87]] y hasta la [[Campeonato de Primera B Nacional 2013-14|temporada 2013-14]] los campeonatos de las distintas divisiones se disputaron con esa estructura. El Nacional B fue creado para federalizar el fútbol argentino y que no quedara sólo reducido a equipos de [[Buenos Aires]], el [[Gran Buenos Aires#Conurbano bonaerense|conurbano bonaerense]] y muy pocos equipos de otras ciudades importantes de Argentina que están directamente afiliados.
+
+El campeonato fue intercalado, por el lado de los [[Anexo:Clubes directamente afiliados a la AFA|clubes directamente afiliados]] a la [[Asociación del Fútbol Argentino]], entre la [[Primera División de Argentina|Primera División]] y la preexistente [[Primera B (Argentina)|Primera B]], conocida popularmente como B Metropolitana, que pasó a ser una competencia de [[Tercera categoría del fútbol argentino|tercera categoría]] en el sistema de torneos del fútbol argentino. Mientras que los clubes indirectamente afiliados, pertenecientes a las [[Anexo:Ligas regionales de fútbol en Argentina|ligas regionales]] de las [[provincias de Argentina]], se incorporaron al sistema de ascensos y descensos a través del también recién creado [[Torneo del Interior (1986-1995)|Torneo del Interior]], nuevo certamen de tercera categoría en ese ámbito.
+
+Estas innovaciones, en el caso de la Primera División, significaron además la desaparición de los campeonatos [[Campeonato Metropolitano de Fútbol (Argentina)|Metropolitano]] y [[Campeonato Nacional de Fútbol (Argentina)|Nacional]], dado que los equipos del interior, que no tenían derecho a disputar el torneo regular, el Campeonato Metropolitano —más allá de que a partir de [[Campeonato de Primera División 1980 (Argentina)|1980]], por la [[Resolución 1309]], algunos clubes indirectamente afiliados comenzaron a disputarlo—, pero tenían participación en el Nacional, encontraron su ámbito en el nuevo certamen de segunda categoría; mientras que el campeonato de Primera División, que hasta entonces era el Metropolitano, dejó de ser disputado casi exclusivamente por equipos directamente afiliados a la AFA, que son, con unas pocas y notables excepciones, clubes del [[Gran Buenos Aires#Área metropolitana|área metropolitana de Buenos Aires]], dado que, a partir de entonces, los equipos del interior no afiliados directamente podrían adquirir el derecho de competir regularmente en el torneo de Primera División a través de la articulación orgánica con el Nacional B, y este, a su vez, con el Torneo del Interior, luego [[Torneo Argentino A]] y actualmente [[Torneo Federal A]].
+
+En resumen: con la introducción del Nacional B, la preexistente Primera B pasó de ser la segunda categoría a la tercera, junto con el recién creado Torneo del Interior; el Campeonato Nacional perdió su razón de ser y desapareció, y el conjunto de participantes del torneo de Primera División, o sea el grupo de clubes que hasta entonces participaban en el Campeonato Metropolitano, se fue federalizando, en la medida en que se fueron incorporando equipos del interior no afiliados directamente a la AFA, que ascendían desde el Nacional B.
+
+Integraron la nueva divisional dos equipos descendidos de Primera División, trece clasificados del [[Torneo del Interior 1986|Torneo del Interior]] y los ocho mejores de los veinte equipos que disputaron el torneo clasificatorio de [[Campeonato de Primera División B 1986 (Argentina)|Primera División B 1986]], el resto sufrió un eventual descenso, dado que pasaron a la actual B Metropolitana, el tercer nivel de competencia dentro de los equipos con afiliación directa.
+
+=== Torneos largos (1986-1995) ===
+En la primera edición ([[Campeonato Nacional B 1986-87|1986-87]]), el sorpresivo campeón fue [[Club Deportivo Armenio|Deportivo Armenio]], un humilde club de [[Ingeniero Maschwitz]] que no tenía estadio propio y muy poca cantidad de seguidores. Cabe destacar además que hasta fines del 1985 el equipo de la colectividad [[armenia]] jugaba en la [[Primera C (Argentina)|Primera C]]. El segundo ascenso lo consiguió [[Club Atlético Banfield|Banfield]], club que de esta manera lograba volver al círculo superior luego de casi una década de ausencia. Resultó goleador el [[Toti Iglesias]], de [[Club Atlético Huracán|Huracán]], con 36 goles.
+
+El certamen de [[Campeonato Nacional B 1987-88|1987-88]] fue ganado por el [[Club Deportivo Mandiyú|Deportivo Mandiyú]], crédito [[correntino]] que como único antecedente en el [[fútbol]] grande contaba con la participación en el [[Campeonato Nacional 1974 (Argentina)|Nacional 1974]]. Luego de una primera temporada de adaptación, los dirigidos por Juan Manuel Guerra llegaron a la elite del [[Fútbol en Argentina|fútbol argentino]] y fueron acompañados por [[Club Atlético San Martín (Tucumán)|San Martín (T)]], club que no había tomado parte del Nacional B ese año, viniendo desde el zonal. El ''Ciruja'', al igual que el campeón de la [[Primera B (Argentina)|Primera B Metro]], tenía derecho a jugar en el ''Torneo reducido'' de 12 equipos y así llegó a la [[Primera División Argentina|máxima categoría]], luego de superar en ambos duelos de la final al campeón de la siguiente edición. El goleador fue José Daniel Leani, de [[Quilmes Atlético Club|Quilmes]], con 24 tantos.
+
+En la [[Campeonato Nacional B 1988-89|temporada 1988-89]] el campeón fue [[Club Atlético Chaco For Ever|Chaco For Ever]], tras vencer como local en la fecha 42 y última fecha a [[Club Atlético Lanús|Lanús]], club que llegó a tener gran diferencia en el tramo final y se quedó con un frustrante subcampeonato. En el dodecagonal se llevó el premio [[Club Atlético Unión (Santa Fe)|Unión]], nada menos que ante [[Club Atlético Colón|Colón]]: en el [[clásico santafesino]], el ''Tatengue'' se impuso en ambos cotejos y con [[Humberto Zuccarelli]] como [[entrenador]]. Los máximos artilleros fueron [[Daniel Toribio Aquino]] de [[Club Atlético Banfield|Banfield]] y Sergio Recchiutti de [[Club Almirante Brown|Almirante Brown]], con 24 goles cada uno.
+
+[[Club Atlético Huracán|Huracán]] ganó por un campo el [[Campeonato Nacional B 1989-90|torneo 1989-90]], y de la mano de [[Carlos Babington]] como director técnico se fue del Nacional después de 4 años. Por su parte, [[Club Atlético Lanús|Lanús]] tuvo su revancha del año anterior, y tras vencer por [[Tiros desde el punto penal|penales]] a [[Quilmes Atlético Club|Quilmes]] retornó a la [[Primera División Argentina|Primera División]] después del descenso de 1977, con un paso de tres años por la [[Primera C (Argentina)|Primera C]] incluido. Los máximos anotadores fueron [[Juan Carlos Almada]] de [[Club Social y Deportivo Defensa y Justicia|Defensa y Justicia]] y Abel Blasón de Quilmes, con 20 anotaciones cada uno.
+
+La [[Campeonato Nacional B 1990-91|temporada 1990-91]] vio festejar a [[Quilmes Atlético Club|Quilmes]], club que logró volver a la [[Primera División Argentina|Primera División]] después de nueve años de ausencia. En el ''reducido'' obtuvo el segundo pasaje [[Club Atlético Belgrano|Belgrano.]] El goleador de este certamen fue [[Roberto Oste]], de [[Club Social y Deportivo Defensa y Justicia|Defensa y Justicia]], con 24 tantos.
+
+El campeón de la [[Campeonato Nacional B 1991-92|1991-92]] fue [[Club Atlético Lanús|Lanús]], que luego de descender en la [[Primera División Argentina|Primera A]] volvió rápidamente y el otro ascenso fue para [[San Martín de Tucumán|San Martín (T)]], que le ganó a [[Club Almirante Brown|Almirante Brown]], club que tuvo en Carlos Paulino Cardozo al goleador del certamen, con 26 tantos.
+
+El torneo de [[Campeonato Nacional B 1992-93|1992-93]] [[Club Atlético Banfield|Banfield]] y [[Club Atlético Colón|Colón]] jugaron un desempate en Córdoba. Luego de que el ''Sabalero'' fuera muy superior en los 120 minutos de juego, el club del sur bonaerense, dirigido por [[Carlos Babington]], festejó en los [[Tiros desde el punto penal|penales]]. Los de [[Jorge Ginarte]] poco pudieron hacer en el ''reducido'', el cual se terminó adjudicando [[Club Gimnasia y Tiro|Gimnasia y Tiro (S)]], institución que había llegado al Nacional en esa temporada.
+
+Para la [[Campeonato Nacional B 1993-94|temporada 1993-94]] llegó el turno de una sorpresa, ya que [[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]] fue campeón contra todos los pronósticos, el ''Lobo'' venía de jugar la temporada anterior en el [[Liga Jujeña de Fútbol|regional]]. El otro ascenso fue para [[Club Atlético Talleres (Córdoba)|Talleres (C)]], que en el [[clásico cordobés]] le ganó a [[Instituto Atlético Central Córdoba|Instituto]]. El máximo goleador fue Dante Fernández, de [[Quilmes Atlético Club|Quilmes]], con 29 tantos.
+
+En la [[Campeonato Nacional B 1994-95|temporada 1994-95,]] [[Club Estudiantes de La Plata|Estudiantes de La Plata]], después de 40 años, volvía al mundo del ascenso. Con muchos sobrevivientes del descenso y varias incorporaciones de gran nivel para lo que era la divisional, el equipo comandado por la dupla [[Miguel Ángel Russo]] - [[Eduardo Luján Manera]] arrasó en la tabla con sus 21 oponentes, más allá de algún traspié sorpresivo. El otro ascendido fue [[Club Atlético Colón|Colón]], que después de 14 años volvió al [[Primera División Argentina|fútbol grande]]. El máximo anotador fue [[Alejandro Abaurre]], del debutante [[Club Deportivo Godoy Cruz Antonio Tomba|Godoy Cruz]], con 29 goles.
+
+=== Torneo Apertura y Torneo Clausura (1995-1996) ===
+En la siguiente temporada hubo una pequeña variante, después de casi una década. Seguirían siendo 22 los integrantes de la divisional, pero ahora se jugaría un Torneo ''Apertura'' y un Torneo ''Clausura'', algo que duraría solamente un año. La [[Campeonato Nacional B 1995-96|temporada 1995-96]] fue propiedad de [[Huracán Corrientes]], que luego de tomar el lugar del desaparecido [[Deportivo Mandiyú]] a mediados de 1995 ya que la [[Liga Correntina de Fútbol]] pudo mantener la plaza, armó un muy buen equipo y con [[Humberto Zuccarelli]] como DT, venció a [[Talleres de Córdoba]] en la gran final. El otro ascenso fue para [[Club Atlético Unión (Santa Fe)|Unión de Santa Fe]]. El goleador fue [[Adrián Czornomaz]], de [[Club Atlético Los Andes|Los Andes]], con 26 tantos.
+
+=== Zona Interior y Zona Metropolitana (1996-2001) ===
+
+El torneo pasó a llamarse '''Primera B Nacional''' y tuvo un nuevo cambio de formato. Ahora serían 32 los equipos involucrados en el certamen, con la mitad del interior y la otra mitad del [[Gran Buenos Aires]], [[Rosario (Argentina)|Rosario]] y [[Junín (Buenos Aires)|Junín]], que tienen afiliación directa a la [[Asociación del Fútbol Argentino]]. Este esquema duró hasta la [[Campeonato de Primera B Nacional 2000-01|temporada 2000-01]] inclusive, aunque en los primeros años había cuatro zonas y en las últimas tres temporadas se redujo a una zona de afiliados directos y una con afiliados indirectos, con 16 participantes cada una de ellas.
+
+En [[Campeonato de Primera B Nacional 1996-97|1996-97]] el campeón fue [[Asociación Atlética Argentinos Juniors|Argentinos Juniors]], que al igual que [[Club Estudiantes de La Plata|Estudiantes de La Plata]] dos años antes, había tenido que vivir el descenso después de cuatro décadas de permanencia ininterrumpida en la [[Primera División Argentina|Primera]]. Si bien al ''Bicho'' le costó adaptarse a la categoría, terminó imponiendo su jerarquía y con [[Osvaldo Sosa|Osvaldo ''chiche'' Sosa]] como entrenador pudo salir campeón. Vía ''reducido'' lo acompañó [[Club Gimnasia y Tiro|Gimnasia y Tiro (S)]], que por [[Tiros desde el punto penal|penales]] dejó a [[Club Atlético Talleres (Córdoba)|Talleres (C)]] sin festejo por segundo año al hilo. El campeón tuvo al goleador, el [[hondureño]] [[Eduardo Bennett]], con 23 tantos.
+
+En [[Campeonato de Primera B Nacional 1997-98|1997-98]] hubo final entre [[Córdoba (Argentina)|cordobeses]], en la que [[Club Atlético Talleres (Córdoba)|Talleres (C)]] obtuvo el campeonato ante [[Club Atlético Belgrano|Belgrano]], en una nueva edición del [[Clásico cordobés]]. A su vez, Belgrano ganó el segundo ascenso, al superar a [[Club Atlético Aldosivi|Aldosivi]] en la final del ''reducido''. Cabe destacar que con ese ascenso logrado con ''la B'', el talentoso [[uruguayo]] [[Luis Ernesto Sosa]] subió por quinta vez a [[Primera División Argentina|Primera División]] en menos de diez años ([[Club Atlético Chaco For Ever|Chaco For Ever]] en 1989, [[Club Atlético Belgrano|Belgrano]] en 1991, [[Club Estudiantes de La Plata|Estudiantes de La Plata]] en 1995, [[Club Atlético Huracán Corrientes|Huracán Corrientes]] en 1996 y nuevamente con Belgrano en 1998). El goleador fue [[Alejandro Glaría]], de [[Club Atlético Banfield|Banfield]], con 30 goles.
+
+El campeón de la [[Campeonato de Primera B Nacional 1998-99|temporada 1998-99]] fue [[Instituto Atlético Central Córdoba|Instituto]], que superó a [[Club Atlético Chacarita Juniors|Chacarita Juniors]] en la final de la temporada, volviendo de esa manera a Primera después de casi una década. Pero al igual que el año anterior, el derrotado en la final pudo quedarse con el ''reducido'': el ''Funebrero'' le ganó a [[Juventud Antoniana]] en Salta y logró mediante un empate 1 a 1 en [[General San Martin (partido)|San Martin]] regresar a la [[Primera División de Argentina|Primera]], categoría que no jugaba desde 1986. El goleador fue [[Adrián Czornomaz]], de [[Club Atlético Tucumán|Atlético Tucumán]], con 26 tantos.
+
+En [[Campeonato de Primera B Nacional 1999-00|1999-00]] fue el turno de [[Club Atlético Huracán|Huracán]], que le ganó a [[Quilmes Atlético Club|Quilmes]], sin embargo el ''Cervecero'' llegó a la final del ''reducido'', y esta vez fue [[Club Atlético Los Andes|Los Andes]], que volvió a la [[Primera División Argentina|Primera]] tras 29 años de ausencia. Además, esta fue la temporada en que se estrenó la promoción, vía por la cual [[Club Almagro|Almagro]] logró superar a [[Instituto Atlético Central Córdoba|Instituto]], retornando así a la máxima categoría después de seis décadas. El goleador fue [[Gastón Casas]], de Huracán, autor de 30 goles.
+
+La [[Campeonato de Primera B Nacional 2000-01|temporada 2000-01]] coronó a [[Club Atlético Banfield|Banfield]] como campeón, luego de superar en las dos finales a [[Quilmes Atlético Club|Quilmes]]. En el reducido, la final la jugaron [[Club Atlético Nueva Chicago|Nueva Chicago]] e [[Instituto Atlético Central Córdoba|Instituto]], el gran candidato; pese a ello, el ''Torito'' obtuvo el ascenso. El goleador fue [[Daniel Jiménez|Daniel ''Miliki'' Jiménez]], de Instituto, con 23 tantos.
+
+=== Torneo Apertura y Torneo Clausura (2001-2007) ===
+Para el [[Campeonato de Primera B Nacional 2001-02|certamen 2001-02]] hubo un cambio de formato. Tras una controversia entre los que, por un lado, querían terminar con la división entre equipos metropolitanos y los del resto del país, y los que se oponían con diferentes argumentos, con las consabidas dudas dirigenciales,<ref>{{cita web|url=http://archivo.lavoz.com.ar/2001/0319/nota22391_1.htm|título=La B Nacional seguiría jugándose en dos zonas|fechaacceso=4 de septiembre de 2014|fechaarchivo=24 de febrero de 2021|urlarchivo=https://web.archive.org/web/20210224035836/http://archivo.lavoz.com.ar/2001/0319/nota22391_1.htm|deadurl=yes}}</ref> que ocasionaron que se hicieran cambios sobre la marcha, los 25 equipos que quedaron disputaron un torneo que se dividió en dos fases, a semejanza de lo que ocurría desde hacía una década en la [[Primera División de Argentina#Campeonato de Primera División-Torneos Apertura y Clausura|Primera División]]. Dada la cantidad de equipos participantes, se determinó que el ganador del Apertura, que se disputó durante el segundo semestre de 2001, en una ronda de [[Sistema de todos contra todos|todos contra todos]], adquiriera el derecho a jugar en Primera, considerándolo campeón anual. Así fue como [[Club Olimpo|Olimpo]], luego de jugar solamente 24 partidos y tras una cerrada lucha con [[Quilmes Atlético Club|Quilmes]] y [[Atlético Club San Martín|San Martín (M)]], a los que aventajó por uno y dos puntos respectivamente, ascendió. En la segunda mitad de la temporada se dividieron los 24 clubes restantes en tres zonas, los mejores fueron a un octogonal junto con los cinco mejor ubicados en la tabla general, y allí [[Arsenal Fútbol Club|Arsenal]] venció a [[Club Gimnasia y Esgrima (Concepción del Uruguay)|Gimnasia y Esgrima (CdU)]] en la final, con lo que obtuvo el segundo ascenso.
+
+Hubo un nuevo cambio de formato para el [[Campeonato de Primera B Nacional 2002-03|campeonato 2002-03]]: los participantes se redujeron a 20, por lo que los torneos Apertura y Clausura se desarrollaron, respectivamente, en una ronda completa, estableciéndose reglamentariamente que, si un equipo ganaba ambos certámenes, obtendría el primer ascenso, o que ambos ganadores, si los hubiera, disputarían una eventual final por el mismo. Con el tiempo, AFA listó en su página web<ref>{{cita web |url=http://www.afa.org.ar/index.php?option=com_content&view=article&id=1600|título=Segunda División-Campeones}}</ref> a esos equipos como campeones de la correspondiente temporada. Así fue como [[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]] llegó por primera vez a la máxima categoría, ya que consiguió ambos torneos. El segundo ascenso fue obtenido por Quilmes, que superó a [[Asociación Atlética Argentinos Juniors|Argentinos Juniors]] en la instancia decisiva.
+
+La temporada [[Campeonato de Primera B Nacional 2003-04|2003-04]] fue la primera en registrar cuatro ascensos. El primero lo obtuvo fue [[Instituto Atlético Central Córdoba|Instituto]], vencedor de [[Club Almagro|Almagro]] en la final, aunque este fue el ganador del segundo ascenso ante [[Club Atlético Huracán (Tres Arroyos)|Huracán (TA)]]. En la promociones pudieron ascender este último equipo y Argentinos Juniors.
+
+El torneo de [[Campeonato de Primera B Nacional 2004-05|2004-05]] consagró como el mejor a [[Club Atlético Tiro Federal Argentino|Tiro Federal (R)]] que superó a [[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]], institución que manteniendo la tendencia de la temporada anterior, le ganó a [[Club Atlético Huracán|Huracán]] la final por el segundo ascenso.
+ 
+La temporada [[Campeonato de Primera B Nacional 2005-06|2005-06]] marcó la primera consagración de un equipo [[Provincia de Mendoza|mendocino]]: [[Club Deportivo Godoy Cruz Antonio Tomba|Godoy Cruz]] logró el primer ascenso al vencer en la final de los ganadores de cada fase. El perdedor, [[Club Atlético Nueva Chicago|Nueva Chicago]], le ganó la instancia por el segundo ascenso a [[Club Atlético Belgrano|Belgrano (C)]], el que luego derrotó a Olimpo en la promoción y se transformó en el tercer ascendido de la temporada.
+
+En la [[Campeonato de Primera B Nacional 2005-06|temporada 2006-07]] nuevamente hubo cuatro ascensos. Olimpo, al igual que Atlético de Rafaela en la edición 2002-03, se quedó con el Apertura y el Clausura, consiguiendo el primer ascenso de manera directa. El ganador del segundo fue [[Club Atlético San Martín (San Juan)|San Martín (SJ)]], mientras que, en las promociones, Huracán venció a Godoy Cruz y [[Club Atlético Tigre|Tigre]] a Nueva Chicago, y también ascendieron.
+
+A partir de la siguiente temporada, el formato volvió a cambiar.
+
+=== Torneos largos (2007-2014) ===	
+Para la [[Campeonato de Primera B Nacional 2007-08|2007-08]] se decidió un nuevo cambio de formato. Se volvió a un solo torneo anual, como aquellos que se habían dejado de implementar en la [[Campeonato Nacional B 1994-95|temporada 1994-95]], solamente que ahora eran 20 y no 22 los participantes, por lo que el torneo tuvo un total de 38 fechas. También se suprimió el antiguo ''Torneo reducido'': el subcampeón obtenía el segundo ascenso directo, mientras que los ubicados en el tercer y cuarto puesto, ganaban el derecho a jugar la promoción contra clubes de [[Primera División (Argentina)|Primera División]]. El campeón fue [[Club Atlético San Martín (Tucumán)|San Martín (T)]]. Al ''Santo Tucumano'' lo acompañó [[Club Deportivo Godoy Cruz Antonio Tomba|Godoy Cruz]].
+
+En la [[Campeonato de Primera B Nacional 2008-09|temporada 2008-09]] [[Club Atlético Tucumán|Atlético Tucumán]] fue el campeón y el subcampeón [[Club Atlético Chacarita Juniors|Chacarita Juniors]]. Ascendieron ambos.
+
+En el torneo [[Campeonato de Primera B Nacional 2009-10|2009-10]], el campeón y el subcampeón, [[Club Olimpo|Olimpo]] y [[Quilmes Atlético Club|Quilmes]], ascendieron en forma directa, mientras que [[Club Atlético All Boys|All Boys]], venciendo en la promoción a [[Club Atlético Rosario Central|Rosario Central]], volvió a la [[Primera División de Argentina|Primera División]].
+
+En la [[Campeonato de Primera B Nacional 2010-11|temporada 2010-11]] por tercera vez en la historia de la divisional hubo cuatro ascensos, coronando como campeón a [[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]] y como subcampeón [[Club Atlético Unión (Santa Fe)|Unión]], ambos equipos ascendieron de manera directa. En las promociones triunfaron [[Club Atlético Belgrano|Belgrano]] y [[Club Atlético San Martín (San Juan)|San Martín (SJ)]] sobre [[Club Atlético River Plate|River Plate]] y [[Club de Gimnasia y Esgrima La Plata|Gimnasia y Esgrima La Plata]], respectivamente.
+
+La [[Campeonato de Primera B Nacional 2011-12|temporada 2011-12]] marcó la primera participación de [[Club Atlético River Plate|River Plate]] que fue campeón del certamen y ascendió a la [[Primera División de Argentina|máxima categoría]], secundado por [[Quilmes Atlético Club|Quilmes]], que fue subcampeón. Los dos equipos ascendieron luego de una temporada en la B Nacional.
+
+Para la [[Campeonato de Primera B Nacional 2012-13|temporada 2012-13]] se eliminaron las [[Primera División (Argentina)#Promociones|promociones]] en todas las categorías y se estableció que ascendieran los tres primeros equipos de la tabla de posiciones, los mismos fueron: [[Club Atlético Rosario Central|Rosario Central]] como campeón del certamen, acompañado por [[Club de Gimnasia y Esgrima La Plata|Gimnasia y Esgrima La Plata]], subcampeón, y [[Club Olimpo|Olimpo]] en el tercer puesto.
+
+Para la [[Campeonato de Primera B Nacional 2013-14|temporada 2013-14]] se amplió el número de equipos de 20 a 22, cantidad con la que se jugó por última vez en la [[Campeonato Nacional B 1995-96|temporada 1995-96]], incorporando dos equipos provenientes de las categorías inferiores, siendo ambos del [[Torneo Argentino A|Argentino A]]. Por otra parte, los descendidos de Primera División fueron [[Club Atlético Independiente|Independiente]], [[Club Atlético Unión (Santa Fe)|Unión (SF)]] y [[Club Atlético San Martín (San Juan)|San Martín (SJ)]]. Tuvo como campeón a [[Club Atlético Banfield|Banfield]], cuyo director técnico [[Matías Almeyda]], consiguió su segundo título en la categoría. El subcampeonato fue para [[Club Social y Deportivo Defensa y Justicia|Defensa y Justicia]], club que además contó con [[Juan Martín Lucero]], goleador del torneo con 24 tantos. Mientras que el tercer y último ascenso fue para [[Club Atlético Independiente|Independiente]] que, tras igualar el tercer puesto con [[Club Atlético Huracán|Huracán]], ganó el partido de desempate. Esta temporada contó con cuatro descensos directos.
+
+=== Torneo de transición (2014) ===
+El 29 de abril de 2014, mediante un consenso, la [[Asociación del Fútbol Argentino|AFA]] aprobó la reestructuración de los campeonatos de todas las categorías del fútbol argentino.<ref>{{cita web|url=http://archivo.losandes.com.ar/notas/2014/4/29/afa-aprobo-creacion-nuevo-torneo-equipos-782436.asp|título=AFA: se aprobó la creación del nuevo torneo de 30 equipos|urlarchivo=https://web.archive.org/web/20141218204122/http://archivo.losandes.com.ar/notas/2014/4/29/afa-aprobo-creacion-nuevo-torneo-equipos-782436.asp|fechaarchivo=18 de diciembre de 2014}}</ref> Los cambios más importantes radican en el aumento de la cantidad de equipos que jugarán en la [[Primera División de Argentina|Primera División]] (pasarán de ser 20 a 30) y en la modalidad de disputa de los campeonatos de todas las categorías, ya que después de 28 temporadas, por única vez, se dejará de utilizar el sistema de calendario europeo para volver a los certámenes desarrollados en un mismo año calendario.
+
+Para ello, se estableció que en el segundo semestre de 2014 se jugara un [[Campeonato de Primera B Nacional 2014|Torneo de Transición]], en el que los veintidós equipos se dividieron en dos zonas de once, enfrentándose entre los equipos de cada uno de los grupos por el [[sistema de todos contra todos]], a dos ruedas. El campeonato otorgó diez ascensos directos para los cinco mejores ubicados de cada zona. Esos diez fueron reemplazados por tres ascendidos de la [[Primera B (Argentina)|Primera B]] y siete del [[Torneo Federal A]]. A su vez, no se establecieron descensos.
+
+=== Torneo anual (2015) ===
+En [[Campeonato de Primera B Nacional 2015|2015]] el torneo pasó a disputarse en el año calendario. Participaron los retornados de la [[Primera B (Argentina)|Primera B]], [[Club Atlético Chacarita Juniors|Chacarita]], [[Club Atlético Los Andes|Los Andes]] y [[Club Villa Dálmine|Villa Dálmine]], y [[Club Social y Atlético Guillermo Brown|Guillermo Brown]] y [[Club Atlético Central Córdoba (Santiago del Estero)|Central Córdoba (SdE)]], provenientes del [[Torneo Federal A]]. Debutaron [[Club Atlético Paraná|Atlético Paraná]], [[Club Atlético Gimnasia y Esgrima (Mendoza)|Gimnasia y Esgrima (M)]], [[Club Deportivo Juventud Unida|Juventud Unida (G)]], [[Club Sportivo Estudiantes (San Luis)|Sportivo Estudiantes (SL)]] y [[Club Atlético Unión (Mar del Plata)|Unión (MdP)]], todos ellos ascendidos del Federal A. En un torneo largo, por el [[sistema de todos contra todos]] a doble ronda, ascendieron el campeón [[Club Atlético Tucumán|Atlético Tucumán]] y [[Club Atlético Patronato de la Juventud Católica|Patronato]], ganador del ''reducido'' por el segundo ascenso.
+
+=== Segundo torneo de transición (2016) ===
+En [[Campeonato de Primera B Nacional 2016|2016]] se jugó un torneo a una sola rueda de todos contra todos, que constituyó una nueva transición, esta vez con el fin de volver a adecuar las [[Anexo:Competiciones oficiales del fútbol argentino|competiciones del fútbol argentino]] al calendario del hemisferio norte, para hacer coincidir los mercados de pases. Se desarrolló exclusivamente en el primer semestre del año, con formato diferente del habitual, en la que solo el campeón ascendió. Retornaron a la categoría los equipos descendidos de [[Campeonato de Primera División 2015 (Argentina)|Primera División]]: [[Club Atlético Nueva Chicago|Nueva Chicago]] y [[Club Mutual Crucero del Norte|Crucero del Norte]]; mientras que volvieron [[Club Atlético Brown|Brown de Adrogué]] y [[Club Almagro|Almagro]], provenientes de la [[Campeonato de Primera B 2015 (Argentina)|Primera B]], y [[Club Atlético Talleres (Córdoba)|Talleres (C)]], al que se agregó [[Club Atlético Juventud Unida Universitario|Juventud Unida Universitario]], debutante absoluto en la categoría, por el [[Torneo Federal A 2015|Federal A]]. Con anticipación de dos fechas Talleres de Córdoba se coronó campeón en un torneo que dominó en casi su totalidad y con una particularidad: fue el '''primer campeón invicto''' en 30 años de Primera B Nacional.
+
+=== Torneos largos (2016-2020) ===
+
+En la [[Campeonato de Primera B Nacional 2016-17|temporada 2016-17]] se volvió a la modalidad de los torneos en dos ruedas por el [[sistema de todos contra todos]], disputados en dos años diferentes, la primera parte en el segundo semestre del primero y la segunda en el primero del siguiente. El torneo se caracterizó por ser el más extenso de los disputados, con un total de 46 fechas.
+
+Se agregaron: el descendido de la [[Primera División de Argentina|Primera División]], Argentinos Juniors, y los ascendidos de la [[Tercera categoría del fútbol argentino|tercera categoría]], [[Club Social y Deportivo Flandria|Flandria]], por la [[Primera B (Argentina)|Primera B]], y [[Club Atlético San Martín (Tucumán)|San Martín (T)]], por el [[Torneo Federal A]].
+
+Fue campeón el recién descendido, [[Asociación Atlética Argentinos Juniors|Argentinos Juniors]], con lo que logró retornar tras una única temporada, con una destacada campaña en la segunda rueda, en la que solamente perdió contra Independiente Rivadavia en la fecha 37, con 14 victorias y 7 empates. Lo acompañó en el ascenso [[Club Atlético Chacarita Juniors|Chacarita Juniors]], subcampeón, luego de disputar 8 torneos en las categorías de ascenso.
+
+En la [[Campeonato de Primera B Nacional 2017-18|temporada 2017-18]] se produjo un nuevo cambio, dada la participación de un alto número de equipos, y el torneo se disputó en una única rueda de todos contra todos. Por otra parte, en todas las divisiones, se reimplantó el torneo reducido por [[Eliminación directa|eliminación]] para el segundo ascenso. Los nuevos integrantes fueron los cuatro descendidos de la Primera División: [[Club Atlético Aldosivi|Aldosivi]], [[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]], [[Quilmes Atlético Club|Quilmes]] y [[Club Atlético Sarmiento (Junín)|Sarmiento (J)]], y los cuatro ascendidos de la tercera categoría: [[Club Deportivo Morón|Deportivo Morón]] y [[Club Deportivo Riestra|Deportivo Riestra]], por la Primera B, y [[Club Agropecuario Argentino|Agropecuario]] y [[Club Atlético Mitre (Santiago del Estero)|Mitre (SdE)]], por el Federal A; los tres últimos debutantes absolutos. Una particularidad fue que, en aras de reducir la cantidad de participantes, se produjeron seis descensos. Nuevamente fue campeón un equipo que permaneció solo un año en la categoría, Aldosivi, de [[Mar del Plata]], que volvió a Primera División para el ciclo [[Campeonato de Primera División 2018-19 (Argentina)|2018-19]]. Lo acompañó el ganador del torneo reducido, [[Club Atlético San Martín (Tucumán)|San Martín (T)]], que retornará luego de 9 años.
+
+En la [[Campeonato de Primera B Nacional 2018-19|temporada 2018-19]] siguió con el formato de la temporada anterior. Se incorporaron al torneo los cuatro descendidos de la Superliga: [[Arsenal Fútbol Club|Arsenal]], [[Club Atlético Chacarita Juniors|Chacarita Juniors]], [[Club Olimpo|Olimpo]] y [[Club Atlético Temperley|Temperley]], y los cuatro ascendidos de la tercera categoría: [[Club Atlético Platense|Platense]] y [[Club Atlético Defensores de Belgrano|Defensores de Belgrano]], por la Primera B, y [[Club Atlético Central Córdoba (Santiago del Estero)|Central Córdoba (SdE)]] y [[Club Atlético Gimnasia y Esgrima (Mendoza)|Gimnasia y Esgrima (M)]], por el Federal A. El campeón fue [[Arsenal Fútbol Club|Arsenal]], que volvió a Primera División, tras un año en la categoría, para la temporada [[Campeonato de Primera División 2019-20 (Argentina)|2019-20]]. También ascendió el ganador del torneo reducido, [[Club Atlético Central Córdoba (Santiago del Estero)|Central Córdoba de Santiago del Estero]], que participa por primera vez del torneo regular y regresa a la Primera División luego de 48 años de su última intervención en el [[Campeonato Nacional de fútbol (Argentina)|Torneo Nacional]].
+
+En la [[Campeonato de Primera Nacional 2019-20|temporada 2019-20]] el torneo de segunda división cambia de nombre: '''Primera Nacional'''. Se amplió el número de equipos de 25 a 32, cantidad con la que se jugó por última vez en la [[Campeonato de Primera B Nacional 1997-98|temporada 1997-98]], incorporando 5 equipos provenientes de la [[Primera B (Argentina)|Primera B]]: [[Club Atlético All Boys|All Boys]], [[Club Atlético Atlanta|Atlanta]], [[Club Atlético Barracas Central|Barracas Central]], [[Club Deportivo Riestra|Deportivo Riestra]] y [[Club Atlético Estudiantes|Estudiantes]] y dos del [[Torneo Federal A|Federal A]]: [[Club Atlético Alvarado|Alvarado]] y [[Asociación Atlética Estudiantes|Estudiantes (RC)]]. Por otra parte, los cuatro que descendieron de la Superliga son [[Club Atlético Belgrano|Belgrano (C)]], [[Club Atlético San Martín (San Juan)|San Martín (SJ)]], [[Club Atlético San Martín (Tucumán)|San Martín (T)]] y [[Club Atlético Tigre|Tigre]].
+
+=== Tercer torneo de transición (2020) ===
+Tras la detención de la [[Campeonato de Primera Nacional 2019-20|temporada 2019-20]] por la [[pandemia de COVID-19]], se jugó un torneo con el sistema todos contra todos, que constituyó una nueva transición, esta vez con el fin de volver a adecuar las [[Anexo:Competiciones oficiales del fútbol argentino|competiciones del fútbol argentino]] al calendario del hemisferio sur. El campeón fue [[Club Atlético Sarmiento (Junín)|Sarmiento de Junín]], que volvió a Primera División, tras 4 años en la categoría, para la temporada [[Campeonato de Primera División 2021 (Argentina)|2021]]. También ascendió el ganador del torneo reducido, [[Club Atlético Platense|Platense]], que regresó a la Primera División después de 22 años.
+
+=== Torneo anual (desde 2021) ===
+En [[Campeonato de Primera Nacional 2021|2021]] el torneo volvió a disputarse en el año calendario, aumentando a 35 equipos. Participaron el retornado de la [[Primera B (Argentina)|Primera B]] [[Club Almirante Brown|Almirante Brown]] y [[Club Deportivo Maipú|Deportivo Maipú]], proveniente del [[Torneo Federal A]]. Debutaron [[Club Tristán Suárez|Tristán Suárez]] y [[Club Atlético San Telmo|San Telmo]], procedentes de la Primera B y [[Club Atlético Güemes|Güemes (SdE)]], ascendido del Federal A. En un torneo largo, por el [[sistema de todos contra todos]] a doble ronda, con los equipos divididos en dos zonas, una de 15 y otra de 16, los respectivos ganadores disputaron una final por el título y el primer ascenso. El segundo se produjo a través de un reducido por [[eliminación directa]]. El campeón de la temporada fue [[Club Atlético Tigre|Tigre]] quien logró el ascenso a la [[Primera División de Argentina|Liga Profesional]] luego de tres años en la categoría, secundado por el ganador del reducido [[Club Atlético Barracas Central|Barracas Central]], vuelve a participar la divisional tras 88 años en los torneos del ascenso.
+
+En [[Campeonato de Primera Nacional 2022|2022]], el torneo incrementó sus equipos participantes, de 35 a 37, pasando en su momento a ser el torneo de más participantes de la historia del torneo y de la categoría, igualando a la Segunda División de 1909. Tuvo como debutantes a [[Club Social y Deportivo Madryn|Deportivo Madryn]] y [[Sacachispas Fútbol Club|Sacachispas]], también incorporaron a [[Club Social y Deportivo Flandria|Flandria]] y [[Club Atlético Chaco For Ever|Chaco For Ever]]. Los descendidos fueron el propio Sacachispas y [[Club y Biblioteca Ramón Santamarina|Ramón Santamarina]]. [[Club Atlético Belgrano|Belgrano de Córdoba]] se proclamó campeón obteniendo el primer ascenso, luego de 4 años en la categoría. En el torneo reducido, [[Instituto Atlético Central Córdoba|Instituto de Córdoba]] logró el ascenso a Primera División después de 17 años.
+
+En [[Campeonato de Primera Nacional 2023|2023]], no se modificó el número de participantes. Se produjo el debut en la categoría de [[Club Atlético Defensores Unidos|Defensores Unidos]], que se incorporó junto a [[Club Atlético Racing|Racing (C)]]. Descendieron [[Club Social y Deportivo Flandria|Flandria]] y [[Club Villa Dálmine|Villa Dálmine]], mientras que no se disputó el partido por el tercer descenso debido a que este fue anulado. [[Club Sportivo Independiente Rivadavia|Independiente Rivadavia]] se proclamó campeón de la temporada tras vencer 2-0 a [[Club Almirante Brown|Almirante Brown]] en el tiempo suplementario,<ref>{{Cita web|url=https://www.infobae.com/deportes/2023/10/29/almirante-brown-e-independiente-rivadavia-definen-el-primer-ascenso-a-la-liga-profesional-hora-tv-y-formaciones/|título=Histórico: Independiente Rivadavia venció 2-0 a Almirante Brown y logró el ascenso a Primera División|fechaacceso=2023-11-30|fecha=2023-10-29|sitioweb=infobae|idioma=es-ES}}</ref> obteniendo el primer ascenso y participará por primera vez en el certamen regular de Primera División, después de haberlo hecho en las 6 ediciones del [[Campeonato Nacional de fútbol (Argentina)|Torneo Nacional]]. En el torneo reducido, el [[Club Deportivo Riestra]] logró el ascenso a Primera División por primera vez en su historia.
+
+En [[Campeonato de Primera Nacional 2024|2024]], el número de equipos aumentó a 38 y pasó a ser la edición de más participantes de la historia del torneo y de la segunda categoría. Se incorporaron al torneo los dos ascendidos de la Primera B, [[Club Atlético Talleres (Remedios de Escalada)|Talleres de Remedios de Escalada]] y [[Club Atlético San Miguel|San Miguel]] y el campeón del Federal A [[Club de Gimnasia y Tiro|Gimnasia y Tiro]]. Descendieron [[Club Atlético Brown|Brown de Adrogué]] a la Primera B y [[Club Social y Atlético Guillermo Brown|Guillermo Brown de Puerto Madryn]] al Federal A, en el partido por el tercer descenso [[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]] descendió al Federal A tras la derrota contra [[Club Atlético Talleres (Remedios de Escalada)|Talleres de Remedios de Escalada]]. El campeón de la temporada fue [[Club Atlético Aldosivi|Aldosivi]] venciendo a [[Club Atlético San Martín (Tucumán)|San Martín de Tucumán]] por 2 a 0 quien logró el ascenso a la [[Primera División de Argentina|Liga Profesional]] luego de tres años en la categoría, el ganador del reducido [[Club Atlético San Martín (San Juan)|San Martín de San Juan]], vuelve a participar en el torneo después de 6 años.
+
+En [[Campeonato de Primera Nacional 2025|2025]], bajó a 36 equipos. Los nuevos equipos de la temporada fueron [[Club Atlético Colegiales (Munro)|Colegiales]] en su primera participación en el certamen, secundados por el campeón del Federal A [[Club Atlético Central Norte (Salta)|Central Norte]] y el ganador del reducido Primera B-Federal A [[Club Atlético Los Andes|Los Andes]]. Descendieron [[Arsenal Fútbol Club|Arsenal]], [[Club Atlético Defensores Unidos|Defensores Unidos]] y [[Club Atlético Talleres (Remedios de Escalada)|Talleres de Remedios de Escalada]], estos tres equipos regresaron a la Primera B y [[Club Atlético Alvarado|Alvarado]], el único relegado al Federal A. En la final por el título, [[Club Atlético Gimnasia y Esgrima (Mendoza)|Gimnasia y Esgrima de Mendoza]] y [[Club Social y Deportivo Madryn|Deportivo Madryn]] empataron 1 a 1. El partido se definió por penales en la que Gimnasia y Esgrima ganó 3 a 0 obteniendo el primer ascenso, el club mendocino participa por primera vez en el torneo regular de Primera División, después de disputar las 9 temporadas del [[Campeonato Nacional de fútbol (Argentina)|Torneo Nacional]]. El ganador del torneo reducido, [[Asociación Atlética Estudiantes|Estudiantes de Río Cuarto]] logró el ascenso a Primera División por primera vez en el certamen regular quien ya participó en la tres ediciones del [[Campeonato Nacional de fútbol (Argentina)|Torneo Nacional]].
+
+En [[Campeonato de Primera Nacional 2026|2026]], sigue con los 36 participantes. En la edición del torneo debutan [[Club Atlético Ferrocarril Midland|Ferrocarril Midland]] y [[Club Atlético Acassuso|Acassuso]], ambos procedentes de la Primera B y [[Club Ciudad de Bolívar|Ciudad de Bolívar]], campeón del Federal A. Además se sumó [[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]], quien regresa a la divisional después de una temporada en el Federal A.
+
+== Sistema de disputa ==
+El torneo ha tenido distintos formatos a lo largo de su historia. Actualmente los participantes se dividen en dos zonas, dos de  dieciocho equipos, que se disputan mediante el sistema de todos contra todos, a dos ruedas ida y vuelta. Los que ocupen el primer puesto en ambas zonas se enfrentan en una final a un solo partido y en estadio neutral por el título de campeón y el primer ascenso.
+
+=== Ascensos ===
+Ascienden a la [[Primera División de Argentina|Primera División]] el campeón del certamen y el ganador de un torneo reducido por [[eliminación directa]] disputado por dieciséis equipos: el perdedor de la final, que se integra en la segunda fase, y del 2.º al 8.º inclusive de cada zona.
+
+=== Descensos ===
+Los que ocupen los dos últimos puestos de cada zona descienden de forma directa a la [[Tercera categoría del fútbol argentino|tercera categoría]], según su tipo de afiliación.
+
+== Equipos participantes ==
+En el [[Campeonato de Primera Nacional 2026]] participan los siguientes treinta y seis clubes:
+
+{| border="1" cellpadding="2" cellspacing="0" style="width:100%; margin:auto; background:#f9f9f9; border:1px #aaa solid; border-collapse:collapse; font-size:90%; text-align:left;"
+|- style="background:#069; text-align:center; color:white;"
+! Equipo
+! Ciudad
+! Primera <br>participación
+! Temporadas<br />totales
+! Último retorno
+! Temporadas<br>consecutivas<br>desde último<br>retorno
+! Ubicación<br>en el Campeonato 2025
+! Torneos<br>ganados 
+! Antigüedad
+|-
+| align="left" |[[Club Atlético Acassuso|Club Atlético '''Acassuso''']] || align="center" |[[Boulogne Sur Mer (Argentina)|Boulogne]]|| align="center" |[[Campeonato de Primera Nacional 2026|2026]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |1|| align="center" |-|| align="center" |-|| align="center" |[[Primera B (Argentina)|Primera B]]|| align="center" |0|| align="center"|{{edad|07|09|1922}}
+|-
+| align="left" |[[Club Agropecuario Argentino|Club '''Agropecuario''' Argentino]]
+| align="center" |[[Carlos Casares (Buenos Aires)|Carlos Casares]]|| align="center" |[[Campeonato de Primera B Nacional 2017-18|2017-18]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |10 || align="center" |-|| align="center" |-|| align="center" |7.º Zona B|| align="center" |0|| align="center" |{{edad|23|8|2011}}
+|-
+|align="left"|[[Club Atlético All Boys|Club Atlético '''All Boys''']]||align=center|[[Buenos Aires]]||align=center|[[Campeonato Nacional B 1993-94|1993-94]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |23 || align="center" |[[Campeonato de Primera Nacional 2019-20|2019-20]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |8|| align="center" |10.º Zona A|| align="center" |0 || align="center" |{{edad|15|3|1913}}
+|-
+|align="left"|[[Club Almagro|Club '''Almagro''']]|| align="center" |[[José Ingenieros (Buenos Aires)|José Ingenieros]]|| align="center" |[[Campeonato de Primera B Nacional 1996-97|1996-97]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |23 || align="center" |[[Campeonato de Primera B Nacional 2016|2016]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |12 || align="center" |16.º Zona B|| align="center" |0 || align="center" |{{edad|6|11|1911}}
+|-
+| align="left" |[[Club Almirante Brown|Club '''Almirante Brown''']] || align="center" |[[San Justo (Buenos Aires)|San Justo]]|| align="center" |[[Campeonato Nacional B 1987-88|1987-88]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |22|| align="center" |[[Campeonato de Primera Nacional 2021|2021]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |6|| align="center" |14.º Zona B|| align="center" |0|| align="center" |{{edad|1|7|1912}}
+|-
+|align="left"|[[Club Atlético Atlanta|Club Atlético '''Atlanta''']] ||align=center|[[Buenos Aires]]||align=center|[[Campeonato Nacional B 1990-91|1990-91]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |14|| align="center" |[[Campeonato de Primera Nacional 2019-20|2019-20]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |8|| align="center" |2.º Zona A|| align="center" |0|| align="center" |{{edad|12|10|1904}}
+|-
+|align="left"|[[Asociación Mutual Social y Deportiva Atlético de Rafaela|Asociación Mutual Social y Deportiva '''Atlético de Rafaela''']] ||align=center|[[Rafaela]]||align=center|[[Campeonato Nacional B 1989-90|1989-90]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |30|| align="center" |[[Campeonato de Primera Nacional 2026|2026]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |1|| align="center" |[[Torneo Federal A]]|| align="center" |0|| align="center" |{{edad|13|01|1907}}
+|-
+| align="left" |[[Club Atlético Central Norte (Salta)|Club Atlético '''Central Norte''']] || align="center" |[[Salta]]|| align="center" |[[Campeonato Nacional B 1986-87|1986-87]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |3|| align="center" |[[Campeonato de Primera Nacional 2025|2025]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |2|| align="center" |15.º Zona B|| align="center" |0|| align="center"|{{edad|9|3|1921}}
+|-
+| align="left" |[[Club Atlético Chacarita Juniors|Club Atlético '''Chacarita Juniors''']]|| align="center" |[[Villa Maipú]]|| align="center" |[[Campeonato Nacional B 1986-87|1986-87]] [[Archivo:Red Arrow Down.svg|10px]] || align="center" |27|| align="center" |[[Campeonato de Primera B Nacional 2018-19|2018-19]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center" |9|| align="center" |9.º Zona B|| align="center" |0|| align="center" |{{edad|1|5|1906}}
+|-
+| align="left" |[[Club Atlético Chaco For Ever|Club Atlético '''Chaco For Ever''']] || align="center" |[[Resistencia (ciudad)|Resistencia]]|| align="center" |[[Campeonato Nacional B 1986-87|1986-87]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |13|| align="center" |[[Campeonato de Primera Nacional 2022|2022]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |5|| align="center" |8.º Zona B|| align="center" |0|| align="center" |{{edad|27|7|1913}}
+|-
+| align="left" |[[Club Ciudad de Bolívar|Club '''Ciudad de Bolívar''']]|| align="center" |[[San Carlos de Bolívar|Bolívar]]|| align="center" |[[Campeonato de Primera Nacional 2026|2026]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |1|| align="center" |-|| align="center" |-|| align="center" |[[Torneo Federal A]]|| align="center" |0|| align="center"|{{edad|23|10|2002}}
+|-
+| align="left" |[[Club Atlético Colegiales (Munro)|Club Atlético '''Colegiales''']] || align="center" |[[Munro]]|| align="center" |[[Campeonato de Primera Nacional 2025|2025]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |2|| align="center" |-|| align="center" |-|| align="center" |9.º Zona A|| align="center" |0|| align="center"|{{edad|01|04|1908}}
+|-
+| align="left" |[[Club Atlético Colón|Club Atlético '''Colón''']] || align="center" |[[Santa Fe (Argentina)|Santa Fe]]|| align="center" |[[Campeonato Nacional B 1986-87|1986-87]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |13|| align="center" |[[Campeonato de Primera Nacional 2024|2024]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center" |3|| align="center" |16.º Zona B|| align="center" |0|| align="center" |{{edad|5|5|1905}}
+|-
+|align="left"|[[Club Atlético Defensores de Belgrano|Club Atlético '''Defensores de Belgrano''']]|| align="center" |[[Buenos Aires]]|| align="center" |[[Campeonato de Primera B Nacional 2001-02|2001-02]] [[Archivo:Green Arrow Up.svg|10px]]||align="center" |12|| align="center" | [[Campeonato de Primera B Nacional 2018-19|2018-19]] [[Archivo:Green Arrow Up.svg|10px]]||align="center" |9|| align="center" |10.º Zona B||align="center" |0||align="center" |{{edad|25|5|1906}}
+|-
+| align="left" |[[Club Social y Deportivo Madryn|Club Social y '''Deportivo Madryn''']]|| align="center" |[[Puerto Madryn]]|| align="center" |[[Campeonato de Primera Nacional 2022|2022]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|5|| align="center" |-|| align="center" |-|| align="center" |1.º Zona A|| align="center" |0|| align="center"|{{edad|7|5|1924}}
+|-
+|align="left"|[[Club Deportivo Maipú|Club '''Deportivo Maipú''']]|| align="center" |[[Maipú (Mendoza)|Maipú]]|| align="center" |[[Campeonato Nacional B 1986-87|1986-87]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |12|| align="center" |[[Campeonato de Primera Nacional 2021|2021]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |6|| align="center" |7.º Zona A|| align="center" |0||align="center" |{{edad|16|12|1927}}
+|-
+| align="left" |[[Club Deportivo Morón|Club '''Deportivo Morón''']]|| align="center" |[[Morón (Buenos Aires)|Morón]]|| align="center" |[[Campeonato Nacional B 1990-91|1990-91]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |20|| align="center" |[[Campeonato de Primera B Nacional 2017-18|2017-18]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|10|| align="center" |4.º Zona B|| align="center" |0 ||align="center"|{{edad|20|6|1947}}
+|-
+|align="left"|[[Club Atlético Estudiantes|Club Atlético '''Estudiantes''']]||align=center|[[Caseros (Buenos Aires)|Caseros]]||align=center|[[Campeonato de Primera B Nacional 1996-97|1996-97]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|12|| align="center" |[[Campeonato de Primera Nacional 2019-20|2019-20]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |8|| align="center" |3.º Zona B|| align="center"|0|| align="center" |{{edad|15|8|1898}}
+|-
+| align="left" |[[Club Atlético Ferrocarril Midland|Club Atlético '''Ferrocarril Midland''']] || align="center" |[[Libertad (Buenos Aires)|Libertad]]|| align="center" |[[Campeonato de Primera Nacional 2026|2026]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |1|| align="center" |-|| align="center" |-|| align="center" |[[Primera B (Argentina)|Primera B]]|| align="center" |0|| align="center"|{{edad|28|06|1914}}
+|-
+| align="left" |[[Club Ferro Carril Oeste|Club '''Ferro Carril Oeste''']]|| align="center" |[[Buenos Aires]]|| align="center" |[[Campeonato de Primera B Nacional 2000-01|2000-01]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center"|26|| align="center" | [[Campeonato de Primera B Nacional 2003-04|2003-04]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |25|| align="center" |12.º Zona A|| align="center" |0|| align="center"|{{edad|28|7|1904}}
+|-
+| align="left" |[[Club Atlético Gimnasia y Esgrima (Jujuy)|Club Atlético '''Gimnasia y Esgrima''']]|| align="center" |[[San Salvador de Jujuy|Jujuy]]|| align="center" |[[Campeonato Nacional B 1986-87|1986-87]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|27|| align="center" |[[Campeonato de Primera B Nacional 2009-10|2009-10]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center" |19|| align="center" |5.º Zona B|| align="center" |1|| align="center"|{{edad|18|3|1931}}
+|-
+| align="left" |[[Club de Gimnasia y Tiro|Club de '''Gimnasia y Tiro''']]|| align="center" |[[Salta]]|| align="center" |[[Campeonato Nacional B 1992-93|1992-93]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|9|| align="center" |[[Campeonato de Primera Nacional 2024|2024]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |3|| align="center" |4.º Zona A|| align="center" |2|| align="center" |{{edad|29|11|1902}}
+|-
+| align="left" |[[Club Deportivo Godoy Cruz Antonio Tomba|Club Deportivo '''Godoy Cruz''' Antonio Tomba]]|| align="center" |[[Godoy Cruz]]|| align="center" |[[Campeonato Nacional B 1994-95|1994-95]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|14|| align="center" |[[Campeonato de Primera Nacional 2026|2026]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center"|1|| align="center" |[[Primera División de Argentina|Primera División]]|| align="center" |1|| align="center"|{{edad|01|06|1921}}
+|-
+| align="left" |[[Club Atlético Güemes|Club Atlético '''Güemes''']]|| align="center" |[[Santiago del Estero (ciudad)|Santiago del Estero]]|| align="center" |[[Campeonato de Primera Nacional 2021|2021]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|6|| align="center" |-|| align="center" |-|| align="center" |14.º Zona A|| align="center" |0|| align="center"|{{edad|12|10|1932}}
+|-
+| align="left" |[[Club Atlético Los Andes|Club Atlético '''Los Andes''']]|| align="center" |[[Lomas de Zamora]]|| align="center" |[[Campeonato Nacional B 1986-87|1986-87]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|21|| align="center" |[[Campeonato de Primera Nacional 2025|2025]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |2|| align="center" |13.º Zona A|| align="center" |0|| align="center"|{{edad|1|1|1917}}
+|-
+| align="left" |[[Club Atlético Mitre (Santiago del Estero)|Club Atlético '''Mitre''']]|| align="center" |[[Santiago del Estero (ciudad)|Santiago del Estero]]|| align="center" |[[Campeonato de Primera B Nacional 2017-18|2017-18]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|10|| align="center" |-|| align="center" |-|| align="center" |13.º Zona B|| align="center" |0|| align="center"|{{edad|2|4|1907}}
+|-
+| align="left" |[[Club Atlético Nueva Chicago|Club Atlético '''Nueva Chicago''']]|| align="center" |[[Buenos Aires]]|| align="center" |[[Campeonato Nacional B 1991-92|1991-92]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|26|| align="center" |[[Campeonato de Primera B Nacional 2016|2016]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center" |12|| align="center" |11.º Zona B|| align="center" |0|| align="center"|{{edad|1|7|1911}}
+|-
+| align="left" |[[Club Atlético Patronato de la Juventud Católica|Club Atlético '''Patronato''' de la Juventud Católica]]|| align="center" |[[Paraná (Argentina)|Paraná]]|| align="center" |[[Campeonato de Primera B Nacional 2010-11|2010-11]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|10|| align="center" |[[Campeonato de Primera Nacional 2023|2023]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center" |4|| align="center" |8.º Zona A|| align="center" |0|| align="center"|{{edad|1|2|1914}}
+|-
+| align="left" |[[Quilmes Atlético Club|'''Quilmes''' Atlético Club]]|| align="center" |[[Quilmes]]|| align="center" |[[Campeonato Nacional B 1987-88|1987-88]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|29|| align="center" |[[Campeonato de Primera B Nacional 2017-18|2017-18]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center" |10|| align="center" |15.º Zona A|| align="center" |1|| align="center"|{{edad|27|11|1887}}
+|-
+| align="left" |[[Club Atlético Racing|Club Atlético '''Racing''']]|| align="center" |[[Córdoba (Argentina)|Córdoba]]|| align="center" |[[Campeonato Nacional B 1990-91|1990-91]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center"|11|| align="center" |[[Campeonato de Primera Nacional 2023|2023]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center" |4|| align="center" |11.º Zona A|| align="center" |0|| align="center"|{{edad|14|12|1924}}
+|-
+| align="left" |[[Club Atlético San Martín (San Juan)|Club Atlético '''San Martín''']]|| align="center" |[[San Juan (Argentina)|San Juan]]|| align="center" |[[Campeonato Nacional B 1991-92|1991-92]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|25|| align="center" |[[Campeonato de Primera Nacional 2026|2026]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center"|1|| align="center" |[[Primera División de Argentina|Primera División]]|| align="center" |1|| align="center"|{{edad|27|09|1907}}
+|-
+| align="left" |[[Club Atlético San Martín (Tucumán)|Club Atlético '''San Martín''']]|| align="center" |[[San Miguel de Tucumán]]|| align="center" |[[Campeonato Nacional B 1989-90|1989-90]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center"|25|| align="center" |[[Campeonato de Primera Nacional 2019-20|2019-20]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center"|8|| align="center" |1.º Zona A|| align="center" |1|| align="center"|{{edad|2|11|1909}}
+|-
+| align="left" |[[Club Atlético San Miguel|Club Atlético '''San Miguel''']]|| align="center" |[[Los Polvorines]]|| align="center" |[[Campeonato de Primera B Nacional 1997-98|1997-98]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|7|| align="center" |[[Campeonato de Primera Nacional 2024|2024]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|3|| align="center" |5.º Zona A|| align="center" |0|| align="center"|{{edad|7|8|1922}}
+|-
+| align="left" |[[Club Atlético San Telmo|Club Atlético '''San Telmo''']]|| align="center" |[[Dock Sud]]|| align="center" |[[Campeonato de Primera Nacional 2021|2021]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|6|| align="center" |-|| align="center" |-|| align="center" |12.º Zona B|| align="center" |0|| align="center"|{{edad|5|3|1904}}
+|-
+| align="left" |[[Club Atlético Temperley|Club Atlético '''Temperley''']]|| align="center" |[[Turdera]]|| align="center" |[[Campeonato Nacional B 1987-88|1987-88]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center"|14|| align="center" |[[Campeonato de Primera B Nacional 2018-19|2018-19]] [[Archivo:Red Arrow Down.svg|10px]]|| align="center" |9|| align="center" |6.º Zona B|| align="center" |0|| align="center"|{{edad|1|11|1912}}
+|-
+| align="left" |[[Club Tristán Suárez|Club '''Tristán Suárez''']]|| align="center" |[[Tristán Suárez]]|| align="center" |[[Campeonato de Primera Nacional 2021|2021]] [[Archivo:Green Arrow Up.svg|10px]]|| align="center"|6|| align="center" |-|| align="center" |-|| align="center" |3.º Zona A|| align="center" |0|| align="center"|{{edad|8|8|1929}}
+|}
+
+=== Distribución geográfica de los equipos ===
+{| class="wikitable" style="margin:auto;"
+|-
+!width=300|Jurisdicción
+!{{Abreviatura|Cant.|Cantidad}}
+!Equipos
+|-
+|{{bandera|Provincia de Buenos Aires}} [[Gran Buenos Aires#Conurbano bonaerense|Conurbano bonaerense]]
+|align=center|14
+|align=center|Acassuso, Almagro, Almirante Brown, Chacarita Juniors, Colegiales, Deportivo Morón, Estudiantes, Ferrocarril Midland, Los Andes, Quilmes, San Miguel, San Telmo, Temperley y Tristán Suárez.
+|-
+|{{bandera|Buenos Aires}} Ciudad de [[Buenos Aires]]
+|align=center|5
+|align=center|All Boys, Atlanta, Defensores de Belgrano, Ferro Carril Oeste y Nueva Chicago.
+|-
+|{{bandera|Provincia de Buenos Aires}} Interior de la [[provincia de Buenos Aires]]
+|align=center|2
+|align=center|Agropecuario y Ciudad de Bolívar
+|-
+|{{bandera|Mendoza}} [[Provincia de Mendoza]]
+|align=center|2
+|align=center|Deportivo Maipú y Godoy Cruz
+|-
+|{{Bandera|Salta}} [[Provincia de Salta]]
+|align=center|2
+|align=center|Central Norte y Gimnasia y Tiro
+|-
+|{{bandera|Provincia de Santa Fe}} [[Provincia de Santa Fe]]
+|align=center|2
+|align=center|Atlético de Rafaela y Colón
+|-
+|{{bandera|Provincia de Santiago del Estero}} [[Provincia de Santiago del Estero]]
+|align=center|2
+|align=center|Güemes y Mitre
+|-
+|{{bandera|Chaco}} [[Provincia del Chaco]]
+|align=center|1
+|align=center|Chaco For Ever
+|-
+|{{bandera|Provincia del Chubut}} [[Provincia del Chubut|Provincia de Chubut]]
+|align=center|1
+|align=center|Deportivo Madryn
+|-
+|{{bandera|Provincia de Córdoba (Argentina)}} [[Provincia de Córdoba (Argentina)|Provincia de Córdoba]]
+|align=center|1
+|align=center|Racing
+|-
+|{{bandera|Entre Ríos}} [[Provincia de Entre Ríos]]
+|align=center|1
+|align=center|Patronato
+|-
+|{{bandera|Jujuy}} [[Provincia de Jujuy]]
+|align=center|1
+|align=center|Gimnasia y Esgrima
+|-
+|{{bandera|San Juan}} [[Provincia de San Juan]]
+|align=center|1
+|align=center|San Martín
+|-
+|{{bandera|Provincia de Tucumán}} [[Provincia de Tucumán]]
+|align=center|1
+|align=center|San Martín
+|}
+
+== Campeones ==
+{{VT|Anexo:Estadísticas de la segunda categoría del fútbol argentino|l1=Estadísticas de la segunda categoría}}
+=== Campeonato Nacional B ===
+{|align=center width=65% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: center;"
+|- align=center bgcolor=#006699 style="color: white;"
+! width=4%|Temporada
+! width=2%|N.º de equipos
+! width=32%|Campeón
+! width=32%|Subcampeón
+! width=32%|Tercero
+|- bgcolor=#F5FAFF
+|[[Campeonato Nacional B 1986-87|1986-87]]||22||[[Club Deportivo Armenio|Deportivo Armenio]] (62)||[[Club Atlético Banfield|Banfield]] (54)||[[Club Atlético Belgrano|Belgrano]] (54)
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1987-88|1987-88]]||22||[[Club Deportivo Mandiyú|Deportivo Mandiyú]] (58)||[[Quilmes Atlético Club|Quilmes]] (54)||[[Club Cipolletti|Cipolletti]] (52)
+|- bgcolor=#F5FAFF
+|[[Campeonato Nacional B 1988-89|1988-89]]||22||[[Club Atlético Chaco For Ever|Chaco For Ever]] (54)||[[Club Atlético Lanús|Lanús]] (53)||[[Club Atlético Unión (Santa Fe)|Unión (SF)]] (52)
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1989-90|1989-90]]||22||[[Club Atlético Huracán|Huracán]] (60)||[[Quilmes Atlético Club|Quilmes]] (53)||[[Club Atlético Douglas Haig|Douglas Haig]] (51)
+|- bgcolor=#F5FAFF
+|[[Campeonato Nacional B 1990-91|1990-91]]||22||[[Quilmes Atlético Club|Quilmes]] (54)||[[Club Atlético Tucumán|Atlético Tucumán]] (52)||[[Club Atlético Belgrano|Belgrano]] (52)
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1991-92|1991-92]]||22||[[Club Atlético Lanús|Lanús]] (57)||[[Club Almirante Brown|Almirante Brown]] (52)||[[Club Atlético Colón|Colón]] (52)
+|- bgcolor=#F5FAFF
+|[[Campeonato Nacional B 1992-93|1992-93]]||22||[[Club Atlético Banfield|Banfield]] (56)||[[Club Atlético Colón|Colón]] (56)||[[Club Gimnasia y Tiro|Gimnasia y Tiro (S)]] (51)
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1993-94|1993-94]]||22||[[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]] (58)||[[Quilmes Atlético Club|Quilmes]] (55)||[[Club Atlético San Martín (Tucumán)|San Martín (T)]] (47)
+|- bgcolor=#F5FAFF
+|[[Campeonato Nacional B 1994-95|1994-95]]||22||[[Club Estudiantes de La Plata|Estudiantes (LP)]] (65)||[[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]] (54)||[[Club Atlético Colón|Colón]] (52)
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1995-96|1995-96]]||22||[[Club Atlético Huracán Corrientes|Huracán Corrientes]]<ref>Ganó el Apertura y venció a [[Club Atlético Talleres (Córdoba)|Talleres]], ganador del Clausura, en la final del campeonato por un resultado global de 6 a 3.</ref> ||[[Club Atlético Talleres (Córdoba)|Talleres (C)]] ||[[Club Atlético Tucumán|Atlético Tucumán]]<ref name="tabla general"/> (68)
+|}
+
+=== Campeonato de Primera B Nacional ===
+{|align=center width=65% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: center;"
+|- align=center bgcolor=#006699 style="color: white;"
+! width=4%|Temporada
+! width=2%|N.º de equipos
+! width=22%|Campeón
+! width=22%|Subcampeón
+! width=22%|Tercero
+! width=28%|Cuarto
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera B Nacional 1996-97|1996-97]]||32||[[Asociación Atlética Argentinos Juniors|Argentinos Juniors]] (52)||[[Club Atlético Talleres (Córdoba)|Talleres (C)]] (50)||[[Club Deportivo Godoy Cruz Antonio Tomba|Godoy Cruz]] (48)|| [[Club Gimnasia y Tiro|Gimnasia y Tiro (S)]] (47)
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 1997-98|1997-98]]||32||[[Club Atlético Talleres (Córdoba)|Talleres (C)]]<ref>Le ganó la final del campeonato a [[Club Atlético Belgrano|Belgrano]] por penales (4 a 3) tras un resultado global de 2 a 2.</ref> ||[[Club Atlético Belgrano|Belgrano]] ||colspan=2| No hubo
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera B Nacional 1998-99|1998-99]]||33||[[Instituto Atlético Central Córdoba|Instituto]]<ref>Le ganó la final del campeonato a [[Club Atlético Chacarita Juniors|Chacarita Juniors]] por un resultado global de 3 a 1.</ref> ||[[Club Atlético Chacarita Juniors|Chacarita Juniors]]  ||colspan=2| No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 1999-00|1999-00]]||34||[[Club Atlético Huracán|Huracán]]<ref>Le ganó la final del campeonato a [[Quilmes Atlético Club|Quilmes]] por un resultado global de 2 a 1.</ref> || [[Club Atlético Los Andes|Los Andes]]  ||colspan=2| No hubo
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera B Nacional 2000-01|2000-01]]||30||[[Club Atlético Banfield|Banfield]]<ref>Le ganó la final del campeonato a [[Quilmes Atlético Club|Quilmes]] por un resultado global de 6 a 3.</ref> ||[[Quilmes Atlético Club|Quilmes]]  ||colspan=2| No hubo
+|}
+
+=== Campeonato de Primera B Nacional - Torneos Apertura y Clausura ===
+Durante este periodo, la AFA reconoce en sus listados a un campeón por temporada.
+{|align=center width=65% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: center;"
+|- align=center bgcolor=#006699 style="color: white;"
+|- align=center bgcolor=#006699 style="color: white;"
+! width=4%|Temporada
+! width=2%|N.º de equipos
+! width=32%|Campeón
+! width=32%|Subcampeón
+! width=32%|Tercero
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2001-02|2001-02]]<ref>Al torneo Apertura, se lo consideró como el campeonato anual de la categoría, dado que el Clausura fue el torneo reducido por el segundo ascenso.</ref> ||25||[[Club Olimpo|Olimpo]]<ref>Campeón del torneo Apertura.</ref> (46) ||[[Quilmes Atlético Club|Quilmes]] (45) ||[[Atlético Club San Martín de Mendoza|San Martín (M)]] (44)
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera B Nacional 2002-03|2002-03]]||20||[[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]]'''<ref name="temporada">Ganó el Apertura y el Clausura.</ref>||[[Asociación Atlética Argentinos Juniors|Argentinos Juniors]]<ref name="tabla general">Por tabla general.</ref> (74)||[[Quilmes Atlético Club|Quilmes]]<ref name="tabla general"/> (64)
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2003-04|2003-04]]||20||[[Instituto Atlético Central Córdoba|Instituto]]<ref>Ganó el Apertura y venció a [[Club Almagro|Almagro]], ganador del Clausura, en la final del campeonato por un resultado global de 2 a 1</ref>||[[Club Almagro|Almagro]]||[[Club Atlético Huracán (Tres Arroyos)|Huracán (TA)]]<ref name="tabla general"/> (62)
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera B Nacional 2004-05|2004-05]]||20||[[Club Atlético Tiro Federal Argentino|Tiro Federal (R)]]<ref>Ganó el Apertura y venció a [[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]], ganador del Clausura, en la final del campeonato por un resultado global de 2 a 1</ref>||[[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]]||[[Club Atlético Huracán|Huracán]]<ref name="tabla general"/> (61)
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2005-06|2005-06]]||20||[[Club Deportivo Godoy Cruz Antonio Tomba|Godoy Cruz]]<ref>Ganó el Apertura y venció a [[Club Atlético Nueva Chicago|Nueva Chicago]], ganador del Clausura, en la final del campeonato por un resultado global de 4 a 2</ref>'''||[[Club Atlético Nueva Chicago|Nueva Chicago]]||[[Club Atlético Belgrano|Belgrano]]<ref name="tabla general"/> (62)
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera B Nacional 2006-07|2006-07]]||20||[[Club Olimpo|Olimpo]]<ref name="temporada"/>||[[Club Atlético San Martín (San Juan)|San Martín (SJ)]]<ref name="tabla general"/> (69)||[[Club Atlético Huracán|Huracán]]<ref name="tabla general"/> (69)
+|}
+
+=== Campeonato de Primera B Nacional ===
+{|align=center width=65% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: center;"
+|- align=center bgcolor=#006699 style="color: white;"
+! width=4%|Temporada
+! width=2%|N.º de equipos
+! width=22%|Campeón
+! width=22%|Subcampeón
+! width=22%|Tercero
+! width=28%|Cuarto
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera B Nacional 2007-08|2007-08]]||20||[[Club Atlético San Martín (Tucumán)|San Martín (T)]] (66)||[[Club Deportivo Godoy Cruz Antonio Tomba|Godoy Cruz]] (65)||[[Club Atlético Unión (Santa Fe)|Unión (SF)]] (56)||[[Club Atlético Belgrano|Belgrano]] (56)
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2008-09|2008-09]]||20||[[Club Atlético Tucumán|Atlético Tucumán]] (74)||[[Club Atlético Chacarita Juniors|Chacarita Juniors]] (72)||[[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]] (62)||[[Club Atlético Belgrano|Belgrano]] (62)
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera B Nacional 2009-10|2009-10]]||20||[[Club Olimpo|Olimpo]] (71)||[[Quilmes Atlético Club|Quilmes]] (64)||[[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]] (63)||[[Club Atlético All Boys|All Boys]] (63)
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2010-11|2010-11]]||20||[[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]] (77)||[[Club Atlético Unión (Santa Fe)|Unión (SF)]] (69)||[[Club Atlético San Martín (San Juan)|San Martín (SJ)]] (62)||[[Club Atlético Belgrano|Belgrano]] (59)
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera B Nacional 2011-12|2011-12]]||20||[[Club Atlético River Plate|River Plate]] (73)||[[Quilmes Atlético Club|Quilmes]] (72)||[[Instituto Atlético Central Córdoba|Instituto]] (70)||[[Club Atlético Rosario Central|Rosario Central]] (69)
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2012-13|2012-13]]||20||[[Club Atlético Rosario Central|Rosario Central]] (74)||[[Club de Gimnasia y Esgrima La Plata|Gimnasia y Esgrima (LP)]] (73)||[[Club Olimpo|Olimpo]] (66)||[[Club Atlético Banfield|Banfield]] (58)
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera B Nacional 2013-14|2013-14]]||22||[[Club Atlético Banfield|Banfield]] (78)||[[Club Social y Deportivo Defensa y Justicia|Defensa y Justicia]] (75)||[[Club Atlético Independiente|Independiente]] (67)||[[Club Atlético Huracán|Huracán]] (67)
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2014|2014]]||22||colspan=4|No hubo
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera B Nacional 2015|2015]]||22||[[Club Atlético Tucumán|Atlético Tucumán]] (85)||[[Club Atlético Patronato de la Juventud Católica|Patronato]] (82)||[[Club Ferro Carril Oeste|Ferro Carril Oeste]] (67)||[[Club y Biblioteca Ramón Santamarina|Ramón Santamarina]] (66)
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2016|2016]]||22||[[Club Atlético Talleres (Córdoba)|Talleres (C)]] (49)||[[Club Atlético Chacarita Juniors|Chacarita Juniors]] (43)||[[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]] (38)||[[Club Atlético Boca Unidos|Boca Unidos]] (38)
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera B Nacional 2016-17|2016-17]]||23||[[Asociación Atlética Argentinos Juniors|Argentinos Juniors]] (88)||[[Club Atlético Chacarita Juniors|Chacarita Juniors]] (77)||[[Club Social y Atlético Guillermo Brown|Guillermo Brown]] (75)|| [[Club Sportivo Independiente Rivadavia|Independiente Rivadavia]] (67)
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2017-18|2017-18]]||25||[[Club Atlético Aldosivi|Aldosivi]] (41)||[[Club Almagro|Almagro]] (41)||[[Club Atlético San Martín (Tucumán)|San Martín (T)]] (39)|| [[Club Atlético Brown|Brown de Adrogué]] (37)
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera B Nacional 2018-19|2018-19]]||25||[[Arsenal Fútbol Club|Arsenal]] (46)||[[Club Atlético Sarmiento (Junín)|Sarmiento (J)]] (46)||[[Club Atlético Nueva Chicago|Nueva Chicago]] (42)|| [[Club Almagro|Almagro]] (40)
+|}
+
+=== Campeonato de Primera Nacional ===
+{|align=center width=65% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: center;"
+|- align=center bgcolor=#006699 style="color: white;"
+! width=4%|Temporada
+! width=2%|N.º de equipos
+! width=32%|Campeón
+! width=32%|Subcampeón
+! width=32%|Tercero
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera Nacional 2019-20|2019-20]]||32|| colspan=3| No hubo, debido a la cancelación del torneo por la [[pandemia de COVID-19]]<ref>{{cita web|título=Oficial: el documento completo de AFA sobre la finalización de la temporada|url=https://www.ole.com.ar/futbol-primera/boletin-oficial-afa-suspension-temporada-argentina-ascensos-descensos-clasificacion-copas-internacionales-libertadores-sudamericana_0_cUyiBhKjF.html|editorial=Ole|fecha=28 de abril de 2020}}</ref>
+|- bgcolor=#F5FAFF
+|[[Campeonato Transición de Primera Nacional 2020|2020-2021]]||32||[[Club Atlético Sarmiento (Junin)|Sarmiento (J)]]||colspan=2| No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera Nacional 2021|2021]]||35||[[Club Atlético Tigre|Tigre]]||colspan=2| No hubo 
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera Nacional 2022|2022]]||37||[[Club Atlético Belgrano|Belgrano]] (79)||[[Instituto Atlético Central Córdoba|Instituto]] (68)||[[Club Atlético San Martín (Tucumán)|San Martín (T)]] (66)
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera Nacional 2023|2023]]||37||[[Club Sportivo Independiente Rivadavia|Independiente Rivadavia]]||colspan=2|
+|- bgcolor=#F5FAFF
+|[[Campeonato de Primera Nacional 2024|2024]]||38||[[Club Atlético Aldosivi|Aldosivi]]||colspan=2| No hubo 
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera Nacional 2025|2025]]||36||[[Club Atlético Gimnasia y Esgrima (Mendoza)|Gimnasia y Esgrima (M)]]||colspan=2| No hubo 
+|}
+
+== Estadísticas generales ==
+
+=== Palmarés ===
+<center>
+{|align=center width=90% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 0px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: center;"
+|- align=center bgcolor=#006699 style="color: white;"
+!width=18%|Equipo
+!width=42%|Ganador / Campeón
+!width=40%|Segundo
+|-bgcolor=#D0E7FF
+|[[Club Atlético Banfield|Banfield]]
+|3 ([[Campeonato Nacional B 1992-93|1992-93]], [[Campeonato de Primera B Nacional 2000-01|2000-01]], [[Campeonato de Primera B Nacional 2013-14|2013-14]])
+|1 ([[Campeonato Nacional B 1986-87|1986-87]])
+|-
+|[[Club Olimpo|Olimpo]]
+|3 ([[Campeonato de Primera B Nacional 2001-02|2001-02]],<ref>Fue el ganador del Apertura y considerado como campeón</ref> [[Campeonato de Primera B Nacional 2006-07|2006-07]],<ref name="campeón">Reglamentariamente fue el ganador de la final por el primer ascenso. Posteriormente fue listado como campeón</ref> [[Campeonato de Primera B Nacional 2009-10|2009-10]])
+|0
+|-bgcolor=#D0E7FF
+|[[Club Atlético Talleres (Córdoba)|Talleres (C)]]
+|2 ([[Campeonato de Primera B Nacional 1997-98|1997-98]], [[Campeonato de Primera B Nacional 2016|2016]])
+|2 ([[Campeonato Nacional B 1995-96|1995-96]], [[Campeonato de Primera B Nacional 1996-97|1996-97]])
+|-
+|[[Club Atlético Tucumán|Atlético Tucumán]]
+|2 ([[Campeonato de Primera B Nacional 2008-09|2008-09]], [[Campeonato de Primera B Nacional 2015|2015]])
+|1 ([[Campeonato Nacional B 1990-91|1990-91]])
+|-bgcolor=#D0E7FF
+|[[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]]
+|2 ([[Campeonato de Primera B Nacional 2002-03|2002-03]], [[Campeonato de Primera B Nacional 2010-11|2010-11]])
+|1 ([[Campeonato Nacional B 1994-95|1994-95]])
+|-
+|[[Asociación Atlética Argentinos Juniors|Argentinos Juniors]]
+|2 ([[Campeonato de Primera B Nacional 1996-97|1996-97]], [[Campeonato de Primera B Nacional 2016-17|2016-17]])
+|1 ([[Campeonato de Primera B Nacional 2002-03|2002-03]])
+|-bgcolor=#D0E7FF
+|[[Instituto Atlético Central Córdoba|Instituto]]
+|2 ([[Campeonato de Primera B Nacional 1998-99|1998-99]], [[Campeonato de Primera B Nacional 2003-04|2003-04]]<ref name="campeón" />)
+|1 ([[Campeonato de Primera Nacional 2022|2022]])
+|-
+|[[Club Atlético Aldosivi|Aldosivi]]
+|2 ([[Campeonato de Primera B Nacional 2017-18|2017-18]], [[Campeonato de Primera Nacional 2024|2024]])
+|0
+|-bgcolor=#D0E7FF
+|[[Club Atlético Huracán|Huracán]]
+|2 ([[Campeonato Nacional B 1989-90|1989-90]], [[Campeonato de Primera B Nacional 1999-00|1999-00]])
+|0
+|-
+|[[Quilmes Atlético Club|Quilmes]]
+|1 ([[Campeonato Nacional B 1990-91|1990-91]])
+|8 ([[Campeonato Nacional B 1987-88|1987-88]], [[Campeonato Nacional B 1989-90|1989-90]], [[Campeonato Nacional B 1993-94|1993-94]], [[Campeonato de Primera B Nacional 1999-00|1999-00]], [[Campeonato de Primera B Nacional 2000-01|2000-01]], [[Campeonato de Primera B Nacional 2001-02|2001-02]], [[Campeonato de Primera B Nacional 2009-10|2009-10]], [[Campeonato de Primera B Nacional 2011-12|2011-12]])
+|-bgcolor=#D0E7FF
+|[[Arsenal Fútbol Club|Arsenal]]
+|1 ([[Campeonato de Primera B Nacional 2018-19|2018-19]])
+|1 ([[Campeonato de Primera B Nacional 2001-02|2001-02]])
+|-
+|[[Club Atlético Belgrano|Belgrano]]
+|1 ([[Campeonato de Primera Nacional 2022|2022]])
+|1 ([[Campeonato de Primera B Nacional 1997-98|1997-98]])
+|-bgcolor=#D0E7FF
+|[[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]]
+|1 ([[Campeonato Nacional B 1993-94|1993-94]]) 
+|1 ([[Campeonato de Primera B Nacional 2004-05|2004-05]])
+|-
+|[[Club Deportivo Godoy Cruz Antonio Tomba|Godoy Cruz]]
+|1 ([[Campeonato de Primera B Nacional 2005-06|2005-06]]<ref name="campeón" />)
+|1 ([[Campeonato de Primera B Nacional 2007-08|2007-08]])
+|-bgcolor=#D0E7FF
+|[[Club Atlético Lanús|Lanús]]
+|1 ([[Campeonato Nacional B 1991-92|1991-92]])
+|1 ([[Campeonato Nacional B 1988-89|1988-89]])
+|-
+|[[Club Atlético Sarmiento (Junín)|Sarmiento (J)]]
+|1 ([[Campeonato Transición de Primera Nacional 2020|2020]])
+|1 ([[Campeonato de Primera B Nacional 2018-19|2018-19]])
+|-bgcolor=#D0E7FF
+|[[Club Deportivo Armenio|Deportivo Armenio]]
+|1 ([[Campeonato Nacional B 1986-87|1986-87]])
+|0 
+|-
+|[[Club Deportivo Mandiyú|Deportivo Mandiyú]]
+|1 ([[Campeonato Nacional B 1987-88|1987-88]])
+|0
+|-bgcolor=#D0E7FF
+|[[Club Atlético Chaco For Ever|Chaco For Ever]]
+|1 ([[Campeonato Nacional B 1988-89|1988-89]])
+|0
+|-
+|[[Club Estudiantes de La Plata|Estudiantes (LP)]]
+|1 ([[Campeonato Nacional B 1994-95|1994-95]])
+|0
+|-bgcolor=#D0E7FF
+|[[Club Atlético Huracán Corrientes|Huracán Corrientes]]
+|1 ([[Campeonato Nacional B 1995-96|1995-96]])
+|0
+|-
+|[[Club Atlético Tiro Federal Argentino|Tiro Federal (R)]]
+|1 ([[Campeonato de Primera B Nacional 2004-05|2004-05]]<ref name="campeón" />)
+|0
+|-bgcolor=#D0E7FF
+|[[Club Atlético San Martín (Tucumán)|San Martín (T)]]
+|1 ([[Campeonato de Primera B Nacional 2007-08|2007-08]])
+|0
+|-
+|[[Club Atlético River Plate|River Plate]]
+|1 ([[Campeonato de Primera B Nacional 2011-12|2011-12]])
+|0
+|-bgcolor=#D0E7FF
+|[[Club Atlético Rosario Central|Rosario Central]]
+|1 ([[Campeonato de Primera B Nacional 2012-13|2012-13]])
+|0
+|-
+|[[Club Atlético Tigre|Tigre]]
+|1 ([[Campeonato de Primera Nacional 2021|2021]])
+|0
+|-bgcolor=#D0E7FF
+|[[Club Sportivo Independiente Rivadavia|Independiente Rivadavia]]
+|1 ([[Campeonato de Primera Nacional 2023|2023]])
+|0
+|-
+|[[Club Atlético Gimnasia y Esgrima (Mendoza)|Gimnasia y Esgrima (M)]]
+|1 ([[Campeonato de Primera Nacional 2025|2025]])
+|0
+|-bgcolor=#D0E7FF
+|[[Club Atlético Chacarita Juniors|Chacarita Juniors]]
+|0
+|4 ([[Campeonato de Primera B Nacional 1998-99|1998-99]], [[Campeonato de Primera B Nacional 2008-09|2008-09]], [[Campeonato de Primera B Nacional 2016|2016]], [[Campeonato de Primera B Nacional 2016-17|2016-17]])
+|-
+|[[Club Almagro|Almagro]]
+|0 
+|2 ([[Campeonato de Primera B Nacional 2003-04|2003-04]], [[Campeonato de Primera B Nacional 2017-18|2017-18]])
+|-bgcolor=#D0E7FF
+|[[Club Almirante Brown|Almirante Brown]]
+|0
+|1 ([[Campeonato Nacional B 1991-92|1991-92]])
+|-
+|[[Club Atlético Colón|Colón]]
+|0
+|1 ([[Campeonato Nacional B 1992-93|1992-93]])
+|-bgcolor=#D0E7FF
+|[[Club Atlético Nueva Chicago|Nueva Chicago]]
+|0
+|1 ([[Campeonato de Primera B Nacional 2005-06|2005-06]])
+|-
+|[[Club Atlético Unión (Santa Fe)|Unión (SF)]]
+|0 
+|1 ([[Campeonato de Primera B Nacional 2010-11|2010-11]])
+|-bgcolor=#D0E7FF
+|[[Club de Gimnasia y Esgrima La Plata|Gimnasia y Esgrima (LP)]]
+|0 
+|1 ([[Campeonato de Primera B Nacional 2012-13|2012-13]])
+|-
+|[[Club Social y Deportivo Defensa y Justicia|Defensa y Justicia]]
+|0 
+|1 ([[Campeonato de Primera B Nacional 2013-14|2013-14]])
+|-bgcolor=#D0E7FF
+|[[Club Atlético Patronato de la Juventud Católica|Patronato]]
+|0
+|1 ([[Campeonato de Primera B Nacional 2015|2015]])
+|}
+</center>
+
+=== Clasificación histórica ===
+{{AP|Anexo:Clasificación histórica de la Primera B Nacional}}
+<small>
+* Datos actualizados a la [[Campeonato de Primera Nacional 2023|temporada 2023]], inclusive.
+* Equipos en '''negrita''' participan de la vigente temporada.
+</small>
+Tabla parcial que incluye los primeros veinte equipos:
+<center>
+{|align=center width=90% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 0px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: center;"
+|- align=center bgcolor=#006699 style="color: white;"
+! width=5%| Pos
+! width=20%| Club
+! width=10%| Pts.
+! width=10%| PJ
+! width=10%| PG
+! width=10%| G3
+! width=10%| G2
+! width=10%| PE
+! width=10%| PP
+! width=10%| GF
+! width=10%| GC
+! width=10%| Dif.
+! width=5%| Desc. Pts.
+|- bgcolor=#F5FAFF
+|style="bgcolor=#F5FAFF;" | 1 ||[[Instituto Atlético Central Córdoba|Instituto]]||1520||1085||411||343||68||355||319||1397||1211||186||0
+|- bgcolor=#D0E7FF
+|style="bgcolor=#F5FAFF;" | 2 ||'''[[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético Rafaela]]'''||1351||975||384||298||86||288||303||1296||1112||184||3
+|- bgcolor=#F5FAFF
+|style="bgcolor=#F5FAFF;" | 3 ||'''[[Quilmes Atlético Club|Quilmes]]'''||1293||899||369||255||114||303||227||1191||912||279||3
+|- bgcolor="#D0E7FF"
+| style="bgcolor=#F5FAFF;" | 4 ||'''[[Club Atlético San Martín (San Juan)|San Martín (SJ)]]'''||1083||781||282||274||8||249||250||940||858||82||4
+|- bgcolor="#F5FAFF"
+| style="bgcolor=#F5FAFF;" | 5 ||[[Club Atlético Tucumán|Atlético Tucumán]]||1075||840||314||196||118||254||272||1114||991||123||3
+|- bgcolor="#D0E7FF"
+| style="bgcolor=#F5FAFF;" | 6 ||'''[[Club Atlético Chacarita Juniors|Chacarita Juniors]]'''||1067||826||281||240||41||268||277||934||930||4||3
+|- bgcolor="#F5FAFF"
+| style="bgcolor=#F5FAFF;" | 7 ||[[Club Atlético Belgrano|Belgrano]]||1028||694||304||109||95||211||179||913||688||225||0
+|- bgcolor="#D0E7FF"
+| style="bgcolor=#F5FAFF;" | 8 ||'''[[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]]'''||1007||788||263||229||34||252||273||816||885||-69||0
+|- bgcolor="#F5FAFF"
+| style="bgcolor=#F5FAFF;" | 9 ||'''[[Club Atlético San Martín (Tucumán)|San Martín (T)]]'''||1001||752||283||198||85||237||232||920||829||91||0
+|- bgcolor="#D0E7FF"
+| style="bgcolor=#F5FAFF;" | 10 ||[[Club Social y Deportivo Defensa y Justicia|Defensa y Justicia]]||976||758||258||226||32||234||266||920||915||5||0
+|- bgcolor="#F5FAFF"
+| style="bgcolor=#F5FAFF;" | 11 ||'''[[Club Ferro Carril Oeste|Ferro Carril Oeste]]'''||950||734||238||238||0||236||260||735||792||-57||0
+|- bgcolor="#D0E7FF"
+| style="bgcolor=#F5FAFF;" | 12 ||'''[[Club Atlético Nueva Chicago|Nueva Chicago]]'''||911||773||245||181||64||259||269||928||947||-19||19
+|- bgcolor="#F5FAFF"
+| style="bgcolor=#F5FAFF;" | 13 ||'''[[Club Almagro|Almagro]]'''||868||645||222||220||0||205||218||762||772||-10||3
+|- bgcolor="#D0E7FF"
+| style="bgcolor=#F5FAFF;" | 14 ||[[Club Sportivo Independiente Rivadavia|Independiente Rivadavia]]||851||658||213||213||0||212||233||747||796||-49||0
+|- bgcolor="#F5FAFF"
+| style="bgcolor=#F5FAFF;" | 15 ||[[Club Atlético Los Andes|Los Andes]]||831||711||215||155||60||246||250||849||922||-73||0
+|- bgcolor="#D0E7FF"
+| style="bgcolor=#F5FAFF;" | 16 ||'''[[Club Almirante Brown|Almirante Brown]]'''||828||730||240||122||118||244||246||801||849||-48||18
+|- bgcolor="#F5FAFF"
+| style="bgcolor=#F5FAFF;" | 17 ||[[Club Atlético Douglas Haig|Douglas Haig]]||818||754||223||103||120||272||260||795||889||-91||3
+|- bgcolor="#D0E7FF"
+| style="bgcolor=#F5FAFF;" | 18 ||'''[[Club Atlético All Boys|All Boys]]'''||806||644||214||180||34||198||232||727||804||-77||0
+|- bgcolor="#F5FAFF"
+| style="bgcolor=#F5FAFF;" | 19 ||[[Club Atlético Unión (Santa Fe)|Unión (SF)]]||770||576||214||153||61||191||171||781||676||105||2
+|- bgcolor="#D0E7FF"
+| style="bgcolor=#D0E7FF;" | 20 ||[[Club Atlético Huracán|Huracán]]||713||492||222||138||84||131||139||704||527||177||0
+|}</center>
+
+=== Temporadas en la Primera B Nacional ===
+<!-- POR FAVOR EN CASO DE ACTUALIZAR, RESPETAR EL ORDEN ALFABETICO -->
+{| align=center width=100% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 100%; text-align: center;"
+|- align=center bgcolor=#006699 style="color: white;"
+!Equipo
+!Temporadas
+|- bgcolor=#F5FAFF
+|align=left|[[Instituto Atlético Central Córdoba|Instituto]]||31
+|- bgcolor=#D0E7FF
+|align=left|'''[[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]]'''||30
+|- bgcolor=#F5FAFF
+|align=left|'''[[Quilmes Atlético Club|Quilmes]]'''||29
+|- bgcolor=#D0E7FF
+|align=left|'''[[Club Atlético Chacarita Juniors|Chacarita Juniors]]''', '''[[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]]''', '''[[Club Atlético Nueva Chicago|Nueva Chicago]]'''||27
+|- bgcolor=#F5FAFF
+|align=left|'''[[Club Ferro Carril Oeste|Ferro Carril Oeste (BA)]]'''||26
+|- bgcolor=#D0E7FF
+|align=left|'''[[Club Atlético San Martín (San Juan)|San Martín (SJ)]]''', '''[[Club Atlético San Martín (Tucumán)|San Martín (T)]]'''||25
+|- bgcolor=#F5FAFF
+|align=left|[[Club Social y Deportivo Defensa y Justicia|Defensa y Justicia]]||24
+|- bgcolor=#D0E7FF
+|align=left|'''[[Club Atlético All Boys|All Boys]]''', '''[[Club Almagro|Almagro]]'''||23
+|- bgcolor=#F5FAFF
+|align=left|'''[[Club Almirante Brown|Almirante Brown]]''', [[Club Atlético Tucumán|Atlético Tucumán]]||22
+|- bgcolor=#D0E7FF
+|align=left|[[Club Sportivo Independiente Rivadavia|Independiente Rivadavia]], '''[[Club Atlético Los Andes|Los Andes]]'''||21
+|- bgcolor=#F5FAFF
+|align=left|'''[[Club Deportivo Morón|Deportivo Morón]]'''||20
+|- bgcolor=#D0E7FF
+|align=left|[[Club Atlético Belgrano|Belgrano]], [[Club Atlético Douglas Haig|Douglas Haig]]||19
+|- bgcolor=#F5FAFF
+|align=left|[[Club Atlético Aldosivi|Aldosivi]]||17
+|- bgcolor=#D0E7FF
+|align=left|[[Club Atlético Unión (Santa Fe)|Unión (SF)]], [[Club Atlético Tigre|Tigre]]||15
+|- bgcolor=#F5FAFF
+|align=left|'''[[Club Atlético Atlanta|Atlanta]]''', '''[[Club Deportivo Godoy Cruz Antonio Tomba|Godoy Cruz]]''', '''[[Club Atlético Temperley|Temperley]]''', [[Club Villa Dálmine|Villa Dálmine]]||14
+|- bgcolor=#D0E7FF
+|align=left|[[Arsenal de Sarandí|Arsenal]], '''[[Club Atlético Colón|Colón]]''', '''[[Club Atlético Defensores de Belgrano|Defensores de Belgrano]]''', '''[[Club Atlético Chaco For Ever|Chaco For Ever]]''',  [[Club Atlético Huracán|Huracán]]||13
+|- bgcolor=#F5FAFF
+|align=left|[[Club Atlético Banfield|Banfield]], '''[[Club Deportivo Maipú|Deportivo Maipú]]''', '''[[Club Atlético Estudiantes|Estudiantes (BA)]]''', [[Club Social y Atlético Guillermo Brown|Guillermo Brown]], [[Club Olimpo|Olimpo]]||12
+|- bgcolor=#D0E7FF
+|align=left|[[Club Atlético Brown|Brown de Adrogué]], [[Club Atlético Central Córdoba (Rosario)|Central Córdoba (R)]], '''[[Club Atlético Racing|Racing (C)]]''', [[Club Sportivo Italiano|Sportivo Italiano]], [[Club Atlético Talleres (Córdoba)|Talleres (C)]]||11
+|- bgcolor=#F5FAFF
+|align=left|'''[[Club Agropecuario Argentino|Agropecuario]]''', [[Club Atlético Boca Unidos|Boca Unidos]], [[Club Atlético Central Córdoba (Santiago del Estero)|Central Córdoba (SdE)]], [[Club Cipolletti|Cipolletti]], '''[[Club Atlético Mitre (Santiago del Estero)|Mitre (SdE)]]''', '''[[Club Atlético Patronato de la Juventud Católica|Patronato]]''', [[Club Atlético Platense|Platense]], [[Club y Biblioteca Ramón Santamarina|Ramón Santamarina]], [[Club Atlético Sarmiento (Junín)|Sarmiento (J)]]||10
+|- bgcolor=#D0E7FF
+|align=left|[[Comisión de Actividades Infantiles|CAI]], [[Club Atlético Gimnasia y Esgrima (Mendoza)|Gimnasia y Esgrima (M)]], '''[[Club Gimnasia y Tiro|Gimnasia y Tiro (S)]]''', [[Centro Juventud Antoniana|Juventud Antoniana]], [[Atlético Club San Martín (Mendoza)|San Martín (M)]], [[Club Atlético Talleres (Remedios de Escalada)|Talleres (RdE)]]||9
+|- bgcolor=#F5FAFF
+|align=left|[[Club El Porvenir|El Porvenir]]||8
+|- bgcolor=#D0E7FF
+|align=left|[[Club Atlético Alvarado|Alvarado]], [[Asociación Atlética Estudiantes|Estudiantes (RC)]], [[Club Gimnasia y Esgrima (Concepción del Uruguay)|Gimnasia y Esgrima (CdU)]], '''[[Club Atlético San Miguel|San Miguel]]''', [[Club Atlético Tiro Federal Argentino|Tiro Federal (R)]]||7
+|- bgcolor=#F5FAFF
+|align=left|[[Club Atlético Almirante Brown (Arrecifes)|Almirante Brown (A)]], '''[[Club Atlético Güemes|Güemes (SdE)]]''', [[Club Deportivo Riestra|Deportivo Riestra]], '''[[Club Atlético San Telmo|San Telmo]]''', '''[[Club Social y Deportivo Tristán Suárez|Tristán Suárez]]'''||6
+|- bgcolor=#D0E7FF
+|align=left|[[Asociación Atlética Argentinos Juniors|Argentinos Juniors]], [[Club Mutual Crucero del Norte|Crucero del Norte]], '''[[Club Social y Deportivo Madryn|Deportivo Madryn]]''', [[Club Atlético Huracán (Tres Arroyos)|Huracán (TA)]], [[Club Social y Cultural Deportivo Laferrere|Deportivo Laferrere]], [[Club Atlético Lanús|Lanús]]||5
+|- bgcolor=#F5FAFF
+|align=left|[[Club Social y Deportivo Merlo|Deportivo Merlo]], [[Club Social y Deportivo Flandria|Flandria]], [[Guaraní Antonio Franco]], [[Club Deportivo Juventud Unida|Juventud Unida (G)]], [[Club Sportivo Estudiantes (San Luis)|Sportivo Estudiantes (SL)]], [[Club Villa Mitre|Villa Mitre]]||4
+|- bgcolor=#D0E7FF
+|align=left|[[Club Atlético Paraná|Atlético Paraná]], [[Club Atlético Barracas Central|Barracas Central]], [[Club Sportivo Ben Hur|Ben Hur]], '''[[Club Atlético Central Norte (Salta)|Central Norte (S)]]''', [[Club Atlético Defensores Unidos|Defensores Unidos]], [[Club Deportivo Español de Buenos Aires|Deportivo Español]], [[Club Atlético Huracán Corrientes|Huracán Corrientes]], [[Club Atlético Rosario Central|Rosario Central]], [[Club Sportivo Belgrano (San Francisco)|Sportivo Belgrano]]||3
+|- bgcolor=#F5FAFF
+|align=left|[[Club Deportivo Armenio|Deportivo Armenio]], '''[[Club Atlético Colegiales (Munro)|Colegiales]]''', [[Club Deportivo Mandiyú|Deportivo Mandiyú]], [[Club Ferro Carril Oeste (General Pico)|Ferro Carril Oeste (GP)]], [[Club de Gimnasia y Esgrima La Plata|Gimnasia y Esgrima (LP)]], [[Club Atlético Ituzaingó|Ituzaingó]]||2
+|- bgcolor=#D0E7FF
+|align=left|'''[[Club Atlético Acassuso|Acassuso]]''', [[Club Atlético Concepción|Atlético Concepción]], [[Club Atlético Argentino (Rosario)|Argentino (R)]], '''[[Club Ciudad de Bolívar|Ciudad de Bolívar]]''', [[Club Sportivo Desamparados|Desamparados]], [[Club Social y Deportivo Estación Quequén|Estación Quequén]], [[Club Estudiantes de La Plata|Estudiantes (LP)]], '''[[Club Atlético Ferrocarril Midland|Ferrocarril Midland]]''', [[Club Atlético General Paz Juniors|General Paz Juniors]], [[Club Atlético Independiente|Independiente]], [[Club Atlético Juventud Unida Universitario|Juventud Unida Universitario]], [[Club Atlético River Plate|River Plate]], [[Sacachispas Fútbol Club|Sacachispas]], [[Club Atlético Unión (Mar del Plata)|Unión (MdP)]], [[Club Atlético Unión (Villa Krause)|Unión (VK)]], [[Club Atlético Villa San Carlos|Villa San Carlos]]||1
+|-
+|}
+
+*<small>Actualizado a la temporada 2026. Equipos en '''negrita''' participan de la vigente temporada.</small>
+* <small>Los campeonatos [[Campeonato de Primera Nacional 2019-20|2019-20]] (Suspendido por la [[pandemia de COVID-19]]) y [[Campeonato Transición de Primera Nacional 2020|2020]] (complementario al anterior) se cuentan como dos temporadas distintas.</small>
+* <small>Fuente: [http://www.rsssf.com/tablesa/argclub.html Lista de clubes argentinos y movimientos de categoría [[Rsssf]]]</small>
+
+=== Movilidad interdivisional ===
+{{AP|Anexo:Movilidad interdivisional en el fútbol argentino}}
+==== Con la Primera División ====
+
+{| align=center width=95% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: center;"
+|- align=center bgcolor=#006699 style="color: white;"
+!width=12%|Temporada
+!width=39%|Descendidos de la Primera División 
+!width=39%|Ascendidos de la Primera B Nacional
+|-
+|[[Campeonato Nacional B 1986-87|NB 1986-87]]||[[Club Atlético Huracán|Huracán]] y [[Club Atlético Chacarita Juniors|Chacarita Juniors]]||[[Club Atlético Banfield|Banfield]] y [[Club Deportivo Armenio|Deportivo Armenio]]
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1987-88|NB 1987-88]]||[[Club Sportivo Italiano|Deportivo Italiano]] y [[Club Atlético Temperley|Temperley]]||[[Club Deportivo Mandiyú|Deportivo Mandiyú]] y [[Club Atlético San Martín (Tucumán)|San Martín (T)]]<ref name="sanmartin">[[Club Atlético San Martín (Tucumán)|San Martín (T)]] ganó el zonal Noroeste de esa temporada lo que le daba derecho a participar del [[Campeonato Nacional B 1988-89]]; pero el reglamento lo habilitó a participar en el [[Campeonato Nacional B 1987-88#Torneo Reducido|Dodecagonal 1987-88]] por el segundo ascenso a Primera División, torneo que también ganó y accediendo así a la primera categoría del Fútbol Argentino sin haber jugado el Nacional "B".</ref> 
+|-
+|[[Campeonato Nacional B 1988-89|NB 1988-89]]||[[Club Atlético Banfield|Banfield]] y [[Club Atlético Unión (Santa Fe)|Unión (SF)]]||[[Club Atlético Chaco For Ever|Chaco For Ever]] y [[Club Atlético Unión (Santa Fe)|Unión (SF)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1989-90|NB 1989-90]]||[[Club Deportivo Armenio|Deportivo Armenio]] y [[Club Atlético San Martín (Tucumán)|San Martín (T)]]||[[Club Atlético Huracán|Huracán]] y [[Club Atlético Lanús|Lanús]]
+|-
+|[[Campeonato Nacional B 1990-91|NB 1990-91]]||[[Instituto Atlético Central Córdoba|Instituto]] y [[Club Atlético Racing|Racing (C)]]||[[Quilmes Atlético Club|Quilmes]] y [[Club Atlético Belgrano|Belgrano]]
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1991-92|NB 1991-92]]||[[Club Atlético Chaco For Ever|Chaco For Ever]] y [[Club Atlético Lanús|Lanús]]||[[Club Atlético Lanús|Lanús]] y [[Club Atlético San Martín (Tucumán)|San Martín (T)]]
+|-
+|[[Campeonato Nacional B 1992-93|NB 1992-93]]||[[Quilmes Atlético Club|Quilmes]] y [[Club Atlético Unión (Santa Fe)|Unión (SF)]]||[[Club Atlético Banfield|Banfield]] y [[Club Gimnasia y Tiro|Gimnasia y Tiro (S)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1993-94|NB 1993-94]]||[[Club Atlético San Martín (Tucumán)|San Martín (T)]] y [[Club Atlético Talleres (Córdoba)|Talleres (C)]]||[[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]] y [[Club Atlético Talleres (Córdoba)|Talleres (C)]]
+|-
+|[[Campeonato Nacional B 1994-95|NB 1994-95]]||[[Club Estudiantes de La Plata|Estudiantes (LP)]] y [[Club Gimnasia y Tiro|Gimnasia y Tiro (S)]]||[[Club Estudiantes de La Plata|Estudiantes (LP)]] y [[Club Atlético Colón|Colón]]
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1995-96|NB 1995-96]]||[[Club Deportivo Mandiyú|Deportivo Mandiyú]] y [[Club Atlético Talleres (Córdoba)|Talleres (C)]]||[[Club Atlético Huracán Corrientes|Huracán Corrientes]]<ref>Tomó el lugar del descendido Deportivo Mandiyú</ref> y [[Club Atlético Unión (Santa Fe)|Unión (SF)]]
+|-
+|[[Campeonato de Primera B Nacional 1996-97|BN 1996-97]]||[[Asociación Atlética Argentinos Juniors|Argentinos Juniors]] y [[Club Atlético Belgrano|Belgrano]]||[[Asociación Atlética Argentinos Juniors|Argentinos Juniors]] y [[Club Gimnasia y Tiro|Gimnasia y Tiro (S)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 1997-98|BN 1997-98]]||[[Club Atlético Banfield|Banfield]] y [[Club Atlético Huracán Corrientes|Huracán Corrientes]]||[[Club Atlético Talleres (Córdoba)|Talleres (C)]] y [[Club Atlético Belgrano|Belgrano]]
+|-
+|[[Campeonato de Primera B Nacional 1998-99|BN 1998-99]]||[[Club Deportivo Español de Buenos Aires|Deportivo Español]] y [[Club de Gimnasia y Tiro|Gimnasia y Tiro (S)]]||[[Instituto Atlético Central Córdoba|Instituto]] y [[Club Atlético Chacarita Juniors|Chacarita Juniors]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 1999-00|BN 1999-00]]||[[Club Atlético Huracán|Huracán]] y [[Club Atlético Platense|Platense]]||[[Club Atlético Huracán|Huracán]], [[Club Atlético Los Andes|Los Andes]] y [[Club Almagro|Almagro]]
+|-
+|[[Campeonato de Primera B Nacional 2000-01|BN 2000-01]]||[[Club Ferro Carril Oeste|Ferro Carril Oeste]], [[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]] e [[Instituto Atlético Central Córdoba|Instituto]]||[[Club Atlético Banfield|Banfield]] y [[Club Atlético Nueva Chicago|Nueva Chicago]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2001-02|BN 2001-02]]||[[Club Almagro|Almagro]] y [[Club Atlético Los Andes|Los Andes]]||[[Club Olimpo|Olimpo]] y [[Arsenal Fútbol Club|Arsenal]]
+|-
+|[[Campeonato de Primera B Nacional 2002-03|BN 2002-03]]||[[Asociación Atlética Argentinos Juniors|Argentinos Juniors]] y [[Club Atlético Belgrano|Belgrano]]||[[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]] y [[Quilmes Atlético Club|Quilmes]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2003-04|BN 2003-04]]||[[Club Atlético Unión (Santa Fe)|Unión (SF)]] y [[Club Atlético Huracán|Huracán]]||[[Instituto Atlético Central Córdoba|Instituto]], [[Club Almagro|Almagro]], [[Club Atlético Huracán (Tres Arroyos)|Huracán (TA)]] y [[Asociación Atlética Argentinos Juniors|Argentinos Juniors]]
+|-
+|[[Campeonato de Primera B Nacional 2004-05|BN 2004-05]]||[[Club Atlético Nueva Chicago|Nueva Chicago]], [[Club Atlético Chacarita Juniors|Chacarita Juniors]], [[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]] y [[Club Atlético Talleres (Córdoba)|Talleres (C)]]||[[Club Atlético Tiro Federal Argentino|Tiro Federal]] y [[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2005-06|BN 2005-06]]||[[Club Atlético Huracán (Tres Arroyos)|Huracán (TA)]] y [[Club Almagro|Almagro]]||[[Club Deportivo Godoy Cruz Antonio Tomba|Godoy Cruz]], [[Club Atlético Nueva Chicago|Nueva Chicago]] y [[Club Atlético Belgrano|Belgrano]]
+|-
+|[[Campeonato de Primera B Nacional 2006-07|BN 2006-07]]||[[Instituto Atlético Central Córdoba|Instituto]], [[Club Atlético Tiro Federal Argentino|Tiro Federal (R)]] y [[Club Olimpo|Olimpo]]||[[Club Olimpo|Olimpo]], [[Club Atlético San Martín (San Juan)|San Martín (SJ)]], [[Club Atlético Huracán|Huracán]] y [[Club Atlético Tigre|Tigre]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2007-08|BN 2007-08]]||[[Quilmes Atlético Club|Quilmes]], [[Club Atlético Belgrano|Belgrano]], [[Club Deportivo Godoy Cruz Antonio Tomba|Godoy Cruz]] y [[Club Atlético Nueva Chicago|Nueva Chicago]]||[[Club Atlético San Martín (Tucumán)|San Martín (T)]] y [[Club Deportivo Godoy Cruz Antonio Tomba|Godoy Cruz]]
+|-
+|[[Campeonato de Primera B Nacional 2008-09|BN 2008-09]]||[[Club Atlético San Martín (San Juan)|San Martín (SJ)]] y [[Club Olimpo|Olimpo]]||[[Club Atlético Tucumán|Atlético Tucumán]] y [[Club Atlético Chacarita Juniors|Chacarita Juniors]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2009-10|BN 2009-10]]||[[Club Atlético San Martín (Tucumán)|San Martín (T)]] y [[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]]||[[Club Olimpo|Olimpo]], [[Quilmes Atlético Club|Quilmes]] y [[Club Atlético All Boys|All Boys]]
+|-
+|[[Campeonato de Primera B Nacional 2010-11|BN 2010-11]]||[[Club Atlético Chacarita Juniors|Chacarita Juniors]], [[Club Atlético Tucumán|Atlético Tucumán]] y [[Club Atlético Rosario Central|Rosario Central]]||[[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]], [[Club Atlético Unión (Santa Fe)|Unión (SF)]], [[Club Atlético Belgrano|Belgrano]] y [[Club Atlético San Martín (San Juan)|San Martín (SJ)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2011-12|BN 2011-12]]||[[Quilmes Atlético Club|Quilmes]], [[Club Atlético Huracán|Huracán]], [[Club de Gimnasia y Esgrima La Plata|Gimnasia y Esgrima (LP)]] y [[Club Atlético River Plate|River Plate]]||[[Club Atlético River Plate|River Plate]] y [[Quilmes Atlético Club|Quilmes]]
+|-
+|[[Campeonato de Primera B Nacional 2012-13|BN 2012-13]]||[[Club Olimpo|Olimpo]] y [[Club Atlético Banfield|Banfield]]
+|[[Club Atlético Rosario Central|Rosario Central]], [[Club de Gimnasia y Esgrima La Plata|Gimnasia y Esgrima (LP)]] y [[Club Olimpo|Olimpo]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2013-14|BN 2013-14]]||[[Club Atlético Independiente|Independiente]], [[Club Atlético San Martín (San Juan)|San Martín (SJ)]] y [[Club Atlético Unión (Santa Fe)|Unión (SF)]]||[[Club Atlético Banfield|Banfield]], [[Club Social y Deportivo Defensa y Justicia|Defensa y Justicia]] e [[Club Atlético Independiente|Independiente]]
+|-
+|[[Campeonato de Primera B Nacional 2014|BN 2014]]||[[Club Atlético Colón|Colón]], [[Club Atlético All Boys|All Boys]] y [[Asociación Atlética Argentinos Juniors|Argentinos Juniors]]||[[Club Atlético Colón|Colón]], [[Club Atlético San Martín (San Juan)|San Martín (SJ)]], [[Asociación Atlética Argentinos Juniors|Argentinos Juniors]], [[Club Atlético Nueva Chicago|Nueva Chicago]], [[Club Atlético Aldosivi|Aldosivi]], [[Club Atlético Unión (Santa Fe)|Unión]], [[Club Mutual Crucero del Norte|Crucero del Norte]], [[Club Atlético Temperley|Temperley]], [[Club Atlético Sarmiento (Junín)|Sarmiento (J)]] y [[Club Atlético Huracán|Huracán]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2015|BN 2015]]||No hubo||[[Club Atlético Tucumán|Atlético Tucumán]] y [[Club Atlético Patronato de la Juventud Católica|Patronato]]
+|-
+|[[Campeonato de Primera B Nacional 2016|BN 2016]]||[[Club Mutual Crucero del Norte|Crucero del Norte]] y [[Club Atlético Nueva Chicago|Nueva Chicago]]||[[Club Atlético Talleres (Córdoba)|Talleres (C)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2016-17|BN 2016-17]]||[[Asociación Atlética Argentinos Juniors|Argentinos Juniors]]||[[Asociación Atlética Argentinos Juniors|Argentinos Juniors]] y [[Club Atlético Chacarita Juniors|Chacarita Juniors]]
+|-
+|[[Campeonato de Primera B Nacional 2017-18|BN 2017-18]]||[[Club Atlético Aldosivi|Aldosivi]], [[Quilmes Atlético Club|Quilmes]], [[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]] y [[Club Atlético Sarmiento (Junín)|Sarmiento (J)]]||[[Club Atlético Aldosivi|Aldosivi]] y [[Club Atlético San Martín (Tucumán)|San Martín (T)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2018-19|BN 2018-19]]||[[Arsenal Fútbol Club|Arsenal]], [[Club Olimpo|Olimpo]], [[Club Atlético Temperley|Temperley]] y [[Club Atlético Chacarita Juniors|Chacarita Juniors]]||[[Arsenal Fútbol Club|Arsenal]] y [[Club Atlético Central Córdoba (Santiago del Estero)|Central Córdoba (SdE)]]
+|-
+|[[Campeonato de Primera Nacional 2019-20|PN 2019-20]]||[[Club Atlético San Martín (San Juan)|San Martín (SJ)]], [[Club Atlético Tigre|Tigre]], [[Club Atlético Belgrano|Belgrano]] y [[Club Atlético San Martín (Tucumán)|San Martín (T)]]||No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato Transición de Primera Nacional 2020|PN 2020]]||No hubo||[[Club Atlético Sarmiento (Junín)|Sarmiento (J)]] y [[Club Atlético Platense|Platense]]
+|-
+|[[Campeonato de Primera Nacional 2021|PN 2021]]||No hubo||[[Club Atlético Tigre|Tigre]] y [[Club Atlético Barracas Central|Barracas Central]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera Nacional 2022|PN 2022]]||No hubo||[[Club Atlético Belgrano|Belgrano]] e [[Instituto Atlético Central Córdoba|Instituto]]
+|-
+|[[Campeonato de Primera Nacional 2023|PN 2023]]||[[Club Atlético Aldosivi|Aldosivi]] y [[Club Atlético Patronato de la Juventud Católica|Patronato]]||[[Club Sportivo Independiente Rivadavia|Independiente Rivadavia]] y [[Club Deportivo Riestra|Deportivo Riestra]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera Nacional 2024|PN 2024]]||[[Arsenal Fútbol Club|Arsenal]] y [[Club Atlético Colón|Colón]]||[[Club Atlético Aldosivi|Aldosivi]] y [[Club Atlético San Martín (San Juan)|San Martín (SJ)]]
+|- 
+|[[Campeonato de Primera Nacional 2025|PN 2025]]||No hubo||[[Club Atlético Gimnasia y Esgrima (Mendoza)|Gimnasia y Esgrima (M)]] y [[Asociación Atlética Estudiantes|Estudiantes (RC)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera Nacional 2026|PN 2026]]||[[Club Deportivo Godoy Cruz Antonio Tomba|Godoy Cruz]] y [[Club Atlético San Martín (San Juan)|San Martín (SJ)]]||-
+|}
+
+==== Con la tercera división ====
+
+===== Con la Primera B Metropolitana =====
+{| style="background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: center;" cellspacing="0" cellpadding="2" border="1" align="center" width="95%"
+|- align=center bgcolor=#006699 style="color: white;"
+!width=12%|Temporada
+!width=39%|Ascendidos de la Primera B Metropolitana
+!width=39%|Descendidos de la Primera B Nacional
+|-
+|[[Campeonato Nacional B 1986-87|NB 1986-87]]||[[Club Atlético Banfield|Banfield]], [[Club Atlético Colón|Colón]], [[Club Social y Deportivo Defensa y Justicia|Defensa y Justicia]], [[Club Deportivo Armenio|Deportivo Armenio]], [[Club Atlético Lanús|Lanús]], [[Club Atlético Los Andes|Los Andes]] y [[Club Atlético Tigre|Tigre]]||No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1987-88|NB 1987-88]]||[[Quilmes Atlético Club|Quilmes]] y [[Club Almirante Brown|Almirante Brown]]||No hubo
+|-
+|[[Campeonato Nacional B 1988-89|NB 1988-89]]||[[Club Atlético Talleres (Remedios de Escalada)|Talleres (RdE)]]||[[Club Atlético Chacarita Juniors|Chacarita Juniors]] y [[Club Atlético Temperley|Temperley]]
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1989-90|NB 1989-90]]||[[Villa Dálmine]]||[[Club Atlético Los Andes|Los Andes]] y [[Club Deportivo Armenio|Deportivo Armenio]]
+|-
+|[[Campeonato Nacional B 1990-91|NB 1990-91]]||[[Club Deportivo Morón|Deportivo Morón]], [[Club Atlético Atlanta|Atlanta]] y [[Club Social y Cultural Deportivo Laferrere|Laferrere]]||[[Club Atlético Tigre|Tigre]] y [[Club Atlético Atlanta|Atlanta]]
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1991-92|NB 1991-92]]||[[Club Atlético Central Córdoba (Rosario)|Central Córdoba (R)]] y [[Club Atlético Nueva Chicago|Nueva Chicago]]||No hubo
+|-
+|[[Campeonato Nacional B 1992-93|NB 1992-93]]||[[Club Atlético Ituzaingó|Ituzaingó]] y [[Arsenal de Sarandí|Arsenal]]||[[Villa Dálmine]] y [[Club Social y Deportivo Defensa y Justicia|Defensa y Justicia]]
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1993-94|NB 1993-94]]||[[Club Atlético All Boys|All Boys]] y [[Club Atlético Sarmiento (Junín)|Sarmiento (J)]]||[[Club Atlético Ituzaingó|Ituzaingó]] y [[Club Atlético Sarmiento (Junín)|Sarmiento (J)]]
+|-
+|[[Campeonato Nacional B 1994-95|NB 1994-95]]||[[Club Atlético Chacarita Juniors|Chacarita Juniors]] y [[Club Atlético Los Andes|Los Andes]]||[[Club Atlético Talleres (Remedios de Escalada)|Talleres (RdE)]], [[Club Sportivo Italiano|Sportivo Italiano]] y [[Club Social y Cultural Deportivo Laferrere|Laferrere]]
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1995-96|NB 1995-96]]||[[Club Atlético Atlanta|Atlanta]] y [[Club Atlético Tigre|Tigre]]||[[Club Atlético Tigre|Tigre]]
+|-
+|[[Campeonato de Primera B Nacional 1996-97|BN 1996-97]]||[[Club Sportivo Italiano|Sportivo Italiano]], [[Club Atlético Estudiantes|Estudiantes (BA)]], [[Club Almagro|Almagro]], [[Club Atlético Sarmiento (Junín)|Sarmiento (J)]] y [[Club Atlético Temperley|Temperley]]||[[Club Atlético Sarmiento (Junín)|Sarmiento (J)]] y [[Club Atlético Temperley|Temperley]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 1997-98|BN 1997-98]]||[[Club Social y Deportivo Defensa y Justicia|Defensa y Justicia]] y [[Club Atlético San Miguel|San Miguel]]||[[Club Almirante Brown|Almirante Brown]] y [[Club Sportivo Italiano|Sportivo Italiano]]
+|-
+|[[Campeonato de Primera B Nacional 1998-99|BN 1998-99]]||[[Club El Porvenir|El Porvenir]] y [[Club Atlético Tigre|Tigre]]||[[Club Atlético Atlanta|Atlanta]] y [[Club Atlético Estudiantes|Estudiantes (BA)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 1999-00|BN 1999-00]]||[[Club Atlético Argentino (Rosario)|Argentino (R)]] y [[Club Atlético Temperley|Temperley]]||[[Club Deportivo Español de Buenos Aires|Deportivo Español]], [[Club Deportivo Morón|Deportivo Morón]], [[Club Atlético Argentino (Rosario)|Argentino (R)]] y [[Club Atlético Temperley|Temperley]]
+|-
+|[[Campeonato de Primera B Nacional 2000-01|BN 2000-01]]||[[Club Atlético Estudiantes|Estudiantes (BA)]]||[[Club Atlético San Miguel|San Miguel]], [[Club Atlético All Boys|All Boys]], [[Club Atlético Estudiantes|Estudiantes (BA)]] y [[Club Ferro Carril Oeste|Ferro Carril Oeste]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2001-02|BN 2001-02]]||[[Club Atlético Defensores de Belgrano|Defensores de Belgrano]]||[[Club Atlético Tigre|Tigre]], [[Club Atlético Central Córdoba (Rosario)|Central Córdoba (R)]] y [[Club Atlético Platense|Platense]]
+|-
+|[[Campeonato de Primera B Nacional 2002-03|BN 2002-03]]||[[Club Deportivo Español de Buenos Aires|Deportivo Español]]||[[Club Deportivo Español de Buenos Aires|Deportivo Español]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2003-04|BN 2003-04]]||[[Club Ferro Carril Oeste|Ferro Carril Oeste]]||[[Club Atlético Los Andes|Los Andes]]
+|-
+|[[Campeonato de Primera B Nacional 2004-05|BN 2004-05]]||[[Club Atlético Sarmiento (Junín)|Sarmiento (J)]]||[[Club Atlético Defensores de Belgrano|Defensores de Belgrano]] y [[Club Atlético Sarmiento (Junín)|Sarmiento (J)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2005-06|BN 2005-06]]||[[Club Atlético Tigre|Tigre]]||[[Club El Porvenir|El Porvenir]]
+|-
+|[[Campeonato de Primera B Nacional 2006-07|BN 2006-07]]||[[Club Atlético Platense|Platense]]||No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2007-08|BN 2007-08]]||[[Club Almirante Brown|Almirante Brown]]||[[Club Almirante Brown|Almirante Brown]] y [[Club Atlético Nueva Chicago|Nueva Chicago]]
+|-
+|[[Campeonato de Primera B Nacional 2008-09|BN 2008-09]]||[[Club Atlético All Boys|All Boys]] y [[Club Atlético Los Andes|Los Andes]]||[[Club Almagro|Almagro]] y [[Club Atlético Los Andes|Los Andes]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2009-10|BN 2009-10]]||[[Club Sportivo Italiano|Sportivo Italiano]] y [[Club Social y Deportivo Merlo|Deportivo Merlo]]||[[Club Sportivo Italiano|Sportivo Italiano]] y [[Club Atlético Platense|Platense]]
+|-
+|[[Campeonato de Primera B Nacional 2010-11|BN 2010-11]]||[[Club Almirante Brown|Almirante Brown]]||No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2011-12|BN 2011-12]]||[[Club Atlético Atlanta|Atlanta]]||[[Club Atlético Atlanta|Atlanta]] y [[Club Atlético Chacarita Juniors|Chacarita Juniors]]
+|-
+|[[Campeonato de Primera B Nacional 2012-13|BN 2012-13]]||[[Club Atlético Sarmiento (Junín)|Sarmiento (J)]] y [[Club Atlético Nueva Chicago|Nueva Chicago]]||[[Club Social y Deportivo Merlo|Deportivo Merlo]] y [[Club Atlético Nueva Chicago|Nueva Chicago]] 
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2013-14|BN 2013-14]]||[[Club Atlético Villa San Carlos|Villa San Carlos]] y [[Club Atlético Brown|Brown de Adrogué]]||[[Club Almirante Brown|Almirante Brown]], [[Club Atlético Brown|Brown de Adrogué]] y [[Club Atlético Villa San Carlos|Villa San Carlos]]
+|-
+|[[Campeonato de Primera B Nacional 2014|BN 2014]]||[[Club Atlético Nueva Chicago|Nueva Chicago]] y [[Club Atlético Temperley|Temperley]]||No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2015|BN 2015]]||[[Club Atlético Chacarita Juniors|Chacarita Juniors]], [[Club Atlético Los Andes|Los Andes]] y [[Club Villa Dálmine|Villa Dálmine]]||No hubo
+|-
+|[[Campeonato de Primera B Nacional 2016|BN 2016]]||[[Club Almagro|Almagro]] y [[Club Atlético Brown|Brown de Adrogué]]||No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2016-17|BN 2016-17]]||[[Club Social y Deportivo Flandria|Flandria]]||No hubo
+|-
+|[[Campeonato de Primera B Nacional 2017-18|BN 2017-18]]||[[Club Deportivo Morón|Deportivo Morón]] y [[Club Deportivo Riestra|Deportivo Riestra]]||[[Club Atlético All Boys|All Boys]], [[Club Social y Deportivo Flandria|Flandria]] y [[Club Deportivo Riestra|Deportivo Riestra]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2018-19|BN 2018-19]]||[[Club Atlético Defensores de Belgrano|Defensores de Belgrano]] y [[Club Atlético Platense|Platense]]||[[Club Atlético Los Andes|Los Andes]]
+|-
+|[[Campeonato de Primera Nacional 2019-20|PN 2019-20]]||[[Club Atlético All Boys|All Boys]], [[Club Atlético Atlanta|Atlanta]], [[Club Atlético Barracas Central|Barracas Central]], [[Club Deportivo Riestra|Deportivo Riestra]] y [[Club Atlético Estudiantes|Estudiantes (BA)]]||No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato Transición de Primera Nacional 2020|PN 2020]]||No hubo||No hubo
+|-
+|[[Campeonato de Primera Nacional 2021|PN 2021]]||[[Club Almirante Brown|Almirante Brown]], [[Club Social y Deportivo Tristán Suárez|Tristán Suárez]] y [[Club Atlético San Telmo|San Telmo]]||No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera Nacional 2022|PN 2022]]||[[Club Social y Deportivo Flandria|Flandria]] y [[Sacachispas Fútbol Club|Sacachispas]]||[[Sacachispas Fútbol Club|Sacachispas]]
+|-
+|[[Campeonato de Primera Nacional 2023|PN 2023]]||[[Club Atlético Defensores Unidos|Defensores Unidos]]||[[Club Social y Deportivo Flandria|Flandria]] y [[Club Villa Dálmine|Villa Dálmine]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera Nacional 2024|PN 2024]]||[[Club Atlético Talleres (Remedios de Escalada)|Talleres (RdE)]] y [[Club Atlético San Miguel|San Miguel]]||[[Club Atlético Brown|Brown de Adrogué]]
+|- 
+|[[Campeonato de Primera Nacional 2025|PN 2025]]||[[Club Atlético Colegiales (Munro)|Colegiales]] y [[Club Atlético Los Andes|Los Andes]]||[[Arsenal Fútbol Club|Arsenal]], [[Club Atlético Defensores Unidos|Defensores Unidos]] y [[Club Atlético Talleres (Remedios de Escalada)|Talleres (RdE)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera Nacional 2026|PN 2026]]||[[Club Atlético Ferrocarril Midland|Ferrocarril Midland]] y [[Club Atlético Acassuso|Acassuso]]||-
+|}
+
+===== Con el Torneo del Interior, Torneo Argentino A y Torneo Federal A =====
+{| align=center width=95% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: center;"
+|- align=center bgcolor=#006699 style="color: white;"
+!width=12%|Temporada
+!width=39%|Ascendidos del Torneo del Interior
+!width=39%|Descendidos de la Primera B Nacional
+|-
+|[[Campeonato Nacional B 1986-87|NB 1986-87]]||[[Club Atlético Concepción|Atlético Concepción]], [[Club Atlético Belgrano|Belgrano]], [[Club Atlético Central Córdoba (Santiago del Estero)|Central Córdoba (SdE)]], [[Club Atlético Central Norte (Salta)|Central Norte (S)]], [[Club Atlético Chaco For Ever|Chaco For Ever]], [[Club Cipolletti|Cipolletti]], [[Club Deportivo Maipú|Deportivo Maipú]], [[Club Deportivo Mandiyú|Deportivo Mandiyú]], [[Club Atlético Douglas Haig|Douglas Haig]], [[Club Ferro Carril Oeste (General Pico)|Ferro (GP)]], [[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]], [[Club Deportivo Guaraní Antonio Franco|Guaraní Antonio Franco]] y [[Club Atlético Unión (Villa Krause)|Unión (VK)]]
+||[[Club Atlético Unión (Villa Krause)|Unión (VK)]], [[Club Atlético Central Norte (Salta)|Central Norte (S)]] y [[Club Atlético Concepción|Atlético Concepción]]
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1987-88|NB 1987-88]]||[[Club Atlético Tucumán|Atlético Tucumán]]||[[Club Deportivo Guaraní Antonio Franco|Guaraní Antonio Franco]], [[Club Ferro Carril Oeste (General Pico)|Ferro (GP)]] y [[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]]
+|-
+|[[Campeonato Nacional B 1988-89|NB 1988-89]]||[[Club Social y Deportivo Estación Quequén|Estación Quequén]]||[[Club Social y Deportivo Estación Quequén|Estación Quequén]]<ref name="sanmartin"/>
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1989-90|NB 1989-90]]||[[Club Olimpo|Olimpo]] y [[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]]||[[Club Olimpo|Olimpo]]
+|-
+|[[Campeonato Nacional B 1990-91|NB 1990-91]]||No hubo ||[[Club Cipolletti|Cipolletti]]
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1991-92|NB 1991-92]]||[[Club Atlético San Martín (San Juan)|San Martín (SJ)]]||[[Club Deportivo Maipú|Deportivo Maipú]], [[Club Atlético San Martín (San Juan)|San Martín (SJ)]] y [[Club Atlético Central Córdoba (Santiago del Estero)|Central Córdoba (SdE)]]
+|-
+|[[Campeonato Nacional B 1992-93|NB 1992-93]]||[[Club Gimnasia y Tiro|Gimnasia y Tiro (S)]]||[[Club Atlético Racing|Racing (C)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1993-94|NB 1993-94]]||[[Club Atlético Gimnasia y Esgrima (Jujuy)|Gimnasia y Esgrima (J)]]||[[Club Atlético Chaco For Ever|Chaco For Ever]]
+|-
+|[[Campeonato Nacional B 1994-95|NB 1994-95]]||[[Club Deportivo Godoy Cruz Antonio Tomba|Godoy Cruz]]||No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato Nacional B 1995-96|NB 1995-96]]||[[Club Atlético San Martín (San Juan)|San Martín (SJ)]]||No hubo
+|}
+{| align=center width=95% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: center;"
+|- align=center bgcolor=#006699 style="color: white;"
+!width=12%|Temporada
+!width=39%|Ascendidos del Torneo Argentino A
+!width=39%|Descendidos de la Primera B Nacional
+|-
+|[[Campeonato de Primera B Nacional 1996-97|BN 1996-97]]||[[Centro Juventud Antoniana|Juventud Antoniana]], [[Club Atlético Aldosivi|Aldosivi]], [[Club Atlético Chaco For Ever|Chaco For Ever]], [[Club Cipolletti|Cipolletti]], [[Club Gimnasia y Esgrima (Concepción del Uruguay)|Gimnasia y Esgrima (CdU)]] y [[Club Olimpo|Olimpo]]||[[Centro Juventud Antoniana|Juventud Antoniana]] y [[Club Gimnasia y Esgrima (Concepción del Uruguay)|Gimnasia y Esgrima (CdU)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 1997-98|BN 1997-98]]||[[Club Atlético Almirante Brown (Arrecifes)|Almirante Brown (A)]] y [[Atlético Club San Martín|San Martín (M)]]||[[Club Atlético Chaco For Ever|Chaco For Ever]]
+|-
+|[[Campeonato de Primera B Nacional 1998-99|BN 1998-99]]||[[Centro Juventud Antoniana|Juventud Antoniana]] y [[Club Gimnasia y Esgrima (Concepción del Uruguay)|Gimnasia y Esgrima (CdU)]]||[[Club Atlético Douglas Haig|Douglas Haig]] y [[Club Atlético Huracán Corrientes|Huracán Corrientes]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 1999-00|BN 1999-00]]||[[Club Atlético Racing|Racing (C)]], [[Club Sportivo Independiente Rivadavia|Independiente Rivadavia]] y [[Club Villa Mitre|Villa Mitre]]||[[Club Gimnasia y Tiro|Gimnasia y Tiro (S)]] y [[Club Atlético Aldosivi|Aldosivi]]
+|-
+|[[Campeonato de Primera B Nacional 2000-01|BN 2000-01]]|| [[Club Atlético General Paz Juniors|General Paz Juniors]]||[[Club Atlético San Martín (Tucumán)|San Martín (T)]], [[Club Atlético General Paz Juniors|General Paz Juniors]] y [[Club Cipolletti|Cipolletti]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2001-02|BN 2001-02]]||[[Club Atlético Huracán (Tres Arroyos)|Huracán (TA)]]||[[Club Villa Mitre|Villa Mitre]], [[Club Atlético Racing|Racing (C)]], [[Club Sportivo Independiente Rivadavia|Independiente Rivadavia]] y [[Club Atlético Tucumán|Atlético Tucumán]]
+|-
+|[[Campeonato de Primera B Nacional 2002-03|BN 2002-03]]||[[Comisión de Actividades Infantiles|CAI]]||[[Club Atlético Almirante Brown (Arrecifes)|Almirante Brown (A)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2003-04|BN 2003-04]]||[[Club Atlético Tiro Federal Argentino|Tiro Federal (R)]]||[[Club Gimnasia y Esgrima (Concepción del Uruguay)|Gimnasia y Esgrima (CdU)]]
+|-
+|[[Campeonato de Primera B Nacional 2004-05|BN 2004-05]]||[[Club Atlético Racing|Racing (C)]]||[[Club Atlético Racing|Racing (C)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2005-06|BN 2005-06]]||[[Club Sportivo Ben Hur|Ben Hur]] y [[Club Atlético Aldosivi|Aldosivi]]||[[Centro Juventud Antoniana|Juventud Antoniana]] y [[Atlético Club San Martín (Mendoza)|San Martín (M)]]
+|-
+|[[Campeonato de Primera B Nacional 2006-07|BN 2006-07]]||[[Club Villa Mitre|Villa Mitre]] y [[Club Atlético San Martín (Tucumán)|San Martín (T)]]||[[Club Villa Mitre|Villa Mitre]] y [[Club Atlético Huracán (Tres Arroyos)|Huracán (TA)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2007-08|BN 2007-08]]||[[Club Sportivo Independiente Rivadavia|Independiente Rivadavia]]||[[Club Sportivo Ben Hur|Ben Hur]]
+|-
+|[[Campeonato de Primera B Nacional 2008-09|BN 2008-09]]||[[Club Atlético Tucumán|Atlético Tucumán]]||[[Club Atlético Talleres (Córdoba)|Talleres (C)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2009-10|BN 2009-10]]||[[Club Atlético Boca Unidos|Boca Unidos]]||No hubo
+|-
+|[[Campeonato de Primera B Nacional 2010-11|BN 2010-11]]||[[Club Atlético Patronato de la Juventud Católica|Patronato]]||[[Club Atlético Tiro Federal Argentino|Tiro Federal (R)]], [[Comisión de Actividades Infantiles|CAI]] y [[Club Atlético San Martín (Tucumán)|San Martín (T)]].
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2011-12|BN 2011-12]]||[[Club Sportivo Desamparados|Desamparados]] y [[Club Social y Atlético Guillermo Brown|Guillermo Brown]]||[[Club Sportivo Desamparados|Desamparados]] y [[Club Social y Atlético Guillermo Brown|Guillermo Brown]]
+|-
+|[[Campeonato de Primera B Nacional 2012-13|BN 2012-13]]||[[Club Atlético Douglas Haig|Douglas Haig]] y [[Club Mutual Crucero del Norte|Crucero del Norte]]||No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2013-14|BN 2013-14]]||[[Club Atlético Talleres (Córdoba)|Talleres (C)]] y [[Club Sportivo Belgrano (San Francisco)|Sportivo Belgrano]]||[[Club Atlético Talleres (Córdoba)|Talleres (C)]] 
+|-
+|[[Campeonato de Primera B Nacional 2014|BN 2014]]||[[Club y Biblioteca Ramón Santamarina|Ramón Santamarina]] y [[Club Deportivo Guaraní Antonio Franco|Guaraní Antonio Franco]]||No hubo
+|}
+{| align=center width=95% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: center;"
+|- align=center bgcolor=#006699 style="color: white;"
+!width=12%|Temporada
+!width=39%|Ascendidos del Torneo Federal A
+!width=39%|Descendidos de la Primera B Nacional
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2015|BN 2015]]||[[Club Atlético Paraná|Atlético Paraná]], [[Club Atlético Central Córdoba (Santiago del Estero)|Central Córdoba (SdE)]], [[Club Atlético Gimnasia y Esgrima (Mendoza)|Gimnasia y Esgrima (M)]], [[Club Social y Atlético Guillermo Brown|Guillermo Brown]], [[Club Deportivo Juventud Unida|Juventud Unida (G)]], [[Club Sportivo Estudiantes (San Luis)|Sportivo Estudiantes (SL)]] y [[Club Atlético Unión (Mar del Plata)|Unión (MdP)]]||[[Club Atlético Gimnasia y Esgrima (Mendoza)|Gimnasia y Esgrima (M)]], [[Club Deportivo Guaraní Antonio Franco|Guaraní Antonio Franco]], [[Club Sportivo Belgrano (San Francisco)|Sportivo Belgrano]] y [[Club Atlético Unión (Mar del Plata)|Unión (MdP)]]
+|-
+|[[Campeonato de Primera B Nacional 2016|BN 2016]]||[[Club Atlético Talleres (Córdoba)|Talleres (C)]] y [[Club Atlético Juventud Unida Universitario|Juventud Unida Universitario]] ||[[Club Atlético Juventud Unida Universitario|Juventud Unida Universitario]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2016-17|BN 2016-17]]||[[Club Atlético San Martin (Tucumán)|San Martín (T)]]||[[Club Atlético Paraná|Atlético Paraná]], [[Club Atlético Douglas Haig|Douglas Haig]], [[Club Mutual Crucero del Norte|Crucero del Norte]] y [[Club Atlético Central Córdoba (Santiago del Estero)|Central Córdoba (SdE)]]
+|-
+|[[Campeonato de Primera B Nacional 2017-18|BN 2017-18]]||[[Club Agropecuario Argentino|Agropecuario]] y [[Club Atlético Mitre (Santiago del Estero)|Mitre (SdE)]]||[[Club Sportivo Estudiantes (San Luis)|Sportivo Estudiantes (SL)]], [[Club Atlético Boca Unidos|Boca Unidos]] y [[Club Deportivo Juventud Unida|Juventud Unida (G)]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera B Nacional 2018-19|BN 2018-19]]||[[Club Atlético Central Córdoba (Santiago del Estero)|Central Córdoba (SdE)]] y [[Club Atlético Gimnasia y Esgrima (Mendoza)|Gimnasia y Esgrima (M)]]||[[Club Olimpo|Olimpo]]
+|-
+|[[Campeonato de Primera Nacional 2019-20|PN 2019-20]]||[[Asociación Atlética Estudiantes|Estudiantes (RC)]] y [[Club Atlético Alvarado|Alvarado]]||No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato Transición de Primera Nacional 2020|PN 2020]]||No hubo||No hubo
+|-
+|[[Campeonato de Primera Nacional 2021|PN 2021]]||[[Club Atlético Güemes|Güemes (SdE)]] y [[Club Deportivo Maipú|Deportivo Maipú]]||No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera Nacional 2022|PN 2022]]||[[Club Social y Deportivo Madryn|Deportivo Madryn]] y [[Club Atlético Chaco For Ever|Chaco For Ever]]|| [[Club y Biblioteca Ramón Santamarina|Ramón Santamarina]]
+|-
+|[[Campeonato de Primera Nacional 2023|PN 2023]]||[[Club Atlético Racing|Racing (C)]]||No hubo
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera Nacional 2024|PN 2024]]||[[Club de Gimnasia y Tiro|Gimnasia y Tiro (S)]]||[[Club Social y Atlético Guillermo Brown|Guillermo Brown]] y [[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]]
+|- 
+|[[Campeonato de Primera Nacional 2025|PN 2025]]||[[Club Atlético Central Norte (Salta)|Central Norte (S)]]||[[Club Atlético Alvarado|Alvarado]]
+|- bgcolor=#D0E7FF
+|[[Campeonato de Primera Nacional 2026|PN 2026]]||[[Club Ciudad de Bolívar|Ciudad de Bolívar]] y [[Asociación Mutual Social y Deportiva Atlético de Rafaela|Atlético de Rafaela]]||-
+|}
+
+=== Goleadores ===
+==== Por torneo ====
+{| align=center width=48% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: left;"
+|- align=center bgcolor=#006699 style="color: white;"
+!Torneo
+!Jugador
+!Equipo
+!Goles
+|-
+|1986-87||{{bandera|Argentina}} [[Toti Iglesias|José Raúl Iglesias]]||Huracán||align=center|36
+|-
+|1987-88||{{bandera|Argentina}} [[Daniel Leani]]||Quilmes||align=center|24
+|-
+|rowspan=2|1988-89||{{bandera|Argentina}} [[Daniel Toribio Aquino|Toribio Aquino]]||Banfield||align=center|24
+|-
+|{{bandera|Argentina}} [[Sergio Recchiutti]]||Almirante Brown||align=center|24
+|-
+|rowspan=2|1989-90||{{bandera|Argentina}} [[Juan Carlos Almada]]||Defensa y Justicia||align=center|20
+|-
+|{{bandera|Argentina}} [[Abel Blasón]]||Quilmes||align=center|20
+|-
+|1990-91||{{bandera|Argentina}} [[Roberto Oste]]||Defensa y Justicia||align=center|24
+|-
+|1991-92||{{bandera|Argentina}} [[Carlos Cardozo]]||Almirante Brown||align=center|26
+|-
+|1992-93||{{bandera|Argentina}} [[Miguel Amaya]]||Gimnasia y Tiro (S)||align=center|21
+|-
+|1993-94||{{bandera|Argentina}} [[Dante Fernández]]||Quilmes||align=center|29
+|-
+|1994-95||{{bandera|Argentina}} [[Juan Alejandro Abaurre|Alejandro Abaurre]]||Godoy Cruz||align=center|29
+|-
+|1995-96||{{bandera|Argentina}} [[Adrián Czornomaz]]||Los Andes||align=center|26
+|-
+|1996-97||{{bandera|Honduras}} [[Eduardo Bennett]]||Argentinos Juniors||align=center|23
+|-
+|1997-98||{{bandera|Argentina}} [[Alejandro Glaría]]||Banfield||align=center|30
+|-
+|1998-99||{{bandera|Argentina}} [[Adrián Czornomaz]]||Atlético Tucumán||align=center|26
+|-
+|1999-00||{{bandera|Argentina}} [[Gastón Casas]]||Huracán||align=center|30
+|-
+|2000-01||{{bandera|Argentina}} [[Daniel Jiménez]]||Instituto||align=center|23
+|-
+|2001-02||{{bandera|Argentina}} [[Diego Ceballos]]||Gimnasia y Esgrima (CdU)||align=center|26
+|-
+|rowspan=2|Apertura 2002||{{bandera|Argentina}} [[Diego Torres (futbolista)|Diego Torres]]||Quilmes||align=center|13
+|-
+|{{bandera|Argentina}} [[Daniel Gonzalo Giménez]]||Godoy Cruz||align=center|13
+|-
+|rowspan=2|Clausura 2003||{{bandera|Argentina}} [[Matias Gigli]]||Godoy Cruz||align=center|12
+|-
+|{{bandera|Argentina}} [[Héctor Silva]]||Gimnasia y Esgrima (CdU)||align=center|12
+|-
+|Apertura 2003||{{bandera|Argentina}} [[Julio Bevacqua]]||CAI||align=center|13
+|-
+|Clausura 2004||{{bandera|Argentina}} [[Luis Tonelotto]]||Almagro||align=center|12
+|-
+|Apertura 2004||{{bandera|Argentina}} [[Rubén Ramírez]]||Tiro Federal (R)||align=center|12
+|-
+|Clausura 2005||{{bandera|Argentina}} [[Héctor Silva]]||Talleres (C)||align=center|11
+|-
+|Apertura 2005||{{bandera|Argentina}} [[Daniel Bazán Vera]]||Unión (SF)||align=center|15
+|-
+|Clausura 2006||{{bandera|Argentina}} [[Rubén Ferrer]]||Defensa y Justicia||align=center|10
+|-
+|Apertura 2006||{{bandera|Argentina}} [[Ismael Blanco]]||Olimpo||align=center|18
+|-
+|Clausura 2007||{{bandera|Argentina}} [[Ismael Blanco]]||Olimpo||align=center|11
+|-
+|2007-08||{{bandera|Argentina}} [[Leandro Zárate]]||Unión (SF)||align=center|21
+|-
+|2008-09||{{bandera|Argentina}} [[Luis Miguel Rodríguez|Luis Rodríguez]]||Atlético Tucumán||align=center|20
+|-
+|2009-10||{{bandera|Argentina}} [[Leandro Armani]]||Tiro Federal (R)||align=center|19
+|-
+|2010-11||{{bandera|Argentina}} [[César Carignano]]||Atlético de Rafaela||align=center|21
+|-
+|2011-12||{{bandera|Argentina}} [[Gonzalo Castillejos]]||Rosario Central||align=center|26
+|-
+|2012-13||{{bandera|Argentina}} [[Luis Miguel Rodríguez|Luis Rodríguez]]||Atlético Tucumán||align=center|20
+|-
+|2013-14||{{bandera|Argentina}} [[Juan Martín Lucero]]||Defensa y Justicia||align=center|24
+|-
+|rowspan=2|2014||{{bandera|Argentina}} [[Ramón Ábila]]||Huracán||align=center|9
+|-
+|{{bandera|Argentina}} [[Nicolás Mazzola]]||Instituto||align=center|9
+|-
+|2015||{{bandera|ARG}} [[Fernando Zampedri]]||Juventud Unida (G)||align=center|25
+|-
+|2016||{{bandera|ARG}} [[Germán Lesman]]||All Boys||align=center|17
+|-
+|2016-17||{{bandera|ARG}} [[Rodrigo Salinas]]||Chacarita Juniors||align=center|30
+|-
+|2017-18||{{bandera|ARG}} [[Claudio Bieler]]||San Martín de Tucumán|| align="center" |16
+|-
+|rowspan=2|2018-19||{{bandera|ARG}} [[Patricio Cucchi]]||Gimnasia y Esgrima (M)||align=center|15
+|-
+|{{bandera|Argentina}} [[Pablo Vegetti]]||Instituto||align=center|15
+|-
+|2019-20||{{bandera|ARG}} [[Pablo Magnín]]||Sarmiento (J)||align=center|15
+|-
+|2020||{{bandera|ARG}} [[Claudio Bieler]]||Atlético de Rafaela||align=center|6
+|-
+|2021||{{bandera|ARG}} [[Pablo Magnín]]||Tigre||align=center|22
+|-
+|2022||{{bandera|ARG}} [[Pablo Vegetti]]||Belgrano||align=center|17
+|-
+|2023||{{bandera|PAR}} [[Alex Arce]]||Independiente Rivadavia||align=center|26
+|-
+|rowspan=2|2024||{{bandera|Argentina}} [[Agustín Lavezzi]]||Tristán Suárez||align=center|18
+|-
+|{{bandera|Argentina}} [[Bruno Nasta]]||Racing (C)||align=center|18
+|-
+|2025||{{bandera|ARG}} [[Alejandro Gagliardi]]||Agropecuario||align=center|18
+|}
+
+==== Por equipo ====
+{| align=center width=30% border=1 cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 90%; text-align: center;"
+|- align=center bgcolor=#006699 style="color: white;"
+!Equipo
+!Goleadores
+|-
+|align=left|Defensa y Justicia||rowspan=2|4
+|-
+|align=left|Quilmes
+|-
+|align=left|Atlético Tucumán||rowspan=4|3
+|-
+|align=left|Godoy Cruz
+|-
+|align=left|Huracán
+|-
+|align=left|Instituto
+|-
+|align=left|Almirante Brown||rowspan=7|2
+|-
+|align=left|Atlético de Rafaela
+|-
+|align=left|Banfield
+|-
+|align=left|Gimnasia y Esgrima (CdU)
+|-
+|align=left|Olimpo
+|-
+|align=left|Tiro Federal (R)
+|-
+|align=left|Unión (SF)
+|-
+|align=left|Agropecuario||rowspan=19|1
+|-
+|align=left|All Boys
+|-
+|align=left|Almagro
+|-
+|align=left|Argentinos Juniors
+|-
+|align=left|Belgrano
+|-
+|align=left|CAI (CR)
+|-
+|align=left|Chacarita Juniors
+|-
+|align=left|Deportivo Riestra
+|-
+|align=left|Ferro Carril Oeste
+|-
+|align=left|Gimnasia y Esgrima (M)
+|-
+|align=left|Gimnasia y Tiro (S)
+|-
+|align=left|Independiente Rivadavia
+|-
+|align=left|Juventud Unida (G)
+|-
+|align=left|Los Andes
+|-
+|align=left|Racing (C)
+|-
+|align=left|Rosario Central
+|-
+|align=left|San Martín (T)
+|-
+|align=left|Talleres (C)
+|-
+|align=left|Tigre
+|-
+|align=left|Tristán Suárez
+|}
+
+== Véase también ==
+* [[Anexo:Equipos participantes en Primera División desde la creación del Campeonato Nacional B]]
+* [[Anexo:Clasificación histórica de la Primera Nacional]]
+* [[Fútbol en Argentina]]
+
+== Notas y referencias ==
+{{listaref|2}}
+
+== Enlaces externos ==
+* [http://www.afa.org.ar/ Sitio oficial de AFA]
+
+{{Sucesión
+|título = Primera B Nacional
+|período = 1986 en adelante
+|predecesor = [[Primera B (Argentina)|Primera B]]
+}}
+
+{{Control de autoridades}}
+
+[[Categoría:Primera B Nacional| ]]
+[[Categoría:Campeonatos de fútbol entre clubes de Argentina]]
+[[Categoría:Ligas de fútbol de Argentina]]
