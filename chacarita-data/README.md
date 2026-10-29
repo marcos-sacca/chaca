@@ -26,7 +26,7 @@ python3 -m http.server 8000     # y abrir http://localhost:8000
 ## Actualizar los datos cuando cambie el Excel
 
 ```
-python3 -I tools/build_data.py <DATACHACA.xlsx> data/enrichment/parche_partidos.json data/enrichment/parche_torneos.json data/enrichment/parche_torneos_1960s.json
+python3 -I tools/build_data.py <DATACHACA.xlsx> data/enrichment/parche_*.json   # todos los parches, en este orden de prioridad: Historical-Lineups, Chacarita Digital, Transfermarkt, rivales, Solo Ascenso, Infobae
 python3 -I tools/verify_vs_excel.py <DATACHACA.xlsx>      # compara el sitio con las hojas calculadas del Excel
 ```
 
@@ -36,12 +36,27 @@ Requiere Python 3 con `pandas` y `openpyxl`, y Node 18+ para la verificación.
 
 ## Datos agregados (solo celdas vacías, nunca se pisó un dato)
 
-- `tools/enrich_hl.py`: árbitro, director técnico y espectadores desde los PDF de Historical-Lineups (1932–1984). Solo se agrega en años/décadas donde el mismo método coincide ≥ 90 % con lo que el Excel ya tenía.
-- `tools/enrich_positions.py` y `data/enrichment/parche_torneos_1960s.json`: posición final de campeonatos, desde RSSSF.
-- Cada dato agregado se ve en el sitio con la marca «agregado» y su fuente.
+| Fuente | Script | Qué aporta |
+|---|---|---|
+| Historical-Lineups (PDF 1932–1984) | `enrich_hl.py` | árbitro, DT, espectadores, formaciones de Primera |
+| Chacarita Digital (144 notas) | `scrape_cd.py`, `parse_cd.py`, `enrich_cd.py` | árbitro, DT, espectadores, cancha y formaciones; coincide 99 % (árbitro) y 96 % (DT) con lo ya cargado |
+| Transfermarkt | `scrape_tm.py`, `enrich_tm.py` | árbitro, DT, espectadores y formaciones desde 1995 |
+| Museo Granate, La Historia River, El Sitio de Almagro | `scrape_museogranate.py`, `scrape_lahistoriariver.py`, `scrape_almagro.py`, `enrich_rivals.py` | árbitro y DT de los partidos contra esos rivales (coincide 99,5 %) |
+| Solo Ascenso (carpeta `ascenso/`) | `enrich_sa.py` | control de árbitro, DT y goleadores desde 2013; aporta lo que falte |
+| Infobae (2004–2008) | `scrape_infobae.py`, `enrich_infobae.py` | árbitro y DT de crónicas con «Síntesis» |
+| Crónicas de Historia y Fútbol | `enrich_jc.py` | nombres de goles en contra (54) y 234 diferencias de goleadores para revisar |
+| RSSSF | `enrich_positions.py` | posición final de campeonatos |
 
-## Fuera de alcance / pendiente
+Cada dato agregado se ve en el sitio con la marca «agregado» y su fuente (`data/enrichment_index.json`).
+
+**Listas para revisar a mano** (la planilla y la fuente no coinciden; no se tocó nada):
+`data/enrichment/revisar_arbitro_dt_planilla_vs_fuentes.csv` (44), `revisar_goleadores_planilla_vs_solo_ascenso.csv` (7), `hallazgos_goleadores_planilla_vs_cronica.csv` (234) y `revisar_partidos_solo_ascenso_sin_par_en_planilla.csv` (29 partidos de Solo Ascenso sin par en la planilla, entre ellos un posible partido faltante: Chacarita 1-0 Gimnasia de Jujuy, 18/11/2018).
+
+## Qué sigue faltando
+
+Sobre 3.535 partidos: sin árbitro 1.080, sin DT 1.888, sin espectadores 2.892, sin formación 1.092.
+Se concentra en 1980–83, 1986/87 a 1998/99 (toda la B Nacional y la Primera B de esa época), 2004/05 a 2007/08, 2012/13–2013/14 y, en espectadores, casi todo.
 
 - 7 partidos con goles pero sin goleador identificado (1959 y 1982) que no se encontraron en ninguna fuente accesible.
-- Árbitro, DT y espectadores de 1985 en adelante: no hay una fuente pública accesible desde acá.
+- Fuentes que bloquean el acceso: SofaScore, fbref, worldfootball/ceroacero, mundoascenso y el sitio oficial del club (Vercel).
 - En el Excel, la hoja RANKING GOLEADORES calcula «PJ (con formación)» con `APARICIONES!B2:B1000` (solo 999 de 27.777 filas), por eso muestra 0 para jugadores recientes; el sitio cuenta todas las filas.
