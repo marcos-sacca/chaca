@@ -24,18 +24,18 @@ export function photoFor(a) {
   return S.photo(a.key) || S.clubPhoto(S.teams[a.t].s) || null;
 }
 export function ascCard(a, { compact = false } = {}) {
-  const ph = photoFor(a), t = T(a.t);
+  const t = T(a.t);
   const champ = a.how === "Campeón";
   const cr = S.crest(a.t);
   const media = cr ? h("div.acard__crest", h("img", { src: imgSrc(cr.img), alt: "Escudo de " + t.short, loading: "lazy", decoding: "async" })) : monogram(a.t);
   const card = h("button.acard" + (compact ? ".acard--c" : ""), { type: "button", "aria-label": `${t.n}, ${champ ? "campeón" : "ascenso"} ${a.season.label}`, onclick: () => openCard(a) }, [
-    h("div.acard__img", [media, h("span.acard__badge" + (champ ? ".is-champ" : ""), champ ? "Campeón" : "Ascenso"), ph ? h("img.acard__thumb", { src: imgSrc(ph.img), alt: "", title: ph.kind === "club" ? "Hay una foto del club" : "Hay una foto de la temporada", loading: "lazy", decoding: "async" }) : null]),
+    h("div.acard__img", [media, h("span.acard__badge" + (champ ? ".is-champ" : ""), champ ? "Campeón" : "Ascenso")]),
     h("div.acard__txt", [h("b", t.short), h("span", a.season.label)]),
   ]);
   return card;
 }
 export function openCard(a) {
-  const ph = photoFor(a), t = T(a.t), dlg = el$("lightbox"), body = el$("lightbody"), cr = S.crest(a.t);
+  const t = T(a.t), dlg = el$("lightbox"), body = el$("lightbody"), cr = S.crest(a.t);
   const champ = a.how === "Campeón";
   body.replaceChildren(
     h("div.lb__media", cr ? h("div.lb__crest", h("img", { src: imgSrc(cr.img), alt: "Escudo de " + t.short })) : monogram(a.t, "mono--xl")),
@@ -43,7 +43,6 @@ export function openCard(a) {
       h("p.eyebrow", `${champ ? "Campeón y ascenso" : "Ascenso a Primera División"} · ${a.season.label}`),
       h("h3", t.n),
       h("p.lb__cap", `${t.short} ${champ ? "fue campeón de" : "ascendió a Primera en"} la temporada ${a.season.label}${champ ? " y ascendió a Primera División" : ""}.`),
-      ph ? h("figure.lb__photo", [h("img", { src: imgSrc(ph.img), alt: ph.alt || t.n }), h("figcaption", [ph.kind === "temporada" ? "Foto de la temporada. " : "Foto del club. ", ph.caption ? ph.caption + " " : "", h("span.lb__cred", [ph.author ? ph.author + " · " : "", ph.lic, " · ", h("a", { href: ph.page, target: "_blank", rel: "noopener" }, "Wikimedia Commons")])])]) : null,
       h("div.lb__links", [h("a.btn", { href: href.season(a.si), onclick: () => dlg.close() }, `Temporada ${a.season.label}`), h("a.btn.btn--ghost", { href: href.club(a.t), onclick: () => dlg.close() }, `Historia de ${t.short}`)]),
     ]));
   if (!dlg.open) dlg.showModal();

@@ -1,7 +1,7 @@
 import { route } from "../app.js";
 import { S, search } from "../store.js";
 import { h, norm, n } from "../util.js";
-import { ascCard, head, T, photoFor, monogram, openCard, href } from "./common.js";
+import { ascCard, head, T, monogram, openCard, href } from "./common.js";
 import { imgSrc } from "../util.js";
 
 const st = { how: "todos", q: "" };
@@ -24,10 +24,10 @@ route("ascensos", async () => {
   const play = h("button.iconbtn", { type: "button", "aria-label": "Recorrer la historia" }, "▶");
   const show = (i) => {
     cur = i; slider.value = i; slider.style.setProperty("--v", (i / (N - 1)) * 100 + "%");
-    const a = list[i], t = T(a.t), ph = photoFor(a), champ = a.how === "Campeón";
+    const a = list[i], t = T(a.t), champ = a.how === "Campeón";
     const cr = S.crest(a.t);
-    media.replaceChildren(...[cr ? h("div.acard__crest", h("img", { src: imgSrc(cr.img), alt: "Escudo de " + t.short })) : monogram(a.t), ph ? h("img.viewer__thumb", { src: imgSrc(ph.img), alt: ph.alt || t.n, title: ph.caption || "" }) : null].filter(Boolean));
-    info.replaceChildren(...[h("span.pill" + (champ ? ".pill--champ" : ""), champ ? "Campeón y ascenso" : "Ascenso a Primera"), h("div.big", a.season.label.replace("Transición ", "T ")), h("h3", t.n), ph ? h("p.viewer__cap", (ph.kind === "temporada" ? "Foto de la temporada: " : "Foto del club: ") + ph.caption) : null,
+    media.replaceChildren(...[cr ? h("div.acard__crest", h("img", { src: imgSrc(cr.img), alt: "Escudo de " + t.short })) : monogram(a.t)].filter(Boolean));
+    info.replaceChildren(...[h("span.pill" + (champ ? ".pill--champ" : ""), champ ? "Campeón y ascenso" : "Ascenso a Primera"), h("div.big", a.season.label.replace("Transición ", "T ")), h("h3", t.n),
       h("div.lb__links", [h("button.btn", { type: "button", onclick: () => openCard(a) }, "Ver en grande"), h("a.btn.btn--ghost", { href: href.club(a.t) }, "Historia del club")])].filter(Boolean));
   };
   const stop = () => { clearInterval(timer); timer = null; play.textContent = "▶"; };
@@ -36,7 +36,6 @@ route("ascensos", async () => {
   const first = list[0].season.label, lastL = list[N - 1].season.label;
   const viewer = h("section", { "aria-label": "Recorrido por los ascensos" }, [h("div.viewer", [media, info]), h("div.timeline", [h("div.timeline__row", [play, slider]), h("div.timeline__ticks", [h("span", first), h("span", "2000"), h("span", "2010"), h("span", "2020"), h("span", lastL)])])]);
   show(cur);
-  const withPhoto = S.ascensos.filter((a) => S.photo(a.key) || S.clubPhoto(T(a.t).s)).length;
-  page.append(head("Ascensos", "Los clubes que subieron a Primera", `${S.ascensos.length} ascensos desde 1986/87. Cada ascenso tiene su escudo como carátula; la foto libre de Wikimedia Commons es un complemento (${withPhoto} de ${S.ascensos.length} tienen una). Fuente de las listas: Wikipedia.`), viewer, h("h2", { style: { marginTop: "46px" } }, "Todos los ascensos"), h("div.toolbar", [tabs, q]), grid);
+  page.append(head("Ascensos", "Los clubes que subieron a Primera", `${S.ascensos.length} ascensos desde 1986/87. Cada club se muestra con su escudo. Las fotos históricas están en la Galería, agrupadas por club. Fuente de las listas: Wikipedia.`), viewer, h("h2", { style: { marginTop: "46px" } }, "Todos los ascensos"), h("div.toolbar", [tabs, q]), grid);
   return { page, title: "Ascensos" };
 });
