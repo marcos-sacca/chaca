@@ -220,3 +220,9 @@ dialog { border: 0; padding: 0; color: var(--ink); background: var(--paper); } d
 .gclub .gallery { margin-top: 0; }
 .vgroup { margin-top: 40px; } .vgroup h2 { margin-bottom: 4px; } .vgroup > .muted { margin-bottom: 16px; }
 .crests { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 14px; margin-top: 18px; } .crests a { display: grid; justify-items: center; gap: 8px; padding: 16px 8px 12px; border: 1px solid var(--line); border-radius: 12px; text-decoration: none; color: var(--ink); background: var(--paper); transition: transform .2s, box-shadow .2s; text-align: center; font-size: .84rem; font-weight: 600; } .crests a:hover { transform: translateY(-3px); box-shadow: var(--shadow); color: var(--ink); } .crests .crest { width: 64px; height: 64px; } .crests .mono--s { width: 64px; height: 64px; }
+
+/* escudo = carátula; la foto es un complemento */
+.acard__thumb { position: absolute !important; right: 8px; bottom: 8px; width: 64px !important; height: 46px !important; object-fit: cover; border-radius: 6px; border: 2px solid #fff; box-shadow: 0 2px 8px rgba(11,36,71,.28); transition: transform .3s; } .acard:hover .acard__img .acard__thumb { transform: scale(1.12); }
+.viewer__img > .viewer__thumb { position: absolute; inset: auto 14px 14px auto; width: 150px; height: 104px; border-radius: 10px; border: 3px solid #fff; box-shadow: var(--shadow-hi); object-fit: cover; }
+.lb__photo { margin: 6px 0 0; display: grid; gap: 8px; } .lb__photo img { width: 100%; max-height: 240px; object-fit: cover; border-radius: 10px; } .lb__photo figcaption { font-size: .8rem; color: var(--muted); line-height: 1.45; } .lb__photo .lb__cred { display: block; margin-top: 2px; }
+@media (max-width: 760px) { .viewer__img > .viewer__thumb { width: 110px; height: 76px; } }
