@@ -1,0 +1,157 @@
+{
+"stats": {
+"sin_cruce": 5,
+"articulos": 10,
+"arb": 10,
+"dt": 8,
+"formacion_no_resuelta": 9
+},
+"patch": [
+{
+"id": 2678,
+"fecha": "2004-09-20",
+"partido": "Rafaela 0-3 Chacarita",
+"campo": "Árbitro",
+"valor": "Javier Ruiz",
+"fuente": "Infobae (140943-chacarita-consiguio-su-primera-victoria-el-nacional-b)"
+},
+{
+"id": 2678,
+"fecha": "2004-09-20",
+"partido": "Rafaela 0-3 Chacarita",
+"campo": "DT",
+"valor": "Néstor Clausen",
+"fuente": "Infobae (140943-chacarita-consiguio-su-primera-victoria-el-nacional-b)"
+},
+{
+"id": 2681,
+"fecha": "2004-10-07",
+"partido": "Defensores (B) 1-2 Chacarita",
+"campo": "Árbitro",
+"valor": "Alejandro Toia",
+"fuente": "Infobae (144588-chacarita-gano-y-se-aleja-del-fondo-la-tabla)"
+},
+{
+"id": 2681,
+"fecha": "2004-10-07",
+"partido": "Defensores (B) 1-2 Chacarita",
+"campo": "DT",
+"valor": "Néstor Clausen",
+"fuente": "Infobae (144588-chacarita-gano-y-se-aleja-del-fondo-la-tabla)"
+},
+{
+"id": 2686,
+"fecha": "2004-11-11",
+"partido": "Chacarita 1-2 Belgrano",
+"campo": "Árbitro",
+"valor": "Carlos Ferreira",
+"fuente": "Infobae (151501-belgrano-fue-mas-que-chacarita-san-martin)"
+},
+{
+"id": 2686,
+"fecha": "2004-11-11",
+"partido": "Chacarita 1-2 Belgrano",
+"campo": "DT",
+"valor": "Néstor Clausen",
+"fuente": "Infobae (151501-belgrano-fue-mas-que-chacarita-san-martin)"
+},
+{
+"id": 2711,
+"fecha": "2005-06-25",
+"partido": "Chacarita 0-0 Defensores (B)",
+"campo": "Árbitro",
+"valor": "César Guidoni",
+"fuente": "Infobae (192523-chacarita-mando-defensores-la-primera-b-metropolitana)"
+},
+{
+"id": 2713,
+"fecha": "2005-07-09",
+"partido": "Chacarita 1-1 Platense",
+"campo": "Árbitro",
+"valor": "Pablo Giménez",
+"fuente": "Infobae (195544-chacarita-empato-platense-y-continua-la-b-nacional)"
+},
+{
+"id": 2739,
+"fecha": "2006-03-02",
+"partido": "Chacarita 3-1 Godoy Cruz",
+"campo": "Árbitro",
+"valor": "Carlos Maglio",
+"fuente": "Infobae (241475-primera-b-nacional-chacarita-gana-y-se-acerca)"
+},
+{
+"id": 2739,
+"fecha": "2006-03-02",
+"partido": "Chacarita 3-1 Godoy Cruz",
+"campo": "DT",
+"valor": "Héctor Oscar Rivoira",
+"fuente": "Infobae (241475-primera-b-nacional-chacarita-gana-y-se-acerca)"
+},
+{
+"id": 2760,
+"fecha": "2006-09-04",
+"partido": "Chacarita 1-0 San Martín (T)",
+"campo": "Árbitro",
+"valor": "Diego Abal",
+"fuente": "Infobae (274607-chacarita-gano-y-es-puntero-la-b-nacional)"
+},
+{
+"id": 2760,
+"fecha": "2006-09-04",
+"partido": "Chacarita 1-0 San Martín (T)",
+"campo": "DT",
+"valor": "Héctor Oscar Rivoira",
+"fuente": "Infobae (274607-chacarita-gano-y-es-puntero-la-b-nacional)"
+},
+{
+"id": 2775,
+"fecha": "2007-01-29",
+"partido": "Huracán (TA) 2-3 Chacarita",
+"campo": "Árbitro",
+"valor": "Javier Ruiz",
+"fuente": "Infobae (298984-chacarita-empezo-goles-y-triunfo)"
+},
+{
+"id": 2775,
+"fecha": "2007-01-29",
+"partido": "Huracán (TA) 2-3 Chacarita",
+"campo": "DT",
+"valor": "Héctor Oscar Rivoira",
+"fuente": "Infobae (298984-chacarita-empezo-goles-y-triunfo)"
+},
+{
+"id": 2782,
+"fecha": "2007-03-19",
+"partido": "Chacarita 1-0 Ben Hur",
+"campo": "Árbitro",
+"valor": "Guillermo Rietti",
+"fuente": "Infobae (307050-chacarita-no-juega-bien-pero-gana-y-acecha)"
+},
+{
+"id": 2782,
+"fecha": "2007-03-19",
+"partido": "Chacarita 1-0 Ben Hur",
+"campo": "DT",
+"valor": "Héctor Oscar Rivoira",
+"fuente": "Infobae (307050-chacarita-no-juega-bien-pero-gana-y-acecha)"
+},
+{
+"id": 2687,
+"fecha": "2004-11-22",
+"partido": "Tiro Federal 2-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Darío Maccarone",
+"fuente": "Infobae (153471-tiro-federal-alcanzo-la-punta-la-primera-b-nacional)"
+},
+{
+"id": 2687,
+"fecha": "2004-11-22",
+"partido": "Tiro Federal 2-1 Chacarita",
+"campo": "DT",
+"valor": "Néstor Clausen",
+"fuente": "Infobae (153471-tiro-federal-alcanzo-la-punta-la-primera-b-nacional)"
+}
+],
+"formaciones": [],
+"diferencias": []
+}

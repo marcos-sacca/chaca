@@ -1,0 +1,982 @@
+{
+"stats": {
+"cruzados": 393,
+"sin_cruce": 29,
+"arb": 4,
+"formaciones": 6
+},
+"patch": [
+{
+"id": 3006,
+"fecha": "2013-11-20",
+"partido": "Chacarita 1-0 Nueva Chicago",
+"campo": "Árbitro",
+"valor": "Pablo Dóvalo",
+"fuente": "Solo Ascenso (síntesis 9808)"
+},
+{
+"id": 3089,
+"fecha": "2014-10-18",
+"partido": "Fénix 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Yamil Possi",
+"fuente": "Solo Ascenso (síntesis 10805)"
+},
+{
+"id": 3135,
+"fecha": "2015-09-27",
+"partido": "Independiente Rivadavia 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Pedro Argañaraz",
+"fuente": "Solo Ascenso (síntesis 12103)"
+},
+{
+"id": 3471,
+"fecha": "2026-04-04",
+"partido": "San Martín (T) 1-1 Chacarita",
+"campo": "Árbitro",
+"valor": "Bryan Ferreyra",
+"fuente": "Solo Ascenso (síntesis 43988)"
+}
+],
+"formaciones": [
+{
+"id": 3006,
+"fecha": "2013-11-20",
+"partido": "Chacarita 1-0 Nueva Chicago",
+"jugadores": [
+{
+"n": "Fernando Otarola",
+"rol": 0
+},
+{
+"n": "Diego Acuña",
+"rol": 0
+},
+{
+"n": "Gonzalo Rocaniere",
+"rol": 0
+},
+{
+"n": "Franco Racca",
+"rol": 0
+},
+{
+"n": "Maximiliano Paredes",
+"rol": 0
+},
+{
+"n": "Matías Rosso",
+"rol": 0
+},
+{
+"n": "Matías Nizzo",
+"rol": 0
+},
+{
+"n": "Leandro Coronel",
+"rol": 0
+},
+{
+"n": "Emanuel Morales",
+"rol": 0
+},
+{
+"n": "Bruno Sotelo",
+"rol": 0
+},
+{
+"n": "Ramón Lentini",
+"rol": 0
+}
+],
+"fuente": "Solo Ascenso (síntesis 9808)"
+},
+{
+"id": 3056,
+"fecha": "2014-02-27",
+"partido": "Chacarita 2-1 Deportivo Armenio",
+"jugadores": [
+{
+"n": "Fernando Otarola",
+"rol": 0
+},
+{
+"n": "Diego Acuña",
+"rol": 0
+},
+{
+"n": "Franco Racca",
+"rol": 0
+},
+{
+"n": "Gonzalo Rocaniere",
+"rol": 0
+},
+{
+"n": "Ezequiel Fernández",
+"rol": 0
+},
+{
+"n": "Sebastián Romero",
+"rol": 0
+},
+{
+"n": "Miguel Mellado",
+"rol": 0
+},
+{
+"n": "Leandro Coronel",
+"rol": 0
+},
+{
+"n": "Emanuel Morales",
+"rol": 0
+},
+{
+"n": "Matías Rosso",
+"rol": 0
+},
+{
+"n": "Ramón Lentini",
+"rol": 0
+}
+],
+"fuente": "Solo Ascenso (síntesis 9898)"
+},
+{
+"id": 3089,
+"fecha": "2014-10-18",
+"partido": "Fénix 1-1 Chacarita",
+"jugadores": [
+{
+"n": "Agustín Rossi",
+"rol": 0
+},
+{
+"n": "Maximiliano Paredes",
+"rol": 0
+},
+{
+"n": "Gonzalo Rocaniere",
+"rol": 0
+},
+{
+"n": "Franco Racca",
+"rol": 0
+},
+{
+"n": "Emanuel Morales",
+"rol": 0
+},
+{
+"n": "Matías Rosso",
+"rol": 0
+},
+{
+"n": "Miguel Mellado",
+"rol": 0
+},
+{
+"n": "Elías Zapata",
+"rol": 0
+},
+{
+"n": "Damián Manso",
+"rol": 0
+},
+{
+"n": "Facundo Melivilo",
+"rol": 0
+},
+{
+"n": "Cristian Bordacahar",
+"rol": 0
+}
+],
+"fuente": "Solo Ascenso (síntesis 10805)"
+},
+{
+"id": 3109,
+"fecha": "2015-05-02",
+"partido": "Atletico de Paraná 3-1 Chacarita",
+"jugadores": [
+{
+"n": "César Taborda",
+"rol": 0
+},
+{
+"n": "Maximiliano Paredes",
+"rol": 0
+},
+{
+"n": "Julián Fernández",
+"rol": 0
+},
+{
+"n": "Gonzalo Rocaniere",
+"rol": 0
+},
+{
+"n": "Nazareno Mariescurrena",
+"rol": 0
+},
+{
+"n": "Miguel Mellado",
+"rol": 0
+},
+{
+"n": "Agustín Módula",
+"rol": 0
+},
+{
+"n": "Rodrigo Aliendro",
+"rol": 0
+},
+{
+"n": "Nahuel Menéndez",
+"rol": 0
+},
+{
+"n": "Damián Manso",
+"rol": 0
+},
+{
+"n": "Elías Zapata",
+"rol": 0
+}
+],
+"fuente": "Solo Ascenso (síntesis 11849)"
+},
+{
+"id": 3139,
+"fecha": "2015-11-01",
+"partido": "Douglas Haig 2-1 Chacarita",
+"jugadores": [
+{
+"n": "Gonzalo Carniel",
+"rol": 0
+},
+{
+"n": "Maximiliano Paredes",
+"rol": 0
+},
+{
+"n": "Luis Maldonado",
+"rol": 0
+},
+{
+"n": "Gonzalo Rocaniere",
+"rol": 0
+},
+{
+"n": "Ian Escobar",
+"rol": 0
+},
+{
+"n": "Rodrigo Aliendro",
+"rol": 0
+},
+{
+"n": "Matías Nizzo",
+"rol": 0
+},
+{
+"n": "Agustín Módula",
+"rol": 0
+},
+{
+"n": "Jonathan Menéndez",
+"rol": 0
+},
+{
+"n": "Damián Manso",
+"rol": 0
+},
+{
+"n": "Jorge Achucarro",
+"rol": 0
+}
+],
+"fuente": "Solo Ascenso (síntesis 12149)"
+},
+{
+"id": 3240,
+"fecha": "2018-10-02",
+"partido": "Agropecuario 0-0 Chacarita",
+"jugadores": [
+{
+"n": "Pedro Fernández",
+"rol": 0
+},
+{
+"n": "Nahuel Menéndez",
+"rol": 0
+},
+{
+"n": "Germán Ré",
+"rol": 0
+},
+{
+"n": "Gonzalo Soto",
+"rol": 0
+},
+{
+"n": "Gabriel Lazarte",
+"rol": 0
+},
+{
+"n": "Diego Rivero",
+"rol": 0
+},
+{
+"n": "Federico Vismara",
+"rol": 0
+},
+{
+"n": "Matías Sánchez",
+"rol": 0
+},
+{
+"n": "Wilson Gómez",
+"rol": 0
+},
+{
+"n": "Francisco Vazzoler",
+"rol": 0
+},
+{
+"n": "Ramón Lentini",
+"rol": 0
+},
+{
+"n": "Gonzalo Groba",
+"rol": 1
+},
+{
+"n": "Yefri Reyes",
+"rol": 1
+},
+{
+"n": "Martín Lucero",
+"rol": 1
+}
+],
+"fuente": "Solo Ascenso (síntesis 20103)"
+}
+],
+"diferencias": [
+{
+"id": 3006,
+"fecha": "2013-11-20",
+"partido": "Chacarita 1-0 Nueva Chicago",
+"campo": "DT",
+"planilla": "Salvador Pasini",
+"fuente": "Carlos Leeb",
+"sitio": "Solo Ascenso (síntesis 9808)"
+},
+{
+"id": 3052,
+"fecha": "2014-02-03",
+"partido": "Temperley 2-3 Chacarita",
+"campo": "Árbitro",
+"planilla": "Martín Gonaldi",
+"fuente": "Héctor Paletta",
+"sitio": "Solo Ascenso (síntesis 9858)"
+},
+{
+"id": 3052,
+"fecha": "2014-02-03",
+"partido": "Temperley 2-3 Chacarita",
+"campo": "DT",
+"planilla": "Eduardo González",
+"fuente": "Carlos Leeb",
+"sitio": "Solo Ascenso (síntesis 9858)"
+},
+{
+"id": 3083,
+"fecha": "2014-09-17",
+"partido": "Chacarita 3-0 Deportivo Merlo",
+"campo": "DT",
+"planilla": "Biggeri",
+"fuente": "Fabián Itabel",
+"sitio": "Solo Ascenso (síntesis 10772)"
+},
+{
+"id": 3084,
+"fecha": "2014-09-22",
+"partido": "Villa Dálmine 1-1 Chacarita",
+"campo": "Árbitro",
+"planilla": "Pablo Di Bastiano",
+"fuente": "Yamil Possi",
+"sitio": "Solo Ascenso (síntesis 10778)"
+},
+{
+"id": 3088,
+"fecha": "2014-10-13",
+"partido": "Chacarita 2-1 Colegiales",
+"campo": "Árbitro",
+"planilla": "Yamil Possi",
+"fuente": "Ignacio Lupani",
+"sitio": "Solo Ascenso (síntesis 10796)"
+},
+{
+"id": 3120,
+"fecha": "2015-07-08",
+"partido": "Unión (MDQ) 4-1 Chacarita",
+"campo": "DT",
+"planilla": "Gamboa",
+"fuente": "Aníbal Biggeri",
+"sitio": "Solo Ascenso (síntesis 11964)"
+},
+{
+"id": 3121,
+"fecha": "2015-07-13",
+"partido": "Chacarita 1-2 Los Andes",
+"campo": "DT",
+"planilla": "Gamboa",
+"fuente": "Aníbal Biggeri",
+"sitio": "Solo Ascenso (síntesis 11975)"
+},
+{
+"id": 3122,
+"fecha": "2015-07-17",
+"partido": "Boca Unidos 4-1 Chacarita",
+"campo": "DT",
+"planilla": "Gamboa",
+"fuente": "Daniel Leani",
+"sitio": "Solo Ascenso (síntesis 11987)"
+},
+{
+"id": 3138,
+"fecha": "2015-10-17",
+"partido": "Chacarita 3-1 All Boys",
+"campo": "Árbitro",
+"planilla": "Facundo Tello",
+"fuente": "Federico Beligoy",
+"sitio": "Solo Ascenso (síntesis 12143)"
+},
+{
+"id": 3144,
+"fecha": "2016-02-14",
+"partido": "Boca Unidos 1-0 Chacarita",
+"campo": "DT",
+"planilla": "Coyette",
+"fuente": "Fernando Gamboa",
+"sitio": "Solo Ascenso (síntesis 14157)"
+},
+{
+"id": 3145,
+"fecha": "2016-02-21",
+"partido": "Guillermo Brown (PM) 3-0 Chacarita",
+"campo": "DT",
+"planilla": "Coyette",
+"fuente": "Fernando Gamboa",
+"sitio": "Solo Ascenso (síntesis 14178)"
+},
+{
+"id": 3190,
+"fecha": "2017-04-29",
+"partido": "Chacarita 4-1 Villa Dálmine",
+"campo": "Árbitro",
+"planilla": "Pablo Echeverría",
+"fuente": "Pablo Echavarría",
+"sitio": "Solo Ascenso (síntesis 16277)"
+},
+{
+"id": 3192,
+"fecha": "2017-05-10",
+"partido": "Chacarita 1-2 Brown (A)",
+"campo": "Árbitro",
+"planilla": "Pablo Ramírez",
+"fuente": "Ramiro López",
+"sitio": "Solo Ascenso (síntesis 16298)"
+},
+{
+"id": 3195,
+"fecha": "2017-05-26",
+"partido": "Ferro 0-0 Chacarita",
+"campo": "Árbitro",
+"planilla": "Pablo Echeverría",
+"fuente": "Pablo Echavarría",
+"sitio": "Solo Ascenso (síntesis 16328)"
+},
+{
+"id": 3200,
+"fecha": "2017-06-26",
+"partido": "Chacarita 3-0 Santamarina Tandil",
+"campo": "Árbitro",
+"planilla": "Pablo Dóvalo",
+"fuente": "Pablo Giménez",
+"sitio": "Solo Ascenso (síntesis 16382)"
+},
+{
+"id": 3239,
+"fecha": "2018-09-22",
+"partido": "Chacarita 2-1 Villa Dálmine",
+"campo": "Árbitro",
+"planilla": "Lucas Novelli Sanz",
+"fuente": "Ramiro López",
+"sitio": "Solo Ascenso (síntesis 20095)"
+},
+{
+"id": 3246,
+"fecha": "2018-11-28",
+"partido": "Temperley 0-0 Chacarita",
+"campo": "DT",
+"planilla": "Pisano",
+"fuente": "Jorge Vivaldo",
+"sitio": "Solo Ascenso (síntesis 20172)"
+},
+{
+"id": 3247,
+"fecha": "2018-12-05",
+"partido": "Chacarita 0-2 Mitre (SdE)",
+"campo": "DT",
+"planilla": "Pisano",
+"fuente": "Jorge Vivaldo",
+"sitio": "Solo Ascenso (síntesis 20195)"
+},
+{
+"id": 3264,
+"fecha": "2019-09-17",
+"partido": "Chacarita 2-2 San Martín (T)",
+"campo": "DT",
+"planilla": "Bianco",
+"fuente": "Luis Marabotto",
+"sitio": "Solo Ascenso (síntesis 22501)"
+},
+{
+"id": 3276,
+"fecha": "2020-02-15",
+"partido": "Chacarita 0-0 Gimnasia (J)",
+"campo": "DT",
+"planilla": "Biaggio",
+"fuente": "José María Bianco",
+"sitio": "Solo Ascenso (síntesis 25601)"
+},
+{
+"id": 3277,
+"fecha": "2020-02-24",
+"partido": "Santamarina Tandil 2-1 Chacarita",
+"campo": "DT",
+"planilla": "Biaggio",
+"fuente": "José María Bianco",
+"sitio": "Solo Ascenso (síntesis 25609)"
+},
+{
+"id": 3284,
+"fecha": "2020-12-19",
+"partido": "Chacarita 0-1 Gimnasia (J)",
+"campo": "DT",
+"planilla": "Aldirico",
+"fuente": "Claudio Biaggio",
+"sitio": "Solo Ascenso (síntesis 26723)"
+},
+{
+"id": 3285,
+"fecha": "2020-12-29",
+"partido": "Quilmes 3-2 Chacarita",
+"campo": "DT",
+"planilla": "Aldirico",
+"fuente": "Claudio Biaggio",
+"sitio": "Solo Ascenso (síntesis 26726)"
+},
+{
+"id": 3286,
+"fecha": "2021-01-03",
+"partido": "Chacarita 0-0 All Boys",
+"campo": "DT",
+"planilla": "Aldirico",
+"fuente": "Luis Marabotto",
+"sitio": "Solo Ascenso (síntesis 26732)"
+},
+{
+"id": 3287,
+"fecha": "2021-01-11",
+"partido": "Almagro 0-2 Chacarita",
+"campo": "DT",
+"planilla": "Aldirico",
+"fuente": "Luis Marabotto",
+"sitio": "Solo Ascenso (síntesis 26733)"
+},
+{
+"id": 3290,
+"fecha": "2021-04-05",
+"partido": "Chacarita 2-1 Almirante Brown",
+"campo": "Árbitro",
+"planilla": "Mario Ejarque",
+"fuente": "Andrés Gariano",
+"sitio": "Solo Ascenso (síntesis 30321)"
+},
+{
+"id": 3292,
+"fecha": "2021-04-19",
+"partido": "Chacarita 2-0 Belgrano",
+"campo": "Árbitro",
+"planilla": "Mariano Negrete",
+"fuente": "Ramiro López",
+"sitio": "Solo Ascenso (síntesis 30338)"
+},
+{
+"id": 3306,
+"fecha": "2021-08-15",
+"partido": "Almirante Brown 2-1 Chacarita",
+"campo": "DT",
+"planilla": "Marabotto",
+"fuente": "Cristian Aldirico",
+"sitio": "Solo Ascenso (síntesis 30457)"
+},
+{
+"id": 3307,
+"fecha": "2021-08-22",
+"partido": "Chacarita 1-3 San Martín (T)",
+"campo": "DT",
+"planilla": "Marabotto",
+"fuente": "Cristian Aldirico",
+"sitio": "Solo Ascenso (síntesis 30471)"
+},
+{
+"id": 3308,
+"fecha": "2021-08-30",
+"partido": "Belgrano 3-0 Chacarita",
+"campo": "DT",
+"planilla": "Arias - Castromán",
+"fuente": "Luis Marabotto",
+"sitio": "Solo Ascenso (síntesis 30474)"
+},
+{
+"id": 3309,
+"fecha": "2021-09-04",
+"partido": "Chacarita 0-0 Riestra",
+"campo": "DT",
+"planilla": "Arias - Castromán",
+"fuente": "Luis Marabotto",
+"sitio": "Solo Ascenso (síntesis 30486)"
+},
+{
+"id": 3321,
+"fecha": "2022-02-12",
+"partido": "Almirante Brown 4-2 Chacarita",
+"campo": "DT",
+"planilla": "Venturelli",
+"fuente": "Federico Arias",
+"sitio": "Solo Ascenso (síntesis 32063)"
+},
+{
+"id": 3322,
+"fecha": "2022-02-19",
+"partido": "Chacarita 0-0 Gimnasia (J)",
+"campo": "DT",
+"planilla": "Venturelli",
+"fuente": "Federico Arias",
+"sitio": "Solo Ascenso (síntesis 32078)"
+},
+{
+"id": 3320,
+"fecha": "2022-03-06",
+"partido": "Chacarita 2-2 Temperley",
+"campo": "DT",
+"planilla": "Centrone",
+"fuente": "Marcelo Venturelli",
+"sitio": "Solo Ascenso (síntesis 32115)"
+},
+{
+"id": 3324,
+"fecha": "2022-03-13",
+"partido": "Deportivo Morón 0-1 Chacarita",
+"campo": "DT",
+"planilla": "Centrone",
+"fuente": "Marcelo Venturelli",
+"sitio": "Solo Ascenso (síntesis 32133)"
+},
+{
+"id": 3342,
+"fecha": "2022-08-08",
+"partido": "Atlanta 1-1 Chacarita",
+"campo": "DT",
+"planilla": "Venturelli",
+"fuente": "Pablo Centrone",
+"sitio": "Solo Ascenso (síntesis 32554)"
+},
+{
+"id": 3347,
+"fecha": "2022-08-14",
+"partido": "Chacarita 1-1 San Martín (SJ)",
+"campo": "DT",
+"planilla": "Venturelli",
+"fuente": "Pablo Centrone",
+"sitio": "Solo Ascenso (síntesis 32559)"
+},
+{
+"id": 3350,
+"fecha": "2022-09-03",
+"partido": "Gimnasia (M) 2-1 Chacarita",
+"campo": "Árbitro",
+"planilla": "Leandro Rey Hilfer",
+"fuente": "Leandro Rey Hifler",
+"sitio": "Solo Ascenso (síntesis 32624)"
+},
+{
+"id": 3401,
+"fecha": "2024-04-06",
+"partido": "Chacarita 1-1 San Martín (SJ)",
+"campo": "Árbitro",
+"planilla": "Sebastián Martínez",
+"fuente": "Diego Ceballos",
+"sitio": "Solo Ascenso (síntesis 39198)"
+},
+{
+"id": 3459,
+"fecha": "2025-08-30",
+"partido": "Chacarita 2-2 Mitre (SdE)",
+"campo": "DT",
+"planilla": "Carlos Mayor",
+"fuente": "Cristian Milla",
+"sitio": "Solo Ascenso (síntesis 42198)"
+},
+{
+"id": 3468,
+"fecha": "2026-03-15",
+"partido": "Agropecuario 2-0 Chacarita",
+"campo": "Árbitro",
+"planilla": "Javier Del Barba",
+"fuente": "Javier Delbarba",
+"sitio": "Solo Ascenso (síntesis 43953)"
+}
+],
+"sin_cruce": [
+{
+"sitio_id": 8040,
+"fecha": "2013-02-19",
+"categoria": "Primera B",
+"partido": "Godoy Cruz 0-0 Chacarita Juniors"
+},
+{
+"sitio_id": 9906,
+"fecha": "2014-04-02",
+"categoria": "Primera B",
+"partido": "Instituto de Córdoba 3-1 Chacarita Juniors"
+},
+{
+"sitio_id": 10815,
+"fecha": "2014-11-12",
+"categoria": "Copa Argentina",
+"partido": "Chacarita Juniors 2-2 Almirante Brown"
+},
+{
+"sitio_id": 14076,
+"fecha": "2015-05-19",
+"categoria": "Copa Argentina",
+"partido": "Newell´s Old Boys 0-2 Chacarita Juniors"
+},
+{
+"sitio_id": 14080,
+"fecha": "2015-07-21",
+"categoria": "Copa Argentina",
+"partido": "Chacarita Juniors 2-1 All Boys"
+},
+{
+"sitio_id": 14100,
+"fecha": "2015-08-20",
+"categoria": "Copa Argentina",
+"partido": "Defensa y Justicia 1-0 Chacarita Juniors"
+},
+{
+"sitio_id": 16403,
+"fecha": "2017-07-20",
+"categoria": "Primera Nacional",
+"partido": "Chacarita Juniors 2-1 Juventud Unida (Gualeguaychú)"
+},
+{
+"sitio_id": 17383,
+"fecha": "2017-07-05",
+"categoria": "Copa Argentina",
+"partido": "Brown (Puerto Madryn) 1-0 Chacarita Juniors"
+},
+{
+"sitio_id": 19586,
+"fecha": "2018-05-15",
+"categoria": "Copa Argentina",
+"partido": "Chacarita Juniors 0-3 Deportivo Maipú"
+},
+{
+"sitio_id": 20145,
+"fecha": "2018-11-18",
+"categoria": "Primera Nacional",
+"partido": "Chacarita Juniors 1-0 Gimnasia (Jujuy)"
+},
+{
+"sitio_id": 25643,
+"fecha": "2020-04-30",
+"categoria": "Primera Nacional",
+"partido": "Villa Dálmine 0-0 Chacarita Juniors"
+},
+{
+"sitio_id": 25646,
+"fecha": "2020-04-30",
+"categoria": "Primera Nacional",
+"partido": "Chacarita Juniors 0-0 Sarmiento de Junín"
+},
+{
+"sitio_id": 25660,
+"fecha": "2020-04-30",
+"categoria": "Primera Nacional",
+"partido": "Deportivo Riestra 0-0 Chacarita Juniors"
+},
+{
+"sitio_id": 25661,
+"fecha": "2020-04-30",
+"categoria": "Primera Nacional",
+"partido": "Gimnasia (Mendoza) 0-0 Chacarita Juniors"
+},
+{
+"sitio_id": 25676,
+"fecha": "2020-04-30",
+"categoria": "Primera Nacional",
+"partido": "Chacarita Juniors 0-0 Brown (Adrogué)"
+},
+{
+"sitio_id": 25678,
+"fecha": "2020-04-30",
+"categoria": "Primera Nacional",
+"partido": "Tigre 0-0 Chacarita Juniors"
+},
+{
+"sitio_id": 25691,
+"fecha": "2020-04-30",
+"categoria": "Primera Nacional",
+"partido": "Chacarita Juniors 0-0 Defensores de Belgrano"
+},
+{
+"sitio_id": 25695,
+"fecha": "2020-04-30",
+"categoria": "Primera Nacional",
+"partido": "Quilmes 0-0 Chacarita Juniors"
+},
+{
+"sitio_id": 25706,
+"fecha": "2020-04-30",
+"categoria": "Primera Nacional",
+"partido": "Chacarita Juniors 0-0 Atlético Rafaela"
+},
+{
+"sitio_id": 26332,
+"fecha": "2020-10-03",
+"categoria": null,
+"partido": "Chacarita Juniors 2-2 Estudiantes"
+},
+{
+"sitio_id": 26346,
+"fecha": "2020-10-07",
+"categoria": null,
+"partido": "Defensa y Justicia 3-2 Chacarita Juniors"
+},
+{
+"sitio_id": 26366,
+"fecha": "2020-10-14",
+"categoria": null,
+"partido": "Temperley 0-1 Chacarita Juniors"
+},
+{
+"sitio_id": 26412,
+"fecha": "2020-10-24",
+"categoria": null,
+"partido": "Ferro Carril Oeste 0-1 Chacarita Juniors"
+},
+{
+"sitio_id": 26450,
+"fecha": "2020-10-28",
+"categoria": null,
+"partido": "Chacarita Juniors 0-0 Argentinos Juniors"
+},
+{
+"sitio_id": 26486,
+"fecha": "2020-11-07",
+"categoria": null,
+"partido": "Chacarita Juniors 1-0 Villa Dálmine"
+},
+{
+"sitio_id": 26494,
+"fecha": "2020-11-04",
+"categoria": null,
+"partido": "Chacarita Juniors 1-1 Argentino de Merlo"
+},
+{
+"sitio_id": 38850,
+"fecha": "2023-06-06",
+"categoria": "Copa Argentina",
+"partido": "Talleres (Córdoba) 2-0 Chacarita Juniors"
+},
+{
+"sitio_id": 40837,
+"fecha": "2024-04-17",
+"categoria": "Copa Argentina",
+"partido": "Tigre 1-1 Chacarita Juniors"
+},
+{
+"sitio_id": 41399,
+"fecha": "2024-06-07",
+"categoria": "Copa Argentina",
+"partido": "San Lorenzo 2-0 Chacarita Juniors"
+}
+],
+"goleadores_distintos": [
+{
+"id": 3097,
+"fecha": "2015-02-20",
+"partido": "Chacarita 3-1 Union (MDQ)",
+"planilla": "Javier Fernández; Ramírez; Rodrigo Aliendro",
+"solo_ascenso": "Julián Fernández; Matías Rodríguez; Rodrigo Aliendro",
+"sitio": "Solo Ascenso (síntesis 11733)"
+},
+{
+"id": 3197,
+"fecha": "2017-06-08",
+"partido": "Central Córdoba (SDE) 0-2 Chacarita",
+"planilla": "Rodrigo Salinas; Matías Gonzalez",
+"solo_ascenso": "Rodrigo Salinas; Leandro Barrera",
+"sitio": "Solo Ascenso (síntesis 16351)"
+},
+{
+"id": 3199,
+"fecha": "2017-06-21",
+"partido": "Independiente Rivadavia 3-1 Chacarita",
+"planilla": "Juan Ignacio Álvarez Morinigo",
+"solo_ascenso": "Elías Alderete",
+"sitio": "Solo Ascenso (síntesis 16374)"
+},
+{
+"id": 3285,
+"fecha": "2020-12-29",
+"partido": "Quilmes 3-2 Chacarita",
+"planilla": "Juan Pablo Gobetto; Rodrigo Insúa",
+"solo_ascenso": "Juan Gobetto; Juan Ignacio Baiardino",
+"sitio": "Solo Ascenso (síntesis 26726)"
+},
+{
+"id": 3292,
+"fecha": "2021-04-19",
+"partido": "Chacarita 2-0 Belgrano",
+"planilla": "Nicolás Cháves; Juan Ignacio Baiardino",
+"solo_ascenso": "Nicolás Chávez; Juan Ignacio Baiardino",
+"sitio": "Solo Ascenso (síntesis 30338)"
+},
+{
+"id": 3408,
+"fecha": "2024-05-19",
+"partido": "Chacarita 2-2 Racing (CBA)",
+"planilla": "Matías Pisano",
+"solo_ascenso": "Matías Pisano; Fernando Brandan",
+"sitio": "Solo Ascenso (síntesis 39309)"
+},
+{
+"id": 3444,
+"fecha": "2025-05-11",
+"partido": "Almirante Brown 1-3 Chacarita",
+"planilla": "Federico Bravo; Gonzalo Errecalde; Juan Cruz González",
+"solo_ascenso": "Federico Bravo; Alejandro Rébola; Juan Cruz González",
+"sitio": "Solo Ascenso (síntesis 41927)"
+}
+]
+}
