@@ -27,7 +27,7 @@ Una tarjeta muestra la foto de **la temporada** si Commons tiene un archivo con 
 
 ## Administración de la galería y pedido de recursos
 
-- `#admin` (link «Admin» al pie) abre un panel para **agregar o sacar** fotos y videos. Los cambios se guardan en el navegador de quien los hace; no hace falta contraseña porque nada se publica solo.
+- `/admin/` es un panel **privado** (pide usuario y contraseña; ver `functions/admin/README.md`) para **agregar o sacar** fotos y videos. Los cambios se guardan en el navegador de quien los hace y nada se publica solo.
 - Para publicarlos: **Exportar para publicar** baja un `extra.json`; se reemplaza `data/extra.json` y se sube al repositorio. Ese archivo se suma a la galería de todos (`fotos`, `videos` y `ocultos` para lo que se saca de la base). Las fotos subidas desde el panel viajan dentro del JSON, achicadas.
 - `js/config.js` guarda los mails a los que la gente manda recursos, el link de Cafecito y un segundo link de apoyo (`apoyo.url`, vacío = no se muestra).
 - Descensos: no hay lista oficial en la base. Se calculan como «el club jugó la temporada, no ascendió y no figura en la siguiente». Los reducidos salen de `reducidos.csv` (torneos por el ascenso; las promociones y reválidas se cuentan aparte).

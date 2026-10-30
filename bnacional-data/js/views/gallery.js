@@ -11,7 +11,7 @@ route("fotos", async () => {
   const nfotos = clubs.reduce((n, c) => n + c.L.length, 0);
   const sel = h("select#gsel", { "aria-label": "Ir a un club", onchange: (e) => { const el = document.getElementById("g-" + e.target.value); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); } }, [h("option", { value: "" }, "Ir a un club…"), ...clubs.map((c) => h("option", { value: c.slug }, `${T(c.ti).short} (${c.L.length})`))]);
   page.append(head("Fotos", "Las fotos, club por club", `${nfotos} imágenes agrupadas por club, de Wikimedia Commons (licencia libre) y aportes de hinchas. Cada una muestra su autor y licencia al abrirla.`), h("div.gnav", [sel, h("a.btn.btn--ghost", { href: "#videos" }, "Ver videos")]));
-  if (hasLocal()) page.append(h("p.adm__note", ["Estás viendo cambios locales sin publicar. ", h("a", { href: "#admin" }, "Abrir la administración")]));
+  if (hasLocal()) page.append(h("p.adm__note", ["Estás viendo cambios locales sin publicar. ", h("a", { href: "/admin/" }, "Abrir la administración")]));
   page.append(helpBox(""));
   for (const c of clubs) {
     page.append(h("section.gclub", { id: "g-" + c.slug }, [

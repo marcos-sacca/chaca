@@ -11,7 +11,7 @@ import { fileURLToPath } from "node:url";
 const root = process.env.SITE_ROOT || path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const out = process.argv[2];
 const MIME = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".jpg": "image/jpeg", ".png": "image/png", ".svg": "image/svg+xml", ".woff2": "font/woff2" };
-const routes = ["", "#ascensos", "#temporadas", "#t-1996-97", "#t-transicion-2014", "#clubes", "#c-banfield", "#tabla", "#reducidos", "#historial", "#historial-banfield_vs_quilmes", "#clasicos", "#goleadores", "#juegos", "#jugador", "#grilla", "#contrarreloj", "#masgoles", "#carrera", "#fotos", "#videos", "#admin", "#datos"];
+const routes = ["", "#ascensos", "#temporadas", "#t-1996-97", "#t-transicion-2014", "#clubes", "#c-banfield", "#tabla", "#reducidos", "#historial", "#historial-banfield_vs_quilmes", "#clasicos", "#goleadores", "#juegos", "#jugador", "#grilla", "#contrarreloj", "#masgoles", "#carrera", "#fotos", "#videos", "#datos"];
 
 const srv = http.createServer((q, r) => {
   let p = path.join(root, decodeURIComponent(q.url.split("?")[0])); if (p.endsWith(path.sep) || p.endsWith("/")) p += "index.html";

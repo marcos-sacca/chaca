@@ -33,14 +33,14 @@ Personas: **Marcos Sacca** (dueño del repo, `marcos-sacca`) y **Nico** (`sorren
 python3 -I bnacional/tools/run.py                  # crónicas + cruces + consistencia.py + Excel  (~1,5 min)
 python3 -I bnacional-data/tools/build_data.py      # JSON del sitio en bnacional-data/data/
 python3 -m http.server -d bnacional-data 8000      # http://localhost:8000
-# prueba de humo del sitio (23 rutas, claro/oscuro, escritorio/celular):
+# prueba de humo del sitio (22 rutas, claro/oscuro, escritorio/celular):
 npm i playwright && npx playwright install chromium     # una vez
 node bnacional-data/tools/smoke_test.mjs [carpeta_capturas]
 ```
 
 - En Windows usá `python` en vez de `python3` y PowerShell (un comando por línea, sin `&&`).
 - Siempre `python -I` en los scripts que leen archivos descargados.
-- **Antes de cada push al sitio corré `smoke_test.mjs`**: tiene que decir «Sin errores en 23 rutas».
+- **Antes de cada push al sitio corré `smoke_test.mjs`**: tiene que decir «Sin errores en 22 rutas».
 - No se puede abrir `index.html` con doble clic (el navegador bloquea `fetch` desde `file://`): usá el servidor local.
 
 ## 4. Datos de la B Nacional (`bnacional/`)
@@ -98,7 +98,8 @@ HTML + CSS + módulos ES nativos, **sin framework ni build**. Fuentes Archivo (v
 
 ## 7. Panel de administración y configuración (`#admin`, `js/config.js`)
 
-- `#admin` (link «Admin» en el pie): agregar/sacar **fotos** (archivo, que se achica a 1000 px, o URL) y **videos** (link de YouTube). Los cambios quedan **en el navegador de quien los hace** (`localStorage`, clave `bn_admin_v1`); sin contraseña porque nada se publica solo. **Exportar para publicar** baja `extra.json`; hay que reemplazar `bnacional-data/data/extra.json` y pushear. Formato: `{fotos:[], videos:[], ocultos:{fotos:[], videos:[]}}`; `ocultos` esconde recursos de la base por su `img` o `id`.
+- **Panel de administración: privado, en `/admin/`** (no está en el sitio público; la ruta `#admin` y el link del pie se sacaron). Pide usuario y contraseña: lo protege `functions/admin/_middleware.js` (Cloudflare Pages Functions), que no sirve nada de `/admin/*` sin sesión. Secretos del proyecto Pages (nunca en el repo): `ADMIN_EMAIL`, `ADMIN_PASS_HASH` (PBKDF2), `SESSION_SECRET`; cómo cambiar la contraseña y límites en `functions/admin/README.md`. Dentro: agregar/sacar **fotos** (archivo, que se achica a 1000 px, o URL) y **videos** (link de YouTube) y la pestaña **Tráfico** (`functions/admin/api/stats.js`, necesita `CF_ACCOUNT_ID`, `CF_SITE_TAG` y `CF_ANALYTICS_TOKEN`; sin eso muestra los pasos para activarla). Los cambios de recursos quedan **en el navegador de quien los hace** (`localStorage`, clave `bn_admin_v1`); **Exportar para publicar** baja `extra.json`; hay que reemplazar `bnacional-data/data/extra.json` y pushear. Formato: `{fotos:[], videos:[], ocultos:{fotos:[], videos:[]}}`.
+- **Desplegar con Functions:** `wrangler pages deploy` busca `functions/` en la carpeta desde donde se lo corre, no dentro de la carpeta a publicar. Armar una carpeta de trabajo con `site/` (copia de `bnacional-data` sin `tools/` ni `.md`) y `functions/` (copia de `functions/` del repo) y correr `npx wrangler pages deploy site --project-name bnacional-historica --branch main` desde ahí. Si se conecta el repo a Pages desde el panel, `functions/` en la raíz del repo se toma solo (directorio de salida `bnacional-data`).
 - Si algún día hace falta que **otras personas** carguen recursos directo, se necesita un backend (Cloudflare Workers/KV o D1 + una clave de admin). No existe todavía.
 - `js/config.js`: `emails` (reciben los recursos: desde el 30/10/2026 un solo mail de la página, `bnpagina2027@gmail.com`), **`cafecito`** (`https://cafecito.app/b_nacional`) y `apoyo` (segundo botón «Ayudá al proyecto»; vacío = no aparece). Los mails abren un correo ya armado con asunto y formulario.
 

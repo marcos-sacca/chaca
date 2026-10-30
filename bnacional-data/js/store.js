@@ -3,7 +3,7 @@ import { norm } from "./util.js";
 export const S = {};
 const get = async (name) => (await fetch(`data/${name}.json`)).json();
 
-// recursos agregados o sacados desde el panel (#admin): se guardan en este navegador hasta exportarlos a data/extra.json
+// recursos agregados o sacados desde el panel privado (/admin/): se guardan en este navegador hasta exportarlos a data/extra.json
 const LS = "bn_admin_v1";
 export const emptyDelta = () => ({ fotos: [], videos: [], ocultos: { fotos: [], videos: [] } });
 export function getLocal() {

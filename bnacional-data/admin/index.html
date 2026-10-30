@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<base href="/">
+<title>Administración · B Nacional Histórica</title>
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/main.css">
+<style>.adm__nav { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; } .adm__nav a, .adm__nav button { padding: 8px 14px; border-radius: 10px; border: 1px solid transparent; color: inherit; font: inherit; background: none; cursor: pointer; text-decoration: none; } .adm__nav a[aria-current="true"] { border-color: var(--line); background: var(--paper); font-weight: 600; } .adm__nav form { margin: 0 0 0 auto; }</style>
+</head>
+<body>
+<header class="top" id="top">
+  <div class="wrap top__in">
+    <span class="brand"><span class="brand__t"><span class="brand__a">Administración</span><span class="brand__b">B Nacional</span></span></span>
+    <nav class="adm__nav" aria-label="Administración">
+      <a data-v="recursos" href="/admin/#recursos">Fotos y videos</a>
+      <a data-v="trafico" href="/admin/#trafico">Tráfico</a>
+      <a href="/">Ver el sitio</a>
+      <form method="post" action="/admin/logout"><button type="submit">Cerrar sesión</button></form>
+    </nav>
+  </div>
+</header>
+<main id="app" tabindex="-1"></main>
+<script type="module" src="admin/admin.js"></script>
+<noscript><p style="padding:24px">El panel necesita JavaScript.</p></noscript>
+</body>
+</html>
