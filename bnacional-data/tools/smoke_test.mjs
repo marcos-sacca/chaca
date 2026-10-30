@@ -1,6 +1,7 @@
 // Prueba de humo del sitio: abre cada ruta (claro y oscuro, escritorio y celular) y avisa de errores de JS, desbordes y páginas vacías.
 //   npm i playwright && npx playwright install chromium     (una sola vez, en cualquier carpeta)
 //   node bnacional-data/tools/smoke_test.mjs [carpeta_de_capturas]
+//   $env:SITE_URL = "https://bnacional-historica.pages.dev"   (opcional: prueba el sitio publicado en vez de la copia local)
 import { chromium } from "playwright";
 import http from "node:http";
 import fs from "node:fs";
@@ -16,7 +17,7 @@ const srv = http.createServer((q, r) => {
   let p = path.join(root, decodeURIComponent(q.url.split("?")[0])); if (p.endsWith(path.sep) || p.endsWith("/")) p += "index.html";
   fs.readFile(p, (e, d) => { if (e) { r.writeHead(404); r.end(); return; } r.writeHead(200, { "content-type": (MIME[path.extname(p)] || "application/octet-stream") + "; charset=utf-8" }); r.end(d); });
 }).listen(0, async () => {
-  const base = `http://localhost:${srv.address().port}/index.html`;
+  const base = process.env.SITE_URL ? process.env.SITE_URL.replace(/\/$/, "") + "/" : `http://localhost:${srv.address().port}/index.html`; // SITE_URL: probar el sitio publicado
   const b = await chromium.launch(), errs = [];
   if (out) fs.mkdirSync(out, { recursive: true });
   for (const scheme of ["light", "dark"]) for (const [i, hash] of routes.entries()) for (const w of [1280, 390]) {
