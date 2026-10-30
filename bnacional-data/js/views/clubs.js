@@ -33,7 +33,7 @@ route("c", async (r) => {
   const cs = S.cs[ti];
   page.append(h("div.stats.stats--hi", [["Temporadas", g ? g[2] : 0, "En la categoría"], ["Ascensos", cs.asc.length, cs.champ ? `${cs.champ} como campeón` : "a Primera"], ["Descensos", cs.desc.length, "salidas de la categoría"], ["Reducidos", cs.red.length, cs.promo.length ? `y ${cs.promo.length} promociones` : "por el ascenso"]].map(([l, v, sub]) => h("div.stat", [h("b", n(v)), h("span", l), h("small", sub)]))));
   const seasonLine = (arr) => arr.map((si) => h("a.chipl", { href: href.season(si) }, S.seasons[si].label));
-  if (cs.desc.length || cs.red.length || cs.promo.length) page.append(h("div.kline", [cs.desc.length ? h("p", [h("b", "Descendió en: "), ...seasonLine(cs.desc)]) : null, cs.red.length ? h("p", [h("b", "Jugó el reducido en: "), ...seasonLine(cs.red)]) : null, cs.promo.length ? h("p", [h("b", "Jugó promoción en: "), ...seasonLine(cs.promo)]) : null].filter(Boolean)));
+  if (cs.desc.length || cs.red.length || cs.promo.length) page.append(h("div.kline", [cs.desc.length ? h("p", [h("b", "Descendió en: "), ...seasonLine(cs.desc)]) : null, cs.red.length ? h("p", [h("b", "Jugó el reducido en: "), ...seasonLine(cs.red), h("a.link", { href: `#reducidos-${t.s}` }, "ver partidos →")]) : null, cs.promo.length ? h("p", [h("b", "Jugó promoción en: "), ...seasonLine(cs.promo)]) : null].filter(Boolean)));
   if (g) page.append(h("div.stats", [["PJ", g[3]], ["Ganados", g[4]], ["Empatados", g[5]], ["Perdidos", g[6]], ["Goles a favor", g[7]], ["Goles en contra", g[8]], ["Puntos (3 x victoria)", g[12]]].map(([l, v]) => h("div.stat", [h("b", n(v)), h("span", l)]))));
   // camino por temporadas
   const rows = [], pts = [];

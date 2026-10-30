@@ -39,17 +39,17 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 
 /* barra superior */
 .top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 60; background: color-mix(in srgb, var(--paper) 94%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
-.top__in { display: flex; align-items: center; gap: 22px; min-height: 64px; }
+.top__in { display: flex; align-items: center; gap: 16px; min-height: 64px; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); white-space: nowrap; }
 .brand::before { content: ""; width: 12px; height: 26px; border-radius: 3px; background: linear-gradient(var(--sky) 0 33%, var(--blue) 33% 66%, var(--navy) 66%); } 
 .brand__t { display: flex; gap: 6px; font: 700 1.05rem/1 var(--display); font-stretch: 110%; letter-spacing: -.01em; } .brand__b { font-weight: 500; color: var(--blue); }
-.nav { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
-.nav a { padding: 9px 11px; border-radius: 8px; color: var(--muted); text-decoration: none; font: 500 .9rem var(--body); position: relative; transition: color .15s, background .15s; white-space: nowrap; }
+.nav { display: flex; gap: 0; margin-left: auto; flex-wrap: nowrap; }
+.nav a { padding: 9px 8px; border-radius: 8px; color: var(--muted); text-decoration: none; font: 500 .88rem var(--body); position: relative; transition: color .15s, background .15s; white-space: nowrap; }
 .nav a:hover { color: var(--ink); background: var(--fog); } .nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
-.nav a::after { content: ""; position: absolute; left: 11px; right: 11px; bottom: 2px; height: 2px; border-radius: 2px; background: var(--blue); transform: scaleX(0); transform-origin: 0 50%; transition: transform .25s ease; } .nav a[aria-current="page"]::after { transform: scaleX(1); }
+.nav a::after { content: ""; position: absolute; left: 8px; right: 8px; bottom: 2px; height: 2px; border-radius: 2px; background: var(--blue); transform: scaleX(0); transform-origin: 0 50%; transition: transform .25s ease; } .nav a[aria-current="page"]::after { transform: scaleX(1); }
 .searchbtn, .menubtn { border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 10px; height: 40px; cursor: pointer; font: 500 .88rem var(--body); transition: background .15s; } .searchbtn { width: 40px; display: grid; place-items: center; } .searchbtn:hover, .menubtn:hover { background: var(--fog); }
 .menubtn { display: none; padding: 0 14px; margin-left: auto; }
-@media (max-width: 1080px) { .menubtn { display: block; } .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--paper); border-bottom: 1px solid var(--line); padding: 8px var(--gr) 14px var(--gl); flex-direction: column; margin: 0; } .nav.open { display: flex; } .nav a { padding: 13px 10px; } }
+@media (max-width: 1200px) { .menubtn { display: block; } .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--paper); border-bottom: 1px solid var(--line); padding: 8px var(--gr) 14px var(--gl); flex-direction: column; margin: 0; } .nav.open { display: flex; } .nav a { padding: 13px 10px; } }
 
 .band { padding-block: 54px; } .band--fog { background: var(--fog); }
 
@@ -320,3 +320,10 @@ button.gcell { cursor: pointer; font-size: 1.4rem; transition: background .15s, 
 .mgclub { white-space: nowrap; }
 .foot .btn--coffee, .foot .btn--coffee:hover { color: #1b1b1b; }
 .tbl__club { white-space: nowrap; }
+/* reducidos */
+.red__n { margin: 4px 0 8px; } .red__s { margin-top: 30px; } .red__s h2 a { color: var(--ink); text-decoration: none; } .red__s h2 a:hover { color: var(--blue); }
+.red__g { margin-top: 14px; } .red__g h3 { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 1rem; margin: 0 0 8px; } .red__t { font-size: .7rem; }
+.red__tbl td { padding: 8px 10px; } .red__d { white-space: nowrap; width: 1%; font-variant-numeric: tabular-nums; } .red__i { font-size: .82rem; width: 20%; } .red__a { text-align: right; }
+.red__tbl td a { white-space: nowrap; }
+@media (max-width: 640px) { .red__i { display: none; } }
+.tbl__tog { display: inline-flex; gap: 8px; align-items: center; font-size: .92rem; color: var(--ink); cursor: pointer; } .tbl__tog input { width: 18px; height: 18px; accent-color: var(--blue); }

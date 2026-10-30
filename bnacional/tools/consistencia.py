@@ -388,6 +388,17 @@ def main(data, tm_json=None, sa_path=None):
     for old, new, why in dudas:
         pend.append(["", "Jugadores", f"{old} / {new}", "", why, ""])
 
+    # --- 5. reducidos repetidos (mismo partido cargado en dos zonas o torneos)
+    seenr, keepr = {}, []
+    for r in R:
+        k = (r["Temporada"], r["Fecha calendario"], r["Local"], r["Visitante"], r["GL"], r["GV"])
+        if r["Fecha calendario"] and k in seenr:
+            log.append([r["Temporada"], "Reducido repetido (se saca)", r["ID Partido"], r["Local"], r["Visitante"], f"{r['GL']}-{r['GV']}", r["Fecha calendario"], f"Ya figuraba como {seenr[k]['ID Partido']} ({seenr[k]['Torneo']})", r["ID Fuente"]])
+            continue
+        seenr[k] = r
+        keepr.append(r)
+    R = keepr
+
     # --- recalcular tablas
     first = {}
     for p in P:
