@@ -164,13 +164,29 @@ def main(data, tm_json=None, sa_path=None):
     for g in G:
         gol_by[g["ID Partido"]].append(g)
 
+    def zone_of(rows):
+        """(temporada, etapa, club) -> fase de la zona donde jugó la mayoría de sus partidos de esa etapa"""
+        c = collections.defaultdict(collections.Counter)
+        for p in rows:
+            if " - Zona" in p["Fase"]:
+                base = p["Fase"].split(" - Zona")[0]
+                for t in (p["Local"], p["Visitante"]):
+                    c[(p["Temporada"], base, t)][p["Fase"]] += 1
+        return {k: v.most_common(1)[0][0] for k, v in c.items()}
+
+    def fase_for(p, team, zones):
+        if p["Fase"].endswith(" - Interzonal"):
+            return zones.get((p["Temporada"], p["Fase"][: -len(" - Interzonal")], team), p["Fase"])
+        return p["Fase"]
+
     def phase_tab(rows):
         t = collections.defaultdict(lambda: [0, 0])  # (temporada, fase, equipo) -> [pts, pj]
+        zones = zone_of(rows)
         for p in rows:
             w = ptsw.get(p["Temporada"], 3)
             hg, ag = num(p["Goles local"]), num(p["Goles visitante"])
             for team, gf, gc in ((p["Local"], hg, ag), (p["Visitante"], ag, hg)):
-                k = (p["Temporada"], p["Fase"], team)
+                k = (p["Temporada"], fase_for(p, team, zones), team)
                 t[k][1] += 1
                 t[k][0] += w if gf > gc else 1 if gf == gc else 0
         return t
@@ -388,14 +404,78 @@ def main(data, tm_json=None, sa_path=None):
     for old, new, why in dudas:
         pend.append(["", "Jugadores", f"{old} / {new}", "", why, ""])
 
-    # --- 5. reducidos repetidos (mismo partido cargado en dos zonas o torneos)
-    seenr, keepr = {}, []
+    # --- 5. reducidos repetidos (mismo partido cargado en dos zonas o torneos) y reducidos que son en realidad un
+    #        partido de la fase regular con un club mal asignado (ej.: «Independiente» en 2008/09 era Independiente Rivadavia)
+    import datetime as _dt
+    inseason = collections.defaultdict(set)
+    reg_by = collections.defaultdict(list)
+    for p in P:
+        inseason[p["Temporada"]] |= {p["Local"], p["Visitante"]}
+        if p["Fecha calendario"]:
+            reg_by[(p["Temporada"], p["Goles local"], p["Goles visitante"])].append(p)
+    def regular_twin(r):
+        if not r["Fecha calendario"]:
+            return None
+        d = _dt.date.fromisoformat(r["Fecha calendario"])
+        for p in reg_by[(r["Temporada"], r["GL"], r["GV"])]:
+            if abs((_dt.date.fromisoformat(p["Fecha calendario"]) - d).days) > 1:
+                continue
+            if (r["Local"], r["Visitante"]) == (p["Local"], p["Visitante"]):
+                return p  # el mismo partido ya está en la fase regular
+            if r["Local"] == p["Local"] and r["Visitante"] not in inseason[r["Temporada"]] or r["Visitante"] == p["Visitante"] and r["Local"] not in inseason[r["Temporada"]]:
+                return p
+        for q in keepr:  # el mismo partido ya guardado en reducidos con el club bien escrito
+            if q["Temporada"] == r["Temporada"] and q["Fecha calendario"] == r["Fecha calendario"] and (q["GL"], q["GV"]) == (r["GL"], r["GV"]):
+                if r["Local"] == q["Local"] and r["Visitante"] not in inseason[r["Temporada"]] or r["Visitante"] == q["Visitante"] and r["Local"] not in inseason[r["Temporada"]]:
+                    return {"ID Partido": q["ID Partido"], "Local": q["Local"], "Visitante": q["Visitante"], "Goles local": q["GL"], "Goles visitante": q["GV"]}
+        return None
+    keepr = []
+    seenr = {}
     for r in R:
         k = (r["Temporada"], r["Fecha calendario"], r["Local"], r["Visitante"], r["GL"], r["GV"])
         if r["Fecha calendario"] and k in seenr:
             log.append([r["Temporada"], "Reducido repetido (se saca)", r["ID Partido"], r["Local"], r["Visitante"], f"{r['GL']}-{r['GV']}", r["Fecha calendario"], f"Ya figuraba como {seenr[k]['ID Partido']} ({seenr[k]['Torneo']})", r["ID Fuente"]])
             continue
+        tw = regular_twin(r)
+        if tw:
+            log.append([r["Temporada"], "Reducido que era un partido de fase regular con el club mal asignado (se saca)", r["ID Partido"], r["Local"], r["Visitante"], f"{r['GL']}-{r['GV']}", r["Fecha calendario"], f"Es {tw['ID Partido']}: {tw['Local']} {tw['Goles local']}-{tw['Goles visitante']} {tw['Visitante']}", r["ID Fuente"]])
+            continue
         seenr[k] = r
+        keepr.append(r)
+    R = keepr
+
+    # --- 6. interzonales de una etapa por zonas guardados como reducidos (1996/97): son partidos del torneo y
+    #        las tablas publicadas los cuentan -> fase «<etapa> - Interzonal», que suma en la zona de cada club
+    keepr = []
+    for r in R:
+        m_ = re.match(r"(Etapa Clasificatoria) - Zona", r["Torneo"])
+        zone_ok = lambda t: any(k[0] == r["Temporada"] and k[2] == t and k[1].startswith(m_.group(1)) for k in ctrl_ok) if m_ else False
+        gain = lambda t: mpts({"Local": r["Local"], "Visitante": r["Visitante"], "Goles local": r["GL"], "Goles visitante": r["GV"], "Temporada": r["Temporada"]}, t)
+        if m_ and any(zone_ok(t) and gain(t) for t in (r["Local"], r["Visitante"])):
+            keepr.append(r)  # la tabla publicada de esa zona ya cierra sin este partido
+            continue
+        if m_ and r["Local"] in inseason[r["Temporada"]] and r["Visitante"] in inseason[r["Temporada"]]:
+            code = r["Temporada"].replace("/", "").replace("Transición ", "T")
+            nid[code] += 1
+            mid = f"{code}-I{nid[code]:02d}"
+            gl, gv, w = num(r["GL"]), num(r["GV"]), ptsw.get(r["Temporada"], 3)
+            res = "L" if gl > gv else "V" if gv > gl else "E"
+            pl_, pv_ = (w, 0) if res == "L" else (0, w) if res == "V" else (1, 1)
+            P.append({"ID Partido": mid, "Temporada": r["Temporada"], "Fase": m_.group(1) + " - Interzonal", "Fecha torneo": "", "Fecha calendario": r["Fecha calendario"], "Ciudad": r["Ciudad"], "Cancha": r["Cancha"], "Origen dato cancha": r["Origen dato cancha"],
+                      "Local": r["Local"], "Visitante": r["Visitante"], "Goles local": gl, "Goles visitante": gv, "Resultado (L/E/V)": res, "Pts local": pl_, "Pts visitante": pv_, "Estado": r["Estado"], "Control goles": "",
+                      "Observaciones": (r["Observaciones"] + " " if r["Observaciones"] else "") + f"Interzonal pasado desde reducidos.csv ({r['ID Partido']}) por control de consistencia.", "Local (nombre en fuente)": r["Local"], "Visitante (nombre en fuente)": r["Visitante"], "ID Fuente": r["ID Fuente"]})
+            seq = 0
+            for team, rival, txt in ((r["Local"], r["Visitante"], r["Goleadores local"]), (r["Visitante"], r["Local"], r["Goleadores visitante"])):
+                for item in [x.strip() for x in (txt or "").split(";") if x.strip()]:
+                    mm = re.match(r"(.*?)(?: (\d+))?((?: \((?:p|e/c)\))*)$", item)
+                    name, k, flags = mm.group(1), int(mm.group(2) or 1), mm.group(3)
+                    for i in range(k):
+                        seq += 1
+                        ec = "(e/c)" in flags
+                        G.append({"ID Gol": f"G-{mid}-{seq:02d}", "ID Partido": mid, "Temporada": r["Temporada"], "Fecha torneo": "", "Fecha calendario": r["Fecha calendario"], "Equipo que suma el gol": team, "Jugador": name,
+                                  "Equipo del jugador": rival if ec else team, "Tipo": "Gol en contra" if ec else "Gol de penal" if "(p)" in flags else "Gol", "Nombre en fuente": name, "Detalle": "", "ID Fuente": r["ID Fuente"]})
+            log.append([r["Temporada"], "Interzonal guardado como reducido (pasa a la fase regular)", mid, r["Local"], r["Visitante"], f"{r['GL']}-{r['GV']}", r["Fecha calendario"], f"Era {r['ID Partido']} ({r['Torneo']}); las tablas publicadas de cada zona lo cuentan", r["ID Fuente"]])
+            continue
         keepr.append(r)
     R = keepr
 
@@ -412,11 +492,12 @@ def main(data, tm_json=None, sa_path=None):
     blank = lambda: dict(pj=0, pg=0, pe=0, pp=0, gf=0, gc=0, pts=0, pts3=0)
     tg = collections.defaultdict(lambda: dict(blank(), temporadas=set()))
     ts = collections.defaultdict(lambda: collections.defaultdict(blank))
+    zones = zone_of(P)
     for p in P:
         w = ptsw.get(p["Temporada"], 3)
         hg, ag = num(p["Goles local"]), num(p["Goles visitante"])
         for team, gf, gc in ((p["Local"], hg, ag), (p["Visitante"], ag, hg)):
-            for t in (tg[team], ts[(p["Temporada"], p["Fase"])][team]):
+            for t in (tg[team], ts[(p["Temporada"], fase_for(p, team, zones))][team]):
                 t["pj"] += 1; t["gf"] += gf; t["gc"] += gc
                 if gf > gc:
                     t["pg"] += 1; t["pts"] += w; t["pts3"] += 3
@@ -514,7 +595,10 @@ def main(data, tm_json=None, sa_path=None):
     wr(J("correcciones_consistencia.csv"), HL, prev + [r for r in log if tuple(map(str, r)) not in seen])
     wr(J("pendientes_consistencia.csv"), ["Temporada", "Fase", "Equipo", "PJ", "Problema", "Explicación (si es del formato)"], pend)
     print(f"consistencia: {len(log)} cambios nuevos, {len(pend)} pendientes")
+    return len(log)
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:4])
+    for _ in range(4):  # algunas correcciones habilitan otras (ej.: un interzonal recuperado deja ver su duplicado)
+        if not main(*sys.argv[1:4]):
+            break

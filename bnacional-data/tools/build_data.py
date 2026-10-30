@@ -113,8 +113,23 @@ sanc = collections.defaultdict(list)
 for x in rd("sanciones.csv"):
     sanc[x["Temporada"]].append({"club": tix.get(x["Equipo"]), "pts": num(x["Puntos descontados"]), "motivo": x["Motivo"]})
 reds = collections.defaultdict(list)
+_PEN = re.compile(r"penales,? gan[óo] (.+?) (\d+)\s*[-a]\s*(\d+)", re.I)
+
+
+def _team_in(txt, cands):
+    """club de cands nombrado en txt (el nombre más largo que aparezca)"""
+    t = txt.lower()
+    hits = [c for c in cands if c is not None and (names[c].lower() in t or (EQ.get(names[c], {}).get("Nombre corto") or "").lower() in t or t in names[c].lower())]
+    return max(hits, key=lambda c: len(names[c])) if hits else None
+
+
 for r in RED:
-    reds[r["Temporada"]].append([r["Torneo"], r["Instancia"], r["Partido (ida/vuelta)"], r["Fecha calendario"], tix.get(r["Local"]), tix.get(r["Visitante"]), num(r["GL"]), num(r["GV"])])
+    a_, b_ = tix.get(r["Local"]), tix.get(r["Visitante"])
+    txt = (r["Observaciones"] or "") + " " + (r["Texto extra de la fuente"] or "")
+    m = _PEN.search(txt)
+    pen = [_team_in(m.group(1), [a_, b_]), f"{m.group(2)}-{m.group(3)}"] if m else None
+    # [torneo, instancia, ida/vuelta, fecha, local, visitante, gl, gv, [ganador por penales, resultado] | null, alargue]
+    reds[r["Temporada"]].append([r["Torneo"], r["Instancia"], r["Partido (ida/vuelta)"], r["Fecha calendario"], a_, b_, num(r["GL"]), num(r["GV"]), pen, 1 if re.search(r"tiempo suplementario|alargue", txt, re.I) else 0])
 
 sdata = []
 for s in seasons:
