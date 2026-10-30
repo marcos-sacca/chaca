@@ -182,7 +182,7 @@ route("jugador", async (r) => {
     box.replaceChildren(...kids);
   };
   const catChips = libre ? h("div.chips.gcats", CATS.map((c) => h("button.chip", { type: "button", "aria-pressed": String(jState.cat === c.k), title: c.d, onclick: () => { jState.cat = c.k; st = { rounds: [roundFor(c, Math.random, true)], i: 0 }; msg = ""; page.querySelectorAll(".gcats .chip").forEach((x) => x.setAttribute("aria-pressed", String(x.title === c.d))); draw(); } }, `${c.e} ${c.l}`))) : null;
-  page.append(head("Juegos", "Adiviná el jugador", "Te mostramos sus clubes con los goles que hizo en cada uno (en los arqueros, los partidos de titular). Cuanto más rápido lo saques, más puntos."), tabs("jugador"), h("div.gbar", modeSwitch("jugador", libre)), libre ? filterBar(() => { st = { rounds: [roundFor(catOf(jState.cat), Math.random, true)], i: 0 }; msg = ""; draw(); }) : dailyHint("jugador"), catChips, box);
+  page.append(head("Juegos", "Adiviná el jugador", "Te mostramos sus clubes con los goles que hizo en cada uno (en los arqueros, los partidos de titular). Cuanto más rápido lo saques, más puntos."), tabs("jugador"), h("div.gbar", modeSwitch("jugador", libre)), libre ? filterBar(() => { st = { rounds: [roundFor(catOf(jState.cat), Math.random, true)], i: 0 }; msg = ""; draw(); }) : dailyHint("jugador"), catChips || "", box);
   draw();
   return { page, title: "Adiviná el jugador" };
 });

@@ -54,7 +54,7 @@ route("t", async (r) => {
   fillRd(); drawR();
   page.append(sec("Resultados", [h("div.toolbar", [phases.length > 1 ? phSel : null, rdSel]), results]));
   if (s.reducidos.length) {
-    const rows = s.reducidos.map((r) => h("div.res.res--red", [h("span.res__d", r[3] ? fshort(r[3]) : ""), h("a.res__h", { href: r[4] != null ? href.club(r[4]) : "#" }, r[4] != null ? T(r[4]).short : "?"), h("b.res__s", `${r[6]} - ${r[7]}`), h("a.res__a", { href: r[5] != null ? href.club(r[5]) : "#" }, r[5] != null ? T(r[5]).short : "?"), h("span.res__t", `${r[0]} · ${r[1]}`)]));
+    const rows = s.reducidos.map((r) => h("div.res.res--red", [h("span.res__d", r[3] ? fshort(r[3]) : ""), (r[4] != null ? h("a.res__h", { href: href.club(r[4]) }, T(r[4]).short) : h("span.res__h", "?")), h("b.res__s", `${r[6]} - ${r[7]}`), (r[5] != null ? h("a.res__a", { href: href.club(r[5]) }, T(r[5]).short) : h("span.res__a", "?")), h("span.res__t", `${r[0]} · ${r[1]}`)]));
     page.append(sec("Reducido y promociones", rows.length > 14 ? h("details.fold", [h("summary", `Ver los ${rows.length} partidos`), h("div.results", rows)]) : h("div.results", rows)));
   }
   return { page, title: s.label };

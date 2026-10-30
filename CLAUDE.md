@@ -100,7 +100,7 @@ HTML + CSS + módulos ES nativos, **sin framework ni build**. Fuentes Archivo (v
 
 - `#admin` (link «Admin» en el pie): agregar/sacar **fotos** (archivo, que se achica a 1000 px, o URL) y **videos** (link de YouTube). Los cambios quedan **en el navegador de quien los hace** (`localStorage`, clave `bn_admin_v1`); sin contraseña porque nada se publica solo. **Exportar para publicar** baja `extra.json`; hay que reemplazar `bnacional-data/data/extra.json` y pushear. Formato: `{fotos:[], videos:[], ocultos:{fotos:[], videos:[]}}`; `ocultos` esconde recursos de la base por su `img` o `id`.
 - Si algún día hace falta que **otras personas** carguen recursos directo, se necesita un backend (Cloudflare Workers/KV o D1 + una clave de admin). No existe todavía.
-- `js/config.js`: `emails` (reciben los recursos: `nicolassorrentino96@gmail.com` y `marcoschaca1969@gmail.com`), **`cafecito`** (hoy apunta a `https://cafecito.app/` a secas: **falta el usuario real de Marcos**) y `apoyo` (segundo botón «Ayudá al proyecto»; vacío = no aparece). Los mails abren un correo ya armado con asunto y formulario.
+- `js/config.js`: `emails` (reciben los recursos: desde el 30/10/2026 un solo mail de la página, `bnpagina2027@gmail.com`), **`cafecito`** (`https://cafecito.app/b_nacional`) y `apoyo` (segundo botón «Ayudá al proyecto»; vacío = no aparece). Los mails abren un correo ya armado con asunto y formulario.
 
 ## 8. `chacarita-data/` y lo demás
 
@@ -125,6 +125,7 @@ HTML + CSS + módulos ES nativos, **sin framework ni build**. Fuentes Archivo (v
 
 - Cambios chicos y probados: corré `smoke_test.mjs` y mirá capturas de lo que tocaste en **claro y oscuro y a 390 px**.
 - Cada dato que agregues a mano tiene que poder rastrearse a una fuente (archivo + motivo).
+- **Lo que parece botón tiene que serlo, y lo que no, no tiene que parecerlo.** Los contadores y píldoras con destino son `a`/`button` con `.stat--link` o `.pill--link`/`.pill--btn` (ver `clubs.js` y `reducidos.js`); los contadores sin destino no reaccionan al pasar el mouse. Un equipo sin identificar se muestra como texto, nunca como link a `#`. En `append`/`replaceChildren` nativos hay que filtrar los `null` (si no, se imprime el texto «null»; `h()` ya los ignora).
 - Sé honesto en pantalla con lo que es calculado, aproximado o de memoria (ej.: descensos, fechas aproximadas, clásicos sin verificar).
 - Commits en español, descriptivos, de a un tema. Una rama por tema; PR para datos.
 - Si algo del hosting o de una fuente falla, no insistas en bucle: describí el problema y proponé alternativa.
