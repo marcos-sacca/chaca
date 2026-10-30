@@ -16,6 +16,7 @@ Sitio estático (HTML + CSS + módulos ES, sin framework) con los partidos, tabl
 python3 -I bnacional/tools/run.py                 # tablas, partidos y goleadores
 python3 -I bnacional-data/tools/build_data.py     # JSON del sitio
 python3 -m http.server -d bnacional-data 8000     # verlo en http://localhost:8000
+node bnacional-data/tools/smoke_test.mjs          # prueba de humo (23 rutas; ver encabezado del archivo)
 ```
 
 Las fotos se buscan sin usar la API de Commons (que limita los pedidos): `fetch_photos2.py` lee el artículo de Wikipedia de cada club y su categoría de Commons, y `pick_photos.py` elige una foto por club y, cuando el nombre del archivo trae el año, una por temporada. Solo se aceptan archivos con licencia libre declarada.
