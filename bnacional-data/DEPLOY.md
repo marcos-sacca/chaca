@@ -13,9 +13,7 @@ El sitio es estático: no hay nada que compilar. Todo lo que sirve está en esta
 **Workers y Pages** → **Crear** → **Pages** → **Cargar activos**: arrastrar la carpeta `bnacional-data` (con `index.html` en la raíz). No hace falta Git.
 
 ## Opción C: que lo haga un Claude Code local
-Pegarle esto en una carpeta con el repo clonado:
-
-> Publicá el sitio estático de `bnacional-data/` en Cloudflare Pages. No hay build: el directorio a subir es `bnacional-data` (con `index.html` en la raíz). Instalá `wrangler` si falta, iniciá sesión con `wrangler login` (me abre el navegador) y corré `wrangler pages deploy bnacional-data --project-name bnacional-historica --branch main`. Después abrime la URL `*.pages.dev`, verificá que carguen la portada, `#ascensos`, `#clubes`, `#fotos` y `#admin`, y avisame si algo falla. No pidas ni guardes tokens en el repositorio.
+El prompt completo está en `PROMPT_CLAUDE_LOCAL.md`. Se le pasa el token por variable de entorno, nunca escrito en un archivo ni en el repo.
 
 ## Después de publicar
 - En `js/config.js` poner el usuario real de Cafecito (hoy apunta a `https://cafecito.app/`) y, si se quiere, `apoyo.url`.
