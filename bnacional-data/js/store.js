@@ -27,10 +27,11 @@ export function mergeResources() {
 }
 
 export async function load() {
-  const [meta, teams, seasons, phases, players, matches, scorers, general, fotos, videos, crests, planteles, galeria, extra] = await Promise.all(
-    ["meta", "teams", "seasons", "phases", "players", "matches", "scorers", "general", "fotos", "videos", "crests", "planteles", "galeria", "extra"].map((x) => get(x).catch(() => (x === "fotos" ? { entries: {}, general: [] } : x === "videos" ? [] : x === "galeria" ? { general: [], clubs: {} } : {}))));
+  const [meta, teams, seasons, phases, players, matches, scorers, general, fotos, videos, crests, planteles, galeria, extra, titulares] = await Promise.all(
+    ["meta", "teams", "seasons", "phases", "players", "matches", "scorers", "general", "fotos", "videos", "crests", "planteles", "galeria", "extra", "titulares"].map((x) => get(x).catch(() => (x === "fotos" ? { entries: {}, general: [] } : x === "videos" ? [] : x === "galeria" ? { general: [], clubs: {} } : {}))));
   Object.assign(S, { meta, teams, seasons, phases, players, matches, scorers, scorers_raw: scorers, general, fotos, videos, crests, planteles, galeria });
   S.extra = extra && extra.fotos ? extra : emptyDelta();
+  S.titulares = titulares && titulares.p ? titulares : { p: [] };
   S._base = { clubs: galeria.clubs || {}, general: galeria.general || [], videos: videos || [], raw: {} };
   mergeResources();
   S.teamBy = new Map(teams.map((t, i) => [t.s, i]));

@@ -28,7 +28,7 @@ async function go() {
   app.replaceChildren(page);
   document.title = (res.title ? res.title + " · " : "") + "B Nacional Histórica";
   if (!first) scrollTo({ top: 0, behavior: "instant" }); first = false;
-  const key = { inicio: "inicio", ascensos: "ascensos", temporadas: "temporadas", t: "temporadas", clubes: "clubes", c: "clubes", tabla: "tabla", historial: "historial", juegos: "juegos", jugador: "juegos", grilla: "juegos", goleadores: "goleadores", fotos: "fotos", videos: "fotos", admin: "fotos", carrera: "carrera", datos: "datos" }[routes.has(r.name) ? r.name : "inicio"];
+  const key = { inicio: "inicio", ascensos: "ascensos", temporadas: "temporadas", t: "temporadas", clubes: "clubes", c: "clubes", tabla: "tabla", historial: "historial", juegos: "juegos", jugador: "juegos", grilla: "juegos", contrarreloj: "juegos", masgoles: "juegos", goleadores: "goleadores", fotos: "fotos", videos: "fotos", admin: "fotos", carrera: "carrera", datos: "datos" }[routes.has(r.name) ? r.name : "inicio"];
   nav.querySelectorAll("a").forEach((a) => { if (a.dataset.nav === key) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
 }
 function footer() {
