@@ -7,7 +7,7 @@ El sitio es estático: no hay nada que compilar. Todo lo que sirve está en esta
 2. Elegir `marcos-sacca/chaca` y autorizar a Cloudflare.
 3. Rama de producción: la que tenga el sitio (hoy `claude/hallazgos-datos-bnacional`; si se mergea, `main`).
 4. **Comando de compilación:** vacío. **Directorio de salida:** `bnacional-data`.
-5. Guardar y desplegar. Cada `git push` a esa rama vuelve a publicar. Para sumar fotos o videos desde `#admin`, se reemplaza `bnacional-data/data/extra.json` y se sube.
+5. Guardar y desplegar. Cada `git push` a esa rama vuelve a publicar. Para sumar fotos o videos desde el panel privado (`/admin/`, ver `functions/admin/README.md`), se reemplaza `bnacional-data/data/extra.json` y se sube.
 
 ## Opción B: subir la carpeta a mano
 **Workers y Pages** → **Crear** → **Pages** → **Cargar activos**: arrastrar la carpeta `bnacional-data` (con `index.html` en la raíz). No hace falta Git.

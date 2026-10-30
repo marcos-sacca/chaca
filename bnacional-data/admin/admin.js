@@ -1,7 +1,7 @@
-import { route } from "../app.js";
-import { S, getLocal, setLocal, emptyDelta, mergeResources, pkey, hasLocal } from "../store.js";
-import { h, imgSrc } from "../util.js";
-import { head, sec, T, crest } from "./common.js";
+// Panel de administración. Vive en /admin/ y solo se sirve con sesión (functions/admin/_middleware.js); no forma parte del sitio público.
+import { S, load, getLocal, setLocal, emptyDelta, mergeResources, pkey, hasLocal } from "../js/store.js";
+import { h, imgSrc, el$ } from "../js/util.js";
+import { head, sec, T, crest } from "../js/views/common.js";
 
 const TIPOS = [["goles", "Compilado de goles"], ["final", "Final, festejo o ascenso"], ["partido", "Partido de archivo"]];
 const clubName = (slug) => (slug === "general" ? "General (sin club)" : S.teamBy.has(slug) ? T(S.teamBy.get(slug)).n : slug);
@@ -31,7 +31,7 @@ function exportable() {
   return { version: 1, fotos: clean([...(ex.fotos || []), ...lo.fotos].filter((p) => !hideP.has(pkey(p)))), videos: clean([...(ex.videos || []), ...lo.videos].filter((v) => !hideV.has(v.id))), ocultos: { fotos: [...hideP].filter((k) => baseP.has(k)), videos: [...hideV].filter((k) => baseV.has(k)) } };
 }
 
-route("admin", async () => {
+function adminView() {
   const page = h("div.wrap.page"), body = h("div"), msg = h("p.adm__msg", { role: "status" });
   let tab = "fotos";
   const say = (t, bad) => { msg.textContent = t; msg.classList.toggle("is-bad", !!bad); };
@@ -98,9 +98,45 @@ route("admin", async () => {
           h("button.btn.btn--ghost.btn--danger", { type: "button", disabled: !changed, onclick: () => { if (confirm("¿Descartar todos los cambios de este navegador?")) { setLocal(emptyDelta()); say("Cambios descartados."); draw(); } } }, "Descartar cambios"),
         ]),
       ]),
-      tabs, tab === "fotos" ? photoForm() : videoForm(), hiddenList(), h("h2", { style: { marginTop: "34px" } }, tab === "fotos" ? "Fotos de la galería" : "Videos"), ...items);
+      tabs, tab === "fotos" ? photoForm() : videoForm(), hiddenList() || "", h("h2", { style: { marginTop: "34px" } }, tab === "fotos" ? "Fotos de la galería" : "Videos"), ...items);
   }
-  page.append(head("Administración", "Recursos de la galería", "Agregá o sacá fotos y videos. Los cambios se ven enseguida acá y se guardan en este navegador; para publicarlos, exportá el archivo y reemplazá data/extra.json del repositorio. No hace falta ninguna contraseña porque nada se publica solo."), msg, body);
+  page.append(head("Administración", "Recursos de la galería", "Agregá o sacá fotos y videos. Los cambios se ven enseguida acá y se guardan en este navegador; para publicarlos, exportá el archivo y reemplazá data/extra.json del repositorio. Nada se publica solo: tras exportar, hay que subir el archivo."), msg, body);
   draw();
-  return { page, title: "Administración" };
-});
+  return page;
+}
+
+// ---------- tráfico (lee /admin/api/stats, que consulta Cloudflare Web Analytics) ----------
+const nf = (v) => (v ?? 0).toLocaleString("es-AR");
+function trafficView() {
+  const page = h("div.wrap.page"), box = h("div");
+  const bars = (rows, label) => rows.length ? h("ul.adm__list", rows.map((r) => h("li", [h("span", [h("b", r.nombre || r.fecha), ` ${nf(r.visitas)} visitas · ${nf(r.paginas)} páginas vistas`])]))) : h("p.muted", `Sin datos de ${label}.`);
+  const paint = (d, days) => {
+    if (!d.configured) return box.replaceChildren(sec("Activar las estadísticas", [
+      h("p", "Todavía no hay estadísticas conectadas. Para activarlas:"),
+      h("ol", [h("li", "En Cloudflare, entrá a Workers y Pages → bnacional-historica → Métricas y activá Web Analytics (es gratis y no usa cookies)."), h("li", "Creá un token de API con permiso «Account Analytics: Read» (y «Web Analytics: Edit» si querés que lo active un asistente) y guardalo como secreto CF_ANALYTICS_TOKEN del proyecto."), h("li", "Guardá también CF_ACCOUNT_ID y CF_SITE_TAG (el identificador del sitio de Web Analytics).")]),
+      h("p.muted", "Mientras tanto, los números están en el panel de Cloudflare: Web Analytics.")]));
+    if (d.error) return box.replaceChildren(h("p.adm__msg.is-bad", `Cloudflare respondió con un error: ${d.error}`));
+    const rangos = h("div.chips", [7, 30, 90].map((n) => h("button.chip", { type: "button", "aria-pressed": String(days === n), onclick: () => load_(n) }, `${n} días`)));
+    box.replaceChildren(rangos, h("div.stats", [["Visitas", d.total.visitas], ["Páginas vistas", d.total.paginas]].map(([l, v]) => h("div.stat", [h("b", nf(v)), h("span", `${l} · últimos ${d.days} días`)]))),
+      sec("Por día", bars(d.porDia.slice().reverse(), "días")), sec("Países", bars(d.paises, "países")), sec("Dispositivos", bars(d.dispositivos, "dispositivos")), sec("De dónde llegan", bars(d.origen, "origen")));
+  };
+  const load_ = async (days = 30) => {
+    box.replaceChildren(h("p.muted", "Cargando…"));
+    try { const r = await fetch(`/admin/api/stats?days=${days}`, { cache: "no-store" }); if (r.status === 401) { location.href = "/admin/login"; return; } paint(await r.json(), days); }
+    catch { box.replaceChildren(h("p.adm__msg.is-bad", "No se pudieron cargar las estadísticas.")); }
+  };
+  page.append(head("Administración", "Tráfico", "Visitas y páginas vistas del sitio, según Cloudflare Web Analytics."), box);
+  load_();
+  return page;
+}
+
+// ---------- arranque ----------
+const main = el$("app");
+try { await load(); } catch (e) { main.replaceChildren(h("div.wrap.page", h("h2", "No se pudieron cargar los datos"), h("p", e.message))); throw e; }
+const views = { recursos: adminView, trafico: trafficView };
+const show = () => {
+  const k = location.hash === "#trafico" ? "trafico" : "recursos";
+  document.querySelectorAll(".adm__nav a").forEach((a) => a.setAttribute("aria-current", String(a.dataset.v === k)));
+  main.replaceChildren(views[k]());
+};
+addEventListener("hashchange", show); show();
