@@ -209,8 +209,17 @@ if SA.exists():
     titulares["p"].sort(key=lambda x: x[0])
     titulares["nota"] = "Partidos como titular en la Primera Nacional desde 2014 (formaciones confirmadas de Solo Ascenso)."
 
+# promociones contra Primera División (archivo aparte, bnacional/data/promociones.csv): una serie por entrada, con sus partidos
+promos = []
+if (SRC / "promociones.csv").exists():
+    series = collections.OrderedDict()
+    for r in rd("promociones.csv"):
+        s = series.setdefault((r["Temporada"], r["Serie"]), dict(s=six.get(r["Temporada"]), p=r["Equipo de Primera"], b=r["Equipo de B Nacional"], res=r["Resultado de la serie"], gp=num(r["Global Primera"]), gb=num(r["Global B Nacional"]), obs=r["Observaciones"], legs=[]))
+        s["legs"].append([r["Partido (ida/vuelta)"], r["Fecha calendario"], r["Local"], r["Visitante"], num(r["GL"]), num(r["GV"])])
+    promos = list(series.values())
+
 meta = dict(temporadas=len(seasons), clubes=len(names), partidos=len(P), goles=len(G), ascensos=len(ASC), ultimo=max(p["Fecha calendario"] for p in P), generado=__import__("datetime").date.today().isoformat())
-for name, obj in (("meta", meta), ("teams", teams), ("seasons", sdata), ("phases", phases), ("players", players), ("matches", mlist), ("scorers", scorers), ("general", general), ("titulares", titulares)):
+for name, obj in (("meta", meta), ("teams", teams), ("seasons", sdata), ("phases", phases), ("players", players), ("matches", mlist), ("scorers", scorers), ("general", general), ("titulares", titulares), ("promociones", promos)):
     (OUT / f"{name}.json").write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(name, (OUT / f"{name}.json").stat().st_size // 1024, "KB")
 print(meta)

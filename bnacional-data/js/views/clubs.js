@@ -5,7 +5,7 @@ import { ascCard, head, sec, table, T, href, monogram, crest, plantelBox, openPh
 import { effLine } from "../charts.js";
 import { classicOf } from "./clasicos.js";
 import { hrefH2H } from "./historial.js";
-import { clubRivalsSection } from "./historial.js";
+import { clubRivalsSection, promosOfClub, promosSection } from "./historial.js";
 
 const st = { q: "" };
 route("clubes", async () => {
@@ -46,6 +46,8 @@ route("c", async (r) => {
   page.append(sec("Temporada por temporada", table([{ label: "Temporada" }, ...["PJ", "PG", "PE", "PP", "GF", "GC"].map((l) => ({ label: l, cls: "num" })), { label: "Pts", cls: "num" }, { label: "" }],
     rows.slice().reverse().map(({ si, s, c, up }) => h("tr" + (up ? ".is-up" : ""), [h("td", h("a", { href: href.season(si) }, s.label)), ...[c.pj, c.pg, c.pe, c.pp, c.gf, c.gc].map((v) => h("td.num", v)), h("td.num", h("b", c.pts)), h("td", [up ? h("span.pill" + (up.how === "Campeón" ? ".pill--champ" : ""), up.how === "Campeón" ? "Campeón y ascenso" : "Ascenso") : null, S.cs[ti].desc.includes(si) ? h("span.pill.pill--down", "Descenso") : null, S.cs[ti].red.includes(si) ? h("span.pill.pill--red", "Reducido") : null, S.cs[ti].promo.includes(si) ? h("span.pill.pill--red", "Promoción") : null].filter(Boolean))])))));
   page.append(clubRivalsSection(ti));
+  const prs = promosOfClub(ti);
+  if (prs.length) page.append(promosSection(prs));
   if (asc.length) page.append(sec("Ascensos", [h("div.agrid", asc.map((a) => ascCard(a))), h("div.plantels", asc.map((a) => plantelBox(a)))]));
   const gal = S.galeria.clubs?.[t.s] || [];
   if (gal.length) page.append(sec("Fotos", [h("div.rail", gal.slice(0, 12).map((ph) => h("button.acard.acard--c", { type: "button", onclick: () => openPhoto(ph, t.n), "aria-label": ph.caption }, [h("div.acard__img", h("img", { src: imgSrc(ph.img), alt: ph.alt || t.n, loading: "lazy" })), h("div.acard__txt", [h("b", (ph.caption || "").slice(0, 38)), h("span", "")])]))), h("a.link", { href: "#fotos" }, "Toda la galería →")]));

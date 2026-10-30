@@ -60,7 +60,7 @@ node bnacional-data/tools/smoke_test.mjs [carpeta_capturas]
 **Pendientes de datos, en orden sugerido:**
 1. Volver reproducible `run.py` (arriba).
 2. Cerrar los 161 pendientes: primero los duplicados de jugadores con más goles (verificar en Wikipedia/Transfermarkt; los dudosos van a `NO_UNIFICAR`), después las fases desparejas contra RSSSF/Wikipedia, y anotar el motivo de cada decisión.
-3. Las **promociones contra equipos de Primera División** no están (las crónicas son de la B Nacional). Acordado: **hacerlo en otra rama**, desde RSSSF u otra fuente, como archivo aparte (`promociones.csv`) sin tocar lo corregido.
+3. Las **promociones contra equipos de Primera División** (las crónicas son de la B Nacional) están en `bnacional/data/promociones.csv` (archivo aparte, sin tocar lo corregido): 26 series / 52 partidos, 1999/00–2011/12, con fuente y verificación por fila. `build_data.py` las pasa a `promociones.json` y el sitio las muestra al final de cada historial entre dos clubes y en la ficha de cada club (`promosOfClub`, `promosBetween` en `historial.js`). **Falta** revisar si hubo promociones antes de 1999/00 o después de 2011/12 y cargarlas; Racing Club y San Lorenzo no están en la base de clubes del sitio (salen como texto, sin link).
 4. Fechas reales de los 14 partidos con fecha aproximada (observación «fecha aproximada»; de los 19 agregados por consistencia, 5 tienen fecha de fuente), si aparece una fuente. El sitio ya no muestra esa fecha (`mdate()` en `util.js`; `build_data.py` marca el partido con un 9.º valor en `matches.json`).
 
 ## 5. Sitio `bnacional-data/`
