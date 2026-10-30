@@ -1,0 +1,21 @@
+{
+  "_nota": "Clásicos cargados a mano (slug, slug, nombre). Los clubes que no figuran acá muestran automáticamente el rival que más enfrentaron, marcado como 'más enfrentado'. Para sumar o corregir un clásico basta con editar esta lista.",
+  "pares": [
+    ["banfield", "lanus", "Clásico del Sur"],
+    ["estudiantes-de-la-plata", "gimnasia-y-esgrima-la-plata", "Clásico platense"],
+    ["colon", "union-de-santa-fe", "Clásico santafesino"],
+    ["atletico-de-rafaela", "ben-hur-de-rafaela", "Clásico rafaelino"],
+    ["belgrano-de-cordoba", "talleres-de-cordoba", "Clásico cordobés"],
+    ["san-martin-de-tucuman", "atletico-tucuman", "Clásico tucumano"],
+    ["san-martin-de-san-juan", "sportivo-desamparados-de-san-juan", "Clásico sanjuanino"],
+    ["godoy-cruz-antonio-tomba", "independiente-rivadavia-de-mendoza", "Clásico mendocino"],
+    ["patronato-de-parana", "atletico-parana", "Clásico paranaense"],
+    ["central-cordoba-de-santiago-del-estero", "mitre-de-santiago-del-estero", "Clásico santiagueño"],
+    ["crucero-del-norte", "guarani-antonio-franco-de-posadas", "Clásico misionero"],
+    ["deportivo-madryn", "guillermo-brown-de-puerto-madryn", "Clásico madrynense"],
+    ["olimpo-de-bahia-blanca", "villa-mitre-de-bahia-blanca", "Clásico bahiense"],
+    ["aldosivi-de-mar-del-plata", "alvarado-de-mar-del-plata", "Clásico marplatense"],
+    ["gimnasia-y-tiro-de-salta", "juventud-antoniana-de-salta", "Clásico salteño"],
+    ["chacarita-juniors", "atlanta", ""]
+  ]
+}

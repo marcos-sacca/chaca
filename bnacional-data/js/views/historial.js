@@ -83,6 +83,7 @@ route("historial", async (r) => {
   const [sa, sb] = (r.arg || "").split(SEP);
   const a = sa ? S.teamBy.get(sa) : null, b = sb ? S.teamBy.get(sb) : null;
   page.append(head("Historiales", a != null && b != null ? `${T(a).short} vs ${T(b).short}` : "Cara a cara entre clubes", "Todos los partidos de fase regular de la B Nacional y la Primera Nacional desde 1986/87 entre dos clubes. No incluye reducidos ni promociones."));
+  page.append(h("p", h("a.link", { href: "#clasicos" }, "Ver los clásicos de cada club →")));
   page.append(picker(a, b));
   if (a == null) { page.append(h("p.muted", "Elegí dos clubes para ver su historial.")); return { page, title: "Historiales" }; }
   if (b == null) { page.append(sec(`${T(a).short} contra cada rival`, rivalsTable(a))); return { page, title: `Historial de ${T(a).short}` }; }

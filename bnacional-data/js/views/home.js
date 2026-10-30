@@ -42,7 +42,18 @@ route("inicio", async () => {
 
   page.append(h("div.wrap", sec("La tabla histórica en movimiento", [h("p.muted", "Cómo se fue armando la tabla de todos los tiempos, temporada por temporada. Mirá quién lidera en cada época o movelo vos."), race({ rows: 10, autoplay: true, compact: true })], h("a.link", { href: "#carrera" }, "Pantalla completa →"))));
 
-  page.append(h("div.wrap", sec("Todos los campeones", h("ol.champs", champs.map(({ s, si }) => h("li", h("a", { href: href.season(si) }, [h("span.champs__y", s.label), h("span.champs__n", [crest(s.champion), T(s.champion).short]), s.promoted.length > 1 ? h("span.champs__p", "también subieron " + s.promoted.filter((p) => p[0] !== s.champion).map((p) => T(p[0]).short).join(", ")) : null])))), h("a.link", { href: "#temporadas" }, "Todas las temporadas →"))));
+  // todos los ascendidos por temporada: el campeón destacado, el resto como complemento (desplegable si son muchos)
+  const upSeasons = S.seasons.map((s, si) => ({ s, si })).filter((x) => x.s.promoted.length).reverse();
+  const chip = (t, how) => h("a.upchip" + (how === "Campeón" ? ".is-champ" : ""), { href: href.club(t) }, [crest(t), T(t).short]);
+  const row = ({ s, si }) => {
+    const champ = s.promoted.find((p) => p[1] === "Campeón"), rest = s.promoted.filter((p) => p !== champ);
+    const many = rest.length > 3;
+    return h("li", [
+      h("a.champs__row", { href: href.season(si) }, [h("span.champs__y", s.label), champ ? h("span.champs__n", [crest(champ[0]), T(champ[0]).short, h("small.champs__tag", "Campeón")]) : h("span.champs__n.is-none", "Sin campeón")]),
+      rest.length ? (many ? h("details.champs__more", [h("summary", `${champ ? "y " : ""}${rest.length} ${champ ? "ascendidos más" : "clubes ascendieron"}`), h("div.upchips", rest.map((p) => chip(p[0], p[1])))]) : h("div.upchips", rest.map((p) => chip(p[0], p[1])))) : null,
+    ].filter(Boolean));
+  };
+  page.append(h("div.wrap", sec("Todos los ascendidos", [h("p.muted", "Cada temporada: el campeón primero y, abajo, los demás clubes que subieron a Primera."), h("ol.champs", upSeasons.map(row))], h("a.link", { href: "#temporadas" }, "Todas las temporadas →"))));
 
   const top = [...S.general].sort((a, b) => b[12] - a[12]).slice(0, 10), mx = top[0][12];
   const left = h("div", [h("div.sec__head", [h("h2", "Tabla histórica"), h("a.link", { href: "#tabla" }, "Completa →")]), h("p.muted", "Puntos con 3 por victoria, para comparar todas las épocas."), h("ol.bars", top.map((r, i) => h("li", h("a", { href: href.club(r[1]) }, [h("span.bars__pos", i + 1), h("span.bars__n", T(r[1]).short), h("span.bars__bar", h("i", { style: { width: (r[12] / mx) * 100 + "%", animationDelay: 0.3 + i * 0.07 + "s" } })), h("span.bars__v", n(r[12]))]))))]);
