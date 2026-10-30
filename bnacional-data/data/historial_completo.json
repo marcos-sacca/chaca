@@ -1,0 +1,53 @@
+{
+  "_nota": "Historial de todos los tiempos entre dos clubes, tomado de fuentes externas (no sale de la base de la B Nacional). Cada cruce: a y b son slugs de clubes; pj, ga (ganó a), e (empates), gb (ganó b); gfa y gfb son goles de a y de b (null si la fuente no los da); corte es hasta cuándo cuenta la fuente; nota dice qué incluye. Las cifras son las de la fuente: si la fuente tiene inconsistencias internas, está dicho en la nota. Para sumar un cruce, agregar un objeto a esta lista.",
+  "cruces": [
+    {
+      "a": "banfield", "b": "lanus", "pj": 135, "ga": 53, "e": 40, "gb": 42, "gfa": 173, "gfb": 157,
+      "corte": "24 de octubre de 2026",
+      "nota": "Incluye 19 partidos de la era amateur (1918-1930), Primera División, Segunda División / Nacional B y copas nacionales. La fuente tiene pequeñas inconsistencias internas (alguna cifra suma 136 partidos).",
+      "fuente": "https://es.wikipedia.org/wiki/Cl%C3%A1sico_del_Sur_(Argentina)"
+    },
+    {
+      "a": "estudiantes-de-la-plata", "b": "gimnasia-y-esgrima-la-plata", "pj": 193, "ga": 70, "e": 72, "gb": 51, "gfa": 279, "gfb": 223,
+      "corte": "15 de agosto de 2026",
+      "nota": "Partidos oficiales: Primera División (amateur y profesional), copas de la AFA y 2 partidos de Copa Sudamericana. No incluye amistosos.",
+      "fuente": "https://es.wikipedia.org/wiki/Cl%C3%A1sico_platense"
+    },
+    {
+      "a": "colon", "b": "union-de-santa-fe", "pj": 159, "ga": 48, "e": 54, "gb": 57, "gfa": 188, "gfb": 212,
+      "corte": "1 de octubre de 2023",
+      "nota": "Torneos oficiales de la Liga Santafesina (1913-1939) y de la AFA desde 1948. No incluye amistosos ni 4 partidos oficiales cuyo resultado no está registrado.",
+      "fuente": "https://es.wikipedia.org/wiki/Cl%C3%A1sico_santafesino"
+    },
+    {
+      "a": "atletico-tucuman", "b": "san-martin-de-tucuman", "pj": 284, "ga": 101, "e": 88, "gb": 95, "gfa": 474, "gfb": 458,
+      "corte": "5 de septiembre de 2021",
+      "nota": "Solo partidos oficiales: ligas tucumanas, Torneo del Interior, Torneo Argentino A, Primera y Segunda División y Copa Argentina. Con los amistosos serían 379 partidos.",
+      "fuente": "https://es.wikipedia.org/wiki/Cl%C3%A1sico_tucumano"
+    },
+    {
+      "a": "belgrano-de-cordoba", "b": "talleres-de-cordoba", "pj": 261, "ga": 78, "e": 88, "gb": 96, "gfa": 388, "gfb": 435,
+      "corte": "5 de octubre de 2026",
+      "nota": "Solo partidos oficiales (Liga Cordobesa, Primera División, Primera B Nacional, Copa Argentina y Copa de la Liga). Las cifras de la fuente no cierran del todo: victorias y empates suman 262.",
+      "fuente": "https://es.wikipedia.org/wiki/Cl%C3%A1sico_cordob%C3%A9s"
+    },
+    {
+      "a": "chacarita-juniors", "b": "atlanta", "pj": 141, "ga": 59, "e": 44, "gb": 38, "gfa": 204, "gfb": 153,
+      "corte": "5 de septiembre de 2026",
+      "nota": "Oficiales: Primera, Segunda y Tercera División y 2 partidos de copas nacionales. Cuenta un partido de 1940 que no se jugó y se le dio ganado a Atlanta, y dos de 1934 con Atlanta fusionado con Argentinos Juniors.",
+      "fuente": "https://es.wikipedia.org/wiki/Cl%C3%A1sico_de_Villa_Crespo"
+    },
+    {
+      "a": "gimnasia-y-esgrima-de-mendoza", "b": "independiente-rivadavia-de-mendoza", "pj": 268, "ga": 90, "e": 88, "gb": 90, "gfa": 326, "gfb": 341,
+      "corte": "27 de septiembre de 2026",
+      "nota": "Solo partidos oficiales: Primera División, Campeonato Nacional, Copa Argentina, Primera Nacional, Torneo Argentino A, Torneo del Interior, Liga Mendocina y Copa Competencia. Con los no oficiales (amistosos, copas de verano, etc.) serían 591.",
+      "fuente": "https://es.wikipedia.org/wiki/Cl%C3%A1sico_mendocino"
+    },
+    {
+      "a": "los-andes", "b": "temperley", "pj": 100, "ga": 40, "e": 26, "gb": 34, "gfa": null, "gfb": null,
+      "corte": "16 de agosto de 2026",
+      "nota": "Desde 1939: Segunda División, Primera B, Nacional B, Primera B Metropolitana, Primera B Nacional y Primera Nacional. La fuente no da goles ni fecha de corte (esta es la del último partido que lista).",
+      "fuente": "https://es.wikipedia.org/wiki/Cl%C3%A1sico_de_Lomas"
+    }
+  ]
+}

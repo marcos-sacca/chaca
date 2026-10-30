@@ -78,6 +78,22 @@ export function clubRivalsSection(a) {
     box, h("p", more)]);
 }
 
+// historial de todos los tiempos (fuentes externas, data/historial_completo.json); null si no hay para ese cruce
+function completoBlock(a, b) {
+  const sa = S.teams[a].s, sb = S.teams[b].s, e = S.completo.find((x) => (x.a === sa && x.b === sb) || (x.a === sb && x.b === sa));
+  if (!e) return null;
+  const same = e.a === sa, w = same ? e.ga : e.gb, l = same ? e.gb : e.ga, gf = same ? e.gfa : e.gfb, gc = same ? e.gfb : e.gfa;
+  return h("section.h2h__full", [
+    h("h2.h2h__sub", "Historial completo, todas las competencias oficiales"),
+    h("div.h2h", [
+      h("a.h2h__side", { href: href.club(a) }, [big(a), h("b", T(a).short)]),
+      h("div.h2h__mid", [h("div.h2h__n", [h("span", w), h("i", "–"), h("span", e.e), h("i", "–"), h("span", l)]), h("small", `Ganó ${T(a).short} · Empates · Ganó ${T(b).short}`)]),
+      h("a.h2h__side", { href: href.club(b) }, [big(b), h("b", T(b).short)]),
+    ]),
+    h("p.muted.h2h__note", [`${n(e.pj)} partidos hasta el ${e.corte}${gf != null ? ` · goles ${n(gf)} a ${n(gc)} (${T(a).short} a ${T(b).short})` : ""}. ${e.nota} Dato de una fuente externa, tomado tal cual: `, h("a", { href: e.fuente, target: "_blank", rel: "noopener" }, new URL(e.fuente).hostname.replace(/^es\./, "").replace("wikipedia.org", "Wikipedia")), "."]),
+  ]);
+}
+
 route("historial", async (r) => {
   const page = h("div.wrap.page");
   const [sa, sb] = (r.arg || "").split(SEP);
@@ -88,7 +104,8 @@ route("historial", async (r) => {
   if (a == null) { page.append(h("p.muted", "Elegí dos clubes para ver su historial.")); return { page, title: "Historiales" }; }
   if (b == null) { page.append(sec(`${T(a).short} contra cada rival`, rivalsTable(a))); return { page, title: `Historial de ${T(a).short}` }; }
 
-  const list = h2hMatches(a, b), s = h2hSummary(a, list);
+  const list = h2hMatches(a, b), s = h2hSummary(a, list), full = completoBlock(a, b);
+  if (full) page.append(full, h("h2.h2h__sub", "En la B Nacional y la Primera Nacional (fase regular)"));
   page.append(h("div.h2h", [
     h("a.h2h__side", { href: href.club(a) }, [big(a), h("b", T(a).short)]),
     h("div.h2h__mid", [h("div.h2h__n", [h("span", s.pg), h("i", "–"), h("span", s.pe), h("i", "–"), h("span", s.pp)]), h("small", `Ganó ${T(a).short} · Empates · Ganó ${T(b).short}`)]),

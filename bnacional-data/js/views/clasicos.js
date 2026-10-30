@@ -55,7 +55,7 @@ route("clasicos", async () => {
   sa.addEventListener("change", drawOut); sb.addEventListener("change", drawOut);
 
   const draw = () => {
-    const f = norm(st.q), L = build().filter((c) => (!st.only || c.manual) && (!f || norm(T(c.ti).n + " " + T(c.b).n).includes(f))).sort((x, y) => T(x.ti).short.localeCompare(T(y.ti).short, "es"));
+    const f = norm(st.q), L = build().filter((c) => (!st.only || c.manual) && (!f || norm(T(c.ti).n + " " + T(c.b).n).includes(f))).filter((c) => classicOf(c.b)?.b !== c.ti || T(c.ti).short.localeCompare(T(c.b).short, "es") < 0).sort((x, y) => T(x.ti).short.localeCompare(T(y.ti).short, "es"));
     grid.replaceChildren(...(L.length ? L.map((c) => h("a.cl__card", { href: hrefH2H(c.ti, c.b) }, [
       h("div.cl__teams", [h("span", [crest(c.ti), h("b", T(c.ti).short)]), h("i", "vs"), h("span", [crest(c.b), h("b", T(c.b).short)])]),
       h("p.cl__tag" + (c.manual ? "" : ".is-auto"), c.manual ? (c.name || "Rival histórico") : "Rival más enfrentado"),
@@ -63,7 +63,7 @@ route("clasicos", async () => {
     ])) : [h("p.muted", "Ningún clásico coincide con esa búsqueda.")]));
   };
 
-  page.append(head("Clásicos", "Un rival por club, y los cruces que elijas", "Cada club con su clásico y cómo le fue en la B Nacional. Donde no hay un clásico cargado se muestra el rival que más veces enfrentó, y está marcado así."),
+  page.append(head("Clásicos", "Un rival por club, y los cruces que elijas", "Cada club con su clásico y cómo le fue en la B Nacional; si el rival es mutuo, el cruce aparece una sola vez. Donde no hay un clásico cargado se muestra el rival que más veces enfrentó, y está marcado así."),
     h("div.cl__build", [h("h3", "Armá tu cruce"), h("div.toolbar", [sa, h("span.muted", "vs"), sb]), out, mine]),
     h("div.toolbar", [h("input#clq", { type: "search", placeholder: "Buscar club", "aria-label": "Buscar club", oninput: (e) => { st.q = e.target.value; draw(); } }), h("label.cl__only", [h("input", { type: "checkbox", onchange: (e) => { st.only = e.target.checked; draw(); } }), " Solo clásicos cargados"]), h("a.link", { href: "#historial" }, "Historiales de cualquier cruce →")]),
     grid);

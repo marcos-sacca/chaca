@@ -16,14 +16,35 @@ const setLS = (k, v) => { const d = getLS(); d[k] = v; try { localStorage.setIte
 const pick1 = (arr, r) => arr[Math.floor(r() * arr.length)];
 const key = (a, b) => (a < b ? a + "|" + b : b + "|" + a);
 
+// ---------- filtros de la práctica libre: época (10 años) y club favorito ----------
+// El desafío del día no los usa: tiene que ser igual para todos.
+const ERAS = [["", "Todas las épocas", 0, 9999], ["1986-95", "1986–1995", 1986, 1995], ["1996-05", "1996–2005", 1996, 2005], ["2006-15", "2006–2015", 2006, 2015], ["2016-hoy", "2016–hoy", 2016, 9999]];
+const fil = { era: getLS().f_era || "", team: getLS().f_team || "" };
+const eraOf = (k = fil.era) => ERAS.find((e) => e[0] === k) || ERAS[0];
+const teamIx = () => (fil.team ? S.teamBy.get(fil.team) ?? null : null);
+const hasFilter = () => !!fil.era || teamIx() != null;
+const yr = (s) => +(S.seasons[s].label.match(/\d{4}/) || [0])[0];
+const rowOk = (r) => { const [, , a, b] = eraOf(); return r[0] >= a && r[0] <= b && (teamIx() == null || r[1] === teamIx()); };
+const gOf = (o) => (hasFilter() ? o.rows.reduce((s, r) => s + (rowOk(r) ? r[2] : 0), 0) : o.g); // goles dentro del filtro
+const scopeText = () => `${teamIx() != null ? "en " + T(teamIx()).short : "en la B Nacional"}${fil.era ? ` (${eraOf()[1]})` : ""}`;
+const dailyHint = (base) => h("p.muted.game__left", ["Los filtros de época y de club favorito funcionan en la ", h("a", { href: `#${base}-libre` }, "práctica libre"), ". El desafío del día es igual para todos."]);
+// barra de filtros; opts.era / opts.team permiten ocultar el que el juego no puede usar
+function filterBar(onChange, opts = {}) {
+  const { era = true, team = true } = opts;
+  const chips = h("div.chips", ERAS.map(([k, l]) => h("button.chip", { type: "button", "aria-pressed": String(fil.era === k), onclick: () => { fil.era = k; setLS("f_era", k); chips.querySelectorAll(".chip").forEach((x, i) => x.setAttribute("aria-pressed", String(ERAS[i][0] === k))); onChange(); } }, l)));
+  const order = S.teams.map((t, i) => i).sort((x, y) => T(x).short.localeCompare(T(y).short, "es"));
+  const sel = h("select", { "aria-label": "Mi equipo favorito", onchange: () => { fil.team = sel.value; setLS("f_team", sel.value); onChange(); } }, [h("option", { value: "" }, "Cualquier equipo"), ...order.map((i) => h("option", { value: S.teams[i].s, selected: S.teams[i].s === fil.team }, T(i).short))]);
+  return h("div.toolbar.gfil", [era ? chips : null, team ? h("label", ["Mi equipo ", sel]) : null, !era ? h("small.muted", "Las formaciones son desde 2014: la época no se puede filtrar acá.") : null].filter(Boolean));
+}
+
 // ---------- datos de jugadores (goleadores) ----------
 let P;
 function prep() {
   if (P) return P;
   const by = new Map();
   for (const [s, p, t, g] of S.scorers_raw) {
-    let o = by.get(p); if (!o) by.set(p, (o = { p, name: S.players[p], g: 0, s0: s, s1: s, teams: new Map() }));
-    o.g += g; o.s0 = Math.min(o.s0, s); o.s1 = Math.max(o.s1, s);
+    let o = by.get(p); if (!o) by.set(p, (o = { p, name: S.players[p], g: 0, s0: s, s1: s, teams: new Map(), rows: [] }));
+    o.g += g; o.s0 = Math.min(o.s0, s); o.s1 = Math.max(o.s1, s); o.rows.push([yr(s), t, g]);
     let q = o.teams.get(t); if (!q) o.teams.set(t, (q = { t, g: 0, s0: s, s1: s }));
     q.g += g; q.s0 = Math.min(q.s0, s); q.s1 = Math.max(q.s1, s);
   }
@@ -75,15 +96,25 @@ const CATS = [
 ];
 const tPoints = (secs) => (secs < 30 ? 5 : secs < 60 ? 3 : 1);
 const ptsEmoji = (p) => (p >= 5 ? "🟩" : p >= 3 ? "🟨" : p >= 1 ? "🟧" : "🟥");
-const poolOf = (c) => (c.src === "g" ? P.all.filter(c.f) : prepCR().all.filter(c.f));
-const roundFor = (c, rnd) => { const o = pick1(poolOf(c), rnd); return { cat: c.k, id: c.src === "g" ? o.p : o.i, t0: null, errs: [], done: false, won: false, secs: 0, pts: 0 }; };
+const poolOf = (c, filtered = false) => {
+  const all = c.src === "g" ? P.all.filter(c.f) : prepCR().all.filter(c.f);
+  if (!filtered || !hasFilter()) return all;
+  const t = teamIx(); // arqueros: las formaciones son desde 2014, solo se filtra por club
+  return all.filter((o) => (c.src === "g" ? gOf(o) > 0 : t == null || o.clubs.some(([x]) => x === t)));
+};
+const roundFor = (c, rnd, libre = false) => {
+  let pool = poolOf(c, libre), relaxed = false;
+  if (!pool.length) { pool = poolOf(c); relaxed = true; } // el filtro dejó la categoría vacía: se juega sin filtro y se avisa
+  const o = pick1(pool, rnd);
+  return { cat: c.k, id: c.src === "g" ? o.p : o.i, t0: null, errs: [], done: false, won: false, secs: 0, pts: 0, relaxed };
+};
 const jState = { cat: "goleadores", total: 0, played: 0 };
 route("jugador", async (r) => {
   prep(); prepCR();
   const libre = r.arg === "libre", N = dayNum(), page = h("div.wrap.page"), box = h("div.game");
   const catOf = (k) => CATS.find((c) => c.k === k);
   let st;
-  if (libre) st = { rounds: [roundFor(catOf(jState.cat), Math.random)], i: 0 };
+  if (libre) st = { rounds: [roundFor(catOf(jState.cat), Math.random, true)], i: 0 };
   else {
     const sv = getLS().jugador2;
     if (sv && sv.day === N && sv.rounds) st = sv;
@@ -125,7 +156,7 @@ route("jugador", async (r) => {
       if (!rd.t0) { rd.t0 = Date.now(); persist(); }
       const c = catOf(rd.cat);
       const pk = playerPicker(guess, "Escribí el nombre del jugador", c.src === "g" ? P.bySearch : CR.bySearch);
-      kids.push(h("div.cr__bar", [h("span", ["⏱ ", clock]), live]), ...clubsView(rd));
+      kids.push(h("div.cr__bar", [h("span", ["⏱ ", clock]), live]), rd.relaxed ? h("p.muted", "Con ese filtro no queda ningún jugador de esta categoría: te tocó uno de cualquier época o club.") : null, ...clubsView(rd));
       if (rd.errs.length) kids.push(h("ol.gtries", rd.errs.map((e) => h("li.no", e))));
       kids.push(h("div.game__play", [pk.el, h("button.btn.btn--ghost", { type: "button", onclick: () => { finish(rd, false); persist(); draw(); } }, "Me rindo")]), msg ? h("p.game__msg", msg) : null,
         h("p.muted.game__left", "Antes de los 30 segundos: 5 puntos. Hasta el minuto: 3. Después: 1. Los errores no restan."));
@@ -138,7 +169,7 @@ route("jugador", async (r) => {
     kids.push(...clubsView(last), h("div.gres" + (last.won ? ".gres--ok" : ".gres--no"), [h("p.eyebrow", last.won ? `¡Bien! ${mmss(last.secs)} · ${last.pts} ${last.pts === 1 ? "punto" : "puntos"}` : "Esta vez no salió"), h("h2", o.name)]));
     const more = !libre && st.i < st.rounds.length - 1;
     if (libre) {
-      kids.push(h("p.muted.game__left", `Llevás ${jState.total} ${jState.total === 1 ? "punto" : "puntos"} en ${jState.played} ${jState.played === 1 ? "jugador" : "jugadores"}.`), h("div.game__again", h("button.btn", { type: "button", onclick: () => { st = { rounds: [roundFor(catOf(jState.cat), Math.random)], i: 0 }; draw(); } }, "Otro jugador")));
+      kids.push(h("p.muted.game__left", `Llevás ${jState.total} ${jState.total === 1 ? "punto" : "puntos"} en ${jState.played} ${jState.played === 1 ? "jugador" : "jugadores"}.`), h("div.game__again", h("button.btn", { type: "button", onclick: () => { st = { rounds: [roundFor(catOf(jState.cat), Math.random, true)], i: 0 }; draw(); } }, "Otro jugador")));
     } else if (more) {
       kids.push(h("div.game__again", h("button.btn", { type: "button", onclick: () => { st.i++; persist(); draw(); } }, `Siguiente: ${catOf(st.rounds[st.i + 1].cat).l} →`)));
     } else {
@@ -149,20 +180,33 @@ route("jugador", async (r) => {
     }
     box.replaceChildren(...kids);
   };
-  const catChips = libre ? h("div.chips.gcats", CATS.map((c) => h("button.chip", { type: "button", "aria-pressed": String(jState.cat === c.k), title: c.d, onclick: () => { jState.cat = c.k; st = { rounds: [roundFor(c, Math.random)], i: 0 }; msg = ""; page.querySelectorAll(".gcats .chip").forEach((x) => x.setAttribute("aria-pressed", String(x.title === c.d))); draw(); } }, `${c.e} ${c.l}`))) : null;
-  page.append(head("Juegos", "Adiviná el jugador", "Te mostramos sus clubes con los goles que hizo en cada uno (en los arqueros, los partidos de titular). Cuanto más rápido lo saques, más puntos."), tabs("jugador"), h("div.gbar", modeSwitch("jugador", libre)), catChips, box);
+  const catChips = libre ? h("div.chips.gcats", CATS.map((c) => h("button.chip", { type: "button", "aria-pressed": String(jState.cat === c.k), title: c.d, onclick: () => { jState.cat = c.k; st = { rounds: [roundFor(c, Math.random, true)], i: 0 }; msg = ""; page.querySelectorAll(".gcats .chip").forEach((x) => x.setAttribute("aria-pressed", String(x.title === c.d))); draw(); } }, `${c.e} ${c.l}`))) : null;
+  page.append(head("Juegos", "Adiviná el jugador", "Te mostramos sus clubes con los goles que hizo en cada uno (en los arqueros, los partidos de titular). Cuanto más rápido lo saques, más puntos."), tabs("jugador"), h("div.gbar", modeSwitch("jugador", libre)), libre ? filterBar(() => { st = { rounds: [roundFor(catOf(jState.cat), Math.random, true)], i: 0 }; msg = ""; draw(); }) : dailyHint("jugador"), catChips, box);
   draw();
   return { page, title: "Adiviná el jugador" };
 });
 
 // ---------- 2. La grilla ----------
-function makeGrid(rnd, minAns) {
+// jugadores que hicieron goles para cada par de clubes dentro de una época (la clave de época es la de ERAS)
+const pairCache = new Map();
+function pairsFor(era) {
+  if (pairCache.has(era)) return pairCache.get(era);
+  const [, , a, b] = eraOf(era), pm = new Map();
+  for (const o of P.all) {
+    const ts = [...new Set(o.rows.filter((r) => r[0] >= a && r[0] <= b).map((r) => r[1]))].sort((x, y) => x - y);
+    for (let i = 0; i < ts.length; i++) for (let j = i + 1; j < ts.length; j++) { const k = key(ts[i], ts[j]); (pm.get(k) || pm.set(k, []).get(k)).push(o.p); }
+  }
+  pairCache.set(era, pm);
+  return pm;
+}
+const pmOf = (era) => (era ? pairsFor(era) : P.pair);
+function makeGrid(rnd, minAns, pm = P.pair, fav = null, minDeg = 60) {
   const deg = new Map();
-  for (const [k, L] of P.pair) for (const t of k.split("|")) deg.set(+t, (deg.get(+t) || 0) + L.length);
-  const cand = [...deg.entries()].filter(([, d]) => d >= 60).map(([t]) => t).sort((a, b) => a - b);
-  const cnt = (a, b) => (P.pair.get(key(a, b)) || []).length;
+  for (const [k, L] of pm) for (const t of k.split("|")) deg.set(+t, (deg.get(+t) || 0) + L.length);
+  const cand = [...deg.entries()].filter(([, d]) => d >= minDeg).map(([t]) => t).sort((a, b) => a - b);
+  const cnt = (a, b) => (pm.get(key(a, b)) || []).length;
   for (let i = 0; i < 4000; i++) {
-    const rows = []; while (rows.length < 3) { const t = pick1(cand, rnd); if (!rows.includes(t)) rows.push(t); }
+    const rows = fav != null && cand.includes(fav) ? [fav] : []; while (rows.length < 3) { const t = pick1(cand, rnd); if (!rows.includes(t)) rows.push(t); }
     const ok = cand.filter((c) => !rows.includes(c) && rows.every((a) => cnt(a, c) >= minAns));
     if (ok.length < 3) continue;
     const cols = []; while (cols.length < 3) { const t = pick1(ok, rnd); if (!cols.includes(t)) cols.push(t); }
@@ -173,13 +217,19 @@ function makeGrid(rnd, minAns) {
 route("grilla", async (r) => {
   prep();
   const libre = r.arg === "libre", N = dayNum(), page = h("div.wrap.page"), box = h("div.game");
-  const fresh = (rnd) => ({ ...makeGrid(rnd, 3), cells: Array(9).fill(null), left: 9, done: false });
+  const fresh = (rnd) => {
+    const era = libre ? fil.era : "", fav = libre ? teamIx() : null;
+    let g = makeGrid(rnd, era ? 2 : 3, pmOf(era), fav, era ? 25 : 60), used = era, note = "";
+    if (!g && libre && hasFilter()) { g = makeGrid(rnd, 3); used = ""; note = "Con ese filtro no se pudo armar una grilla: te tocó una de cualquier época."; }
+    else if (g && fav != null && !g.rows.includes(fav)) note = `${T(fav).short} no tiene suficientes cruces para armar la grilla: usamos otros clubes.`;
+    return { ...g, era: used, note, cells: Array(9).fill(null), left: 9, done: false };
+  };
   let st;
   if (libre) st = fresh(Math.random);
   else { const sv = getLS().grilla; st = sv && sv.day === N && sv.rows ? sv : { day: N, ...fresh(rng(N * 104729 + 7)) }; }
   const persist = () => { if (!libre) setLS("grilla", st); };
   let sel = st.cells.indexOf(null), msg = "";
-  const ans = (i) => P.pair.get(key(st.rows[Math.floor(i / 3)], st.cols[i % 3])) || [];
+  const ans = (i) => pmOf(st.era).get(key(st.rows[Math.floor(i / 3)], st.cols[i % 3])) || [];
 
   const guess = (o) => {
     if (st.done || sel < 0) return;
@@ -202,7 +252,7 @@ route("grilla", async (r) => {
     };
     const hd = (t) => h("div.ghead", [crest(t), h("span", T(t).short)]);
     const grid = h("div.ggrid", [h("div.ghead.ghead--x", h("span", `${st.left} ${st.left === 1 ? "intento" : "intentos"}`)), ...st.cols.map(hd), ...st.rows.flatMap((t, ri) => [hd(t), ...[0, 1, 2].map((ci) => cell(ri * 3 + ci))])]);
-    const kids = [h("p.muted.game__q", "Completá cada casilla con un jugador que haya hecho goles en la B Nacional para el club de la fila y para el de la columna. Tenés 9 intentos y no se repiten jugadores."), grid];
+    const kids = [h("p.muted.game__q", `Completá cada casilla con un jugador que haya hecho goles en la B Nacional${st.era ? ` (${eraOf(st.era)[1]})` : ""} para el club de la fila y para el de la columna. Tenés 9 intentos y no se repiten jugadores.`), st.note ? h("p.muted", st.note) : null, grid].filter(Boolean);
     if (!st.done) {
       const pk = playerPicker(guess, sel >= 0 ? `¿Quién jugó en ${T(st.rows[Math.floor(sel / 3)]).short} y ${T(st.cols[sel % 3]).short}?` : "Elegí una casilla");
       kids.push(h("div.game__play", [pk.el, h("button.btn.btn--ghost", { type: "button", onclick: () => { st.done = true; persist(); draw(); } }, "Me rindo")]), msg ? h("p.game__msg", msg) : null);
@@ -216,7 +266,7 @@ route("grilla", async (r) => {
     }
     box.replaceChildren(...kids);
   };
-  page.append(head("Juegos", "La grilla", "Tres clubes arriba, tres al costado. Buscá al jugador que los une."), tabs("grilla"), h("div.gbar", modeSwitch("grilla", libre)), box);
+  page.append(head("Juegos", "La grilla", "Tres clubes arriba, tres al costado. Buscá al jugador que los une."), tabs("grilla"), h("div.gbar", modeSwitch("grilla", libre)), libre ? filterBar(() => { st = fresh(Math.random); sel = 0; msg = ""; draw(); }) : dailyHint("grilla"), box);
   if (!st.rows) { box.append(h("p", "No se pudo armar la grilla.")); return { page, title: "La grilla" }; }
   draw();
   return { page, title: "La grilla" };
@@ -237,7 +287,12 @@ route("contrarreloj", async (r) => {
   const libre = r.arg === "libre", N = dayNum(), page = h("div.wrap.page"), box = h("div.game");
   const head_ = head("Juegos", "Contrarreloj", "Todos los clubes y sus partidos de titular, a la vista. Cuanto más rápido lo saques, más puntos.");
   if (!CR.pool.length) { page.append(head_, tabs("contrarreloj"), h("p.muted", "Faltan los datos de formaciones (data/titulares.json).")); return { page, title: "Contrarreloj" }; }
-  const fresh = (rnd) => ({ i: pick1(CR.pool, rnd).i, t0: Date.now(), errs: [], done: false, won: false, secs: 0, pts: 0 });
+  const fresh = (rnd) => {
+    const t = libre ? teamIx() : null;
+    const mine = t == null ? [] : CR.all.filter((o) => o.clubs.some(([x]) => x === t) && o.clubs.length >= 2 && o.pj >= 30);
+    const pool = mine.length ? mine : CR.pool;
+    return { i: pick1(pool, rnd).i, t0: Date.now(), errs: [], done: false, won: false, secs: 0, pts: 0, note: t != null && !mine.length ? `No hay jugadores de ${T(t).short} con tantas formaciones: te tocó uno de cualquier club.` : "" };
+  };
   let st;
   if (libre) st = fresh(Math.random);
   else { const sv = getLS().contrarreloj; st = sv && sv.day === N && CR.all[sv.i] ? sv : { day: N, ...fresh(rng(N * 15485863 + 3)) }; }
@@ -260,7 +315,7 @@ route("contrarreloj", async (r) => {
   const draw = () => {
     const o = CR.all[st.i];
     const clubs = h("ol.gclues", o.clubs.map(([t, k]) => h("li.gclue", [crest(t), h("span", [h("b", T(t).short), h("small", `${k} ${k === 1 ? "partido" : "partidos"} de titular`)])])));
-    const kids = [h("p.muted.game__q", `Jugó en estos ${o.clubs.length} clubes de la Primera Nacional: ${n(o.pj)} partidos de titular en total. ¿Quién es?`), clubs];
+    const kids = [h("p.muted.game__q", `Jugó en estos ${o.clubs.length} clubes de la Primera Nacional: ${n(o.pj)} partidos de titular en total. ¿Quién es?`), st.note ? h("p.muted", st.note) : null, clubs].filter(Boolean);
     if (st.errs.length) kids.push(h("ol.gtries", st.errs.map((e) => h("li.no", e))));
     if (!st.done) {
       const pk = playerPicker(guess, "Escribí el nombre del jugador", CR.bySearch);
@@ -277,28 +332,35 @@ route("contrarreloj", async (r) => {
     }
     box.replaceChildren(...kids);
   };
-  page.append(head_, tabs("contrarreloj"), h("div.gbar", modeSwitch("contrarreloj", libre)), box);
+  page.append(head_, tabs("contrarreloj"), h("div.gbar", modeSwitch("contrarreloj", libre)), libre ? filterBar(() => { st = fresh(Math.random); msg = ""; draw(); }, { era: false }) : dailyHint("contrarreloj"), box);
   draw();
   return { page, title: "Contrarreloj" };
 });
 
 // ---------- 4. ¿Quién hizo más goles? ----------
 const MG_ROUNDS = 10;
-function mgPairs(rnd, k) {
-  const pool = P.all.filter((o) => o.g >= 15);
+// f = true: se comparan los goles dentro del filtro (época / club); null si no alcanzan los goleadores para armar cruces
+function mgPairs(rnd, k, f = false) {
+  const val = (o) => (f ? gOf(o) : o.g), pool = P.all.filter((o) => val(o) >= (f ? 3 : 15));
   const out = [];
-  while (out.length < k) {
+  for (let i = 0; i < 3000 && out.length < k; i++) {
     const a = pick1(pool, rnd), b = pick1(pool, rnd);
-    if (a.p === b.p || a.g === b.g || Math.abs(a.g - b.g) > Math.max(a.g, b.g) * 0.6) continue; // parejos, pero no iguales
+    if (!a || !b || a.p === b.p || val(a) === val(b) || Math.abs(val(a) - val(b)) > Math.max(val(a), val(b)) * 0.6) continue; // parejos, pero no iguales
     out.push([a.p, b.p]);
   }
-  return out;
+  return out.length === k ? out : null;
 }
 const mgState = { best: (getLS().masgoles_best || 0) };
 route("masgoles", async (r) => {
   prep();
   const libre = r.arg === "libre", N = dayNum(), page = h("div.wrap.page"), box = h("div.game");
-  const fresh = (rnd) => ({ pairs: mgPairs(rnd, libre ? 1 : MG_ROUNDS), res: [], done: false });
+  const fresh = (rnd) => {
+    const k = libre ? 1 : MG_ROUNDS, f = libre && hasFilter();
+    let pairs = f ? mgPairs(rnd, k, true) : null, used = !!pairs;
+    if (!pairs) pairs = mgPairs(rnd, k);
+    return { pairs, res: [], done: false, f: used, note: f && !used ? "Con ese filtro no hay suficientes goleadores para armar cruces: te tocaron de toda la historia." : "" };
+  };
+  const val = (o) => (st.f ? gOf(o) : o.g);
   let st;
   if (libre) st = fresh(Math.random);
   else { const sv = getLS().masgoles; st = sv && sv.day === N && sv.pairs ? sv : { day: N, ...fresh(rng(N * 32452843 + 5)) }; }
@@ -306,11 +368,15 @@ route("masgoles", async (r) => {
   let reveal = null; // [elegido, acierto] mientras se muestra el resultado de la ronda
   const choose = (pid) => {
     if (st.done || reveal) return;
-    const [a, b] = st.pairs[st.res.length], A = P.byId.get(a), B = P.byId.get(b), win = A.g > B.g ? a : b, ok = pid === win;
+    const [a, b] = st.pairs[st.res.length], A = P.byId.get(a), B = P.byId.get(b), win = val(A) > val(B) ? a : b, ok = pid === win;
     reveal = [pid, ok]; draw();
     setTimeout(() => {
       reveal = null; st.res.push(ok);
-      if (libre) { if (ok) st.pairs.push(...mgPairs(Math.random, 1)); else { st.done = true; const sc = st.res.length - 1; if (sc > mgState.best) { mgState.best = sc; setLS("masgoles_best", sc); } } }
+      if (libre) {
+        const nx = ok ? mgPairs(Math.random, 1, st.f) : null; // sin cruces nuevos con el filtro, la racha termina
+        if (nx) st.pairs.push(...nx);
+        else { st.done = true; const sc = ok ? st.res.length : st.res.length - 1; if (!st.f && sc > mgState.best) { mgState.best = sc; setLS("masgoles_best", sc); } }
+      }
       else if (st.res.length >= MG_ROUNDS) st.done = true;
       persist(); draw();
     }, 1400);
@@ -320,7 +386,7 @@ route("masgoles", async (r) => {
     const cls = !reveal ? "" : pid === reveal[0] ? (reveal[1] ? ".is-ok" : ".is-no") : "";
     return h("button.mgcard" + cls, { type: "button", disabled: !!reveal, onclick: () => choose(pid) }, [
       h("b.mgcard__n", o.name), h("span.mgcard__c", clubs.map((c) => h("span.mgclub", [crest(c.t), T(c.t).short]))),
-      h("span.mgcard__g", show ? [h("b", n(o.g)), " goles"] : "¿?"),
+      h("span.mgcard__g", show ? [h("b", n(val(o))), " goles"] : "¿?"),
     ]);
   };
   const draw = () => {
@@ -329,12 +395,13 @@ route("masgoles", async (r) => {
     if (!st.done) {
       const [a, b] = st.pairs[st.res.length];
       kids.push(h("p.muted.game__q", libre ? `Racha: ${st.res.length} · Mejor racha: ${mgState.best}` : `Ronda ${st.res.length + 1} de ${MG_ROUNDS} · ${score} ${score === 1 ? "acierto" : "aciertos"}`),
-        h("p.mg__q", "¿Quién hizo más goles en la B Nacional?"), h("div.mg", [card(a, !!reveal), h("span.mg__vs", "vs"), card(b, !!reveal)]),
+        st.note ? h("p.muted", st.note) : null, h("p.mg__q", `¿Quién hizo más goles ${st.f ? scopeText() : "en la B Nacional"}?`), h("div.mg", [card(a, !!reveal), h("span.mg__vs", "vs"), card(b, !!reveal)]),
         h("div.mg__dots", st.res.map((x) => h("i" + (x ? ".ok" : ".no"))).concat(libre ? [] : Array(MG_ROUNDS - st.res.length).fill(0).map(() => h("i")))));
-      box.replaceChildren(...kids); return;
+      box.replaceChildren(...kids.filter(Boolean)); return;
     }
     if (libre) {
-      kids.push(h("div.gres" + (st.res.length > 1 ? ".gres--ok" : ".gres--no"), [h("p.eyebrow", "Se cortó la racha"), h("h2", `${st.res.length - 1} seguidas`), h("p.muted", `Tu mejor racha: ${mgState.best}.`)]), h("div.game__again", h("button.btn", { type: "button", onclick: () => { st = fresh(Math.random); draw(); } }, "Jugar de nuevo")));
+      const sc = st.res.filter(Boolean).length; // con filtro la racha puede cortarse porque se acaban los cruces, no por un error
+      kids.push(h("div.gres" + (sc > 0 ? ".gres--ok" : ".gres--no"), [h("p.eyebrow", st.res[st.res.length - 1] ? "No quedan más cruces con ese filtro" : "Se cortó la racha"), h("h2", `${sc} seguidas`), h("p.muted", st.f ? "Con filtro no se guarda el récord." : `Tu mejor racha: ${mgState.best}.`)]), h("div.game__again", h("button.btn", { type: "button", onclick: () => { st = fresh(Math.random); draw(); } }, "Jugar de nuevo")));
     } else {
       kids.push(h("div.gres" + (score >= 7 ? ".gres--ok" : ""), [h("p.eyebrow", score >= 9 ? "¡Enciclopedia del ascenso!" : score >= 7 ? "Muy bien" : score >= 5 ? "Zafaste" : "A repasar la tabla de goleadores"), h("h2", `${score} de ${MG_ROUNDS}`)]),
         h("ol.mg__list", st.pairs.map(([a, b], i) => { const A = P.byId.get(a), B = P.byId.get(b); return h("li", [h("span" + (st.res[i] ? ".ok" : ".no"), st.res[i] ? "✓" : "✗"), ` ${A.name} (${A.g}) vs ${B.name} (${B.g})`]); })),
@@ -342,7 +409,7 @@ route("masgoles", async (r) => {
     }
     box.replaceChildren(...kids);
   };
-  page.append(head("Juegos", "¿Quién hizo más goles?", "Dos goleadores de la categoría, uno contra otro. Elegí el que hizo más goles en la B Nacional."), tabs("masgoles"), h("div.gbar", modeSwitch("masgoles", libre)), box);
+  page.append(head("Juegos", "¿Quién hizo más goles?", "Dos goleadores de la categoría, uno contra otro. Elegí el que hizo más goles en la B Nacional."), tabs("masgoles"), h("div.gbar", modeSwitch("masgoles", libre)), libre ? filterBar(() => { st = fresh(Math.random); reveal = null; draw(); }) : dailyHint("masgoles"), box);
   draw();
   return { page, title: "¿Quién hizo más goles?" };
 });
