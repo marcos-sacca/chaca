@@ -89,16 +89,17 @@ const modeSwitch = (base, libre) => h("div.gmode", [h("a" + (libre ? "" : ".on")
 
 // ---------- 1. Adiviná el jugador: por categorías, todo a la vista, puntos por tiempo ----------
 const CATS = [
-  { k: "goleadores", l: "Goleadores", e: "⚽", d: "50 goles o más en la B Nacional", src: "g", f: (o) => o.g >= 50 && o.teams.size >= 2 },
-  { k: "idolos", l: "Ídolos", e: "🏟️", d: "30 goles o más en un mismo club", src: "g", f: (o) => o.teams.size >= 2 && Math.max(...[...o.teams.values()].map((c) => c.g)) >= 30 },
-  { k: "clasicos", l: "Clásicos del ascenso", e: "🧳", d: "hicieron goles en 5 clubes o más", src: "g", f: (o) => o.teams.size >= 5 && o.g >= 25 },
-  { k: "arqueros", l: "Arqueros", e: "🧤", d: "titulares en la Primera Nacional desde 2014", src: "t", f: (o) => o.pos === "arquero" && o.clubs.length >= 2 && o.pj >= 60 },
+  { k: "goleadores", l: "Goleadores", e: "⚽", d: "50 goles o más en la B Nacional", src: "g", f: (o) => o.g >= 50 && o.teams.size >= 2, lo: (o) => o.g >= 8 && o.teams.size >= 2 },
+  { k: "idolos", l: "Ídolos", e: "🏟️", d: "30 goles o más en un mismo club", src: "g", f: (o) => o.teams.size >= 2 && Math.max(...[...o.teams.values()].map((c) => c.g)) >= 30, lo: (o) => o.teams.size >= 2 && Math.max(...[...o.teams.values()].map((c) => c.g)) >= 8 },
+  { k: "clasicos", l: "Clásicos del ascenso", e: "🧳", d: "hicieron goles en 5 clubes o más", src: "g", f: (o) => o.teams.size >= 5 && o.g >= 25, lo: (o) => o.teams.size >= 3 && o.g >= 8 },
+  { k: "arqueros", l: "Arqueros", e: "🧤", d: "titulares en la Primera Nacional desde 2014", src: "t", f: (o) => o.pos === "arquero" && o.clubs.length >= 2 && o.pj >= 60, lo: (o) => o.pos === "arquero" && o.clubs.length >= 2 && o.pj >= 20 },
 ];
 const tPoints = (secs) => (secs < 30 ? 5 : secs < 60 ? 3 : 1);
 const ptsEmoji = (p) => (p >= 5 ? "🟩" : p >= 3 ? "🟨" : p >= 1 ? "🟧" : "🟥");
 const poolOf = (c, filtered = false) => {
-  const all = c.src === "g" ? P.all.filter(c.f) : prepCR().all.filter(c.f);
-  if (!filtered || !hasFilter()) return all;
+  const on = filtered && hasFilter(), fn = on && c.lo ? c.lo : c.f; // con filtro, umbrales más bajos (c.lo): con los de carrera completa no queda casi nadie
+  const all = c.src === "g" ? P.all.filter(fn) : prepCR().all.filter(fn);
+  if (!on) return all;
   const t = teamIx(); // arqueros: las formaciones son desde 2014, solo se filtra por club
   return all.filter((o) => (c.src === "g" ? gOf(o) > 0 : t == null || o.clubs.some(([x]) => x === t)));
 };
@@ -156,7 +157,7 @@ route("jugador", async (r) => {
       if (!rd.t0) { rd.t0 = Date.now(); persist(); }
       const c = catOf(rd.cat);
       const pk = playerPicker(guess, "Escribí el nombre del jugador", c.src === "g" ? P.bySearch : CR.bySearch);
-      kids.push(h("div.cr__bar", [h("span", ["⏱ ", clock]), live]), rd.relaxed ? h("p.muted", "Con ese filtro no queda ningún jugador de esta categoría: te tocó uno de cualquier época o club.") : null, ...clubsView(rd));
+      kids.push(h("div.cr__bar", [h("span", ["⏱ ", clock]), live]), rd.relaxed ? h("p.muted", "Con ese filtro no queda ningún jugador de esta categoría: te tocó uno de cualquier época o club.") : libre && hasFilter() ? h("p.muted", `${poolOf(c, true).length} jugadores posibles con este filtro.`) : null, ...clubsView(rd));
       if (rd.errs.length) kids.push(h("ol.gtries", rd.errs.map((e) => h("li.no", e))));
       kids.push(h("div.game__play", [pk.el, h("button.btn.btn--ghost", { type: "button", onclick: () => { finish(rd, false); persist(); draw(); } }, "Me rindo")]), msg ? h("p.game__msg", msg) : null,
         h("p.muted.game__left", "Antes de los 30 segundos: 5 puntos. Hasta el minuto: 3. Después: 1. Los errores no restan."));
@@ -191,16 +192,33 @@ route("jugador", async (r) => {
 const pairCache = new Map();
 function pairsFor(era) {
   if (pairCache.has(era)) return pairCache.get(era);
-  const [, , a, b] = eraOf(era), pm = new Map();
-  for (const o of P.all) {
-    const ts = [...new Set(o.rows.filter((r) => r[0] >= a && r[0] <= b).map((r) => r[1]))].sort((x, y) => x - y);
+  prepU();
+  const [, , a, b] = eraOf(era), pm = new Map(), tit = !era || eraOf(era)[3] >= 2016; // las formaciones son desde 2014: solo cuentan sin filtro de época o en 2016–hoy
+  for (const o of U.all) {
+    const set = new Set(o.rows.filter((r) => r[0] >= a && r[0] <= b).map((r) => r[1]));
+    if (tit) o.tit.forEach((t) => set.add(t));
+    const ts = [...set].sort((x, y) => x - y);
     for (let i = 0; i < ts.length; i++) for (let j = i + 1; j < ts.length; j++) { const k = key(ts[i], ts[j]); (pm.get(k) || pm.set(k, []).get(k)).push(o.p); }
   }
   pairCache.set(era, pm);
   return pm;
 }
-const pmOf = (era) => (era ? pairsFor(era) : P.pair);
-function makeGrid(rnd, minAns, pm = P.pair, fav = null, minDeg = 60) {
+const pmOf = (era) => pairsFor(era || "");
+// jugadores de la grilla: los que hicieron goles en la B Nacional (desde 1986/87) o fueron titulares en la Primera Nacional (desde 2014)
+let U;
+function prepU() {
+  if (U) return U;
+  prep(); prepCR();
+  const all = P.all.map((o) => ({ p: o.p, name: o.name, q: o.q, g: o.g, rows: o.rows, tit: [] })), byQ = new Map(all.map((o) => [o.q, o]));
+  let nid = 1e6; // los que solo figuran como titulares tienen id propio, para no chocar con los ids de goleadores
+  for (const c of CR.all) {
+    const ts = c.clubs.map(([t]) => t), o = byQ.get(c.q);
+    if (o) o.tit = ts; else { const x = { p: nid++, name: c.name, q: c.q, g: 0, rows: [], tit: ts }; all.push(x); byQ.set(c.q, x); }
+  }
+  U = { all, byId: new Map(all.map((o) => [o.p, o])), bySearch: all.slice().sort((x, y) => y.g - x.g || x.name.localeCompare(y.name, "es")) };
+  return U;
+}
+function makeGrid(rnd, minAns, pm = pmOf(""), fav = null, minDeg = 60) {
   const deg = new Map();
   for (const [k, L] of pm) for (const t of k.split("|")) deg.set(+t, (deg.get(+t) || 0) + L.length);
   const cand = [...deg.entries()].filter(([, d]) => d >= minDeg).map(([t]) => t).sort((a, b) => a - b);
@@ -215,7 +233,7 @@ function makeGrid(rnd, minAns, pm = P.pair, fav = null, minDeg = 60) {
   return null;
 }
 route("grilla", async (r) => {
-  prep();
+  prepU();
   const libre = r.arg === "libre", N = dayNum(), page = h("div.wrap.page"), box = h("div.game");
   const fresh = (rnd) => {
     const era = libre ? fil.era : "", fav = libre ? teamIx() : null;
@@ -234,10 +252,12 @@ route("grilla", async (r) => {
   const guess = (o) => {
     if (st.done || sel < 0) return;
     if (st.cells.includes(o.p)) { msg = `${o.name} ya está en la grilla: cada jugador va una sola vez.`; return draw(); }
+    // mismo nombre con otro id (goleador y titular de una misma persona): no puede ir dos veces
+    if (st.cells.some((id) => id != null && U.byId.get(id)?.q === o.q)) { msg = `${o.name} ya está en la grilla: cada jugador va una sola vez.`; return draw(); }
     st.left--;
     const a = st.rows[Math.floor(sel / 3)], b = st.cols[sel % 3];
-    if (ans(sel).includes(o.p)) { st.cells[sel] = o.p; msg = `¡Sí! ${o.name} convirtió para ${T(a).short} y para ${T(b).short}.`; }
-    else msg = `No: ${o.name} no hizo goles para ${T(a).short} y ${T(b).short}.`;
+    if (ans(sel).includes(o.p)) { st.cells[sel] = o.p; msg = `¡Sí! ${o.name} jugó en ${T(a).short} y en ${T(b).short}.`; }
+    else msg = `No: ${o.name} no figura en los datos de ${T(a).short} y ${T(b).short}.`;
     if (st.left <= 0 || !st.cells.includes(null)) st.done = true;
     sel = st.done ? -1 : st.cells[sel] == null ? sel : st.cells.indexOf(null);
     persist(); draw();
@@ -246,15 +266,15 @@ route("grilla", async (r) => {
     const filled = st.cells.filter((x) => x != null).length;
     const cell = (i) => {
       const p = st.cells[i], L = ans(i);
-      if (p != null) return h("div.gcell.gcell--ok", [h("b", P.byId.get(p).name), h("small", `1 de ${L.length} posibles`)]);
-      if (st.done) { const top = L.map((x) => P.byId.get(x)).sort((a, b) => b.g - a.g).slice(0, 2); return h("div.gcell.gcell--miss", [h("small", `${L.length} posibles, como`), h("b", top.map((x) => x.name).join(" o "))]); }
+      if (p != null) return h("div.gcell.gcell--ok", [h("b", U.byId.get(p).name), h("small", `1 de ${L.length} posibles`)]);
+      if (st.done) { const top = L.map((x) => U.byId.get(x)).sort((a, b) => b.g - a.g).slice(0, 2); return h("div.gcell.gcell--miss", [h("small", `${L.length} posibles, como`), h("b", top.map((x) => x.name).join(" o "))]); }
       return h("button.gcell" + (i === sel ? ".on" : ""), { type: "button", "aria-label": `${T(st.rows[Math.floor(i / 3)]).short} y ${T(st.cols[i % 3]).short}`, onclick: () => { sel = i; msg = ""; draw(); } }, h("span", i === sel ? "Elegida" : "+"));
     };
     const hd = (t) => h("div.ghead", [crest(t), h("span", T(t).short)]);
     const grid = h("div.ggrid", [h("div.ghead.ghead--x", h("span", `${st.left} ${st.left === 1 ? "intento" : "intentos"}`)), ...st.cols.map(hd), ...st.rows.flatMap((t, ri) => [hd(t), ...[0, 1, 2].map((ci) => cell(ri * 3 + ci))])]);
-    const kids = [h("p.muted.game__q", `Completá cada casilla con un jugador que haya hecho goles en la B Nacional${st.era ? ` (${eraOf(st.era)[1]})` : ""} para el club de la fila y para el de la columna. Tenés 9 intentos y no se repiten jugadores.`), st.note ? h("p.muted", st.note) : null, grid].filter(Boolean);
+    const kids = [h("p.muted.game__q", `Completá cada casilla con un jugador que haya jugado en el club de la fila y en el de la columna${st.era ? ` (${eraOf(st.era)[1]})` : ""}. Cuenta quien hizo goles en la B Nacional desde 1986/87 o fue titular en la Primera Nacional desde 2014: no están los que nunca convirtieron antes de 2014. Tenés 9 intentos y no se repiten jugadores.`), st.note ? h("p.muted", st.note) : null, grid].filter(Boolean);
     if (!st.done) {
-      const pk = playerPicker(guess, sel >= 0 ? `¿Quién jugó en ${T(st.rows[Math.floor(sel / 3)]).short} y ${T(st.cols[sel % 3]).short}?` : "Elegí una casilla");
+      const pk = playerPicker(guess, sel >= 0 ? `¿Quién jugó en ${T(st.rows[Math.floor(sel / 3)]).short} y ${T(st.cols[sel % 3]).short}?` : "Elegí una casilla", U.bySearch);
       kids.push(h("div.game__play", [pk.el, h("button.btn.btn--ghost", { type: "button", onclick: () => { st.done = true; persist(); draw(); } }, "Me rindo")]), msg ? h("p.game__msg", msg) : null);
       box.replaceChildren(...kids.filter(Boolean)); if (msg) pk.focus(); return;
     }
@@ -421,7 +441,7 @@ route("juegos", async () => {
   const done = (k) => (k === "jugador" ? d.jugador2 && d.jugador2.day === N && d.jugador2.rounds.every((x) => x.done) : d[k] && d[k].day === N && d[k].done);
   const card = (k, t, txt) => h("a.gcard", { href: "#" + k }, [h("p.eyebrow", done(k) ? "Ya jugaste el de hoy ✓" : `Desafío del día #${N}`), h("h2", t), h("p", txt), h("span.link", done(k) ? "Ver resultado →" : "Jugar →")]);
   const page = h("div.wrap.page", [head("Juegos", "¿Cuánto sabés de la B Nacional?", "Un desafío nuevo por día, igual para todos, para compartir con amigos. Y práctica libre para cuando quieras."),
-    h("div.gcards", [card("jugador", "Adiviná el jugador", "Goleadores, ídolos, clásicos del ascenso y arqueros: sus clubes y sus goles a la vista. 5 puntos si lo sacás en menos de 30 segundos."), card("contrarreloj", "Contrarreloj", "Todos sus clubes y partidos de titular a la vista. Corre el reloj: cuanto más rápido, más puntos."), card("grilla", "La grilla", "Nueve casillas, nueve cruces de clubes. Encontrá al jugador que hizo goles para los dos."), card("masgoles", "¿Quién hizo más?", "Dos goleadores, uno contra otro. Diez rondas por día, o racha infinita.")]),
-    h("p.muted.game__left", `Los datos salen de los goleadores de cada partido desde 1986/87 (solo aparecen jugadores que convirtieron en la categoría) y, en el contrarreloj, de las formaciones confirmadas de Solo Ascenso desde 2014. El desafío cambia a la medianoche (hora argentina).`)]);
+    h("div.gcards", [card("jugador", "Adiviná el jugador", "Goleadores, ídolos, clásicos del ascenso y arqueros: sus clubes y sus goles a la vista. 5 puntos si lo sacás en menos de 30 segundos."), card("contrarreloj", "Contrarreloj", "Todos sus clubes y partidos de titular a la vista. Corre el reloj: cuanto más rápido, más puntos."), card("grilla", "La grilla", "Nueve casillas, nueve cruces de clubes. Encontrá al jugador que jugó en los dos."), card("masgoles", "¿Quién hizo más?", "Dos goleadores, uno contra otro. Diez rondas por día, o racha infinita.")]),
+    h("p.muted.game__left", `Los datos salen de los goleadores de cada partido desde 1986/87 (solo aparecen jugadores que convirtieron en la categoría) y, en la grilla y en el contrarreloj, de las formaciones confirmadas de Solo Ascenso desde 2014 (titulares de la Primera Nacional). El desafío cambia a la medianoche (hora argentina).`)]);
   return { page, title: "Juegos" };
 });
