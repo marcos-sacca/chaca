@@ -96,7 +96,12 @@ def ext_index(season, teams, tm, sa):
 
 
 MAX_CARRERA = 14  # años entre el primer y el último gol para aceptar que dos variantes son la misma persona
-NO_UNIFICAR = set()  # pares (variante, destino) que se revisaron y son personas distintas
+# pares (variante, destino) que se revisaron y son personas distintas.
+# Criterio: convierten en la misma temporada para clubes distintos (los dos aparecen en goleadores.csv), así que no pueden ser la misma persona.
+NO_UNIFICAR = {("Marcelo Díaz", "Marcelo O. Díaz"), ("Roberto González", "Roberto S. González"), ("Marcelo Blanco", "Marcelo R. Blanco")}
+# pares (variante, destino) verificados con una fuente externa (carrera por clubes y años): son la misma persona aunque el apellido sea común.
+# Fuentes y motivo de cada uno en data/fuentes/duplicados_verificados.csv
+CONFIRMADOS = {("Daniel Giménez", "Daniel G. Giménez"), ("Fabián Bustos", "Fabián D. Bustos"), ("Fernando Rodríguez", "Fernando D. Rodríguez"), ("Ceferino Díaz", "Ceferino T. A. Díaz")}
 # apellidos muy comunes: con o sin inicial puede ser otra persona -> no se unifican solos, quedan en pendientes
 COMUNES = set("""gomez gonzalez rodriguez lopez fernandez martinez diaz perez sanchez garcia romero sosa benitez torres ruiz ramirez
 flores acosta medina herrera suarez aguirre gimenez jimenez alvarez molina castro ortiz silva nunez luna juarez cabrera rios morales godoy
@@ -151,7 +156,7 @@ def unify_players(G, first):
             ys = info[x]["y"] | info[tgt]["y"]
             if max(ys) - min(ys) > MAX_CARRERA or (x, tgt) in NO_UNIFICAR:
                 continue
-            if k[-1] in COMUNES:
+            if k[-1] in COMUNES and (x, tgt) not in CONFIRMADOS:
                 dudas.append((x, tgt, f"Posible duplicado (apellido común, {min(ys)}-{max(ys)}): revisar a mano y, si es la misma persona, sacar el apellido de COMUNES o agregar el par"))
                 continue
             out.append((x, tgt, f"Misma persona con y sin inicial del medio ({min(ys)}-{max(ys)})"))
@@ -418,6 +423,15 @@ def main(data, tm_json=None, sa_path=None):
     P = keep
     G = [g for g in G if g["ID Partido"] not in moved]
 
+    # --- 3b. «Jugador e/C» es un gol en contra que se leyó como gol normal del club al que se le suma
+    by_id = {p["ID Partido"]: p for p in P}
+    for g in G:
+        if g["Jugador"].endswith(" e/C") and g["Tipo"] != "Gol en contra" and g["ID Partido"] in by_id:
+            m = by_id[g["ID Partido"]]
+            propio = m["Visitante"] if g["Equipo que suma el gol"] == m["Local"] else m["Local"]
+            log.append([g["Temporada"], "Gol en contra mal leído", g["ID Partido"], m["Local"], m["Visitante"], f"{m['Goles local']}-{m['Goles visitante']}", m["Fecha calendario"], f"«{g['Jugador']}» es gol en contra de {propio}, no gol de {g['Equipo del jugador']}", "Goleadores"])
+            g["Jugador"], g["Equipo del jugador"], g["Tipo"] = g["Jugador"][:-4], propio, "Gol en contra"
+
     # --- 4. jugadores con el mismo nombre escrito distinto en distintos clubes (el armado los unifica solo dentro de cada club)
     merges, dudas = unify_players(G, first)
     for old, new, why in merges:
@@ -619,7 +633,11 @@ def main(data, tm_json=None, sa_path=None):
     prev = [[o[h] for h in HL] for o in old]
     seen = {tuple(map(str, r)) for r in prev}
     wr(J("correcciones_consistencia.csv"), HL, prev + [r for r in log if tuple(map(str, r)) not in seen])
-    wr(J("pendientes_consistencia.csv"), ["Temporada", "Fase", "Equipo", "PJ", "Problema", "Explicación (si es del formato)"], pend)
+    # lo explicado por el formato del torneo o ya revisado a mano está cerrado: va aparte, con su motivo; en pendientes queda solo lo abierto
+    HPE = ["Temporada", "Fase", "Equipo", "PJ", "Problema", "Explicación (si es del formato)"]
+    wr(J("pendientes_explicados.csv"), HPE, [r for r in pend if r[5]])
+    pend = [r for r in pend if not r[5]]
+    wr(J("pendientes_consistencia.csv"), HPE, pend)
     print(f"consistencia: {len(log)} cambios nuevos, {len(pend)} pendientes")
     return len(log)
 

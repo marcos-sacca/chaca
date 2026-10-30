@@ -49,7 +49,7 @@
 48,Sebastián Penco,San Martín de San Juan,37,5
 49,José R. Iglesias,Huracán,36,1
 50,Brian Blando,Agropecuario Argentino de Carlos Casares,35,4
-51,Daniel Giménez,Godoy Cruz Antonio Tomba,35,4
+51,Daniel G. Giménez,Godoy Cruz Antonio Tomba,35,4
 52,Gabriel M. Bordi,All Boys,35,1
 53,Guido M. Aballay,Atlético Tucumán,35,0
 54,Javier Rossi,Tiro Federal de Rosario,35,0
@@ -585,9 +585,9 @@
 584,Daniel E. Castro,Douglas Haig de Pergamino,13,1
 585,Daniel E. Ibarra,Racing de Córdoba,13,0
 586,Daniel E. Mozas,Cipolletti de Río Negro,13,0
-587,Daniel G. Rodríguez Lima,Deportivo Mandiyú de Corrientes,13,0
-588,Daniel Giménez,Independiente Rivadavia de Mendoza,13,2
-589,Daniel Giménez,Instituto de Córdoba,13,1
+587,Daniel G. Giménez,Independiente Rivadavia de Mendoza,13,2
+588,Daniel G. Giménez,Instituto de Córdoba,13,1
+589,Daniel G. Rodríguez Lima,Deportivo Mandiyú de Corrientes,13,0
 590,Darío M. Grioni,Defensa y Justicia,13,0
 591,David Trezeguet,River Plate,13,2
 592,Diego Ceballos,Platense,13,1
@@ -772,7 +772,7 @@
 771,Fabricio Pedrozo,Atlanta,11,0
 772,Facundo Diz,All Boys,11,0
 773,Fernando Coniglio,Chacarita Juniors,11,1
-774,Fernando Rodríguez,Platense,11,0
+774,Fernando D. Rodríguez,Platense,11,0
 775,Fernando Telechea,Quilmes,11,0
 776,Franco Ayunta,Temperley,11,4
 777,Franco Cángele,Boca Unidos de Corrientes,11,2
@@ -1262,7 +1262,7 @@
 1261,Enrique Triverio,Unión de Santa Fe,8,0
 1262,Enrique V. Borneman,Gimnasia y Esgrima de Jujuy,8,0
 1263,Enzo Pérez,Godoy Cruz Antonio Tomba,8,0
-1264,Fabián Bustos,El Porvenir,8,0
+1264,Fabián D. Bustos,El Porvenir,8,0
 1265,Fabián E. De Sarasqueta,Lanús,8,3
 1266,Facundo Bonvín,San Martín de Mendoza,8,0
 1267,Facundo Callejo,Gimnasia y Esgrima de Jujuy,8,0
@@ -1855,10 +1855,10 @@
 1854,Fernando Benítez,Atlético Paraná,6,0
 1855,Fernando Bersano,Villa Dálmine,6,0
 1856,Fernando C. Di Carlo,Huracán,6,0
-1857,Fernando E. Castro,Instituto de Córdoba,6,0
-1858,Fernando H. Quiroz,Huracán,6,0
-1859,Fernando R. Clementz,Talleres de Córdoba,6,1
-1860,Fernando Rodríguez,El Porvenir,6,0
+1857,Fernando D. Rodríguez,El Porvenir,6,0
+1858,Fernando E. Castro,Instituto de Córdoba,6,0
+1859,Fernando H. Quiroz,Huracán,6,0
+1860,Fernando R. Clementz,Talleres de Córdoba,6,1
 1861,Flavio Fernández,San Miguel,6,0
 1862,Francisco Grahl,Almirante Brown,6,1
 1863,Francisco Maidana,Gimnasia y Esgrima de Jujuy,6,1
@@ -2787,8 +2787,8 @@
 2786,Carlos Quintana,Patronato de Paraná,4,0
 2787,Carlos Sánchez,River Plate,4,0
 2788,Catriel Sánchez,Flandria,4,1
-2789,Ceferino Díaz,Olimpo de Bahía Blanca,4,0
-2790,Ceferino Díaz,Quilmes,4,0
+2789,Ceferino T. A. Díaz,Olimpo de Bahía Blanca,4,0
+2790,Ceferino T. A. Díaz,Quilmes,4,0
 2791,Christian Cellay,Huracán,4,3
 2792,Christian E. Daguerre,Nueva Chicago,4,0
 2793,Ciro Rius,Aldosivi de Mar del Plata,4,0
@@ -2909,7 +2909,7 @@
 2908,Ezequiel Lázaro,Instituto de Córdoba,4,2
 2909,Ezequiel Montagna,Deportivo Madryn,4,0
 2910,Ezequiel Pacheco,Chaco For Ever,4,0
-2911,Fabián Bustos,Cipolletti de Río Negro,4,0
+2911,Fabián D. Bustos,Cipolletti de Río Negro,4,0
 2912,Fabián H. Anselmo,San Martín de Tucumán,4,0
 2913,Fabián O. Sánchez,Los Andes,4,0
 2914,Fabricio Lenci,Douglas Haig de Pergamino,4,0
@@ -6761,8 +6761,8 @@
 6760,Catriel Sánchez,San Miguel,1,0
 6761,Cecilio A. Galeano,Godoy Cruz Antonio Tomba,1,0
 6762,Cecilio López,Atlético de Rafaela,1,0
-6763,Ceferino Díaz,Argentinos Juniors,1,0
-6764,Ceferino Díaz,Unión de Santa Fe,1,0
+6763,Ceferino T. A. Díaz,Argentinos Juniors,1,0
+6764,Ceferino T. A. Díaz,Unión de Santa Fe,1,0
 6765,Charles Pérez,Argentinos Juniors,1,0
 6766,Christian A. Smigiel,Argentino de Rosario,1,0
 6767,Christian A. Smigiel,Instituto de Córdoba,1,0
@@ -7337,9 +7337,9 @@
 7336,Fabián A. Suescún,Deportivo Italiano,1,0
 7337,Fabián Bordagaray,Belgrano de Córdoba,1,0
 7338,Fabián Bordagaray,River Plate,1,0
-7339,Fabián Bustos,Belgrano de Córdoba,1,0
-7340,Fabián Carrizo,Huracán,1,0
-7341,Fabián Césaro,Atlético de Rafaela,1,0
+7339,Fabián Carrizo,Huracán,1,0
+7340,Fabián Césaro,Atlético de Rafaela,1,0
+7341,Fabián D. Bustos,Belgrano de Córdoba,1,0
 7342,Fabián D. Bustos,Deportivo Morón,1,1
 7343,Fabián D. Ortiz,Atlético Tucumán,1,0
 7344,Fabián E. Bonhoff,Huracán,1,0
@@ -9295,734 +9295,733 @@
 9294,Nicolás Toloza,Defensores Unidos de Zárate,1,0
 9295,Nicolás Toloza,Flandria,1,0
 9296,Nicolás Torres,Platense,1,0
-9297,Nicolás Torres e/C,Olimpo de Bahía Blanca,1,0
-9298,Nicolás Triviño,San Martín de Tucumán,1,0
-9299,Nicolás Valerio,Ramón Santamarina de Tandil,1,0
-9300,Nicolás del Priore,Deportivo Maipú de Mendoza,1,0
-9301,Nicolás del Priore,Tristán Suárez,1,0
-9302,Nicolás del Priore,Villa Dálmine,1,0
-9303,Nilo Carretero,Tiro Federal de Rosario,1,0
-9304,Norberto Araujo,Racing de Córdoba,1,0
-9305,Norberto Orrego,Defensa y Justicia,1,0
-9306,Norberto Palmieri,Talleres de Remedios de Escalada,1,0
-9307,Norberto Paparatto,Tiro Federal de Rosario,1,0
-9308,Norberto Testa,Argentinos Juniors,1,0
-9309,Norman T. Pereyra,Almirante Brown,1,0
-9310,Néstor A. Holweger,Deportivo Laferrere,1,0
-9311,Néstor Agotegaray,Almagro,1,0
-9312,Néstor Agotegaray,Instituto de Córdoba,1,0
-9313,Néstor Biaggio,Ferro Carril Oeste de General Pico,1,0
-9314,Néstor C. Blanco Correa,Almagro,1,0
-9315,Néstor Dell’Orto,Central Córdoba de Rosario,1,0
-9316,Néstor E. Cáceres,Defensa y Justicia,1,0
-9317,Néstor Espíndola,Boca Unidos de Corrientes,1,0
-9318,Néstor F. Migone,Los Andes,1,0
-9319,Néstor F. Zanatta,Chaco For Ever,1,0
-9320,Néstor Frediani,Colón,1,0
-9321,Néstor H. Ambroselli,Douglas Haig de Pergamino,1,0
-9322,Néstor Leiva,Chaco For Ever,1,0
-9323,Néstor M. Toledo,Deportivo Maipú de Mendoza,1,0
-9324,Néstor Martiarena,Gimnasia y Esgrima de Jujuy,1,0
-9325,Néstor Moiraghi,Agropecuario Argentino de Carlos Casares,1,0
-9326,Néstor Moiraghi,Olimpo de Bahía Blanca,1,1
-9327,Néstor O. González,Huracán Corrientes,1,0
-9328,Néstor Ortigoza,Estudiantes de Río Cuarto,1,1
-9329,Néstor P. Savastano,Villa Dálmine,1,0
-9330,Néstor Pedrozo,San Martín de San Juan,1,0
-9331,Néstor R. Juárez,Deportivo Morón,1,0
-9332,Néstor Villalva,Boca Unidos de Corrientes,1,0
-9333,Néstor Villalva,Platense,1,0
-9334,Octavio F. Macaione Salin,Almirante Brown,1,0
-9335,Olegario Alderete,Deportivo Armenio,1,0
-9336,Oliver Benítez,Gimnasia y Esgrima La Plata,1,0
-9337,Omar A. Bastía,Talleres de Remedios de Escalada,1,0
-9338,Omar A. Gauna,Atlético Tucumán,1,0
-9339,Omar A. Orellano,Gimnasia y Esgrima de Jujuy,1,0
-9340,Omar A. Ríos,Godoy Cruz Antonio Tomba,1,0
-9341,Omar E. Páez,Central Córdoba de Santiago del Estero,1,0
-9342,Omar G. Cerrillo,Tigre,1,0
-9343,Omar Gallardo,Aldosivi de Mar del Plata,1,0
-9344,Omar Gallardo,Atlético Tucumán,1,0
-9345,Omar Gallardo,Nueva Chicago,1,0
-9346,Omar Gallardo,San Martín de San Juan,1,0
-9347,Omar Montero,Central Córdoba de Rosario,1,0
-9348,Omar Pouso,Gimnasia y Esgrima La Plata,1,0
-9349,Omar U. Mambrín,Deportivo Mandiyú de Corrientes,1,0
-9350,Omar W. Crocitta,Central Córdoba de Rosario,1,0
-9351,Omar Zalazar,Aldosivi de Mar del Plata,1,0
-9352,Omar Zarif,Defensa y Justicia,1,0
-9353,Orlando A. Leiva,San Martín de Tucumán,1,0
-9354,Orlando J. Claut,Quilmes,1,0
-9355,Orlando Porra,Quilmes,1,0
-9356,Orlando R. Sotelo,Chaco For Ever,1,0
-9357,Orlindo Ayoví,Atlético de Rafaela,1,0
-9358,Ornaldo J. Claut,Defensores de Belgrano,1,0
-9359,Ornaldo J. Claut,Quilmes,1,0
-9360,Oscar A. Fonseca Gomes,Chacarita Juniors,1,0
-9361,Oscar A. Graciani,Argentinos Juniors,1,0
-9362,Oscar A. Osorio,Talleres de Remedios de Escalada,1,1
-9363,Oscar Cortez,Huracán de Tres Arroyos,1,0
-9364,Oscar D. Caimi,Gimnasia y Tiro de Salta,1,0
-9365,Oscar D. Ledesma,Deportivo Laferrere,1,0
-9366,Oscar Garrido,Colón,1,0
-9367,Oscar Giorgi,Douglas Haig de Pergamino,1,0
-9368,Oscar Gómez,Boca Unidos de Corrientes,1,0
-9369,Oscar Gómez,Sarmiento de Junín,1,0
-9370,Oscar H. Mendoza,Talleres de Remedios de Escalada,1,0
-9371,Oscar M. Cuenca,Cipolletti de Río Negro,1,0
-9372,Oscar Monje,Almagro,1,0
-9373,Oscar R. Acosta,Banfield,1,0
-9374,Oscar R. Leguizamón,Belgrano de Córdoba,1,0
-9375,Oscar R. Leguizamón,Central Córdoba de Santiago del Estero,1,0
-9376,Oscar R. López,Los Andes,1,1
-9377,Oscar Sainz,Ferro Carril Oeste,1,0
-9378,Oscar Sánchez,Platense,1,0
-9379,Oscar Villamayor,Brown de Adrogué,1,0
-9380,Osvaldo Barsottini,Defensores de Belgrano,1,0
-9381,Osvaldo Barsottini,Ferro Carril Oeste,1,0
-9382,Osvaldo C. Fernández,Los Andes,1,0
-9383,Osvaldo D. Tempesta,Douglas Haig de Pergamino,1,0
-9384,Osvaldo M. Luque,Cipolletti de Río Negro,1,0
-9385,Osvaldo Miranda,Belgrano de Córdoba,1,0
-9386,Osvaldo R. Ingrao,Unión de Santa Fe,1,0
-9387,Osvaldo R. M. Aguirre,Nueva Chicago,1,0
-9388,Osvaldo Rodríguez,Quilmes,1,0
-9389,Osvaldo Vila,Deportivo Merlo,1,1
-9390,Oswaldo Blanco,Deportivo Merlo,1,0
-9391,Pablo A. Cuba,San Martín de San Juan,1,0
-9392,Pablo A. Cuba,Tigre,1,0
-9393,Pablo A. De Nicola,All Boys,1,1
-9394,Pablo A. Gioffré,Deportivo Italiano,1,0
-9395,Pablo A. Goberville,El Porvenir,1,0
-9396,Pablo A. Goberville,Nueva Chicago,1,0
-9397,Pablo A. Goberville,Villa Mitre de Bahía Blanca,1,0
-9398,Pablo A. Mannara,Tigre,1,0
-9399,Pablo A. Marini,Douglas Haig de Pergamino,1,0
-9400,Pablo A. Marini,Independiente Rivadavia de Mendoza,1,0
-9401,Pablo A. Marini,Nueva Chicago,1,0
-9402,Pablo A. Sauro,Deportivo Morón,1,0
-9403,Pablo A. Síccolo,Cipolletti de Río Negro,1,0
-9404,Pablo Aguilar,Tiro Federal de Rosario,1,0
-9405,Pablo Arce,San Martín de Mendoza,1,0
-9406,Pablo Ayala,Defensa y Justicia,1,0
-9407,Pablo Ayala,Huracán de Tres Arroyos,1,0
-9408,Pablo Bastianini,Central Córdoba de Santiago del Estero,1,0
-9409,Pablo Batalla,Quilmes,1,0
-9410,Pablo Brandán,General Paz Juniors,1,0
-9411,Pablo C. Fernández,Deportivo Español,1,0
-9412,Pablo C. Quintieri,Talleres de Remedios de Escalada,1,0
-9413,Pablo C. Segovia,Almirante Brown,1,0
-9414,Pablo C. Segovia,Lanús,1,0
-9415,Pablo Caballero,Independiente Rivadavia de Mendoza,1,0
-9416,Pablo Castella,Tiro Federal de Rosario,1,0
-9417,Pablo Cortizo,Gimnasia y Esgrima de Mendoza,1,0
-9418,Pablo Cáceres,Deportivo Morón,1,0
-9419,Pablo D. Cantero,Gimnasia y Esgrima de Concepción del Uruguay,1,0
-9420,Pablo De Miranda,Ferro Carril Oeste,1,0
-9421,Pablo De Miranda,Independiente Rivadavia de Mendoza,1,0
-9422,Pablo De Muner,Argentinos Juniors,1,0
-9423,Pablo De Muner,Boca Unidos de Corrientes,1,0
-9424,Pablo Despósito,Defensores Unidos de Zárate,1,0
-9425,Pablo E. Islas,Chacarita Juniors,1,0
-9426,Pablo E. Krattina,Belgrano de Córdoba,1,0
-9427,Pablo E. Pérez,Quilmes,1,0
-9428,Pablo Franco,All Boys,1,0
-9429,Pablo G. Piro,Instituto de Córdoba,1,0
-9430,Pablo Garnier,Atlético Tucumán,1,0
-9431,Pablo Garnier,Defensa y Justicia,1,0
-9432,Pablo Garnier,Quilmes,1,0
-9433,Pablo Gilardi,Olimpo de Bahía Blanca,1,0
-9434,Pablo Gilardi,Villa Mitre de Bahía Blanca,1,0
-9435,Pablo González,Platense,1,0
-9436,Pablo Guiñazú,Talleres de Córdoba,1,0
-9437,Pablo Jofré,San Martín de San Juan,1,0
-9438,Pablo López,Racing de Córdoba,1,0
-9439,Pablo López,San Martín de Tucumán,1,0
-9440,Pablo M. Rojas,Defensa y Justicia,1,0
-9441,Pablo M. Sampaoli,Argentino de Rosario,1,0
-9442,Pablo Miranda,Brown de Adrogué,1,0
-9443,Pablo Miranda,Patronato de Paraná,1,0
-9444,Pablo Morales,Chacarita Juniors,1,0
-9445,Pablo Motta,Crucero del Norte,1,0
-9446,Pablo Nieva,Instituto de Córdoba,1,0
-9447,Pablo Nieva,Tigre,1,0
-9448,Pablo Peralta,San Martín de Mendoza,1,0
-9449,Pablo R. Corti,Godoy Cruz Antonio Tomba,1,0
-9450,Pablo R. Ortiz,Guaraní Antonio Franco de Posadas,1,0
-9451,Pablo R. Quiñones,Almirante Brown de Arrecifes,1,0
-9452,Pablo Rodríguez,Almirante Brown de Arrecifes,1,0
-9453,Pablo Rodríguez,Defensores de Belgrano,1,0
-9454,Pablo Rodríguez,Platense,1,0
-9455,Pablo Rodríguez,San Miguel,1,0
-9456,Pablo Ruiz,Nueva Chicago,1,0
-9457,Pablo S. Suárez,Chaco For Ever,1,0
-9458,Pablo S. Suárez,Huracán Corrientes,1,0
-9459,Pablo Saucedo,Ferro Carril Oeste,1,0
-9460,Pablo Saucedo,Gimnasia y Esgrima de Jujuy,1,0
-9461,Pablo Vaccaría,Tiro Federal de Rosario,1,0
-9462,Pablo Vilchez,Central Córdoba de Santiago del Estero,1,0
-9463,Pablo Villar,San Martín de San Juan,1,0
-9464,Pablo Vázquez,Aldosivi de Mar del Plata,1,0
-9465,Padro M. Olalla,Atlético Tucumán,1,0
-9466,Paoli Frangipane,Tigre,1,0
-9467,Paolo Impini,Deportivo Riestra,1,0
-9468,Paolo Impini,Estudiantes de Buenos Aires,1,0
-9469,Paolo Impini,Independiente Rivadavia de Mendoza,1,0
-9470,Pascual J. Alastuey,Atlético de Rafaela,1,0
-9471,Patricio A. A. Bedrossian,Estudiantes de Buenos Aires,1,0
-9472,Patricio A. Arizaga,Nueva Chicago,1,0
-9473,Patricio A. Tolosa,All Boys,1,0
-9474,Patricio Grgona,El Porvenir,1,0
-9475,Patricio Grgona,Los Andes,1,0
-9476,Patricio Núñez,Deportivo Morón,1,0
-9477,Patricio Ostachuk,Atlanta,1,0
-9478,Patricio Ostachuk,Tristán Suárez,1,1
-9479,Patricio Pizarro,Almirante Brown,1,0
-9480,Patricio Pérez,Almagro,1,0
-9481,Patrico A. A. Bedrossian,Almirante Brown de Arrecifes,1,0
-9482,Paul Ramos,Belgrano de Córdoba,1,0
-9483,Paula Dybala,Instituto de Córdoba,1,0
-9484,Paulo C. Pérez,Atlético de Rafaela,1,0
-9485,Paulo Miranda,Platense,1,0
-9486,Paulo Pérez,Central Córdoba de Rosario,1,0
-9487,Paulo Romero,Tiro Federal de Rosario,1,0
-9488,Pedro A. Dezotti,Atlético de Rafaela,1,0
-9489,Pedro A. Dezotti,Instituto de Córdoba,1,0
-9490,Pedro Aguírrez,Argentinos Juniors,1,0
-9491,Pedro Aguírrez,Gimnasia y Esgrima de Jujuy,1,0
-9492,Pedro Bocca,Platense,1,0
-9493,Pedro Brítez,Crucero del Norte,1,0
-9494,Pedro D. Monzón,Quilmes,1,0
-9495,Pedro I. Salaberry,Banfield,1,0
-9496,Pedro O. Caballero,Central Córdoba de Santiago del Estero,1,0
-9497,Pedro R. Lagos,Deportivo Maipú de Mendoza,1,0
-9498,Pedro Ramírez,Deportivo Riestra,1,0
-9499,Pedro Sanz,Central Norte de Salta,1,0
-9500,Pedro Suárez,Unión de Santa Fe,1,0
-9501,Pedro Velurtas,Almirante Brown,1,0
-9502,Pier Barrios,Colón,1,0
-9503,Pierre Barrios,Ferro Carril Oeste,1,0
-9504,Pío Bonacci,San Martín de Tucumán,1,0
-9505,Rafael A. Luongo,Chacarita Juniors,1,0
-9506,Rafael A. Luongo,Deportivo Italiano,1,0
-9507,Rafael A. Luongo,Quilmes,1,0
-9508,Rafael A. Sánchez Laudari,Nueva Chicago,1,0
-9509,Rafael Barrios,Quilmes,1,0
-9510,Rafael Sangiovani,Brown de Adrogué,1,0
-9511,Rafael Sangiovani,Villa Dálmine,1,0
-9512,Ramiro A. Pizarro,Arsenal FC,1,0
-9513,Ramiro A. Pizarro,San Martín de Mendoza,1,0
-9514,Ramiro Arias,Almagro,1,0
-9515,Ramiro Arias,Sarmiento de Junín,1,0
-9516,Ramiro Balbuena,Estudiantes de Río Cuarto,1,0
-9517,Ramiro Balbuena,Nueva Chicago,1,0
-9518,Ramiro E. Leone,Chacarita Juniors,1,0
-9519,Ramiro González Hernández,Juventud Unida de Gualeguaychú,1,0
-9520,Ramiro Luna,Quilmes,1,1
-9521,Ramiro Maldonado,Independiente Rivadavia de Mendoza,1,0
-9522,Ramiro Ríos,Almagro,1,0
-9523,Ramiro Ríos,Güemes de Santiago del Estero,1,0
-9524,Ramón A. Albariño,Chacarita Juniors,1,1
-9525,Ramón A. Araya,Racing de Córdoba,1,0
-9526,Ramón A. Araya,San Martín de Tucumán,1,0
-9527,Ramón A. Jaquet,Guaraní Antonio Franco de Posadas,1,0
-9528,Ramón Borda,Deportivo Riestra,1,1
-9529,Ramón C. Acevedo,Cipolletti de Río Negro,1,0
-9530,Ramón C. Díaz,Temperley,1,0
-9531,Ramón E. Gallardo,Tigre,1,0
-9532,Ramón E. Lastra,Central Córdoba de Santiago del Estero,1,0
-9533,Ramón E. Rosales,Instituto de Córdoba,1,0
-9534,Ramón E. Rosales,Olimpo de Bahía Blanca,1,0
-9535,Ramón Fernández,Atlanta,1,0
-9536,Ramón Gómez,Chacarita Juniors,1,0
-9537,Ramón Lentini,Aldosivi de Mar del Plata,1,0
-9538,Ramón Lentini,Güemes de Santiago del Estero,1,0
-9539,Ramón Lentini,Instituto de Córdoba,1,0
-9540,Ramón S. Brítez,Huracán,1,0
-9541,Raúl A. Locatelli,Deportivo Laferrere,1,0
-9542,Raúl A. Villalba,Central Córdoba de Santiago del Estero,1,0
-9543,Raúl Acosta,Chaco For Ever,1,0
-9544,Raúl Arce,Los Andes,1,0
-9545,Raúl Benítez,Ferro Carril Oeste,1,0
-9546,Raúl Contreras,Juventud Antoniana de Salta,1,0
-9547,Raúl E. Oyola,Chaco For Ever,1,0
-9548,Raúl E. Sánchez,Huracán,1,0
-9549,Raúl F. Valdovinos,Deportivo Mandiyú de Corrientes,1,0
-9550,Raúl Gorostegui,Quilmes,1,0
-9551,Raúl H. Gómez,San Martín de San Juan,1,0
-9552,Raúl H. Maldonado,Juventud Antoniana de Salta,1,0
-9553,Raúl J. Espíndola,Talleres de Remedios de Escalada,1,0
-9554,Raúl O. Luján,Quilmes,1,0
-9555,Raúl O. Olarte,Juventud Antoniana de Salta,1,0
-9556,Raúl O. Ruiz,Arsenal FC,1,0
-9557,Raúl Poclaba,Douglas Haig de Pergamino,1,0
-9558,Reinaldo Alderete,Atlético de Rafaela,1,0
-9559,Renato Corsi,Deportivo Italiano,1,0
-9560,Renato Riggio,Juventud Antoniana de Salta,1,0
-9561,Renato Riggio,San Martín de San Juan,1,0
-9562,Renzo Conechny,Almagro,1,0
-9563,Renzo Pérez,Ferro Carril Oeste,1,0
-9564,Renzo Ruggiero,Talleres de Córdoba,1,0
-9565,Renzo Tesouri,Ferro Carril Oeste,1,0
-9566,Renzo Tesouri,Juventud Unida de Gualeguaychú,1,0
-9567,Renzo Vera,Ferro Carril Oeste,1,1
-9568,Renzo Vera,Gimnasia y Esgrima de Mendoza,1,0
-9569,Renzo Vera,Unión de Santa Fe,1,0
-9570,René A. Gómez,Atlético de Rafaela,1,0
-9571,René C. E. Kloker,Deportivo Italiano,1,0
-9572,René E. Ruiz,Lanús,1,0
-9573,René Lima,San Telmo,1,0
-9574,René O. Báez,Defensa y Justicia,1,0
-9575,Ricardi M. Díaz,San Miguel,1,0
-9576,Ricardo A. Burakoski,Almirante Brown,1,0
-9577,Ricardo A. Guerrero,Cipolletti de Río Negro,1,0
-9578,Ricardo A. Ramírez,Juventud Antoniana de Salta,1,0
-9579,Ricardo C. F. García,Almirante Brown,1,0
-9580,Ricardo D. Altaminrano,Unión de Santa Fe,1,1
-9581,Ricardo D. Johansen,Unión de Santa Fe,1,0
-9582,Ricardo D. Próstamo,Cipolletti de Río Negro,1,0
-9583,Ricardo G. Lima,All Boys,1,0
-9584,Ricardo J. Salse,Douglas Haig de Pergamino,1,0
-9585,Ricardo L. Echazú,Atlanta,1,0
-9586,Ricardo L. Mazariche,Deportivo Armenio,1,0
-9587,Ricardo Melli,Central Córdoba de Rosario,1,0
-9588,Ricardo O. González,Almirante Brown,1,0
-9589,Ricardo Silva,Instituto de Córdoba,1,0
-9590,Ricardo Silva,Juventud Antoniana de Salta,1,0
-9591,Ricardo Stalteri,Tigre,1,0
-9592,Ricardo Vera,Independiente Rivadavia de Mendoza,1,0
-9593,Ricardo Villalba,San Martín de San Juan,1,0
-9594,Robertino Seratto,Chaco For Ever,1,0
-9595,Roberto A. Bernarsconi,Arsenal FC,1,0
-9596,Roberto A. Bernasconi,Talleres de Remedios de Escalada,1,0
-9597,Roberto A. Mogrovejo,Defensa y Justicia,1,0
-9598,Roberto Bochi,Deportivo Riestra,1,0
-9599,Roberto Bochi,Platense,1,0
-9600,Roberto Brum,Aldosivi de Mar del Plata,1,0
-9601,Roberto Brum,Banfield,1,0
-9602,Roberto Brum,Temperley,1,0
-9603,Roberto Bustos,Nueva Chicago,1,0
-9604,Roberto C. Correa,Chacarita Juniors,1,0
-9605,Roberto C. Rojas,Deportivo Morón,1,0
-9606,Roberto C. Saavedra,San Martín de San Juan,1,0
-9607,Roberto Cattáneo,Olimpo de Bahía Blanca,1,0
-9608,Roberto Correa,Instituto de Córdoba,1,0
-9609,Roberto Demus,El Porvenir,1,0
-9610,Roberto F. Cena,Nueva Chicago,1,0
-9611,Roberto F. Coeli,Almirante Brown,1,0
-9612,Roberto Falcone,San Martín de Mendoza,1,0
-9613,Roberto Gárate,Almirante Brown de Arrecifes,1,0
-9614,Roberto H. Arzani,Talleres de Remedios de Escalada,1,0
-9615,Roberto H. Leiga,Argentinos Juniors,1,0
-9616,Roberto L. Medrán,Deportivo Mandiyú de Corrientes,1,0
-9617,Roberto L. Oeste,Defensa y Justicia,1,1
-9618,Roberto L. Oeste,Talleres de Córdoba,1,0
-9619,Roberto M. Barragán,Tigre,1,0
-9620,Roberto M. Juárez,Estudiantes de Buenos Aires,1,0
-9621,Roberto Marioni,Chaco For Ever,1,0
-9622,Roberto Mina,Huracán,1,0
-9623,Roberto O. Lugo,Huracán Corrientes,1,0
-9624,Roberto P. Rojas,Talleres de Remedios de Escalada,1,0
-9625,Roberto Rojas,Tigre,1,0
-9626,Roberto Ruiz,San Martín de Tucumán,1,0
-9627,Roberto S. González,Deportivo Morón,1,0
-9628,Roberto Salvatierra,Ferro Carril Oeste,1,0
-9629,Roberto Tucker,Central Córdoba de Santiago del Estero,1,0
-9630,Roberto Tucker,Deportivo Merlo,1,0
-9631,Roberto Vaquel,San Martín de Tucumán,1,0
-9632,Roberto Álvarez,San Martín de San Juan,1,1
-9633,Rodolfo A. Ortiz,Colón,1,0
-9634,Rodolfo García,El Porvenir,1,0
-9635,Rodolfo L. Righi,Almirante Brown,1,0
-9636,Rodolfo M. Graieb,Huracán,1,0
-9637,Rodolfo Quinteros,El Porvenir,1,0
-9638,Rodolfo Segerer,Atlético Tucumán,1,0
-9639,Rodrigo Abaurre,Independiente Rivadavia de Mendoza,1,0
-9640,Rodrigo Aillapán,Almirante Brown,1,0
-9641,Rodrigo Alonso,Almirante Brown,1,0
-9642,Rodrigo Arciero,Deportivo Morón,1,0
-9643,Rodrigo Ayala,Deportivo Madryn,1,0
-9644,Rodrigo Ayala,Ferro Carril Oeste,1,0
-9645,Rodrigo Ayala,Mitre de Santiago del Estero,1,0
-9646,Rodrigo Bruera,Independiente Rivadavia de Mendoza,1,0
-9647,Rodrigo Burgos,Talleres de Córdoba,1,0
-9648,Rodrigo Caballuccci,Douglas Haig de Pergamino,1,0
-9649,Rodrigo Caballucci,Douglas Haig de Pergamino,1,0
-9650,Rodrigo Caballuci,Douglas Haig de Pergamino,1,0
-9651,Rodrigo Cabrera,Los Andes,1,0
-9652,Rodrigo Cao,Ferrocarril Midland,1,0
-9653,Rodrigo Colombo,Atlético de Rafaela,1,0
-9654,Rodrigo Colombo,Independiente Rivadavia de Mendoza,1,0
-9655,Rodrigo Cáseres,San Martín de San Juan,1,0
-9656,Rodrigo Cáseres,Villa Dálmine,1,0
-9657,Rodrigo D. Marangoni,Almirante Brown de Arrecifes,1,0
-9658,Rodrigo D. Marangoni,Arsenal FC,1,0
-9659,Rodrigo Díaz,Deportivo Morón,1,1
-9660,Rodrigo Díaz,Independiente Rivadavia de Mendoza,1,1
-9661,Rodrigo Díaz,Sacachispas,1,0
-9662,Rodrigo E. Velazco,Deportivo Español,1,0
-9663,Rodrigo Erramuspe,Belgrano de Córdoba,1,0
-9664,Rodrigo Espíndola,Nueva Chicago,1,0
-9665,Rodrigo Fernández,Godoy Cruz Antonio Tomba,1,0
-9666,Rodrigo González,Guillermo Brown de Puerto Madryn,1,0
-9667,Rodrigo González,Mitre de Santiago del Estero,1,0
-9668,Rodrigo Herrera,San Martín de Tucumán,1,0
-9669,Rodrigo M. Bilbao,Almagro,1,0
-9670,Rodrigo M. Bilbao,Huracán,1,0
-9671,Rodrigo M. Bilbao,Instituto de Córdoba,1,0
-9672,Rodrigo Melo,Estudiantes de Buenos Aires,1,0
-9673,Rodrigo Mieres,Atlético Tucumán,1,0
-9674,Rodrigo Migone,Deportivo Madryn,1,0
-9675,Rodrigo Morales,Gimnasia y Esgrima de Jujuy,1,0
-9676,Rodrigo Ramírez,Atlanta,1,0
-9677,Rodrigo San Martín,Cipolletti de Río Negro,1,0
-9678,Rodrigo Tapia,Mitre de Santiago del Estero,1,0
-9679,Rodrigo Velasco,Deportivo Español,1,0
-9680,Rodrigo Velázquez,Gimnasia y Esgrima de Jujuy,1,0
-9681,Rodrigo Vélez,Almirante Brown,1,0
-9682,Rolando C. Schiavi,Argentinos Juniors,1,0
-9683,Rolando F. González,Gimnasia y Esgrima de Jujuy,1,0
-9684,Rolando R. Barrera,Colón,1,0
-9685,Rolando Ricardone,Crucero del Norte,1,0
-9686,Roly Zárate,Defensa y Justicia,1,0
-9687,Román Martínez,Deportivo Morón,1,0
-9688,Román Martínez,Tigre,1,0
-9689,Román Strada,Quilmes,1,0
-9690,Romás Strada,Guillermo Brown de Puerto Madryn,1,0
-9691,Roque G. Burella,Villa Mitre de Bahía Blanca,1,0
-9692,Roque L. Caballero,Banfield,1,0
-9693,Roque L. Caballero,Colón,1,0
-9694,Roque Osores,Atlético Tucumán,1,0
-9695,Roque Ramírez,Nueva Chicago,1,0
-9696,Roque Vargas,Aldosivi de Mar del Plata,1,0
-9697,Rubén A. Bouza,Chacarita Juniors,1,0
-9698,Rubén C. Acevedo,Cipolletti de Río Negro,1,0
-9699,Rubén Chávez,Tiro Federal de Rosario,1,0
-9700,Rubén D. Bolzán,San Miguel,1,0
-9701,Rubén D. Checchia,Gimnasia y Esgrima de Concepción del Uruguay,1,0
-9702,Rubén D. Gómez,Atlético de Rafaela,1,0
-9703,Rubén D. Solari Simonov,Colón,1,0
-9704,Rubén E. A. Bihurriet,Central Córdoba de Rosario,1,0
-9705,Rubén E. Bucarey,Cipolletti de Río Negro,1,0
-9706,Rubén E. Nacimiento,Guaraní Antonio Franco de Posadas,1,0
-9707,Rubén Escobar,Chaco For Ever,1,0
-9708,Rubén Espínola,Deportivo Morón,1,0
-9709,Rubén H. Rota,Chacarita Juniors,1,0
-9710,Rubén Mencia,Gimnasia y Esgrima de Jujuy,1,0
-9711,Rubén O. Córdoba,Cipolletti de Río Negro,1,0
-9712,Rubén O. Favret,Olimpo de Bahía Blanca,1,0
-9713,Rubén R. Rojas,Chaco For Ever,1,0
-9714,Rubén Rossi,Estudiantes de Buenos Aires,1,0
-9715,Rubén Tarasco,Ferro Carril Oeste,1,0
-9716,Rubén Villarreal,Almirante Brown de Arrecifes,1,0
-9717,Sacha Vela,Juventud Unida de Gualeguaychú,1,0
-9718,Salvador F. Mónaco,All Boys,1,0
-9719,Salvador F. Mónaco,Chacarita Juniors,1,0
-9720,Salvador Sánchez,Chacarita Juniors,1,0
-9721,Salvador Sánchez,Olimpo de Bahía Blanca,1,0
-9722,Samuel Hernández,Guillermo Brown de Puerto Madryn,1,0
-9723,Sandro A. López,Gimnasia y Esgrima de Jujuy,1,0
-9724,Sandro E. Andreani,Deportivo Laferrere,1,0
-9725,Sandro F. Ojeda,San Martín de San Juan,1,0
-9726,Santiago Aguirre,Atlético Paraná,1,0
-9727,Santiago Ayala,Tristán Suárez,1,0
-9728,Santiago Bellatti,Acassuso,1,0
-9729,Santiago Bellatti,Patronato de Paraná,1,0
-9730,Santiago Brotzman,Temperley,1,0
-9731,Santiago Camacho,Estudiantes de Buenos Aires,1,0
-9732,Santiago Chamorro,Almagro,1,0
-9733,Santiago Coronel,Atlanta,1,0
-9734,Santiago D. Aguzín,Chaco For Ever,1,0
-9735,Santiago Echeverría,Almirante Brown,1,0
-9736,Santiago Farrera,Güemes de Santiago del Estero,1,0
-9737,Santiago Freán,Platense,1,0
-9738,Santiago Giordana,Chacarita Juniors,1,0
-9739,Santiago Giordana,Temperley,1,0
-9740,Santiago González,Alvarado de Mar del Plata,1,0
-9741,Santiago Laquidain,Aldosivi de Mar del Plata,1,0
-9742,Santiago Losada,Gimnasia y Esgrima de Concepción del Uruguay,1,0
-9743,Santiago López,Gimnasia y Tiro de Salta,1,0
-9744,Santiago López García,San Martín de San Juan,1,0
-9745,Santiago Nagüel,Brown de Adrogué,1,0
-9746,Santiago Nagüel,San Telmo,1,1
-9747,Santiago Navarro,Temperley,1,0
-9748,Santiago O. Autino,Central Córdoba de Rosario,1,0
-9749,Santiago Patroni,All Boys,1,0
-9750,Santiago Paulini,Deportivo Maipú de Mendoza,1,0
-9751,Santiago Puzzo,Quilmes,1,0
-9752,Santiago Pérez,Almirante Brown,1,0
-9753,Santiago Raimonda,Central Córdoba de Rosario,1,0
-9754,Santiago Raymondo,Central Córdoba de Rosario,1,1
-9755,Santiago Rosa,Sarmiento de Junín,1,0
-9756,Santiago Sayago,Ramón Santamarina de Tandil,1,0
-9757,Santiago Solari,Atlanta,1,0
-9758,Santiago Valdez,Sarmiento de Junín,1,0
-9759,Santiago Úbeda,Chaco For Ever,1,0
-9760,Santos M. Bontorno,Deportivo Maipú de Mendoza,1,0
-9761,Sayd Llambay,Olimpo de Bahía Blanca,1,0
-9762,Saúl Nelle,Chacarita Juniors,1,0
-9763,Sebastián Anaut,Deportivo Español,1,0
-9764,Sebastián Bartolini,Belgrano de Córdoba,1,0
-9765,Sebastián Benega,Guillermo Brown de Puerto Madryn,1,0
-9766,Sebastián Benega,Güemes de Santiago del Estero,1,0
-9767,Sebastián Bueno,Quilmes,1,0
-9768,Sebastián Bueno,Unión de Santa Fe,1,0
-9769,Sebastián Caballero,Atlético Paraná,1,0
-9770,Sebastián Carreras,Almagro,1,0
-9771,Sebastián Clotet,Atlético Tucumán,1,0
-9772,Sebastián Cocimano,Güemes de Santiago del Estero,1,0
-9773,Sebastián Corda,Mitre de Santiago del Estero,1,0
-9774,Sebastián Corda,San Miguel,1,0
-9775,Sebastián Coria,Talleres de Córdoba,1,0
-9776,Sebastián Díaz,Gimnasia y Esgrima de Jujuy,1,0
-9777,Sebastián Ereros,Gimnasia y Esgrima de Jujuy,1,0
-9778,Sebastián Fernández,Quilmes,1,0
-9779,Sebastián Flores Coronel,Comisión de Actividades Infantiles,1,0
-9780,Sebastián Galván,Estudiantes de Buenos Aires,1,0
-9781,Sebastián Grazzini,Patronato de Paraná,1,0
-9782,Sebastián Gularte,Alvarado de Mar del Plata,1,0
-9783,Sebastián Gómez,Sportivo Italiano,1,0
-9784,Sebastián Hernández,Gimnasia y Esgrima de Jujuy,1,0
-9785,Sebastián I. Echave,Douglas Haig de Pergamino,1,0
-9786,Sebastián Ibars,Almirante Brown,1,0
-9787,Sebastián Jaurena,Alvarado de Mar del Plata,1,0
-9788,Sebastián Jaurena,San Martín de San Juan,1,0
-9789,Sebastián López,Deportivo Riestra,1,0
-9790,Sebastián Malandra,Olimpo de Bahía Blanca,1,0
-9791,Sebastián Martínez,Argentinos Juniors,1,0
-9792,Sebastián Martínez,Deportivo Morón,1,0
-9793,Sebastián Matos,Atlético Tucumán,1,1
-9794,Sebastián Mayorga,Independiente Rivadavia de Mendoza,1,0
-9795,Sebastián Medina,Guillermo Brown de Puerto Madryn,1,0
-9796,Sebastián Neuspiller,Los Andes,1,0
-9797,Sebastián Olivarez,Tristán Suárez,1,0
-9798,Sebastián Pena,Belgrano de Córdoba,1,1
-9799,Sebastián Penco,Nueva Chicago,1,0
-9800,Sebastián Pietro,Temperley,1,0
-9801,Sebastián R. Lencina,Huracán Corrientes,1,0
-9802,Sebastián Salomón,Los Andes,1,0
-9803,Sebastián Setti,Almagro,1,0
-9804,Sebastián Tosetto,Atlético de Rafaela,1,0
-9805,Sebastián Vezzani,Belgrano de Córdoba,1,0
-9806,Sebastián Vezzani,Godoy Cruz Antonio Tomba,1,0
-9807,Sergio A. Catán,Atlético Tucumán,1,0
-9808,Sergio A. Escudero,Chacarita Juniors,1,0
-9809,Sergio A. Mandrini,Platense,1,0
-9810,Sergio A. Sagrera,Ferro Carril Oeste de General Pico,1,0
-9811,Sergio Bustos,Defensa y Justicia,1,0
-9812,Sergio C. Merlini,Talleres de Remedios de Escalada,1,0
-9813,Sergio D. Batista,All Boys,1,0
-9814,Sergio D. Oddine Martínez,Deportivo Mandiyú de Corrientes,1,0
-9815,Sergio D. Sbrigatta,Instituto de Córdoba,1,0
-9816,Sergio D. Vázquez,All Boys,1,0
-9817,Sergio E. Albornoz,Chacarita Juniors,1,0
-9818,Sergio E. Watson,Godoy Cruz Antonio Tomba,1,0
-9819,Sergio Escudero,Olimpo de Bahía Blanca,1,0
-9820,Sergio F. Míguez,San Martín de Tucumán,1,0
-9821,Sergio F. Silva,Juventud Antoniana de Salta,1,0
-9822,Sergio G. De Bonis,Chacarita Juniors,1,0
-9823,Sergio G. De Bonis,Cipolletti de Río Negro,1,0
-9824,Sergio G. De Bonis,Quilmes,1,0
-9825,Sergio G. Rondina,Defensa y Justicia,1,0
-9826,Sergio H. Búttera,Colón,1,0
-9827,Sergio H. Comba,San Martín de Mendoza,1,0
-9828,Sergio J. Céliz,Belgrano de Córdoba,1,0
-9829,Sergio J. Priseajniuc,Gimnasia y Esgrima de Jujuy,1,0
-9830,Sergio J. Priseajniuc,Instituto de Córdoba,1,0
-9831,Sergio Leiva,Gimnasia y Esgrima de Concepción del Uruguay,1,0
-9832,Sergio López Maradona,Almagro,1,0
-9833,Sergio M. Cano,Lanús,1,0
-9834,Sergio Meza Sánchez,Quilmes,1,0
-9835,Sergio O. Giachello,Chacarita Juniors,1,0
-9836,Sergio O. Recchiuti,All Boys,1,0
-9837,Sergio O. Recchiuti,Atlético Tucumán,1,0
-9838,Sergio O. Recchiutti,Deportivo Italiano,1,0
-9839,Sergio O. Rechitti,Deportivo Italiano,1,0
-9840,Sergio Oga,San Martín de Tucumán,1,0
-9841,Sergio Ogga,Sportivo Desamparados de San Juan,1,0
-9842,Sergio Ojeda,Patronato de Paraná,1,0
-9843,Sergio Orellano,Almirante Brown de Arrecifes,1,0
-9844,Sergio Peralta,Independiente Rivadavia de Mendoza,1,0
-9845,Sergio Pérez Visca,Almirante Brown,1,0
-9846,Sergio Quiroga,Ferro Carril Oeste,1,0
-9847,Sergio R. Juncos,Douglas Haig de Pergamino,1,0
-9848,Sergio R. Lasala,Deportivo Morón,1,0
-9849,Sergio Rodríguez,Independiente Rivadavia de Mendoza,1,0
-9850,Sergio Rodríguez,Rosario Central,1,0
-9851,Sergio Rodríguez Budes,Independiente Rivadavia de Mendoza,1,0
-9852,Sergio Rozich,Deportivo Laferrere,1,0
-9853,Sergio S. Benet,Tigre,1,0
-9854,Sergio Sagarzazu,Crucero del Norte,1,0
-9855,Sergio Sagarzazu,Juventud Unida de Gualeguaychú,1,0
-9856,Sergio Sena,Independiente Rivadavia de Mendoza,1,0
-9857,Sergio Sosa,Los Andes,1,0
-9858,Sergio Valenti,Talleres de Córdoba,1,0
-9859,Sergio Velázquez,Defensa y Justicia,1,0
-9860,Sergio Vittor,Gimnasia y Esgrima La Plata,1,0
-9861,Sergio Viturro,Nueva Chicago,1,0
-9862,Silvano F. Espíndola,Quilmes,1,0
-9863,Silverio R. Penayo,Almirante Brown de Arrecifes,1,0
-9864,Silvestre Capparuccia,San Martín de Mendoza,1,0
-9865,Silvio A. Sayago,Deportivo Laferrere,1,0
-9866,Silvio F. Sosa,Almirante Brown,1,0
-9867,Silvio Giovenale,Guillermo Brown de Puerto Madryn,1,0
-9868,Silvio Iuvalé,Juventud Antoniana de Salta,1,0
-9869,Silvio Iuvalé,Sarmiento de Junín,1,0
-9870,Silvio Mendoza,Godoy Cruz Antonio Tomba,1,0
-9871,Silvio Molina,Defensores de Belgrano,1,0
-9872,Silvio Molina,San Martín de Mendoza,1,0
-9873,Silvio Prieto,San Martín de Mendoza,1,0
-9874,Silvio R. González,Gimnasia y Esgrima de Concepción del Uruguay,1,0
-9875,Silvio Risio,Instituto de Córdoba,1,0
-9876,Silvio S. Rivero,Godoy Cruz Antonio Tomba,1,0
-9877,Silvo Azoge,Gimnasia y Esgrima de Concepción del Uruguay,1,0
-9878,Stefano Brundo,Estudiantes de Buenos Aires,1,0
-9879,Thiago Lauro,Deportivo Morón,1,0
-9880,Thiago López,Almagro,1,0
-9881,Thiago Peñalba,San Martín de Tucumán,1,0
-9882,Thiago Zárate,Chacarita Juniors,1,0
-9883,Thomas Amilivia,Alvarado de Mar del Plata,1,0
-9884,Thomas Amilivia,Tristán Suárez,1,0
-9885,Thomás Ortega,Quilmes,1,0
-9886,Tiago Banega,Gimnasia y Tiro de Salta,1,0
-9887,Tiago Esidín,Ferro Carril Oeste,1,0
-9888,Tiago Pucciarelli,All Boys,1,0
-9889,Tobías Albarracín,Guillermo Brown de Puerto Madryn,1,0
-9890,Tobías Figueroa,Crucero del Norte,1,0
-9891,Tobías Ostchega,Nueva Chicago,1,0
-9892,Tobías Salas,Estudiantes de Buenos Aires,1,0
-9893,Tobías Torrielli,Guillermo Brown de Puerto Madryn,1,0
-9894,Tommy Mosquera,Defensores de Belgrano,1,0
-9895,Tomás Assennato,Güemes de Santiago del Estero,1,0
-9896,Tomás Blanco,Los Andes,1,0
-9897,Tomás Bolzicco,Atlético Paraná,1,0
-9898,Tomás Bugallo,Almirante Brown,1,0
-9899,Tomás Castro,Central Norte de Salta,1,0
-9900,Tomás Castro,Racing de Córdoba,1,0
-9901,Tomás Correa Cavigliasso,Estudiantes de Río Cuarto,1,0
-9902,Tomás Díaz Grassano,San Miguel,1,0
-9903,Tomás Fernández,Alvarado de Mar del Plata,1,0
-9904,Tomás Lanzini,Platense,1,0
-9905,Tomás López,Gimnasia y Esgrima de Mendoza,1,0
-9906,Tomás Mantia,Flandria,1,0
-9907,Tomás Ortíz,Chacarita Juniors,1,0
-9908,Tomás Patrizio,Brown de Adrogué,1,0
-9909,Tomás Pozzo,Godoy Cruz Antonio Tomba,1,0
-9910,Tomás Pérez,Los Andes,1,0
-9911,Tomás Pérez Serra,Chacarita Juniors,1,0
-9912,Tomás Pérez Serra,Tristán Suárez,1,0
-9913,Tomás Rojas,Atlanta,1,0
-9914,Tomás Rossi,Godoy Cruz Antonio Tomba,1,0
-9915,Tomás Sives,Los Andes,1,0
-9916,Tomás Villoldo,Almirante Brown,1,0
-9917,Toribo D. Aquino,Banfield,1,0
-9918,Ulises Guakinchay,Gimnasia y Esgrima de Mendoza,1,0
-9919,Ulises Yegros,Atlético de Rafaela,1,0
-9920,Valentin Chocobar,Chacarita Juniors,1,0
-9921,Valentin Perales,Deportivo Morón,1,0
-9922,Valentino Werro,Guillermo Brown de Puerto Madryn,1,0
-9923,Valentín Aguiñagalde,Temperley,1,0
-9924,Valentín Albano,Villa Dálmine,1,0
-9925,Valentín Gargiulo,Ferrocarril Midland,1,0
-9926,Valentín Gargiulo,Villa Dálmine,1,0
-9927,Valentín Larralde,San Martín de Tucumán,1,0
-9928,Valentín Rodríguez,Temperley,1,0
-9929,Valentín Serrano,Arsenal FC,1,0
-9930,Valentín Umeres,Villa Dálmine,1,0
-9931,Vicente Barberini,Villa Dálmine,1,0
-9932,Vicente Monje,All Boys,1,0
-9933,Vicente Monje,Platense,1,0
-9934,Victorio Martini,Defensores de Belgrano,1,0
-9935,Victorio Ramis,Ferro Carril Oeste,1,0
-9936,Victorio Ramis,Independiente Rivadavia de Mendoza,1,0
-9937,Victorio Ramos,Talleres de Córdoba,1,0
-9938,Vladimiro Bahl,Atlético de Rafaela,1,0
-9939,Víctor A. Lucero,Deportivo Italiano,1,0
-9940,Víctor A. Lucero,Deportivo Laferrere,1,0
-9941,Víctor Bocchio,El Porvenir,1,0
-9942,Víctor Cuesta,Huracán,1,0
-9943,Víctor G. Molina,Banfield,1,0
-9944,Víctor H. Crema,Banfield,1,0
-9945,Víctor H. Zacharsky,Douglas Haig de Pergamino,1,0
-9946,Víctor J. Wolheim,Colón,1,0
-9947,Víctor J. Wolheim,Huracán,1,0
-9948,Víctor López,Racing de Córdoba,1,0
-9949,Víctor M. Rabuñal Ferrari,Unión de Santa Fe,1,0
-9950,Víctor Malcorra,Aldosivi de Mar del Plata,1,1
-9951,Víctor Molina,Chacarita Juniors,1,0
-9952,Víctor Piriz Alvez,Defensa y Justicia,1,0
-9953,Víctor Rodríguez,San Martín de Tucumán,1,0
-9954,Víctor Toledo,Argentino de Rosario,1,0
-9955,Walter A. Boldorini,Deportivo Laferrere,1,0
-9956,Walter A. Cuvertino,Godoy Cruz Antonio Tomba,1,0
-9957,Walter A. Parodi,Almagro,1,0
-9958,Walter A. Parodi,Defensa y Justicia,1,0
-9959,Walter A. Sarti,Olimpo de Bahía Blanca,1,0
-9960,Walter A. Viqueira,Talleres de Córdoba,1,0
-9961,Walter Acevedo,All Boys,1,0
-9962,Walter Alcaraz,Chacarita Juniors,1,0
-9963,Walter Bracamonte,Alvarado de Mar del Plata,1,0
-9964,Walter Busse,Defensa y Justicia,1,0
-9965,Walter Busse,Ferro Carril Oeste,1,0
-9966,Walter Busse,San Martín de Tucumán,1,0
-9967,Walter Bustos,Belgrano de Córdoba,1,0
-9968,Walter Bustos,Comisión de Actividades Infantiles,1,0
-9969,Walter Cúder,Unión de Santa Fe,1,0
-9970,Walter F. De Felippe,Quilmes,1,0
-9971,Walter F. Obregón,Arsenal FC,1,0
-9972,Walter Fonseca,Banfield,1,0
-9973,Walter Fonseca,Gimnasia y Esgrima de Concepción del Uruguay,1,0
-9974,Walter H. Pajón,Defensa y Justicia,1,0
-9975,Walter J. Paz,All Boys,1,0
-9976,Walter J. Paz,Quilmes,1,0
-9977,Walter M. Caminitti,Talleres de Remedios de Escalada,1,0
-9978,Walter M. Medina,Los Andes,1,0
-9979,Walter Mendoza,Almirante Brown,1,0
-9980,Walter Molina,Atlético Tucumán,1,0
-9981,Walter Montenegro,Aldosivi de Mar del Plata,1,0
-9982,Walter Montoya,Gimnasia y Tiro de Salta,1,0
-9983,Walter Núñez,Ferro Carril Oeste,1,0
-9984,Walter O. Fiori,Tigre,1,0
-9985,Walter O. Lemma,Lanús,1,0
-9986,Walter O. Perazzo,Deportivo Laferrere,1,0
-9987,Walter R. Chazarreta,Cipolletti de Río Negro,1,0
-9988,Walter R. Villafañe,Atlético Concepción de Tucumán,1,1
-9989,Walter Ribonetto,Quilmes,1,0
-9990,Walter Zunino,Gimnasia y Esgrima de Jujuy,1,0
-9991,Washington F. Araujo,Almirante Brown de Arrecifes,1,0
-9992,Wilfredo Olivera,Racing de Córdoba,1,0
-9993,William Machado,Almirante Brown,1,0
-9994,William Machado,Ferro Carril Oeste,1,0
-9995,William Martínez,Ferro Carril Oeste,1,0
-9996,Williams Peralta,Mitre de Santiago del Estero,1,0
-9997,Wilson Dupré,Cipolletti de Río Negro,1,0
-9998,Yair Arizmendi,Douglas Haig de Pergamino,1,0
-9999,Yair González,Chacarita Juniors,1,0
-10000,Yair Marín,Independiente Rivadavia de Mendoza,1,0
-10001,Yeimar Gómez Andrade,Independiente Rivadavia de Mendoza,1,0
-10002,Yoel Juárez,Ramón Santamarina de Tandil,1,0
-10003,Yonathan López,All Boys,1,0
-10004,Yonny Peralta,San Martín de San Juan,1,0
-10005,Yukuse Kato,Huracán,1,0
-10006,Zahir Yunis,Colón,1,0
-10007,Álvaro Veliez,Villa Dálmine,1,0
-10008,Ángel A. De Caterini,Deportivo Morón,1,0
-10009,Ángel Almada,San Miguel,1,0
-10010,Ángel Alonso,Villa Dálmine,1,0
-10011,Ángel Celebroni,Central Córdoba de Rosario,1,0
-10012,Ángel G. Galarza,Comisión de Actividades Infantiles,1,0
-10013,Ángel G. Galarza,Defensa y Justicia,1,0
-10014,Ángel G. Galarza,General Paz Juniors,1,0
-10015,Ángel G. Nasta,Douglas Haig de Pergamino,1,0
-10016,Ángel Guerra,Independiente Rivadavia de Mendoza,1,0
-10017,Ángel J. Mamberto,Chacarita Juniors,1,0
-10018,Ángel J. Mamberto,Cipolletti de Río Negro,1,0
-10019,Ángel L. Carini,Defensa y Justicia,1,0
-10020,Ángel Luna,Villa Dálmine,1,0
-10021,Ángel Puertas,Platense,1,0
-10022,Ángel R. Bernuncio,Juventud Antoniana de Salta,1,0
-10023,Ángel Ronci,Tigre,1,0
-10024,Ángel S. A. Gómez,Gimnasia y Tiro de Salta,1,0
-10025,Ángel S. Villagra,Atlanta,1,0
-10026,Érik Bodencer,Atlanta,1,0
-10027,Érik Bodencer,Sacachispas,1,0
+9297,Nicolás Triviño,San Martín de Tucumán,1,0
+9298,Nicolás Valerio,Ramón Santamarina de Tandil,1,0
+9299,Nicolás del Priore,Deportivo Maipú de Mendoza,1,0
+9300,Nicolás del Priore,Tristán Suárez,1,0
+9301,Nicolás del Priore,Villa Dálmine,1,0
+9302,Nilo Carretero,Tiro Federal de Rosario,1,0
+9303,Norberto Araujo,Racing de Córdoba,1,0
+9304,Norberto Orrego,Defensa y Justicia,1,0
+9305,Norberto Palmieri,Talleres de Remedios de Escalada,1,0
+9306,Norberto Paparatto,Tiro Federal de Rosario,1,0
+9307,Norberto Testa,Argentinos Juniors,1,0
+9308,Norman T. Pereyra,Almirante Brown,1,0
+9309,Néstor A. Holweger,Deportivo Laferrere,1,0
+9310,Néstor Agotegaray,Almagro,1,0
+9311,Néstor Agotegaray,Instituto de Córdoba,1,0
+9312,Néstor Biaggio,Ferro Carril Oeste de General Pico,1,0
+9313,Néstor C. Blanco Correa,Almagro,1,0
+9314,Néstor Dell’Orto,Central Córdoba de Rosario,1,0
+9315,Néstor E. Cáceres,Defensa y Justicia,1,0
+9316,Néstor Espíndola,Boca Unidos de Corrientes,1,0
+9317,Néstor F. Migone,Los Andes,1,0
+9318,Néstor F. Zanatta,Chaco For Ever,1,0
+9319,Néstor Frediani,Colón,1,0
+9320,Néstor H. Ambroselli,Douglas Haig de Pergamino,1,0
+9321,Néstor Leiva,Chaco For Ever,1,0
+9322,Néstor M. Toledo,Deportivo Maipú de Mendoza,1,0
+9323,Néstor Martiarena,Gimnasia y Esgrima de Jujuy,1,0
+9324,Néstor Moiraghi,Agropecuario Argentino de Carlos Casares,1,0
+9325,Néstor Moiraghi,Olimpo de Bahía Blanca,1,1
+9326,Néstor O. González,Huracán Corrientes,1,0
+9327,Néstor Ortigoza,Estudiantes de Río Cuarto,1,1
+9328,Néstor P. Savastano,Villa Dálmine,1,0
+9329,Néstor Pedrozo,San Martín de San Juan,1,0
+9330,Néstor R. Juárez,Deportivo Morón,1,0
+9331,Néstor Villalva,Boca Unidos de Corrientes,1,0
+9332,Néstor Villalva,Platense,1,0
+9333,Octavio F. Macaione Salin,Almirante Brown,1,0
+9334,Olegario Alderete,Deportivo Armenio,1,0
+9335,Oliver Benítez,Gimnasia y Esgrima La Plata,1,0
+9336,Omar A. Bastía,Talleres de Remedios de Escalada,1,0
+9337,Omar A. Gauna,Atlético Tucumán,1,0
+9338,Omar A. Orellano,Gimnasia y Esgrima de Jujuy,1,0
+9339,Omar A. Ríos,Godoy Cruz Antonio Tomba,1,0
+9340,Omar E. Páez,Central Córdoba de Santiago del Estero,1,0
+9341,Omar G. Cerrillo,Tigre,1,0
+9342,Omar Gallardo,Aldosivi de Mar del Plata,1,0
+9343,Omar Gallardo,Atlético Tucumán,1,0
+9344,Omar Gallardo,Nueva Chicago,1,0
+9345,Omar Gallardo,San Martín de San Juan,1,0
+9346,Omar Montero,Central Córdoba de Rosario,1,0
+9347,Omar Pouso,Gimnasia y Esgrima La Plata,1,0
+9348,Omar U. Mambrín,Deportivo Mandiyú de Corrientes,1,0
+9349,Omar W. Crocitta,Central Córdoba de Rosario,1,0
+9350,Omar Zalazar,Aldosivi de Mar del Plata,1,0
+9351,Omar Zarif,Defensa y Justicia,1,0
+9352,Orlando A. Leiva,San Martín de Tucumán,1,0
+9353,Orlando J. Claut,Quilmes,1,0
+9354,Orlando Porra,Quilmes,1,0
+9355,Orlando R. Sotelo,Chaco For Ever,1,0
+9356,Orlindo Ayoví,Atlético de Rafaela,1,0
+9357,Ornaldo J. Claut,Defensores de Belgrano,1,0
+9358,Ornaldo J. Claut,Quilmes,1,0
+9359,Oscar A. Fonseca Gomes,Chacarita Juniors,1,0
+9360,Oscar A. Graciani,Argentinos Juniors,1,0
+9361,Oscar A. Osorio,Talleres de Remedios de Escalada,1,1
+9362,Oscar Cortez,Huracán de Tres Arroyos,1,0
+9363,Oscar D. Caimi,Gimnasia y Tiro de Salta,1,0
+9364,Oscar D. Ledesma,Deportivo Laferrere,1,0
+9365,Oscar Garrido,Colón,1,0
+9366,Oscar Giorgi,Douglas Haig de Pergamino,1,0
+9367,Oscar Gómez,Boca Unidos de Corrientes,1,0
+9368,Oscar Gómez,Sarmiento de Junín,1,0
+9369,Oscar H. Mendoza,Talleres de Remedios de Escalada,1,0
+9370,Oscar M. Cuenca,Cipolletti de Río Negro,1,0
+9371,Oscar Monje,Almagro,1,0
+9372,Oscar R. Acosta,Banfield,1,0
+9373,Oscar R. Leguizamón,Belgrano de Córdoba,1,0
+9374,Oscar R. Leguizamón,Central Córdoba de Santiago del Estero,1,0
+9375,Oscar R. López,Los Andes,1,1
+9376,Oscar Sainz,Ferro Carril Oeste,1,0
+9377,Oscar Sánchez,Platense,1,0
+9378,Oscar Villamayor,Brown de Adrogué,1,0
+9379,Osvaldo Barsottini,Defensores de Belgrano,1,0
+9380,Osvaldo Barsottini,Ferro Carril Oeste,1,0
+9381,Osvaldo C. Fernández,Los Andes,1,0
+9382,Osvaldo D. Tempesta,Douglas Haig de Pergamino,1,0
+9383,Osvaldo M. Luque,Cipolletti de Río Negro,1,0
+9384,Osvaldo Miranda,Belgrano de Córdoba,1,0
+9385,Osvaldo R. Ingrao,Unión de Santa Fe,1,0
+9386,Osvaldo R. M. Aguirre,Nueva Chicago,1,0
+9387,Osvaldo Rodríguez,Quilmes,1,0
+9388,Osvaldo Vila,Deportivo Merlo,1,1
+9389,Oswaldo Blanco,Deportivo Merlo,1,0
+9390,Pablo A. Cuba,San Martín de San Juan,1,0
+9391,Pablo A. Cuba,Tigre,1,0
+9392,Pablo A. De Nicola,All Boys,1,1
+9393,Pablo A. Gioffré,Deportivo Italiano,1,0
+9394,Pablo A. Goberville,El Porvenir,1,0
+9395,Pablo A. Goberville,Nueva Chicago,1,0
+9396,Pablo A. Goberville,Villa Mitre de Bahía Blanca,1,0
+9397,Pablo A. Mannara,Tigre,1,0
+9398,Pablo A. Marini,Douglas Haig de Pergamino,1,0
+9399,Pablo A. Marini,Independiente Rivadavia de Mendoza,1,0
+9400,Pablo A. Marini,Nueva Chicago,1,0
+9401,Pablo A. Sauro,Deportivo Morón,1,0
+9402,Pablo A. Síccolo,Cipolletti de Río Negro,1,0
+9403,Pablo Aguilar,Tiro Federal de Rosario,1,0
+9404,Pablo Arce,San Martín de Mendoza,1,0
+9405,Pablo Ayala,Defensa y Justicia,1,0
+9406,Pablo Ayala,Huracán de Tres Arroyos,1,0
+9407,Pablo Bastianini,Central Córdoba de Santiago del Estero,1,0
+9408,Pablo Batalla,Quilmes,1,0
+9409,Pablo Brandán,General Paz Juniors,1,0
+9410,Pablo C. Fernández,Deportivo Español,1,0
+9411,Pablo C. Quintieri,Talleres de Remedios de Escalada,1,0
+9412,Pablo C. Segovia,Almirante Brown,1,0
+9413,Pablo C. Segovia,Lanús,1,0
+9414,Pablo Caballero,Independiente Rivadavia de Mendoza,1,0
+9415,Pablo Castella,Tiro Federal de Rosario,1,0
+9416,Pablo Cortizo,Gimnasia y Esgrima de Mendoza,1,0
+9417,Pablo Cáceres,Deportivo Morón,1,0
+9418,Pablo D. Cantero,Gimnasia y Esgrima de Concepción del Uruguay,1,0
+9419,Pablo De Miranda,Ferro Carril Oeste,1,0
+9420,Pablo De Miranda,Independiente Rivadavia de Mendoza,1,0
+9421,Pablo De Muner,Argentinos Juniors,1,0
+9422,Pablo De Muner,Boca Unidos de Corrientes,1,0
+9423,Pablo Despósito,Defensores Unidos de Zárate,1,0
+9424,Pablo E. Islas,Chacarita Juniors,1,0
+9425,Pablo E. Krattina,Belgrano de Córdoba,1,0
+9426,Pablo E. Pérez,Quilmes,1,0
+9427,Pablo Franco,All Boys,1,0
+9428,Pablo G. Piro,Instituto de Córdoba,1,0
+9429,Pablo Garnier,Atlético Tucumán,1,0
+9430,Pablo Garnier,Defensa y Justicia,1,0
+9431,Pablo Garnier,Quilmes,1,0
+9432,Pablo Gilardi,Olimpo de Bahía Blanca,1,0
+9433,Pablo Gilardi,Villa Mitre de Bahía Blanca,1,0
+9434,Pablo González,Platense,1,0
+9435,Pablo Guiñazú,Talleres de Córdoba,1,0
+9436,Pablo Jofré,San Martín de San Juan,1,0
+9437,Pablo López,Racing de Córdoba,1,0
+9438,Pablo López,San Martín de Tucumán,1,0
+9439,Pablo M. Rojas,Defensa y Justicia,1,0
+9440,Pablo M. Sampaoli,Argentino de Rosario,1,0
+9441,Pablo Miranda,Brown de Adrogué,1,0
+9442,Pablo Miranda,Patronato de Paraná,1,0
+9443,Pablo Morales,Chacarita Juniors,1,0
+9444,Pablo Motta,Crucero del Norte,1,0
+9445,Pablo Nieva,Instituto de Córdoba,1,0
+9446,Pablo Nieva,Tigre,1,0
+9447,Pablo Peralta,San Martín de Mendoza,1,0
+9448,Pablo R. Corti,Godoy Cruz Antonio Tomba,1,0
+9449,Pablo R. Ortiz,Guaraní Antonio Franco de Posadas,1,0
+9450,Pablo R. Quiñones,Almirante Brown de Arrecifes,1,0
+9451,Pablo Rodríguez,Almirante Brown de Arrecifes,1,0
+9452,Pablo Rodríguez,Defensores de Belgrano,1,0
+9453,Pablo Rodríguez,Platense,1,0
+9454,Pablo Rodríguez,San Miguel,1,0
+9455,Pablo Ruiz,Nueva Chicago,1,0
+9456,Pablo S. Suárez,Chaco For Ever,1,0
+9457,Pablo S. Suárez,Huracán Corrientes,1,0
+9458,Pablo Saucedo,Ferro Carril Oeste,1,0
+9459,Pablo Saucedo,Gimnasia y Esgrima de Jujuy,1,0
+9460,Pablo Vaccaría,Tiro Federal de Rosario,1,0
+9461,Pablo Vilchez,Central Córdoba de Santiago del Estero,1,0
+9462,Pablo Villar,San Martín de San Juan,1,0
+9463,Pablo Vázquez,Aldosivi de Mar del Plata,1,0
+9464,Padro M. Olalla,Atlético Tucumán,1,0
+9465,Paoli Frangipane,Tigre,1,0
+9466,Paolo Impini,Deportivo Riestra,1,0
+9467,Paolo Impini,Estudiantes de Buenos Aires,1,0
+9468,Paolo Impini,Independiente Rivadavia de Mendoza,1,0
+9469,Pascual J. Alastuey,Atlético de Rafaela,1,0
+9470,Patricio A. A. Bedrossian,Estudiantes de Buenos Aires,1,0
+9471,Patricio A. Arizaga,Nueva Chicago,1,0
+9472,Patricio A. Tolosa,All Boys,1,0
+9473,Patricio Grgona,El Porvenir,1,0
+9474,Patricio Grgona,Los Andes,1,0
+9475,Patricio Núñez,Deportivo Morón,1,0
+9476,Patricio Ostachuk,Atlanta,1,0
+9477,Patricio Ostachuk,Tristán Suárez,1,1
+9478,Patricio Pizarro,Almirante Brown,1,0
+9479,Patricio Pérez,Almagro,1,0
+9480,Patrico A. A. Bedrossian,Almirante Brown de Arrecifes,1,0
+9481,Paul Ramos,Belgrano de Córdoba,1,0
+9482,Paula Dybala,Instituto de Córdoba,1,0
+9483,Paulo C. Pérez,Atlético de Rafaela,1,0
+9484,Paulo Miranda,Platense,1,0
+9485,Paulo Pérez,Central Córdoba de Rosario,1,0
+9486,Paulo Romero,Tiro Federal de Rosario,1,0
+9487,Pedro A. Dezotti,Atlético de Rafaela,1,0
+9488,Pedro A. Dezotti,Instituto de Córdoba,1,0
+9489,Pedro Aguírrez,Argentinos Juniors,1,0
+9490,Pedro Aguírrez,Gimnasia y Esgrima de Jujuy,1,0
+9491,Pedro Bocca,Platense,1,0
+9492,Pedro Brítez,Crucero del Norte,1,0
+9493,Pedro D. Monzón,Quilmes,1,0
+9494,Pedro I. Salaberry,Banfield,1,0
+9495,Pedro O. Caballero,Central Córdoba de Santiago del Estero,1,0
+9496,Pedro R. Lagos,Deportivo Maipú de Mendoza,1,0
+9497,Pedro Ramírez,Deportivo Riestra,1,0
+9498,Pedro Sanz,Central Norte de Salta,1,0
+9499,Pedro Suárez,Unión de Santa Fe,1,0
+9500,Pedro Velurtas,Almirante Brown,1,0
+9501,Pier Barrios,Colón,1,0
+9502,Pierre Barrios,Ferro Carril Oeste,1,0
+9503,Pío Bonacci,San Martín de Tucumán,1,0
+9504,Rafael A. Luongo,Chacarita Juniors,1,0
+9505,Rafael A. Luongo,Deportivo Italiano,1,0
+9506,Rafael A. Luongo,Quilmes,1,0
+9507,Rafael A. Sánchez Laudari,Nueva Chicago,1,0
+9508,Rafael Barrios,Quilmes,1,0
+9509,Rafael Sangiovani,Brown de Adrogué,1,0
+9510,Rafael Sangiovani,Villa Dálmine,1,0
+9511,Ramiro A. Pizarro,Arsenal FC,1,0
+9512,Ramiro A. Pizarro,San Martín de Mendoza,1,0
+9513,Ramiro Arias,Almagro,1,0
+9514,Ramiro Arias,Sarmiento de Junín,1,0
+9515,Ramiro Balbuena,Estudiantes de Río Cuarto,1,0
+9516,Ramiro Balbuena,Nueva Chicago,1,0
+9517,Ramiro E. Leone,Chacarita Juniors,1,0
+9518,Ramiro González Hernández,Juventud Unida de Gualeguaychú,1,0
+9519,Ramiro Luna,Quilmes,1,1
+9520,Ramiro Maldonado,Independiente Rivadavia de Mendoza,1,0
+9521,Ramiro Ríos,Almagro,1,0
+9522,Ramiro Ríos,Güemes de Santiago del Estero,1,0
+9523,Ramón A. Albariño,Chacarita Juniors,1,1
+9524,Ramón A. Araya,Racing de Córdoba,1,0
+9525,Ramón A. Araya,San Martín de Tucumán,1,0
+9526,Ramón A. Jaquet,Guaraní Antonio Franco de Posadas,1,0
+9527,Ramón Borda,Deportivo Riestra,1,1
+9528,Ramón C. Acevedo,Cipolletti de Río Negro,1,0
+9529,Ramón C. Díaz,Temperley,1,0
+9530,Ramón E. Gallardo,Tigre,1,0
+9531,Ramón E. Lastra,Central Córdoba de Santiago del Estero,1,0
+9532,Ramón E. Rosales,Instituto de Córdoba,1,0
+9533,Ramón E. Rosales,Olimpo de Bahía Blanca,1,0
+9534,Ramón Fernández,Atlanta,1,0
+9535,Ramón Gómez,Chacarita Juniors,1,0
+9536,Ramón Lentini,Aldosivi de Mar del Plata,1,0
+9537,Ramón Lentini,Güemes de Santiago del Estero,1,0
+9538,Ramón Lentini,Instituto de Córdoba,1,0
+9539,Ramón S. Brítez,Huracán,1,0
+9540,Raúl A. Locatelli,Deportivo Laferrere,1,0
+9541,Raúl A. Villalba,Central Córdoba de Santiago del Estero,1,0
+9542,Raúl Acosta,Chaco For Ever,1,0
+9543,Raúl Arce,Los Andes,1,0
+9544,Raúl Benítez,Ferro Carril Oeste,1,0
+9545,Raúl Contreras,Juventud Antoniana de Salta,1,0
+9546,Raúl E. Oyola,Chaco For Ever,1,0
+9547,Raúl E. Sánchez,Huracán,1,0
+9548,Raúl F. Valdovinos,Deportivo Mandiyú de Corrientes,1,0
+9549,Raúl Gorostegui,Quilmes,1,0
+9550,Raúl H. Gómez,San Martín de San Juan,1,0
+9551,Raúl H. Maldonado,Juventud Antoniana de Salta,1,0
+9552,Raúl J. Espíndola,Talleres de Remedios de Escalada,1,0
+9553,Raúl O. Luján,Quilmes,1,0
+9554,Raúl O. Olarte,Juventud Antoniana de Salta,1,0
+9555,Raúl O. Ruiz,Arsenal FC,1,0
+9556,Raúl Poclaba,Douglas Haig de Pergamino,1,0
+9557,Reinaldo Alderete,Atlético de Rafaela,1,0
+9558,Renato Corsi,Deportivo Italiano,1,0
+9559,Renato Riggio,Juventud Antoniana de Salta,1,0
+9560,Renato Riggio,San Martín de San Juan,1,0
+9561,Renzo Conechny,Almagro,1,0
+9562,Renzo Pérez,Ferro Carril Oeste,1,0
+9563,Renzo Ruggiero,Talleres de Córdoba,1,0
+9564,Renzo Tesouri,Ferro Carril Oeste,1,0
+9565,Renzo Tesouri,Juventud Unida de Gualeguaychú,1,0
+9566,Renzo Vera,Ferro Carril Oeste,1,1
+9567,Renzo Vera,Gimnasia y Esgrima de Mendoza,1,0
+9568,Renzo Vera,Unión de Santa Fe,1,0
+9569,René A. Gómez,Atlético de Rafaela,1,0
+9570,René C. E. Kloker,Deportivo Italiano,1,0
+9571,René E. Ruiz,Lanús,1,0
+9572,René Lima,San Telmo,1,0
+9573,René O. Báez,Defensa y Justicia,1,0
+9574,Ricardi M. Díaz,San Miguel,1,0
+9575,Ricardo A. Burakoski,Almirante Brown,1,0
+9576,Ricardo A. Guerrero,Cipolletti de Río Negro,1,0
+9577,Ricardo A. Ramírez,Juventud Antoniana de Salta,1,0
+9578,Ricardo C. F. García,Almirante Brown,1,0
+9579,Ricardo D. Altaminrano,Unión de Santa Fe,1,1
+9580,Ricardo D. Johansen,Unión de Santa Fe,1,0
+9581,Ricardo D. Próstamo,Cipolletti de Río Negro,1,0
+9582,Ricardo G. Lima,All Boys,1,0
+9583,Ricardo J. Salse,Douglas Haig de Pergamino,1,0
+9584,Ricardo L. Echazú,Atlanta,1,0
+9585,Ricardo L. Mazariche,Deportivo Armenio,1,0
+9586,Ricardo Melli,Central Córdoba de Rosario,1,0
+9587,Ricardo O. González,Almirante Brown,1,0
+9588,Ricardo Silva,Instituto de Córdoba,1,0
+9589,Ricardo Silva,Juventud Antoniana de Salta,1,0
+9590,Ricardo Stalteri,Tigre,1,0
+9591,Ricardo Vera,Independiente Rivadavia de Mendoza,1,0
+9592,Ricardo Villalba,San Martín de San Juan,1,0
+9593,Robertino Seratto,Chaco For Ever,1,0
+9594,Roberto A. Bernarsconi,Arsenal FC,1,0
+9595,Roberto A. Bernasconi,Talleres de Remedios de Escalada,1,0
+9596,Roberto A. Mogrovejo,Defensa y Justicia,1,0
+9597,Roberto Bochi,Deportivo Riestra,1,0
+9598,Roberto Bochi,Platense,1,0
+9599,Roberto Brum,Aldosivi de Mar del Plata,1,0
+9600,Roberto Brum,Banfield,1,0
+9601,Roberto Brum,Temperley,1,0
+9602,Roberto Bustos,Nueva Chicago,1,0
+9603,Roberto C. Correa,Chacarita Juniors,1,0
+9604,Roberto C. Rojas,Deportivo Morón,1,0
+9605,Roberto C. Saavedra,San Martín de San Juan,1,0
+9606,Roberto Cattáneo,Olimpo de Bahía Blanca,1,0
+9607,Roberto Correa,Instituto de Córdoba,1,0
+9608,Roberto Demus,El Porvenir,1,0
+9609,Roberto F. Cena,Nueva Chicago,1,0
+9610,Roberto F. Coeli,Almirante Brown,1,0
+9611,Roberto Falcone,San Martín de Mendoza,1,0
+9612,Roberto Gárate,Almirante Brown de Arrecifes,1,0
+9613,Roberto H. Arzani,Talleres de Remedios de Escalada,1,0
+9614,Roberto H. Leiga,Argentinos Juniors,1,0
+9615,Roberto L. Medrán,Deportivo Mandiyú de Corrientes,1,0
+9616,Roberto L. Oeste,Defensa y Justicia,1,1
+9617,Roberto L. Oeste,Talleres de Córdoba,1,0
+9618,Roberto M. Barragán,Tigre,1,0
+9619,Roberto M. Juárez,Estudiantes de Buenos Aires,1,0
+9620,Roberto Marioni,Chaco For Ever,1,0
+9621,Roberto Mina,Huracán,1,0
+9622,Roberto O. Lugo,Huracán Corrientes,1,0
+9623,Roberto P. Rojas,Talleres de Remedios de Escalada,1,0
+9624,Roberto Rojas,Tigre,1,0
+9625,Roberto Ruiz,San Martín de Tucumán,1,0
+9626,Roberto S. González,Deportivo Morón,1,0
+9627,Roberto Salvatierra,Ferro Carril Oeste,1,0
+9628,Roberto Tucker,Central Córdoba de Santiago del Estero,1,0
+9629,Roberto Tucker,Deportivo Merlo,1,0
+9630,Roberto Vaquel,San Martín de Tucumán,1,0
+9631,Roberto Álvarez,San Martín de San Juan,1,1
+9632,Rodolfo A. Ortiz,Colón,1,0
+9633,Rodolfo García,El Porvenir,1,0
+9634,Rodolfo L. Righi,Almirante Brown,1,0
+9635,Rodolfo M. Graieb,Huracán,1,0
+9636,Rodolfo Quinteros,El Porvenir,1,0
+9637,Rodolfo Segerer,Atlético Tucumán,1,0
+9638,Rodrigo Abaurre,Independiente Rivadavia de Mendoza,1,0
+9639,Rodrigo Aillapán,Almirante Brown,1,0
+9640,Rodrigo Alonso,Almirante Brown,1,0
+9641,Rodrigo Arciero,Deportivo Morón,1,0
+9642,Rodrigo Ayala,Deportivo Madryn,1,0
+9643,Rodrigo Ayala,Ferro Carril Oeste,1,0
+9644,Rodrigo Ayala,Mitre de Santiago del Estero,1,0
+9645,Rodrigo Bruera,Independiente Rivadavia de Mendoza,1,0
+9646,Rodrigo Burgos,Talleres de Córdoba,1,0
+9647,Rodrigo Caballuccci,Douglas Haig de Pergamino,1,0
+9648,Rodrigo Caballucci,Douglas Haig de Pergamino,1,0
+9649,Rodrigo Caballuci,Douglas Haig de Pergamino,1,0
+9650,Rodrigo Cabrera,Los Andes,1,0
+9651,Rodrigo Cao,Ferrocarril Midland,1,0
+9652,Rodrigo Colombo,Atlético de Rafaela,1,0
+9653,Rodrigo Colombo,Independiente Rivadavia de Mendoza,1,0
+9654,Rodrigo Cáseres,San Martín de San Juan,1,0
+9655,Rodrigo Cáseres,Villa Dálmine,1,0
+9656,Rodrigo D. Marangoni,Almirante Brown de Arrecifes,1,0
+9657,Rodrigo D. Marangoni,Arsenal FC,1,0
+9658,Rodrigo Díaz,Deportivo Morón,1,1
+9659,Rodrigo Díaz,Independiente Rivadavia de Mendoza,1,1
+9660,Rodrigo Díaz,Sacachispas,1,0
+9661,Rodrigo E. Velazco,Deportivo Español,1,0
+9662,Rodrigo Erramuspe,Belgrano de Córdoba,1,0
+9663,Rodrigo Espíndola,Nueva Chicago,1,0
+9664,Rodrigo Fernández,Godoy Cruz Antonio Tomba,1,0
+9665,Rodrigo González,Guillermo Brown de Puerto Madryn,1,0
+9666,Rodrigo González,Mitre de Santiago del Estero,1,0
+9667,Rodrigo Herrera,San Martín de Tucumán,1,0
+9668,Rodrigo M. Bilbao,Almagro,1,0
+9669,Rodrigo M. Bilbao,Huracán,1,0
+9670,Rodrigo M. Bilbao,Instituto de Córdoba,1,0
+9671,Rodrigo Melo,Estudiantes de Buenos Aires,1,0
+9672,Rodrigo Mieres,Atlético Tucumán,1,0
+9673,Rodrigo Migone,Deportivo Madryn,1,0
+9674,Rodrigo Morales,Gimnasia y Esgrima de Jujuy,1,0
+9675,Rodrigo Ramírez,Atlanta,1,0
+9676,Rodrigo San Martín,Cipolletti de Río Negro,1,0
+9677,Rodrigo Tapia,Mitre de Santiago del Estero,1,0
+9678,Rodrigo Velasco,Deportivo Español,1,0
+9679,Rodrigo Velázquez,Gimnasia y Esgrima de Jujuy,1,0
+9680,Rodrigo Vélez,Almirante Brown,1,0
+9681,Rolando C. Schiavi,Argentinos Juniors,1,0
+9682,Rolando F. González,Gimnasia y Esgrima de Jujuy,1,0
+9683,Rolando R. Barrera,Colón,1,0
+9684,Rolando Ricardone,Crucero del Norte,1,0
+9685,Roly Zárate,Defensa y Justicia,1,0
+9686,Román Martínez,Deportivo Morón,1,0
+9687,Román Martínez,Tigre,1,0
+9688,Román Strada,Quilmes,1,0
+9689,Romás Strada,Guillermo Brown de Puerto Madryn,1,0
+9690,Roque G. Burella,Villa Mitre de Bahía Blanca,1,0
+9691,Roque L. Caballero,Banfield,1,0
+9692,Roque L. Caballero,Colón,1,0
+9693,Roque Osores,Atlético Tucumán,1,0
+9694,Roque Ramírez,Nueva Chicago,1,0
+9695,Roque Vargas,Aldosivi de Mar del Plata,1,0
+9696,Rubén A. Bouza,Chacarita Juniors,1,0
+9697,Rubén C. Acevedo,Cipolletti de Río Negro,1,0
+9698,Rubén Chávez,Tiro Federal de Rosario,1,0
+9699,Rubén D. Bolzán,San Miguel,1,0
+9700,Rubén D. Checchia,Gimnasia y Esgrima de Concepción del Uruguay,1,0
+9701,Rubén D. Gómez,Atlético de Rafaela,1,0
+9702,Rubén D. Solari Simonov,Colón,1,0
+9703,Rubén E. A. Bihurriet,Central Córdoba de Rosario,1,0
+9704,Rubén E. Bucarey,Cipolletti de Río Negro,1,0
+9705,Rubén E. Nacimiento,Guaraní Antonio Franco de Posadas,1,0
+9706,Rubén Escobar,Chaco For Ever,1,0
+9707,Rubén Espínola,Deportivo Morón,1,0
+9708,Rubén H. Rota,Chacarita Juniors,1,0
+9709,Rubén Mencia,Gimnasia y Esgrima de Jujuy,1,0
+9710,Rubén O. Córdoba,Cipolletti de Río Negro,1,0
+9711,Rubén O. Favret,Olimpo de Bahía Blanca,1,0
+9712,Rubén R. Rojas,Chaco For Ever,1,0
+9713,Rubén Rossi,Estudiantes de Buenos Aires,1,0
+9714,Rubén Tarasco,Ferro Carril Oeste,1,0
+9715,Rubén Villarreal,Almirante Brown de Arrecifes,1,0
+9716,Sacha Vela,Juventud Unida de Gualeguaychú,1,0
+9717,Salvador F. Mónaco,All Boys,1,0
+9718,Salvador F. Mónaco,Chacarita Juniors,1,0
+9719,Salvador Sánchez,Chacarita Juniors,1,0
+9720,Salvador Sánchez,Olimpo de Bahía Blanca,1,0
+9721,Samuel Hernández,Guillermo Brown de Puerto Madryn,1,0
+9722,Sandro A. López,Gimnasia y Esgrima de Jujuy,1,0
+9723,Sandro E. Andreani,Deportivo Laferrere,1,0
+9724,Sandro F. Ojeda,San Martín de San Juan,1,0
+9725,Santiago Aguirre,Atlético Paraná,1,0
+9726,Santiago Ayala,Tristán Suárez,1,0
+9727,Santiago Bellatti,Acassuso,1,0
+9728,Santiago Bellatti,Patronato de Paraná,1,0
+9729,Santiago Brotzman,Temperley,1,0
+9730,Santiago Camacho,Estudiantes de Buenos Aires,1,0
+9731,Santiago Chamorro,Almagro,1,0
+9732,Santiago Coronel,Atlanta,1,0
+9733,Santiago D. Aguzín,Chaco For Ever,1,0
+9734,Santiago Echeverría,Almirante Brown,1,0
+9735,Santiago Farrera,Güemes de Santiago del Estero,1,0
+9736,Santiago Freán,Platense,1,0
+9737,Santiago Giordana,Chacarita Juniors,1,0
+9738,Santiago Giordana,Temperley,1,0
+9739,Santiago González,Alvarado de Mar del Plata,1,0
+9740,Santiago Laquidain,Aldosivi de Mar del Plata,1,0
+9741,Santiago Losada,Gimnasia y Esgrima de Concepción del Uruguay,1,0
+9742,Santiago López,Gimnasia y Tiro de Salta,1,0
+9743,Santiago López García,San Martín de San Juan,1,0
+9744,Santiago Nagüel,Brown de Adrogué,1,0
+9745,Santiago Nagüel,San Telmo,1,1
+9746,Santiago Navarro,Temperley,1,0
+9747,Santiago O. Autino,Central Córdoba de Rosario,1,0
+9748,Santiago Patroni,All Boys,1,0
+9749,Santiago Paulini,Deportivo Maipú de Mendoza,1,0
+9750,Santiago Puzzo,Quilmes,1,0
+9751,Santiago Pérez,Almirante Brown,1,0
+9752,Santiago Raimonda,Central Córdoba de Rosario,1,0
+9753,Santiago Raymondo,Central Córdoba de Rosario,1,1
+9754,Santiago Rosa,Sarmiento de Junín,1,0
+9755,Santiago Sayago,Ramón Santamarina de Tandil,1,0
+9756,Santiago Solari,Atlanta,1,0
+9757,Santiago Valdez,Sarmiento de Junín,1,0
+9758,Santiago Úbeda,Chaco For Ever,1,0
+9759,Santos M. Bontorno,Deportivo Maipú de Mendoza,1,0
+9760,Sayd Llambay,Olimpo de Bahía Blanca,1,0
+9761,Saúl Nelle,Chacarita Juniors,1,0
+9762,Sebastián Anaut,Deportivo Español,1,0
+9763,Sebastián Bartolini,Belgrano de Córdoba,1,0
+9764,Sebastián Benega,Guillermo Brown de Puerto Madryn,1,0
+9765,Sebastián Benega,Güemes de Santiago del Estero,1,0
+9766,Sebastián Bueno,Quilmes,1,0
+9767,Sebastián Bueno,Unión de Santa Fe,1,0
+9768,Sebastián Caballero,Atlético Paraná,1,0
+9769,Sebastián Carreras,Almagro,1,0
+9770,Sebastián Clotet,Atlético Tucumán,1,0
+9771,Sebastián Cocimano,Güemes de Santiago del Estero,1,0
+9772,Sebastián Corda,Mitre de Santiago del Estero,1,0
+9773,Sebastián Corda,San Miguel,1,0
+9774,Sebastián Coria,Talleres de Córdoba,1,0
+9775,Sebastián Díaz,Gimnasia y Esgrima de Jujuy,1,0
+9776,Sebastián Ereros,Gimnasia y Esgrima de Jujuy,1,0
+9777,Sebastián Fernández,Quilmes,1,0
+9778,Sebastián Flores Coronel,Comisión de Actividades Infantiles,1,0
+9779,Sebastián Galván,Estudiantes de Buenos Aires,1,0
+9780,Sebastián Grazzini,Patronato de Paraná,1,0
+9781,Sebastián Gularte,Alvarado de Mar del Plata,1,0
+9782,Sebastián Gómez,Sportivo Italiano,1,0
+9783,Sebastián Hernández,Gimnasia y Esgrima de Jujuy,1,0
+9784,Sebastián I. Echave,Douglas Haig de Pergamino,1,0
+9785,Sebastián Ibars,Almirante Brown,1,0
+9786,Sebastián Jaurena,Alvarado de Mar del Plata,1,0
+9787,Sebastián Jaurena,San Martín de San Juan,1,0
+9788,Sebastián López,Deportivo Riestra,1,0
+9789,Sebastián Malandra,Olimpo de Bahía Blanca,1,0
+9790,Sebastián Martínez,Argentinos Juniors,1,0
+9791,Sebastián Martínez,Deportivo Morón,1,0
+9792,Sebastián Matos,Atlético Tucumán,1,1
+9793,Sebastián Mayorga,Independiente Rivadavia de Mendoza,1,0
+9794,Sebastián Medina,Guillermo Brown de Puerto Madryn,1,0
+9795,Sebastián Neuspiller,Los Andes,1,0
+9796,Sebastián Olivarez,Tristán Suárez,1,0
+9797,Sebastián Pena,Belgrano de Córdoba,1,1
+9798,Sebastián Penco,Nueva Chicago,1,0
+9799,Sebastián Pietro,Temperley,1,0
+9800,Sebastián R. Lencina,Huracán Corrientes,1,0
+9801,Sebastián Salomón,Los Andes,1,0
+9802,Sebastián Setti,Almagro,1,0
+9803,Sebastián Tosetto,Atlético de Rafaela,1,0
+9804,Sebastián Vezzani,Belgrano de Córdoba,1,0
+9805,Sebastián Vezzani,Godoy Cruz Antonio Tomba,1,0
+9806,Sergio A. Catán,Atlético Tucumán,1,0
+9807,Sergio A. Escudero,Chacarita Juniors,1,0
+9808,Sergio A. Mandrini,Platense,1,0
+9809,Sergio A. Sagrera,Ferro Carril Oeste de General Pico,1,0
+9810,Sergio Bustos,Defensa y Justicia,1,0
+9811,Sergio C. Merlini,Talleres de Remedios de Escalada,1,0
+9812,Sergio D. Batista,All Boys,1,0
+9813,Sergio D. Oddine Martínez,Deportivo Mandiyú de Corrientes,1,0
+9814,Sergio D. Sbrigatta,Instituto de Córdoba,1,0
+9815,Sergio D. Vázquez,All Boys,1,0
+9816,Sergio E. Albornoz,Chacarita Juniors,1,0
+9817,Sergio E. Watson,Godoy Cruz Antonio Tomba,1,0
+9818,Sergio Escudero,Olimpo de Bahía Blanca,1,0
+9819,Sergio F. Míguez,San Martín de Tucumán,1,0
+9820,Sergio F. Silva,Juventud Antoniana de Salta,1,0
+9821,Sergio G. De Bonis,Chacarita Juniors,1,0
+9822,Sergio G. De Bonis,Cipolletti de Río Negro,1,0
+9823,Sergio G. De Bonis,Quilmes,1,0
+9824,Sergio G. Rondina,Defensa y Justicia,1,0
+9825,Sergio H. Búttera,Colón,1,0
+9826,Sergio H. Comba,San Martín de Mendoza,1,0
+9827,Sergio J. Céliz,Belgrano de Córdoba,1,0
+9828,Sergio J. Priseajniuc,Gimnasia y Esgrima de Jujuy,1,0
+9829,Sergio J. Priseajniuc,Instituto de Córdoba,1,0
+9830,Sergio Leiva,Gimnasia y Esgrima de Concepción del Uruguay,1,0
+9831,Sergio López Maradona,Almagro,1,0
+9832,Sergio M. Cano,Lanús,1,0
+9833,Sergio Meza Sánchez,Quilmes,1,0
+9834,Sergio O. Giachello,Chacarita Juniors,1,0
+9835,Sergio O. Recchiuti,All Boys,1,0
+9836,Sergio O. Recchiuti,Atlético Tucumán,1,0
+9837,Sergio O. Recchiutti,Deportivo Italiano,1,0
+9838,Sergio O. Rechitti,Deportivo Italiano,1,0
+9839,Sergio Oga,San Martín de Tucumán,1,0
+9840,Sergio Ogga,Sportivo Desamparados de San Juan,1,0
+9841,Sergio Ojeda,Patronato de Paraná,1,0
+9842,Sergio Orellano,Almirante Brown de Arrecifes,1,0
+9843,Sergio Peralta,Independiente Rivadavia de Mendoza,1,0
+9844,Sergio Pérez Visca,Almirante Brown,1,0
+9845,Sergio Quiroga,Ferro Carril Oeste,1,0
+9846,Sergio R. Juncos,Douglas Haig de Pergamino,1,0
+9847,Sergio R. Lasala,Deportivo Morón,1,0
+9848,Sergio Rodríguez,Independiente Rivadavia de Mendoza,1,0
+9849,Sergio Rodríguez,Rosario Central,1,0
+9850,Sergio Rodríguez Budes,Independiente Rivadavia de Mendoza,1,0
+9851,Sergio Rozich,Deportivo Laferrere,1,0
+9852,Sergio S. Benet,Tigre,1,0
+9853,Sergio Sagarzazu,Crucero del Norte,1,0
+9854,Sergio Sagarzazu,Juventud Unida de Gualeguaychú,1,0
+9855,Sergio Sena,Independiente Rivadavia de Mendoza,1,0
+9856,Sergio Sosa,Los Andes,1,0
+9857,Sergio Valenti,Talleres de Córdoba,1,0
+9858,Sergio Velázquez,Defensa y Justicia,1,0
+9859,Sergio Vittor,Gimnasia y Esgrima La Plata,1,0
+9860,Sergio Viturro,Nueva Chicago,1,0
+9861,Silvano F. Espíndola,Quilmes,1,0
+9862,Silverio R. Penayo,Almirante Brown de Arrecifes,1,0
+9863,Silvestre Capparuccia,San Martín de Mendoza,1,0
+9864,Silvio A. Sayago,Deportivo Laferrere,1,0
+9865,Silvio F. Sosa,Almirante Brown,1,0
+9866,Silvio Giovenale,Guillermo Brown de Puerto Madryn,1,0
+9867,Silvio Iuvalé,Juventud Antoniana de Salta,1,0
+9868,Silvio Iuvalé,Sarmiento de Junín,1,0
+9869,Silvio Mendoza,Godoy Cruz Antonio Tomba,1,0
+9870,Silvio Molina,Defensores de Belgrano,1,0
+9871,Silvio Molina,San Martín de Mendoza,1,0
+9872,Silvio Prieto,San Martín de Mendoza,1,0
+9873,Silvio R. González,Gimnasia y Esgrima de Concepción del Uruguay,1,0
+9874,Silvio Risio,Instituto de Córdoba,1,0
+9875,Silvio S. Rivero,Godoy Cruz Antonio Tomba,1,0
+9876,Silvo Azoge,Gimnasia y Esgrima de Concepción del Uruguay,1,0
+9877,Stefano Brundo,Estudiantes de Buenos Aires,1,0
+9878,Thiago Lauro,Deportivo Morón,1,0
+9879,Thiago López,Almagro,1,0
+9880,Thiago Peñalba,San Martín de Tucumán,1,0
+9881,Thiago Zárate,Chacarita Juniors,1,0
+9882,Thomas Amilivia,Alvarado de Mar del Plata,1,0
+9883,Thomas Amilivia,Tristán Suárez,1,0
+9884,Thomás Ortega,Quilmes,1,0
+9885,Tiago Banega,Gimnasia y Tiro de Salta,1,0
+9886,Tiago Esidín,Ferro Carril Oeste,1,0
+9887,Tiago Pucciarelli,All Boys,1,0
+9888,Tobías Albarracín,Guillermo Brown de Puerto Madryn,1,0
+9889,Tobías Figueroa,Crucero del Norte,1,0
+9890,Tobías Ostchega,Nueva Chicago,1,0
+9891,Tobías Salas,Estudiantes de Buenos Aires,1,0
+9892,Tobías Torrielli,Guillermo Brown de Puerto Madryn,1,0
+9893,Tommy Mosquera,Defensores de Belgrano,1,0
+9894,Tomás Assennato,Güemes de Santiago del Estero,1,0
+9895,Tomás Blanco,Los Andes,1,0
+9896,Tomás Bolzicco,Atlético Paraná,1,0
+9897,Tomás Bugallo,Almirante Brown,1,0
+9898,Tomás Castro,Central Norte de Salta,1,0
+9899,Tomás Castro,Racing de Córdoba,1,0
+9900,Tomás Correa Cavigliasso,Estudiantes de Río Cuarto,1,0
+9901,Tomás Díaz Grassano,San Miguel,1,0
+9902,Tomás Fernández,Alvarado de Mar del Plata,1,0
+9903,Tomás Lanzini,Platense,1,0
+9904,Tomás López,Gimnasia y Esgrima de Mendoza,1,0
+9905,Tomás Mantia,Flandria,1,0
+9906,Tomás Ortíz,Chacarita Juniors,1,0
+9907,Tomás Patrizio,Brown de Adrogué,1,0
+9908,Tomás Pozzo,Godoy Cruz Antonio Tomba,1,0
+9909,Tomás Pérez,Los Andes,1,0
+9910,Tomás Pérez Serra,Chacarita Juniors,1,0
+9911,Tomás Pérez Serra,Tristán Suárez,1,0
+9912,Tomás Rojas,Atlanta,1,0
+9913,Tomás Rossi,Godoy Cruz Antonio Tomba,1,0
+9914,Tomás Sives,Los Andes,1,0
+9915,Tomás Villoldo,Almirante Brown,1,0
+9916,Toribo D. Aquino,Banfield,1,0
+9917,Ulises Guakinchay,Gimnasia y Esgrima de Mendoza,1,0
+9918,Ulises Yegros,Atlético de Rafaela,1,0
+9919,Valentin Chocobar,Chacarita Juniors,1,0
+9920,Valentin Perales,Deportivo Morón,1,0
+9921,Valentino Werro,Guillermo Brown de Puerto Madryn,1,0
+9922,Valentín Aguiñagalde,Temperley,1,0
+9923,Valentín Albano,Villa Dálmine,1,0
+9924,Valentín Gargiulo,Ferrocarril Midland,1,0
+9925,Valentín Gargiulo,Villa Dálmine,1,0
+9926,Valentín Larralde,San Martín de Tucumán,1,0
+9927,Valentín Rodríguez,Temperley,1,0
+9928,Valentín Serrano,Arsenal FC,1,0
+9929,Valentín Umeres,Villa Dálmine,1,0
+9930,Vicente Barberini,Villa Dálmine,1,0
+9931,Vicente Monje,All Boys,1,0
+9932,Vicente Monje,Platense,1,0
+9933,Victorio Martini,Defensores de Belgrano,1,0
+9934,Victorio Ramis,Ferro Carril Oeste,1,0
+9935,Victorio Ramis,Independiente Rivadavia de Mendoza,1,0
+9936,Victorio Ramos,Talleres de Córdoba,1,0
+9937,Vladimiro Bahl,Atlético de Rafaela,1,0
+9938,Víctor A. Lucero,Deportivo Italiano,1,0
+9939,Víctor A. Lucero,Deportivo Laferrere,1,0
+9940,Víctor Bocchio,El Porvenir,1,0
+9941,Víctor Cuesta,Huracán,1,0
+9942,Víctor G. Molina,Banfield,1,0
+9943,Víctor H. Crema,Banfield,1,0
+9944,Víctor H. Zacharsky,Douglas Haig de Pergamino,1,0
+9945,Víctor J. Wolheim,Colón,1,0
+9946,Víctor J. Wolheim,Huracán,1,0
+9947,Víctor López,Racing de Córdoba,1,0
+9948,Víctor M. Rabuñal Ferrari,Unión de Santa Fe,1,0
+9949,Víctor Malcorra,Aldosivi de Mar del Plata,1,1
+9950,Víctor Molina,Chacarita Juniors,1,0
+9951,Víctor Piriz Alvez,Defensa y Justicia,1,0
+9952,Víctor Rodríguez,San Martín de Tucumán,1,0
+9953,Víctor Toledo,Argentino de Rosario,1,0
+9954,Walter A. Boldorini,Deportivo Laferrere,1,0
+9955,Walter A. Cuvertino,Godoy Cruz Antonio Tomba,1,0
+9956,Walter A. Parodi,Almagro,1,0
+9957,Walter A. Parodi,Defensa y Justicia,1,0
+9958,Walter A. Sarti,Olimpo de Bahía Blanca,1,0
+9959,Walter A. Viqueira,Talleres de Córdoba,1,0
+9960,Walter Acevedo,All Boys,1,0
+9961,Walter Alcaraz,Chacarita Juniors,1,0
+9962,Walter Bracamonte,Alvarado de Mar del Plata,1,0
+9963,Walter Busse,Defensa y Justicia,1,0
+9964,Walter Busse,Ferro Carril Oeste,1,0
+9965,Walter Busse,San Martín de Tucumán,1,0
+9966,Walter Bustos,Belgrano de Córdoba,1,0
+9967,Walter Bustos,Comisión de Actividades Infantiles,1,0
+9968,Walter Cúder,Unión de Santa Fe,1,0
+9969,Walter F. De Felippe,Quilmes,1,0
+9970,Walter F. Obregón,Arsenal FC,1,0
+9971,Walter Fonseca,Banfield,1,0
+9972,Walter Fonseca,Gimnasia y Esgrima de Concepción del Uruguay,1,0
+9973,Walter H. Pajón,Defensa y Justicia,1,0
+9974,Walter J. Paz,All Boys,1,0
+9975,Walter J. Paz,Quilmes,1,0
+9976,Walter M. Caminitti,Talleres de Remedios de Escalada,1,0
+9977,Walter M. Medina,Los Andes,1,0
+9978,Walter Mendoza,Almirante Brown,1,0
+9979,Walter Molina,Atlético Tucumán,1,0
+9980,Walter Montenegro,Aldosivi de Mar del Plata,1,0
+9981,Walter Montoya,Gimnasia y Tiro de Salta,1,0
+9982,Walter Núñez,Ferro Carril Oeste,1,0
+9983,Walter O. Fiori,Tigre,1,0
+9984,Walter O. Lemma,Lanús,1,0
+9985,Walter O. Perazzo,Deportivo Laferrere,1,0
+9986,Walter R. Chazarreta,Cipolletti de Río Negro,1,0
+9987,Walter R. Villafañe,Atlético Concepción de Tucumán,1,1
+9988,Walter Ribonetto,Quilmes,1,0
+9989,Walter Zunino,Gimnasia y Esgrima de Jujuy,1,0
+9990,Washington F. Araujo,Almirante Brown de Arrecifes,1,0
+9991,Wilfredo Olivera,Racing de Córdoba,1,0
+9992,William Machado,Almirante Brown,1,0
+9993,William Machado,Ferro Carril Oeste,1,0
+9994,William Martínez,Ferro Carril Oeste,1,0
+9995,Williams Peralta,Mitre de Santiago del Estero,1,0
+9996,Wilson Dupré,Cipolletti de Río Negro,1,0
+9997,Yair Arizmendi,Douglas Haig de Pergamino,1,0
+9998,Yair González,Chacarita Juniors,1,0
+9999,Yair Marín,Independiente Rivadavia de Mendoza,1,0
+10000,Yeimar Gómez Andrade,Independiente Rivadavia de Mendoza,1,0
+10001,Yoel Juárez,Ramón Santamarina de Tandil,1,0
+10002,Yonathan López,All Boys,1,0
+10003,Yonny Peralta,San Martín de San Juan,1,0
+10004,Yukuse Kato,Huracán,1,0
+10005,Zahir Yunis,Colón,1,0
+10006,Álvaro Veliez,Villa Dálmine,1,0
+10007,Ángel A. De Caterini,Deportivo Morón,1,0
+10008,Ángel Almada,San Miguel,1,0
+10009,Ángel Alonso,Villa Dálmine,1,0
+10010,Ángel Celebroni,Central Córdoba de Rosario,1,0
+10011,Ángel G. Galarza,Comisión de Actividades Infantiles,1,0
+10012,Ángel G. Galarza,Defensa y Justicia,1,0
+10013,Ángel G. Galarza,General Paz Juniors,1,0
+10014,Ángel G. Nasta,Douglas Haig de Pergamino,1,0
+10015,Ángel Guerra,Independiente Rivadavia de Mendoza,1,0
+10016,Ángel J. Mamberto,Chacarita Juniors,1,0
+10017,Ángel J. Mamberto,Cipolletti de Río Negro,1,0
+10018,Ángel L. Carini,Defensa y Justicia,1,0
+10019,Ángel Luna,Villa Dálmine,1,0
+10020,Ángel Puertas,Platense,1,0
+10021,Ángel R. Bernuncio,Juventud Antoniana de Salta,1,0
+10022,Ángel Ronci,Tigre,1,0
+10023,Ángel S. A. Gómez,Gimnasia y Tiro de Salta,1,0
+10024,Ángel S. Villagra,Atlanta,1,0
+10025,Érik Bodencer,Atlanta,1,0
+10026,Érik Bodencer,Sacachispas,1,0
