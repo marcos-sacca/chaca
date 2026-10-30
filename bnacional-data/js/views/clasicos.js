@@ -1,7 +1,7 @@
 // clásicos: un rival por club (cargado a mano o, si no hay, el más enfrentado) y armador de cruces propios
 import { route } from "../app.js";
 import { S } from "../store.js";
-import { h, n, norm, fshort } from "../util.js";
+import { h, n, norm, fshort, mdate } from "../util.js";
 import { head, sec, T, crest, href } from "./common.js";
 import { h2hMatches, h2hSummary, rivalsOf, hrefH2H } from "./historial.js";
 
@@ -48,7 +48,7 @@ route("clasicos", async () => {
     const saved = getMine().some(([x, y]) => x === S.teams[a].s && y === S.teams[b].s);
     out.replaceChildren(h("div.cl__res", [
       h("div.cl__vs", [h("span", [crest(a), h("b", T(a).short)]), h("span.cl__score", s.pj ? `${s.pg} - ${s.pe} - ${s.pp}` : "—"), h("span", [h("b", T(b).short), crest(b)])]),
-      h("p.muted", s.pj ? `${s.pj} partidos en la categoría · goles ${s.gf} a ${s.gc} · G - E - P desde ${T(a).short}${last ? ` · último: ${last[4] === a ? last[6] : last[7]}-${last[4] === a ? last[7] : last[6]} (${S.seasons[last[0]].label}, ${fshort(last[3])})` : ""}` : "Nunca se enfrentaron en la base."),
+      h("p.muted", s.pj ? `${s.pj} partidos en la categoría · goles ${s.gf} a ${s.gc} · G - E - P desde ${T(a).short}${last ? ` · último: ${last[4] === a ? last[6] : last[7]}-${last[4] === a ? last[7] : last[6]} (${S.seasons[last[0]].label}${mdate(last) ? ", " + mdate(last) : ""})` : ""}` : "Nunca se enfrentaron en la base."),
       h("div.cl__act", [h("a.btn", { href: hrefH2H(a, b) }, "Ver historial completo"), h("button.btn.btn--ghost", { type: "button", disabled: saved, onclick: () => { setMine([...getMine(), [S.teams[a].s, S.teams[b].s]]); drawMine(); drawOut(); } }, saved ? "Ya está en mis cruces" : "Guardar en mis cruces")]),
     ]));
   };

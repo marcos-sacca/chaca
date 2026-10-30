@@ -1,6 +1,6 @@
 import { route } from "../app.js";
 import { S } from "../store.js";
-import { h, n, fshort, fdate } from "../util.js";
+import { h, n, fshort, fdate, mdate } from "../util.js";
 import { ascCard, head, sec, table, T, href, pill, crest, plantelBox } from "./common.js";
 import { imgSrc } from "../util.js";
 
@@ -50,7 +50,7 @@ route("t", async (r) => {
   const phSel = h("select#rph", { "aria-label": "Fase", onchange: (e) => { ph = Number(e.target.value); rd = null; fillRd(); drawR(); } }, phases.map((p) => h("option", { value: p }, S.phases[p])));
   const rdSel = h("select#rrd", { "aria-label": "Fecha", onchange: (e) => { rd = Number(e.target.value); drawR(); } });
   const fillRd = () => { const fs = [...new Set(ms.filter((m) => m[1] === ph).map((m) => m[2]))].sort((a, b) => a - b); rd = rd ?? fs[0]; rdSel.replaceChildren(...fs.map((f) => h("option", { value: f, selected: f === rd }, f ? `Fecha ${f}` : "Sin número"))); };
-  const drawR = () => { results.replaceChildren(...ms.filter((m) => m[1] === ph && m[2] === rd).map((m) => h("div.res", [h("span.res__d", fshort(m[3])), h("a.res__h", { href: href.club(m[4]) }, T(m[4]).short), h("b.res__s", `${m[6]} - ${m[7]}`), h("a.res__a", { href: href.club(m[5]) }, T(m[5]).short)]))); };
+  const drawR = () => { results.replaceChildren(...ms.filter((m) => m[1] === ph && m[2] === rd).map((m) => h("div.res", [h("span.res__d", mdate(m)), h("a.res__h", { href: href.club(m[4]) }, T(m[4]).short), h("b.res__s", `${m[6]} - ${m[7]}`), h("a.res__a", { href: href.club(m[5]) }, T(m[5]).short)]))); };
   fillRd(); drawR();
   page.append(sec("Resultados", [h("div.toolbar", [phases.length > 1 ? phSel : null, rdSel]), results]));
   if (s.reducidos.length) {

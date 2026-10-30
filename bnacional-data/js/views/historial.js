@@ -1,7 +1,7 @@
 // historiales: cara a cara entre dos clubes y resumen de un club contra cada rival
 import { route } from "../app.js";
 import { S } from "../store.js";
-import { h, n, fshort, imgSrc } from "../util.js";
+import { h, n, fshort, imgSrc, mdate } from "../util.js";
 import { head, sec, table, T, href, crest, monogram } from "./common.js";
 
 const SEP = "_vs_";
@@ -100,7 +100,7 @@ route("historial", async (r) => {
   page.append(h("div.h2h__bar", { role: "img", "aria-label": `${s.pg} victorias de ${T(a).short}, ${s.pe} empates, ${s.pp} victorias de ${T(b).short}` }, [bar(s.pg, "is-a"), bar(s.pe, "is-e"), bar(s.pp, "is-b")].filter(Boolean)));
   const first = S.matches[list[0]], last = S.matches[list[list.length - 1]];
   page.append(h("div.stats", [["Partidos", s.pj], [`Goles ${T(a).short}`, s.gf], [`Goles ${T(b).short}`, s.gc], [`${T(a).short} de local`, `${s.loc.pg}-${s.loc.pe}-${s.loc.pp}`], [`${T(a).short} de visitante`, `${s.vis.pg}-${s.vis.pe}-${s.vis.pp}`]].map(([l, v]) => h("div.stat", [h("b", typeof v === "number" ? n(v) : v), h("span", l)]))));
-  page.append(h("p.muted.h2h__note", `Primer partido: ${fshort(first[3])} (${S.seasons[first[0]].label}). Último: ${fshort(last[3])} (${S.seasons[last[0]].label}). De local y de visitante: ganados-empatados-perdidos de ${T(a).short}.`));
+  page.append(h("p.muted.h2h__note", `Primer partido: ${mdate(first) || "fecha sin confirmar"} (${S.seasons[first[0]].label}). Último: ${mdate(last) || "fecha sin confirmar"} (${S.seasons[last[0]].label}). De local y de visitante: ganados-empatados-perdidos de ${T(a).short}.`));
 
   // mayores goleadas de cada lado
   const margin = (i) => { const m = S.matches[i]; return (m[4] === a ? m[6] - m[7] : m[7] - m[6]); };
@@ -111,7 +111,7 @@ route("historial", async (r) => {
 
   page.append(sec("Todos los partidos", table([{ label: "Fecha" }, { label: "Temporada" }, { label: "Local", cls: "num" }, { label: "" }, { label: "Visitante" }, { label: "" }],
     list.slice().reverse().map((i) => { const m = S.matches[i], r_ = res(a, i), win = m[6] > m[7] ? 4 : m[6] < m[7] ? 5 : -1; return h("tr", [
-      h("td", fshort(m[3])), h("td", h("a", { href: href.season(m[0]) }, S.seasons[m[0]].label)),
+      h("td", mdate(m)), h("td", h("a", { href: href.season(m[0]) }, S.seasons[m[0]].label)),
       h("td.num", win === 4 ? h("b", T(m[4]).short) : T(m[4]).short),
       h("td.h2h__score", `${m[6]} - ${m[7]}`),
       h("td", win === 5 ? h("b", T(m[5]).short) : T(m[5]).short),

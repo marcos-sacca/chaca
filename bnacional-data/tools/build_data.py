@@ -78,7 +78,7 @@ for p in P:
     ph = p["Fase"]
     if ph not in pix:
         pix[ph] = len(phases); phases.append(ph)
-    mlist.append([six[p["Temporada"]], pix[ph], num(p["Fecha torneo"], 0), p["Fecha calendario"], tix[p["Local"]], tix[p["Visitante"]], num(p["Goles local"]), num(p["Goles visitante"])])
+    mlist.append([six[p["Temporada"]], pix[ph], num(p["Fecha torneo"], 0), p["Fecha calendario"], tix[p["Local"]], tix[p["Visitante"]], num(p["Goles local"]), num(p["Goles visitante"])] + ([1] if "aproximada" in p["Observaciones"].lower() else []))  # 9.º valor = fecha aproximada: la pantalla no la muestra
 mlist.sort(key=lambda m: (m[0], m[3], m[2]))
 
 # --- goleadores por temporada / jugador / equipo

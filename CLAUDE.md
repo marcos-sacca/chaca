@@ -61,7 +61,7 @@ node bnacional-data/tools/smoke_test.mjs [carpeta_capturas]
 1. Volver reproducible `run.py` (arriba).
 2. Cerrar los 161 pendientes: primero los duplicados de jugadores con más goles (verificar en Wikipedia/Transfermarkt; los dudosos van a `NO_UNIFICAR`), después las fases desparejas contra RSSSF/Wikipedia, y anotar el motivo de cada decisión.
 3. Las **promociones contra equipos de Primera División** no están (las crónicas son de la B Nacional). Acordado: **hacerlo en otra rama**, desde RSSSF u otra fuente, como archivo aparte (`promociones.csv`) sin tocar lo corregido.
-4. Fechas reales de los 19 partidos con fecha aproximada, si aparece una fuente.
+4. Fechas reales de los 14 partidos con fecha aproximada (observación «fecha aproximada»; de los 19 agregados por consistencia, 5 tienen fecha de fuente), si aparece una fuente. El sitio ya no muestra esa fecha (`mdate()` en `util.js`; `build_data.py` marca el partido con un 9.º valor en `matches.json`).
 
 ## 5. Sitio `bnacional-data/`
 
@@ -119,7 +119,7 @@ HTML + CSS + módulos ES nativos, **sin framework ni build**. Fuentes Archivo (v
 7. Fotos para los 57 clubes sin fotos (Commons; también pedir a la gente por mail) y revisar los dos escudos compartidos.
 8. Conseguir formaciones/planteles anteriores a 2014 (no hay fuente conocida: ver RSSSF, Wikipedia por club, libros digitalizados).
 9. Chacarita: revisar las listas `revisar_*.csv` y seguir completando huecos (§8).
-10. Mejoras del sitio que se hablaron: ocultar la fecha cuando es «aproximada» en los 19 partidos agregados; `Menú` en una línea con 11 secciones (Nico ya lo ajustó; si se suma una sección más, revisar a 1280 px).
+10. Mejoras del sitio que se hablaron (la fecha «aproximada» ya se oculta): `Menú` en una línea con 11 secciones (Nico ya lo ajustó; si se suma una sección más, revisar a 1280 px).
 
 ## 10. Cómo trabajar acá
 

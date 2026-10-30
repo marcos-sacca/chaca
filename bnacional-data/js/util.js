@@ -23,6 +23,8 @@ export function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t 
 export const MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
 export const fdate = (iso) => { const [y, m, d] = iso.split("-").map(Number); return `${d} de ${MESES[m - 1]} de ${y}`; };
 export const fshort = (iso) => { const [y, m, d] = iso.split("-"); return `${d}/${m}/${y.slice(2)}`; };
+// fecha corta de un partido de S.matches; vacía si la fecha es aproximada (se agregó desde otra fuente sin día exacto)
+export const mdate = (m) => (m[8] ? "" : fshort(m[3]));
 export function countUp(el, to, ms = 900) {
   if (matchMedia("(prefers-reduced-motion: reduce)").matches) { el.textContent = n(to); return; }
   const t0 = performance.now();
