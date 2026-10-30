@@ -28,6 +28,15 @@ RENOMBRES = {
 RENOMBRES_SIEMPRE = {
     "Talleres (R.E)": "Talleres de Remedios de Escalada",  # Solo Ascenso 2024 y 2025; se asignaba a Talleres de Córdoba
 }
+# partidos que faltan en la crónica, verificados a mano contra otra fuente (se agregan si no están)
+AGREGAR = [
+    dict(Temporada="2002/03", Fase="Torneo Clausura", Local="Instituto de Córdoba", Visitante="Belgrano de Córdoba", gl=0, gv=0, fecha="2003-03-09", fecha_torneo="6",
+         fuente="RSSSF (rsssf.org/tablesa/arg2-03.html), fecha 6 del Clausura; con este partido Instituto suma 60 como en la tabla publicada. Fecha calendario aproximada"),
+]
+# diferencias con la tabla publicada ya revisadas a mano (quedan explicadas en pendientes)
+NOTAS = {
+    ("1998/99", "Instituto de Córdoba"): "La crónica y RSSSF tienen los mismos 30 resultados (16-7-7, 55 pts, 57-31), pero la tabla publicada dice 17-6-7, 57 pts, 57-30: un empate se le habrá dado ganado 1-0 en escritorio. Sin saber cuál, no se cambia.",
+}
 # 3. última fecha de la fase regular (Solo Ascenso sigue la numeración en el reducido y las finales)
 ULTIMA_FECHA = {"2017/18": 25, "2019/20": 21, "Transición 2020": 7, "2021": 34, "2022": 37, "2023": 38, "2024": 38, "2025": 34}
 TORNEO_EXTRA = {"Transición 2020": "Fase final (Transición 2020)"}  # no es un reducido: segunda fase por zonas
@@ -372,6 +381,21 @@ def main(data, tm_json=None, sa_path=None):
     P = [p for p in P if p["ID Partido"] not in drop] + add
     G = [g for g in G if g["ID Partido"] not in drop]
 
+    # --- 2b. partidos faltantes verificados a mano
+    for a in AGREGAR:
+        if any(p["Temporada"] == a["Temporada"] and p["Fase"] == a["Fase"] and p["Local"] == a["Local"] and p["Visitante"] == a["Visitante"] for p in P):
+            continue
+        code = a["Temporada"].replace("/", "").replace("Transición ", "T")
+        nid[code] += 1
+        mid = f"{code}-M{nid[code]:02d}"
+        w = ptsw.get(a["Temporada"], 3)
+        res = "L" if a["gl"] > a["gv"] else "V" if a["gv"] > a["gl"] else "E"
+        pl_, pv_ = (w, 0) if res == "L" else (0, w) if res == "V" else (1, 1)
+        P.append({"ID Partido": mid, "Temporada": a["Temporada"], "Fase": a["Fase"], "Fecha torneo": a["fecha_torneo"], "Fecha calendario": a["fecha"], "Ciudad": "", "Cancha": "", "Origen dato cancha": "Sin dato", "Local": a["Local"], "Visitante": a["Visitante"],
+                  "Goles local": a["gl"], "Goles visitante": a["gv"], "Resultado (L/E/V)": res, "Pts local": pl_, "Pts visitante": pv_, "Estado": "Jugado", "Control goles": "OK" if a["gl"] + a["gv"] == 0 else "Sin goleadores",
+                  "Observaciones": "Agregado a mano: " + a["fuente"], "Local (nombre en fuente)": a["Local"], "Visitante (nombre en fuente)": a["Visitante"], "ID Fuente": ""})
+        log.append([a["Temporada"], "Partido faltante (agregado a mano)", mid, a["Local"], a["Visitante"], f"{a['gl']}-{a['gv']}", a["fecha"], a["fuente"], "Revisión manual"])
+
     # --- 3. reducido y finales cargados como fase regular (Solo Ascenso)
     regular = collections.defaultdict(set)
     for p in P:
@@ -401,6 +425,8 @@ def main(data, tm_json=None, sa_path=None):
             if g["Jugador"] == old:
                 g["Jugador"] = new
         log.append(["", "Jugador unificado", "", old, new, "", "", why, "Goleadores"])
+    for (s_, t_), nota in NOTAS.items():
+        pend.append([s_, "", t_, "", "Diferencia con la tabla publicada (revisada)", nota])
     for old, new, why in dudas:
         pend.append(["", "Jugadores", f"{old} / {new}", "", why, ""])
 

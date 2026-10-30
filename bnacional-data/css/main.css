@@ -330,3 +330,4 @@ button.gcell { cursor: pointer; font-size: 1.4rem; transition: background .15s, 
 .red__q { font-size: .86rem; margin: -2px 0 8px; } .red__x { display: block; font-size: .68rem; font-weight: 500; color: var(--muted); }
 .red__leg td { border-bottom-style: dashed; } .red__glob td { background: var(--fog); font-size: .86rem; padding: 7px 12px; } .red__glob b { color: var(--ink); }
 .red__tbl .red__win a { font-weight: 800; color: var(--ink); } .red__tbl .red__lose a { font-weight: 500; color: var(--muted); }
+.gcats { margin: 0 0 16px; }

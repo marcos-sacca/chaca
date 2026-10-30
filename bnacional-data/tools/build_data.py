@@ -175,6 +175,7 @@ if SA.exists():
     from names_ext import best_among
     import datetime as _dt
     tmap, pj, pname = {"Talleres (R.E)": "Talleres de Remedios de Escalada"}, collections.defaultdict(collections.Counter), {}
+    ppos = collections.defaultdict(collections.Counter)
     # solo formaciones de partidos que están en la base (misma fecha ±2 días y mismos equipos): deja afuera
     # los partidos de otras categorías mal rotulados en la fuente y el reducido
     known = set()
@@ -199,9 +200,12 @@ if SA.exists():
                     if len(x) > 4 and x[4]:
                         pj[x[4]][tix[t]] += 1
                         pname[x[4]] = x[1]
+                        if len(x) > 3 and x[3]:
+                            ppos[x[4]][x[3]] += 1
     for pid, c in pj.items():
         if len(c) >= 2 and sum(c.values()) >= 30:
-            titulares["p"].append([pname[pid], sorted(([t, n] for t, n in c.items()), key=lambda x: -x[1])])
+            pos = ppos[pid].most_common(1)[0][0] if ppos[pid] else ""
+            titulares["p"].append([pname[pid], sorted(([t, n] for t, n in c.items()), key=lambda x: -x[1]), pos])
     titulares["p"].sort(key=lambda x: x[0])
     titulares["nota"] = "Partidos como titular en la Primera Nacional desde 2014 (formaciones confirmadas de Solo Ascenso)."
 

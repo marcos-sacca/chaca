@@ -66,67 +66,91 @@ function shareBox(text) {
 const tabs = (cur) => h("nav.gtabs", { "aria-label": "Juegos" }, [["jugador", "Adiviná el jugador"], ["contrarreloj", "Contrarreloj"], ["grilla", "La grilla"], ["masgoles", "¿Quién hizo más?"]].map(([k, l]) => h("a.chip", { href: "#" + k, "aria-pressed": String(cur === k) }, l)));
 const modeSwitch = (base, libre) => h("div.gmode", [h("a" + (libre ? "" : ".on"), { href: "#" + base }, `Desafío del día #${dayNum()}`), h("a" + (libre ? ".on" : ""), { href: `#${base}-libre` }, "Práctica libre")]);
 
-// ---------- 1. Adiviná el jugador ----------
-const MAXC = 6;
-const POOLS = { facil: { l: "Fácil", f: (o) => o.teams.size >= 3 && o.g >= 40 }, normal: { l: "Normal", f: (o) => o.teams.size >= 3 && o.g >= 20 }, dificil: { l: "Difícil", f: (o) => o.teams.size >= 2 && o.g >= 8 } };
-const DAILY = (o) => o.teams.size >= 3 && o.g >= 25;
-function cluesFor(o) {
-  const tl = [...o.teams.values()].sort((a, b) => b.g - a.g).slice(0, MAXC).sort((a, b) => a.g - b.g || a.s0 - b.s0); // el club donde más gritó, al final
-  const extra = o.teams.size - tl.length;
-  const ini = o.name.replace(/\./g, "").split(/\s+/).map((w) => w[0].toUpperCase() + ".").join(" ");
-  return [...tl.map((c) => ({ k: "club", t: c.t })),
-    { k: "txt", l: "Época", v: `de ${S.seasons[o.s0].label} a ${S.seasons[o.s1].label}` },
-    { k: "txt", l: "Goles en la categoría", v: n(o.g) + (extra ? ` · y convirtió en ${extra} ${extra === 1 ? "club" : "clubes"} más` : "") },
-    { k: "txt", l: "Iniciales", v: ini }];
-}
-const jState = { lvl: "normal" };
+// ---------- 1. Adiviná el jugador: por categorías, todo a la vista, puntos por tiempo ----------
+const CATS = [
+  { k: "goleadores", l: "Goleadores", e: "⚽", d: "50 goles o más en la B Nacional", src: "g", f: (o) => o.g >= 50 && o.teams.size >= 2 },
+  { k: "idolos", l: "Ídolos", e: "🏟️", d: "30 goles o más en un mismo club", src: "g", f: (o) => o.teams.size >= 2 && Math.max(...[...o.teams.values()].map((c) => c.g)) >= 30 },
+  { k: "clasicos", l: "Clásicos del ascenso", e: "🧳", d: "hicieron goles en 5 clubes o más", src: "g", f: (o) => o.teams.size >= 5 && o.g >= 25 },
+  { k: "arqueros", l: "Arqueros", e: "🧤", d: "titulares en la Primera Nacional desde 2014", src: "t", f: (o) => o.pos === "arquero" && o.clubs.length >= 2 && o.pj >= 60 },
+];
+const tPoints = (secs) => (secs < 30 ? 5 : secs < 60 ? 3 : 1);
+const ptsEmoji = (p) => (p >= 5 ? "🟩" : p >= 3 ? "🟨" : p >= 1 ? "🟧" : "🟥");
+const poolOf = (c) => (c.src === "g" ? P.all.filter(c.f) : prepCR().all.filter(c.f));
+const roundFor = (c, rnd) => { const o = pick1(poolOf(c), rnd); return { cat: c.k, id: c.src === "g" ? o.p : o.i, t0: null, errs: [], done: false, won: false, secs: 0, pts: 0 }; };
+const jState = { cat: "goleadores", total: 0, played: 0 };
 route("jugador", async (r) => {
-  prep();
+  prep(); prepCR();
   const libre = r.arg === "libre", N = dayNum(), page = h("div.wrap.page"), box = h("div.game");
-  const fresh = (pool, rnd) => ({ pid: pick1(pool, rnd).p, shown: 1, guesses: [], done: false, won: false });
+  const catOf = (k) => CATS.find((c) => c.k === k);
   let st;
-  if (libre) st = fresh(P.all.filter(POOLS[jState.lvl].f), Math.random);
-  else { const sv = getLS().jugador; st = sv && sv.day === N && P.byId.has(sv.pid) ? sv : { day: N, ...fresh(P.all.filter(DAILY), rng(N * 7919 + 11)) }; }
-  const persist = () => { if (!libre) setLS("jugador", st); };
-  let msg = "";
-
+  if (libre) st = { rounds: [roundFor(catOf(jState.cat), Math.random)], i: 0 };
+  else {
+    const sv = getLS().jugador2;
+    if (sv && sv.day === N && sv.rounds) st = sv;
+    else { const rnd = rng(N * 7919 + 11); st = { day: N, rounds: CATS.filter((c) => poolOf(c).length).map((c) => roundFor(c, rnd)), i: 0 }; }
+  }
+  const persist = () => { if (!libre) setLS("jugador2", st); };
+  let msg = "", timer = null;
+  const clock = h("b.cr__clock"), live = h("span.cr__pts");
+  const cur = () => st.rounds[st.i];
+  const subject = (rd) => { const c = catOf(rd.cat); return c.src === "g" ? P.byId.get(rd.id) : CR.all[rd.id]; };
+  const tick = () => {
+    if (!clock.isConnected && timer) { clearInterval(timer); timer = null; return; }
+    const rd = cur(); if (!rd || rd.done || !rd.t0) return;
+    const t = Math.floor((Date.now() - rd.t0) / 1000);
+    clock.textContent = mmss(t); live.textContent = `${tPoints(t)} ${tPoints(t) === 1 ? "punto" : "puntos"} en juego`;
+  };
+  const finish = (rd, won) => {
+    rd.done = true; rd.won = won; rd.secs = Math.floor((Date.now() - rd.t0) / 1000); rd.pts = won ? tPoints(rd.secs) : 0;
+    if (libre) { jState.total += rd.pts; jState.played++; }
+  };
   const guess = (o) => {
-    if (st.done) return;
-    const cl = cluesFor(P.byId.get(st.pid));
-    if (o && st.guesses.includes(o.p)) { msg = `Ya probaste con ${o.name}.`; return draw(); }
-    st.guesses.push(o ? o.p : null); msg = "";
-    if (o && o.p === st.pid) { st.done = st.won = true; }
-    else if (st.shown >= cl.length) st.done = true;
-    else { st.shown++; msg = o ? `No es ${o.name}. Ahí va otra pista.` : "Ahí va otra pista."; }
+    const rd = cur(); if (!rd || rd.done) return;
+    const ans = subject(rd), c = catOf(rd.cat);
+    const ok = c.src === "g" ? o.p === ans.p || o.q === ans.q : o.q === ans.q;
+    if (ok) finish(rd, true);
+    else if (!rd.errs.includes(o.name)) { rd.errs.push(o.name); msg = `No es ${o.name}.`; }
     persist(); draw();
   };
+  const clubsView = (rd) => {
+    const c = catOf(rd.cat), o = subject(rd);
+    const items = c.src === "g" ? [...o.teams.values()].sort((a, b) => b.g - a.g).map((x) => [x.t, `${x.g} ${x.g === 1 ? "gol" : "goles"}`]) : o.clubs.map(([t, k]) => [t, `${k} ${k === 1 ? "partido" : "partidos"} de titular`]);
+    const total = c.src === "g" ? `${n(o.g)} goles en ${o.teams.size} clubes de la B Nacional` : `${n(o.pj)} partidos de titular en ${o.clubs.length} clubes de la Primera Nacional`;
+    return [h("p.muted.game__q", [h("span.pill", `${c.e} ${c.l}`), ` ${total}. ¿Quién es?`]), h("ol.gclues", items.map(([t, txt]) => h("li.gclue", [crest(t), h("span", [h("b", T(t).short), h("small", txt)])])))];
+  };
   const draw = () => {
-    const o = P.byId.get(st.pid), cl = cluesFor(o), shown = st.done ? cl.length : st.shown;
-    const clue = (c, i) => i >= shown ? h("li.gclue.gclue--off", [h("span.gclue__i", i + 1), h("span", "Pista bloqueada")])
-      : c.k === "club" ? h("li.gclue", [h("span.gclue__i", i + 1), crest(c.t), h("b", T(c.t).short)])
-      : h("li.gclue.gclue--t", [h("span.gclue__i", i + 1), h("span", [h("small", c.l), h("b", c.v)])]);
-    const tries = st.guesses.length ? h("ol.gtries", st.guesses.map((g) => h("li" + (g === st.pid ? ".ok" : g == null ? ".skip" : ".no"), g == null ? "Pasé" : P.byId.get(g).name))) : null;
-    const kids = [h("p.muted.game__q", "Hizo goles en la B Nacional para estos clubes. ¿Quién es?"), h("ol.gclues", cl.map(clue)), tries];
-    if (!st.done) {
-      const pk = playerPicker(guess);
-      kids.push(h("div.game__play", [pk.el, h("button.btn.btn--ghost", { type: "button", onclick: () => guess(null) }, "Pasar y ver otra pista")]), msg ? h("p.game__msg", msg) : null, h("p.muted.game__left", `Pista ${shown} de ${cl.length}. Cada error suma una pista.`));
-      box.replaceChildren(...kids.filter(Boolean)); if (st.guesses.length) pk.focus(); return;
+    const rd = cur(), kids = [];
+    if (!libre) kids.push(h("div.mg__dots", st.rounds.map((x, i) => h("i" + (x.done ? (x.won ? ".ok" : ".no") : ""), { title: catOf(x.cat).l + (x.done ? `: ${x.pts} pts` : "") }))));
+    if (rd && !rd.done) {
+      if (!rd.t0) { rd.t0 = Date.now(); persist(); }
+      const c = catOf(rd.cat);
+      const pk = playerPicker(guess, "Escribí el nombre del jugador", c.src === "g" ? P.bySearch : CR.bySearch);
+      kids.push(h("div.cr__bar", [h("span", ["⏱ ", clock]), live]), ...clubsView(rd));
+      if (rd.errs.length) kids.push(h("ol.gtries", rd.errs.map((e) => h("li.no", e))));
+      kids.push(h("div.game__play", [pk.el, h("button.btn.btn--ghost", { type: "button", onclick: () => { finish(rd, false); persist(); draw(); } }, "Me rindo")]), msg ? h("p.game__msg", msg) : null,
+        h("p.muted.game__left", "Antes de los 30 segundos: 5 puntos. Hasta el minuto: 3. Después: 1. Los errores no restan."));
+      box.replaceChildren(...kids.filter(Boolean)); tick(); if (!timer) timer = setInterval(tick, 1000); pk.focus(); return;
     }
-    const career = [...o.teams.values()].sort((a, b) => a.s0 - b.s0);
-    kids.push(h("div.gres" + (st.won ? ".gres--ok" : ".gres--no"), [
-      h("p.eyebrow", st.won ? `¡Bien! Lo sacaste con ${st.shown} ${st.shown === 1 ? "pista" : "pistas"}` : "Esta vez no salió"),
-      h("h2", o.name), h("p.muted", `${n(o.g)} goles en la categoría, de ${S.seasons[o.s0].label} a ${S.seasons[o.s1].label}.`),
-      h("ul.gcareer", career.map((c) => h("li", [crest(c.t), h("a", { href: href.club(c.t) }, T(c.t).short), h("small", `${c.s0 === c.s1 ? S.seasons[c.s0].label : S.seasons[c.s0].label + " a " + S.seasons[c.s1].label} · ${c.g} ${c.g === 1 ? "gol" : "goles"}`)]))),
-    ]));
-    if (libre) kids.push(h("div.game__again", [h("button.btn", { type: "button", onclick: () => { st = fresh(P.all.filter(POOLS[jState.lvl].f), Math.random); msg = ""; draw(); } }, "Otro jugador")]));
-    else {
-      const em = st.guesses.map((g) => (g === st.pid ? "🟩" : g == null ? "⬜" : "🟥")).join("");
-      kids.push(shareBox(`B Nacional Histórica · Adiviná el jugador #${N}\n${em}\n${st.won ? `Lo saqué con ${st.shown} de ${cl.length} pistas` : "No lo saqué"}`), h("p.muted.game__left", [`Mañana hay otro (en ${untilTomorrow()}). Mientras, `, h("a", { href: "#jugador-libre" }, "seguí practicando"), "."]));
+    if (timer) { clearInterval(timer); timer = null; }
+    msg = "";
+    // resultado de la ronda que terminó
+    const last = rd || st.rounds[st.rounds.length - 1], o = subject(last), c = catOf(last.cat);
+    kids.push(...clubsView(last), h("div.gres" + (last.won ? ".gres--ok" : ".gres--no"), [h("p.eyebrow", last.won ? `¡Bien! ${mmss(last.secs)} · ${last.pts} ${last.pts === 1 ? "punto" : "puntos"}` : "Esta vez no salió"), h("h2", o.name)]));
+    const more = !libre && st.i < st.rounds.length - 1;
+    if (libre) {
+      kids.push(h("p.muted.game__left", `Llevás ${jState.total} ${jState.total === 1 ? "punto" : "puntos"} en ${jState.played} ${jState.played === 1 ? "jugador" : "jugadores"}.`), h("div.game__again", h("button.btn", { type: "button", onclick: () => { st = { rounds: [roundFor(catOf(jState.cat), Math.random)], i: 0 }; draw(); } }, "Otro jugador")));
+    } else if (more) {
+      kids.push(h("div.game__again", h("button.btn", { type: "button", onclick: () => { st.i++; persist(); draw(); } }, `Siguiente: ${catOf(st.rounds[st.i + 1].cat).l} →`)));
+    } else {
+      const tot = st.rounds.reduce((a, x) => a + x.pts, 0), max = st.rounds.length * 5;
+      kids.push(h("div.gres", [h("p.eyebrow", "Desafío del día"), h("h2", `${tot} de ${max} puntos`)]),
+        shareBox(`B Nacional Histórica · Adiviná el jugador #${N}\n${st.rounds.map((x) => `${catOf(x.cat).e}${ptsEmoji(x.pts)}`).join(" ")}\n${tot}/${max} puntos`),
+        h("p.muted.game__left", [`Mañana hay otro (en ${untilTomorrow()}). Mientras, `, h("a", { href: "#jugador-libre" }, "seguí practicando"), "."]));
     }
     box.replaceChildren(...kids);
   };
-  const lvl = libre ? h("label.sel", ["Dificultad ", h("select", { onchange: (e) => { jState.lvl = e.target.value; st = fresh(P.all.filter(POOLS[jState.lvl].f), Math.random); msg = ""; draw(); } }, Object.entries(POOLS).map(([k, v]) => h("option", { value: k, selected: k === jState.lvl }, v.l)))]) : null;
-  page.append(head("Juegos", "Adiviná el jugador", "Te mostramos los clubes para los que hizo goles en la categoría, de a uno. Cuantas menos pistas necesites, mejor."), tabs("jugador"), h("div.gbar", [modeSwitch("jugador", libre), lvl]), box);
+  const catChips = libre ? h("div.chips.gcats", CATS.map((c) => h("button.chip", { type: "button", "aria-pressed": String(jState.cat === c.k), title: c.d, onclick: () => { jState.cat = c.k; st = { rounds: [roundFor(c, Math.random)], i: 0 }; msg = ""; page.querySelectorAll(".gcats .chip").forEach((x) => x.setAttribute("aria-pressed", String(x.title === c.d))); draw(); } }, `${c.e} ${c.l}`))) : null;
+  page.append(head("Juegos", "Adiviná el jugador", "Te mostramos sus clubes con los goles que hizo en cada uno (en los arqueros, los partidos de titular). Cuanto más rápido lo saques, más puntos."), tabs("jugador"), h("div.gbar", modeSwitch("jugador", libre)), catChips, box);
   draw();
   return { page, title: "Adiviná el jugador" };
 });
@@ -202,7 +226,7 @@ route("grilla", async (r) => {
 let CR;
 function prepCR() {
   if (CR) return CR;
-  const all = (S.titulares.p || []).map(([name, clubs], i) => ({ i, name, q: norm(name), clubs, pj: clubs.reduce((a, c) => a + c[1], 0) }));
+  const all = (S.titulares.p || []).map(([name, clubs, pos], i) => ({ i, name, q: norm(name), clubs, pos: pos || "", pj: clubs.reduce((a, c) => a + c[1], 0) }));
   CR = { all, bySearch: all.slice().sort((a, b) => b.pj - a.pj), pool: all.filter((o) => o.clubs.length >= 3 && o.pj >= 60) };
   return CR;
 }
@@ -327,10 +351,10 @@ route("masgoles", async (r) => {
 route("juegos", async () => {
   prep();
   const N = dayNum(), d = getLS();
-  const done = (k) => d[k] && d[k].day === N && d[k].done;
+  const done = (k) => (k === "jugador" ? d.jugador2 && d.jugador2.day === N && d.jugador2.rounds.every((x) => x.done) : d[k] && d[k].day === N && d[k].done);
   const card = (k, t, txt) => h("a.gcard", { href: "#" + k }, [h("p.eyebrow", done(k) ? "Ya jugaste el de hoy ✓" : `Desafío del día #${N}`), h("h2", t), h("p", txt), h("span.link", done(k) ? "Ver resultado →" : "Jugar →")]);
   const page = h("div.wrap.page", [head("Juegos", "¿Cuánto sabés de la B Nacional?", "Un desafío nuevo por día, igual para todos, para compartir con amigos. Y práctica libre para cuando quieras."),
-    h("div.gcards", [card("jugador", "Adiviná el jugador", "Te damos los clubes para los que hizo goles, de a uno. ¿Con cuántas pistas lo sacás?"), card("contrarreloj", "Contrarreloj", "Todos sus clubes y partidos de titular a la vista. Corre el reloj: cuanto más rápido, más puntos."), card("grilla", "La grilla", "Nueve casillas, nueve cruces de clubes. Encontrá al jugador que hizo goles para los dos."), card("masgoles", "¿Quién hizo más?", "Dos goleadores, uno contra otro. Diez rondas por día, o racha infinita.")]),
+    h("div.gcards", [card("jugador", "Adiviná el jugador", "Goleadores, ídolos, clásicos del ascenso y arqueros: sus clubes y sus goles a la vista. 5 puntos si lo sacás en menos de 30 segundos."), card("contrarreloj", "Contrarreloj", "Todos sus clubes y partidos de titular a la vista. Corre el reloj: cuanto más rápido, más puntos."), card("grilla", "La grilla", "Nueve casillas, nueve cruces de clubes. Encontrá al jugador que hizo goles para los dos."), card("masgoles", "¿Quién hizo más?", "Dos goleadores, uno contra otro. Diez rondas por día, o racha infinita.")]),
     h("p.muted.game__left", `Los datos salen de los goleadores de cada partido desde 1986/87 (solo aparecen jugadores que convirtieron en la categoría) y, en el contrarreloj, de las formaciones confirmadas de Solo Ascenso desde 2014. El desafío cambia a la medianoche (hora argentina).`)]);
   return { page, title: "Juegos" };
 });
