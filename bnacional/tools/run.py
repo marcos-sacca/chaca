@@ -41,6 +41,7 @@ def main():
     run(*PY, os.path.join(HERE, "bn_build.py"), blog, cat, DATA, rs, tm_json, sa)
     run(*PY, os.path.join(HERE, "bn_export.py"), os.path.join(DATA, "_crudo.json"), DATA)
     run(*PY, os.path.join(HERE, "crosscheck.py"), os.path.join(DATA, "_crudo.json"), rs, tm_json, DATA, sa)
+    run(*PY, os.path.join(HERE, "consistencia.py"), DATA, tm_json, sa)
     run(*PY, os.path.join(HERE, "xlsx_make.py"), DATA, os.path.join(DATA, "B_Nacional_historico.xlsx"))
 
 

@@ -68,7 +68,7 @@
 1988/89,Fase regular,Huracán,,,50,42,,Revisar,SRC-198889-01
 1989/90,Fase regular,Huracán,1,60.0,60,42,0.0,OK,SRC-198990-02
 1989/90,Fase regular,Quilmes,2,53.0,53,42,0.0,OK,SRC-198990-02
-1989/90,Fase regular,Douglas Haig de Pergamino,3,51.0,53,43,2.0,Revisar,SRC-198990-02
+1989/90,Fase regular,Douglas Haig de Pergamino,3,51.0,51,42,0.0,OK,SRC-198990-02
 1989/90,Fase regular,San Martín de Tucumán,4,48.0,48,42,0.0,OK,SRC-198990-02
 1989/90,Fase regular,Lanús,5,47.0,47,42,0.0,OK,SRC-198990-02
 1989/90,Fase regular,Atlético de Rafaela,5,47.0,47,42,0.0,OK,SRC-198990-02
@@ -83,7 +83,7 @@
 1989/90,Fase regular,Los Andes,15,38.0,38,42,0.0,OK,SRC-198990-02
 1989/90,Fase regular,Central Córdoba de Santiago del Estero,16,37.0,37,42,0.0,OK,SRC-198990-02
 1989/90,Fase regular,Deportivo Maipú de Mendoza,17,35.0,35,42,0.0,OK,SRC-198990-02
-1989/90,Fase regular,Talleres de Remedios de Escalada,17,35.0,35,43,0.0,OK,SRC-198990-02
+1989/90,Fase regular,Talleres de Remedios de Escalada,17,35.0,35,42,0.0,OK,SRC-198990-02
 1989/90,Fase regular,Defensa y Justicia,17,35.0,35,42,0.0,OK,SRC-198990-02
 1989/90,Fase regular,Cipolletti de Río Negro,20,33.0,33,42,0.0,OK,SRC-198990-02
 1989/90,Fase regular,Olimpo de Bahía Blanca,21,30.0,30,42,0.0,OK,SRC-198990-02
@@ -92,7 +92,7 @@
 1990/91,Fase regular,Atlético Tucumán,2,52.0,52,42,0.0,OK,SRC-199091-01
 1990/91,Fase regular,Belgrano de Córdoba,2,52.0,53,42,1.0,Revisar,SRC-199091-01
 1990/91,Fase regular,Cipolletti de Río Negro,4,48.0,48,42,0.0,OK,SRC-199091-01
-1990/91,Fase regular,San Martín de Tucumán,4,48.0,43,40,-5.0,Revisar,SRC-199091-01
+1990/91,Fase regular,San Martín de Tucumán,4,48.0,47,42,-1.0,Revisar,SRC-199091-01
 1990/91,Fase regular,Banfield,6,47.0,47,42,0.0,OK,SRC-199091-01
 1990/91,Fase regular,Almirante Brown,7,46.0,46,42,0.0,OK,SRC-199091-01
 1990/91,Fase regular,Instituto de Córdoba,8,44.0,44,42,0.0,OK,SRC-199091-01
@@ -101,15 +101,15 @@
 1990/91,Fase regular,Atlético de Rafaela,11,42.0,42,42,0.0,OK,SRC-199091-01
 1990/91,Fase regular,Talleres de Remedios de Escalada,12,41.0,41,42,0.0,OK,SRC-199091-01
 1990/91,Fase regular,Racing de Nueva Italia,13,40.0,40,42,0.0,OK,SRC-199091-01
-1990/91,Fase regular,Villa Dálmine,14,39.0,39,41,0.0,OK,SRC-199091-01
+1990/91,Fase regular,Villa Dálmine,14,39.0,39,42,0.0,OK,SRC-199091-01
 1990/91,Fase regular,Deportivo Laferrere,14,39.0,39,42,0.0,OK,SRC-199091-01
 1990/91,Fase regular,Defensa y Justicia,16,38.0,38,42,0.0,OK,SRC-199091-01
 1990/91,Fase regular,Deportivo Maipú de Mendoza,16,38.0,38,42,0.0,OK,SRC-199091-01
 1990/91,Fase regular,Colón,18,36.0,36,42,0.0,OK,SRC-199091-01
 1990/91,Fase regular,Deportivo Italiano,19,34.0,34,42,0.0,OK,SRC-199091-01
-1990/91,Fase regular,Central Córdoba de Santiago del Estero,20,33.0,35,43,2.0,Revisar,SRC-199091-01
-1990/91,Fase regular,Atlanta,21,16.0,16,41,0.0,OK,SRC-199091-01
-1990/91,Fase regular,Tigre,,,42,43,,Revisar,SRC-199091-01
+1990/91,Fase regular,Central Córdoba de Santiago del Estero,20,33.0,33,42,0.0,OK,SRC-199091-01
+1990/91,Fase regular,Atlanta,21,16.0,16,42,0.0,OK,SRC-199091-01
+1990/91,Fase regular,Tigre,,,42,42,,Revisar,SRC-199091-01
 1991/92,Fase regular,Lanús,1,57.0,57,42,0.0,OK,SRC-199192-03
 1991/92,Fase regular,Almirante Brown,2,52.0,52,42,0.0,OK,SRC-199192-03
 1991/92,Fase regular,Colón,2,52.0,52,42,0.0,OK,SRC-199192-03
@@ -132,8 +132,8 @@
 1991/92,Fase regular,Villa Dálmine,20,29.0,29,42,0.0,OK,SRC-199192-03
 1991/92,Fase regular,Deportivo Maipú de Mendoza,21,28.0,28,42,0.0,OK,SRC-199192-03
 1991/92,Fase regular,Central Córdoba de Santiago del Estero,22,24.0,26,42,2.0,Revisar,SRC-199192-03
-1992/93,Fase regular,Banfield,1,56.0,57,43,1.0,Revisar,SRC-199293-02
-1992/93,Fase regular,Colón,1,56.0,58,44,2.0,Revisar,SRC-199293-02
+1992/93,Fase regular,Banfield,1,56.0,56,42,0.0,OK,SRC-199293-02
+1992/93,Fase regular,Colón,1,56.0,56,42,0.0,OK,SRC-199293-02
 1992/93,Fase regular,Gimnasia y Tiro de Salta,3,51.0,51,42,0.0,OK,SRC-199293-02
 1992/93,Fase regular,Deportivo Italiano,4,48.0,48,42,0.0,OK,SRC-199293-02
 1992/93,Fase regular,Central Córdoba de Rosario,5,46.0,46,42,0.0,OK,SRC-199293-02
@@ -144,7 +144,7 @@
 1992/93,Fase regular,Unión de Santa Fe,10,43.0,43,42,0.0,OK,SRC-199293-02
 1992/93,Fase regular,Atlético de Rafaela,10,43.0,43,42,0.0,OK,SRC-199293-02
 1992/93,Fase regular,Atlético Tucumán,12,42.0,42,42,0.0,OK,SRC-199293-02
-1992/93,Fase regular,Chaco For Ever,13,41.0,40,41,-1.0,Revisar,SRC-199293-02
+1992/93,Fase regular,Chaco For Ever,13,41.0,41,42,0.0,OK,SRC-199293-02
 1992/93,Fase regular,Talleres de Remedios de Escalada,13,41.0,41,42,0.0,OK,SRC-199293-02
 1992/93,Fase regular,Instituto de Córdoba,13,41.0,41,42,0.0,OK,SRC-199293-02
 1992/93,Fase regular,Deportivo Laferrere,16,40.0,40,42,0.0,OK,SRC-199293-02
@@ -242,37 +242,37 @@
 1995/96,"1ra ""B"" Nacional AFA - Torneo Clausura 1996",Tigre,21,35.0,35,41,0.0,OK,SRC-199596-04
 1995/96,"1ra ""B"" Nacional AFA - Torneo Clausura 1996",All Boys,,,41,42,,Revisar,SRC-199596-04
 1996/97,Etapa Clasificatoria - Zona A1,Belgrano de Córdoba,1,31.0,31,15,0.0,OK,SRC-199697-01
-1996/97,Etapa Clasificatoria - Zona A1,San Martín de San Juan,2,28.0,24,15,-4.0,Revisar,SRC-199697-01
-1996/97,Etapa Clasificatoria - Zona A1,Atlético de Rafaela,2,28.0,24,14,-4.0,Revisar,SRC-199697-01
-1996/97,Etapa Clasificatoria - Zona A1,Olimpo de Bahía Blanca,4,26.0,20,14,-6.0,Revisar,SRC-199697-01
-1996/97,Etapa Clasificatoria - Zona A1,San Martín de Tucumán,5,23.0,20,14,-3.0,Revisar,SRC-199697-01
-1996/97,Etapa Clasificatoria - Zona A1,Aldosivi de Mar del Plata,6,17.0,13,14,-4.0,Revisar,SRC-199697-01
-1996/97,Etapa Clasificatoria - Zona A1,Juventud Antoniana de Salta,7,16.0,13,14,-3.0,Revisar,SRC-199697-01
-1996/97,Etapa Clasificatoria - Zona A1,Chaco For Ever,7,16.0,12,14,-4.0,Revisar,SRC-199697-01
-1996/97,Etapa Clasificatoria - Zona A2,Godoy Cruz Antonio Tomba,1,28.0,27,14,-1.0,Revisar,SRC-199697-02
-1996/97,Etapa Clasificatoria - Zona A2,Gimnasia y Tiro de Salta,2,26.0,26,15,0.0,OK,SRC-199697-02
+1996/97,Etapa Clasificatoria - Zona A1,San Martín de San Juan,2,28.0,28,17,0.0,OK,SRC-199697-01
+1996/97,Etapa Clasificatoria - Zona A1,Atlético de Rafaela,2,28.0,28,16,0.0,OK,SRC-199697-01
+1996/97,Etapa Clasificatoria - Zona A1,Olimpo de Bahía Blanca,4,26.0,26,16,0.0,OK,SRC-199697-01
+1996/97,Etapa Clasificatoria - Zona A1,San Martín de Tucumán,5,23.0,23,15,0.0,OK,SRC-199697-01
+1996/97,Etapa Clasificatoria - Zona A1,Aldosivi de Mar del Plata,6,17.0,17,16,0.0,OK,SRC-199697-01
+1996/97,Etapa Clasificatoria - Zona A1,Juventud Antoniana de Salta,7,16.0,16,15,0.0,OK,SRC-199697-01
+1996/97,Etapa Clasificatoria - Zona A1,Chaco For Ever,7,16.0,16,16,0.0,OK,SRC-199697-01
+1996/97,Etapa Clasificatoria - Zona A2,Godoy Cruz Antonio Tomba,1,28.0,28,16,0.0,OK,SRC-199697-02
+1996/97,Etapa Clasificatoria - Zona A2,Gimnasia y Tiro de Salta,2,26.0,26,16,0.0,OK,SRC-199697-02
 1996/97,Etapa Clasificatoria - Zona A2,Talleres de Córdoba,2,26.0,26,16,0.0,OK,SRC-199697-02
-1996/97,Etapa Clasificatoria - Zona A2,Instituto de Córdoba,4,22.0,21,14,-1.0,Revisar,SRC-199697-02
-1996/97,Etapa Clasificatoria - Zona A2,Atlético Tucumán,5,21.0,18,14,-3.0,Revisar,SRC-199697-02
-1996/97,Etapa Clasificatoria - Zona A2,Cipolletti de Río Negro,6,15.0,15,15,0.0,OK,SRC-199697-02
-1996/97,Etapa Clasificatoria - Zona A2,Douglas Haig de Pergamino,7,13.0,12,14,-1.0,Revisar,SRC-199697-02
-1996/97,Etapa Clasificatoria - Zona A2,Gimnasia y Esgrima de Concepción del Uruguay,7,13.0,12,14,-1.0,Revisar,SRC-199697-02
-1996/97,Etapa Clasificatoria - Zona B4,Los Andes,1,28.0,22,14,-6.0,Revisar,SRC-199697-04
-1996/97,Etapa Clasificatoria - Zona B4,Argentinos Juniors,1,28.0,24,14,-4.0,Revisar,SRC-199697-04
-1996/97,Etapa Clasificatoria - Zona B4,Deportivo Morón,3,27.0,21,14,-6.0,Revisar,SRC-199697-04
-1996/97,Etapa Clasificatoria - Zona B4,Nueva Chicago,4,26.0,23,14,-3.0,Revisar,SRC-199697-04
-1996/97,Etapa Clasificatoria - Zona B4,Chacarita Juniors,5,23.0,21,14,-2.0,Revisar,SRC-199697-04
-1996/97,Etapa Clasificatoria - Zona B4,Deportivo Italiano,6,15.0,12,14,-3.0,Revisar,SRC-199697-04
-1996/97,Etapa Clasificatoria - Zona B4,Sarmiento de Junín,7,12.0,12,14,0.0,OK,SRC-199697-04
-1996/97,Etapa Clasificatoria - Zona B4,Estudiantes de Buenos Aires,8,10.0,9,14,-1.0,Revisar,SRC-199697-04
-1996/97,Etapa Clasificatoria - Zona B3,Almagro,1,27.0,23,14,-4.0,Revisar,SRC-199697-05
-1996/97,Etapa Clasificatoria - Zona B3,Quilmes,2,25.0,24,14,-1.0,Revisar,SRC-199697-05
-1996/97,Etapa Clasificatoria - Zona B3,All Boys,3,24.0,21,14,-3.0,Revisar,SRC-199697-05
-1996/97,Etapa Clasificatoria - Zona B3,Central Córdoba de Rosario,4,23.0,17,14,-6.0,Revisar,SRC-199697-05
-1996/97,Etapa Clasificatoria - Zona B3,Atlanta,5,22.0,20,14,-2.0,Revisar,SRC-199697-05
-1996/97,Etapa Clasificatoria - Zona B3,Arsenal FC,6,16.0,13,14,-3.0,Revisar,SRC-199697-05
-1996/97,Etapa Clasificatoria - Zona B3,Almirante Brown,7,14.0,14,14,0.0,OK,SRC-199697-05
-1996/97,Etapa Clasificatoria - Zona B3,Temperley,8,11.0,11,14,0.0,OK,SRC-199697-05
+1996/97,Etapa Clasificatoria - Zona A2,Instituto de Córdoba,4,22.0,22,16,0.0,OK,SRC-199697-02
+1996/97,Etapa Clasificatoria - Zona A2,Atlético Tucumán,5,21.0,18,15,-3.0,Revisar,SRC-199697-02
+1996/97,Etapa Clasificatoria - Zona A2,Cipolletti de Río Negro,6,15.0,15,17,0.0,OK,SRC-199697-02
+1996/97,Etapa Clasificatoria - Zona A2,Douglas Haig de Pergamino,7,13.0,13,16,0.0,OK,SRC-199697-02
+1996/97,Etapa Clasificatoria - Zona A2,Gimnasia y Esgrima de Concepción del Uruguay,7,13.0,13,16,0.0,OK,SRC-199697-02
+1996/97,Etapa Clasificatoria - Zona B4,Los Andes,1,28.0,28,16,0.0,OK,SRC-199697-04
+1996/97,Etapa Clasificatoria - Zona B4,Argentinos Juniors,1,28.0,28,16,0.0,OK,SRC-199697-04
+1996/97,Etapa Clasificatoria - Zona B4,Deportivo Morón,3,27.0,27,16,0.0,OK,SRC-199697-04
+1996/97,Etapa Clasificatoria - Zona B4,Nueva Chicago,4,26.0,26,16,0.0,OK,SRC-199697-04
+1996/97,Etapa Clasificatoria - Zona B4,Chacarita Juniors,5,23.0,23,16,0.0,OK,SRC-199697-04
+1996/97,Etapa Clasificatoria - Zona B4,Deportivo Italiano,6,15.0,15,16,0.0,OK,SRC-199697-04
+1996/97,Etapa Clasificatoria - Zona B4,Sarmiento de Junín,7,12.0,12,16,0.0,OK,SRC-199697-04
+1996/97,Etapa Clasificatoria - Zona B4,Estudiantes de Buenos Aires,8,10.0,10,16,0.0,OK,SRC-199697-04
+1996/97,Etapa Clasificatoria - Zona B3,Almagro,1,27.0,27,16,0.0,OK,SRC-199697-05
+1996/97,Etapa Clasificatoria - Zona B3,Quilmes,2,25.0,25,16,0.0,OK,SRC-199697-05
+1996/97,Etapa Clasificatoria - Zona B3,All Boys,3,24.0,24,16,0.0,OK,SRC-199697-05
+1996/97,Etapa Clasificatoria - Zona B3,Central Córdoba de Rosario,4,23.0,23,16,0.0,OK,SRC-199697-05
+1996/97,Etapa Clasificatoria - Zona B3,Atlanta,5,22.0,22,16,0.0,OK,SRC-199697-05
+1996/97,Etapa Clasificatoria - Zona B3,Arsenal FC,6,16.0,16,16,0.0,OK,SRC-199697-05
+1996/97,Etapa Clasificatoria - Zona B3,Almirante Brown,7,14.0,14,16,0.0,OK,SRC-199697-05
+1996/97,Etapa Clasificatoria - Zona B3,Temperley,8,11.0,11,16,0.0,OK,SRC-199697-05
 1996/97,"Etapa Permanencia - Zona ""A""",Chaco For Ever,1,29.0,29,16,0.0,OK,SRC-199697-06
 1996/97,"Etapa Permanencia - Zona ""A""",Cipolletti de Río Negro,2,28.0,28,16,0.0,OK,SRC-199697-06
 1996/97,"Etapa Permanencia - Zona ""A""",Instituto de Córdoba,2,28.0,28,16,0.0,OK,SRC-199697-06
@@ -282,18 +282,18 @@
 1996/97,"Etapa Permanencia - Zona ""A""",Douglas Haig de Pergamino,7,19.0,19,16,0.0,OK,SRC-199697-06
 1996/97,"Etapa Permanencia - Zona ""A""",Juventud Antoniana de Salta,8,16.0,16,16,0.0,OK,SRC-199697-06
 1996/97,"Etapa Permanencia - Zona ""A""",Atlético Tucumán,9,14.0,14,16,0.0,OK,SRC-199697-06
-1996/97,Etapa Campeonato,Argentinos Juniors,1,52.0,45,23,-7.0,Revisar,SRC-199697-07
+1996/97,Etapa Campeonato,Argentinos Juniors,1,52.0,52,26,0.0,OK,SRC-199697-07
 1996/97,Etapa Campeonato,Talleres de Córdoba,2,50.0,50,26,0.0,OK,SRC-199697-07
 1996/97,Etapa Campeonato,Godoy Cruz Antonio Tomba,3,48.0,48,26,0.0,OK,SRC-199697-07
 1996/97,Etapa Campeonato,Gimnasia y Tiro de Salta,4,43.0,43,26,0.0,OK,SRC-199697-07
-1996/97,Etapa Campeonato,Belgrano de Córdoba,5,40.0,36,24,-4.0,Revisar,SRC-199697-07
-1996/97,Etapa Campeonato,Quilmes,5,40.0,40,25,0.0,OK,SRC-199697-07
-1996/97,Etapa Campeonato,Los Andes,7,35.0,35,25,0.0,OK,SRC-199697-07
-1996/97,Etapa Campeonato,Central Córdoba de Rosario,8,31.0,31,25,0.0,OK,SRC-199697-07
-1996/97,Etapa Campeonato,Almagro,9,30.0,30,25,0.0,OK,SRC-199697-07
+1996/97,Etapa Campeonato,Belgrano de Córdoba,5,40.0,40,26,0.0,OK,SRC-199697-07
+1996/97,Etapa Campeonato,Quilmes,5,40.0,40,26,0.0,OK,SRC-199697-07
+1996/97,Etapa Campeonato,Los Andes,7,35.0,35,26,0.0,OK,SRC-199697-07
+1996/97,Etapa Campeonato,Central Córdoba de Rosario,8,31.0,31,26,0.0,OK,SRC-199697-07
+1996/97,Etapa Campeonato,Almagro,9,30.0,30,26,0.0,OK,SRC-199697-07
 1996/97,Etapa Campeonato,Olimpo de Bahía Blanca,10,28.0,28,26,0.0,OK,SRC-199697-07
 1996/97,Etapa Campeonato,Atlético de Rafaela,11,27.0,30,26,3.0,Revisar,SRC-199697-07
-1996/97,Etapa Campeonato,All Boys,12,24.0,24,27,0.0,OK,SRC-199697-07
+1996/97,Etapa Campeonato,All Boys,12,24.0,24,26,0.0,OK,SRC-199697-07
 1996/97,Etapa Campeonato,San Martín de San Juan,12,24.0,28,26,4.0,Revisar,SRC-199697-07
 1996/97,Etapa Campeonato,Deportivo Morón,14,19.0,19,26,0.0,OK,SRC-199697-07
 1996/97,"Etapa Permanencia - Zona ""B""",Nueva Chicago,1,30.0,30,16,0.0,OK,SRC-199697-09
@@ -365,9 +365,9 @@
 1997/98,"Etapa Permanencia - Zona ""A""",Cipolletti de Río Negro,2,25.0,25,14,0.0,OK,SRC-199798-07
 1997/98,"Etapa Permanencia - Zona ""A""",San Martín de Mendoza,3,24.0,24,14,0.0,OK,SRC-199798-07
 1997/98,"Etapa Permanencia - Zona ""A""",Olimpo de Bahía Blanca,3,24.0,24,14,0.0,OK,SRC-199798-07
-1997/98,"Etapa Permanencia - Zona ""A""",Douglas Haig de Pergamino,5,16.0,10,13,-6.0,Revisar,SRC-199798-07
+1997/98,"Etapa Permanencia - Zona ""A""",Douglas Haig de Pergamino,5,16.0,13,14,-3.0,Revisar,SRC-199798-07
 1997/98,"Etapa Permanencia - Zona ""A""",Godoy Cruz Antonio Tomba,6,14.0,14,14,0.0,OK,SRC-199798-07
-1997/98,"Etapa Permanencia - Zona ""A""",Chaco For Ever,7,11.0,14,13,3.0,Revisar,SRC-199798-07
+1997/98,"Etapa Permanencia - Zona ""A""",Chaco For Ever,7,11.0,14,14,3.0,Revisar,SRC-199798-07
 1997/98,"Etapa Permanencia - Zona ""A""",Huracán Corrientes,7,11.0,11,14,0.0,OK,SRC-199798-07
 1998/99,"Etapa Clasificatoria - Zona ""A""",Instituto de Córdoba,1,57.0,55,30,-2.0,Revisar,SRC-199899-01
 1998/99,"Etapa Clasificatoria - Zona ""A""",Atlético Tucumán,1,57.0,57,30,0.0,OK,SRC-199899-01
@@ -426,14 +426,14 @@
 1999/00,Zona Interior,Gimnasia y Esgrima de Concepción del Uruguay,4,47.0,47,30,0.0,OK,SRC-199900-04
 1999/00,Zona Interior,Juventud Antoniana de Salta,5,46.0,46,30,0.0,OK,SRC-199900-04
 1999/00,Zona Interior,Independiente Rivadavia de Mendoza,6,45.0,45,30,0.0,OK,SRC-199900-04
-1999/00,Zona Interior,Godoy Cruz Antonio Tomba,7,43.0,41,31,-2.0,Revisar,SRC-199900-04
+1999/00,Zona Interior,Godoy Cruz Antonio Tomba,7,43.0,41,30,-2.0,Revisar,SRC-199900-04
 1999/00,Zona Interior,Villa Mitre de Bahía Blanca,8,41.0,41,30,0.0,OK,SRC-199900-04
 1999/00,Zona Interior,Olimpo de Bahía Blanca,8,41.0,41,30,0.0,OK,SRC-199900-04
 1999/00,Zona Interior,Gimnasia y Tiro de Salta,10,40.0,40,30,0.0,OK,SRC-199900-04
 1999/00,Zona Interior,Almirante Brown de Arrecifes,10,40.0,40,30,0.0,OK,SRC-199900-04
 1999/00,Zona Interior,Racing de Córdoba,12,38.0,38,30,0.0,OK,SRC-199900-04
 1999/00,Zona Interior,Aldosivi de Mar del Plata,13,31.0,31,30,0.0,OK,SRC-199900-04
-1999/00,Zona Interior,Atlético Tucumán,14,29.0,35,29,6.0,Revisar,SRC-199900-04
+1999/00,Zona Interior,Atlético Tucumán,14,29.0,35,30,6.0,Revisar,SRC-199900-04
 1999/00,Zona Interior,San Martín de Tucumán,15,28.0,28,30,0.0,OK,SRC-199900-04
 1999/00,Zona Interior,Cipolletti de Río Negro,16,23.0,27,30,4.0,Revisar,SRC-199900-04
 2000/01,Zona Interior,Instituto de Córdoba,1,71.0,71,32,0.0,OK,SRC-200001-01
@@ -447,16 +447,16 @@
 2000/01,Zona Interior,Godoy Cruz Antonio Tomba,9,44.0,44,32,0.0,OK,SRC-200001-01
 2000/01,Zona Interior,Atlético Tucumán,10,43.0,43,32,0.0,OK,SRC-200001-01
 2000/01,Zona Interior,Villa Mitre de Bahía Blanca,10,43.0,43,32,0.0,OK,SRC-200001-01
-2000/01,Zona Interior,Juventud Antoniana de Salta,10,43.0,43,33,0.0,OK,SRC-200001-01
-2000/01,Zona Interior,Independiente Rivadavia de Mendoza,13,35.0,38,33,3.0,Revisar,SRC-200001-01
+2000/01,Zona Interior,Juventud Antoniana de Salta,10,43.0,43,32,0.0,OK,SRC-200001-01
+2000/01,Zona Interior,Independiente Rivadavia de Mendoza,13,35.0,38,34,3.0,Revisar,SRC-200001-01
 2000/01,Zona Interior,San Martín de Tucumán,14,32.0,32,32,0.0,OK,SRC-200001-01
 2000/01,Zona Interior,Olimpo de Bahía Blanca,14,32.0,32,32,0.0,OK,SRC-200001-01
 2000/01,Zona Interior,General Paz Juniors,16,29.0,29,32,0.0,OK,SRC-200001-01
 2000/01,Zona Interior,Cipolletti de Río Negro,17,25.0,25,32,0.0,OK,SRC-200001-01
-2000/01,Zona Metropolitana,Quilmes,1,50.0,50,25,0.0,OK,SRC-200001-03
+2000/01,Zona Metropolitana,Quilmes,1,50.0,50,24,0.0,OK,SRC-200001-03
 2000/01,Zona Metropolitana,Banfield,2,49.0,49,24,0.0,OK,SRC-200001-03
 2000/01,Zona Metropolitana,Arsenal FC,3,44.0,44,24,0.0,OK,SRC-200001-03
-2000/01,Zona Metropolitana,Nueva Chicago,4,37.0,37,23,0.0,OK,SRC-200001-03
+2000/01,Zona Metropolitana,Nueva Chicago,4,37.0,37,24,0.0,OK,SRC-200001-03
 2000/01,Zona Metropolitana,Platense,5,33.0,33,24,0.0,OK,SRC-200001-03
 2000/01,Zona Metropolitana,Central Córdoba de Rosario,6,31.0,31,24,0.0,OK,SRC-200001-03
 2000/01,Zona Metropolitana,All Boys,7,30.0,30,24,0.0,OK,SRC-200001-03
@@ -515,11 +515,11 @@
 2002/03,Torneo Clausura,San Martín de Mendoza,3,33.0,33,19,0.0,OK,SRC-200203-05
 2002/03,Torneo Clausura,Godoy Cruz Antonio Tomba,4,32.0,32,19,0.0,OK,SRC-200203-05
 2002/03,Torneo Clausura,Almagro,4,32.0,32,19,0.0,OK,SRC-200203-05
-2002/03,Torneo Clausura,Belgrano de Córdoba,6,31.0,30,18,-1.0,Revisar,SRC-200203-05
+2002/03,Torneo Clausura,Belgrano de Córdoba,6,31.0,31,19,0.0,OK,SRC-200203-05
 2002/03,Torneo Clausura,Quilmes,6,31.0,31,19,0.0,OK,SRC-200203-05
 2002/03,Torneo Clausura,Huracán de Tres Arroyos,8,28.0,28,19,0.0,OK,SRC-200203-05
 2002/03,Torneo Clausura,Defensores de Belgrano,8,28.0,28,19,0.0,OK,SRC-200203-05
-2002/03,Torneo Clausura,Instituto de Córdoba,8,28.0,27,18,-1.0,Revisar,SRC-200203-05
+2002/03,Torneo Clausura,Instituto de Córdoba,8,28.0,28,19,0.0,OK,SRC-200203-05
 2002/03,Torneo Clausura,Juventud Antoniana de Salta,11,24.0,24,19,0.0,OK,SRC-200203-05
 2002/03,Torneo Clausura,Defensa y Justicia,11,24.0,24,19,0.0,OK,SRC-200203-05
 2002/03,Torneo Clausura,Los Andes,13,23.0,23,19,0.0,OK,SRC-200203-05
@@ -577,8 +577,8 @@
 2004/05,Torneo Apertura,Atlético de Rafaela,5,29.0,29,19,0.0,OK,SRC-200405-01
 2004/05,Torneo Apertura,San Martín de Mendoza,5,29.0,29,19,0.0,OK,SRC-200405-01
 2004/05,Torneo Apertura,Ferro Carril Oeste,7,28.0,28,19,0.0,OK,SRC-200405-01
-2004/05,Torneo Apertura,San Martín de San Juan,8,27.0,26,18,-1.0,Revisar,SRC-200405-01
-2004/05,Torneo Apertura,Racing de Córdoba,8,27.0,26,18,-1.0,Revisar,SRC-200405-01
+2004/05,Torneo Apertura,San Martín de San Juan,8,27.0,29,19,2.0,Revisar,SRC-200405-01
+2004/05,Torneo Apertura,Racing de Córdoba,8,27.0,26,19,-1.0,Revisar,SRC-200405-01
 2004/05,Torneo Apertura,El Porvenir,8,27.0,27,19,0.0,OK,SRC-200405-01
 2004/05,Torneo Apertura,Comisión de Actividades Infantiles,8,27.0,27,19,0.0,OK,SRC-200405-01
 2004/05,Torneo Apertura,Unión de Santa Fe,12,26.0,26,19,0.0,OK,SRC-200405-01
@@ -715,20 +715,20 @@
 2008/09,Fase regular,Atlético de Rafaela,3,62.0,62,38,0.0,OK,SRC-200809-01
 2008/09,Fase regular,Belgrano de Córdoba,3,62.0,62,38,0.0,OK,SRC-200809-01
 2008/09,Fase regular,Instituto de Córdoba,5,59.0,59,38,0.0,OK,SRC-200809-01
-2008/09,Fase regular,Aldosivi de Mar del Plata,6,57.0,57,37,0.0,OK,SRC-200809-01
+2008/09,Fase regular,Aldosivi de Mar del Plata,6,57.0,57,38,0.0,OK,SRC-200809-01
 2008/09,Fase regular,Ferro Carril Oeste,7,52.0,52,38,0.0,OK,SRC-200809-01
 2008/09,Fase regular,Quilmes,8,51.0,51,38,0.0,OK,SRC-200809-01
 2008/09,Fase regular,All Boys,9,50.0,50,38,0.0,OK,SRC-200809-01
 2008/09,Fase regular,Tiro Federal de Rosario,9,50.0,50,38,0.0,OK,SRC-200809-01
-2008/09,Fase regular,Independiente Rivadavia de Mendoza,9,50.0,44,36,-6.0,Revisar,SRC-200809-01
+2008/09,Fase regular,Independiente Rivadavia de Mendoza,9,50.0,50,38,0.0,OK,SRC-200809-01
 2008/09,Fase regular,Talleres de Córdoba,9,50.0,50,38,0.0,OK,SRC-200809-01
-2008/09,Fase regular,San Martín de San Juan,13,49.0,49,39,0.0,OK,SRC-200809-01
+2008/09,Fase regular,San Martín de San Juan,13,49.0,49,38,0.0,OK,SRC-200809-01
 2008/09,Fase regular,Defensa y Justicia,13,49.0,49,38,0.0,OK,SRC-200809-01
 2008/09,Fase regular,Unión de Santa Fe,13,49.0,49,38,0.0,OK,SRC-200809-01
 2008/09,Fase regular,Los Andes,16,45.0,45,38,0.0,OK,SRC-200809-01
-2008/09,Fase regular,Olimpo de Bahía Blanca,17,40.0,40,37,0.0,OK,SRC-200809-01
+2008/09,Fase regular,Olimpo de Bahía Blanca,17,40.0,40,38,0.0,OK,SRC-200809-01
 2008/09,Fase regular,Platense,18,37.0,37,38,0.0,OK,SRC-200809-01
-2008/09,Fase regular,Comisión de Actividades Infantiles,19,36.0,36,37,0.0,OK,SRC-200809-01
+2008/09,Fase regular,Comisión de Actividades Infantiles,19,36.0,36,38,0.0,OK,SRC-200809-01
 2008/09,Fase regular,Almagro,20,32.0,32,38,0.0,OK,SRC-200809-01
 2009/10,Fase regular,Olimpo de Bahía Blanca,1,71.0,71,38,0.0,OK,SRC-200910-03
 2009/10,Fase regular,Quilmes,2,64.0,64,38,0.0,OK,SRC-200910-03
@@ -812,7 +812,7 @@
 2012/13,Fase regular,Nueva Chicago,20,31.0,31,38,0.0,OK,SRC-201213-01
 2013/14,Fase regular,Banfield,1,78.0,78,42,0.0,OK,SRC-201314-01
 2013/14,Fase regular,Defensa y Justicia,2,75.0,75,42,0.0,OK,SRC-201314-01
-2013/14,Fase regular,Independiente,3,67.0,70,43,3.0,Revisar,SRC-201314-01
+2013/14,Fase regular,Independiente,3,67.0,67,42,0.0,OK,SRC-201314-01
 2013/14,Fase regular,Atlético Tucumán,4,64.0,64,42,0.0,OK,SRC-201314-01
 2013/14,Fase regular,Instituto de Córdoba,5,62.0,62,42,0.0,OK,SRC-201314-01
 2013/14,Fase regular,Gimnasia y Esgrima de Jujuy,6,61.0,61,42,0.0,OK,SRC-201314-01
@@ -831,10 +831,10 @@
 2013/14,Fase regular,Almirante Brown,19,42.0,42,42,0.0,OK,SRC-201314-01
 2013/14,Fase regular,Villa San Carlos,20,24.0,24,42,0.0,OK,SRC-201314-01
 2013/14,Fase regular,Unión de Santa Fe,,,55,42,,Revisar,SRC-201314-01
-2013/14,Fase regular,Huracán,,,67,43,,Revisar,SRC-201314-01
-Transición 2014,"Zona ""A""",Aldosivi de Mar del Plata,1,4.0,34,22,30.0,Revisar,SRC-T2014-01
-Transición 2014,"Zona ""A""",Nueva Chicago,1,4.0,34,22,30.0,Revisar,SRC-T2014-01
-Transición 2014,"Zona ""A""",Gimnasia y Esgrima de Jujuy,3,0.0,30,22,30.0,Revisar,SRC-T2014-01
+2013/14,Fase regular,Huracán,,,67,42,,Revisar,SRC-201314-01
+Transición 2014,"Zona ""A""",Aldosivi de Mar del Plata,1,4.0,30,20,26.0,Revisar,SRC-T2014-01
+Transición 2014,"Zona ""A""",Nueva Chicago,1,4.0,30,20,26.0,Revisar,SRC-T2014-01
+Transición 2014,"Zona ""A""",Gimnasia y Esgrima de Jujuy,3,0.0,30,20,30.0,Revisar,SRC-T2014-01
 Transición 2014,"Zona ""A""",Colón,,,31,20,,Revisar,SRC-T2014-01
 Transición 2014,"Zona ""A""",Instituto de Córdoba,,,25,20,,Revisar,SRC-T2014-01
 Transición 2014,"Zona ""A""",Argentinos Juniors,,,31,20,,Revisar,SRC-T2014-01
@@ -847,8 +847,8 @@ Transición 2014,"Zona ""B""",Unión de Santa Fe,1,41.0,41,20,0.0,OK,SRC-T2014-0
 Transición 2014,"Zona ""B""",Crucero del Norte,2,33.0,33,20,0.0,OK,SRC-T2014-02
 Transición 2014,"Zona ""B""",Temperley,3,32.0,32,20,0.0,OK,SRC-T2014-02
 Transición 2014,"Zona ""B""",Sarmiento de Junín,4,30.0,30,20,0.0,OK,SRC-T2014-02
-Transición 2014,"Zona ""B""",Huracán,5,29.0,32,21,3.0,Revisar,SRC-T2014-02
-Transición 2014,"Zona ""B""",Atlético Tucumán,5,29.0,29,21,0.0,OK,SRC-T2014-02
+Transición 2014,"Zona ""B""",Huracán,5,29.0,29,20,0.0,OK,SRC-T2014-02
+Transición 2014,"Zona ""B""",Atlético Tucumán,5,29.0,29,20,0.0,OK,SRC-T2014-02
 Transición 2014,"Zona ""B""",Ramón Santamarina de Tandil,7,24.0,24,20,0.0,OK,SRC-T2014-02
 Transición 2014,"Zona ""B""",Patronato de Paraná,8,22.0,22,20,0.0,OK,SRC-T2014-02
 Transición 2014,"Zona ""B""",Independiente Rivadavia de Mendoza,8,22.0,22,20,0.0,OK,SRC-T2014-02
@@ -872,31 +872,31 @@ Transición 2014,"Zona ""B""",All Boys,,,22,20,,Revisar,SRC-T2014-02
 2015,Fase regular,Independiente Rivadavia de Mendoza,15,51.0,51,42,0.0,OK,SRC-2015-01
 2015,Fase regular,Guaraní Antonio Franco de Posadas,17,50.0,50,42,0.0,OK,SRC-2015-01
 2015,Fase regular,Chacarita Juniors,17,50.0,50,42,0.0,OK,SRC-2015-01
-2015,Fase regular,Guillermo Brown de Puerto Madryn,19,48.0,49,43,1.0,Revisar,SRC-2015-01
-2015,Fase regular,Gimnasia y Esgrima de Mendoza,19,48.0,49,43,1.0,Revisar,SRC-2015-01
+2015,Fase regular,Guillermo Brown de Puerto Madryn,19,48.0,48,42,0.0,OK,SRC-2015-01
+2015,Fase regular,Gimnasia y Esgrima de Mendoza,19,48.0,48,42,0.0,OK,SRC-2015-01
 2015,Fase regular,Sportivo Belgrano de San Francisco,21,40.0,40,42,0.0,OK,SRC-2015-01
 2015,Fase regular,Unión de Mar del Plata,22,37.0,37,42,0.0,OK,SRC-2015-01
 Transición 2016,Fase regular,Talleres de Córdoba,1,49.0,49,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Chacarita Juniors,2,43.0,43,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Gimnasia y Esgrima de Jujuy,3,38.0,38,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Boca Unidos de Corrientes,3,38.0,38,21,0.0,OK,SRC-T2016-01
-Transición 2016,Fase regular,Villa Dálmine,5,33.0,32,20,-1.0,Revisar,SRC-T2016-01
+Transición 2016,Fase regular,Villa Dálmine,5,33.0,33,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Crucero del Norte,6,32.0,32,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Nueva Chicago,7,30.0,30,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Guillermo Brown de Puerto Madryn,7,30.0,30,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Los Andes,7,30.0,30,21,0.0,OK,SRC-T2016-01
-Transición 2016,Fase regular,Brown de Adrogué,10,28.0,27,20,-1.0,Revisar,SRC-T2016-01
-Transición 2016,Fase regular,Juventud Unida de Gualeguaychú,10,28.0,29,22,1.0,Revisar,SRC-T2016-01
-Transición 2016,Fase regular,Ramón Santamarina de Tandil,12,27.0,24,20,-3.0,Revisar,SRC-T2016-01
+Transición 2016,Fase regular,Brown de Adrogué,10,28.0,28,21,0.0,OK,SRC-T2016-01
+Transición 2016,Fase regular,Juventud Unida de Gualeguaychú,10,28.0,28,21,0.0,OK,SRC-T2016-01
+Transición 2016,Fase regular,Ramón Santamarina de Tandil,12,27.0,27,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,All Boys,13,26.0,26,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Ferro Carril Oeste,13,26.0,26,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Sportivo Estudiantes de San Luis,15,24.0,24,21,0.0,OK,SRC-T2016-01
-Transición 2016,Fase regular,Juventud Unida Universitario de San Luis,16,22.0,21,20,-1.0,Revisar,SRC-T2016-01
+Transición 2016,Fase regular,Juventud Unida Universitario de San Luis,16,22.0,22,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Central Córdoba de Santiago del Estero,17,21.0,21,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Douglas Haig de Pergamino,18,20.0,20,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Independiente Rivadavia de Mendoza,18,20.0,20,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Atlético Paraná,20,19.0,19,21,0.0,OK,SRC-T2016-01
-Transición 2016,Fase regular,Instituto de Córdoba,21,16.0,16,20,0.0,OK,SRC-T2016-01
+Transición 2016,Fase regular,Instituto de Córdoba,21,16.0,16,21,0.0,OK,SRC-T2016-01
 Transición 2016,Fase regular,Almagro,,,28,21,,Revisar,SRC-T2016-01
 2016/17,Fase regular,Argentinos Juniors,1,88.0,88,44,0.0,OK,SRC-201617-01
 2016/17,Fase regular,Chacarita Juniors,2,77.0,77,44,0.0,OK,SRC-201617-01
