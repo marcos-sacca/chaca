@@ -62,7 +62,12 @@ def skey(s):
     return (int(m.group(1)), 0 if "/" in s else 1)
 
 
-seasons = sorted(set(seasons) | {p["Temporada"] for p in P}, key=skey)
+# orden cronológico real: por la fecha del primer partido (la Transición 2016 va antes que 2016/17, etc.)
+_first = {}
+for p in P:
+    if p["Fecha calendario"] and (p["Temporada"] not in _first or p["Fecha calendario"] < _first[p["Temporada"]]):
+        _first[p["Temporada"]] = p["Fecha calendario"]
+seasons = sorted(set(seasons) | {p["Temporada"] for p in P}, key=lambda s: (_first.get(s, "9999"), skey(s)))
 six = {s: i for i, s in enumerate(seasons)}
 
 # --- partidos compactos: [temporada, fase, fechaN, fecha ISO, local, visitante, gl, gv]
@@ -146,8 +151,47 @@ for n in names:
 general = [[num(r["Pos."]), tix[r["Equipo"]], num(r["Temporadas"]), num(r["PJ"]), num(r["PG"]), num(r["PE"]), num(r["PP"]), num(r["GF"]), num(r["GC"]), num(r["DG"]), num(r["Descuento"]), num(r["Pts"]), num(r["Pts (3 x victoria)"])] for r in TG]
 ranking = [[r["Jugador"], r["Equipo"], num(r["Goles"]), num(r["De penal"])] for r in rd("ranking_goleadores.csv")]
 
+# --- partidos de titular por jugador y club (formaciones confirmadas de Solo Ascenso, Primera Nacional desde 2014; para los juegos)
+import gzip, sys as _sys
+_sys.path.insert(0, str(ROOT.parent / "bnacional" / "tools"))
+SA = ROOT.parent / "ascenso" / "data" / "sintesis_solo_ascenso.jsonl.gz"
+titulares = {"p": []}
+if SA.exists():
+    from names_ext import best_among
+    import datetime as _dt
+    tmap, pj, pname = {"Talleres (R.E)": "Talleres de Remedios de Escalada"}, collections.defaultdict(collections.Counter), {}
+    # solo formaciones de partidos que están en la base (misma fecha ±2 días y mismos equipos): deja afuera
+    # los partidos de otras categorías mal rotulados en la fuente y el reducido
+    known = set()
+    for p in P:
+        if p["Fecha calendario"] >= "2014":
+            d0 = _dt.date.fromisoformat(p["Fecha calendario"])
+            for k in range(-2, 3):
+                known.add(((d0 + _dt.timedelta(days=k)).isoformat(), p["Local"], p["Visitante"]))
+    with gzip.open(SA, "rt", encoding="utf-8") as f:
+        for line in f:
+            r = json.loads(line)
+            if r.get("cat") != "Primera Nacional" or "Confirmadas" not in r.get("head", ""):
+                continue
+            for team in (r["local"], r["visitante"]):
+                if team not in tmap:
+                    tmap[team] = best_among(team, names)[0]
+            if (r["fecha"], tmap[r["local"]], tmap[r["visitante"]]) not in known:
+                continue
+            for side, team in ((0, r["local"]), (1, r["visitante"])):
+                t = tmap[team]
+                for x in r["eq"][side]["xi"]:
+                    if len(x) > 4 and x[4]:
+                        pj[x[4]][tix[t]] += 1
+                        pname[x[4]] = x[1]
+    for pid, c in pj.items():
+        if len(c) >= 2 and sum(c.values()) >= 30:
+            titulares["p"].append([pname[pid], sorted(([t, n] for t, n in c.items()), key=lambda x: -x[1])])
+    titulares["p"].sort(key=lambda x: x[0])
+    titulares["nota"] = "Partidos como titular en la Primera Nacional desde 2014 (formaciones confirmadas de Solo Ascenso)."
+
 meta = dict(temporadas=len(seasons), clubes=len(names), partidos=len(P), goles=len(G), ascensos=len(ASC), ultimo=max(p["Fecha calendario"] for p in P), generado=__import__("datetime").date.today().isoformat())
-for name, obj in (("meta", meta), ("teams", teams), ("seasons", sdata), ("phases", phases), ("players", players), ("matches", mlist), ("scorers", scorers), ("general", general)):
+for name, obj in (("meta", meta), ("teams", teams), ("seasons", sdata), ("phases", phases), ("players", players), ("matches", mlist), ("scorers", scorers), ("general", general), ("titulares", titulares)):
     (OUT / f"{name}.json").write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(name, (OUT / f"{name}.json").stat().st_size // 1024, "KB")
 print(meta)

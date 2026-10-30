@@ -15,6 +15,7 @@ Sigue la estructura de la planilla «B Nacional histórica» (hojas `partidos`, 
 | `temporadas.csv`, `sanciones.csv`, `equipos.csv`, `estadios.csv` | Datos de cada temporada, descuentos de puntos (leídos de las notas de la fuente), clubes y canchas. |
 | `control_fuente.csv` | Puntos de cada equipo según la crónica vs. puntos calculados con los partidos cargados (`OK` / `Revisar`). |
 | `diferencias_entre_fuentes.csv`, `resumen_control_cruzado.csv`, `correcciones_aplicadas.csv` | Cruce de cada marcador con una segunda fuente y qué se corrigió. |
+| `correcciones_consistencia.csv`, `pendientes_consistencia.csv` | Qué corrigió el control de consistencia y qué queda para mirar a mano. |
 | `errores_de_lectura.csv` | Líneas de la fuente que el script no pudo interpretar (errores de tipeo de la página original). |
 | `fuentes.csv`, `fuentes/` | De dónde sale cada dato. |
 
@@ -31,6 +32,12 @@ Sigue la estructura de la planilla «B Nacional histórica» (hojas `partidos`, 
 * Cada marcador se compara con RSSSF / Transfermarkt. Si un marcador difiere y **al corregirlo los puntos coinciden con la tabla publicada**, se corrige y queda anotado en `correcciones_aplicadas.csv` y en las observaciones del partido. Lo mismo con partidos que faltaban o estaban rotos en la crónica.
 * Los descuentos de puntos se leen de las notas («A Almirante Brown se le descontaron 18 puntos…»).
 * Cuando ni así cuadra, queda en `Revisar`: son los casos para mirar a mano.
+* **Control de consistencia** (`tools/consistencia.py`, lo corre `run.py` al final): busca clubes con más o menos partidos que el resto de su fase y corrige lo que tiene respaldo:
+  * clubes mal asignados en una temporada (por ejemplo «Talleres» en 1993/94 es Talleres de Remedios de Escalada);
+  * desempates cargados como fase regular → pasan a `reducidos.csv`;
+  * partidos repetidos o faltantes en la crónica, con el marcador y la fecha de la segunda fuente (RSSSF, Transfermarkt o Solo Ascenso), solo si la fase queda pareja y no se mueven los puntos de un club cuya tabla publicada ya coincidía;
+  * desde 2017/18, reducido y finales que Solo Ascenso numera como «Fecha N» → `reducidos.csv` (la última fecha regular de cada temporada está en `ULTIMA_FECHA`), y partidos de otras categorías → se descartan.
+  Cada cambio queda en `correcciones_consistencia.csv`; lo que sigue desparejo, en `pendientes_consistencia.csv` (con la explicación cuando es del formato del torneo, como las zonas de 18 y 17 equipos de 2021). Se puede correr más de una vez.
 
 ## Cómo actualizarla
 
