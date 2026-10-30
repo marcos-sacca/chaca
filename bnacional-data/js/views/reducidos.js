@@ -90,7 +90,7 @@ function rowsFor(ms, all) {
 }
 route("reducidos", async (r) => {
   const page = h("div.wrap.page"), box = h("div");
-  { const ti = r.arg ? S.teamBy.get(r.arg) : null; st.q = ti != null ? T(ti).short : ""; }
+  { const ti = r.arg ? S.teamBy.get(r.arg) : null; st.q = ti != null ? T(ti).short : ""; if (ti != null) { st.tipo = "todos"; st.si = -1; } }
   const list = extras();
   const draw = () => {
     const f = norm(st.q.trim());
@@ -102,14 +102,15 @@ route("reducidos", async (r) => {
       const groups = new Map();
       for (const x of xs) { const k = x.torneo; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(x); }
       out.push(h("section.red__s", [h("h2", h("a", { href: href.season(si) }, S.seasons[si].label)),
-        ...[...groups.entries()].map(([tor, ms]) => h("div.red__g", [h("h3", [tor, h("span.pill.red__t", TIPOS.find((t) => t[0] === ms[0].tipo)[1])]),
+        ...[...groups.entries()].map(([tor, ms]) => h("div.red__g", [h("h3", [tor, h("button.pill.pill--btn.red__t", { type: "button", title: "Ver solo este tipo", onclick: () => setTipo(ms[0].tipo) }, TIPOS.find((t) => t[0] === ms[0].tipo)[1])]),
           enJuego(tor) ? h("p.muted.red__q", enJuego(tor)) : null,
           h("div.tablewrap", h("table.tbl.red__tbl", h("tbody", rowsFor(ms, list.filter((y) => y.si === si && y.torneo === tor)))))]))]));
     }
     if (!rows.length) out.push(h("p.muted", "No hay partidos con esos filtros."));
     box.replaceChildren(...out);
   };
-  const chips = h("div.chips", [["todos", "Todos"], ...TIPOS.map(([k, l]) => [k, l])].map(([k, l]) => h("button.chip", { type: "button", "aria-pressed": String(st.tipo === k), onclick: (e) => { st.tipo = k; chips.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c === e.currentTarget))); draw(); } }, l)));
+  const chips = h("div.chips", [["todos", "Todos"], ...TIPOS.map(([k, l]) => [k, l])].map(([k, l]) => h("button.chip", { type: "button", "aria-pressed": String(st.tipo === k), onclick: () => setTipo(k) }, l)));
+  const setTipo = (k) => { st.tipo = k; chips.querySelectorAll(".chip").forEach((c, i) => c.setAttribute("aria-pressed", String(["todos", ...TIPOS.map((t) => t[0])][i] === k))); draw(); };
   const withRed = S.seasons.map((s, si) => [si, s]).filter(([, s]) => s.reducidos && s.reducidos.length).reverse();
   page.append(head("Reducidos y promociones", "Todo lo que se jugó fuera de la fase regular", "Reducidos, octogonales y finales por el ascenso, promociones y reválidas por la permanencia, triangulares por el descenso y desempates. En negrita, el que ganó o pasó de ronda. No suman en las tablas, salvo que lo elijas en la tabla histórica. Las promociones contra equipos de Primera División todavía no están en la base."),
     chips,

@@ -358,3 +358,13 @@ button.gcell { cursor: pointer; font-size: 1.4rem; transition: background .15s, 
 /* filtros de la práctica libre de los juegos */
 .gfil { margin: 0 0 16px; gap: 12px 16px; } .gfil label { display: inline-flex; align-items: center; gap: 8px; font-size: .88rem; color: var(--muted); }
 .h2h__sub { margin: 30px 0 10px; font-size: 1.15rem; } .h2h__full { margin: 0 0 6px; } .h2h__full .h2h__sub { margin-top: 18px; }
+
+/* solo parece botón lo que es botón: los contadores sin destino ya no reaccionan al pasar el mouse */
+.stat:hover { background: var(--paper); }
+a.stat--link, button.stat--link { all: unset; box-sizing: border-box; display: block; cursor: pointer; padding: 16px 18px; background: var(--paper); color: inherit; transition: background .2s; } a.stat--link:hover, button.stat--link:hover { background: var(--fog); }
+a.stat--link:focus-visible, button.stat--link:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; } .stat--link::after { content: "Ver detalle →"; display: block; margin-top: 8px; font: 600 .74rem var(--body); color: var(--blue); }
+a.pill--link, button.pill--btn { cursor: pointer; text-decoration: none; border: 0; transition: box-shadow .15s, filter .15s; } a.pill--link:hover, button.pill--btn:hover { box-shadow: 0 0 0 2px var(--line); filter: brightness(.96); } a.pill--link:focus-visible, button.pill--btn:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+a.pill--link::after, button.pill--btn::after { content: " ›"; opacity: .6; }
+@keyframes rowflash { from { background: var(--fog2); } to { background: transparent; } } tr.is-flash td { animation: rowflash 1.8s ease-out; }
+@media (prefers-reduced-motion: reduce) { tr.is-flash td { animation: none; background: var(--fog2); } }
+.cl__club { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; } .cl__club a { display: inline-flex; align-items: center; gap: 4px; } .cl__club .crest { margin: 0; vertical-align: 0; }

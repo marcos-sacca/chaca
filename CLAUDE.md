@@ -125,6 +125,7 @@ HTML + CSS + módulos ES nativos, **sin framework ni build**. Fuentes Archivo (v
 
 - Cambios chicos y probados: corré `smoke_test.mjs` y mirá capturas de lo que tocaste en **claro y oscuro y a 390 px**.
 - Cada dato que agregues a mano tiene que poder rastrearse a una fuente (archivo + motivo).
+- **Lo que parece botón tiene que serlo, y lo que no, no tiene que parecerlo.** Los contadores y píldoras con destino son `a`/`button` con `.stat--link` o `.pill--link`/`.pill--btn` (ver `clubs.js` y `reducidos.js`); los contadores sin destino no reaccionan al pasar el mouse. Un equipo sin identificar se muestra como texto, nunca como link a `#`. En `append`/`replaceChildren` nativos hay que filtrar los `null` (si no, se imprime el texto «null»; `h()` ya los ignora).
 - Sé honesto en pantalla con lo que es calculado, aproximado o de memoria (ej.: descensos, fechas aproximadas, clásicos sin verificar).
 - Commits en español, descriptivos, de a un tema. Una rama por tema; PR para datos.
 - Si algo del hosting o de una fuente falla, no insistas en bucle: describí el problema y proponé alternativa.
