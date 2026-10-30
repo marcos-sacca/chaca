@@ -228,9 +228,9 @@ dialog { border: 0; padding: 0; color: var(--ink); background: var(--paper); } d
 @media (max-width: 760px) { .viewer__img > .viewer__thumb { width: 110px; height: 76px; } }
 
 /* descensos y reducidos */
-.ccard__k { display: flex; gap: 8px; margin-top: 3px; font-size: .74rem; } .k { font-style: normal; font-weight: 650; font-variant-numeric: tabular-nums; padding: 1px 7px; border-radius: 99px; background: var(--fog); color: var(--navy); } .k--up { color: #0b6b3a; } .k--down { color: #a1322b; } .k--red { color: var(--blue); }
+.ccard__k { display: flex; gap: 8px; margin-top: 3px; font-size: .74rem; } .k { font-style: normal; font-weight: 650; font-variant-numeric: tabular-nums; padding: 1px 7px; border-radius: 99px; background: var(--fog); color: var(--ink); } .k--up { color: #0b6b3a; } .k--down { color: #a1322b; } .k--red { color: var(--blue); }
 .stats--hi { margin-bottom: 14px; } .stats--hi .stat b { font-size: 1.9rem; } .stats--hi .stat small { display: block; color: var(--muted); font-size: .74rem; margin-top: 2px; }
-.kline { display: grid; gap: 6px; margin: 0 0 22px; } .kline p { margin: 0; font-size: .9rem; color: var(--muted); } .kline b { color: var(--ink); } .chipl { display: inline-block; margin: 2px 6px 2px 0; padding: 2px 9px; border-radius: 99px; background: var(--fog); color: var(--navy); font-size: .8rem; text-decoration: none; font-variant-numeric: tabular-nums; } .chipl:hover { background: var(--sky); color: #fff; }
+.kline { display: grid; gap: 6px; margin: 0 0 22px; } .kline p { margin: 0; font-size: .9rem; color: var(--muted); } .kline b { color: var(--ink); } .chipl { display: inline-block; margin: 2px 6px 2px 0; padding: 2px 9px; border-radius: 99px; background: var(--fog2); color: var(--ink); font-size: .8rem; text-decoration: none; font-variant-numeric: tabular-nums; } .chipl:hover { background: var(--sky); color: #fff; }
 .pill--down { background: #f6dcd9; color: #8a2620; } .pill--red { background: var(--fog2); color: var(--blue); }
 .ccard--s { padding: 8px 10px; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .pill--down { background: #4a2420; color: #f3b8b2; } :root:not([data-theme="light"]) .k--up { color: #6fd9a0; } :root:not([data-theme="light"]) .k--down { color: #f0a29b; } }
@@ -318,3 +318,5 @@ button.gcell { cursor: pointer; font-size: 1.4rem; transition: background .15s, 
 :root[data-theme="dark"] .mgcard.is-ok { background: #173d2a; } :root[data-theme="dark"] .mgcard.is-no { background: #4a2420; }
 @media (max-width: 520px) { .mg { grid-template-columns: 1fr; } .mg__vs { justify-self: center; } }
 .mgclub { white-space: nowrap; }
+.foot .btn--coffee, .foot .btn--coffee:hover { color: #1b1b1b; }
+.tbl__club { white-space: nowrap; }

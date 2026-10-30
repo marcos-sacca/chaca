@@ -86,6 +86,69 @@ def ext_index(season, teams, tm, sa):
     return out
 
 
+MAX_CARRERA = 14  # años entre el primer y el último gol para aceptar que dos variantes son la misma persona
+NO_UNIFICAR = set()  # pares (variante, destino) que se revisaron y son personas distintas
+# apellidos muy comunes: con o sin inicial puede ser otra persona -> no se unifican solos, quedan en pendientes
+COMUNES = set("""gomez gonzalez rodriguez lopez fernandez martinez diaz perez sanchez garcia romero sosa benitez torres ruiz ramirez
+flores acosta medina herrera suarez aguirre gimenez jimenez alvarez molina castro ortiz silva nunez luna juarez cabrera rios morales godoy
+ferreyra vera ledesma peralta rojas gutierrez blanco ramos vazquez villalba ojeda campos paz caceres ibanez figueroa correa maldonado leiva
+coronel ponce dominguez navarro quiroga barrios carrizo arias moreno alonso cardozo cabral sotelo franco miranda vargas mendez rivero
+aguero bustos ayala galvan escobar arce islas""".split())
+
+
+def unify_players(G, first):
+    """-> [(variante, nombre elegido, motivo)]. Reglas:
+    a) iguales salvo tildes y mayúsculas;
+    b) mismas palabras completas y las iniciales de una son el comienzo de las de la otra («Silvio Carrario» y
+       «Silvio R. Carrario»), si hay una sola variante compatible más completa y toda la carrera entra en MAX_CARRERA años.
+    Iniciales distintas («Luis E. Sosa» y «Luis N. Sosa») son personas distintas y no se tocan."""
+    import unicodedata
+    strip = lambda x: "".join(c for c in unicodedata.normalize("NFD", x) if unicodedata.category(c) != "Mn").lower()
+    toks = lambda x: re.sub(r"[^a-z ]", " ", strip(x)).split()
+    year = lambda s: int(re.search(r"\d{4}", s).group())
+    info = collections.defaultdict(lambda: dict(g=0, y=set()))
+    for g in G:
+        info[g["Jugador"]]["g"] += 1
+        info[g["Jugador"]]["y"].add(year(g["Temporada"]))
+    out, alias, dudas = [], {}, []
+    # a) tildes
+    by = collections.defaultdict(list)
+    for nm in info:
+        by[" ".join(toks(nm))].append(nm)
+    for v in by.values():
+        if len(v) > 1:
+            tgt = max(v, key=lambda x: (info[x]["g"], x))
+            for x in v:
+                if x != tgt and (x, tgt) not in NO_UNIFICAR:
+                    alias[x] = tgt
+                    out.append((x, tgt, "Mismo nombre con otra tilde o mayúscula"))
+    names = [x for x in info if x not in alias]
+    # b) iniciales del medio
+    key = lambda x: tuple(t for t in toks(x) if len(t) > 1)
+    ini = lambda x: [t for t in toks(x) if len(t) == 1]
+    grp = collections.defaultdict(list)
+    for nm in names:
+        if len(key(nm)) >= 2:
+            grp[key(nm)].append(nm)
+    for k, v in grp.items():
+        if len(v) < 2:
+            continue
+        for x in sorted(v, key=lambda x: len(ini(x))):
+            comp = [y for y in v if y != x and len(ini(y)) > len(ini(x)) and ini(y)[:len(ini(x))] == ini(x)]
+            maxi = [y for y in comp if not any(z != y and len(ini(z)) > len(ini(y)) and ini(z)[:len(ini(y))] == ini(y) for z in comp)]
+            if len(maxi) != 1:
+                continue  # ninguna o varias variantes posibles: no se puede decidir
+            tgt = maxi[0]
+            ys = info[x]["y"] | info[tgt]["y"]
+            if max(ys) - min(ys) > MAX_CARRERA or (x, tgt) in NO_UNIFICAR:
+                continue
+            if k[-1] in COMUNES:
+                dudas.append((x, tgt, f"Posible duplicado (apellido común, {min(ys)}-{max(ys)}): revisar a mano y, si es la misma persona, sacar el apellido de COMUNES o agregar el par"))
+                continue
+            out.append((x, tgt, f"Misma persona con y sin inicial del medio ({min(ys)}-{max(ys)})"))
+    return out, dudas
+
+
 def main(data, tm_json=None, sa_path=None):
     J = lambda n: os.path.join(data, n)
     HP, P = rd(J("partidos.csv"))
@@ -314,6 +377,16 @@ def main(data, tm_json=None, sa_path=None):
         keep.append(p)
     P = keep
     G = [g for g in G if g["ID Partido"] not in moved]
+
+    # --- 4. jugadores con el mismo nombre escrito distinto en distintos clubes (el armado los unifica solo dentro de cada club)
+    merges, dudas = unify_players(G, first)
+    for old, new, why in merges:
+        for g in G:
+            if g["Jugador"] == old:
+                g["Jugador"] = new
+        log.append(["", "Jugador unificado", "", old, new, "", "", why, "Goleadores"])
+    for old, new, why in dudas:
+        pend.append(["", "Jugadores", f"{old} / {new}", "", why, ""])
 
     # --- recalcular tablas
     first = {}
