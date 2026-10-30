@@ -100,7 +100,7 @@ HTML + CSS + módulos ES nativos, **sin framework ni build**. Fuentes Archivo (v
 
 - `#admin` (link «Admin» en el pie): agregar/sacar **fotos** (archivo, que se achica a 1000 px, o URL) y **videos** (link de YouTube). Los cambios quedan **en el navegador de quien los hace** (`localStorage`, clave `bn_admin_v1`); sin contraseña porque nada se publica solo. **Exportar para publicar** baja `extra.json`; hay que reemplazar `bnacional-data/data/extra.json` y pushear. Formato: `{fotos:[], videos:[], ocultos:{fotos:[], videos:[]}}`; `ocultos` esconde recursos de la base por su `img` o `id`.
 - Si algún día hace falta que **otras personas** carguen recursos directo, se necesita un backend (Cloudflare Workers/KV o D1 + una clave de admin). No existe todavía.
-- `js/config.js`: `emails` (reciben los recursos: `nicolassorrentino96@gmail.com` y `marcoschaca1969@gmail.com`), **`cafecito`** (hoy apunta a `https://cafecito.app/` a secas: **falta el usuario real de Marcos**) y `apoyo` (segundo botón «Ayudá al proyecto»; vacío = no aparece). Los mails abren un correo ya armado con asunto y formulario.
+- `js/config.js`: `emails` (reciben los recursos: desde el 30/10/2026 un solo mail de la página, `bnpagina2027@gmail.com`), **`cafecito`** (`https://cafecito.app/b_nacional`) y `apoyo` (segundo botón «Ayudá al proyecto»; vacío = no aparece). Los mails abren un correo ya armado con asunto y formulario.
 
 ## 8. `chacarita-data/` y lo demás
 
