@@ -88,10 +88,101 @@ function rowsFor(ms, all) {
   }
   return out;
 }
+// --- llaves: cruces de un torneo (ida y vuelta o partido único) ordenados en rondas, como un cuadro de Mundial
+const roundOf = (x) => x.inst || "";
+function tiesFor(ms, all) {
+  const by = new Map();
+  for (const x of ms) {
+    if (x.a == null || x.b == null) return null;
+    const k = `${Math.min(x.a, x.b)}|${Math.max(x.a, x.b)}`;
+    if (!by.has(k)) by.set(k, []);
+    by.get(k).push(x);
+  }
+  const ties = [];
+  for (const L of by.values()) {
+    L.sort((p, q) => (p.date || "").localeCompare(q.date || ""));
+    // un mismo par puede cruzarse en dos rondas distintas: se corta cuando cambia la instancia (salvo ida y vuelta)
+    let cur = [];
+    const flush = () => { if (cur.length) ties.push(cur); cur = []; };
+    for (const x of L) {
+      const prev = cur[cur.length - 1];
+      const sameTie = prev && (roundOf(prev) === roundOf(x) || (/fecha \d+/i.test(roundOf(prev)) && /fecha \d+/i.test(roundOf(x)) && cur.length === 1 && x.date && prev.date && (new Date(x.date) - new Date(prev.date)) / 864e5 <= 21));
+      if (!sameTie) flush();
+      cur.push(x);
+      if (cur.length === 2) flush();
+    }
+    flush();
+  }
+  return ties.map((legs) => {
+    const [t1, t2] = [legs[0].a, legs[0].b], g = { [t1]: 0, [t2]: 0 };
+    for (const y of legs) { g[y.a] += y.ga; g[y.b] += y.gb; }
+    const last = legs[legs.length - 1];
+    let pasa = g[t1] > g[t2] ? t1 : g[t2] > g[t1] ? t2 : last.pen ? last.pen[0] : null, note = last.pen && g[t1] === g[t2] ? `pen. ${last.pen[1]}` : "";
+    if (pasa == null && /Promoción con/i.test(legs[0].torneo) && regularSets()[legs[0].si].has(t1) !== regularSets()[legs[0].si].has(t2)) { pasa = regularSets()[legs[0].si].has(t1) ? t1 : t2; note = "conservó la categoría"; }
+    if (pasa == null) {
+      const later = all.filter((y) => y.date > last.date);
+      const p1 = later.some((y) => y.a === t1 || y.b === t1), p2 = later.some((y) => y.a === t2 || y.b === t2);
+      if (p1 !== p2) { pasa = p1 ? t1 : t2; note = "ventaja deportiva"; }
+    }
+    return { round: roundOf(legs[0]), date: legs[0].date || "", legs, t1, t2, g, pasa, note };
+  });
+}
+// rondas en orden; null si el torneo no es una llave (todos contra todos, o un club en dos cruces de la misma ronda)
+function bracketFor(ms, all) {
+  let ties = tiesFor(ms, all);
+  if (!ties || ties.length < 3) return null;
+  // la final por el primer ascenso (los dos ganadores de zona) va aparte: es un cruce del campeón, que después no juega más
+  const champ = S.seasons[ms[0].si].champion;
+  const fin = champ == null ? [] : ties.filter((t) => (t.t1 === champ || t.t2 === champ) && !all.some((y) => y.date > t.legs[t.legs.length - 1].date && (y.a === champ || y.b === champ)));
+  if (fin.length === 1 && ties.length > 3) { fin[0].pasa = champ; fin[0].note = fin[0].legs.some((y) => y.pen) ? `pen. ${fin[0].legs[fin[0].legs.length - 1].pen?.[1] || ""} · campeón y ascenso` : "campeón y ascenso"; ties = ties.filter((t) => t !== fin[0]); }
+  else fin.length = 0;
+  // cruces entre dos clubes de la mitad de abajo de su zona: no son del reducido (Solo Ascenso numera igual los partidos por la permanencia)
+  const pos = new Map(), zt = (S.seasons[ms[0].si].tables || []).filter((t) => t.zona);
+  for (const t of zt) for (const r of t.rows) pos.set(r[1], r[0] / t.rows.length);
+  const otros = pos.size ? ties.filter((t) => (pos.get(t.t1) ?? 0) > .5 && (pos.get(t.t2) ?? 0) > .5) : [];
+  ties = ties.filter((t) => !otros.includes(t));
+  const rounds = new Map();
+  for (const t of ties) { if (!rounds.has(t.round)) rounds.set(t.round, []); rounds.get(t.round).push(t); }
+  const R = [...rounds.values()];
+  R.sort((p, q) => p.reduce((m, t) => (t.date < m ? t.date : m), "9") .localeCompare(q.reduce((m, t) => (t.date < m ? t.date : m), "9")));
+  if (R.length < 2) return null;
+  for (const r of R) { const seen = new Set(); for (const t of r) { if (seen.has(t.t1) || seen.has(t.t2)) return null; seen.add(t.t1); seen.add(t.t2); } }
+  for (let i = 1; i < R.length; i++) if (R[i].length > R[i - 1].length) return null;
+  // orden: desde la final hacia atrás, cada cruce queda al lado de los que lo alimentan
+  for (let i = R.length - 2; i >= 0; i--) {
+    const next = R[i + 1], prev = R[i], ordered = [];
+    for (const t of next) for (const team of [t.t1, t.t2]) { const f = prev.find((p) => !ordered.includes(p) && p.pasa === team); if (f) ordered.push(f); }
+    R[i] = [...ordered, ...prev.filter((p) => !ordered.includes(p))];
+  }
+  R.final1 = fin[0] || null; R.otros = otros;
+  return R;
+}
+const ROUND_NAMES = ["Final", "Semifinales", "Cuartos de final", "Octavos de final", "16avos de final"];
+function bracketView(R) {
+  const label = (r, i) => (/fecha \d+/i.test(r[0].round) || !r[0].round ? (R.length - 1 - i < ROUND_NAMES.length && R[R.length - 1].length === 1 ? ROUND_NAMES[R.length - 1 - i] : `Ronda ${i + 1}`) : r[0].round);
+  const teamRow = (t, tie) => h("div.bk__t" + (tie.pasa == null ? "" : tie.pasa === t ? ".is-win" : ".is-lose"), [h("span.bk__n", [crest(t), T(t).short]), h("b.bk__g", tie.g[t])]);
+  const tieBox = (tie) => h("div.bk__tie", { title: tie.legs.map((y) => `${y.date ? fshort(y.date) + " " : ""}${T(y.a).short} ${y.ga}-${y.gb} ${T(y.b).short}`).join("\n") }, [teamRow(tie.t1, tie), teamRow(tie.t2, tie), h("small.bk__x", [tie.legs.length > 1 ? "ida y vuelta" : "partido único", tie.note ? ` · ${tie.note}` : ""])]);
+  const fin1 = R.final1 ? h("div.bk__f1", [h("p.bk__r", "Final por el primer ascenso"), tieBox(R.final1), h("p.cap", "El que perdió la final pasó al reducido.")]) : null;
+  const otros = R.otros && R.otros.length ? h("div.bk__ot", [h("p.bk__r", "Otros partidos de este torneo"), h("p.cap", "Entre clubes de la mitad de abajo de su zona: no son del reducido (probablemente por la permanencia)."), h("div.bk__otl", R.otros.map(tieBox))]) : null;
+  const bk = h("div.bk", { role: "group", "aria-label": "Llave" }, R.map((r, i) => h("div.bk__col", [h("p.bk__r", label(r, i)), h("div.bk__ties", r.map(tieBox))])));
+  return h("div", [fin1, R.final1 ? h("p.bk__r", "Reducido por el segundo ascenso") : null, h("div.bk__wrap", bk), otros]);
+}
+
 route("reducidos", async (r) => {
   const page = h("div.wrap.page"), box = h("div");
   { const ti = r.arg ? S.teamBy.get(r.arg) : null; st.q = ti != null ? T(ti).short : ""; if (ti != null) { st.tipo = "todos"; st.si = -1; } }
   const list = extras();
+  // cada torneo: llave si se puede armar (con selector para ver los partidos), si no, la lista de partidos
+  const groupBody = (ms, all) => {
+    const listEl = () => h("div.tablewrap", h("table.tbl.red__tbl", h("tbody", rowsFor(ms, all))));
+    const R = bracketFor(ms, all);
+    if (!R) return listEl();
+    const holder = h("div"), sw = h("div.chips.bk__sw");
+    const show = (k) => { holder.replaceChildren(k === "llave" ? bracketView(R) : listEl()); sw.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.k === k))); };
+    sw.append(...[["llave", "Llave"], ["lista", "Partidos"]].map(([k, l]) => h("button.chip", { type: "button", "data-k": k, onclick: () => show(k) }, l)));
+    show("llave");
+    return h("div", [sw, holder]);
+  };
   const draw = () => {
     const f = norm(st.q.trim());
     const rows = list.filter((x) => (st.tipo === "todos" || x.tipo === st.tipo) && (st.si < 0 || x.si === st.si) && (!f || [x.a, x.b].some((t) => t != null && norm(T(t).short + " " + T(t).n).includes(f))));
@@ -104,7 +195,7 @@ route("reducidos", async (r) => {
       out.push(h("section.red__s", [h("h2", h("a", { href: href.season(si) }, S.seasons[si].label)),
         ...[...groups.entries()].map(([tor, ms]) => h("div.red__g", [h("h3", [tor, h("button.pill.pill--btn.red__t", { type: "button", title: "Ver solo este tipo", onclick: () => setTipo(ms[0].tipo) }, TIPOS.find((t) => t[0] === ms[0].tipo)[1])]),
           enJuego(tor) ? h("p.muted.red__q", enJuego(tor)) : null,
-          h("div.tablewrap", h("table.tbl.red__tbl", h("tbody", rowsFor(ms, list.filter((y) => y.si === si && y.torneo === tor)))))]))]));
+          groupBody(ms, list.filter((y) => y.si === si && y.torneo === tor))]))]));
     }
     if (!rows.length) out.push(h("p.muted", "No hay partidos con esos filtros."));
     box.replaceChildren(...out);

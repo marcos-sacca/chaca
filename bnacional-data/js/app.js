@@ -9,7 +9,7 @@ const app = el$("app"), nav = el$("nav");
 async function boot() {
   app.append(h("div.wrap.page", h("p.muted", "Cargando 40 años de ascensos…")));
   try { await load(); } catch (e) { app.replaceChildren(h("div.wrap.page", h("h2", "No se pudieron cargar los datos"), h("p", e.message))); return; }
-  await Promise.all(["home", "ascensos", "seasons", "clubs", "tabla", "historial", "reducidos", "juegos", "scorers", "gallery", "about", "admin", "clasicos"].map((v) => import(`./views/${v}.js`)));
+  await Promise.all(["home", "ascensos", "seasons", "clubs", "tabla", "historial", "reducidos", "juegos", "scorers", "gallery", "about", "admin", "clasicos", "proxima"].map((v) => import(`./views/${v}.js`)));
   footer(); finder(); menu();
   addEventListener("hashchange", go); go();
 }
@@ -28,7 +28,7 @@ async function go() {
   app.replaceChildren(page);
   document.title = (res.title ? res.title + " · " : "") + "B Nacional Histórica";
   if (!first) scrollTo({ top: 0, behavior: "instant" }); first = false;
-  const key = { inicio: "inicio", ascensos: "ascensos", temporadas: "temporadas", t: "temporadas", clubes: "clubes", c: "clubes", tabla: "tabla", historial: "historial", reducidos: "reducidos", juegos: "juegos", jugador: "juegos", grilla: "juegos", contrarreloj: "juegos", masgoles: "juegos", goleadores: "goleadores", fotos: "fotos", videos: "fotos", admin: "fotos", clasicos: "historial", carrera: "carrera", datos: "datos" }[routes.has(r.name) ? r.name : "inicio"];
+  const key = { inicio: "inicio", ascensos: "ascensos", temporadas: "temporadas", t: "temporadas", clubes: "clubes", c: "clubes", tabla: "tabla", historial: "historial", reducidos: "reducidos", proxima: "proxima", juegos: "juegos", jugador: "juegos", grilla: "juegos", contrarreloj: "juegos", masgoles: "juegos", goleadores: "goleadores", fotos: "fotos", videos: "fotos", admin: "fotos", clasicos: "historial", carrera: "carrera", datos: "datos" }[routes.has(r.name) ? r.name : "inicio"];
   nav.querySelectorAll("a").forEach((a) => { if (a.dataset.nav === key) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
 }
 function footer() {

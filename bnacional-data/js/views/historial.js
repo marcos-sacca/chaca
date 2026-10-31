@@ -1,5 +1,6 @@
 // historiales: cara a cara entre dos clubes y resumen de un club contra cada rival
 import { route } from "../app.js";
+import { scoreBtn } from "../match.js";
 import { S } from "../store.js";
 import { h, n, fshort, imgSrc, mdate } from "../util.js";
 import { head, sec, table, T, href, crest, monogram } from "./common.js";
@@ -143,7 +144,7 @@ route("historial", async (r) => {
       rows.map((i) => { const m = S.matches[i], r_ = res(a, i), win = m[6] > m[7] ? 4 : m[6] < m[7] ? 5 : -1; return h("tr", [
         h("td", mdate(m)), h("td", h("a", { href: href.season(m[0]) }, S.seasons[m[0]].label)),
         h("td.num", win === 4 ? h("b", T(m[4]).short) : T(m[4]).short),
-        h("td.h2h__score", `${m[6]} - ${m[7]}`),
+        h("td.h2h__score", scoreBtn(i, "mt__inl")),
         h("td", win === 5 ? h("b", T(m[5]).short) : T(m[5]).short),
         h("td", h("span.h2h__r.h2h__r--" + r_, { title: { G: "Ganó ", E: "Empató ", P: "Perdió " }[r_] + T(a).short }, r_)),
       ]); })) : h("p.muted", "No hay partidos con esos filtros."));

@@ -1,4 +1,5 @@
 import { route } from "../app.js";
+import { scoreBtn } from "../match.js";
 import { S } from "../store.js";
 import { h, n, fshort, fdate, mdate } from "../util.js";
 import { ascCard, head, sec, table, T, href, pill, crest, plantelBox } from "./common.js";
@@ -31,14 +32,15 @@ route("t", async (r) => {
   if (s.tables.length) {
     let cur = 0; const box = h("div");
     const tabs = h("div.chips", s.tables.map((t, i) => h("button.chip", { type: "button", "aria-pressed": String(i === 0), onclick: (e) => { cur = i; tabs.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c === e.currentTarget))); drawT(); } }, t.fase.replace(/^1ra "B" Nacional AFA - /, ""))));
-    const promoted = new Set(s.promoted.map((p) => p[0])), ded = new Map(s.sanciones.map((x) => [x.club, x.pts]));
+    const promoted = new Set(s.promoted.map((p) => p[0])), red = new Set(s.red || []), ded = new Map(s.sanciones.map((x) => [x.club, x.pts]));
     const drawT = () => {
       const t = s.tables[cur];
       box.replaceChildren(table([{ label: "Pos." }, { label: "Club" }, ...["PJ", "PG", "PE", "PP", "GF", "GC", "DG"].map((l) => ({ label: l, cls: "num" })), { label: "Pts", cls: "num" }],
-        t.rows.map(([pos, ti, pj, pg, pe, pp, gf, gc, dg, dd, pts]) => h("tr" + (promoted.has(ti) ? ".is-up" : ""), [h("td.num", pos), h("td", [crest(ti), h("a", { href: href.club(ti) }, T(ti).short)]), ...[pj, pg, pe, pp, gf, gc].map((v) => h("td.num", v)), h("td.num", (dg > 0 ? "+" : "") + dg), h("td.num", h("b", pts + (dd ? ` (−${dd})` : "")))]))));
+        t.rows.map(([pos, ti, pj, pg, pe, pp, gf, gc, dg, dd, pts]) => h("tr" + (promoted.has(ti) ? ".is-up" : red.has(ti) ? ".is-red" : ""), [h("td.num", pos), h("td", [crest(ti), h("a", { href: href.club(ti) }, T(ti).short)]), ...[pj, pg, pe, pp, gf, gc].map((v) => h("td.num", v)), h("td.num", (dg > 0 ? "+" : "") + dg), h("td.num", h("b", pts + (dd ? ` (−${dd})` : "")))]))));
     };
     drawT();
-    page.append(sec("Tabla de posiciones", [s.tables.length > 1 ? tabs : null, box, h("p.cap", promoted.size ? "Las filas celestes son clubes que ascendieron." : ""), s.sanciones.length ? h("p.cap", "Descuentos de puntos: " + s.sanciones.filter((x) => x.club != null).map((x) => `${T(x.club).short} −${x.pts}`).join(", ") + ".") : null]));
+    page.append(sec("Tabla de posiciones", [s.tables.length > 1 ? tabs : null, box, (promoted.size || red.size) ? h("p.legend", [promoted.size ? h("span", [h("i.lg-up"), "Ascendió a Primera"]) : null, red.size ? h("span", [h("i.lg-red"), "Jugó el reducido"]) : null]) : null,
+      s.zonas_reconstruidas ? h("p.cap", s.zonas_reconstruidas === 1 ? "La base no guarda la zona de cada club: las zonas se reconstruyen con los partidos (los de una misma zona se enfrentan todos entre sí). Por eso se numeran y el número puede no coincidir con la letra oficial. Cada club suma todos sus partidos de fase regular, interzonales incluidos." : "La base no guarda la zona de cada club: las zonas se reconstruyen con los partidos. Cada club suma todos sus partidos de fase regular, interzonales incluidos.") : null, s.sanciones.length ? h("p.cap", "Descuentos de puntos: " + s.sanciones.filter((x) => x.club != null).map((x) => `${T(x.club).short} −${x.pts}`).join(", ") + ".") : null]));
   }
   // goleadores de la temporada
   const top = Object.values(S.scBySeason[si] || {}).sort((a, b) => b.g - a.g).slice(0, 10);
@@ -50,9 +52,9 @@ route("t", async (r) => {
   const phSel = h("select#rph", { "aria-label": "Fase", onchange: (e) => { ph = Number(e.target.value); rd = null; fillRd(); drawR(); } }, phases.map((p) => h("option", { value: p }, S.phases[p])));
   const rdSel = h("select#rrd", { "aria-label": "Fecha", onchange: (e) => { rd = Number(e.target.value); drawR(); } });
   const fillRd = () => { const fs = [...new Set(ms.filter((m) => m[1] === ph).map((m) => m[2]))].sort((a, b) => a - b); rd = rd ?? fs[0]; rdSel.replaceChildren(...fs.map((f) => h("option", { value: f, selected: f === rd }, f ? `Fecha ${f}` : "Sin número"))); };
-  const drawR = () => { results.replaceChildren(...ms.filter((m) => m[1] === ph && m[2] === rd).map((m) => h("div.res", [h("span.res__d", mdate(m)), h("a.res__h", { href: href.club(m[4]) }, T(m[4]).short), h("b.res__s", `${m[6]} - ${m[7]}`), h("a.res__a", { href: href.club(m[5]) }, T(m[5]).short)]))); };
+  const drawR = () => { results.replaceChildren(...S.mBySeason[si].filter((i) => S.matches[i][1] === ph && S.matches[i][2] === rd).map((i) => { const m = S.matches[i]; return h("div.res", [h("span.res__d", mdate(m)), h("a.res__h", { href: href.club(m[4]) }, T(m[4]).short), scoreBtn(i), h("a.res__a", { href: href.club(m[5]) }, T(m[5]).short)]); })); };
   fillRd(); drawR();
-  page.append(sec("Resultados", [h("div.toolbar", [phases.length > 1 ? phSel : null, rdSel]), results]));
+  page.append(sec("Resultados", [h("div.toolbar", [phases.length > 1 ? phSel : null, rdSel]), results, h("p.cap", "Tocá un resultado para ver los goles y los datos del partido.")]));
   if (s.reducidos.length) {
     const rows = s.reducidos.map((r) => h("div.res.res--red", [h("span.res__d", r[3] ? fshort(r[3]) : ""), (r[4] != null ? h("a.res__h", { href: href.club(r[4]) }, T(r[4]).short) : h("span.res__h", "?")), h("b.res__s", `${r[6]} - ${r[7]}`), (r[5] != null ? h("a.res__a", { href: href.club(r[5]) }, T(r[5]).short) : h("span.res__a", "?")), h("span.res__t", `${r[0]} · ${r[1]}`)]));
     page.append(sec("Reducido y promociones", rows.length > 14 ? h("details.fold", [h("summary", `Ver los ${rows.length} partidos`), h("div.results", rows)]) : h("div.results", rows)));
