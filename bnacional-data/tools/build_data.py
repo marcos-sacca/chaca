@@ -74,12 +74,16 @@ six = {s: i for i, s in enumerate(seasons)}
 phases = []
 pix = {}
 mlist = []
+_mrow = []  # partido de partidos.csv de cada fila de mlist (para data/partidos_info.json)
 for p in P:
     ph = p["Fase"]
     if ph not in pix:
         pix[ph] = len(phases); phases.append(ph)
     mlist.append([six[p["Temporada"]], pix[ph], num(p["Fecha torneo"], 0), p["Fecha calendario"], tix[p["Local"]], tix[p["Visitante"]], num(p["Goles local"]), num(p["Goles visitante"])] + ([1] if "aproximada" in p["Observaciones"].lower() else []))  # 9.º valor = fecha aproximada: la pantalla no la muestra
-mlist.sort(key=lambda m: (m[0], m[3], m[2]))
+    _mrow.append(p)
+_ord = sorted(range(len(mlist)), key=lambda i: (mlist[i][0], mlist[i][3], mlist[i][2]))
+mlist = [mlist[i] for i in _ord]
+_mrow = [_mrow[i] for i in _ord]
 
 # --- goleadores por temporada / jugador / equipo
 agg = collections.defaultdict(lambda: [0, 0])
@@ -137,6 +141,49 @@ for s in seasons:
     sdata.append(dict(id=sid(s), label=s, teams=num(t.get("Equipos")), played=num(t.get("Partidos de fase regular")), ptsw=num(t.get("Puntos por victoria"), 3),
                       champion=champ.get(s), promoted=asc.get(s, []), tables=[dict(fase=f, rows=rows) for f, rows in tables.get(s, {}).items()],
                       sanciones=sanc.get(s, []), reducidos=reds.get(s, [])))
+
+# --- zonas: la base no guarda a qué zona pertenecía cada club; se reconstruyen con los partidos (los de una misma
+#     zona se enfrentan todos entre sí; con la otra, como mucho en la fecha interzonal). Cada club suma en su zona todos
+#     sus partidos de fase regular, como en las tablas oficiales.
+ZONA_A = {"2026": "Ferro Carril Oeste"}  # club conocido de la Zona A oficial, para nombrar bien las zonas
+
+
+def _zones(ms):
+    N = collections.defaultdict(set)
+    for m in ms:
+        N[m[4]].add(m[5]); N[m[5]].add(m[4])
+    left, out = set(N), []
+    while left:
+        t = max(left, key=lambda x: (len(N[x]), -x))
+        z = {u for u in left if u == t or len(N[t] & N[u]) >= .5 * min(len(N[t]), len(N[u]))}
+        out.append(z); left -= z
+    return out
+
+
+for si, sd in enumerate(sdata):
+    if len(sd["tables"]) != 1:
+        continue
+    ms = [m for m in mlist if m[0] == si]
+    zs = _zones(ms)
+    if len(zs) < 2 or min(len(z) for z in zs) < 4:
+        continue
+    anchor = tix.get(ZONA_A.get(sd["label"], ""))
+    zs.sort(key=lambda z: (anchor not in z, min(names[t] for t in z)))
+    letters = "ABCDEFGH" if anchor is not None else "12345678"
+    ded = {x["club"]: x["pts"] for x in sd["sanciones"] if x.get("club") is not None}
+    w = sd["ptsw"] or 3
+    tabs = []
+    for k, z in enumerate(zs):
+        st = {t: [0, 0, 0, 0, 0, 0] for t in z}  # pj pg pe pp gf gc
+        for m in ms:
+            for t, gf, gc in ((m[4], m[6], m[7]), (m[5], m[7], m[6])):
+                if t in st:
+                    r = st[t]; r[0] += 1; r[4] += gf; r[5] += gc
+                    r[1 if gf > gc else 2 if gf == gc else 3] += 1
+        rows = sorted(([t, *r, r[4] - r[5], ded.get(t, 0), r[1] * w + r[2] - ded.get(t, 0)] for t, r in st.items()), key=lambda x: (-x[9], -x[7], -x[5], names[x[0]]))
+        tabs.append(dict(fase=f"Zona {letters[k]}", zona=True, rows=[[i + 1, *r] for i, r in enumerate(rows)]))
+    sd["tables"] = tabs + [dict(fase="General (las dos zonas juntas)" if len(zs) == 2 else "General (todas las zonas)", rows=sd["tables"][0]["rows"])]
+    sd["zonas_reconstruidas"] = 1 if anchor is None else 2
 
 # --- descensos (clubes que estaban en la temporada, no ascendieron y ya no figuran en la siguiente) y reducidos
 import re as _re
@@ -209,8 +256,64 @@ if SA.exists():
     titulares["p"].sort(key=lambda x: x[0])
     titulares["nota"] = "Partidos como titular en la Primera Nacional desde 2014 (formaciones confirmadas de Solo Ascenso)."
 
+# --- ficha de cada partido (se carga recién cuando alguien toca un partido): cancha, observaciones, goles y, desde 2014,
+#     árbitro, minutos y link a la síntesis de Solo Ascenso. Una fila por partido, en el mismo orden que matches.json.
+info = {"canchas": [], "arbitros": [], "p": []}
+_cx, _ax = {}, {}
+def _ix(tbl, idx, v):
+    if not v:
+        return -1
+    if v not in idx:
+        idx[v] = len(info[tbl]); info[tbl].append(v)
+    return idx[v]
+_gby = collections.defaultdict(list)
+for g in G:
+    _gby[g["ID Partido"]].append(g)
+_sa = {}
+if SA.exists():
+    from names_ext import best_among as _ba
+    _tm = {"Talleres (R.E)": "Talleres de Remedios de Escalada"}
+    with gzip.open(SA, "rt", encoding="utf-8") as f:
+        for line in f:
+            r = json.loads(line)
+            if r.get("cat") != "Primera Nacional" or not r.get("fecha"):
+                continue
+            for t in (r["local"], r["visitante"]):
+                if t not in _tm:
+                    _tm[t] = _ba(t, names)[0]
+            _sa[(r["fecha"], _tm[r["local"]], _tm[r["visitante"]])] = r
+import datetime as _dt
+for p in _mrow:
+    hg, ag = num(p["Goles local"]), num(p["Goles visitante"])
+    sa = None
+    if p["Fecha calendario"] >= "2014":
+        d0 = _dt.date.fromisoformat(p["Fecha calendario"])
+        for k in (0, -1, 1, -2, 2):
+            sa = _sa.get(((d0 + _dt.timedelta(days=k)).isoformat(), p["Local"], p["Visitante"]))
+            if sa:
+                break
+    goals = []
+    if sa and sa.get("goles_lista") and sum(1 for x in sa["goles_lista"] if x.get("side") == 0) == hg and sum(1 for x in sa["goles_lista"] if x.get("side") == 1) == ag:
+        for x in sa["goles_lista"]:
+            goals.append([x["side"], x["player"], 2 if x.get("ec") else 1 if x.get("pen") else 0, x.get("min") or 0])
+    else:
+        for g in _gby.get(p["ID Partido"], []):
+            side = 0 if g["Equipo que suma el gol"] == p["Local"] else 1
+            goals.append([side, g["Jugador"], 2 if g["Tipo"] == "Gol en contra" else 1 if g["Tipo"] == "Gol de penal" else 0, 0])
+    obs = re.sub(r"\s*(Pasado desde|Agregado por control|Interzonal pasado)[^.]*\.?", "", p["Observaciones"]).strip()
+    info["p"].append([_ix("canchas", _cx, p["Cancha"]), _ix("arbitros", _ax, (sa or {}).get("arbitro") or ""), obs, goals, (sa or {}).get("id") or 0])
+
+# promociones contra Primera División (archivo aparte, bnacional/data/promociones.csv): una serie por entrada, con sus partidos
+promos = []
+if (SRC / "promociones.csv").exists():
+    series = collections.OrderedDict()
+    for r in rd("promociones.csv"):
+        s = series.setdefault((r["Temporada"], r["Serie"]), dict(s=six.get(r["Temporada"]), p=r["Equipo de Primera"], b=r["Equipo de B Nacional"], res=r["Resultado de la serie"], gp=num(r["Global Primera"]), gb=num(r["Global B Nacional"]), obs=r["Observaciones"], legs=[]))
+        s["legs"].append([r["Partido (ida/vuelta)"], r["Fecha calendario"], r["Local"], r["Visitante"], num(r["GL"]), num(r["GV"])])
+    promos = list(series.values())
+
 meta = dict(temporadas=len(seasons), clubes=len(names), partidos=len(P), goles=len(G), ascensos=len(ASC), ultimo=max(p["Fecha calendario"] for p in P), generado=__import__("datetime").date.today().isoformat())
-for name, obj in (("meta", meta), ("teams", teams), ("seasons", sdata), ("phases", phases), ("players", players), ("matches", mlist), ("scorers", scorers), ("general", general), ("titulares", titulares)):
+for name, obj in (("meta", meta), ("teams", teams), ("seasons", sdata), ("phases", phases), ("players", players), ("matches", mlist), ("scorers", scorers), ("general", general), ("titulares", titulares), ("partidos_info", info), ("promociones", promos)):
     (OUT / f"{name}.json").write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(name, (OUT / f"{name}.json").stat().st_size // 1024, "KB")
 print(meta)

@@ -1,0 +1,19 @@
+{
+  "_nota": "A mano. Los clubes que siguen, descienden o pelean el ascenso se calculan solos con los partidos de la temporada base (data/matches.json); acá va solo lo que viene de otras categorías, con su fuente. Actualizar cuando se definan los ascensos de la Primera Nacional y los posibles segundos ascensos de la Primera B y el Federal A.",
+  "temporada": "2027",
+  "base": "2026",
+  "fechas_total": 36,
+  "descensos_por_zona": 2,
+  "plazas_reducido": 8,
+  "actualizado": "2026-10-31",
+  "llegan": [
+    { "nombre": "Estudiantes de Río Cuarto", "slug": "estudiantes-de-rio-cuarto", "desde": "Liga Profesional", "como": "Descendió: último en promedios y en la tabla anual", "fuente": "https://442.perfil.com/noticias/futbol/el-futbol-argentino-define-su-ultimo-descenso-con-river-independiente-y-racing-como-protagonistas.phtml" },
+    { "nombre": "Aldosivi", "slug": "aldosivi-de-mar-del-plata", "desde": "Liga Profesional", "como": "Descendió por la tabla anual tras perder 2-1 con Racing (30/10/2026)", "fuente": "https://www.c5n.com/deportes/aldosivi-cayo-2-1-racing-descendio-y-jugara-la-primera-nacional-2027-n253063" },
+    { "nombre": "Excursionistas", "slug": null, "desde": "Primera B Metropolitana", "como": "Campeón y ascenso", "fuente": "https://www.todojujuy.com/excursionistas-es-campeon-y-ascendio-la-primera-nacional-n297904" },
+    { "nombre": "San Martín de Formosa", "slug": null, "desde": "Torneo Federal A", "como": "Campeón y ascenso (le ganó la final a Cipolletti)", "fuente": "https://elgrafico.com.ar/articulo/1111/103543/san-martin-se-consagro-campeon-del-federal-a-y-corto-una-racha-de-50-anios-para-formosa" }
+  ],
+  "por_definir": [
+    "Los dos ascensos de la Primera Nacional 2026 a Primera División (final entre los ganadores de zona y reducido).",
+    "Si la Primera B Metropolitana o el Federal A tienen un segundo ascenso, se suma cuando se defina."
+  ]
+}
