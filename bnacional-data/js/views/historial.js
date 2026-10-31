@@ -79,6 +79,22 @@ export function clubRivalsSection(a) {
     box, h("p", more)]);
 }
 
+// promociones contra Primera División (S.promos, de bnacional/data/promociones.csv): se muestran aparte, no cuentan en el historial de fase regular
+const tIx = (name) => S.teams.findIndex((t) => t.n === name);
+export const promosBetween = (a, b) => S.promos.filter((p) => (p.p === S.teams[a].n && p.b === S.teams[b].n) || (p.p === S.teams[b].n && p.b === S.teams[a].n));
+export const promosOfClub = (a) => S.promos.filter((p) => p.p === S.teams[a].n || p.b === S.teams[a].n).sort((x, y) => y.s - x.s);
+function promoSeries(p) {
+  const nm = (name) => { const i = tIx(name); return i >= 0 ? h("a", { href: href.club(i) }, T(i).short) : name; };
+  return h("div.promo", [
+    h("h3.promo__t", [`${S.seasons[p.s] ? S.seasons[p.s].label : ""} · `, nm(p.p), " (Primera) vs ", nm(p.b), " (B Nacional)"]),
+    h("p.promo__r", [h("b", p.res), `. Global ${p.gp}-${p.gb} (Primera - B Nacional).`]),
+    table([{ label: "" }, { label: "Fecha" }, { label: "Local", cls: "num" }, { label: "" }, { label: "Visitante" }],
+      p.legs.map(([leg, f, l, v, gl, gv]) => h("tr", [h("td", leg), h("td", f ? fshort(f) : ""), h("td.num", gl > gv ? h("b", l) : l), h("td.h2h__score", `${gl} - ${gv}`), h("td", gv > gl ? h("b", v) : v)]))),
+    p.obs ? h("p.muted.promo__o", p.obs) : null,
+  ].filter(Boolean));
+}
+export const promosSection = (list, title = "Promociones contra Primera División") => sec(title, [h("p.muted", "Series que se jugaron contra un equipo de Primera por la categoría. No cuentan en los números de fase regular. Cargadas hasta ahora: 1999/00 a 2011/12."), ...list.map(promoSeries)]);
+
 // historial de todos los tiempos (fuentes externas, data/historial_completo.json); null si no hay para ese cruce
 function completoBlock(a, b) {
   const sa = S.teams[a].s, sb = S.teams[b].s, e = S.completo.find((x) => (x.a === sa && x.b === sb) || (x.a === sb && x.b === sa));
@@ -99,7 +115,7 @@ route("historial", async (r) => {
   const page = h("div.wrap.page");
   const [sa, sb] = (r.arg || "").split(SEP);
   const a = sa ? S.teamBy.get(sa) : null, b = sb ? S.teamBy.get(sb) : null;
-  page.append(head("Historiales", a != null && b != null ? `${T(a).short} vs ${T(b).short}` : "Cara a cara entre clubes", "Todos los partidos de fase regular de la B Nacional y la Primera Nacional desde 1986/87 entre dos clubes. No incluye reducidos ni promociones."));
+  page.append(head("Historiales", a != null && b != null ? `${T(a).short} vs ${T(b).short}` : "Cara a cara entre clubes", "Todos los partidos de fase regular de la B Nacional y la Primera Nacional desde 1986/87 entre dos clubes. No incluye reducidos; las promociones contra Primera, cuando las hubo, van aparte, al final."));
   page.append(h("p", h("a.link", { href: "#clasicos" }, "Ver los clásicos de cada club →")));
   page.append(picker(a, b));
   if (a == null) { page.append(h("p.muted", "Elegí dos clubes para ver su historial.")); return { page, title: "Historiales" }; }
@@ -112,7 +128,8 @@ route("historial", async (r) => {
     h("div.h2h__mid", [h("div.h2h__n", [h("span", s.pg), h("i", "–"), h("span", s.pe), h("i", "–"), h("span", s.pp)]), h("small", `Ganó ${T(a).short} · Empates · Ganó ${T(b).short}`)]),
     h("a.h2h__side", { href: href.club(b) }, [big(b), h("b", T(b).short)]),
   ]));
-  if (!list.length) { page.append(h("p.muted", "Nunca se enfrentaron en la categoría.")); return { page, title: `${T(a).short} vs ${T(b).short}` }; }
+  const promo = promosBetween(a, b);
+  if (!list.length) { page.append(h("p.muted", promo.length ? "No se enfrentaron en fase regular de la categoría; sí en una promoción (abajo)." : "Nunca se enfrentaron en la categoría.")); if (promo.length) page.append(promosSection(promo)); return { page, title: `${T(a).short} vs ${T(b).short}` }; }
 
   const bar = (v, cls) => v ? h("span.h2h__seg." + cls, { style: { flex: v }, title: v }) : null;
   page.append(h("div.h2h__bar", { role: "img", "aria-label": `${s.pg} victorias de ${T(a).short}, ${s.pe} empates, ${s.pp} victorias de ${T(b).short}` }, [bar(s.pg, "is-a"), bar(s.pe, "is-e"), bar(s.pp, "is-b")].filter(Boolean)));
@@ -151,5 +168,6 @@ route("historial", async (r) => {
   };
   draw();
   page.append(sec("Todos los partidos", [filt, box]));
+  if (promo.length) page.append(promosSection(promo));
   return { page, title: `${T(a).short} vs ${T(b).short}` };
 });

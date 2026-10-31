@@ -27,10 +27,11 @@ export function mergeResources() {
 }
 
 export async function load() {
-  const [meta, teams, seasons, phases, players, matches, scorers, general, fotos, videos, crests, planteles, galeria, extra, titulares, clasicos, completo] = await Promise.all(
-    ["meta", "teams", "seasons", "phases", "players", "matches", "scorers", "general", "fotos", "videos", "crests", "planteles", "galeria", "extra", "titulares", "clasicos", "historial_completo"].map((x) => get(x).catch(() => (x === "clasicos" ? { pares: [] } : x === "fotos" ? { entries: {}, general: [] } : x === "videos" ? [] : x === "galeria" ? { general: [], clubs: {} } : {}))));
+  const [meta, teams, seasons, phases, players, matches, scorers, general, fotos, videos, crests, planteles, galeria, extra, titulares, clasicos, completo, promociones] = await Promise.all(
+    ["meta", "teams", "seasons", "phases", "players", "matches", "scorers", "general", "fotos", "videos", "crests", "planteles", "galeria", "extra", "titulares", "clasicos", "historial_completo", "promociones"].map((x) => get(x).catch(() => (x === "clasicos" ? { pares: [] } : x === "fotos" ? { entries: {}, general: [] } : x === "videos" ? [] : x === "galeria" ? { general: [], clubs: {} } : {}))));
   Object.assign(S, { meta, teams, seasons, phases, players, matches, scorers, scorers_raw: scorers, general, fotos, videos, crests, planteles, galeria });
   S.clasicos = clasicos && clasicos.pares ? clasicos : { pares: [] };
+  S.promos = Array.isArray(promociones) ? promociones : []; // promociones contra Primera División (una serie por entrada)
   S.completo = (completo && completo.cruces) || []; // historial de todos los tiempos (fuentes externas), por cruce de clubes
   S.extra = extra && extra.fotos ? extra : emptyDelta();
   S.titulares = titulares && titulares.p ? titulares : { p: [] };

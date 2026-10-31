@@ -360,6 +360,7 @@ button.gcell { cursor: pointer; font-size: 1.4rem; transition: background .15s, 
 /* filtros de la práctica libre de los juegos */
 .gfil { margin: 0 0 16px; gap: 12px 16px; } .gfil label { display: inline-flex; align-items: center; gap: 8px; font-size: .88rem; color: var(--muted); }
 .h2h__sub { margin: 30px 0 10px; font-size: 1.15rem; } .h2h__full { margin: 0 0 6px; } .h2h__full .h2h__sub { margin-top: 18px; }
+.promo { margin: 0 0 26px; } .promo__t { font-size: 1rem; margin: 18px 0 4px; } .promo__r { margin: 0 0 8px; } .promo__o { font-size: .85rem; }
 
 /* solo parece botón lo que es botón: los contadores sin destino ya no reaccionan al pasar el mouse */
 .stat:hover { background: var(--paper); }
