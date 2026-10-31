@@ -12,19 +12,31 @@ const AMBA = new Set(["Buenos Aires", "Ciudad de Buenos Aires"]);
 const zone = (ti) => (AMBA.has(S.teams[ti].prov) ? "AMBA" : S.teams[ti].prov);
 
 let cache = null;
+// una entrada por cruce: los cargados a mano (un club puede tener varios, como los tres de Salta) y, para los clubes
+// que no tienen ninguno, el rival que más enfrentaron
 function build() {
   if (cache) return cache;
-  const man = new Map();
-  for (const [a, b, name] of S.clasicos?.pares || []) { const x = S.teamBy.get(a), y = S.teamBy.get(b); if (x != null && y != null) { man.set(x, { b: y, name }); man.set(y, { b: x, name }); } }
-  cache = S.teams.map((t, ti) => {
-    if (man.has(ti)) return { ti, ...man.get(ti), manual: true };
+  const out = [], has = new Set();
+  for (const [a, b, name] of S.clasicos?.pares || []) {
+    const x = S.teamBy.get(a), y = S.teamBy.get(b);
+    if (x == null || y == null) continue;
+    out.push({ ti: x, b: y, name, manual: true }); has.add(x); has.add(y);
+  }
+  S.teams.forEach((t, ti) => {
+    if (has.has(ti)) return;
     const rs = rivalsOf(ti).filter((r) => r.b !== ti).sort((p, q) => q.pj - p.pj);
     const near = rs.find((r) => zone(r.b) === zone(ti)) || rs[0];
-    return near ? { ti, b: near.b, name: "", manual: false } : null;
-  }).filter(Boolean);
+    if (near) out.push({ ti, b: near.b, name: "", manual: false });
+  });
+  cache = out;
   return cache;
 }
-export const classicOf = (ti) => build().find((c) => c.ti === ti) || null;
+// todos los clásicos de un club (cargados a mano; si no tiene, el más enfrentado), visto desde ese club
+export const classicsOf = (ti) => {
+  const L = build().filter((c) => c.ti === ti || (c.manual && c.b === ti)).map((c) => (c.ti === ti ? c : { ...c, ti, b: c.ti }));
+  return L;
+};
+export const classicOf = (ti) => classicsOf(ti)[0] || null;
 
 const balance = (a, b) => h2hSummary(a, h2hMatches(a, b));
 const line = (a, b) => { const s = balance(a, b); return s.pj ? `${s.pj} partidos · ${s.pg} G · ${s.pe} E · ${s.pp} P · goles ${s.gf}-${s.gc}` : "Nunca se enfrentaron en la base"; };
@@ -55,7 +67,7 @@ route("clasicos", async () => {
   sa.addEventListener("change", drawOut); sb.addEventListener("change", drawOut);
 
   const draw = () => {
-    const f = norm(st.q), L = build().filter((c) => (!st.only || c.manual) && (!f || norm(T(c.ti).n + " " + T(c.b).n).includes(f))).filter((c) => classicOf(c.b)?.b !== c.ti || T(c.ti).short.localeCompare(T(c.b).short, "es") < 0).sort((x, y) => T(x.ti).short.localeCompare(T(y.ti).short, "es"));
+    const f = norm(st.q), L = build().filter((c) => (!st.only || c.manual) && (!f || norm(T(c.ti).n + " " + T(c.b).n).includes(f))).filter((c) => c.manual || !build().some((d) => d !== c && d.ti === c.b && d.b === c.ti && T(c.ti).short.localeCompare(T(c.b).short, "es") > 0)).sort((x, y) => T(x.ti).short.localeCompare(T(y.ti).short, "es"));
     grid.replaceChildren(...(L.length ? L.map((c) => h("a.cl__card", { href: hrefH2H(c.ti, c.b) }, [
       h("div.cl__teams", [h("span", [crest(c.ti), h("b", T(c.ti).short)]), h("i", "vs"), h("span", [crest(c.b), h("b", T(c.b).short)])]),
       h("p.cl__tag" + (c.manual ? "" : ".is-auto"), c.manual ? (c.name || "Rival histórico") : "Rival más enfrentado"),
@@ -63,7 +75,7 @@ route("clasicos", async () => {
     ])) : [h("p.muted", "Ningún clásico coincide con esa búsqueda.")]));
   };
 
-  page.append(head("Clásicos", "Un rival por club, y los cruces que elijas", "Cada club con su clásico y cómo le fue en la B Nacional; si el rival es mutuo, el cruce aparece una sola vez. Donde no hay un clásico cargado se muestra el rival que más veces enfrentó, y está marcado así."),
+  page.append(head("Clásicos", "Los clásicos de cada club, y los cruces que elijas", "Cada club con su clásico y cómo le fue en la B Nacional; si el rival es mutuo, el cruce aparece una sola vez. Donde no hay un clásico cargado se muestra el rival que más veces enfrentó, y está marcado así."),
     h("div.cl__build", [h("h3", "Armá tu cruce"), h("div.toolbar", [sa, h("span.muted", "vs"), sb]), out, mine]),
     h("div.toolbar", [h("input#clq", { type: "search", placeholder: "Buscar club", "aria-label": "Buscar club", oninput: (e) => { st.q = e.target.value; draw(); } }), h("label.cl__only", [h("input", { type: "checkbox", onchange: (e) => { st.only = e.target.checked; draw(); } }), " Solo clásicos cargados"]), h("a.link", { href: "#historial" }, "Historiales de cualquier cruce →")]),
     grid);

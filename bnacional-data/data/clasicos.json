@@ -1,33 +1,155 @@
 {
-  "_nota": "Clásicos verificados con fuentes públicas (ver data/fuentes/clasicos_fuentes.csv): slug, slug, nombre. Si el nombre quedó vacío, la fuente confirma el cruce pero no un nombre propio. Los clubes que no figuran acá muestran automáticamente el rival que más enfrentaron, marcado como 'más enfrentado'. Un club tiene un solo rival: si un par se repite, pisa al anterior.",
+  "_nota": "Clásicos verificados con fuentes públicas (ver data/fuentes/clasicos_fuentes.csv): slug, slug, nombre. Si el nombre quedó vacío, la fuente confirma el cruce pero no un nombre propio. Los clubes que no figuran acá muestran automáticamente el rival que más enfrentaron, marcado como 'más enfrentado'. Un club puede tener más de un clásico (por ejemplo los tres cruces de Salta).",
   "pares": [
-    ["banfield", "lanus", "Clásico del Sur"],
-    ["estudiantes-de-la-plata", "gimnasia-y-esgrima-la-plata", "Clásico platense"],
-    ["colon", "union-de-santa-fe", "Clásico santafesino"],
-    ["belgrano-de-cordoba", "talleres-de-cordoba", "Clásico cordobés"],
-    ["san-martin-de-tucuman", "atletico-tucuman", "Clásico tucumano"],
-    ["san-martin-de-san-juan", "sportivo-desamparados-de-san-juan", "Clásico sanjuanino"],
-    ["godoy-cruz-antonio-tomba", "independiente-rivadavia-de-mendoza", "Clásico mendocino"],
-    ["patronato-de-parana", "atletico-parana", "Clásico paranaense"],
-    ["central-cordoba-de-santiago-del-estero", "mitre-de-santiago-del-estero", "Clásico santiagueño"],
-    ["crucero-del-norte", "guarani-antonio-franco-de-posadas", "Clásico misionero"],
-    ["deportivo-madryn", "guillermo-brown-de-puerto-madryn", "Clásico madrynense"],
-    ["olimpo-de-bahia-blanca", "villa-mitre-de-bahia-blanca", "Clásico de Bahía Blanca"],
-    ["aldosivi-de-mar-del-plata", "alvarado-de-mar-del-plata", "Clásico marplatense"],
-    ["gimnasia-y-tiro-de-salta", "juventud-antoniana-de-salta", "Clásico salteño"],
-    ["chacarita-juniors", "atlanta", "Clásico de Villa Crespo"],
-    ["almagro", "estudiantes-de-buenos-aires", "Clásico de Tres de Febrero"],
-    ["almirante-brown", "deportivo-moron", "Clásico del oeste"],
-    ["all-boys", "nueva-chicago", ""],
-    ["argentinos-juniors", "platense", ""],
-    ["arsenal-fc", "el-porvenir", ""],
-    ["deportivo-espanol", "sportivo-italiano", "Clásico de las colectividades"],
-    ["deportivo-riestra", "sacachispas", "Clásico malevo"],
-    ["ferrocarril-midland", "ituzaingo", ""],
-    ["los-andes", "temperley", "Clásico de Lomas"],
-    ["defensores-unidos-de-zarate", "villa-dalmine", ""],
-    ["argentino-de-rosario", "tiro-federal-de-rosario", ""],
-    ["chaco-for-ever", "deportivo-mandiyu-de-corrientes", "Clásico del Litoral"],
-    ["instituto-de-cordoba", "racing-de-cordoba", ""]
+    [
+      "banfield",
+      "lanus",
+      "Clásico del Sur"
+    ],
+    [
+      "estudiantes-de-la-plata",
+      "gimnasia-y-esgrima-la-plata",
+      "Clásico platense"
+    ],
+    [
+      "colon",
+      "union-de-santa-fe",
+      "Clásico santafesino"
+    ],
+    [
+      "belgrano-de-cordoba",
+      "talleres-de-cordoba",
+      "Clásico cordobés"
+    ],
+    [
+      "san-martin-de-tucuman",
+      "atletico-tucuman",
+      "Clásico tucumano"
+    ],
+    [
+      "san-martin-de-san-juan",
+      "sportivo-desamparados-de-san-juan",
+      "Clásico sanjuanino"
+    ],
+    [
+      "godoy-cruz-antonio-tomba",
+      "independiente-rivadavia-de-mendoza",
+      "Clásico mendocino"
+    ],
+    [
+      "patronato-de-parana",
+      "atletico-parana",
+      "Clásico paranaense"
+    ],
+    [
+      "central-cordoba-de-santiago-del-estero",
+      "mitre-de-santiago-del-estero",
+      "Clásico santiagueño"
+    ],
+    [
+      "crucero-del-norte",
+      "guarani-antonio-franco-de-posadas",
+      "Clásico misionero"
+    ],
+    [
+      "deportivo-madryn",
+      "guillermo-brown-de-puerto-madryn",
+      "Clásico madrynense"
+    ],
+    [
+      "olimpo-de-bahia-blanca",
+      "villa-mitre-de-bahia-blanca",
+      "Clásico de Bahía Blanca"
+    ],
+    [
+      "aldosivi-de-mar-del-plata",
+      "alvarado-de-mar-del-plata",
+      "Clásico marplatense"
+    ],
+    [
+      "gimnasia-y-tiro-de-salta",
+      "juventud-antoniana-de-salta",
+      "Clásico salteño"
+    ],
+    [
+      "chacarita-juniors",
+      "atlanta",
+      "Clásico de Villa Crespo"
+    ],
+    [
+      "almagro",
+      "estudiantes-de-buenos-aires",
+      "Clásico de Tres de Febrero"
+    ],
+    [
+      "almirante-brown",
+      "deportivo-moron",
+      "Clásico del oeste"
+    ],
+    [
+      "all-boys",
+      "nueva-chicago",
+      ""
+    ],
+    [
+      "argentinos-juniors",
+      "platense",
+      ""
+    ],
+    [
+      "arsenal-fc",
+      "el-porvenir",
+      ""
+    ],
+    [
+      "deportivo-espanol",
+      "sportivo-italiano",
+      "Clásico de las colectividades"
+    ],
+    [
+      "deportivo-riestra",
+      "sacachispas",
+      "Clásico malevo"
+    ],
+    [
+      "ferrocarril-midland",
+      "ituzaingo",
+      ""
+    ],
+    [
+      "los-andes",
+      "temperley",
+      "Clásico de Lomas"
+    ],
+    [
+      "defensores-unidos-de-zarate",
+      "villa-dalmine",
+      ""
+    ],
+    [
+      "argentino-de-rosario",
+      "tiro-federal-de-rosario",
+      ""
+    ],
+    [
+      "chaco-for-ever",
+      "deportivo-mandiyu-de-corrientes",
+      "Clásico del Litoral"
+    ],
+    [
+      "instituto-de-cordoba",
+      "racing-de-cordoba",
+      ""
+    ],
+    [
+      "central-norte-de-salta",
+      "juventud-antoniana-de-salta",
+      "Clásico salteño"
+    ],
+    [
+      "gimnasia-y-tiro-de-salta",
+      "central-norte-de-salta",
+      "Clásico salteño"
+    ]
   ]
 }

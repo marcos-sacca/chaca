@@ -3,7 +3,7 @@ import { S, clubSeason } from "../store.js";
 import { h, n, norm, imgSrc } from "../util.js";
 import { ascCard, head, sec, table, T, href, monogram, crest, plantelBox, openPhoto, helpBox } from "./common.js";
 import { effLine } from "../charts.js";
-import { classicOf } from "./clasicos.js";
+import { classicsOf } from "./clasicos.js";
 import { hrefH2H } from "./historial.js";
 import { clubRivalsSection } from "./historial.js";
 
@@ -40,8 +40,8 @@ route("c", async (r) => {
   const tile = (l, v, sub, act) => { const kids = [h("b", n(v)), h("span", l), h("small", sub)]; if (!act) return h("div.stat", kids); const lab = { "aria-label": `${l}: ${v}. Ver el detalle` }; return typeof act === "string" ? h("a.stat.stat--link", { href: act, ...lab }, kids) : h("button.stat.stat--link", { type: "button", onclick: act, ...lab }, kids); };
   page.append(h("div.stats.stats--hi", [tile("Temporadas", g ? g[2] : 0, "En la categoría", g ? scrollTo_(() => seasonsSec) : null), tile("Ascensos", cs.asc.length, cs.champ ? `${cs.champ} como campeón` : "a Primera", cs.asc.length ? scrollTo_(() => ascSec) : null), tile("Descensos", cs.desc.length, "salidas de la categoría", cs.desc.length ? flashRows(".pill--down") : null), tile("Reducidos", cs.red.length, cs.promo.length ? `y ${cs.promo.length} promociones` : "por el ascenso", cs.red.length || cs.promo.length ? `#reducidos-${t.s}` : null)]));
   const seasonLine = (arr) => arr.map((si) => h("a.chipl", { href: href.season(si) }, S.seasons[si].label));
-  const cl = classicOf(ti);
-  if (cl) page.append(h("p.cl__club", [h("b", cl.manual ? (cl.name || "Su clásico") + ": " : "Rival más enfrentado: "), h("a", { href: hrefH2H(ti, cl.b) }, [crest(cl.b), T(cl.b).short]), " · ", h("a", { href: "#clasicos" }, "todos los clásicos")]));
+  const cls = classicsOf(ti);
+  if (cls.length) page.append(h("p.cl__club", [...cls.flatMap((cl, i) => [i ? " · " : null, h("b", cl.manual ? (cl.name || "Su clásico") + ": " : "Rival más enfrentado: "), h("a", { href: hrefH2H(ti, cl.b) }, [crest(cl.b), T(cl.b).short])]), " · ", h("a", { href: "#clasicos" }, "todos los clásicos")]));
   if (cs.desc.length || cs.red.length || cs.promo.length) page.append(h("div.kline", [cs.desc.length ? h("p", [h("b", "Descendió en: "), ...seasonLine(cs.desc)]) : null, cs.red.length ? h("p", [h("b", "Jugó el reducido en: "), ...seasonLine(cs.red), h("a.link", { href: `#reducidos-${t.s}` }, "ver partidos →")]) : null, cs.promo.length ? h("p", [h("b", "Jugó promoción en: "), ...seasonLine(cs.promo)]) : null].filter(Boolean)));
   if (g) page.append(h("div.stats", [["PJ", g[3]], ["Ganados", g[4]], ["Empatados", g[5]], ["Perdidos", g[6]], ["Goles a favor", g[7]], ["Goles en contra", g[8]], ["Puntos (3 x victoria)", g[12]]].map(([l, v]) => h("div.stat", [h("b", n(v)), h("span", l)]))));
   // camino por temporadas
