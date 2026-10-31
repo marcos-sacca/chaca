@@ -407,3 +407,9 @@ a.pill--link::after, button.pill--btn::after { content: " ›"; opacity: .6; }
 .px__new b { display: block; } .px__new small { display: block; color: var(--muted); font-size: .8rem; } .px__new a { color: var(--ink); } .px__new .px__src { font-size: .74rem; color: var(--link); }
 .px__z { margin-top: 12px; } .px__z h3 { margin: 0 0 8px; font-size: .95rem; } .px__c small { display: block; color: var(--muted); font-size: .74rem; }
 .px__todo { margin: 0; padding-left: 20px; color: var(--muted); }
+/* cómo se definió la temporada */
+.cm__stories { display: grid; gap: 10px; margin: 0 0 22px; }
+.cm__s { display: flex; gap: 14px; align-items: flex-start; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); box-shadow: inset 4px 0 0 var(--row-up-bar); } .cm__s .crest { width: 40px; height: 40px; margin: 0; flex: none; }
+.cm__s a { color: var(--ink); } .cm__s p { margin: 4px 0 0; color: var(--ink); font-size: .94rem; line-height: 1.5; }
+.cm__timeline > .cap { margin: 0 0 8px; } .cm__b { margin: 0 0 22px; padding-top: 14px; border-top: 1px solid var(--line); } .cm__b h3 { margin: 0 0 4px; font-size: 1rem; }
+.cm__res { display: block; margin-top: 4px; font-size: .74rem; color: var(--muted); max-width: 220px; }

@@ -1,5 +1,6 @@
 import { route } from "../app.js";
 import { scoreBtn } from "../match.js";
+import { caminoSection } from "./camino.js";
 import { S } from "../store.js";
 import { h, n, fshort, fdate, mdate } from "../util.js";
 import { ascCard, head, sec, table, T, href, pill, crest, plantelBox } from "./common.js";
@@ -23,6 +24,8 @@ route("t", async (r) => {
   // quienes subieron
   if (s.promoted.length) { const as = s.promoted.map(([t, how]) => ({ si, t, how, season: s, key: `${s.id}|${S.teams[t].s}` })); page.append(sec("Subieron a Primera", [h("div.agrid", as.map((a) => ascCard(a))), h("div.plantels", as.map((a) => plantelBox(a)))])); }
   else if (si === S.seasons.length - 1) page.append(sec("Ascensos", h("p.muted", "El torneo está en juego. Los ascensos se definen al final de la temporada.")));
+  // cómo se definió: el camino de cada ascendido y los reducidos, promociones y desempates, en orden
+  { const cm = caminoSection(si); if (cm) page.append(cm); }
   // descensos y reducidos de la temporada
   const clubList = (ids) => h("div.cgrid", ids.map((t) => h("a.ccard.ccard--s", { href: href.club(t) }, [crest(t), h("span.ccard__t", h("b", T(t).short))])));
   if (s.desc && s.desc.length) page.append(sec("Descendieron", [clubList(s.desc), h("p.cap", "Clubes que jugaron esta temporada, no ascendieron y no figuran en la siguiente. Se calcula así: la base no trae una lista oficial de descensos.")]));
@@ -55,9 +58,5 @@ route("t", async (r) => {
   const drawR = () => { results.replaceChildren(...S.mBySeason[si].filter((i) => S.matches[i][1] === ph && S.matches[i][2] === rd).map((i) => { const m = S.matches[i]; return h("div.res", [h("span.res__d", mdate(m)), h("a.res__h", { href: href.club(m[4]) }, T(m[4]).short), scoreBtn(i), h("a.res__a", { href: href.club(m[5]) }, T(m[5]).short)]); })); };
   fillRd(); drawR();
   page.append(sec("Resultados", [h("div.toolbar", [phases.length > 1 ? phSel : null, rdSel]), results, h("p.cap", "Tocá un resultado para ver los goles y los datos del partido.")]));
-  if (s.reducidos.length) {
-    const rows = s.reducidos.map((r) => h("div.res.res--red", [h("span.res__d", r[3] ? fshort(r[3]) : ""), (r[4] != null ? h("a.res__h", { href: href.club(r[4]) }, T(r[4]).short) : h("span.res__h", "?")), h("b.res__s", `${r[6]} - ${r[7]}`), (r[5] != null ? h("a.res__a", { href: href.club(r[5]) }, T(r[5]).short) : h("span.res__a", "?")), h("span.res__t", `${r[0]} · ${r[1]}`)]));
-    page.append(sec("Reducido y promociones", rows.length > 14 ? h("details.fold", [h("summary", `Ver los ${rows.length} partidos`), h("div.results", rows)]) : h("div.results", rows)));
-  }
   return { page, title: s.label };
 });

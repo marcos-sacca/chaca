@@ -90,7 +90,7 @@ function rowsFor(ms, all) {
 }
 // --- llaves: cruces de un torneo (ida y vuelta o partido único) ordenados en rondas, como un cuadro de Mundial
 const roundOf = (x) => x.inst || "";
-function tiesFor(ms, all) {
+export function tiesFor(ms, all) {
   const by = new Map();
   for (const x of ms) {
     if (x.a == null || x.b == null) return null;
@@ -119,16 +119,17 @@ function tiesFor(ms, all) {
     const last = legs[legs.length - 1];
     let pasa = g[t1] > g[t2] ? t1 : g[t2] > g[t1] ? t2 : last.pen ? last.pen[0] : null, note = last.pen && g[t1] === g[t2] ? `pen. ${last.pen[1]}` : "";
     if (pasa == null && /Promoción con/i.test(legs[0].torneo) && regularSets()[legs[0].si].has(t1) !== regularSets()[legs[0].si].has(t2)) { pasa = regularSets()[legs[0].si].has(t1) ? t1 : t2; note = "conservó la categoría"; }
-    if (pasa == null) {
-      const later = all.filter((y) => y.date > last.date);
-      const p1 = later.some((y) => y.a === t1 || y.b === t1), p2 = later.some((y) => y.a === t2 || y.b === t2);
-      if (p1 !== p2) { pasa = p1 ? t1 : t2; note = "ventaja deportiva"; }
-    }
+    // quién siguió jugando el mismo torneo: si es uno solo, ese pasó (aunque falte un partido de la serie en la base)
+    const later = all.filter((y) => y.date > last.date), same = later.filter((y) => y.torneo === legs[0].torneo);
+    const cont = (L) => { const p1 = L.some((y) => y.a === t1 || y.b === t1), p2 = L.some((y) => y.a === t2 || y.b === t2); return p1 !== p2 ? (p1 ? t1 : t2) : null; };
+    const c = cont(same);
+    if (c != null && pasa !== c) { note = pasa == null ? "ventaja deportiva" : "siguió jugando el torneo, aunque el resultado cargado no lo muestra"; pasa = c; }
+    else if (pasa == null) { const c2 = cont(later); if (c2 != null) { pasa = c2; note = "ventaja deportiva"; } }
     return { round: roundOf(legs[0]), date: legs[0].date || "", legs, t1, t2, g, pasa, note };
   });
 }
 // rondas en orden; null si el torneo no es una llave (todos contra todos, o un club en dos cruces de la misma ronda)
-function bracketFor(ms, all) {
+export function bracketFor(ms, all) {
   let ties = tiesFor(ms, all);
   if (!ties || ties.length < 3) return null;
   // la final por el primer ascenso (los dos ganadores de zona) va aparte: es un cruce del campeón, que después no juega más
@@ -158,10 +159,13 @@ function bracketFor(ms, all) {
   return R;
 }
 const ROUND_NAMES = ["Final", "Semifinales", "Cuartos de final", "Octavos de final", "16avos de final"];
-function bracketView(R) {
+// un cruce: los dos clubes con el global, el que pasó resaltado
+// un club sin ficha en el sitio (ej.: Racing Club en una promoción con Primera) se muestra con su nombre, sin link ni escudo
+const teamRow = (t, tie, i) => { const nm = t == null ? (tie.names?.[i] || "?") : null; return h("div.bk__t" + (tie.pasa == null || (t == null && tie.pasa == null) ? "" : tie.pasa === t && t != null ? ".is-win" : ".is-lose") + (nm && tie.winName === nm ? ".is-win" : ""), [h("span.bk__n", nm ? nm : [crest(t), T(t).short]), h("b.bk__g", nm ? tie.gn?.[i] ?? "" : tie.g[t])]); };
+export const tieCard = (tie) => h("div.bk__tie", { title: tie.legs.map((y) => `${y.date ? fshort(y.date) + " " : ""}${y.a != null ? T(y.a).short : (y.an || "?")} ${y.ga}-${y.gb} ${y.b != null ? T(y.b).short : (y.bn || "?")}`).join("\n") }, [teamRow(tie.t1, tie, 0), teamRow(tie.t2, tie, 1), h("small.bk__x", [tie.legs.length > 1 ? "ida y vuelta" : "partido único", tie.note ? ` · ${tie.note}` : ""])]);
+export function bracketView(R) {
   const label = (r, i) => (/fecha \d+/i.test(r[0].round) || !r[0].round ? (R.length - 1 - i < ROUND_NAMES.length && R[R.length - 1].length === 1 ? ROUND_NAMES[R.length - 1 - i] : `Ronda ${i + 1}`) : r[0].round);
-  const teamRow = (t, tie) => h("div.bk__t" + (tie.pasa == null ? "" : tie.pasa === t ? ".is-win" : ".is-lose"), [h("span.bk__n", [crest(t), T(t).short]), h("b.bk__g", tie.g[t])]);
-  const tieBox = (tie) => h("div.bk__tie", { title: tie.legs.map((y) => `${y.date ? fshort(y.date) + " " : ""}${T(y.a).short} ${y.ga}-${y.gb} ${T(y.b).short}`).join("\n") }, [teamRow(tie.t1, tie), teamRow(tie.t2, tie), h("small.bk__x", [tie.legs.length > 1 ? "ida y vuelta" : "partido único", tie.note ? ` · ${tie.note}` : ""])]);
+  const tieBox = tieCard;
   const fin1 = R.final1 ? h("div.bk__f1", [h("p.bk__r", "Final por el primer ascenso"), tieBox(R.final1), h("p.cap", "El que perdió la final pasó al reducido.")]) : null;
   const otros = R.otros && R.otros.length ? h("div.bk__ot", [h("p.bk__r", "Otros partidos de este torneo"), h("p.cap", "Entre clubes de la mitad de abajo de su zona: no son del reducido (probablemente por la permanencia)."), h("div.bk__otl", R.otros.map(tieBox))]) : null;
   const bk = h("div.bk", { role: "group", "aria-label": "Llave" }, R.map((r, i) => h("div.bk__col", [h("p.bk__r", label(r, i)), h("div.bk__ties", r.map(tieBox))])));
