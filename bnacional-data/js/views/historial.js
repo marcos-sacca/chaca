@@ -126,13 +126,29 @@ route("historial", async (r) => {
   const k = [margin(bestA) > 0 ? h("p", [h("b", `Mayor triunfo de ${T(a).short}: `), scoreTxt(bestA)]) : null, margin(bestB) < 0 ? h("p", [h("b", `Mayor triunfo de ${T(b).short}: `), scoreTxt(bestB)]) : null].filter(Boolean);
   if (k.length) page.append(h("div.kline", k));
 
-  page.append(sec("Todos los partidos", table([{ label: "Fecha" }, { label: "Temporada" }, { label: "Local", cls: "num" }, { label: "" }, { label: "Visitante" }, { label: "" }],
-    list.slice().reverse().map((i) => { const m = S.matches[i], r_ = res(a, i), win = m[6] > m[7] ? 4 : m[6] < m[7] ? 5 : -1; return h("tr", [
-      h("td", mdate(m)), h("td", h("a", { href: href.season(m[0]) }, S.seasons[m[0]].label)),
-      h("td.num", win === 4 ? h("b", T(m[4]).short) : T(m[4]).short),
-      h("td.h2h__score", `${m[6]} - ${m[7]}`),
-      h("td", win === 5 ? h("b", T(m[5]).short) : T(m[5]).short),
-      h("td", h("span.h2h__r.h2h__r--" + r_, { title: { G: "Ganó ", E: "Empató ", P: "Perdió " }[r_] + T(a).short }, r_)),
-    ]); }))));
+  // lista de partidos con filtros por resultado y por condición (siempre desde el punto de vista del primer club)
+  const fl = { r: "todos", c: "todas" }, box = h("div"), filt = h("div.h2h__filt");
+  const isHome = (i) => S.matches[i][4] === a;
+  const pass = (i) => (fl.r === "todos" || res(a, i) === fl.r) && (fl.c === "todas" || (fl.c === "loc") === isHome(i));
+  const group = (key, opts) => h("div.chips.h2h__chips", { role: "group" }, opts.map(([v, l]) => {
+    const cnt = list.filter((i) => (key === "r" ? (v === "todos" || res(a, i) === v) && (fl.c === "todas" || (fl.c === "loc") === isHome(i)) : (v === "todas" || (v === "loc") === isHome(i)) && (fl.r === "todos" || res(a, i) === fl.r))).length;
+    return h("button.chip", { type: "button", "aria-pressed": String(fl[key] === v), disabled: !cnt && fl[key] !== v, onclick: () => { fl[key] = v; draw(); } }, [l, h("small.h2h__cnt", ` ${cnt}`)]);
+  }));
+  const draw = () => {
+    filt.replaceChildren(
+      group("r", [["todos", "Todos"], ["G", `Ganó ${T(a).short}`], ["E", "Empates"], ["P", `Ganó ${T(b).short}`]]),
+      group("c", [["todas", "Local y visitante"], ["loc", `${T(a).short} de local`], ["vis", `${T(a).short} de visitante`]]));
+    const rows = list.filter(pass).slice().reverse();
+    box.replaceChildren(rows.length ? table([{ label: "Fecha" }, { label: "Temporada" }, { label: "Local", cls: "num" }, { label: "" }, { label: "Visitante" }, { label: "" }],
+      rows.map((i) => { const m = S.matches[i], r_ = res(a, i), win = m[6] > m[7] ? 4 : m[6] < m[7] ? 5 : -1; return h("tr", [
+        h("td", mdate(m)), h("td", h("a", { href: href.season(m[0]) }, S.seasons[m[0]].label)),
+        h("td.num", win === 4 ? h("b", T(m[4]).short) : T(m[4]).short),
+        h("td.h2h__score", `${m[6]} - ${m[7]}`),
+        h("td", win === 5 ? h("b", T(m[5]).short) : T(m[5]).short),
+        h("td", h("span.h2h__r.h2h__r--" + r_, { title: { G: "Ganó ", E: "Empató ", P: "Perdió " }[r_] + T(a).short }, r_)),
+      ]); })) : h("p.muted", "No hay partidos con esos filtros."));
+  };
+  draw();
+  page.append(sec("Todos los partidos", [filt, box]));
   return { page, title: `${T(a).short} vs ${T(b).short}` };
 });

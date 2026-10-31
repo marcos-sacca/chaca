@@ -176,7 +176,8 @@ route("jugador", async (r) => {
     } else {
       const tot = st.rounds.reduce((a, x) => a + x.pts, 0), max = st.rounds.length * 5;
       kids.push(h("div.gres", [h("p.eyebrow", "Desafío del día"), h("h2", `${tot} de ${max} puntos`)]),
-        shareBox(`B Nacional Histórica · Adiviná el jugador #${N}\n${st.rounds.map((x) => `${catOf(x.cat).e}${ptsEmoji(x.pts)}`).join(" ")}\n${tot}/${max} puntos`),
+        // un renglón por ronda, en vertical como el Wordle
+        shareBox(`B Nacional Histórica\nAdiviná el jugador #${N}\n\n${st.rounds.map((x) => `${catOf(x.cat).e} ${ptsEmoji(x.pts)} ${x.won ? `${mmss(x.secs)} · ${x.pts} ${x.pts === 1 ? "pt" : "pts"}` : "—"}`).join("\n")}\n\n${tot}/${max} puntos`),
         h("p.muted.game__left", [`Mañana hay otro (en ${untilTomorrow()}). Mientras, `, h("a", { href: "#jugador-libre" }, "seguí practicando"), "."]));
     }
     box.replaceChildren(...kids);

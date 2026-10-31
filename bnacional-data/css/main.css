@@ -368,3 +368,4 @@ a.pill--link::after, button.pill--btn::after { content: " ›"; opacity: .6; }
 @keyframes rowflash { from { background: var(--fog2); } to { background: transparent; } } tr.is-flash td { animation: rowflash 1.8s ease-out; }
 @media (prefers-reduced-motion: reduce) { tr.is-flash td { animation: none; background: var(--fog2); } }
 .cl__club { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; } .cl__club a { display: inline-flex; align-items: center; gap: 4px; } .cl__club .crest { margin: 0; vertical-align: 0; }
+.h2h__filt { display: grid; gap: 8px; margin: 0 0 14px; } .h2h__chips .chip { padding: 6px 12px; font-size: .84rem; } .h2h__chips .chip:disabled { opacity: .45; cursor: default; } .h2h__cnt { font-variant-numeric: tabular-nums; opacity: .7; }
