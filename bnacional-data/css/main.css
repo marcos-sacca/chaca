@@ -44,9 +44,9 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .brand::before { content: ""; width: 12px; height: 26px; border-radius: 3px; background: linear-gradient(var(--sky) 0 33%, var(--blue) 33% 66%, var(--navy) 66%); } 
 .brand__t { display: flex; gap: 6px; font: 700 1.05rem/1 var(--display); font-stretch: 110%; letter-spacing: -.01em; } .brand__b { font-weight: 500; color: var(--blue); }
 .nav { display: flex; gap: 0; margin-left: auto; flex-wrap: nowrap; }
-.nav a { padding: 9px 8px; border-radius: 8px; color: var(--muted); text-decoration: none; font: 500 .88rem var(--body); position: relative; transition: color .15s, background .15s; white-space: nowrap; }
+.nav a { padding: 9px 6px; border-radius: 8px; color: var(--muted); text-decoration: none; font: 500 .86rem var(--body); position: relative; transition: color .15s, background .15s; white-space: nowrap; }
 .nav a:hover { color: var(--ink); background: var(--fog); } .nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
-.nav a::after { content: ""; position: absolute; left: 8px; right: 8px; bottom: 2px; height: 2px; border-radius: 2px; background: var(--blue); transform: scaleX(0); transform-origin: 0 50%; transition: transform .25s ease; } .nav a[aria-current="page"]::after { transform: scaleX(1); }
+.nav a::after { content: ""; position: absolute; left: 6px; right: 6px; bottom: 2px; height: 2px; border-radius: 2px; background: var(--blue); transform: scaleX(0); transform-origin: 0 50%; transition: transform .25s ease; } .nav a[aria-current="page"]::after { transform: scaleX(1); }
 .searchbtn, .menubtn { border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 10px; height: 40px; cursor: pointer; font: 500 .88rem var(--body); transition: background .15s; } .searchbtn { width: 40px; display: grid; place-items: center; } .searchbtn:hover, .menubtn:hover { background: var(--fog); }
 .menubtn { display: none; padding: 0 14px; margin-left: auto; }
 @media (max-width: 1200px) { .menubtn { display: block; } .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--paper); border-bottom: 1px solid var(--line); padding: 8px var(--gr) 14px var(--gl); flex-direction: column; margin: 0; } .nav.open { display: flex; } .nav a { padding: 13px 10px; } }
