@@ -1,15 +1,10 @@
 {
-  "_nota": "Clásicos verificados con fuentes públicas (ver data/fuentes/clasicos_fuentes.csv): slug, slug, nombre. Si el nombre quedó vacío, la fuente confirma el cruce pero no un nombre propio. Los clubes que no figuran acá muestran automáticamente el rival que más enfrentaron, marcado como 'más enfrentado'. Un club puede tener más de un clásico (por ejemplo los tres cruces de Salta).",
+  "_nota": "Clásicos verificados con fuentes públicas (ver data/fuentes/clasicos_fuentes.csv): slug, slug, nombre. Si el nombre quedó vacío, la fuente confirma el cruce pero no un nombre propio. Los clubes que no figuran acá muestran automáticamente el rival que más enfrentaron, marcado como 'más enfrentado'. Un club puede tener más de un clásico (por ejemplo los tres cruces de Salta). Solo se cargan cruces que se jugaron en la B Nacional / Primera Nacional (al menos un partido en la base).",
   "pares": [
     [
       "banfield",
       "lanus",
       "Clásico del Sur"
-    ],
-    [
-      "estudiantes-de-la-plata",
-      "gimnasia-y-esgrima-la-plata",
-      "Clásico platense"
     ],
     [
       "colon",
@@ -27,11 +22,6 @@
       "Clásico tucumano"
     ],
     [
-      "san-martin-de-san-juan",
-      "sportivo-desamparados-de-san-juan",
-      "Clásico sanjuanino"
-    ],
-    [
       "godoy-cruz-antonio-tomba",
       "independiente-rivadavia-de-mendoza",
       "Clásico mendocino"
@@ -45,11 +35,6 @@
       "central-cordoba-de-santiago-del-estero",
       "mitre-de-santiago-del-estero",
       "Clásico santiagueño"
-    ],
-    [
-      "crucero-del-norte",
-      "guarani-antonio-franco-de-posadas",
-      "Clásico misionero"
     ],
     [
       "deportivo-madryn",
@@ -92,19 +77,9 @@
       ""
     ],
     [
-      "argentinos-juniors",
-      "platense",
-      ""
-    ],
-    [
       "arsenal-fc",
       "el-porvenir",
       ""
-    ],
-    [
-      "deportivo-espanol",
-      "sportivo-italiano",
-      "Clásico de las colectividades"
     ],
     [
       "deportivo-riestra",
@@ -112,24 +87,9 @@
       "Clásico malevo"
     ],
     [
-      "ferrocarril-midland",
-      "ituzaingo",
-      ""
-    ],
-    [
       "los-andes",
       "temperley",
       "Clásico de Lomas"
-    ],
-    [
-      "defensores-unidos-de-zarate",
-      "villa-dalmine",
-      ""
-    ],
-    [
-      "argentino-de-rosario",
-      "tiro-federal-de-rosario",
-      ""
     ],
     [
       "chaco-for-ever",
@@ -142,14 +102,44 @@
       ""
     ],
     [
-      "central-norte-de-salta",
-      "juventud-antoniana-de-salta",
-      "Clásico salteño"
-    ],
-    [
       "gimnasia-y-tiro-de-salta",
       "central-norte-de-salta",
       "Clásico salteño"
+    ],
+    [
+      "belgrano-de-cordoba",
+      "instituto-de-cordoba",
+      ""
+    ],
+    [
+      "talleres-de-cordoba",
+      "instituto-de-cordoba",
+      ""
+    ],
+    [
+      "atletico-de-rafaela",
+      "ben-hur-de-rafaela",
+      ""
+    ],
+    [
+      "godoy-cruz-antonio-tomba",
+      "san-martin-de-san-juan",
+      "Clásico de Cuyo"
+    ],
+    [
+      "gimnasia-y-esgrima-de-mendoza",
+      "independiente-rivadavia-de-mendoza",
+      "Clásico mendocino"
+    ],
+    [
+      "banfield",
+      "los-andes",
+      ""
+    ],
+    [
+      "tigre",
+      "platense",
+      ""
     ]
   ]
 }
